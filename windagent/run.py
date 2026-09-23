@@ -168,7 +168,7 @@ def do_forecast() -> pd.DataFrame:
     result = backtest.run()
     models, curves = result['models'], result['curves']
     today = datetime.now(timezone.utc).date()
-    fresh = wx.tidy(wx.load(today.isoformat(), (today + timedelta(days=2)).isoformat(), refresh=True))
+    fresh = wx.ensemble(today.isoformat(), (today + timedelta(days=2)).isoformat(), live=True)
 
     parts = []
     for turbine in sorted(result['hourly'].turbine.unique()):

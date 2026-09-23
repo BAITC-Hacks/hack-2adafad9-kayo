@@ -48,7 +48,7 @@ def context(refresh: bool = False) -> dict:
     if _CONTEXT is not None and not refresh:
         return _CONTEXT
     hourly, table, curves = bt.prepare()
-    good = (table.power.notna() & table.curve.notna() & (~table.curtailed.fillna(False))
+    good = (table.power.notna() & table.curve.notna() & ~table.curtailed
             & table.lead_h.isin(bt.LEADS))
     train_all = table[(table.time <= bt.TRAIN_END) & good]
     calib_start = bt.TRAIN_END - pd.Timedelta(days=bt.CALIB_DAYS)
@@ -71,16 +71,15 @@ def collect(issue_time: pd.Timestamp, journal: list, live: bool = False) -> pd.D
     if live:
         today = dt.date.today()
         try:
-            frame = wx.fetch(today.isoformat(), (today + dt.timedelta(days=2)).isoformat())
+            tall = wx.ensemble(today.isoformat(), (today + dt.timedelta(days=2)).isoformat(), live=True)
             source = 'живой прогноз Open-Meteo'
         except Exception as err:  # сеть на площадке может лежать — не повод падать
             _note(journal, 'collect', 'degraded', f'живой прогноз недоступен ({err}), беру кеш', started)
-            frame = wx.load(*ARCHIVE)
+            tall = wx.ensemble(*ARCHIVE)
             source = 'кеш архива'
     else:
-        frame = wx.load(*ARCHIVE)
+        tall = wx.ensemble(*ARCHIVE)
 
-    tall = wx.tidy(frame)
     day1 = issue_time.normalize() + pd.Timedelta(days=1)
     day2 = issue_time.normalize() + pd.Timedelta(days=2)
     window = pd.concat([
@@ -131,7 +130,7 @@ def forecast(window: pd.DataFrame, journal: list, ctx: dict) -> pd.DataFrame:
         table['turbine'] = turbine
         for lead, rows in table.groupby('lead_h').groups.items():
             curve = ctx['curves'][(turbine, int(lead))]
-            table.loc[rows, 'curve'] = mdl.apply_curve(curve, table.loc[rows, 'ws_norm'])
+            table.loc[rows, 'curve'] = mdl.apply_curve(curve, table.loc[rows, mdl.CURVE_WIND])
         parts.append(table)
     table = pd.concat(parts, ignore_index=True)
     predicted = mdl.apply_bounds(mdl.predict(ctx['models'], table), ctx.get('offsets', {}))
@@ -153,7 +152,7 @@ def reflect(predicted: pd.DataFrame, issue_time: pd.Timestamp, journal: list, ct
     end = min(issue_time, table[table.power.notna()].time.max())
     recent = table[(table.lead_h == 24) & (table.time <= end)
                    & (table.time > end - pd.Timedelta(days=REFLECT_DAYS))
-                   & table.power.notna() & (~table.curtailed.fillna(False))]
+                   & table.power.notna() & ~table.curtailed]
     if recent.empty:
         _note(journal, 'reflect', 'skipped', 'нет свежего факта — прогноз идёт без поправки', started)
         return predicted
@@ -178,7 +177,7 @@ def verify(predicted: pd.DataFrame, issue_time: pd.Timestamp, journal: list, ctx
     end = min(issue_time, table[table.power.notna()].time.max())
     recent = table[(table.lead_h == 24) & (table.time <= end)
                    & (table.time > end - pd.Timedelta(days=VERIFY_DAYS))
-                   & table.power.notna() & (~table.curtailed.fillna(False))]
+                   & table.power.notna() & ~table.curtailed]
     if recent.empty:
         _note(journal, 'verify', 'skipped', 'нет факта для сверки — публикуем расчёт как есть', started)
         return predicted

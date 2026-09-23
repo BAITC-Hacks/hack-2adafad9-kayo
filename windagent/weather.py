@@ -30,6 +30,12 @@ BASE = ['wind_speed_100m', 'wind_direction_100m', 'wind_speed_10m', 'temperature
 HORIZONS = ('', '_previous_day1', '_previous_day2')
 HOURLY = [name + suffix for name in BASE for suffix in HORIZONS]
 
+# Члены ансамбля: три независимых глобальных модели. best_match (запрос без models) на горизонтах 24–48 ч
+# на 80 % совпадает с ICON, поэтому он остаётся базой, а ICON, GFS и ECMWF дают разброс. У ECMWF архив
+# начинается на три недели позже остальных — в эти часы его колонки пустые.
+MEMBERS = {'icon_seamless': 'icon', 'gfs_seamless': 'gfs', 'ecmwf_ifs025': 'ecmwf'}
+MEMBER_VARS = ['wind_speed_100m', 'temperature_2m', 'surface_pressure']
+
 CACHE = Path(__file__).resolve().parent.parent / 'data' / 'weather'
 
 
@@ -83,6 +89,19 @@ def tidy(frame: pd.DataFrame) -> pd.DataFrame:
     return tall.sort_values(['time', 'lead_h']).reset_index(drop=True)
 
 
+def ensemble(start: str, end: str, live: bool = False) -> pd.DataFrame:
+    """Длинная таблица базовой модели плюс колонки членов ансамбля: `wind_speed_100m_icon` и т. п.
+
+    live — тянуть свежий прогноз мимо кеша (для выпуска на ближайшие сутки)."""
+    source = fetch if live else load
+    tall = tidy(source(start, end))
+    for name, short in MEMBERS.items():
+        member = tidy(source(start, end, name))[['time', 'lead_h'] + MEMBER_VARS]
+        member = member.rename(columns={var: f'{var}_{short}' for var in MEMBER_VARS})
+        tall = tall.merge(member, on=['time', 'lead_h'], how='left')
+    return tall
+
+
 if __name__ == '__main__':
     import sys
 
@@ -90,7 +109,8 @@ if __name__ == '__main__':
     # весь нужный период: с начала архива Previous Runs до конца тестового февраля
     whole = load('2024-02-17', '2026-02-28')
     print(f'часов: {len(whole)}, период: {whole.time.min()} — {whole.time.max()}')
-    tall = tidy(whole)
+    tall = ensemble('2024-02-17', '2026-02-28')
     for lead, group in tall.groupby('lead_h'):
-        filled = group.wind_speed_100m.notna().sum()
-        print(f'  горизонт {lead:>2} ч: заполнено {filled} из {len(group)}')
+        filled = {'база': group.wind_speed_100m.notna().sum()}
+        filled.update({short: group[f'wind_speed_100m_{short}'].notna().sum() for short in MEMBERS.values()})
+        print(f'  горизонт {lead:>2} ч из {len(group)}: заполнено ' + ', '.join(f'{k} {v}' for k, v in filled.items()))

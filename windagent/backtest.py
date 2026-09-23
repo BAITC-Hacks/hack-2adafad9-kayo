@@ -69,10 +69,13 @@ def add_baselines(frame: pd.DataFrame, hourly: pd.DataFrame, train: pd.DataFrame
 
 def prepare(leads=LEADS):
     hourly = turbines.load()
-    weather = wx.tidy(wx.load('2024-02-17', '2026-02-28'))
+    weather = wx.ensemble('2024-02-17', '2026-02-28')
     parts = []
     for turbine, group in hourly.groupby('turbine'):
         joined = weather.merge(group[['time', 'power', 'curtailed', 'n_samples']], on='time', how='left')
+        # после merge колонка object (bool + NaN): pandas 3 её к bool не приводит, и `~` инвертирует биты.
+        # eq(True) даёт честный bool без FutureWarning про downcasting, которым шумит fillna на 2.x
+        joined['curtailed'] = joined.curtailed.eq(True)
         table = mdl.features(joined, turbine)
         table['turbine'] = turbine
         parts.append(table)
@@ -81,18 +84,18 @@ def prepare(leads=LEADS):
 
     # кривые снимаем только с обучающего периода и отдельно для каждого горизонта
     curves = {}
-    train_mask = (table.time <= TRAIN_END) & table.power.notna() & (~table.curtailed.fillna(False))
+    train_mask = (table.time <= TRAIN_END) & table.power.notna() & ~table.curtailed
     for (turbine, lead), group in table[train_mask].groupby(['turbine', 'lead_h']):
-        curves[(turbine, int(lead))] = mdl.power_curve(group)
+        curves[(turbine, int(lead))] = mdl.power_curve(group, mdl.CURVE_WIND)
     table['curve'] = [mdl.apply_curve(curves[(t, int(l))], pd.Series([w]))[0]
-                      for t, l, w in zip(table.turbine, table.lead_h, table.ws_norm)]
+                      for t, l, w in zip(table.turbine, table.lead_h, table[mdl.CURVE_WIND])]
     return hourly, table, curves
 
 
 def run(leads=LEADS) -> dict:
     started = time.time()
     hourly, table, curves = prepare(leads)
-    train_all = table[(table.time <= TRAIN_END) & table.power.notna() & (~table.curtailed.fillna(False))
+    train_all = table[(table.time <= TRAIN_END) & table.power.notna() & ~table.curtailed
                       & table.lead_h.isin(leads)]
     # последние 30 дней обучения отдаём под конформную калибровку коридора: если считать её на valid,
     # это утечка, а на самом train — оптимистичная оценка (модель эти часы уже видела)
@@ -110,7 +113,7 @@ def run(leads=LEADS) -> dict:
 
     rows = []
     for lead, group in valid.groupby('lead_h'):
-        for scope, subset in (('все часы', group), ('без простоев', group[~group.curtailed.fillna(False)])):
+        for scope, subset in (('все часы', group), ('без простоев', group[~group.curtailed])):
             for name, column in (('наше решение', 'p50'), ('кривая мощности', 'curve'),
                                  ('персистентность+климат', 'persistence_mix'),
                                  ('персистентность', 'persistence'), ('климатология', 'climatology')):
@@ -121,20 +124,22 @@ def run(leads=LEADS) -> dict:
 
     inside = valid[(valid.power >= valid.p10) & (valid.power <= valid.p90)].shape[0]
     coverage = inside / max(valid.power.notna().sum(), 1)
+    # покрытие само по себе ничего не значит: коридор от 0 до 1 покроет всё. Смотрим и ширину
+    width = float((valid.p90 - valid.p10).mean())
 
     test = table[table.time.between(*TEST) & table.lead_h.isin(leads)]
     forecast = mdl.apply_bounds(mdl.predict(models, test), offsets)
 
     return {'hourly': hourly, 'table': table, 'curves': curves, 'models': models, 'train': train,
             'calib': calib, 'offsets': offsets, 'valid': valid, 'scores': scores,
-            'coverage': coverage, 'forecast': forecast, 'seconds': time.time() - started}
+            'coverage': coverage, 'width': width, 'forecast': forecast, 'seconds': time.time() - started}
 
 
 def leakage_price(result: dict) -> pd.DataFrame:
     """Во что обошлась бы подмена честного архива прогнозов ноукастом (горизонт 0 ч)."""
     table = result['table']
     train = table[(table.time <= TRAIN_END) & table.power.notna()
-                  & (~table.curtailed.fillna(False)) & (table.lead_h == 0)]
+                  & ~table.curtailed & (table.lead_h == 0)]
     if train.empty:
         return pd.DataFrame()
     models = mdl.fit(train)
@@ -155,7 +160,7 @@ if __name__ == '__main__':
     table = result['scores'].pivot_table(index=['scope', 'model'], columns='lead_h',
                                          values=['nmae', 'skill']).round(3)
     print(table.to_string())
-    print(f'\nпокрытие коридора P10–P90: {result["coverage"]:.1%}')
+    print(f'\nпокрытие коридора P10–P90: {result["coverage"]:.1%}, средняя ширина {result["width"]:.3f}')
     print(f'прогноз на февраль: {len(result["forecast"])} строк')
     print(f'время прогона: {result["seconds"]:.1f} с')
     leak = leakage_price(result)
