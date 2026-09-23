@@ -3,7 +3,8 @@
 
 Февраля 2026 в данных нет, поэтому никакого «бэктеста февраля» не существует: февраль — это режим
 поставки. Себя проверяем на отложенном окне ноябрь 2025 — январь 2026: модель его не видела, зима —
-тот же режим, что и в феврале, а прогнозы погоды взяты те, что были известны за сутки и за двое.
+тот же режим, что и в феврале. Источник day2/day3 оставляет 24 часа на публикацию
+к выпуску в 23:00 UTC при допущении, что публикация укладывалась в этот срок.
 
 Здесь считается строка «модель без агента» — бустинг поверх кривой как есть. Поставляется не она,
 а агентный цикл с рефлексией и шлюзом качества (agent.py); его метрика на том же окне считается
@@ -28,8 +29,9 @@ import pandas as pd
 from . import data as turbines
 from . import model as mdl
 from . import weather as wx
+from . import asof
 
-TRAIN_END = pd.Timestamp('2025-10-31 23:00')
+TRAIN_END = pd.Timestamp('2025-10-30 22:00')
 CALIB_WINDOW = (pd.Timestamp('2024-11-01'), pd.Timestamp('2025-02-28 23:00'))  # тот же сезон год назад
 VALID = (pd.Timestamp('2025-11-01'), pd.Timestamp('2026-01-31 23:00'))
 TEST = (pd.Timestamp('2026-02-01'), pd.Timestamp('2026-02-28 23:00'))
@@ -46,9 +48,10 @@ def metrics(actual: pd.Series, predicted: pd.Series, reference: pd.Series | None
     rmse = float(np.sqrt(((a - p) ** 2).mean()))
     out = {'nmae': float((a - p).abs().mean()), 'nrmse': rmse, 'bias': float((p - a).mean()), 'n': int(len(a))}
     if reference is not None:
-        r = reference[ok]
-        mae_ref = float((a - r).abs().mean())
-        out['skill'] = float(1 - out['nmae'] / mae_ref) if mae_ref else 0.0
+        paired = ok & reference.notna()
+        mae_ref = float((actual[paired] - reference[paired]).abs().mean())
+        mae_ours = float((actual[paired] - predicted[paired]).abs().mean())
+        out['skill'] = float(1 - mae_ours / mae_ref) if mae_ref else 0.0
     return out
 
 
@@ -72,10 +75,18 @@ def add_baselines(frame: pd.DataFrame, hourly: pd.DataFrame, train: pd.DataFrame
 
     past = {name: group.set_index('time').power for name, group in hourly.groupby('turbine')}
     lag = []
-    for row_turbine, row_time, row_lead in zip(out.turbine, out.time, out.lead_h):
+    releases = out['issue_time'] if 'issue_time' in out else asof.issue_times(out)
+    references = []
+    for row_turbine, row_time, row_lead, release in zip(out.turbine, out.time, out.lead_h, releases):
         series = past.get(row_turbine)
-        lag.append(series.get(row_time - pd.Timedelta(hours=int(row_lead)), np.nan) if series is not None else np.nan)
+        reference_time = row_time - pd.Timedelta(hours=int(row_lead))
+        # Значение за час выпуска ещё не собрано: берём тот же закрытый час предыдущих суток.
+        if reference_time >= release:
+            reference_time -= pd.Timedelta(days=1)
+        references.append(reference_time)
+        lag.append(series.get(reference_time, np.nan) if series is not None else np.nan)
     out['persistence'] = lag
+    out['persistence_time'] = references
     # смесь персистентности с климатологией: на сутки вперёд она заметно сильнее сырого лага
     out['persistence_mix'] = 0.35 * out.persistence.fillna(out.climatology) + 0.65 * out.climatology
     return out.drop(columns=['month_', 'hour_'])
@@ -83,7 +94,7 @@ def add_baselines(frame: pd.DataFrame, hourly: pd.DataFrame, train: pd.DataFrame
 
 def prepare(leads=LEADS):
     hourly = turbines.load()
-    weather = wx.ensemble('2024-02-17', '2026-02-28')
+    weather = asof.daily_ensemble('2024-02-17', '2026-02-28', diagnostic=True)
     parts = []
     for turbine, group in hourly.groupby('turbine'):
         joined = weather.merge(group[['time', 'power', 'curtailed', 'n_samples']], on='time', how='left')
@@ -96,9 +107,9 @@ def prepare(leads=LEADS):
     table = pd.concat(parts, ignore_index=True)
     table = table[table.lead_h.isin(list(leads) + [0])].reset_index(drop=True)
 
-    # кривые снимаем только с чистых часов обучающего периода и отдельно для каждого горизонта
+    # Калибровочные цели не участвуют даже в общей физической кривой квантильных моделей.
     curves = {}
-    clean = turbines.clean_for_training(table[table.time <= TRAIN_END])
+    clean = turbines.clean_for_training(table[(table.time <= TRAIN_END) & ~table.time.between(*CALIB_WINDOW)])
     for (turbine, lead), group in clean.groupby(['turbine', 'lead_h']):
         curves[(turbine, int(lead))] = mdl.power_curve(group, mdl.CURVE_WIND)
     table['curve'] = [mdl.apply_curve(curves[(t, int(l))], pd.Series([w]))[0]
@@ -114,11 +125,7 @@ def train_models(table: pd.DataFrame, leads=LEADS) -> dict:
     калибровке не участвует, поэтому учится на всём ряду целиком."""
     train_all = turbines.clean_for_training(
         table[(table.time <= TRAIN_END) & table.curve.notna() & table.lead_h.isin(leads)])
-    # Калибруем на прошлой зиме — правило «тот же сезон год назад», а не подбор окна под valid.
-    # Для справки покрытие на ноябре-январе при соседних окнах (checks/calib_windows.py, честные
-    # признаки): октябрь 2025 — 75,6 %, ноябрь–январь 2024/25 — 76,9 %, декабрь–февраль — 79,1 % при
-    # более широком коридоре (0,464); выбранное ноябрь–февраль — 77,8 % при ширине 0,445. До цели
-    # 80 % не дотягивает ни одно: после смены режима погоды в октябре 2025 разброс вырос
+    # Прошлая зима: окно сохранено при смене протокола погоды без нового подбора по valid.
     in_calib = train_all.time.between(*CALIB_WINDOW)
     train = train_all[~in_calib]
     calib = train_all[in_calib]

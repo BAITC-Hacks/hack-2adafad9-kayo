@@ -1,0 +1,21 @@
+.wind-print-report { display: none; }
+@media print {
+  @page { size: A4; margin: 14mm; }
+  body.printing-wind-report { background: white !important; color: #222 !important; }
+  body.printing-wind-report > :not(#wind-print-report) { display: none !important; }
+  #wind-print-report { display: block; font: 10pt/1.45 Arial, sans-serif; }
+  #wind-print-report h1 { font-size: 25pt; margin: 4mm 0; }
+  #wind-print-report h2 { font-size: 15pt; margin: 7mm 0 3mm; break-after: avoid; }
+  #wind-print-report p { margin: 3mm 0; }
+  #wind-print-report .report-eyebrow { font-size: 9pt; letter-spacing: 1pt; color: #23684c; }
+  #wind-print-report .report-note { font-size: 8pt; color: #555; }
+  #wind-print-report .report-kpis { display: flex; gap: 10mm; padding: 5mm 0; }
+  #wind-print-report .report-kpis strong { display: block; font-size: 25pt; }
+  #wind-print-report .report-kpis span { font-size: 9pt; }
+  #wind-print-report svg { width: 100%; height: auto; break-inside: avoid; }
+  #wind-print-report table { width: 100%; border-collapse: collapse; font-size: 8pt; table-layout: auto; color: #222; background: white; }
+  #wind-print-report th, #wind-print-report td { padding: 2mm 1.5mm; border-bottom: 0.2mm solid #ddd; text-align: left; overflow-wrap: anywhere; }
+  #wind-print-report th { font-weight: bold; background: #f2f4f2; }
+  #wind-print-report tr { break-inside: avoid; }
+  #wind-print-report thead { display: table-header-group; }
+}

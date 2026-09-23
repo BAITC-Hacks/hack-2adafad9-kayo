@@ -24,7 +24,7 @@ ctx = agent.context()
 table = ctx['table']
 
 print('1. признаки поставки против таблицы обучения')
-issue = pd.Timestamp('2026-01-20')
+issue = pd.Timestamp('2026-01-20 23:00')
 journal = []
 window = agent.prepare(agent.collect(issue, journal, ctx), journal, issue)
 for turbine in ctx['turbines']:
@@ -33,6 +33,7 @@ for turbine in ctx['turbines']:
     both = served.merge(trained, on=['time', 'lead_h'], suffixes=('_agent', '_train'))
     worst = max(np.abs(both[f'{c}_agent'] - both[f'{c}_train']).max() for c in mdl.FEATURE_COLUMNS
                 if c not in ('curve', 'turbine_id', 'lead_h'))
+    assert len(both) == 48 and worst < 1e-10
     print(f'   {turbine}: {len(both)} строк, наибольшее расхождение по признакам {worst:.2e}')
 
 print('\n2. решение о пересчёте')
@@ -55,13 +56,19 @@ cases = (
 for label, previous, current in cases:
     needed, reason = agent.decide_rerun(previous, current)
     print(f'   {label:<40} -> {"пересчёт" if needed else "оставить"}: {reason}')
+assert [agent.decide_rerun(previous, current)[0] for _, previous, current in cases] == [True, True, False, False, True]
 
 print('\n3. выпуск за пределами архива')
-predicted, journal, _ = agent.run_cycle(pd.Timestamp('2026-03-05'), ctx=ctx, with_explain=False)
+predicted, journal, _ = agent.run_cycle(pd.Timestamp('2026-03-05 23:00'), ctx=ctx, with_explain=False)
+assert predicted is None and journal[-1]['status'] == 'error'
 print(f'   прогноз: {predicted}; журнал: {journal[-1]["step"]} {journal[-1]["status"]} — {journal[-1]["text"]}')
 
 print('\n4. перенос поправки без свежего факта (26.02.2026, факт кончается 31.01)')
-predicted, journal, _ = agent.run_cycle(pd.Timestamp('2026-02-26'), ctx=ctx, with_explain=False)
+predicted, journal, _ = agent.run_cycle(pd.Timestamp('2026-02-26 23:00'), ctx=ctx, with_explain=False)
+assert predicted is not None
+assert predicted.effective_lead_h.between(1, 48).all()
+assert pd.api.types.is_datetime64_any_dtype(predicted.weather_reference_time)
+assert pd.api.types.is_integer_dtype(predicted.weather_lead_h)
 for entry in journal:
     if entry['step'] in ('reflect', 'verify'):
         print(f'   {entry["step"]} {entry["status"]}: {entry["text"]}')

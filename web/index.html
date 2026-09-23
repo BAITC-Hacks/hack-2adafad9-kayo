@@ -6,6 +6,8 @@
 <meta name="color-scheme" content="light">
 <link rel="icon" href="data:,">
 <link rel="stylesheet" href="forecast3d.css">
+<link rel="stylesheet" href="report-export.css">
+<script src="report-export.js" defer></script>
 <title>Прогноз выработки ВЭС</title>
 <style>
   :root {
@@ -30,6 +32,8 @@
 
   * { box-sizing: border-box; }
   html { background: var(--page); }
+  html { scroll-behavior: smooth; }
+  @media(prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } }
   body {
     margin: 0;
     background: var(--page);
@@ -246,6 +250,49 @@
   .empty { padding: 32px 0; color: var(--text-2); max-width: 640px; }
   .empty code { background: var(--line-soft); padding: 1px 6px; border-radius: var(--r-s); color: var(--text); }
 
+  :focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
+  section[id] { scroll-margin-top: 24px; }
+  .report-intro { display: flex; justify-content: space-between; gap: 24px; align-items: end; padding: 40px 8px 16px; }
+  .report-intro h2 { margin: 0 0 10px; font-size: var(--fs-l); line-height: 1.2; letter-spacing: -.025em; }
+  .report-intro p { margin: 0; max-width: 640px; color: var(--text-2); }
+  .report-nav { display: flex; flex-wrap: wrap; gap: 6px; padding: 0 8px 18px; }
+  .report-nav a { color: var(--text-2); text-decoration: none; padding: 8px 14px; font-size: var(--fs-s); border-radius: var(--r-s); }
+  .report-nav a:hover, .report-nav a:focus-visible { background: #e7eeea; color: var(--accent); }
+  .report-intro .kicker { margin-bottom: 10px; color: var(--accent); }
+  .quality, .section { box-shadow: none; }
+  .quality-head h2 { font-size: var(--fs-l); font-weight: 600; letter-spacing: -.025em; }
+  .section-head h2 { font-weight: 600; }
+  .section-index { display: block; font-size: var(--fs-s); color: var(--text-3); margin-bottom: 8px; }
+  .section-head p { line-height: 1.6; }
+  .seg { border: 0; background: #f0f3f1; padding: 3px; gap: 2px; }
+  .seg button { border: 0; border-radius: var(--r-s); padding: 7px 12px; min-height: 34px; }
+  .seg button[aria-pressed="true"] { background: #fff; color: var(--accent); box-shadow: 0 1px 4px rgba(20,50,35,.08); }
+  .issue-nav button, .issue-nav select { border: 0; background: #f0f3f1; min-height: 38px; }
+  .issue-nav button { width: 38px; }
+  .filter { display: flex; flex-direction: column; gap: 6px; }
+  .filter-label { font-size: var(--fs-s); color: var(--text-3); }
+  .toolbar { gap: 16px 24px; align-items: end; }
+  #chart-block { grid-template-columns: minmax(0, 1fr); gap: 24px; }
+  #chart-block .section-head { display: flex; align-items: start; gap: 36px; justify-content: space-between; }
+  #chart-block .section-head p { max-width: 580px; }
+  .chart-context { padding: 0; background: none; border: 0; margin-bottom: 20px; }
+  .tip { border: 0; box-shadow: 0 4px 24px rgba(24,35,50,.14); }
+  .quote { padding: 4px 0 4px 20px; color: var(--text-2); line-height: 1.7; }
+  .node .hint { line-height: 1.6; }
+  .bar .fill { height: 12px; }
+  .bars { gap: 18px; }
+  #log-block .section-head p { max-width: 520px; }
+  .report-footer { padding: 24px 8px 0; font-size: var(--fs-s); color: var(--text-3); display: flex; justify-content: space-between; gap: 16px; }
+  .report-footer a { color: var(--accent); text-decoration: none; }
+  .export-toolbar { display:flex; flex-wrap:wrap; gap:8px; align-items:center; padding:0 8px 20px; }
+  .export-toolbar button,.export-toolbar select { border:0; border-radius:var(--r-s); background:#fff; color:var(--accent); font:inherit; font-size:var(--fs-s); padding:10px 14px; cursor:pointer; min-height:42px; }
+  .export-toolbar select { color:var(--text-2); }
+  .export-issue { font-size:var(--fs-s); color:var(--text-3); margin-left:auto; }
+  .effect-values { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:24px; }
+  .effect-value strong { display:block; font-size:var(--fs-l); letter-spacing:-.025em; color:var(--accent); line-height:1.2; margin-bottom:8px; }
+  .effect-value span { font-size:var(--fs-s); color:var(--text-2); }
+  .effect-value .effect-label { display:block; margin-bottom:12px; font-weight:600; color:var(--text); }
+
   @media (max-width: 960px) {
     .section { grid-template-columns: minmax(0, 1fr); gap: 16px; }
     .section-head { position: static; }
@@ -261,10 +308,11 @@
     .scene-hero { width: calc(100vw - 16px); margin-left: calc(50% - 50vw + 8px); }
     #spatial-block .forecast3d-stage { height: calc(100svh - 16px); min-height: 620px; }
     .quality { padding: 24px 22px; }
-    .kpis { grid-template-columns: repeat(3, 1fr); gap: 20px 12px; margin-top: 24px; }
-    .kpi.main { grid-column: 1 / -1; }
+    .kpis { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px 20px; margin-top: 24px; }
+    .kpi.main { grid-column: auto; }
+    .kpi.main .v { font-size: var(--fs-l); }
     .kpi + .kpi { border-left: 0; padding-left: 0; }
-    .kpi:nth-child(3), .kpi:nth-child(4) { border-left: 1px solid var(--line); padding-left: 12px; }
+    .kpi:nth-child(3), .kpi:nth-child(4) { border-left: 0; padding-left: 0; }
     .section { padding: 26px 20px 30px; }
     .bar { grid-template-columns: minmax(0, 1fr) 58px; gap: 4px 12px; }
     .bar .name { grid-column: 1 / -1; }
@@ -274,6 +322,34 @@
     .legend .tz { margin-left: 0; }
     .section.wide .section-head { display: block; }
     .section.wide .issue-nav { margin-top: 12px; }
+    .report-intro { padding: 30px 8px 14px; display: block; }
+    .report-intro p { font-size: var(--fs-s); }
+    .report-nav { gap: 2px; padding-bottom: 8px; }
+    .report-nav a { padding: 7px 10px; }
+    .quality-head h2 { font-size: var(--fs-l); }
+    .quality { padding: 24px 20px; }
+    .kpi .k, .kpi .n { font-size: var(--fs-s); }
+    #chart-block .section-head { display: block; }
+    #chart-block .section-head p { margin-top: 12px; }
+    .toolbar { gap: 14px; }
+    .filter-label { font-size: var(--fs-s); }
+    .report-footer { flex-direction: column; }
+    .effect-values { grid-template-columns:1fr; gap:20px; }
+    .effect-value { display:block; }
+    .effect-value strong { margin-bottom:8px; }
+    .export-issue { margin:0; width:100%; }
+    .cycle { grid-template-columns: repeat(2, minmax(0, 1fr)); padding: 0; gap: 24px 18px; }
+    .cycle::before, .node + .node::after { display: none; }
+    .node .dot { top: 5px; left: 0; }
+    .node .num { padding-left: 18px; }
+    .node .line { display: none; }
+    .node .hint { line-height: 1.45; }
+    details.issue summary { grid-template-columns: 1fr auto; gap: 4px 8px; padding: 12px 0; }
+    .issue .d { grid-column: 1; grid-row: 1; }
+    .issue .f { grid-column: 2; grid-row: 1; }
+    .issue .m { grid-column: 1 / -1; grid-row: 2; }
+    .issue .h { grid-column: 1 / -1; }
+    .issue:not([open]) .h { display: none; }
   }
 </style>
 </head>
@@ -292,6 +368,29 @@
       <div id="forecast-3d"></div>
     </section>
 
+    <header class="report-intro">
+      <div>
+        <p class="kicker">HackAlem · Ветроэнергетика</p>
+        <h2>Сколько энергии ждать — и насколько надёжен прогноз</h2>
+        <p>Почасовой план для двух турбин, диапазон риска и проверенная точность. Решения агента и история расчётов — ниже.</p>
+      </div>
+    </header>
+    <nav class="report-nav" aria-label="Разделы отчёта">
+      <a href="#quality-block">Точность</a>
+      <a href="#chart-block">Прогноз по часам</a>
+      <a href="#econ-block">Эффект</a>
+      <a href="#cycle-block">Как работает агент</a>
+      <a href="#metrics-block">Сравнение</a>
+      <a href="#log-block">Журнал</a>
+    </nav>
+    <div class="export-toolbar" aria-label="Экспорт отчёта">
+      <label class="sr-only" for="exportScope">Период отчёта</label>
+      <select id="exportScope"><option value="issue">Выбранный выпуск</option><option value="all">Весь период</option></select>
+      <button type="button" id="exportExcel">Скачать Excel</button>
+      <button type="button" id="exportPdf">Сохранить PDF</button>
+      <span class="export-issue" id="exportIssueLabel"></span>
+    </div>
+
     <section class="quality" id="quality-block" hidden>
       <div class="quality-head">
         <h2>Насколько точен прогноз</h2>
@@ -300,37 +399,17 @@
       <div class="kpis" id="kpis"></div>
     </section>
 
-    <section class="section wide" id="cycle-block" hidden>
-      <div class="section-head">
-        <div>
-          <h2>Цикл агента</h2>
-          <p>Как из прогноза погоды получается прогноз выработки. Показан выбранный выпуск; подробные записи есть в журнале ниже.</p>
-        </div>
-        <div class="issue-nav" id="issue-nav">
-          <button type="button" id="issue-prev" aria-label="предыдущий выпуск">‹</button>
-          <select id="issue-select" aria-label="выпуск"></select>
-          <button type="button" id="issue-next" aria-label="следующий выпуск">›</button>
-        </div>
-      </div>
-      <div>
-        <div class="cycle" id="cycle"></div>
-        <p class="cycle-note" id="cycle-note"></p>
-        <blockquote class="quote" id="quote" hidden><p id="quote-text"></p><footer id="quote-foot"></footer></blockquote>
-        <p class="quote-none" id="quote-none" hidden>В этом выпуске объяснение не писалось.</p>
-      </div>
-    </section>
-
     <section class="section" id="chart-block" hidden>
       <div class="section-head">
-        <h2>Почасовой прогноз</h2>
-        <p>Синяя линия — ожидаемая выработка; светлая область — диапазон возможных значений. Шкала от 0 до 1 доли номинальной мощности.</p>
+        <div><span class="section-index">Прогноз и неопределённость</span><h2>Выработка по часам</h2></div>
+        <p>Зелёная линия — основной прогноз. Светлая область — диапазон P10–P90: чем он шире, тем выше неопределённость. Значение 1 соответствует номинальной мощности турбины.</p>
       </div>
       <div>
         <div class="chart-context" id="chart-context"></div>
         <div class="toolbar">
-          <div class="seg" id="turbines" role="group" aria-label="турбина"></div>
-          <div class="seg" id="leads" role="group" aria-label="горизонт"></div>
-          <div class="seg" id="ranges" role="group" aria-label="период"></div>
+          <div class="filter"><span class="filter-label">Турбина</span><div class="seg" id="turbines" role="group" aria-label="турбина"></div></div>
+          <div class="filter"><span class="filter-label">Горизонт прогноза</span><div class="seg" id="leads" role="group" aria-label="горизонт"></div></div>
+          <div class="filter"><span class="filter-label">Период на графике</span><div class="seg" id="ranges" role="group" aria-label="период"></div></div>
         </div>
         <div class="chart">
           <svg id="chart" viewBox="0 0 960 400" role="img" aria-label="График прогноза выработки"></svg>
@@ -348,9 +427,40 @@
       </div>
     </section>
 
+    <section class="section econ" id="econ-block" hidden>
+      <div class="section-head">
+        <h2>Эффект для планирования</h2>
+        <p>Сравнение с прогнозом «как вчера», который получает факт каждый день.</p>
+      </div>
+      <div>
+        <div class="effect-values" id="econ-text"></div>
+        <p class="assume" id="econ-note"></p>
+      </div>
+    </section>
+    <section class="section wide" id="cycle-block" hidden>
+      <div class="section-head">
+        <div>
+          <span class="section-index">Как принимается решение</span>
+          <h2>Цикл агента</h2>
+          <p>Как из прогноза погоды получается прогноз выработки. Показан выбранный выпуск; подробные записи есть в журнале ниже.</p>
+        </div>
+        <div class="issue-nav" id="issue-nav">
+          <button type="button" id="issue-prev" aria-label="предыдущий выпуск">‹</button>
+          <select id="issue-select" aria-label="выпуск"></select>
+          <button type="button" id="issue-next" aria-label="следующий выпуск">›</button>
+        </div>
+      </div>
+      <div>
+        <div class="cycle" id="cycle"></div>
+        <p class="cycle-note" id="cycle-note"></p>
+        <blockquote class="quote" id="quote" hidden><p id="quote-text"></p><footer id="quote-foot"></footer></blockquote>
+        <p class="quote-none" id="quote-none" hidden>В этом выпуске объяснение не писалось.</p>
+      </div>
+    </section>
+
     <section class="section" id="metrics-block" hidden>
       <div class="section-head">
-        <h2>Сравнение моделей</h2>
+        <span class="section-index">Проверка результата</span><h2>Сравнение моделей</h2>
         <p>Полоса показывает среднюю ошибку: короче — точнее. Персистентность — прогноз «как вчера»; климатология — среднее для месяца и часа.</p>
       </div>
       <div>
@@ -367,7 +477,7 @@
 
     <section class="section" id="log-block">
       <div class="section-head">
-        <h2>Журнал агента</h2>
+        <span class="section-index">История решений</span><h2>Журнал агента</h2>
         <p>Каждый выпуск — от свежих к старым. Откаты и оговорки помечены, шаги раскрываются.</p>
       </div>
       <div>
@@ -376,20 +486,12 @@
       </div>
     </section>
 
-    <section class="section econ" id="econ-block" hidden>
-      <div class="section-head">
-        <h2>Что это даёт</h2>
-        <p>Оценка порядка величин на допущениях.</p>
-      </div>
-      <div>
-        <p id="econ-text"></p>
-        <p class="assume" id="econ-note"></p>
-      </div>
-    </section>
+    <footer class="report-footer"><span>Время на странице — местное, UTC+5. Мощность — доля номинала.</span><a href="#spatial-block">Вернуться к сцене ↑</a></footer>
   </main>
 </div>
 
 <script src="data.js" onerror="void 0"></script>
+<script src="yandex-map.js" onerror="void 0"></script>
 <script src="forecast3d.js" onerror="void 0"></script>
 <script>
 (function () {
@@ -496,6 +598,7 @@
   function buildGroup(host, values, labels, current, onPick) {
     host.textContent = '';
     host.hidden = values.length < 2;   // переключатель из одной кнопки ничего не переключает
+    if (host.parentNode.classList.contains('filter')) host.parentNode.hidden = host.hidden;
     values.forEach(function (value) {
       var button = h('button', null, labels(value));
       button.type = 'button';
@@ -641,6 +744,7 @@
     renderIssueNav(issues);
 
     var issue = issues[state.issue];
+    document.getElementById('exportIssueLabel').textContent='Для экспорта: '+issue.label+' · обе турбины';
     var used = {};
     var nodes = CYCLE.map(function (spec) {
       spec.steps.forEach(function (s) { used[s] = 1; });
@@ -1120,41 +1224,25 @@
   // ---- экономика
 
   function renderEcon() {
-    var e = state.data.economics;
     var block = document.getElementById('econ-block');
-    if (!e || (!valid(e.monthly_loss) && !valid(e.baseline_loss))) { block.hidden = true; return; }
-    block.hidden = false;
-
-    var cur = e.currency || '';
-    var money = function (v) { return h('b', null, nf.format(Math.round(v)) + (cur ? ' ' + cur : '')); };
-    var text = document.getElementById('econ-text');
-    text.textContent = '';
-    text.appendChild(document.createTextNode('Если считать каждый МВт·ч ошибки по штрафу за небаланс, месяц прогноза обошёлся бы в '));
-    if (valid(e.monthly_loss)) {
-      text.appendChild(money(e.monthly_loss));
-      if (valid(e.baseline_loss)) {
-        text.appendChild(document.createTextNode(' против '));
-        text.appendChild(money(e.baseline_loss));
-        text.appendChild(document.createTextNode(' при прогнозе «как вчера»'));
-        var saved = e.baseline_loss - e.monthly_loss;
-        var share = e.baseline_loss ? Math.round(saved / e.baseline_loss * 100) : 0;
-        text.appendChild(document.createTextNode(' — на ' + share + ' % меньше, '));
-        text.appendChild(money(saved));
-        text.appendChild(document.createTextNode(' за месяц.'));
-      } else {
-        text.appendChild(document.createTextNode('.'));
-      }
-    } else {
-      text.appendChild(money(e.baseline_loss));
-      text.appendChild(document.createTextNode(' при прогнозе «как вчера».'));
-    }
-
-    var assume = [];
-    if (valid(e.penalty_per_mwh)) assume.push('штраф ' + nf.format(e.penalty_per_mwh) + (cur ? ' ' + cur : '') + ' за МВт·ч небаланса');
-    if (valid(e.capacity_mw)) assume.push('мощность турбины ' + String(e.capacity_mw).replace('.', ',') + ' МВт');
-    document.getElementById('econ-note').textContent = 'Допущение для оценки порядка величин, не тарифы станции' +
-      (assume.length ? ': ' + assume.join(', ') : '') + '.';
+    var rows = state.data.metrics || [];
+    var host = document.getElementById('econ-text'); host.textContent = '';
+    function figure(label,value,caption) { var cell=h('div','effect-value');cell.appendChild(h('span','effect-label',label));cell.appendChild(h('strong',null,value));cell.appendChild(h('span',null,caption));host.appendChild(cell); }
+    [24,48].forEach(function(lead){var ours=findMetric(rows,OURS_KEY,lead),baseline=findMetric(rows,BASELINE_KEY,lead);
+      if(ours && baseline && valid(ours.nmae) && valid(baseline.nmae) && baseline.nmae>0){var improvement=(1-ours.nmae/baseline.nmae)*100;
+        figure('Снижение ошибки · '+lead+' ч',fmtNum(Math.abs(improvement),0)+' %',improvement>=0?'меньше средняя ошибка относительно базы':'больше средняя ошибка относительно базы');}
+    });
+    if(valid(state.data.coverage)) figure('Покрытие диапазона',fmtNum(state.data.coverage*100,0)+' %','часов с фактом внутри P10–P90');
+    block.hidden=!host.children.length;
+    document.getElementById('econ-note').textContent='База сравнения — прогноз «как вчера» с ежедневным фактом. Агент проверяется при обрыве факта в начале месяца: это более строгие условия для нашего решения.';
   }
+
+  window.getWindReportState = function () {
+    var issues=state.issues.filter(function(issue){return issue.grouped;});
+    var selected=issues[state.issue];
+    var releases=uniq((state.data && state.data.forecast || []).map(function(row){return row.issue_time;})).sort();
+    return {payload:state.data,issueTime:selected?selected.key:(releases.length?releases[releases.length-1]:null),lead:null,turbine:null};
+  };
 
   // ---- сборка
 
@@ -1175,6 +1263,10 @@
     renderMetrics();
     renderLog();
     renderEcon();
+    document.querySelectorAll('.report-nav a, .report-footer a').forEach(function (link) {
+      var target = document.querySelector(link.getAttribute('href'));
+      link.hidden = !target || target.hidden;
+    });
   }).catch(function (error) {
     console.error(error);
     document.getElementById('empty').hidden = false;

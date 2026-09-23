@@ -11,10 +11,8 @@ d+2 (48 ч). Смещение считаем строго по факту до �
 Первые дни валидации пропускаем, чтобы окно смещения не залезало в обучающий период — там ошибка
 модели занижена, и оценка вышла бы оптимистичной.
 
-Итог на честных признаках (окна внутри блока выпуска, база ICON): без поправки 0,1754/0,1920,
-окно 14 сут ×1 со шлюзом 0,1633/0,1802, ×0,5 — 0,1659/0,1829. Смещение системное (−0,08 при
-стандартной ошибке ~0,012), поэтому в agent.reflect стоит полный сдвиг; шлюз открыт в 93 %
-выпусков. Та же пара вариантов прокручена полным циклом в agent.validate — цифры в его докстринге.
+Это исследовательское сравнение, не автоматический подбор настроек по valid.
+После перехода на day2/day3 старые числа не применяются; скрипт считает новый протокол.
 """
 import sys
 from pathlib import Path
@@ -25,7 +23,7 @@ import pandas as pd
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 sys.stdout.reconfigure(encoding='utf-8', errors='replace')
 
-from windagent import backtest as bt, model as mdl
+from windagent import backtest as bt, model as mdl, asof
 
 WINDOWS = (3, 7, 14)
 SHRINKS = (1.0, 0.5)
@@ -45,7 +43,7 @@ seen = valid[(valid.lead_h == 24) & valid.power.notna() & ~valid.curtailed]
 by_day = valid.assign(day=valid.time.dt.normalize())
 
 first_issue = bt.VALID[0] + pd.Timedelta(days=max(WINDOWS))
-issues = pd.date_range(first_issue, bt.VALID[1].normalize() - pd.Timedelta(days=1), freq='D')
+issues = pd.date_range(first_issue, bt.VALID[1].normalize() - pd.Timedelta(days=1), freq='D') + pd.Timedelta(hours=asof.ISSUE_HOUR_UTC)
 
 
 def bias_before(issue: pd.Timestamp, window: int) -> pd.DataFrame:
@@ -63,8 +61,8 @@ def bias_before(issue: pd.Timestamp, window: int) -> pd.DataFrame:
 trials = []
 for issue in issues:
     targets = pd.concat([
-        by_day[(by_day.lead_h == 24) & (by_day.day == issue + pd.Timedelta(days=1))],
-        by_day[(by_day.lead_h == 48) & (by_day.day == issue + pd.Timedelta(days=2))],
+        by_day[(by_day.lead_h == 24) & (by_day.day == issue.normalize() + pd.Timedelta(days=1))],
+        by_day[(by_day.lead_h == 48) & (by_day.day == issue.normalize() + pd.Timedelta(days=2))],
     ])
     for window in WINDOWS:
         stats = bias_before(issue, window)

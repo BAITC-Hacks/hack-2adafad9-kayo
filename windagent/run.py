@@ -18,6 +18,7 @@ from pathlib import Path
 import pandas as pd
 
 from . import agent
+from . import asof
 from . import backtest
 from . import data as turbines
 
@@ -60,7 +61,8 @@ def write_forecast_csv(forecast: pd.DataFrame) -> list[Path]:
     local = forecast.time + pd.Timedelta(hours=turbines.OFFSET_AFTER)
     for turbine, group in forecast.assign(time_local=local).groupby('turbine'):
         path = out / f'forecast_{turbine}.csv'
-        (group[['issue_time', 'time', 'time_local', 'lead_h', 'p10', 'p50', 'p90']]
+        (group[['issue_time', 'time', 'time_local', 'lead_h', 'p10', 'p50', 'p90',
+                'effective_lead_h', 'weather_lead_h', 'weather_reference_time']]
          .sort_values(['lead_h', 'time']).round(4)
          .to_csv(path, index=False, date_format='%Y-%m-%d %H:%M'))
         written.append(path)
@@ -89,6 +91,9 @@ def export_json(result: dict) -> Path:
     payload_forecast = [
         {'time': r.time.strftime('%Y-%m-%dT%H:%M'), 'turbine': r.turbine, 'lead_h': int(r.lead_h),
          'issue_time': r.issue_time.strftime('%Y-%m-%dT%H:%M'),
+         'effective_lead_h': int(r.effective_lead_h), 'weather_lead_h': int(r.weather_lead_h),
+         'weather_reference_time': r.weather_reference_time.strftime('%Y-%m-%dT%H:%M'),
+         'weather_source': r.weather_source,
          'p10': round(float(r.p10), 4), 'p50': round(float(r.p50), 4), 'p90': round(float(r.p90), 4),
          'actual': None if pd.isna(r.actual) else round(float(r.actual), 4),
          'curve': round(float(r.curve), 4),
@@ -106,6 +111,16 @@ def export_json(result: dict) -> Path:
     payload = {
         'generated_at': datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'),
         'site': SITE,
+        'forecast_protocol': {
+            'timezone': 'UTC', 'issue_hour_utc': asof.ISSUE_HOUR_UTC,
+            'effective_lead_hours': [1, 48], 'lead_h_meaning': 'корзины 1–24 и 25–48 часов',
+            'weather_sources': {'24': 'previous_day2', '48': 'previous_day3'},
+            'publication_buffer_hours': asof.PUBLICATION_BUFFER_HOURS,
+            'availability_assumption': 'ДОПУЩЕНИЕ: задержка публикации прогноза не превышала 24 часа.',
+            'reference_time_meaning': 'Номинальное valid time минус fixed lead; не точный init одного запуска.',
+            'training_end_utc': str(backtest.TRAIN_END),
+            'calibration_targets_excluded_from_curve': True,
+        },
         'period': {'start': forecast.time.min().strftime('%Y-%m-%dT%H:%M'),
                    'end': forecast.time.max().strftime('%Y-%m-%dT%H:%M')},
         'validation_period': {'start': result['valid'].time.min().strftime('%Y-%m-%dT%H:%M'),

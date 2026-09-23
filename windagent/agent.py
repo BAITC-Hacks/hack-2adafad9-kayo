@@ -6,8 +6,9 @@
 рефлексия сдвигает медиану на недавнее смещение, если оно отличимо от шума, а шлюз качества
 откатывает решение на физическую кривую мощности, когда оно проигрывает персистентности.
 
-Выпуск дня d отдаёт сутки d+1 с горизонта 24 ч и сутки d+2 с горизонта 48 ч — ровно то, что было
-известно накануне. Факт кончается 31.01.2026, и февраль идёт на поправке, снятой с последних двух
+Выпуск в 23:00 UTC дня d отдаёт следующие 1–48 часов. Архив day2/day3 оставляет минимум
+24 часа на публикацию погоды; доступность предполагает задержку не больше этого запаса.
+Факт кончается 31.01.2026, и февраль идёт на поправке, снятой с последних двух
 недель января. Валидация на ноябре-январе повторяет этот режим: в каждом месяце факт обрывается в
 его начале, — поэтому метрика «наше решение» измеряет именно то, что поставляется. Тот же цикл при
 ежедневном факте, как в эксплуатации, стоит отдельной строкой.
@@ -26,6 +27,7 @@ from . import backtest as bt
 from . import llm
 from . import model as mdl
 from . import weather as wx
+from . import asof
 
 REFLECT_DAYS = 14         # окно свежего факта, по которому агент подкручивает смещение
 REFLECT_SHRINK = 1.0      # доля смещения, на которую сдвигаем медиану (см. reflect)
@@ -64,23 +66,24 @@ def context(fitted: dict | None = None) -> dict:
     if fitted is None and _CONTEXT is not None:
         return _CONTEXT
     fitted = fitted or bt.fit_all()
-    _CONTEXT = {**fitted, 'weather': wx.ensemble(*ARCHIVE),
+    _CONTEXT = {**fitted, 'weather': asof.daily_ensemble(*ARCHIVE),
                 'turbines': sorted({name for name, _ in fitted['curves']})}
     return _CONTEXT
 
 
 # ---------------------------------------------------------------- шаги цикла
 
-def _live_window(issue_time: pd.Timestamp, day1: pd.Timestamp, day2: pd.Timestamp) -> pd.DataFrame:
-    """Свежий прогон Open-Meteo на двое суток вперёд.
-
-    У Previous Runs API «прошлые прогоны» на будущие часы совпадают с текущим прогоном, так что
-    колонки previous_day там ничего не значат. Берём текущий прогон и назначаем горизонт по
-    реальному сдвигу от момента выпуска: сутки d+1 идут как 24 ч, d+2 — как 48 ч."""
-    fresh = wx.ensemble(day1.date().isoformat(), day2.date().isoformat(), live=True)
-    latest = fresh[fresh.lead_h == 0].copy()
-    latest['lead_h'] = np.where(latest.time < day2, 24, 48)
-    return latest.sort_values('time').reset_index(drop=True)
+def _live_window(issue_time: pd.Timestamp) -> pd.DataFrame:
+    """Следующие 48 часовых точек текущего прогноза; reference — время запроса, не init модели."""
+    targets = pd.date_range(issue_time + pd.Timedelta(hours=1), periods=48, freq='h')
+    fresh = wx.ensemble(targets.min().date().isoformat(), targets.max().date().isoformat(), live=True)
+    latest = fresh[fresh.lead_h == 0].set_index('time').reindex(targets).rename_axis('time').reset_index()
+    shift = ((latest.time - issue_time) / pd.Timedelta(hours=1)).astype(int)
+    latest['lead_h'] = np.where(shift <= 24, 24, 48)
+    latest['weather_lead_h'] = shift
+    latest['weather_reference_time'] = issue_time
+    latest['weather_source'] = 'live_current_forecast'
+    return latest
 
 
 def collect(issue_time: pd.Timestamp, journal: list, ctx: dict, live: bool = False) -> pd.DataFrame:
@@ -90,15 +93,15 @@ def collect(issue_time: pd.Timestamp, journal: list, ctx: dict, live: bool = Fal
     day2 = day1 + pd.Timedelta(days=1)
     if live:
         try:
-            window = _live_window(issue_time, day1, day2)
+            window = _live_window(issue_time)
         except Exception as err:  # сеть на площадке может лежать — не повод падать
             _note(journal, issue_time, 'collect', 'degraded',
                   f'живой прогноз недоступен ({err}), беру архив прогнозов', started)
             live = False
         else:
             shift = (window.time - issue_time) / pd.Timedelta(hours=1)
-            source = (f'живой прогноз Open-Meteo, свежий прогон: сутки {day1.date()} идут горизонтом 24 ч, '
-                      f'{day2.date()} — 48 ч, реальный сдвиг от выпуска {shift.min():.0f}–{shift.max():.0f} ч')
+            source = (f'живой прогноз Open-Meteo: следующие {len(window)} часов, '
+                      f'сдвиг от выпуска {shift.min():.0f}–{shift.max():.0f} ч')
             gone = f'Open-Meteo не отдал часов на {day1.date()} — {day2.date()}'
     if not live:
         archive = ctx['weather']
@@ -106,12 +109,16 @@ def collect(issue_time: pd.Timestamp, journal: list, ctx: dict, live: bool = Fal
             archive[(archive.lead_h == 24) & (archive.time.dt.normalize() == day1)],
             archive[(archive.lead_h == 48) & (archive.time.dt.normalize() == day2)],
         ]).sort_values('time').reset_index(drop=True)
-        source = 'архив прогнозов'
+        source = 'архив прогнозов: day2/day3, запас до выпуска не меньше 24 ч'
         gone = (f'нет прогноза погоды на {day1.date()} — {day2.date()}: '
                 f'архив кончается {archive.time.max():%d.%m.%Y}')
     if window.empty:
         _note(journal, issue_time, 'collect', 'error', gone + ' — выпуск невозможен', started)
         return window
+    if not live and (window.weather_reference_time > issue_time - pd.Timedelta(hours=24)).any():
+        _note(journal, issue_time, 'collect', 'error',
+              'не соблюдён запас публикации погоды: ежедневный выпуск назначен на 23:00 UTC', started)
+        return window.iloc[:0]
     _note(journal, issue_time, 'collect', 'ok',
           f'{source}: {len(window)} часов на {day1.date()} — {day2.date()}, '
           f'горизонты {sorted(int(x) for x in window.lead_h.unique())} ч', started)
@@ -133,12 +140,17 @@ def prepare(window: pd.DataFrame, journal: list, issue_time: pd.Timestamp) -> pd
     gaps = wind.isna().sum()
     if gaps:
         # горизонт 48 ч у Open-Meteo иногда неполный — закрываем соседним часом
-        window = window.sort_values('time').ffill().bfill()
+        window = window.sort_values('time').copy()
+        weather_columns = [column for column in window if column in wx.BASE
+                           or any(column == f'{variable}_{member}' for variable in wx.MEMBER_VARS
+                                  for member in wx.MEMBERS.values())]
+        window[weather_columns] = window.groupby(
+            [window.lead_h, window.time.dt.normalize()])[weather_columns].transform(lambda hours: hours.ffill().bfill())
         problems.append(f'заполнено {gaps} пропусков соседними часами')
 
-    per_day = window.groupby(window.time.dt.normalize()).size()
-    if (per_day < 24).any():
-        problems.append(f'неполные сутки: {dict(per_day[per_day < 24])}')
+    per_lead = window.groupby('lead_h').size()
+    if (per_lead < 24).any():
+        problems.append(f'неполные горизонты: {dict(per_lead[per_lead < 24])}')
     for lead, offset in ((24, 1), (48, 2)):
         if lead not in set(window.lead_h):
             day = issue_time.normalize() + pd.Timedelta(days=offset)
@@ -166,6 +178,9 @@ def forecast(window: pd.DataFrame, journal: list, ctx: dict, issue_time: pd.Time
     predicted = mdl.apply_bounds(mdl.predict(ctx['models'], table), ctx['offsets'])
     predicted[['wind_speed_100m', 'wind_direction_100m']] = table[
         ['wind_speed_100m', 'wind_direction_100m']].to_numpy()
+    for column in ('weather_lead_h', 'weather_reference_time', 'weather_source'):
+        predicted[column] = table[column].reset_index(drop=True)
+    predicted['effective_lead_h'] = ((predicted.time - issue_time) / pd.Timedelta(hours=1)).astype(int)
     _note(journal, issue_time, 'forecast', 'ok',
           f'посчитано {len(predicted)} строк, средняя мощность {predicted.p50.mean():.2f} от номинала, '
           f'коридор P10–P90 шириной {(predicted.p90 - predicted.p10).mean():.2f}', started)
@@ -225,24 +240,14 @@ def reflect(predicted: pd.DataFrame, issue_time: pd.Timestamp, journal: list, ct
     затенение, настройки контроллера. Средняя ошибка медианы на горизонте 24 ч за последние
     REFLECT_DAYS суток — самая простая честная оценка; сдвигаем на неё, и только когда она выходит
     за REFLECT_GATE_SE стандартных ошибок, иначе это шум, и агент так и пишет в журнал. Коридор не
-    трогаем: он откалиброван конформно и сидит на массах факта в нуле и на полке, сдвиг границ
-    вместе с медианой роняет покрытие с 78 до 68 %. Медиана двигается внутри него.
-
-    Замер checks/reflect_eval.py на выпусках 15.11.2025 — 30.01.2026, честные признаки, nMAE 24/48 ч
-    без простоев: без поправки 0,1754/0,1920; окно 3 сут ×1 0,1678/0,1847, ×0,5 0,1670/0,1844;
-    7 сут ×1 0,1638/0,1812, ×0,5 0,1656/0,1830; 14 сут ×1 0,1631/0,1800, ×0,5 0,1658/0,1828, то же
-    со шлюзом 2 SE 0,1633/0,1802 и 0,1659/0,1829. Полной прокруткой цикла (agent.validate):
-    ×0,5 — 0,1653/0,1803, ×1 — 0,1627/0,1781 против 0,1722/0,1866 у модели без агента.
-    Полный сдвиг взят потому, что смещение системное: −0,08 ± 0,05 по окнам при стандартной
-    ошибке около 0,012 — после смены режима погоды в октябре 2025 модель завышает, и половинный
-    сдвиг просто недобирает; пока признаки подсматривали в ноукаст, это смещение было скрыто.
+    трогаем: сдвиг границ может исключить массы факта в нуле и на полке.
+    Медиана двигается внутри коридора. Параметры сохранены до замера нового протокола;
+    прежние цифры для day1/day2 неприменимы к консервативному day2/day3.
 
     Когда факт отстаёт от выпуска (февраль: история кончается 31.01), поправка переносится с
     последних REFLECT_DAYS суток имеющегося факта на весь месяц, пока отставание не больше
-    REFLECT_STALE_DAYS. Замер checks/stale_reflect.py — валидация в режиме поставки, факт обрывается
-    в начале каждого месяца, nMAE 24/48 ч без простоев за ноябрь-январь: перенос 0,1638/0,1789,
-    без поправки 0,1719/0,1863, при ежедневном факте 0,1627/0,1781. Перенос почти не уступает
-    свежему факту, потому что смещение держится месяцами, а не днями."""
+    REFLECT_STALE_DAYS. В режиме поставки факт обрывается в начале каждого месяца;
+    актуальные замеры находятся в forecasts/metrics.csv."""
     started = time.perf_counter()
     recent, last = _fact_window(ctx, issue_time, REFLECT_DAYS, fact_until)
     gap = _fact_gap(recent, last, issue_time, REFLECT_DAYS, REFLECT_STALE_DAYS)
@@ -290,6 +295,8 @@ def verify(predicted: pd.DataFrame, issue_time: pd.Timestamp, journal: list, ctx
 
     if ours['skill'] <= 0:
         published = predicted.assign(p50=predicted.curve)
+        published['p10'] = np.minimum(published.p10, published.p50)
+        published['p90'] = np.maximum(published.p90, published.p50)
         _note(journal, issue_time, 'verify', 'rollback',
               f'решение не обыграло персистентность (скилл {ours["skill"]:+.2f}) — '
               f'откат на кривую мощности, её скилл {curve_only["skill"]:+.2f}', started)
@@ -386,6 +393,12 @@ def run_cycle(issue_time, ctx: dict | None = None, live: bool = False,
     if window.empty:
         return None, journal, previous
     window = prepare(window, journal, issue_time)
+    missing = window[['wind_speed_100m', 'temperature_2m', 'surface_pressure']].isna().any(axis=1)
+    if missing.any():
+        _note(journal, issue_time, 'prepare', 'error',
+              f'после подготовки нет основной погоды для {int(missing.sum())} часов — выпуск невозможен',
+              time.perf_counter())
+        return None, journal, previous
     state = {'issue_time': issue_time, 'window': window[['time', 'lead_h', 'wind_speed_100m']]}
 
     started = time.perf_counter()
@@ -411,6 +424,8 @@ def rollout(first_issue, last_issue, ctx: dict | None = None, explain_every: int
     ctx = ctx or context()
     journal, state, parts = [], None, []
     for number, issue_time in enumerate(pd.date_range(first_issue, last_issue, freq='D')):
+        if not live:
+            issue_time = issue_time.normalize() + pd.Timedelta(hours=asof.ISSUE_HOUR_UTC)
         predicted, journal, state = run_cycle(
             issue_time, ctx=ctx, live=live, previous=state, journal=journal,
             with_explain=bool(explain_every) and number % explain_every == 0, fact_until=fact_until)
@@ -520,7 +535,7 @@ if __name__ == '__main__':
         if args.live:
             issue_time = pd.Timestamp.now(tz='UTC').tz_localize(None).floor('h')
         else:
-            issue_time = pd.Timestamp('2026-01-31')
+            issue_time = pd.Timestamp('2026-01-31 23:00')
         predicted, journal, _ = run_cycle(issue_time, live=args.live)
         if predicted is None:
             print(f'\nвыпуск {issue_time:%Y-%m-%d %H:%M} не состоялся — см. журнал\n')

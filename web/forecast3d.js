@@ -26,10 +26,16 @@
     const times=[...new Set(selected[1].map(row=>row.time))].sort((a,b)=>utc(a)-utc(b)).slice(0,48);
     const series=['T1','T2'].map(turbine=>{const hours=new Map(selected[1].filter(row=>row.turbine===turbine).map(row=>[row.time,row]));return {turbine,rows:times.map(time=>hours.get(time))};});
     const stage=el('div','forecast3d-stage'),canvas=el('canvas','forecast3d-scene',undefined,stage);
+    const mapHost=el('div','forecast3d-map',undefined,stage);mapHost.setAttribute('aria-hidden','true');mapHost.inert=true;
     const head=el('div','forecast3d-head',undefined,stage),heading=el('div','',undefined,head);
     el('h3','','Прогноз на площадке · '+times.length+' часов',heading);
     el('p','forecast3d-meta','Выпуск '+local(utc(selected[0]))+' · UTC+5',heading);
-    const reset=el('button','','Сбросить вид',head);reset.type='button';reset.title='Перетаскивайте сцену, чтобы повернуть камеру. Эта кнопка возвращает исходный вид.';
+    const controls=el('div','forecast3d-controls',undefined,head),views=el('div','forecast3d-views',undefined,controls);views.setAttribute('role','group');views.setAttribute('aria-label','Вид площадки');
+    const perspective=el('button','','3D-сцена',views),overhead=el('button','','Карта',views);perspective.type=overhead.type='button';perspective.setAttribute('aria-pressed','true');overhead.setAttribute('aria-pressed','false');
+    const reset=el('button','','Сбросить вид',controls);reset.type='button';reset.title='Перетаскивайте сцену, чтобы повернуть камеру. Сброс возвращает исходный ракурс выбранного вида.';
+    const mapStatus=el('div','forecast3d-map-status','',stage);mapStatus.hidden=true;mapStatus.setAttribute('role','status');
+    const mapZoom=el('div','forecast3d-map-zoom',undefined,stage);mapZoom.hidden=true;
+    const zoomIn=el('button','','+',mapZoom),zoomOut=el('button','','−',mapZoom);zoomIn.type=zoomOut.type='button';zoomIn.setAttribute('aria-label','Приблизить карту');zoomOut.setAttribute('aria-label','Отдалить карту');
     canvas.setAttribute('role','img');canvas.setAttribute('aria-label','Условная сцена Шелекского коридора: две ветротурбины. Прогноз мощности, диапазон P10–P90 и график каждой турбины показаны на панелях.');
     const svgEl=(tag,attrs,parent)=>{const node=document.createElementNS('http://www.w3.org/2000/svg',tag);for(const [key,value] of Object.entries(attrs))node.setAttribute(key,value);parent.append(node);return node;};
     const panels=series.map(({turbine,rows})=>{
@@ -58,9 +64,23 @@
     timeline.title='Условная площадка. Вращение лопастей иллюстрирует прогноз ветра, а не реальные обороты турбин. Направление ветра указано по правилу «откуда дует».';
     const ctx=canvas.getContext('2d');
     let width=0,height=0,active=0,yaw=0,elevation=0,drag=null,frame=0,playing=false,lastStep=0,visible=true,destroyed=false,scene3d=null,rotorPhase=0,lastRender=0,rotorSpeed=.4;
+    let mapController=null,mapPending=null,mapRequested=false,mapActive=false,resetting=false;
     const reduced=window.matchMedia('(prefers-reduced-motion: reduce)');
     const windAt=index=>{const readings=series.map(({rows})=>rows[index]?.wind_speed_100m).filter(value=>Number.isFinite(value)&&value>=0);return readings.length?readings.reduce((sum,value)=>sum+value,0)/readings.length:null;};
     const directionAt=index=>{const bearings=series.map(({rows})=>rows[index]?.wind_direction_100m).filter(Number.isFinite);if(!bearings.length)return null;return Math.atan2(bearings.reduce((sum,angle)=>sum+Math.sin(angle*Math.PI/180),0),bearings.reduce((sum,angle)=>sum+Math.cos(angle*Math.PI/180),0));};
+    let flowAngle=directionAt(0)===null?Math.atan2(1,.2):-directionAt(0);
+    const streamCount=22,streamSegments=18;
+    const streams=Array.from({length:streamCount},(_,index)=>({index,age:0,life:8+index%5,x:0,z:0,y:7.5+(index*1.731)%9,fade:0}));
+    function resetStream(stream,initial=false){const dx=Math.sin(flowAngle),dz=Math.cos(flowAngle),cross=((stream.index*5.371)%24)-12;stream.age=initial?(stream.index*.713)%stream.life:0;stream.x=-dx*17-dz*cross+dx*stream.age*4;stream.z=-dz*17+dx*cross+dz*stream.age*4;}
+    streams.forEach(stream=>resetStream(stream,true));
+    function mapState(enabled){mapActive=enabled;root.dataset.view=enabled?'map':'perspective';perspective.setAttribute('aria-pressed',String(!enabled));overhead.setAttribute('aria-pressed',String(enabled));mapHost.setAttribute('aria-hidden',String(!enabled));mapHost.inert=!enabled;mapZoom.hidden=!enabled;schedule();}
+    async function chooseView(showMap){mapRequested=showMap;if(!showMap){mapState(false);mapStatus.hidden=true;return;}mapStatus.hidden=false;mapStatus.textContent='Загружаем карту…';overhead.setAttribute('aria-busy','true');
+      try{if(!mapController){if(!window.YandexForecastMap)throw new Error('unavailable');if(!mapPending)mapPending=window.YandexForecastMap.mount(mapHost);mapController=await mapPending;if(destroyed){mapController.destroy();return;}}
+        mapController.update(series.map(({rows})=>rows[active]),local(utc(times[active])));if(mapRequested){mapState(true);mapStatus.textContent='Координаты турбин из условия кейса';}
+      }catch(error){mapPending=null;mapState(false);mapStatus.hidden=!mapRequested;mapStatus.textContent=error.message==='not-configured'?'Карта ещё не подключена. Прогноз доступен в 3D.':'Карта пока недоступна. Нажмите «Карта» позже, чтобы повторить. Прогноз в 3D работает.';}
+      finally{overhead.removeAttribute('aria-busy');}}
+    perspective.addEventListener('click',()=>chooseView(false));overhead.addEventListener('click',()=>chooseView(true));
+    zoomIn.addEventListener('click',()=>mapController?.zoom(1));zoomOut.addEventListener('click',()=>mapController?.zoom(-1));
     function update(){hour.textContent=local(utc(times[active]));slider.value=active;slider.style.setProperty('--position',(active/Math.max(1,times.length-1)*100)+'%');slider.setAttribute('aria-valuetext',hour.textContent);
       series.forEach(({rows},i)=>{const row=rows[active],panel=panels[i],x=times.length>1?active/(times.length-1)*200:100;
         panel.median.textContent=row?percent(row.p50):'—';panel.band.textContent=row?'P10–P90: '+percent(row.p10)+'–'+percent(row.p90):'Нет прогноза';
@@ -69,13 +89,17 @@
       const direction=bearing===null?'':' '+compass[Math.round(((bearing*180/Math.PI+360)%360)/45)%8];
       windValue.textContent=wind===null?'Нет данных':wind.toFixed(1).replace('.',',')+' м/с';
       windReadout.title=wind===null?'Прогноз ветра недоступен. Вращение и потоки условные.':'Прогноз ветра на 100 м: '+wind.toFixed(1).replace('.',',')+' м/с'+direction+'. Вращение и потоки показаны схематично.';
-      windReadout.setAttribute('aria-label',windReadout.title);}
+      windReadout.setAttribute('aria-label',windReadout.title);if(mapController)mapController.update(series.map(({rows})=>rows[active]),hour.textContent);}
     function render(stamp){frame=0;if(destroyed||!visible)return;
       const wind=windAt(active),elapsed=lastRender?Math.min((stamp-lastRender)/1000,.1):0;lastRender=stamp;
+      if(resetting){const smoothing=reduced.matches?1:1-Math.exp(-elapsed*7);yaw+=(0-yaw)*smoothing;elevation+=(0-elevation)*smoothing;if(Math.abs(yaw)<.001&&Math.abs(elevation)<.01){yaw=0;elevation=0;resetting=false;}}
       const targetSpeed=wind===null?.4:Math.min(wind*.055,1.4);rotorSpeed+=(targetSpeed-rotorSpeed)*(1-Math.exp(-elapsed*2.8));
       if(!reduced.matches)rotorPhase+=elapsed*rotorSpeed;
+      const bearing=directionAt(active),targetAngle=bearing===null?Math.atan2(1,.2):-bearing,turn=Math.atan2(Math.sin(targetAngle-flowAngle),Math.cos(targetAngle-flowAngle));flowAngle=reduced.matches?targetAngle:flowAngle+turn*(1-Math.exp(-elapsed*1.2));
+      for(const stream of streams){if(!reduced.matches){stream.age+=elapsed*rotorSpeed/.4;stream.x+=Math.sin(flowAngle)*elapsed*rotorSpeed*10;stream.z+=Math.cos(flowAngle)*elapsed*rotorSpeed*10;if(stream.age>=stream.life)resetStream(stream);}stream.fade=Math.pow(Math.max(0,Math.sin(Math.PI*stream.age/stream.life)),1.4)*Math.min(1,rotorSpeed/.2);}
       if(playing&&stamp-lastStep>800){active=(active+1)%times.length;lastStep=stamp;update();}
-      if(scene3d){scene3d.render(stamp,yaw);}
+      if(mapActive){if(ctx)ctx.clearRect(0,0,width,height);}
+      else if(scene3d){scene3d.render(stamp,yaw);}
       else if(ctx&&width){
         const mobile=width<600,horizon=height*(mobile?.43:.38),ground=height*(mobile?.77:.79);
         const sky=ctx.createLinearGradient(0,0,0,height);sky.addColorStop(0,'#76aaca');sky.addColorStop(.48,'#dde5df');sky.addColorStop(1,'#c4b38d');ctx.fillStyle=sky;ctx.fillRect(0,0,width,height);
@@ -87,8 +111,7 @@
         const polygon=(points,fill,stroke)=>{ctx.beginPath();points.forEach((point,i)=>{const p=project(point);if(i)ctx.lineTo(p[0],p[1]);else ctx.moveTo(p[0],p[1]);});ctx.closePath();if(fill){ctx.fillStyle=fill;ctx.fill();}if(stroke){ctx.strokeStyle=stroke;ctx.lineWidth=1;ctx.stroke();}};
         // Детерминированная фактура степи не мерцает между кадрами.
         for(let i=0;i<110;i++){const x=((i*73)%997)/997*width,depth=((i*47)%101)/101,y=horizon+52+depth*(height-horizon-52);ctx.strokeStyle=depth>.5?'rgba(91,107,81,.13)':'rgba(91,107,81,.07)';ctx.lineWidth=1;ctx.beginPath();ctx.moveTo(x,y);ctx.lineTo(x+2+depth*8,y-depth*2);ctx.stroke();}
-        const bearing=directionAt(active),flowSign=bearing===null?1:-Math.sin(bearing),flowCount=wind===null?12:Math.min(24,Math.round(wind*2));
-        for(let i=0;i<Math.min(flowCount,16);i++){const x=((i*79+rotorPhase*34*flowSign+width*100)%width),y=horizon+35+(i*41)%(Math.max(1,ground-horizon-50));for(let segment=0;segment<16;segment++){const t=segment/16,next=(segment+1)/16;ctx.beginPath();ctx.moveTo(x+t*58,y+Math.sin(t*3+i)*6);ctx.lineTo(x+next*58,y+Math.sin(next*3+i)*6);ctx.strokeStyle='rgba(255,253,239,'+(.5*next*next)+')';ctx.lineWidth=1.35;ctx.stroke();}}
+        for(const stream of streams){for(let segment=0;segment<streamSegments;segment++){const a=segment/streamSegments,b=(segment+1)/streamSegments;const point=t=>project([(stream.x+(t-1)*4*Math.sin(flowAngle))*.27,stream.y*(mobile?.31:.245),(stream.z+(t-1)*4*Math.cos(flowAngle))*.2]);const p=point(a),q=point(b);ctx.beginPath();ctx.moveTo(p[0],p[1]);ctx.lineTo(q[0],q[1]);ctx.strokeStyle='rgba(255,253,239,'+(.6*b*b*stream.fade)+')';ctx.lineWidth=1.4;ctx.stroke();}}
         const turbines=[{x:mobile?-1.75:-2,z:1.6,index:0},{x:mobile?1.8:2,z:3.4,index:1}],hubs=[];
         [...turbines].sort((a,b)=>b.z-a.z).forEach(({x,z,index})=>{
           const tower=mobile?4.05:3.15,radius=mobile?1.21:1.04,base=project([x,0,z]);
@@ -113,14 +136,14 @@
           ctx.font='600 14px -apple-system, Segoe UI, sans-serif';ctx.fillStyle=accent;ctx.textAlign='center';ctx.fillText('T'+(index+1),base[0],base[1]+23);hubs[index]=p;});
         panels.forEach(({panel},i)=>{const hub=hubs[i];if(!hub)return;const panelRect=panel.getBoundingClientRect(),stageRect=stage.getBoundingClientRect(),sx=panelRect.left-stageRect.left+panelRect.width*.5,sy=panelRect.bottom-stageRect.top+6;ctx.beginPath();ctx.moveTo(sx,sy);ctx.lineTo(sx,sy+12);ctx.lineTo(hub[0],hub[1]);ctx.setLineDash([3,5]);ctx.strokeStyle='rgba(20,110,90,.35)';ctx.lineWidth=1;ctx.stroke();ctx.setLineDash([]);});
       }
-      if(playing||!reduced.matches)frame=requestAnimationFrame(render);
+      if(playing||(!reduced.matches&&!mapActive)||resetting)frame=requestAnimationFrame(render);
     }
     function schedule(){if(!frame&&!destroyed&&visible)frame=requestAnimationFrame(render);}
     function resize(){const rect=canvas.getBoundingClientRect();width=rect.width;height=rect.height;const ratio=Math.min(window.devicePixelRatio||1,2);canvas.width=Math.round(width*ratio);canvas.height=Math.round(height*ratio);if(ctx)ctx.setTransform(ratio,0,0,ratio,0,0);if(scene3d)scene3d.resize();schedule();}
     play.addEventListener('click',()=>{playing=!playing;play.textContent=playing?'Пауза':'Пуск';play.setAttribute('aria-pressed',String(playing));play.setAttribute('aria-label',playing?'Приостановить прогноз':'Воспроизвести прогноз по часам');lastStep=performance.now();schedule();});
     slider.addEventListener('input',()=>{active=Number(slider.value);lastStep=performance.now();update();schedule();});
-    reset.addEventListener('click',()=>{yaw=0;elevation=0;schedule();});
-    canvas.addEventListener('pointerdown',event=>{if(event.button!==0)return;drag={x:event.clientX,y:event.clientY,yaw,elevation};canvas.setPointerCapture(event.pointerId);});
+    reset.addEventListener('click',()=>{if(mapActive){mapController.reset();return;}resetting=true;if(reduced.matches){yaw=0;elevation=0;resetting=false;}schedule();});
+    canvas.addEventListener('pointerdown',event=>{if(event.button!==0||mapActive)return;resetting=false;drag={x:event.clientX,y:event.clientY,yaw,elevation};canvas.setPointerCapture(event.pointerId);});
     canvas.addEventListener('pointermove',event=>{if(!drag)return;const limit=scene3d?1.3:.3;yaw=Math.max(-limit,Math.min(limit,drag.yaw+(event.clientX-drag.x)*.003));if(event.pointerType!=='touch')elevation=Math.max(-5,Math.min(12,drag.elevation+(event.clientY-drag.y)*.045));schedule();});
     for(const name of ['pointerup','pointercancel','lostpointercapture'])canvas.addEventListener(name,()=>{drag=null;});
     const observer=typeof ResizeObserver!=='undefined'?new ResizeObserver(resize):null;if(observer)observer.observe(canvas);else window.addEventListener('resize',resize);
@@ -168,7 +191,6 @@
       const pebbles=new THREE.InstancedMesh(pebbleGeometry,gravelMat,190);
       const transform=new THREE.Object3D();
       for(let i=0;i<190;i++){const x=((i*73)%997)/997*80-40,z=((i*47)%991)/991*80-30;transform.position.set(x,.02,z);transform.rotation.set(i*.7,i*.4,i*.13);transform.scale.set(1+(i%3),.4,1);transform.updateMatrix();pebbles.setMatrixAt(i,transform.matrix);}pebbles.receiveShadow=true;scene.add(pebbles);
-      const streamCount=22,streamSegments=18;
       const windGeometry=new THREE.BufferGeometry(),windPositions=new Float32Array(streamCount*streamSegments*6),windFades=new Float32Array(streamCount*streamSegments*2);
       windGeometry.setAttribute('position',new THREE.BufferAttribute(windPositions,3));
       for(let stream=0;stream<streamCount;stream++)for(let segment=0;segment<streamSegments;segment++){const offset=(stream*streamSegments+segment)*2;windFades[offset]=Math.pow(segment/streamSegments,1.6);windFades[offset+1]=Math.pow((segment+1)/streamSegments,1.6);}
@@ -197,16 +219,16 @@
       const resizeGL=()=>{renderer.setSize(width,height,false);camera.aspect=width/height;camera.updateProjectionMatrix();};
       renderer.domElement.addEventListener('webglcontextlost',event=>{event.preventDefault();renderer.domElement.style.display='none';scene3d=null;schedule();});
       scene3d={resize:resizeGL,render(stamp,angle){
-        const mobile=width<600,orbit=angle*1.5+.08,radius=mobile?58:35;
-        look.y=mobile?11.2:7.6;camera.position.set(Math.sin(orbit)*radius,(mobile?15.5:14.5)+elevation,Math.cos(orbit)*radius);camera.lookAt(look);
-        const bearing=directionAt(active),speed=windAt(active);
+        const mobile=width<600,orbit=angle*1.5+.08,radius=mobile?Math.max(58,72-(height-650)*.078):35;
+        look.set(0,mobile?11.8:7.6,-1);
+        camera.position.set(Math.sin(orbit)*radius,(mobile?15.5:14.5)+elevation,Math.cos(orbit)*radius);
+        camera.up.set(0,1,0);camera.lookAt(look);
         // Север сцены — минус Z; метеорологический угол задаёт, откуда дует ветер.
-        const dx=bearing===null?1:-Math.sin(bearing),dz=bearing===null?.2:Math.cos(bearing);
+        const dx=Math.sin(flowAngle),dz=Math.cos(flowAngle);
         turbines.forEach(({group,rotor},index)=>{group.position.x=(index?1:-1)*(mobile?4:6.2);rotor.rotation.z=rotorPhase+index*.6;});
-        const flow=rotorPhase*8;
-        for(let i=0;i<streamCount;i++){const x=((i*3.713+flow*dx+42000)%42)-21,y=2+((i*1.731)%12),z=((i*5.319+flow*dz+34000)%34)-17;
-          for(let segment=0;segment<streamSegments;segment++)for(let endpoint=0;endpoint<2;endpoint++){const t=(segment+endpoint)/streamSegments,along=t*4.2,bend=Math.sin(t*2.8+i*.8)*.7,offset=(i*streamSegments+segment)*6+endpoint*3;windPositions[offset]=x+along*dx-bend*dz;windPositions[offset+1]=y+Math.sin(t*2+i)*.5;windPositions[offset+2]=z+along*dz+bend*dx;}}
-        windGeometry.setDrawRange(0,(speed===null?12:Math.min(streamCount,Math.round(speed*1.5)))*streamSegments*2);
+        for(const stream of streams){const i=stream.index;
+          for(let segment=0;segment<streamSegments;segment++)for(let endpoint=0;endpoint<2;endpoint++){const t=(segment+endpoint)/streamSegments,along=(t-1)*4.2,bend=Math.sin(t*2.2+i*.8)*.28,offset=(i*streamSegments+segment)*6+endpoint*3;windPositions[offset]=stream.x+along*dx-bend*dz;windPositions[offset+1]=stream.y+Math.sin(t*2+i)*.12;windPositions[offset+2]=stream.z+along*dz+bend*dx;windFades[(i*streamSegments+segment)*2+endpoint]=Math.pow(t,1.6)*stream.fade;}}
+        windGeometry.attributes.fade.needsUpdate=true;
         windGeometry.attributes.position.needsUpdate=true;
         renderer.render(scene,camera);
         if(ctx){ctx.clearRect(0,0,width,height);panels.forEach(({panel},index)=>{
@@ -220,7 +242,7 @@
       root.dataset.renderer='webgl';resizeGL();schedule();
     }).catch(()=>{root.dataset.renderer='canvas';});
     update();resize();
-    return {resize,destroy(){destroyed=true;cancelAnimationFrame(frame);if(scene3d)scene3d.destroy();if(observer)observer.disconnect();else window.removeEventListener('resize',resize);if(visibility)visibility.disconnect();root.remove();}};
+    return {resize,getIssueTime:()=>selected[0],destroy(){destroyed=true;cancelAnimationFrame(frame);if(scene3d)scene3d.destroy();if(mapController)mapController.destroy();if(observer)observer.disconnect();else window.removeEventListener('resize',resize);if(visibility)visibility.disconnect();root.remove();}};
   }
   window.Forecast3D={mount};
 })();
