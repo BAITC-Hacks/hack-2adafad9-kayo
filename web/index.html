@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Прогноз выработки ВЭС</title>
+<style>
+  :root {
+    --bg: #0b0d0e;
+    --panel: #121517;
+    --line: #23282b;
+    --text: #e7e9ea;
+    --muted: #8b9196;
+    --dim: #5d646a;
+    --accent: #5ec8a0;
+    --accent-soft: rgba(94, 200, 160, .16);
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 15px/1.55 -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 1120px; margin: 0 auto; padding: 32px 16px 64px; }
+
+  header { border-bottom: 1px solid var(--line); padding-bottom: 20px; margin-bottom: 28px; }
+  h1 { font-size: 26px; font-weight: 600; letter-spacing: -.01em; margin: 0 0 6px; }
+  .sub { color: var(--muted); font-size: 14px; }
+  .sub b { color: var(--text); font-weight: 500; }
+
+  h2 {
+    font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: .08em;
+    color: var(--muted); margin: 40px 0 14px;
+  }
+
+  .controls { display: flex; flex-wrap: wrap; gap: 10px 20px; align-items: center; margin-bottom: 18px; }
+  .group { display: flex; gap: 2px; }
+  .group button {
+    background: none; border: 1px solid var(--line); color: var(--muted);
+    padding: 6px 14px; font: inherit; font-size: 14px; cursor: pointer;
+  }
+  .group button:first-child { border-radius: 6px 0 0 6px; }
+  .group button:last-child { border-radius: 0 6px 6px 0; }
+  .group button + button { border-left: none; }
+  .group button[aria-pressed="true"] { color: var(--text); border-color: var(--accent); box-shadow: inset 0 -2px 0 var(--accent); }
+  .group button:hover { color: var(--text); }
+
+  .legend { display: flex; gap: 18px; flex-wrap: wrap; color: var(--muted); font-size: 13px; margin-top: 10px; }
+  .legend i { display: inline-block; width: 14px; height: 2px; vertical-align: middle; margin-right: 6px; }
+  .legend .band { height: 10px; background: var(--accent-soft); border-top: 1px solid rgba(94,200,160,.4); border-bottom: 1px solid rgba(94,200,160,.4); }
+
+  .chart { position: relative; }
+  svg { display: block; width: 100%; height: auto; }
+  .tip {
+    position: absolute; pointer-events: none; background: var(--panel); border: 1px solid var(--line);
+    border-radius: 8px; padding: 8px 10px; font-size: 13px; line-height: 1.5; white-space: nowrap;
+    opacity: 0; transition: opacity .12s; z-index: 5;
+  }
+  .tip b { font-weight: 600; }
+  .tip .k { color: var(--muted); }
+
+  table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; font-size: 14px; }
+  th, td { text-align: right; padding: 9px 10px; border-bottom: 1px solid var(--line); white-space: nowrap; }
+  th:first-child, td:first-child { text-align: left; }
+  thead th { color: var(--muted); font-weight: 500; font-size: 13px; }
+  thead tr:first-child th { border-bottom-color: transparent; padding-bottom: 2px; }
+  .lead-head { color: var(--dim); font-size: 12px; text-transform: uppercase; letter-spacing: .06em; }
+  td { color: var(--muted); }
+  td.best { color: var(--text); font-weight: 600; }
+  td:first-child { color: var(--text); }
+  .scroller { overflow-x: auto; }
+
+  .log { list-style: none; margin: 0; padding: 0; }
+  .log li {
+    display: grid; grid-template-columns: 116px 104px 1fr; gap: 12px; align-items: baseline;
+    padding: 8px 0 8px 12px; border-bottom: 1px solid var(--line); border-left: 2px solid transparent;
+  }
+  .log .ts { color: var(--dim); font-size: 13px; font-variant-numeric: tabular-nums; }
+  .log .step { color: var(--muted); font-size: 13px; }
+  .log .text { color: var(--text); font-size: 14px; }
+  .log li.mark { border-left-color: var(--accent); }
+  .log li.mark .step, .log li.mark .text { font-weight: 600; }
+  .more {
+    background: none; border: none; color: var(--accent); font: inherit; font-size: 14px;
+    cursor: pointer; padding: 12px 0 0;
+  }
+
+  .econ { display: flex; flex-wrap: wrap; gap: 36px; }
+  .econ div { min-width: 150px; }
+  .econ .v { font-size: 26px; font-weight: 600; letter-spacing: -.01em; }
+  .econ .v.good { color: var(--accent); }
+  .econ .k { color: var(--muted); font-size: 13px; margin-top: 2px; }
+  .note { color: var(--dim); font-size: 13px; margin-top: 14px; }
+
+  .empty { color: var(--muted); padding: 40px 0; }
+  .empty code { color: var(--text); background: var(--panel); padding: 2px 6px; border-radius: 4px; }
+  [hidden] { display: none !important; }
+
+  @media (max-width: 640px) {
+    .wrap { padding: 24px 16px 48px; }
+    h1 { font-size: 21px; }
+    .log li { grid-template-columns: 1fr; gap: 2px; }
+    .econ { gap: 24px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Прогноз выработки ВЭС</h1>
+    <div class="sub" id="head-sub">загрузка данных…</div>
+  </header>
+
+  <div id="empty" class="empty" hidden>
+    <p>Нет данных прогноза. Ожидается файл <code>web/data.json</code> рядом со страницей.</p>
+    <p>Если страница открыта двойным кликом, браузер может не пустить её к файлу. Тогда либо положите
+       рядом <code>data.js</code> (его делает <code>make_data_js.py</code>), либо запустите
+       <code>python -m http.server</code> в папке <code>web</code>.</p>
+  </div>
+
+  <main id="main" hidden>
+    <section>
+      <h2>Прогноз и факт</h2>
+      <div class="controls">
+        <div class="group" id="turbines"></div>
+        <div class="group" id="leads"></div>
+        <div class="group" id="ranges"></div>
+      </div>
+      <div class="chart">
+        <svg id="chart" viewBox="0 0 960 340" role="img"
+             aria-label="График прогноза выработки"></svg>
+        <div class="tip" id="tip"></div>
+      </div>
+      <div class="legend">
+        <span><i style="background: var(--accent)"></i>прогноз, медиана</span>
+        <span><i class="band"></i>коридор P10–P90</span>
+        <span><i style="background: var(--text)"></i>факт</span>
+        <span><i style="background: var(--dim)"></i>кривая мощности</span>
+      </div>
+    </section>
+
+    <section id="metrics-block">
+      <h2>Качество прогноза</h2>
+      <div class="scroller"><table id="metrics"></table></div>
+      <div class="note">Доли от установленной мощности. Скилл — насколько ошибка меньше, чем у
+        персистентности: 0 — как у неё, 1 — идеальный прогноз.</div>
+    </section>
+
+    <section id="log-block">
+      <h2>Журнал агента</h2>
+      <ul class="log" id="log"></ul>
+      <button class="more" id="log-more" hidden></button>
+    </section>
+
+    <section id="econ-block" hidden>
+      <h2>Что это даёт</h2>
+      <div class="econ" id="econ"></div>
+      <div class="note" id="econ-note"></div>
+    </section>
+  </main>
+</div>
+
+<script src="data.js" onerror="void 0"></script>
+<script>
+(function () {
+  'use strict';
+
+  var MODEL_NAMES = {
+    agent: 'Наше решение',
+    curve: 'Кривая мощности',
+    climatology: 'Климатология',
+    persistence: 'Персистентность'
+  };
+  var MODEL_ORDER = ['agent', 'curve', 'climatology', 'persistence'];
+  var STATUS_NAMES = {
+    ok: 'ок', retry: 'повтор', fallback: 'откат', warn: 'внимание',
+    error: 'ошибка', skip: 'пропуск'
+  };
+  var MARK_STATUS = { fallback: 1, error: 1, retry: 1, warn: 1 };
+
+  var nf = new Intl.NumberFormat('ru-RU');
+  var state = { data: null, turbine: null, lead: null, days: 0, points: [] };
+
+  // ---- загрузка: сначала data.js (работает при открытии файлом), потом data.json
+
+  function load() {
+    if (window.DASHBOARD_DATA) return Promise.resolve(window.DASHBOARD_DATA);
+    return fetch('data.json').then(function (r) {
+      if (!r.ok) throw new Error(r.status);
+      return r.json();
+    });
+  }
+
+  // ---- вспомогательное
+
+  function fmtNum(x, digits) {
+    if (x === null || x === undefined || isNaN(x)) return '—';
+    return x.toFixed(digits === undefined ? 3 : digits).replace('.', ',');
+  }
+
+  function parseTime(s) {
+    // строки вида 2026-02-01T00:00 — без зоны, читаем как есть
+    var m = /^(\d{4})-(\d{2})-(\d{2})[T ](\d{2}):(\d{2})/.exec(s || '');
+    if (!m) return null;
+    return new Date(+m[1], +m[2] - 1, +m[3], +m[4], +m[5]);
+  }
+
+  function fmtDay(d) {
+    return ('0' + d.getDate()).slice(-2) + '.' + ('0' + (d.getMonth() + 1)).slice(-2);
+  }
+
+  function fmtDateTime(d) {
+    return fmtDay(d) + ' ' + ('0' + d.getHours()).slice(-2) + ':00';
+  }
+
+  function el(tag, attrs, text) {
+    var node = document.createElementNS('http://www.w3.org/2000/svg', tag);
+    for (var k in attrs) if (attrs[k] !== null && attrs[k] !== undefined) node.setAttribute(k, attrs[k]);
+    if (text !== undefined) node.textContent = text;
+    return node;
+  }
+
+  function uniq(list) {
+    var seen = {}, out = [];
+    list.forEach(function (v) { if (v !== undefined && v !== null && !seen[v]) { seen[v] = 1; out.push(v); } });
+    return out;
+  }
+
+  // ---- шапка
+
+  function renderHead(data) {
+    var parts = [];
+    var site = data.site || {};
+    if (site.name) {
+      var coords = (site.lat !== undefined && site.lon !== undefined)
+        ? ' (' + site.lat.toFixed(3).replace('.', ',') + ' / ' + site.lon.toFixed(3).replace('.', ',') + ')' : '';
+      parts.push('<b>' + site.name + '</b>' + coords);
+    }
+    var period = data.period || {};
+    var from = parseTime(period.start), to = parseTime(period.end);
+    if (from && to) parts.push('период прогноза ' + fmtDay(from) + ' — ' + fmtDay(to));
+    var made = parseTime(data.generated_at) ||
+      (data.generated_at ? new Date(data.generated_at) : null);
+    if (made && !isNaN(made)) parts.push('последний прогон ' + fmtDateTime(made));
+    document.getElementById('head-sub').innerHTML = parts.join(' · ');
+  }
+
+  // ---- переключатели
+
+  function buildGroup(host, values, labels, current, onPick) {
+    host.innerHTML = '';
+    values.forEach(function (value) {
+      var button = document.createElement('button');
+      button.type = 'button';
+      button.textContent = labels(value);
+      button.setAttribute('aria-pressed', String(value === current));
+      button.onclick = function () { onPick(value); };
+      host.appendChild(button);
+    });
+  }
+
+  function renderControls() {
+    var rows = state.data.forecast || [];
+    var turbines = uniq(rows.map(function (r) { return r.turbine; }));
+    var leads = uniq(rows.map(function (r) { return r.lead_h; })).sort(function (a, b) { return a - b; });
+    if (state.turbine === null) state.turbine = turbines[0];
+    if (state.lead === null) state.lead = leads[0];
+
+    buildGroup(document.getElementById('turbines'), turbines, function (v) { return v; },
+      state.turbine, function (v) { state.turbine = v; redraw(); });
+    buildGroup(document.getElementById('leads'), leads, function (v) { return v + ' ч'; },
+      state.lead, function (v) { state.lead = v; redraw(); });
+    buildGroup(document.getElementById('ranges'), [0, 7, 3], function (v) {
+      return v === 0 ? 'весь период' : 'последние ' + v + ' дн';
+    }, state.days, function (v) { state.days = v; redraw(); });
+  }
+
+  // ---- график
+
+  function pickPoints() {
+    var rows = (state.data.forecast || []).filter(function (r) {
+      return r.turbine === state.turbine && r.lead_h === state.lead;
+    });
+    rows.forEach(function (r) { r._t = r._t || parseTime(r.time); });
+    rows.sort(function (a, b) { return a._t - b._t; });
+    if (state.days && rows.length) {
+      var last = rows[rows.length - 1]._t;
+      var edge = new Date(last.getTime() - state.days * 24 * 3600 * 1000);
+      rows = rows.filter(function (r) { return r._t >= edge; });
+    }
+    return rows;
+  }
+
+  function lineFor(points, key, x, y) {
+    // факт обрывается там, где его ещё нет — режем на отдельные куски
+    var chunks = [], run = [];
+    points.forEach(function (p, i) {
+      var v = p[key];
+      if (v === null || v === undefined || isNaN(v)) {
+        if (run.length) { chunks.push(run); run = []; }
+        return;
+      }
+      run.push(x(i) + ',' + y(v));
+    });
+    if (run.length) chunks.push(run);
+    return chunks.map(function (c) { return 'M' + c.join('L'); }).join(' ');
+  }
+
+  function drawChart() {
+    var svg = document.getElementById('chart');
+    var points = state.points;
+    svg.innerHTML = '';
+    if (!points.length) return;
+
+    var W = Math.max(320, Math.round(svg.parentNode.clientWidth || 960));
+    var H = W < 560 ? 240 : 340;
+    svg.setAttribute('viewBox', '0 0 ' + W + ' ' + H);
+    var L = 40, R = 12, T = 12, B = 30;
+    var innerW = W - L - R, innerH = H - T - B;
+    var x = function (i) { return L + (points.length < 2 ? innerW / 2 : innerW * i / (points.length - 1)); };
+    var y = function (v) { return T + innerH * (1 - Math.max(0, Math.min(1, v))); };
+
+    // сетка и подписи по мощности
+    [0, .25, .5, .75, 1].forEach(function (v) {
+      svg.appendChild(el('line', { x1: L, x2: W - R, y1: y(v), y2: y(v), stroke: 'var(--line)' }));
+      svg.appendChild(el('text', {
+        x: L - 10, y: y(v) + 4, fill: 'var(--dim)', 'font-size': 12, 'text-anchor': 'end'
+      }, v.toFixed(2).replace('.', ',')));
+    });
+
+    // отметки суток по оси времени, с прореживанием под ширину
+    var dayIdx = [];
+    points.forEach(function (p, i) { if (p._t && p._t.getHours() === 0) dayIdx.push(i); });
+    var every = Math.ceil(dayIdx.length / Math.max(2, Math.floor(innerW / 70))) || 1;
+    dayIdx.forEach(function (i, n) {
+      svg.appendChild(el('line', { x1: x(i), x2: x(i), y1: T, y2: T + innerH, stroke: 'var(--line)' }));
+      if (n % every === 0) {
+        svg.appendChild(el('text', {
+          x: x(i), y: H - 10, fill: 'var(--dim)', 'font-size': 12, 'text-anchor': 'middle'
+        }, fmtDay(points[i]._t)));
+      }
+    });
+
+    // коридор неопределённости
+    var hasBand = points.some(function (p) { return p.p10 !== undefined && p.p90 !== undefined; });
+    if (hasBand) {
+      var top = [], bottom = [];
+      points.forEach(function (p, i) {
+        var hi = p.p90 !== undefined && p.p90 !== null ? p.p90 : p.p50;
+        var lo = p.p10 !== undefined && p.p10 !== null ? p.p10 : p.p50;
+        if (hi === undefined || hi === null) return;
+        top.push(x(i) + ',' + y(hi));
+        bottom.unshift(x(i) + ',' + y(lo));
+      });
+      if (top.length) {
+        svg.appendChild(el('path', {
+          d: 'M' + top.join('L') + 'L' + bottom.join('L') + 'Z',
+          fill: 'var(--accent-soft)', stroke: 'none'
+        }));
+      }
+    }
+
+    var curve = lineFor(points, 'curve', x, y);
+    if (curve) svg.appendChild(el('path', {
+      d: curve, fill: 'none', stroke: 'var(--dim)', 'stroke-width': 1, 'stroke-dasharray': '3 3'
+    }));
+
+    svg.appendChild(el('path', {
+      d: lineFor(points, 'p50', x, y), fill: 'none', stroke: 'var(--accent)', 'stroke-width': 1.8,
+      'stroke-linejoin': 'round'
+    }));
+
+    var actual = lineFor(points, 'actual', x, y);
+    if (actual) svg.appendChild(el('path', {
+      d: actual, fill: 'none', stroke: 'var(--text)', 'stroke-width': 1.4, 'stroke-linejoin': 'round'
+    }));
+
+    // слой наведения
+    var hover = el('g', { id: 'hover', opacity: 0 });
+    hover.appendChild(el('line', { id: 'hover-line', y1: T, y2: T + innerH, stroke: 'var(--muted)' }));
+    hover.appendChild(el('circle', { id: 'hover-dot', r: 3.5, fill: 'var(--accent)' }));
+    svg.appendChild(hover);
+
+    svg.onmousemove = function (event) {
+      var box = svg.getBoundingClientRect();
+      var px = (event.clientX - box.left) / box.width * W;
+      var i = Math.round((px - L) / innerW * (points.length - 1));
+      i = Math.max(0, Math.min(points.length - 1, i));
+      var p = points[i];
+      hover.setAttribute('opacity', 1);
+      hover.querySelector('#hover-line').setAttribute('x1', x(i));
+      hover.querySelector('#hover-line').setAttribute('x2', x(i));
+      hover.querySelector('#hover-dot').setAttribute('cx', x(i));
+      hover.querySelector('#hover-dot').setAttribute('cy', y(p.p50));
+
+      var tip = document.getElementById('tip');
+      var rows = ['<b>' + (p._t ? fmtDateTime(p._t) : p.time) + '</b>'];
+      rows.push('<span class="k">прогноз</span> ' + fmtNum(p.p50, 2));
+      if (p.p10 !== undefined && p.p90 !== undefined) {
+        rows.push('<span class="k">коридор</span> ' + fmtNum(p.p10, 2) + ' — ' + fmtNum(p.p90, 2));
+      }
+      if (p.actual !== null && p.actual !== undefined) {
+        rows.push('<span class="k">факт</span> ' + fmtNum(p.actual, 2));
+      }
+      tip.innerHTML = rows.join('<br>');
+      tip.style.opacity = 1;
+      var left = (event.clientX - box.left) + 14;
+      if (left + tip.offsetWidth > box.width) left = (event.clientX - box.left) - tip.offsetWidth - 14;
+      tip.style.left = Math.max(0, left) + 'px';
+      tip.style.top = Math.max(0, event.clientY - box.top - tip.offsetHeight - 10) + 'px';
+    };
+    svg.onmouseleave = function () {
+      hover.setAttribute('opacity', 0);
+      document.getElementById('tip').style.opacity = 0;
+    };
+  }
+
+  // ---- метрики
+
+  function renderMetrics() {
+    var rows = state.data.metrics || [];
+    var block = document.getElementById('metrics-block');
+    if (!rows.length) { block.hidden = true; return; }
+    block.hidden = false;
+
+    var leads = uniq(rows.map(function (r) { return r.lead_h; })).sort(function (a, b) { return a - b; });
+    var models = uniq(rows.map(function (r) { return r.model; })).sort(function (a, b) {
+      var ia = MODEL_ORDER.indexOf(a), ib = MODEL_ORDER.indexOf(b);
+      return (ia < 0 ? 99 : ia) - (ib < 0 ? 99 : ib);
+    });
+    var cols = [
+      { key: 'nmae', label: 'nMAE', better: 'min' },
+      { key: 'nrmse', label: 'nRMSE', better: 'min' },
+      { key: 'bias', label: 'смещение', better: 'zero' },
+      { key: 'skill', label: 'скилл', better: 'max' }
+    ];
+
+    var find = function (model, lead) {
+      for (var i = 0; i < rows.length; i++) {
+        if (rows[i].model === model && rows[i].lead_h === lead) return rows[i];
+      }
+      return null;
+    };
+
+    // лучшее значение в каждом столбце — его выделяем начертанием
+    var best = {};
+    leads.forEach(function (lead) {
+      cols.forEach(function (col) {
+        var winner = null, score = null;
+        models.forEach(function (model) {
+          var row = find(model, lead);
+          if (!row || row[col.key] === undefined || row[col.key] === null) return;
+          var v = row[col.key];
+          var s = col.better === 'max' ? -v : (col.better === 'zero' ? Math.abs(v) : v);
+          if (score === null || s < score) { score = s; winner = model; }
+        });
+        best[lead + '|' + col.key] = winner;
+      });
+    });
+
+    var html = '<thead><tr><th></th>';
+    leads.forEach(function (lead) {
+      html += '<th class="lead-head" colspan="' + cols.length + '">горизонт ' + lead + ' ч</th>';
+    });
+    html += '</tr><tr><th>модель</th>';
+    leads.forEach(function () {
+      cols.forEach(function (col) { html += '<th>' + col.label + '</th>'; });
+    });
+    html += '</tr></thead><tbody>';
+
+    models.forEach(function (model) {
+      html += '<tr><td>' + (MODEL_NAMES[model] || model) + '</td>';
+      leads.forEach(function (lead) {
+        var row = find(model, lead);
+        cols.forEach(function (col) {
+          var v = row ? row[col.key] : null;
+          var isBest = best[lead + '|' + col.key] === model;
+          html += '<td' + (isBest ? ' class="best"' : '') + '>' + fmtNum(v, 3) + '</td>';
+        });
+      });
+      html += '</tr>';
+    });
+    document.getElementById('metrics').innerHTML = html + '</tbody>';
+  }
+
+  // ---- журнал агента
+
+  var logShown = 20;
+
+  function renderLog() {
+    var rows = (state.data.agent_log || []).slice();
+    var block = document.getElementById('log-block');
+    if (!rows.length) { block.hidden = true; return; }
+    block.hidden = false;
+
+    rows.sort(function (a, b) { return (parseTime(b.ts) || 0) - (parseTime(a.ts) || 0); });
+    var shown = rows.slice(0, logShown);
+    var host = document.getElementById('log');
+    host.innerHTML = '';
+    shown.forEach(function (entry) {
+      var li = document.createElement('li');
+      if (MARK_STATUS[entry.status]) li.className = 'mark';
+      var time = parseTime(entry.ts);
+      var status = STATUS_NAMES[entry.status] || entry.status || '';
+      li.innerHTML = '<span class="ts">' + (time ? fmtDateTime(time) : (entry.ts || '')) + '</span>' +
+        '<span class="step">' + (entry.step || '') + (status ? ' · ' + status : '') + '</span>' +
+        '<span class="text">' + (entry.text || '') + '</span>';
+      host.appendChild(li);
+    });
+
+    var more = document.getElementById('log-more');
+    more.hidden = rows.length <= logShown;
+    more.textContent = 'показать все — ' + rows.length;
+    more.onclick = function () { logShown = rows.length; renderLog(); };
+  }
+
+  // ---- экономика
+
+  function renderEcon() {
+    var e = state.data.economics;
+    var block = document.getElementById('econ-block');
+    if (!e || (e.monthly_loss === undefined && e.baseline_loss === undefined)) { block.hidden = true; return; }
+    block.hidden = false;
+
+    var cur = e.currency || '';
+    var cells = [];
+    if (e.monthly_loss !== undefined) {
+      cells.push({ v: nf.format(Math.round(e.monthly_loss)) + ' ' + cur, k: 'стоимость ошибки за месяц' });
+    }
+    if (e.baseline_loss !== undefined) {
+      cells.push({ v: nf.format(Math.round(e.baseline_loss)) + ' ' + cur, k: 'то же на базовой линии' });
+    }
+    if (e.monthly_loss !== undefined && e.baseline_loss !== undefined) {
+      var saved = e.baseline_loss - e.monthly_loss;
+      var share = e.baseline_loss ? Math.round(saved / e.baseline_loss * 100) : 0;
+      cells.push({ v: nf.format(Math.round(saved)) + ' ' + cur, k: 'экономия за месяц, −' + share + '%', good: true });
+    }
+    document.getElementById('econ').innerHTML = cells.map(function (c) {
+      return '<div><div class="v' + (c.good ? ' good' : '') + '">' + c.v + '</div><div class="k">' + c.k + '</div></div>';
+    }).join('');
+
+    var note = [];
+    if (e.penalty_per_mwh !== undefined) note.push('штраф за небаланс ' + nf.format(e.penalty_per_mwh) + ' ' + cur + ' за МВт·ч');
+    if (e.capacity_mw !== undefined) note.push('установленная мощность ' + String(e.capacity_mw).replace('.', ',') + ' МВт');
+    document.getElementById('econ-note').textContent = note.join(', ');
+  }
+
+  // ---- сборка
+
+  function redraw() {
+    renderControls();   // здесь же выбираются значения по умолчанию, поэтому строго до выборки точек
+    state.points = pickPoints();
+    drawChart();
+  }
+
+  load().then(function (data) {
+    state.data = data;
+    document.getElementById('main').hidden = false;
+    renderHead(data);
+    redraw();
+    renderMetrics();
+    renderLog();
+    renderEcon();
+  }).catch(function () {
+    document.getElementById('head-sub').textContent = 'данные не загрузились';
+    document.getElementById('empty').hidden = false;
+  });
+
+  window.addEventListener('resize', function () { drawChart(); });
+})();
+</script>
+</body>
+</html>
