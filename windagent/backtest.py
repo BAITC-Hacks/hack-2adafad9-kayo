@@ -25,7 +25,7 @@ from . import model as mdl
 from . import weather as wx
 
 TRAIN_END = pd.Timestamp('2025-10-31 23:00')
-CALIB_DAYS = 30                                              # последние N дней обучения — на калибровку
+CALIB_WINDOW = (pd.Timestamp('2024-11-01'), pd.Timestamp('2025-02-28 23:00'))  # тот же сезон год назад
 VALID = (pd.Timestamp('2025-11-01'), pd.Timestamp('2026-01-31 23:00'))
 TEST = (pd.Timestamp('2026-02-01'), pd.Timestamp('2026-02-28 23:00'))
 LEADS = (24, 48)
@@ -95,14 +95,16 @@ def prepare(leads=LEADS):
 def train_models(table: pd.DataFrame, leads=LEADS) -> dict:
     """Обучение и конформная калибровка на всём, что известно до TRAIN_END.
 
-    Последние CALIB_DAYS дней уходят под калибровку коридора: считать её на valid — утечка, а на
+    Окно CALIB_WINDOW уходит под калибровку коридора: считать её на valid — утечка, а на
     самом train — оптимистичная оценка (квантильные модели эти часы уже видели). Медиана в
     калибровке не участвует, поэтому учится на всём ряду целиком."""
     train_all = table[(table.time <= TRAIN_END) & table.power.notna() & table.curve.notna()
                       & ~table.curtailed & table.lead_h.isin(leads)]
-    calib_start = TRAIN_END - pd.Timedelta(days=CALIB_DAYS)
-    train = train_all[train_all.time <= calib_start]
-    calib = train_all[train_all.time > calib_start]
+    # калибруем на прошлой зиме, а не на последнем месяце: зимний ветер порывистее осеннего, и отступ,
+    # снятый с октября, на ноябре-январе недобирал покрытие (78,4 % против 79,8 %, коридор 0,451 → 0,431)
+    in_calib = train_all.time.between(*CALIB_WINDOW)
+    train = train_all[~in_calib]
+    calib = train_all[in_calib]
     models = mdl.fit(train, median_train=train_all)
     offsets = mdl.calibrate(models, calib, alpha=1 - COVERAGE_TARGET)
     return {'train_all': train_all, 'train': train, 'calib': calib, 'models': models, 'offsets': offsets}

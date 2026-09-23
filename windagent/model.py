@@ -156,12 +156,15 @@ def apply_bounds(pred: pd.DataFrame, offsets: dict) -> pd.DataFrame:
 
     Квантильные модели учатся независимо, монотонность не гарантирована — на границах диапазона
     (мощность около 0 или 1) тройка местами перехлёстывается. Пересортировка построчно —
-    стандартный приём quantile crossing, качество прогноза не меняет."""
+    стандартный приём quantile crossing.
+
+    Границы подрезаются по медиане, а не сортируются вместе с ней: отступ бывает отрицательным
+    (коридор сужается), и сортировка тогда подменяла p50 значением границы — nMAE рос на 0,002."""
     out = pred.copy()
     if offsets:
         q = np.array([offsets.get((t, int(l)), 0.0) for t, l in zip(pred.turbine, pred.lead_h)])
         out['p10'] = np.clip(pred.p10 - q, 0, 1)
         out['p90'] = np.clip(pred.p90 + q, 0, 1)
-    triple = np.sort(out[['p10', 'p50', 'p90']].values, axis=1)
-    out[['p10', 'p50', 'p90']] = triple
+    out['p10'] = np.minimum(out.p10, out.p50)
+    out['p90'] = np.maximum(out.p90, out.p50)
     return out
