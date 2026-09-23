@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
- "generated_at": "2026-09-23T09:27:48Z",
+ "generated_at": "2026-09-23T09:40:22Z",
  "site": {
   "name": "ВЭС, Шелекский коридор",
   "lat": 43.64515,
@@ -15,7 +15,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0777,
+   "p50": 0.02,
    "p90": 0.1577,
    "actual": null,
    "curve": 0.0116
@@ -25,8 +25,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0087,
-   "p50": 0.1878,
-   "p90": 0.2456,
+   "p50": 0.1842,
+   "p90": 0.1878,
    "actual": null,
    "curve": 0.0134
   },
@@ -35,7 +35,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0034,
+   "p50": 0.0,
    "p90": 0.1135,
    "actual": null,
    "curve": 0.0201
@@ -45,7 +45,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.1234,
+   "p50": 0.1072,
    "p90": 0.3084,
    "actual": null,
    "curve": 0.0195
@@ -65,7 +65,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.1061,
+   "p50": 0.0539,
    "p90": 0.3496,
    "actual": null,
    "curve": 0.0391
@@ -75,7 +75,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.084,
+   "p50": 0.0449,
    "p90": 0.4429,
    "actual": null,
    "curve": 0.2075
@@ -85,7 +85,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0052,
-   "p50": 0.0517,
+   "p50": 0.1016,
    "p90": 0.4313,
    "actual": null,
    "curve": 0.0558
@@ -95,7 +95,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.2385,
+   "p50": 0.1949,
    "p90": 0.6823,
    "actual": null,
    "curve": 0.1703
@@ -105,7 +105,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0135,
-   "p50": 0.1542,
+   "p50": 0.0849,
    "p90": 0.6872,
    "actual": null,
    "curve": 0.0826
@@ -115,7 +115,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.006,
-   "p50": 0.2384,
+   "p50": 0.0567,
    "p90": 0.63,
    "actual": null,
    "curve": 0.1455
@@ -125,7 +125,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0108,
-   "p50": 0.1108,
+   "p50": 0.0247,
    "p90": 0.6083,
    "actual": null,
    "curve": 0.1402
@@ -135,7 +135,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0132,
-   "p50": 0.2266,
+   "p50": 0.1924,
    "p90": 0.6655,
    "actual": null,
    "curve": 0.0838
@@ -145,7 +145,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0259,
-   "p50": 0.2167,
+   "p50": 0.1376,
    "p90": 0.6657,
    "actual": null,
    "curve": 0.2155
@@ -155,7 +155,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0454,
-   "p50": 0.2265,
+   "p50": 0.1928,
    "p90": 0.596,
    "actual": null,
    "curve": 0.1035
@@ -165,7 +165,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.043,
-   "p50": 0.2536,
+   "p50": 0.1665,
    "p90": 0.6744,
    "actual": null,
    "curve": 0.2734
@@ -175,7 +175,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0487,
-   "p50": 0.2693,
+   "p50": 0.2527,
    "p90": 0.5769,
    "actual": null,
    "curve": 0.1196
@@ -185,7 +185,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0547,
-   "p50": 0.2761,
+   "p50": 0.2608,
    "p90": 0.6319,
    "actual": null,
    "curve": 0.2691
@@ -195,7 +195,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0584,
-   "p50": 0.33,
+   "p50": 0.3393,
    "p90": 0.5172,
    "actual": null,
    "curve": 0.1276
@@ -205,7 +205,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0393,
-   "p50": 0.2897,
+   "p50": 0.2874,
    "p90": 0.5914,
    "actual": null,
    "curve": 0.2114
@@ -215,7 +215,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0214,
-   "p50": 0.3198,
+   "p50": 0.3699,
    "p90": 0.5232,
    "actual": null,
    "curve": 0.1315
@@ -225,7 +225,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0502,
-   "p50": 0.4393,
+   "p50": 0.3974,
    "p90": 0.6877,
    "actual": null,
    "curve": 0.1945
@@ -235,7 +235,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0818,
-   "p50": 0.4868,
+   "p50": 0.5172,
    "p90": 0.7387,
    "actual": null,
    "curve": 0.2724
@@ -245,7 +245,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0792,
-   "p50": 0.447,
+   "p50": 0.4488,
    "p90": 0.8059,
    "actual": null,
    "curve": 0.3039
@@ -255,7 +255,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0499,
-   "p50": 0.4028,
+   "p50": 0.4763,
    "p90": 0.7863,
    "actual": null,
    "curve": 0.2172
@@ -265,7 +265,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0735,
-   "p50": 0.4776,
+   "p50": 0.46,
    "p90": 0.7739,
    "actual": null,
    "curve": 0.2958
@@ -275,7 +275,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0744,
-   "p50": 0.4324,
+   "p50": 0.4419,
    "p90": 0.7239,
    "actual": null,
    "curve": 0.2699
@@ -285,7 +285,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0764,
-   "p50": 0.4348,
+   "p50": 0.4535,
    "p90": 0.7701,
    "actual": null,
    "curve": 0.3095
@@ -295,7 +295,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.081,
-   "p50": 0.4004,
+   "p50": 0.4582,
    "p90": 0.8085,
    "actual": null,
    "curve": 0.2668
@@ -305,7 +305,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0805,
-   "p50": 0.4204,
+   "p50": 0.4172,
    "p90": 0.8445,
    "actual": null,
    "curve": 0.307
@@ -315,7 +315,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0754,
-   "p50": 0.498,
+   "p50": 0.4944,
    "p90": 0.8698,
    "actual": null,
    "curve": 0.2813
@@ -325,7 +325,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0413,
-   "p50": 0.455,
+   "p50": 0.388,
    "p90": 0.911,
    "actual": null,
    "curve": 0.3823
@@ -335,7 +335,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0648,
-   "p50": 0.4016,
+   "p50": 0.402,
    "p90": 0.8211,
    "actual": null,
    "curve": 0.3035
@@ -345,7 +345,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0199,
-   "p50": 0.4054,
+   "p50": 0.3698,
    "p90": 0.9082,
    "actual": null,
    "curve": 0.385
@@ -355,7 +355,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0621,
-   "p50": 0.3996,
+   "p50": 0.3967,
    "p90": 0.7993,
    "actual": null,
    "curve": 0.2785
@@ -365,7 +365,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.03,
-   "p50": 0.4348,
+   "p50": 0.4124,
    "p90": 0.9104,
    "actual": null,
    "curve": 0.4046
@@ -375,7 +375,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0647,
-   "p50": 0.3787,
+   "p50": 0.3782,
    "p90": 0.8304,
    "actual": null,
    "curve": 0.2592
@@ -385,7 +385,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0907,
-   "p50": 0.4583,
+   "p50": 0.3646,
    "p90": 0.8689,
    "actual": null,
    "curve": 0.3022
@@ -395,7 +395,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0816,
-   "p50": 0.465,
+   "p50": 0.4293,
    "p90": 0.9159,
    "actual": null,
    "curve": 0.397
@@ -405,7 +405,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0897,
-   "p50": 0.4733,
+   "p50": 0.492,
    "p90": 0.885,
    "actual": null,
    "curve": 0.2773
@@ -415,7 +415,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.1249,
-   "p50": 0.5702,
+   "p50": 0.509,
    "p90": 0.9811,
    "actual": null,
    "curve": 0.4366
@@ -425,7 +425,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.1093,
-   "p50": 0.4835,
+   "p50": 0.5283,
    "p90": 0.9013,
    "actual": null,
    "curve": 0.3086
@@ -435,7 +435,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.1243,
-   "p50": 0.537,
+   "p50": 0.5745,
    "p90": 0.9859,
    "actual": null,
    "curve": 0.4357
@@ -445,7 +445,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.1213,
-   "p50": 0.4404,
+   "p50": 0.5135,
    "p90": 0.9296,
    "actual": null,
    "curve": 0.3166
@@ -455,7 +455,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.1973,
-   "p50": 0.4398,
+   "p50": 0.5371,
    "p90": 0.9378,
    "actual": null,
    "curve": 0.4065
@@ -465,7 +465,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.1407,
-   "p50": 0.3345,
+   "p50": 0.4493,
    "p90": 0.9049,
    "actual": null,
    "curve": 0.3202
@@ -475,7 +475,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.2111,
-   "p50": 0.4996,
+   "p50": 0.541,
    "p90": 0.934,
    "actual": null,
    "curve": 0.4093
@@ -485,7 +485,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.2269,
-   "p50": 0.4876,
+   "p50": 0.5516,
    "p90": 0.9088,
    "actual": null,
    "curve": 0.3187
@@ -495,7 +495,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.2154,
-   "p50": 0.4516,
+   "p50": 0.4631,
    "p90": 0.9517,
    "actual": null,
    "curve": 0.4713
@@ -505,7 +505,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.2101,
-   "p50": 0.4105,
+   "p50": 0.4647,
    "p90": 0.9075,
    "actual": null,
    "curve": 0.3688
@@ -515,7 +515,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.1693,
-   "p50": 0.4675,
+   "p50": 0.4862,
    "p90": 0.9424,
    "actual": null,
    "curve": 0.4626
@@ -525,7 +525,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.1703,
-   "p50": 0.3779,
+   "p50": 0.4158,
    "p90": 0.8936,
    "actual": null,
    "curve": 0.3596
@@ -535,7 +535,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.2197,
-   "p50": 0.4441,
+   "p50": 0.4823,
    "p90": 0.9285,
    "actual": null,
    "curve": 0.4288
@@ -545,7 +545,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.1458,
-   "p50": 0.341,
+   "p50": 0.4608,
    "p90": 0.903,
    "actual": null,
    "curve": 0.4032
@@ -555,7 +555,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.216,
-   "p50": 0.576,
+   "p50": 0.5202,
    "p90": 0.9171,
    "actual": null,
    "curve": 0.4144
@@ -565,7 +565,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.21,
-   "p50": 0.558,
+   "p50": 0.5353,
    "p90": 0.9027,
    "actual": null,
    "curve": 0.3939
@@ -575,7 +575,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.383,
-   "p50": 0.6903,
+   "p50": 0.7157,
    "p90": 0.9842,
    "actual": null,
    "curve": 0.6289
@@ -585,7 +585,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.3541,
-   "p50": 0.7412,
+   "p50": 0.7948,
    "p90": 0.9826,
    "actual": null,
    "curve": 0.5374
@@ -595,7 +595,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.3642,
-   "p50": 0.6475,
+   "p50": 0.5499,
    "p90": 0.9527,
    "actual": null,
    "curve": 0.4469
@@ -605,7 +605,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.2937,
-   "p50": 0.7106,
+   "p50": 0.5862,
    "p90": 0.9268,
    "actual": null,
    "curve": 0.3875
@@ -615,7 +615,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.4763,
-   "p50": 0.7326,
+   "p50": 0.6913,
    "p90": 0.9808,
    "actual": null,
    "curve": 0.5515
@@ -625,7 +625,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.4723,
-   "p50": 0.7546,
+   "p50": 0.7091,
    "p90": 0.9892,
    "actual": null,
    "curve": 0.5477
@@ -635,7 +635,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.5619,
-   "p50": 0.7539,
+   "p50": 0.7637,
    "p90": 0.9854,
    "actual": null,
    "curve": 0.6051
@@ -645,7 +645,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.5875,
-   "p50": 0.7586,
+   "p50": 0.794,
    "p90": 0.9867,
    "actual": null,
    "curve": 0.6282
@@ -655,7 +655,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.5945,
-   "p50": 0.7823,
+   "p50": 0.9149,
    "p90": 1.0,
    "actual": null,
    "curve": 0.6658
@@ -665,7 +665,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.652,
-   "p50": 0.8194,
+   "p50": 0.9574,
    "p90": 0.9835,
    "actual": null,
    "curve": 0.7264
@@ -675,7 +675,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.6141,
-   "p50": 0.7879,
+   "p50": 0.9594,
    "p90": 0.9873,
    "actual": null,
    "curve": 0.7062
@@ -685,7 +685,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.5754,
-   "p50": 0.769,
+   "p50": 0.9318,
    "p90": 0.9985,
    "actual": null,
    "curve": 0.6922
@@ -695,7 +695,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.4929,
-   "p50": 0.8102,
+   "p50": 0.8694,
    "p90": 0.9904,
    "actual": null,
    "curve": 0.6257
@@ -705,7 +705,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.4283,
-   "p50": 0.8022,
+   "p50": 0.8181,
    "p90": 0.9968,
    "actual": null,
    "curve": 0.564
@@ -715,7 +715,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.428,
-   "p50": 0.841,
+   "p50": 0.8788,
    "p90": 1.0,
    "actual": null,
    "curve": 0.6016
@@ -725,7 +725,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0791,
-   "p50": 0.6776,
+   "p50": 0.5984,
    "p90": 0.9241,
    "actual": null,
    "curve": 0.107
@@ -735,7 +735,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.1342,
-   "p50": 0.6022,
+   "p50": 0.6855,
    "p90": 0.8907,
    "actual": null,
    "curve": 0.2531
@@ -745,7 +745,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0956,
-   "p50": 0.5699,
+   "p50": 0.3802,
    "p90": 0.82,
    "actual": null,
    "curve": 0.2674
@@ -755,7 +755,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0199,
-   "p50": 0.3781,
+   "p50": 0.3409,
    "p90": 0.6382,
    "actual": null,
    "curve": 0.1076
@@ -765,7 +765,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0108,
-   "p50": 0.3126,
+   "p50": 0.2918,
    "p90": 0.5931,
    "actual": null,
    "curve": 0.113
@@ -775,7 +775,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0143,
-   "p50": 0.2794,
+   "p50": 0.3088,
    "p90": 0.4903,
    "actual": null,
    "curve": 0.0527
@@ -785,7 +785,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0225,
-   "p50": 0.2432,
+   "p50": 0.1838,
    "p90": 0.3679,
    "actual": null,
    "curve": 0.1001
@@ -795,7 +795,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.01,
-   "p50": 0.2222,
+   "p50": 0.2128,
    "p90": 0.4666,
    "actual": null,
    "curve": 0.0539
@@ -805,7 +805,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0037,
-   "p50": 0.2431,
+   "p50": 0.2213,
    "p90": 0.4755,
    "actual": null,
    "curve": 0.1311
@@ -815,7 +815,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0131,
-   "p50": 0.263,
+   "p50": 0.2353,
    "p90": 0.4492,
    "actual": null,
    "curve": 0.0931
@@ -825,7 +825,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0059,
-   "p50": 0.2979,
+   "p50": 0.2335,
    "p90": 0.5385,
    "actual": null,
    "curve": 0.1527
@@ -835,7 +835,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0049,
-   "p50": 0.1464,
+   "p50": 0.1762,
    "p90": 0.4413,
    "actual": null,
    "curve": 0.0915
@@ -845,7 +845,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0102,
-   "p50": 0.208,
+   "p50": 0.2267,
    "p90": 0.4366,
    "actual": null,
    "curve": 0.0715
@@ -855,7 +855,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.013,
-   "p50": 0.1907,
+   "p50": 0.1753,
    "p90": 0.4384,
    "actual": null,
    "curve": 0.1118
@@ -865,7 +865,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0224,
-   "p50": 0.2975,
+   "p50": 0.3415,
    "p90": 0.5544,
    "actual": null,
    "curve": 0.0436
@@ -875,7 +875,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0146,
-   "p50": 0.2839,
+   "p50": 0.2737,
    "p90": 0.7326,
    "actual": null,
    "curve": 0.2286
@@ -885,7 +885,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0475,
-   "p50": 0.3755,
+   "p50": 0.3563,
    "p90": 0.7022,
    "actual": null,
    "curve": 0.1009
@@ -895,7 +895,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.1076,
-   "p50": 0.4522,
+   "p50": 0.3901,
    "p90": 0.9297,
    "actual": null,
    "curve": 0.342
@@ -905,7 +905,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.1002,
-   "p50": 0.4553,
+   "p50": 0.4756,
    "p90": 0.8937,
    "actual": null,
    "curve": 0.2348
@@ -915,7 +915,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.2,
-   "p50": 0.4804,
+   "p50": 0.5226,
    "p90": 0.9666,
    "actual": null,
    "curve": 0.4137
@@ -925,7 +925,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.1217,
-   "p50": 0.4445,
+   "p50": 0.4744,
    "p90": 0.9077,
    "actual": null,
    "curve": 0.2424
@@ -935,7 +935,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.2315,
-   "p50": 0.4398,
+   "p50": 0.4904,
    "p90": 0.9387,
    "actual": null,
    "curve": 0.4203
@@ -945,7 +945,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0961,
-   "p50": 0.5448,
+   "p50": 0.4887,
    "p90": 0.924,
    "actual": null,
    "curve": 0.2004
@@ -955,7 +955,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.2185,
-   "p50": 0.5567,
+   "p50": 0.5893,
    "p90": 0.957,
    "actual": null,
    "curve": 0.4216
@@ -965,7 +965,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.083,
-   "p50": 0.5037,
+   "p50": 0.5557,
    "p90": 0.9358,
    "actual": null,
    "curve": 0.1503
@@ -975,7 +975,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0161,
-   "p50": 0.0899,
+   "p50": 0.2474,
    "p90": 0.792,
    "actual": null,
    "curve": 0.1644
@@ -985,7 +985,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.276,
+   "p50": 0.2837,
    "p90": 0.85,
    "actual": null,
    "curve": 0.1702
@@ -995,7 +995,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0304,
-   "p50": 0.0596,
+   "p50": 0.1129,
    "p90": 0.4862,
    "actual": null,
    "curve": 0.03
@@ -1005,7 +1005,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0162,
-   "p50": 0.2847,
+   "p50": 0.2083,
    "p90": 0.5909,
    "actual": null,
    "curve": 0.1083
@@ -1015,7 +1015,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0601,
+   "p50": 0.0424,
    "p90": 0.4144,
    "actual": null,
    "curve": 0.0728
@@ -1025,7 +1025,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0095,
-   "p50": 0.4048,
+   "p50": 0.2,
    "p90": 0.5394,
    "actual": null,
    "curve": 0.0565
@@ -1035,7 +1035,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0326,
+   "p50": 0.0805,
    "p90": 0.3753,
    "actual": null,
    "curve": 0.0314
@@ -1045,7 +1045,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0044,
+   "p50": 0.0607,
    "p90": 0.2549,
    "actual": null,
    "curve": 0.0293
@@ -1055,7 +1055,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0668,
+   "p50": 0.0931,
    "p90": 0.2551,
    "actual": null,
    "curve": 0.0393
@@ -1065,7 +1065,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0673,
+   "p50": 0.0694,
    "p90": 0.2482,
    "actual": null,
    "curve": 0.0212
@@ -1075,8 +1075,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1287,
-   "p90": 0.1362,
+   "p50": 0.1131,
+   "p90": 0.1287,
    "actual": null,
    "curve": 0.0705
   },
@@ -1085,7 +1085,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0511,
+   "p50": 0.0541,
    "p90": 0.1335,
    "actual": null,
    "curve": 0.0297
@@ -1095,7 +1095,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0978,
+   "p50": 0.1097,
    "p90": 0.1852,
    "actual": null,
    "curve": 0.2027
@@ -1105,7 +1105,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0773,
+   "p50": 0.111,
    "p90": 0.1661,
    "actual": null,
    "curve": 0.0991
@@ -1115,7 +1115,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0576,
+   "p50": 0.1363,
    "p90": 0.1924,
    "actual": null,
    "curve": 0.164
@@ -1125,7 +1125,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.049,
+   "p50": 0.1073,
    "p90": 0.1392,
    "actual": null,
    "curve": 0.092
@@ -1135,7 +1135,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0726,
+   "p50": 0.0983,
    "p90": 0.124,
    "actual": null,
    "curve": 0.0543
@@ -1145,7 +1145,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0574,
+   "p50": 0.1153,
    "p90": 0.1345,
    "actual": null,
    "curve": 0.0424
@@ -1155,8 +1155,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0674,
-   "p90": 0.0826,
+   "p50": 0.0826,
+   "p90": 0.0931,
    "actual": null,
    "curve": 0.0558
   },
@@ -1165,7 +1165,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0463,
+   "p50": 0.0826,
    "p90": 0.0843,
    "actual": null,
    "curve": 0.0524
@@ -1175,7 +1175,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0819,
+   "p50": 0.1132,
    "p90": 0.1436,
    "actual": null,
    "curve": 0.0298
@@ -1185,7 +1185,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0696,
+   "p50": 0.1217,
    "p90": 0.1817,
    "actual": null,
    "curve": 0.1829
@@ -1195,7 +1195,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.075,
+   "p50": 0.1086,
    "p90": 0.2082,
    "actual": null,
    "curve": 0.0561
@@ -1205,7 +1205,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0026,
-   "p50": 0.1314,
+   "p50": 0.1843,
    "p90": 0.2211,
    "actual": null,
    "curve": 0.1724
@@ -1215,7 +1215,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1232,
+   "p50": 0.1283,
    "p90": 0.3362,
    "actual": null,
    "curve": 0.1747
@@ -1225,7 +1225,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0098,
-   "p50": 0.2307,
+   "p50": 0.225,
    "p90": 0.4419,
    "actual": null,
    "curve": 0.1058
@@ -1235,7 +1235,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0186,
-   "p50": 0.2699,
+   "p50": 0.2946,
    "p90": 0.5354,
    "actual": null,
    "curve": 0.1402
@@ -1245,7 +1245,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0225,
-   "p50": 0.2957,
+   "p50": 0.2972,
    "p90": 0.648,
    "actual": null,
    "curve": 0.3066
@@ -1255,7 +1255,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0479,
-   "p50": 0.449,
+   "p50": 0.4355,
    "p90": 0.7449,
    "actual": null,
    "curve": 0.4057
@@ -1265,7 +1265,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0433,
-   "p50": 0.454,
+   "p50": 0.4273,
    "p90": 0.865,
    "actual": null,
    "curve": 0.5881
@@ -1275,7 +1275,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.1222,
-   "p50": 0.5124,
+   "p50": 0.5167,
    "p90": 0.8379,
    "actual": null,
    "curve": 0.5534
@@ -1285,7 +1285,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0979,
-   "p50": 0.571,
+   "p50": 0.569,
    "p90": 0.8403,
    "actual": null,
    "curve": 0.5111
@@ -1295,7 +1295,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0991,
-   "p50": 0.5197,
+   "p50": 0.5424,
    "p90": 0.8405,
    "actual": null,
    "curve": 0.4211
@@ -1305,7 +1305,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.1117,
-   "p50": 0.5166,
+   "p50": 0.5243,
    "p90": 0.9202,
    "actual": null,
    "curve": 0.4339
@@ -1315,7 +1315,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.1462,
-   "p50": 0.6076,
+   "p50": 0.5847,
    "p90": 0.8616,
    "actual": null,
    "curve": 0.3991
@@ -1325,7 +1325,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.08,
-   "p50": 0.5451,
+   "p50": 0.5437,
    "p90": 0.9514,
    "actual": null,
    "curve": 0.4046
@@ -1335,7 +1335,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0384,
-   "p50": 0.4423,
+   "p50": 0.5514,
    "p90": 0.8492,
    "actual": null,
    "curve": 0.4277
@@ -1345,7 +1345,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0792,
-   "p50": 0.5503,
+   "p50": 0.6072,
    "p90": 0.8256,
    "actual": null,
    "curve": 0.2245
@@ -1355,7 +1355,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.094,
-   "p50": 0.5319,
+   "p50": 0.6018,
    "p90": 0.8794,
    "actual": null,
    "curve": 0.3905
@@ -1365,7 +1365,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.1018,
-   "p50": 0.5842,
+   "p50": 0.6417,
    "p90": 0.8087,
    "actual": null,
    "curve": 0.2166
@@ -1375,7 +1375,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.1151,
-   "p50": 0.5371,
+   "p50": 0.66,
    "p90": 0.8801,
    "actual": null,
    "curve": 0.5573
@@ -1385,7 +1385,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.1352,
-   "p50": 0.5708,
+   "p50": 0.6016,
    "p90": 0.8866,
    "actual": null,
    "curve": 0.318
@@ -1395,7 +1395,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.1266,
-   "p50": 0.5325,
+   "p50": 0.6587,
    "p90": 0.9471,
    "actual": null,
    "curve": 0.4134
@@ -1405,7 +1405,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.1019,
-   "p50": 0.5733,
+   "p50": 0.6108,
    "p90": 0.934,
    "actual": null,
    "curve": 0.3946
@@ -1415,7 +1415,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.1124,
-   "p50": 0.5842,
+   "p50": 0.6222,
    "p90": 0.883,
    "actual": null,
    "curve": 0.3998
@@ -1425,7 +1425,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.126,
-   "p50": 0.4803,
+   "p50": 0.542,
    "p90": 0.8432,
    "actual": null,
    "curve": 0.4474
@@ -1435,7 +1435,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.1555,
-   "p50": 0.6332,
+   "p50": 0.6882,
    "p90": 0.9014,
    "actual": null,
    "curve": 0.3632
@@ -1445,7 +1445,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.1032,
-   "p50": 0.4679,
+   "p50": 0.4711,
    "p90": 0.8618,
    "actual": null,
    "curve": 0.5864
@@ -1455,7 +1455,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0882,
-   "p50": 0.625,
+   "p50": 0.5672,
    "p90": 0.916,
    "actual": null,
    "curve": 0.6048
@@ -1465,7 +1465,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.1219,
-   "p50": 0.7471,
+   "p50": 0.6776,
    "p90": 0.9035,
    "actual": null,
    "curve": 0.3937
@@ -1475,7 +1475,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.111,
-   "p50": 0.487,
+   "p50": 0.4723,
    "p90": 0.9018,
    "actual": null,
    "curve": 0.4717
@@ -1485,7 +1485,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.1241,
-   "p50": 0.5967,
+   "p50": 0.6239,
    "p90": 0.8609,
    "actual": null,
    "curve": 0.3176
@@ -1495,7 +1495,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.1534,
-   "p50": 0.4415,
+   "p50": 0.5082,
    "p90": 0.919,
    "actual": null,
    "curve": 0.4975
@@ -1505,7 +1505,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.1154,
-   "p50": 0.5794,
+   "p50": 0.5762,
    "p90": 0.8593,
    "actual": null,
    "curve": 0.3322
@@ -1515,7 +1515,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.1216,
-   "p50": 0.4487,
+   "p50": 0.4309,
    "p90": 0.8603,
    "actual": null,
    "curve": 0.5021
@@ -1525,7 +1525,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.1269,
-   "p50": 0.6509,
+   "p50": 0.5889,
    "p90": 0.9396,
    "actual": null,
    "curve": 0.5246
@@ -1535,7 +1535,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.1369,
-   "p50": 0.5424,
+   "p50": 0.4976,
    "p90": 0.897,
    "actual": null,
    "curve": 0.5359
@@ -1545,7 +1545,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.1113,
-   "p50": 0.4958,
+   "p50": 0.5232,
    "p90": 0.8546,
    "actual": null,
    "curve": 0.3174
@@ -1555,7 +1555,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0522,
-   "p50": 0.452,
+   "p50": 0.4084,
    "p90": 0.8353,
    "actual": null,
    "curve": 0.5117
@@ -1565,7 +1565,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.027,
-   "p50": 0.3518,
+   "p50": 0.3378,
    "p90": 0.7258,
    "actual": null,
    "curve": 0.2089
@@ -1575,7 +1575,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0231,
-   "p50": 0.2681,
+   "p50": 0.2316,
    "p90": 0.636,
    "actual": null,
    "curve": 0.2646
@@ -1585,7 +1585,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.012,
-   "p50": 0.234,
+   "p50": 0.27,
    "p90": 0.5898,
    "actual": null,
    "curve": 0.2099
@@ -1595,7 +1595,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0072,
-   "p50": 0.2017,
+   "p50": 0.2079,
    "p90": 0.524,
    "actual": null,
    "curve": 0.2303
@@ -1605,7 +1605,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0079,
-   "p50": 0.2182,
+   "p50": 0.2051,
    "p90": 0.4548,
    "actual": null,
    "curve": 0.1035
@@ -1615,7 +1615,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1725,
+   "p50": 0.1603,
    "p90": 0.3835,
    "actual": null,
    "curve": 0.2224
@@ -1625,7 +1625,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.002,
-   "p50": 0.2277,
+   "p50": 0.2156,
    "p90": 0.3775,
    "actual": null,
    "curve": 0.1008
@@ -1635,7 +1635,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0036,
-   "p50": 0.1735,
+   "p50": 0.1675,
    "p90": 0.355,
    "actual": null,
    "curve": 0.1903
@@ -1645,7 +1645,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.1678,
+   "p50": 0.2176,
    "p90": 0.2859,
    "actual": null,
    "curve": 0.1234
@@ -1655,7 +1655,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0007,
-   "p50": 0.108,
+   "p50": 0.1524,
    "p90": 0.2605,
    "actual": null,
    "curve": 0.1466
@@ -1665,7 +1665,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0926,
+   "p50": 0.1444,
    "p90": 0.1884,
    "actual": null,
    "curve": 0.1067
@@ -1675,7 +1675,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0541,
+   "p50": 0.13,
    "p90": 0.1896,
    "actual": null,
    "curve": 0.1028
@@ -1685,7 +1685,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.1183,
+   "p50": 0.1249,
    "p90": 0.1373,
    "actual": null,
    "curve": 0.0734
@@ -1695,7 +1695,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1118,
+   "p50": 0.1777,
    "p90": 0.19,
    "actual": null,
    "curve": 0.0432
@@ -1705,7 +1705,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0838,
+   "p50": 0.1104,
    "p90": 0.1733,
    "actual": null,
    "curve": 0.0496
@@ -1715,7 +1715,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.123,
+   "p50": 0.1848,
    "p90": 0.3652,
    "actual": null,
    "curve": 0.0131
@@ -1725,7 +1725,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0012,
-   "p50": 0.2732,
+   "p50": 0.1967,
    "p90": 0.4252,
    "actual": null,
    "curve": 0.0141
@@ -1735,7 +1735,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.008,
-   "p50": 0.2258,
+   "p50": 0.2385,
    "p90": 0.4446,
    "actual": null,
    "curve": 0.0579
@@ -1745,7 +1745,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0566,
-   "p50": 0.5091,
+   "p50": 0.495,
    "p90": 0.7809,
    "actual": null,
    "curve": 0.1988
@@ -1755,7 +1755,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.1514,
-   "p50": 0.6216,
+   "p50": 0.5524,
    "p90": 0.9254,
    "actual": null,
    "curve": 0.3359
@@ -1765,7 +1765,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.2156,
-   "p50": 0.729,
+   "p50": 0.6757,
    "p90": 0.9896,
    "actual": null,
    "curve": 0.3945
@@ -1775,7 +1775,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.2572,
-   "p50": 0.6822,
+   "p50": 0.6558,
    "p90": 0.9616,
    "actual": null,
    "curve": 0.4173
@@ -1785,7 +1785,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.2012,
-   "p50": 0.7724,
+   "p50": 0.7805,
    "p90": 1.0,
    "actual": null,
    "curve": 0.5381
@@ -1795,7 +1795,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.3346,
-   "p50": 0.7861,
+   "p50": 0.6885,
    "p90": 1.0,
    "actual": null,
    "curve": 0.4917
@@ -1805,7 +1805,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.4499,
-   "p50": 0.828,
+   "p50": 0.7751,
    "p90": 1.0,
    "actual": null,
    "curve": 0.5944
@@ -1815,7 +1815,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.4385,
-   "p50": 0.8806,
+   "p50": 0.8675,
    "p90": 1.0,
    "actual": null,
    "curve": 0.6113
@@ -1825,7 +1825,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.4184,
-   "p50": 0.8597,
+   "p50": 0.7954,
    "p90": 1.0,
    "actual": null,
    "curve": 0.5639
@@ -1835,7 +1835,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.6096,
-   "p50": 0.9271,
+   "p50": 0.8793,
    "p90": 1.0,
    "actual": null,
    "curve": 0.7192
@@ -1845,7 +1845,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.4713,
-   "p50": 0.9249,
+   "p50": 0.8625,
    "p90": 1.0,
    "actual": null,
    "curve": 0.6033
@@ -1855,7 +1855,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.7101,
-   "p50": 0.8815,
+   "p50": 0.8471,
    "p90": 1.0,
    "actual": null,
    "curve": 0.8168
@@ -1865,7 +1865,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.3888,
-   "p50": 0.9066,
+   "p50": 0.8169,
    "p90": 1.0,
    "actual": null,
    "curve": 0.6242
@@ -1875,7 +1875,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.7591,
-   "p50": 0.8504,
+   "p50": 0.7933,
    "p90": 0.997,
    "actual": null,
    "curve": 0.8558
@@ -1885,7 +1885,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.6045,
-   "p50": 0.8831,
+   "p50": 0.8051,
    "p90": 1.0,
    "actual": null,
    "curve": 0.6737
@@ -1895,7 +1895,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.7281,
-   "p50": 0.8984,
+   "p50": 0.8083,
    "p90": 1.0,
    "actual": null,
    "curve": 0.8896
@@ -1905,7 +1905,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.6157,
-   "p50": 0.8974,
+   "p50": 0.7991,
    "p90": 1.0,
    "actual": null,
    "curve": 0.6995
@@ -1915,7 +1915,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.8349,
-   "p50": 0.8908,
+   "p50": 0.898,
    "p90": 0.9959,
    "actual": null,
    "curve": 0.9117
@@ -1925,7 +1925,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.7327,
-   "p50": 0.8616,
+   "p50": 0.7951,
    "p90": 0.9987,
    "actual": null,
    "curve": 0.8312
@@ -1935,7 +1935,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.8231,
-   "p50": 0.921,
+   "p50": 0.9482,
    "p90": 0.9915,
    "actual": null,
    "curve": 0.9165
@@ -1945,7 +1945,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.8059,
-   "p50": 0.8837,
+   "p50": 0.9446,
    "p90": 0.9937,
    "actual": null,
    "curve": 0.8883
@@ -1955,7 +1955,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.8324,
-   "p50": 0.9418,
+   "p50": 0.9282,
    "p90": 0.9949,
    "actual": null,
    "curve": 0.9242
@@ -1965,7 +1965,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.8081,
-   "p50": 0.9024,
+   "p50": 0.9448,
    "p90": 0.9933,
    "actual": null,
    "curve": 0.9113
@@ -1975,7 +1975,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.8156,
-   "p50": 0.9368,
+   "p50": 0.9203,
    "p90": 0.9921,
    "actual": null,
    "curve": 0.9257
@@ -1985,7 +1985,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.8232,
-   "p50": 0.9227,
+   "p50": 0.926,
    "p90": 0.9958,
    "actual": null,
    "curve": 0.9191
@@ -1995,7 +1995,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.8319,
-   "p50": 0.9429,
+   "p50": 0.9339,
    "p90": 0.9928,
    "actual": null,
    "curve": 0.927
@@ -2005,7 +2005,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.834,
-   "p50": 0.9293,
+   "p50": 0.9449,
    "p90": 0.9914,
    "actual": null,
    "curve": 0.9284
@@ -2015,7 +2015,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.7592,
-   "p50": 0.905,
+   "p50": 0.9155,
    "p90": 0.9955,
    "actual": null,
    "curve": 0.9242
@@ -2025,7 +2025,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.8275,
-   "p50": 0.9084,
+   "p50": 0.9346,
    "p90": 0.9945,
    "actual": null,
    "curve": 0.8883
@@ -2035,7 +2035,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.8266,
-   "p50": 0.9256,
+   "p50": 0.9484,
    "p90": 0.9962,
    "actual": null,
    "curve": 0.9242
@@ -2045,7 +2045,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.7867,
-   "p50": 0.9092,
+   "p50": 0.9302,
    "p90": 0.993,
    "actual": null,
    "curve": 0.8921
@@ -2055,7 +2055,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.8161,
-   "p50": 0.9797,
+   "p50": 0.9648,
    "p90": 0.9968,
    "actual": null,
    "curve": 0.9242
@@ -2075,7 +2075,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.8319,
-   "p50": 0.9731,
+   "p50": 0.9608,
    "p90": 0.9951,
    "actual": null,
    "curve": 0.9273
@@ -2095,8 +2095,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.8288,
-   "p50": 0.9613,
-   "p90": 0.9946,
+   "p50": 0.9946,
+   "p90": 1.0,
    "actual": null,
    "curve": 0.9196
   },
@@ -2105,7 +2105,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.8505,
-   "p50": 0.9388,
+   "p50": 0.9403,
    "p90": 0.9906,
    "actual": null,
    "curve": 0.9359
@@ -2115,8 +2115,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.8085,
-   "p50": 0.9881,
-   "p90": 0.9971,
+   "p50": 0.9971,
+   "p90": 1.0,
    "actual": null,
    "curve": 0.8856
   },
@@ -2125,8 +2125,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.7891,
-   "p50": 0.9783,
-   "p90": 0.9952,
+   "p50": 0.9952,
+   "p90": 0.9971,
    "actual": null,
    "curve": 0.8883
   },
@@ -2135,7 +2135,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.6613,
-   "p50": 0.9741,
+   "p50": 0.9961,
    "p90": 1.0,
    "actual": null,
    "curve": 0.7192
@@ -2145,7 +2145,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.6417,
-   "p50": 0.9463,
+   "p50": 0.9528,
    "p90": 0.9976,
    "actual": null,
    "curve": 0.6713
@@ -2155,8 +2155,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.5773,
-   "p50": 0.9991,
-   "p90": 1.0,
+   "p50": 0.9574,
+   "p90": 0.9991,
    "actual": null,
    "curve": 0.6434
   },
@@ -2165,7 +2165,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.543,
-   "p50": 1.0,
+   "p50": 0.9828,
    "p90": 1.0,
    "actual": null,
    "curve": 0.6368
@@ -2175,7 +2175,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.4078,
-   "p50": 0.9744,
+   "p50": 0.8904,
    "p90": 0.9943,
    "actual": null,
    "curve": 0.5022
@@ -2195,7 +2195,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.308,
-   "p50": 0.8324,
+   "p50": 0.7881,
    "p90": 0.941,
    "actual": null,
    "curve": 0.4157
@@ -2205,7 +2205,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.275,
-   "p50": 0.8589,
+   "p50": 0.791,
    "p90": 1.0,
    "actual": null,
    "curve": 0.5251
@@ -2215,7 +2215,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.3101,
-   "p50": 0.7877,
+   "p50": 0.7415,
    "p90": 0.9358,
    "actual": null,
    "curve": 0.4277
@@ -2225,7 +2225,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.2886,
-   "p50": 0.824,
+   "p50": 0.7891,
    "p90": 0.9212,
    "actual": null,
    "curve": 0.4048
@@ -2235,7 +2235,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.3222,
-   "p50": 0.812,
+   "p50": 0.7143,
    "p90": 0.9615,
    "actual": null,
    "curve": 0.4704
@@ -2245,7 +2245,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.3106,
-   "p50": 0.805,
+   "p50": 0.7542,
    "p90": 0.9468,
    "actual": null,
    "curve": 0.4387
@@ -2255,7 +2255,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.355,
-   "p50": 0.7266,
+   "p50": 0.7615,
    "p90": 0.9683,
    "actual": null,
    "curve": 0.475
@@ -2265,7 +2265,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.2948,
-   "p50": 0.7324,
+   "p50": 0.7418,
    "p90": 0.9466,
    "actual": null,
    "curve": 0.4337
@@ -2275,7 +2275,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.2964,
-   "p50": 0.6992,
+   "p50": 0.6819,
    "p90": 0.9198,
    "actual": null,
    "curve": 0.3997
@@ -2285,7 +2285,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.3746,
-   "p50": 0.6806,
+   "p50": 0.7461,
    "p90": 0.9699,
    "actual": null,
    "curve": 0.4914
@@ -2295,7 +2295,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.3122,
-   "p50": 0.6176,
+   "p50": 0.6533,
    "p90": 0.9439,
    "actual": null,
    "curve": 0.4253
@@ -2305,7 +2305,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.1953,
-   "p50": 0.4185,
+   "p50": 0.5302,
    "p90": 0.9154,
    "actual": null,
    "curve": 0.3445
@@ -2315,7 +2315,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.2181,
-   "p50": 0.4415,
+   "p50": 0.5451,
    "p90": 0.9045,
    "actual": null,
    "curve": 0.3694
@@ -2325,7 +2325,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.2004,
-   "p50": 0.4334,
+   "p50": 0.5203,
    "p90": 0.8368,
    "actual": null,
    "curve": 0.3087
@@ -2335,7 +2335,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.1204,
-   "p50": 0.4503,
+   "p50": 0.5144,
    "p90": 0.8521,
    "actual": null,
    "curve": 0.2581
@@ -2345,7 +2345,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.1504,
-   "p50": 0.4677,
+   "p50": 0.5682,
    "p90": 0.8303,
    "actual": null,
    "curve": 0.2709
@@ -2355,7 +2355,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0571,
-   "p50": 0.5019,
+   "p50": 0.508,
    "p90": 0.8374,
    "actual": null,
    "curve": 0.2173
@@ -2365,7 +2365,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.1166,
-   "p50": 0.4876,
+   "p50": 0.5687,
    "p90": 0.7911,
    "actual": null,
    "curve": 0.2321
@@ -2375,7 +2375,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0127,
-   "p50": 0.359,
+   "p50": 0.4125,
    "p90": 0.8578,
    "actual": null,
    "curve": 0.1581
@@ -2385,7 +2385,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.06,
-   "p50": 0.4928,
+   "p50": 0.4487,
    "p90": 0.8636,
    "actual": null,
    "curve": 0.196
@@ -2395,7 +2395,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0155,
-   "p50": 0.1781,
+   "p50": 0.2061,
    "p90": 0.5348,
    "actual": null,
    "curve": 0.0509
@@ -2405,7 +2405,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.026,
-   "p50": 0.2707,
+   "p50": 0.2965,
    "p90": 0.5807,
    "actual": null,
    "curve": 0.0532
@@ -2415,7 +2415,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0569,
+   "p50": 0.1347,
    "p90": 0.3436,
    "actual": null,
    "curve": 0.0482
@@ -2425,7 +2425,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.1209,
+   "p50": 0.1239,
    "p90": 0.4477,
    "actual": null,
    "curve": 0.0533
@@ -2435,7 +2435,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1023,
+   "p50": 0.1636,
    "p90": 0.358,
    "actual": null,
    "curve": 0.0181
@@ -2445,7 +2445,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.2643,
+   "p50": 0.2581,
    "p90": 0.6553,
    "actual": null,
    "curve": 0.6161
@@ -2455,7 +2455,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1468,
+   "p50": 0.1467,
    "p90": 0.3632,
    "actual": null,
    "curve": 0.3474
@@ -2465,7 +2465,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.2254,
+   "p50": 0.1779,
    "p90": 0.458,
    "actual": null,
    "curve": 0.2844
@@ -2475,7 +2475,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0114,
-   "p50": 0.3357,
+   "p50": 0.3104,
    "p90": 0.6038,
    "actual": null,
    "curve": 0.5667
@@ -2485,7 +2485,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.1816,
+   "p50": 0.2034,
    "p90": 0.4239,
    "actual": null,
    "curve": 0.2166
@@ -2505,7 +2505,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.2253,
+   "p50": 0.2705,
    "p90": 0.6967,
    "actual": null,
    "curve": 0.6595
@@ -2515,7 +2515,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0926,
-   "p50": 0.2438,
+   "p50": 0.2301,
    "p90": 0.6152,
    "actual": null,
    "curve": 0.0433
@@ -2525,7 +2525,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0268,
-   "p50": 0.4339,
+   "p50": 0.4379,
    "p90": 0.9248,
    "actual": null,
    "curve": 0.98
@@ -2535,7 +2535,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0743,
-   "p50": 0.3702,
+   "p50": 0.4339,
    "p90": 0.8084,
    "actual": null,
    "curve": 0.2428
@@ -2545,7 +2545,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0375,
-   "p50": 0.3395,
+   "p50": 0.2549,
    "p90": 0.9336,
    "actual": null,
    "curve": 0.9193
@@ -2555,7 +2555,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.2127,
-   "p50": 0.5311,
+   "p50": 0.4736,
    "p90": 0.9036,
    "actual": null,
    "curve": 0.7192
@@ -2565,7 +2565,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.4085,
-   "p50": 0.6827,
+   "p50": 0.7557,
    "p90": 0.9792,
    "actual": null,
    "curve": 0.9746
@@ -2575,7 +2575,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.3792,
-   "p50": 0.8127,
+   "p50": 0.7542,
    "p90": 0.9971,
    "actual": null,
    "curve": 0.8558
@@ -2585,7 +2585,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.613,
-   "p50": 0.8961,
+   "p50": 0.877,
    "p90": 0.9878,
    "actual": null,
    "curve": 0.9745
@@ -2595,7 +2595,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.8911,
-   "p50": 0.9291,
+   "p50": 0.9031,
    "p90": 0.997,
    "actual": null,
    "curve": 0.9242
@@ -2605,7 +2605,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.9475,
-   "p50": 0.9827,
+   "p50": 0.975,
    "p90": 1.0,
    "actual": null,
    "curve": 0.98
@@ -2615,7 +2615,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.9462,
-   "p50": 0.9589,
+   "p50": 0.9736,
    "p90": 0.9927,
    "actual": null,
    "curve": 0.9616
@@ -2625,7 +2625,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.9647,
-   "p50": 0.9738,
+   "p50": 0.9861,
    "p90": 1.0,
    "actual": null,
    "curve": 0.98
@@ -2635,7 +2635,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.9686,
-   "p50": 0.9844,
+   "p50": 0.9795,
    "p90": 0.9952,
    "actual": null,
    "curve": 0.9852
@@ -2645,7 +2645,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.9498,
-   "p50": 0.9641,
+   "p50": 0.9711,
    "p90": 0.9963,
    "actual": null,
    "curve": 0.9723
@@ -2655,7 +2655,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.9563,
-   "p50": 0.9881,
+   "p50": 0.9746,
    "p90": 0.9935,
    "actual": null,
    "curve": 0.9884
@@ -2665,7 +2665,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.9711,
-   "p50": 1.0,
+   "p50": 0.9855,
    "p90": 1.0,
    "actual": null,
    "curve": 0.9865
@@ -2675,8 +2675,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.9628,
-   "p50": 0.9922,
-   "p90": 0.996,
+   "p50": 0.975,
+   "p90": 0.9922,
    "actual": null,
    "curve": 0.9895
   },
@@ -2685,7 +2685,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.9565,
-   "p50": 0.9905,
+   "p50": 0.973,
    "p90": 0.992,
    "actual": null,
    "curve": 0.98
@@ -2694,8 +2694,8 @@ window.DASHBOARD_DATA = {
    "time": "2026-02-06T14:00",
    "turbine": "T1",
    "lead_h": 24,
-   "p10": 0.9752,
-   "p50": 0.9775,
+   "p10": 0.967,
+   "p50": 0.9752,
    "p90": 0.9937,
    "actual": null,
    "curve": 0.9883
@@ -2705,7 +2705,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.9468,
-   "p50": 0.9786,
+   "p50": 0.969,
    "p90": 0.9922,
    "actual": null,
    "curve": 0.9809
@@ -2715,8 +2715,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.9606,
-   "p50": 0.9944,
-   "p90": 0.9967,
+   "p50": 0.9769,
+   "p90": 0.9944,
    "actual": null,
    "curve": 0.988
   },
@@ -2725,7 +2725,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.9557,
-   "p50": 0.9697,
+   "p50": 0.9676,
    "p90": 0.9919,
    "actual": null,
    "curve": 0.9828
@@ -2735,7 +2735,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.9491,
-   "p50": 0.9681,
+   "p50": 0.967,
    "p90": 0.9935,
    "actual": null,
    "curve": 0.9831
@@ -2745,7 +2745,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.9558,
-   "p50": 0.9689,
+   "p50": 0.976,
    "p90": 0.9994,
    "actual": null,
    "curve": 0.98
@@ -2755,7 +2755,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.9199,
-   "p50": 0.9509,
+   "p50": 0.9441,
    "p90": 0.9939,
    "actual": null,
    "curve": 0.9242
@@ -2765,7 +2765,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.9047,
-   "p50": 0.9393,
+   "p50": 0.9396,
    "p90": 0.992,
    "actual": null,
    "curve": 0.9497
@@ -2775,7 +2775,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.5217,
-   "p50": 0.8918,
+   "p50": 0.8757,
    "p90": 0.9991,
    "actual": null,
    "curve": 0.6318
@@ -2785,7 +2785,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.8478,
-   "p50": 0.8749,
+   "p50": 0.8619,
    "p90": 0.9972,
    "actual": null,
    "curve": 0.9539
@@ -2795,7 +2795,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.3309,
-   "p50": 0.718,
+   "p50": 0.7239,
    "p90": 0.937,
    "actual": null,
    "curve": 0.3954
@@ -2805,7 +2805,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.6809,
-   "p50": 0.8486,
+   "p50": 0.8282,
    "p90": 0.9872,
    "actual": null,
    "curve": 0.8883
@@ -2815,7 +2815,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.3006,
-   "p50": 0.7292,
+   "p50": 0.7082,
    "p90": 0.9289,
    "actual": null,
    "curve": 0.2859
@@ -2825,7 +2825,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.5031,
-   "p50": 0.7314,
+   "p50": 0.7414,
    "p90": 0.9824,
    "actual": null,
    "curve": 0.8883
@@ -2835,7 +2835,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.2742,
-   "p50": 0.7421,
+   "p50": 0.754,
    "p90": 0.9533,
    "actual": null,
    "curve": 0.3835
@@ -2845,7 +2845,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.3809,
-   "p50": 0.7056,
+   "p50": 0.6771,
    "p90": 0.9475,
    "actual": null,
    "curve": 0.8177
@@ -2855,7 +2855,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.1823,
-   "p50": 0.6035,
+   "p50": 0.5674,
    "p90": 0.9154,
    "actual": null,
    "curve": 0.349
@@ -2865,7 +2865,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.1921,
-   "p50": 0.5,
+   "p50": 0.458,
    "p90": 0.8415,
    "actual": null,
    "curve": 0.6299
@@ -2875,7 +2875,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.1303,
-   "p50": 0.5017,
+   "p50": 0.4965,
    "p90": 0.8681,
    "actual": null,
    "curve": 0.3081
@@ -2885,7 +2885,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0416,
-   "p50": 0.2974,
+   "p50": 0.2636,
    "p90": 0.7356,
    "actual": null,
    "curve": 0.5763
@@ -2895,7 +2895,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0134,
-   "p50": 0.2505,
+   "p50": 0.2062,
    "p90": 0.4445,
    "actual": null,
    "curve": 0.1102
@@ -2905,7 +2905,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0003,
-   "p50": 0.0998,
+   "p50": 0.0929,
    "p90": 0.2804,
    "actual": null,
    "curve": 0.2392
@@ -2915,7 +2915,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0953,
+   "p50": 0.0969,
    "p90": 0.1429,
    "actual": null,
    "curve": 0.0353
@@ -2925,7 +2925,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0721,
+   "p50": 0.0709,
    "p90": 0.1321,
    "actual": null,
    "curve": 0.1404
@@ -2935,7 +2935,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1163,
+   "p50": 0.1344,
    "p90": 0.2111,
    "actual": null,
    "curve": 0.01
@@ -2945,7 +2945,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0906,
+   "p50": 0.0891,
    "p90": 0.1052,
    "actual": null,
    "curve": 0.0392
@@ -2955,7 +2955,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0368,
+   "p50": 0.039,
    "p90": 0.1148,
    "actual": null,
    "curve": 0.0079
@@ -2965,7 +2965,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.058,
+   "p50": 0.0366,
    "p90": 0.1289,
    "actual": null,
    "curve": 0.0151
@@ -2975,7 +2975,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0539,
+   "p50": 0.0641,
    "p90": 0.1645,
    "actual": null,
    "curve": 0.0106
@@ -2985,7 +2985,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0006,
-   "p50": 0.1177,
+   "p50": 0.0913,
    "p90": 0.258,
    "actual": null,
    "curve": 0.0296
@@ -2995,7 +2995,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0962,
+   "p50": 0.0897,
    "p90": 0.3518,
    "actual": null,
    "curve": 0.0579
@@ -3005,7 +3005,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.011,
-   "p50": 0.251,
+   "p50": 0.1885,
    "p90": 0.6155,
    "actual": null,
    "curve": 0.0293
@@ -3015,7 +3015,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0353,
-   "p50": 0.2223,
+   "p50": 0.1114,
    "p90": 0.7149,
    "actual": null,
    "curve": 0.2661
@@ -3025,7 +3025,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0443,
-   "p50": 0.4396,
+   "p50": 0.3593,
    "p90": 0.7513,
    "actual": null,
    "curve": 0.0753
@@ -3035,7 +3035,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.1183,
-   "p50": 0.4053,
+   "p50": 0.3195,
    "p90": 0.814,
    "actual": null,
    "curve": 0.3627
@@ -3045,7 +3045,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0381,
-   "p50": 0.3938,
+   "p50": 0.336,
    "p90": 0.7976,
    "actual": null,
    "curve": 0.1411
@@ -3055,7 +3055,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0912,
-   "p50": 0.357,
+   "p50": 0.4181,
    "p90": 0.715,
    "actual": null,
    "curve": 0.3479
@@ -3065,7 +3065,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0296,
-   "p50": 0.3622,
+   "p50": 0.3837,
    "p90": 0.7534,
    "actual": null,
    "curve": 0.206
@@ -3075,7 +3075,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.021,
-   "p50": 0.3389,
+   "p50": 0.3838,
    "p90": 0.7514,
    "actual": null,
    "curve": 0.2289
@@ -3085,7 +3085,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0156,
-   "p50": 0.2589,
+   "p50": 0.3125,
    "p90": 0.5608,
    "actual": null,
    "curve": 0.1954
@@ -3095,7 +3095,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0144,
-   "p50": 0.2319,
+   "p50": 0.2254,
    "p90": 0.502,
    "actual": null,
    "curve": 0.0918
@@ -3105,7 +3105,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.009,
-   "p50": 0.1238,
+   "p50": 0.1513,
    "p90": 0.3236,
    "actual": null,
    "curve": 0.1106
@@ -3115,7 +3115,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0024,
-   "p50": 0.1667,
+   "p50": 0.1504,
    "p90": 0.3143,
    "actual": null,
    "curve": 0.0256
@@ -3125,7 +3125,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.1183,
+   "p50": 0.0999,
    "p90": 0.2598,
    "actual": null,
    "curve": 0.0662
@@ -3135,7 +3135,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1878,
+   "p50": 0.2,
    "p90": 0.3062,
    "actual": null,
    "curve": 0.0081
@@ -3145,7 +3145,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0062,
-   "p50": 0.1793,
+   "p50": 0.204,
    "p90": 0.3398,
    "actual": null,
    "curve": 0.0228
@@ -3155,7 +3155,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0055,
-   "p50": 0.1382,
+   "p50": 0.1808,
    "p90": 0.4436,
    "actual": null,
    "curve": 0.217
@@ -3165,7 +3165,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0175,
-   "p50": 0.448,
+   "p50": 0.4409,
    "p90": 0.7505,
    "actual": null,
    "curve": 0.132
@@ -3175,7 +3175,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0596,
-   "p50": 0.3544,
+   "p50": 0.288,
    "p90": 0.9101,
    "actual": null,
    "curve": 0.6057
@@ -3185,7 +3185,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.1469,
-   "p50": 0.3678,
+   "p50": 0.3815,
    "p90": 0.7411,
    "actual": null,
    "curve": 0.5191
@@ -3195,7 +3195,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.1852,
-   "p50": 0.5044,
+   "p50": 0.3717,
    "p90": 0.8422,
    "actual": null,
    "curve": 0.7713
@@ -3205,7 +3205,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.1695,
-   "p50": 0.6062,
+   "p50": 0.624,
    "p90": 0.8791,
    "actual": null,
    "curve": 0.5439
@@ -3215,7 +3215,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.3166,
-   "p50": 0.6361,
+   "p50": 0.5711,
    "p90": 0.9488,
    "actual": null,
    "curve": 0.9033
@@ -3225,7 +3225,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.2711,
-   "p50": 0.767,
+   "p50": 0.736,
    "p90": 0.9771,
    "actual": null,
    "curve": 0.5763
@@ -3235,7 +3235,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.4326,
-   "p50": 0.7178,
+   "p50": 0.7232,
    "p90": 0.9809,
    "actual": null,
    "curve": 0.9117
@@ -3245,7 +3245,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.3984,
-   "p50": 0.8166,
+   "p50": 0.7707,
    "p90": 0.9918,
    "actual": null,
    "curve": 0.7343
@@ -3255,7 +3255,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.5723,
-   "p50": 0.7478,
+   "p50": 0.7832,
    "p90": 0.9903,
    "actual": null,
    "curve": 0.9199
@@ -3265,7 +3265,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.5423,
-   "p50": 0.9003,
+   "p50": 0.8631,
    "p90": 0.9977,
    "actual": null,
    "curve": 0.8212
@@ -3275,7 +3275,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.5465,
-   "p50": 0.7475,
+   "p50": 0.731,
    "p90": 0.989,
    "actual": null,
    "curve": 0.9242
@@ -3285,7 +3285,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.5428,
-   "p50": 0.8711,
+   "p50": 0.8521,
    "p90": 0.9926,
    "actual": null,
    "curve": 0.8883
@@ -3295,7 +3295,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.5804,
-   "p50": 0.7955,
+   "p50": 0.7424,
    "p90": 0.9893,
    "actual": null,
    "curve": 0.9242
@@ -3305,7 +3305,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.5832,
-   "p50": 0.892,
+   "p50": 0.889,
    "p90": 0.9801,
    "actual": null,
    "curve": 0.8087
@@ -3315,7 +3315,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.65,
-   "p50": 0.8282,
+   "p50": 0.8393,
    "p90": 0.9863,
    "actual": null,
    "curve": 0.9117
@@ -3325,7 +3325,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.5222,
-   "p50": 0.8671,
+   "p50": 0.8521,
    "p90": 0.9749,
    "actual": null,
    "curve": 0.8351
@@ -3335,7 +3335,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.6169,
-   "p50": 0.9155,
+   "p50": 0.914,
    "p90": 0.9861,
    "actual": null,
    "curve": 0.8558
@@ -3345,7 +3345,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.5882,
-   "p50": 0.9244,
+   "p50": 0.8902,
    "p90": 0.9856,
    "actual": null,
    "curve": 0.84
@@ -3355,7 +3355,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.539,
-   "p50": 0.9268,
+   "p50": 0.9135,
    "p90": 0.995,
    "actual": null,
    "curve": 0.7192
@@ -3365,7 +3365,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.5617,
-   "p50": 0.9451,
+   "p50": 0.9254,
    "p90": 0.9768,
    "actual": null,
    "curve": 0.7638
@@ -3375,7 +3375,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.419,
-   "p50": 0.8088,
+   "p50": 0.8131,
    "p90": 0.9615,
    "actual": null,
    "curve": 0.6702
@@ -3385,7 +3385,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.2589,
-   "p50": 0.6616,
+   "p50": 0.6204,
    "p90": 0.9459,
    "actual": null,
    "curve": 0.556
@@ -3395,7 +3395,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.2384,
-   "p50": 0.7572,
+   "p50": 0.669,
    "p90": 0.9404,
    "actual": null,
    "curve": 0.6116
@@ -3405,7 +3405,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.1936,
-   "p50": 0.5652,
+   "p50": 0.6039,
    "p90": 0.9125,
    "actual": null,
    "curve": 0.4773
@@ -3415,7 +3415,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.1568,
-   "p50": 0.5715,
+   "p50": 0.5391,
    "p90": 0.8967,
    "actual": null,
    "curve": 0.4513
@@ -3425,7 +3425,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.101,
-   "p50": 0.442,
+   "p50": 0.3494,
    "p90": 0.81,
    "actual": null,
    "curve": 0.3454
@@ -3435,7 +3435,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0428,
-   "p50": 0.3324,
+   "p50": 0.3456,
    "p90": 0.7411,
    "actual": null,
    "curve": 0.2045
@@ -3445,7 +3445,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0265,
-   "p50": 0.2731,
+   "p50": 0.2741,
    "p90": 0.5847,
    "actual": null,
    "curve": 0.2968
@@ -3455,7 +3455,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0015,
-   "p50": 0.1183,
+   "p50": 0.1419,
    "p90": 0.3342,
    "actual": null,
    "curve": 0.0727
@@ -3465,7 +3465,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.07,
+   "p50": 0.1218,
    "p90": 0.2742,
    "actual": null,
    "curve": 0.1878
@@ -3475,7 +3475,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0531,
+   "p50": 0.0686,
    "p90": 0.2083,
    "actual": null,
    "curve": 0.0361
@@ -3485,7 +3485,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0616,
+   "p50": 0.0638,
    "p90": 0.1305,
    "actual": null,
    "curve": 0.0774
@@ -3495,7 +3495,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0105,
+   "p50": 0.0187,
    "p90": 0.1081,
    "actual": null,
    "curve": 0.021
@@ -3505,7 +3505,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0,
+   "p50": 0.0312,
    "p90": 0.0718,
    "actual": null,
    "curve": 0.029
@@ -3515,7 +3515,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0101,
+   "p50": 0.0252,
    "p90": 0.0411,
    "actual": null,
    "curve": 0.01
@@ -3525,7 +3525,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0,
+   "p50": 0.0149,
    "p90": 0.057,
    "actual": null,
    "curve": 0.016
@@ -3535,7 +3535,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0289,
+   "p50": 0.0474,
    "p90": 0.1441,
    "actual": null,
    "curve": 0.0094
@@ -3545,7 +3545,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0966,
+   "p50": 0.0811,
    "p90": 0.1635,
    "actual": null,
    "curve": 0.026
@@ -3555,7 +3555,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0059,
-   "p50": 0.1668,
+   "p50": 0.1609,
    "p90": 0.3573,
    "actual": null,
    "curve": 0.0484
@@ -3565,7 +3565,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0309,
-   "p50": 0.3744,
+   "p50": 0.3791,
    "p90": 0.7178,
    "actual": null,
    "curve": 0.1067
@@ -3575,7 +3575,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.178,
-   "p50": 0.6319,
+   "p50": 0.5997,
    "p90": 0.9168,
    "actual": null,
    "curve": 0.3086
@@ -3585,7 +3585,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.2762,
-   "p50": 0.895,
+   "p50": 0.8379,
    "p90": 0.9551,
    "actual": null,
    "curve": 0.5068
@@ -3595,7 +3595,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.5555,
-   "p50": 0.8946,
+   "p50": 0.9682,
    "p90": 1.0,
    "actual": null,
    "curve": 0.7192
@@ -3605,7 +3605,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.7229,
-   "p50": 1.0,
+   "p50": 0.997,
    "p90": 1.0,
    "actual": null,
    "curve": 0.8237
@@ -3615,8 +3615,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.8323,
-   "p50": 0.9988,
-   "p90": 1.0,
+   "p50": 0.9438,
+   "p90": 0.9988,
    "actual": null,
    "curve": 0.9117
   },
@@ -3625,8 +3625,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.7896,
-   "p50": 0.9965,
-   "p90": 1.0,
+   "p50": 0.9279,
+   "p90": 0.9965,
    "actual": null,
    "curve": 0.8877
   },
@@ -3645,7 +3645,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.6321,
-   "p50": 0.9677,
+   "p50": 0.983,
    "p90": 1.0,
    "actual": null,
    "curve": 0.897
@@ -3655,7 +3655,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.629,
-   "p50": 0.9762,
+   "p50": 0.9878,
    "p90": 0.9994,
    "actual": null,
    "curve": 0.9242
@@ -3665,7 +3665,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.6435,
-   "p50": 0.9865,
+   "p50": 0.9901,
    "p90": 1.0,
    "actual": null,
    "curve": 0.9355
@@ -3675,8 +3675,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.8019,
-   "p50": 0.99,
-   "p90": 0.9927,
+   "p50": 0.9927,
+   "p90": 0.9939,
    "actual": null,
    "curve": 0.9249
   },
@@ -3685,7 +3685,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.6151,
-   "p50": 0.9891,
+   "p50": 0.9879,
    "p90": 0.9919,
    "actual": null,
    "curve": 0.9462
@@ -3695,8 +3695,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.823,
-   "p50": 0.9959,
-   "p90": 1.0,
+   "p50": 0.9929,
+   "p90": 0.9959,
    "actual": null,
    "curve": 0.9282
   },
@@ -3715,8 +3715,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.8458,
-   "p50": 0.9977,
-   "p90": 1.0,
+   "p50": 0.991,
+   "p90": 0.9977,
    "actual": null,
    "curve": 0.9412
   },
@@ -3726,7 +3726,7 @@ window.DASHBOARD_DATA = {
    "lead_h": 48,
    "p10": 0.8752,
    "p50": 0.9964,
-   "p90": 0.9983,
+   "p90": 1.0,
    "actual": null,
    "curve": 0.9596
   },
@@ -3735,7 +3735,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.8404,
-   "p50": 0.9602,
+   "p50": 0.9615,
    "p90": 0.9966,
    "actual": null,
    "curve": 0.9333
@@ -3746,7 +3746,7 @@ window.DASHBOARD_DATA = {
    "lead_h": 48,
    "p10": 0.8786,
    "p50": 0.9965,
-   "p90": 0.9977,
+   "p90": 1.0,
    "actual": null,
    "curve": 0.9736
   },
@@ -3755,7 +3755,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.8499,
-   "p50": 0.9427,
+   "p50": 0.962,
    "p90": 0.9915,
    "actual": null,
    "curve": 0.926
@@ -3765,7 +3765,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.8852,
-   "p50": 0.9936,
+   "p50": 0.9898,
    "p90": 1.0,
    "actual": null,
    "curve": 0.9651
@@ -3775,7 +3775,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.8282,
-   "p50": 0.9734,
+   "p50": 0.9658,
    "p90": 0.9916,
    "actual": null,
    "curve": 0.9295
@@ -3785,8 +3785,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.881,
-   "p50": 0.9969,
-   "p90": 0.9983,
+   "p50": 0.9866,
+   "p90": 0.9969,
    "actual": null,
    "curve": 0.9602
   },
@@ -3795,7 +3795,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.8475,
-   "p50": 0.9354,
+   "p50": 0.9611,
    "p90": 0.9935,
    "actual": null,
    "curve": 0.9267
@@ -3805,7 +3805,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.8851,
-   "p50": 0.9581,
+   "p50": 0.9913,
    "p90": 0.9975,
    "actual": null,
    "curve": 0.9615
@@ -3815,7 +3815,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.8366,
-   "p50": 0.9653,
+   "p50": 0.9746,
    "p90": 0.9947,
    "actual": null,
    "curve": 0.9315
@@ -3825,7 +3825,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.8439,
-   "p50": 0.9671,
+   "p50": 0.975,
    "p90": 1.0,
    "actual": null,
    "curve": 0.9424
@@ -3835,8 +3835,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.8149,
-   "p50": 0.9427,
-   "p90": 0.9728,
+   "p50": 0.9728,
+   "p90": 0.9817,
    "actual": null,
    "curve": 0.9242
   },
@@ -3845,7 +3845,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.854,
-   "p50": 0.9584,
+   "p50": 0.9886,
    "p90": 0.9966,
    "actual": null,
    "curve": 0.9569
@@ -3855,7 +3855,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.661,
-   "p50": 0.8622,
+   "p50": 0.8715,
    "p90": 0.9936,
    "actual": null,
    "curve": 0.9117
@@ -3865,7 +3865,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.8293,
-   "p50": 0.8861,
+   "p50": 0.903,
    "p90": 0.9898,
    "actual": null,
    "curve": 0.9092
@@ -3875,7 +3875,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.6163,
-   "p50": 0.8526,
+   "p50": 0.8695,
    "p90": 0.991,
    "actual": null,
    "curve": 0.8746
@@ -3885,7 +3885,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.6228,
-   "p50": 0.8523,
+   "p50": 0.841,
    "p90": 0.9866,
    "actual": null,
    "curve": 0.8889
@@ -3895,7 +3895,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.6109,
-   "p50": 0.7843,
+   "p50": 0.8345,
    "p90": 0.9944,
    "actual": null,
    "curve": 0.8671
@@ -3905,7 +3905,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.6221,
-   "p50": 0.8183,
+   "p50": 0.8481,
    "p90": 0.9888,
    "actual": null,
    "curve": 0.8883
@@ -3915,7 +3915,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.6255,
-   "p50": 0.7898,
+   "p50": 0.8517,
    "p90": 0.9886,
    "actual": null,
    "curve": 0.8558
@@ -3925,7 +3925,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.6258,
-   "p50": 0.7941,
+   "p50": 0.8606,
    "p90": 0.9898,
    "actual": null,
    "curve": 0.8622
@@ -3935,7 +3935,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.7762,
-   "p50": 0.8379,
+   "p50": 0.9063,
    "p90": 0.9944,
    "actual": null,
    "curve": 0.8502
@@ -3945,7 +3945,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.7824,
-   "p50": 0.8438,
+   "p50": 0.9197,
    "p90": 0.9661,
    "actual": null,
    "curve": 0.8664
@@ -3955,7 +3955,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.742,
-   "p50": 0.8566,
+   "p50": 0.9332,
    "p90": 0.9957,
    "actual": null,
    "curve": 0.8558
@@ -3965,7 +3965,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.6458,
-   "p50": 0.84,
+   "p50": 0.8674,
    "p90": 0.9963,
    "actual": null,
    "curve": 0.7549
@@ -3975,7 +3975,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.7628,
-   "p50": 0.9012,
+   "p50": 0.9247,
    "p90": 1.0,
    "actual": null,
    "curve": 0.861
@@ -3985,7 +3985,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.6905,
-   "p50": 0.8903,
+   "p50": 0.9282,
    "p90": 0.9923,
    "actual": null,
    "curve": 0.8099
@@ -3995,7 +3995,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.7636,
-   "p50": 0.914,
+   "p50": 0.9253,
    "p90": 1.0,
    "actual": null,
    "curve": 0.88
@@ -4005,7 +4005,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.7535,
-   "p50": 0.9098,
+   "p50": 0.8988,
    "p90": 1.0,
    "actual": null,
    "curve": 0.8216
@@ -4015,7 +4015,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.8223,
-   "p50": 0.9362,
+   "p50": 0.9826,
    "p90": 0.9958,
    "actual": null,
    "curve": 0.8558
@@ -4025,7 +4025,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.7628,
-   "p50": 0.931,
+   "p50": 0.9386,
    "p90": 0.9963,
    "actual": null,
    "curve": 0.7686
@@ -4045,7 +4045,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.7558,
-   "p50": 1.0,
+   "p50": 0.9795,
    "p90": 1.0,
    "actual": null,
    "curve": 0.824
@@ -4055,8 +4055,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.7111,
-   "p50": 0.9807,
-   "p90": 0.9987,
+   "p50": 0.9987,
+   "p90": 1.0,
    "actual": null,
    "curve": 0.8001
   },
@@ -4065,8 +4065,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.7599,
-   "p50": 0.9637,
-   "p90": 0.9881,
+   "p50": 0.9881,
+   "p90": 1.0,
    "actual": null,
    "curve": 0.8462
   },
@@ -4085,7 +4085,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.7431,
-   "p50": 0.9487,
+   "p50": 0.9721,
    "p90": 0.9915,
    "actual": null,
    "curve": 0.8281
@@ -4095,7 +4095,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.5129,
-   "p50": 0.881,
+   "p50": 0.9139,
    "p90": 1.0,
    "actual": null,
    "curve": 0.6448
@@ -4105,7 +4105,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.6795,
-   "p50": 0.9313,
+   "p50": 0.9345,
    "p90": 0.9833,
    "actual": null,
    "curve": 0.8507
@@ -4115,7 +4115,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.37,
-   "p50": 0.7743,
+   "p50": 0.7731,
    "p90": 0.9934,
    "actual": null,
    "curve": 0.4474
@@ -4125,7 +4125,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.5187,
-   "p50": 0.9395,
+   "p50": 0.9656,
    "p90": 0.9782,
    "actual": null,
    "curve": 0.7307
@@ -4135,7 +4135,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.289,
-   "p50": 0.6542,
+   "p50": 0.7814,
    "p90": 1.0,
    "actual": null,
    "curve": 0.2471
@@ -4145,7 +4145,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.35,
-   "p50": 0.7085,
+   "p50": 0.7285,
    "p90": 0.9843,
    "actual": null,
    "curve": 0.6289
@@ -4155,7 +4155,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0968,
-   "p50": 0.4799,
+   "p50": 0.6383,
    "p90": 0.8495,
    "actual": null,
    "curve": 0.1002
@@ -4165,7 +4165,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.1229,
-   "p50": 0.5277,
+   "p50": 0.545,
    "p90": 0.9007,
    "actual": null,
    "curve": 0.3764
@@ -4175,7 +4175,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0396,
-   "p50": 0.2472,
+   "p50": 0.3686,
    "p90": 0.4912,
    "actual": null,
    "curve": 0.0294
@@ -4185,7 +4185,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.006,
-   "p50": 0.1877,
+   "p50": 0.3046,
    "p90": 0.5491,
    "actual": null,
    "curve": 0.0692
@@ -4195,7 +4195,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1032,
+   "p50": 0.2204,
    "p90": 0.3111,
    "actual": null,
    "curve": 0.015
@@ -4205,7 +4205,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0712,
+   "p50": 0.1725,
    "p90": 0.2367,
    "actual": null,
    "curve": 0.0185
@@ -4215,7 +4215,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0377,
+   "p50": 0.1498,
    "p90": 0.2923,
    "actual": null,
    "curve": 0.0211
@@ -4225,7 +4225,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0696,
+   "p50": 0.1669,
    "p90": 0.2255,
    "actual": null,
    "curve": 0.0176
@@ -4235,7 +4235,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0948,
+   "p50": 0.1593,
    "p90": 0.2751,
    "actual": null,
    "curve": 0.0523
@@ -4245,7 +4245,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0641,
+   "p50": 0.1442,
    "p90": 0.3462,
    "actual": null,
    "curve": 0.0556
@@ -4255,7 +4255,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0005,
-   "p50": 0.1586,
+   "p50": 0.2259,
    "p90": 0.3494,
    "actual": null,
    "curve": 0.0285
@@ -4265,7 +4265,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.1571,
+   "p50": 0.2157,
    "p90": 0.3645,
    "actual": null,
    "curve": 0.0967
@@ -4275,7 +4275,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1348,
+   "p50": 0.1946,
    "p90": 0.3879,
    "actual": null,
    "curve": 0.0213
@@ -4285,7 +4285,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.1433,
+   "p50": 0.1952,
    "p90": 0.4036,
    "actual": null,
    "curve": 0.0999
@@ -4295,7 +4295,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0037,
-   "p50": 0.205,
+   "p50": 0.2018,
    "p90": 0.3813,
    "actual": null,
    "curve": 0.0207
@@ -4305,7 +4305,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0076,
-   "p50": 0.2608,
+   "p50": 0.2024,
    "p90": 0.5287,
    "actual": null,
    "curve": 0.107
@@ -4315,7 +4315,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0155,
-   "p50": 0.3505,
+   "p50": 0.2735,
    "p90": 0.5404,
    "actual": null,
    "curve": 0.0512
@@ -4325,7 +4325,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.2603,
+   "p50": 0.2431,
    "p90": 0.6102,
    "actual": null,
    "curve": 0.1668
@@ -4335,7 +4335,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.2449,
+   "p50": 0.1981,
    "p90": 0.4443,
    "actual": null,
    "curve": 0.0101
@@ -4345,7 +4345,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0529,
+   "p50": 0.078,
    "p90": 0.3571,
    "actual": null,
    "curve": 0.1542
@@ -4355,7 +4355,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0024,
-   "p50": 0.2453,
+   "p50": 0.2163,
    "p90": 0.5311,
    "actual": null,
    "curve": 0.0911
@@ -4365,7 +4365,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0037,
-   "p50": 0.1448,
+   "p50": 0.1648,
    "p90": 0.5864,
    "actual": null,
    "curve": 0.2832
@@ -4375,7 +4375,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0076,
-   "p50": 0.3195,
+   "p50": 0.3426,
    "p90": 0.4848,
    "actual": null,
    "curve": 0.1443
@@ -4385,7 +4385,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0258,
-   "p50": 0.2927,
+   "p50": 0.3508,
    "p90": 0.5961,
    "actual": null,
    "curve": 0.0679
@@ -4395,7 +4395,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0006,
-   "p50": 0.1984,
+   "p50": 0.2556,
    "p90": 0.6857,
    "actual": null,
    "curve": 0.2648
@@ -4405,7 +4405,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0059,
-   "p50": 0.2521,
+   "p50": 0.2595,
    "p90": 0.4861,
    "actual": null,
    "curve": 0.2449
@@ -4415,7 +4415,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.2262,
+   "p50": 0.2499,
    "p90": 0.4765,
    "actual": null,
    "curve": 0.1503
@@ -4425,7 +4425,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0055,
-   "p50": 0.2189,
+   "p50": 0.2539,
    "p90": 0.5851,
    "actual": null,
    "curve": 0.0545
@@ -4435,7 +4435,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0107,
-   "p50": 0.2501,
+   "p50": 0.2382,
    "p90": 0.5783,
    "actual": null,
    "curve": 0.2416
@@ -4445,7 +4445,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0001,
-   "p50": 0.2585,
+   "p50": 0.2446,
    "p90": 0.4343,
    "actual": null,
    "curve": 0.1955
@@ -4455,7 +4455,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.2449,
+   "p50": 0.2256,
    "p90": 0.318,
    "actual": null,
    "curve": 0.0582
@@ -4465,7 +4465,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.153,
+   "p50": 0.1505,
    "p90": 0.3084,
    "actual": null,
    "curve": 0.0526
@@ -4475,7 +4475,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0026,
-   "p50": 0.1111,
+   "p50": 0.1613,
    "p90": 0.3214,
    "actual": null,
    "curve": 0.0645
@@ -4485,7 +4485,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0051,
-   "p50": 0.2186,
+   "p50": 0.205,
    "p90": 0.4016,
    "actual": null,
    "curve": 0.1902
@@ -4495,7 +4495,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0361,
-   "p50": 0.4567,
+   "p50": 0.3932,
    "p90": 0.7038,
    "actual": null,
    "curve": 0.1865
@@ -4505,7 +4505,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.014,
-   "p50": 0.2119,
+   "p50": 0.2762,
    "p90": 0.6446,
    "actual": null,
    "curve": 0.5527
@@ -4515,7 +4515,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0556,
-   "p50": 0.3429,
+   "p50": 0.2725,
    "p90": 0.6847,
    "actual": null,
    "curve": 0.3114
@@ -4525,7 +4525,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0052,
-   "p50": 0.3101,
+   "p50": 0.3561,
    "p90": 0.6153,
    "actual": null,
    "curve": 0.1823
@@ -4535,7 +4535,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0326,
-   "p50": 0.3691,
+   "p50": 0.3881,
    "p90": 0.615,
    "actual": null,
    "curve": 0.2787
@@ -4545,7 +4545,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.021,
-   "p50": 0.3434,
+   "p50": 0.2874,
    "p90": 0.6215,
    "actual": null,
    "curve": 0.1897
@@ -4555,7 +4555,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0485,
-   "p50": 0.4442,
+   "p50": 0.3536,
    "p90": 0.7123,
    "actual": null,
    "curve": 0.2977
@@ -4565,7 +4565,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0423,
-   "p50": 0.3507,
+   "p50": 0.3114,
    "p90": 0.5623,
    "actual": null,
    "curve": 0.2618
@@ -4575,7 +4575,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.021,
-   "p50": 0.3491,
+   "p50": 0.401,
    "p90": 0.5734,
    "actual": null,
    "curve": 0.254
@@ -4585,7 +4585,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0112,
-   "p50": 0.3975,
+   "p50": 0.3861,
    "p90": 0.4711,
    "actual": null,
    "curve": 0.1026
@@ -4595,7 +4595,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0021,
-   "p50": 0.2469,
+   "p50": 0.2178,
    "p90": 0.4815,
    "actual": null,
    "curve": 0.108
@@ -4605,7 +4605,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0085,
-   "p50": 0.181,
+   "p50": 0.1966,
    "p90": 0.3629,
    "actual": null,
    "curve": 0.1188
@@ -4615,7 +4615,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0195,
-   "p50": 0.1872,
+   "p50": 0.2594,
    "p90": 0.451,
    "actual": null,
    "curve": 0.1176
@@ -4625,7 +4625,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0161,
-   "p50": 0.2693,
+   "p50": 0.3534,
    "p90": 0.5352,
    "actual": null,
    "curve": 0.0499
@@ -4635,7 +4635,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.1739,
-   "p50": 0.6362,
+   "p50": 0.6207,
    "p90": 0.9719,
    "actual": null,
    "curve": 0.5336
@@ -4645,7 +4645,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.2375,
-   "p50": 0.822,
+   "p50": 0.8031,
    "p90": 1.0,
    "actual": null,
    "curve": 0.5957
@@ -4655,7 +4655,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.4583,
-   "p50": 0.8468,
+   "p50": 0.8957,
    "p90": 1.0,
    "actual": null,
    "curve": 0.7715
@@ -4665,7 +4665,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.5972,
-   "p50": 0.8005,
+   "p50": 0.8783,
    "p90": 0.9975,
    "actual": null,
    "curve": 0.6107
@@ -4675,7 +4675,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.7047,
-   "p50": 0.945,
+   "p50": 0.9643,
    "p90": 0.9977,
    "actual": null,
    "curve": 0.8969
@@ -4685,7 +4685,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.6874,
-   "p50": 0.9748,
+   "p50": 0.9895,
    "p90": 0.9953,
    "actual": null,
    "curve": 0.6939
@@ -4695,7 +4695,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.8127,
-   "p50": 0.9486,
+   "p50": 0.9718,
    "p90": 0.9957,
    "actual": null,
    "curve": 0.9242
@@ -4715,7 +4715,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.8383,
-   "p50": 0.9667,
+   "p50": 0.9733,
    "p90": 1.0,
    "actual": null,
    "curve": 0.9264
@@ -4725,7 +4725,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.7825,
-   "p50": 0.8978,
+   "p50": 0.9884,
    "p90": 0.9942,
    "actual": null,
    "curve": 0.8976
@@ -4735,7 +4735,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.814,
-   "p50": 0.8718,
+   "p50": 0.9325,
    "p90": 0.9958,
    "actual": null,
    "curve": 0.9117
@@ -4745,7 +4745,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.6499,
-   "p50": 0.8711,
+   "p50": 0.9232,
    "p90": 1.0,
    "actual": null,
    "curve": 0.7603
@@ -4755,7 +4755,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.5547,
-   "p50": 0.8513,
+   "p50": 0.9217,
    "p90": 1.0,
    "actual": null,
    "curve": 0.7192
@@ -4765,7 +4765,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.4234,
-   "p50": 0.8191,
+   "p50": 0.8328,
    "p90": 1.0,
    "actual": null,
    "curve": 0.6231
@@ -4775,7 +4775,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.3876,
-   "p50": 0.8776,
+   "p50": 0.8638,
    "p90": 0.9717,
    "actual": null,
    "curve": 0.5278
@@ -4785,7 +4785,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.2481,
-   "p50": 0.7279,
+   "p50": 0.6899,
    "p90": 0.9332,
    "actual": null,
    "curve": 0.3915
@@ -4795,7 +4795,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0918,
-   "p50": 0.4918,
+   "p50": 0.4594,
    "p90": 0.8185,
    "actual": null,
    "curve": 0.1721
@@ -4805,7 +4805,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0309,
-   "p50": 0.3563,
+   "p50": 0.2651,
    "p90": 0.623,
    "actual": null,
    "curve": 0.0548
@@ -4815,7 +4815,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0289,
-   "p50": 0.1998,
+   "p50": 0.2067,
    "p90": 0.6702,
    "actual": null,
    "curve": 0.1185
@@ -4825,7 +4825,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.1028,
+   "p50": 0.0,
    "p90": 0.5448,
    "actual": null,
    "curve": 0.0987
@@ -4835,7 +4835,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0017,
-   "p50": 0.0905,
+   "p50": 0.1171,
    "p90": 0.3173,
    "actual": null,
    "curve": 0.023
@@ -4845,7 +4845,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0402,
+   "p50": 0.0697,
    "p90": 0.2643,
    "actual": null,
    "curve": 0.0347
@@ -4855,7 +4855,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0047,
+   "p50": 0.0416,
    "p90": 0.1057,
    "actual": null,
    "curve": 0.0301
@@ -4865,7 +4865,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0264,
+   "p50": 0.0664,
    "p90": 0.1731,
    "actual": null,
    "curve": 0.0314
@@ -4875,7 +4875,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1042,
+   "p50": 0.0737,
    "p90": 0.2125,
    "actual": null,
    "curve": 0.1716
@@ -4885,7 +4885,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.1446,
+   "p50": 0.1562,
    "p90": 0.4673,
    "actual": null,
    "curve": 0.0178
@@ -4895,7 +4895,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.184,
+   "p50": 0.1518,
    "p90": 0.3707,
    "actual": null,
    "curve": 0.0564
@@ -4905,7 +4905,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.2363,
+   "p50": 0.2077,
    "p90": 0.4758,
    "actual": null,
    "curve": 0.1049
@@ -4915,7 +4915,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0062,
-   "p50": 0.4733,
+   "p50": 0.3807,
    "p90": 0.7299,
    "actual": null,
    "curve": 0.017
@@ -4925,7 +4925,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0633,
-   "p50": 0.6479,
+   "p50": 0.5655,
    "p90": 0.8246,
    "actual": null,
    "curve": 0.0318
@@ -4935,7 +4935,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.2538,
-   "p50": 0.5404,
+   "p50": 0.61,
    "p90": 0.8926,
    "actual": null,
    "curve": 0.0497
@@ -4945,7 +4945,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.1256,
-   "p50": 0.537,
+   "p50": 0.4889,
    "p90": 0.8518,
    "actual": null,
    "curve": 0.1155
@@ -4955,7 +4955,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.1976,
-   "p50": 0.4962,
+   "p50": 0.5876,
    "p90": 0.9071,
    "actual": null,
    "curve": 0.0442
@@ -4965,7 +4965,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0679,
-   "p50": 0.4189,
+   "p50": 0.3964,
    "p90": 0.7052,
    "actual": null,
    "curve": 0.1048
@@ -4975,7 +4975,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.3538,
+   "p50": 0.4235,
    "p90": 0.7602,
    "actual": null,
    "curve": 0.0232
@@ -4985,7 +4985,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0534,
-   "p50": 0.416,
+   "p50": 0.4342,
    "p90": 0.7753,
    "actual": null,
    "curve": 0.0178
@@ -4995,7 +4995,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.1483,
-   "p50": 0.6149,
+   "p50": 0.5002,
    "p90": 0.9636,
    "actual": null,
    "curve": 0.454
@@ -5005,7 +5005,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.1688,
-   "p50": 0.4971,
+   "p50": 0.4963,
    "p90": 0.892,
    "actual": null,
    "curve": 0.5814
@@ -5015,7 +5015,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.2853,
-   "p50": 0.5684,
+   "p50": 0.5754,
    "p90": 0.9529,
    "actual": null,
    "curve": 0.8918
@@ -5025,7 +5025,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.4216,
-   "p50": 0.8305,
+   "p50": 0.8287,
    "p90": 0.9632,
    "actual": null,
    "curve": 0.962
@@ -5035,7 +5035,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.5663,
-   "p50": 0.8366,
+   "p50": 0.8443,
    "p90": 0.9857,
    "actual": null,
    "curve": 0.9319
@@ -5045,7 +5045,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.6373,
-   "p50": 0.8693,
+   "p50": 0.9441,
    "p90": 0.9949,
    "actual": null,
    "curve": 0.977
@@ -5055,7 +5055,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.6766,
-   "p50": 0.9319,
+   "p50": 0.9351,
    "p90": 0.9958,
    "actual": null,
    "curve": 0.9242
@@ -5065,7 +5065,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.7792,
-   "p50": 0.9563,
+   "p50": 0.9671,
    "p90": 0.9936,
    "actual": null,
    "curve": 0.98
@@ -5075,7 +5075,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.7699,
-   "p50": 0.9057,
+   "p50": 0.9356,
    "p90": 0.9909,
    "actual": null,
    "curve": 0.9132
@@ -5085,7 +5085,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.7586,
-   "p50": 0.9254,
+   "p50": 0.9523,
    "p90": 0.9943,
    "actual": null,
    "curve": 0.9512
@@ -5095,7 +5095,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.8251,
-   "p50": 0.9228,
+   "p50": 0.9454,
    "p90": 0.9905,
    "actual": null,
    "curve": 0.9077
@@ -5105,7 +5105,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.6727,
-   "p50": 0.9248,
+   "p50": 0.9156,
    "p90": 0.9901,
    "actual": null,
    "curve": 0.9556
@@ -5115,7 +5115,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.7831,
-   "p50": 0.975,
+   "p50": 0.9723,
    "p90": 0.9972,
    "actual": null,
    "curve": 0.8555
@@ -5125,7 +5125,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.8056,
-   "p50": 0.9559,
+   "p50": 0.9305,
    "p90": 0.9947,
    "actual": null,
    "curve": 0.8953
@@ -5135,7 +5135,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.6904,
-   "p50": 0.9568,
+   "p50": 0.9437,
    "p90": 1.0,
    "actual": null,
    "curve": 0.786
@@ -5145,7 +5145,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.726,
-   "p50": 0.9159,
+   "p50": 0.9006,
    "p90": 0.9949,
    "actual": null,
    "curve": 0.8323
@@ -5155,7 +5155,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.72,
-   "p50": 0.9731,
+   "p50": 0.9371,
    "p90": 0.9909,
    "actual": null,
    "curve": 0.8558
@@ -5165,7 +5165,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.3767,
-   "p50": 0.8037,
+   "p50": 0.7307,
    "p90": 0.9793,
    "actual": null,
    "curve": 0.6738
@@ -5175,7 +5175,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.3786,
-   "p50": 0.9106,
+   "p50": 0.9367,
    "p90": 1.0,
    "actual": null,
    "curve": 0.5287
@@ -5185,7 +5185,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.4487,
-   "p50": 0.7688,
+   "p50": 0.7569,
    "p90": 0.9671,
    "actual": null,
    "curve": 0.8097
@@ -5195,7 +5195,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.3209,
-   "p50": 0.7975,
+   "p50": 0.912,
    "p90": 1.0,
    "actual": null,
    "curve": 0.4527
@@ -5205,7 +5205,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.3409,
-   "p50": 0.6875,
+   "p50": 0.679,
    "p90": 0.9601,
    "actual": null,
    "curve": 0.629
@@ -5215,7 +5215,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.3192,
-   "p50": 0.7392,
+   "p50": 0.8059,
    "p90": 0.9984,
    "actual": null,
    "curve": 0.5039
@@ -5225,7 +5225,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.313,
-   "p50": 0.6876,
+   "p50": 0.6474,
    "p90": 0.9686,
    "actual": null,
    "curve": 0.5605
@@ -5235,7 +5235,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.3353,
-   "p50": 0.7758,
+   "p50": 0.8315,
    "p90": 1.0,
    "actual": null,
    "curve": 0.5493
@@ -5245,7 +5245,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.2914,
-   "p50": 0.6666,
+   "p50": 0.6923,
    "p90": 0.973,
    "actual": null,
    "curve": 0.5822
@@ -5255,7 +5255,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.1934,
-   "p50": 0.5953,
+   "p50": 0.709,
    "p90": 0.9353,
    "actual": null,
    "curve": 0.4154
@@ -5265,7 +5265,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.1099,
-   "p50": 0.4241,
+   "p50": 0.4538,
    "p90": 0.8895,
    "actual": null,
    "curve": 0.3394
@@ -5275,7 +5275,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.1884,
-   "p50": 0.6633,
+   "p50": 0.6806,
    "p90": 0.8766,
    "actual": null,
    "curve": 0.3633
@@ -5285,7 +5285,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0595,
-   "p50": 0.3536,
+   "p50": 0.3713,
    "p90": 0.8553,
    "actual": null,
    "curve": 0.395
@@ -5295,7 +5295,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0519,
-   "p50": 0.3379,
+   "p50": 0.4292,
    "p90": 0.7077,
    "actual": null,
    "curve": 0.1728
@@ -5305,7 +5305,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0005,
-   "p50": 0.1951,
+   "p50": 0.1919,
    "p90": 0.599,
    "actual": null,
    "curve": 0.437
@@ -5315,7 +5315,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1997,
+   "p50": 0.1969,
    "p90": 0.4996,
    "actual": null,
    "curve": 0.0453
@@ -5325,7 +5325,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0528,
+   "p50": 0.076,
    "p90": 0.3385,
    "actual": null,
    "curve": 0.2443
@@ -5335,7 +5335,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.079,
+   "p50": 0.0893,
    "p90": 0.3255,
    "actual": null,
    "curve": 0.0274
@@ -5345,7 +5345,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0322,
+   "p50": 0.0717,
    "p90": 0.2216,
    "actual": null,
    "curve": 0.0867
@@ -5355,7 +5355,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0143,
+   "p50": 0.0208,
    "p90": 0.0884,
    "actual": null,
    "curve": 0.0197
@@ -5365,7 +5365,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0,
+   "p50": 0.0166,
    "p90": 0.0892,
    "actual": null,
    "curve": 0.0295
@@ -5375,7 +5375,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0391,
+   "p50": 0.0297,
    "p90": 0.1298,
    "actual": null,
    "curve": 0.0177
@@ -5395,7 +5395,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0338,
+   "p50": 0.0403,
    "p90": 0.1373,
    "actual": null,
    "curve": 0.0446
@@ -5405,7 +5405,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0411,
+   "p50": 0.0233,
    "p90": 0.1362,
    "actual": null,
    "curve": 0.0225
@@ -5415,7 +5415,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0185,
+   "p50": 0.0118,
    "p90": 0.0904,
    "actual": null,
    "curve": 0.0154
@@ -5425,7 +5425,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0749,
+   "p50": 0.0894,
    "p90": 0.13,
    "actual": null,
    "curve": 0.0442
@@ -5435,7 +5435,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0433,
+   "p50": 0.0435,
    "p90": 0.1279,
    "actual": null,
    "curve": 0.0432
@@ -5445,7 +5445,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0729,
+   "p50": 0.0697,
    "p90": 0.1959,
    "actual": null,
    "curve": 0.0229
@@ -5455,7 +5455,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0788,
+   "p50": 0.0476,
    "p90": 0.1217,
    "actual": null,
    "curve": 0.044
@@ -5465,7 +5465,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.075,
+   "p50": 0.073,
    "p90": 0.1353,
    "actual": null,
    "curve": 0.018
@@ -5475,7 +5475,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0365,
+   "p50": 0.0397,
    "p90": 0.1104,
    "actual": null,
    "curve": 0.019
@@ -5485,7 +5485,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.079,
+   "p50": 0.0753,
    "p90": 0.1562,
    "actual": null,
    "curve": 0.0257
@@ -5495,7 +5495,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.066,
+   "p50": 0.0637,
    "p90": 0.1751,
    "actual": null,
    "curve": 0.0106
@@ -5505,7 +5505,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0685,
+   "p50": 0.0656,
    "p90": 0.1278,
    "actual": null,
    "curve": 0.0376
@@ -5515,7 +5515,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0567,
+   "p50": 0.0524,
    "p90": 0.1888,
    "actual": null,
    "curve": 0.0139
@@ -5525,7 +5525,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0835,
+   "p50": 0.0916,
    "p90": 0.1828,
    "actual": null,
    "curve": 0.0523
@@ -5535,7 +5535,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0016,
-   "p50": 0.1041,
+   "p50": 0.1307,
    "p90": 0.2249,
    "actual": null,
    "curve": 0.1359
@@ -5545,7 +5545,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0012,
-   "p50": 0.0967,
+   "p50": 0.0886,
    "p90": 0.3181,
    "actual": null,
    "curve": 0.2321
@@ -5555,7 +5555,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0036,
-   "p50": 0.1392,
+   "p50": 0.1414,
    "p90": 0.2696,
    "actual": null,
    "curve": 0.0898
@@ -5565,7 +5565,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0012,
-   "p50": 0.1173,
+   "p50": 0.0641,
    "p90": 0.4026,
    "actual": null,
    "curve": 0.2285
@@ -5575,7 +5575,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0034,
-   "p50": 0.1555,
+   "p50": 0.1209,
    "p90": 0.4022,
    "actual": null,
    "curve": 0.114
@@ -5585,7 +5585,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0031,
-   "p50": 0.0976,
+   "p50": 0.0982,
    "p90": 0.389,
    "actual": null,
    "curve": 0.191
@@ -5595,7 +5595,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0924,
+   "p50": 0.1185,
    "p90": 0.2265,
    "actual": null,
    "curve": 0.0621
@@ -5605,7 +5605,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0937,
+   "p50": 0.0972,
    "p90": 0.2681,
    "actual": null,
    "curve": 0.0823
@@ -5615,7 +5615,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1067,
+   "p50": 0.0592,
    "p90": 0.2445,
    "actual": null,
    "curve": 0.1141
@@ -5625,7 +5625,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0897,
+   "p50": 0.1179,
    "p90": 0.2112,
    "actual": null,
    "curve": 0.0657
@@ -5635,7 +5635,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0659,
+   "p50": 0.11,
    "p90": 0.2419,
    "actual": null,
    "curve": 0.0172
@@ -5645,7 +5645,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0469,
+   "p50": 0.0529,
    "p90": 0.2307,
    "actual": null,
    "curve": 0.0289
@@ -5655,7 +5655,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0309,
+   "p50": 0.0448,
    "p90": 0.1272,
    "actual": null,
    "curve": 0.0155
@@ -5665,7 +5665,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0707,
+   "p50": 0.082,
    "p90": 0.1606,
    "actual": null,
    "curve": 0.0289
@@ -5675,7 +5675,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0696,
+   "p50": 0.0546,
    "p90": 0.0964,
    "actual": null,
    "curve": 0.021
@@ -5685,7 +5685,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0607,
+   "p50": 0.0303,
    "p90": 0.0842,
    "actual": null,
    "curve": 0.039
@@ -5695,7 +5695,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0002,
-   "p50": 0.0486,
+   "p50": 0.0745,
    "p90": 0.1389,
    "actual": null,
    "curve": 0.033
@@ -5705,7 +5705,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0028,
-   "p50": 0.0835,
+   "p50": 0.0684,
    "p90": 0.096,
    "actual": null,
    "curve": 0.0489
@@ -5715,7 +5715,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0833,
+   "p50": 0.0799,
    "p90": 0.1154,
    "actual": null,
    "curve": 0.0096
@@ -5725,7 +5725,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0161,
+   "p50": 0.0051,
    "p90": 0.0172,
    "actual": null,
    "curve": 0.0349
@@ -5735,7 +5735,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0,
+   "p50": 0.0053,
    "p90": 0.1246,
    "actual": null,
    "curve": 0.01
@@ -5745,7 +5745,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0245,
+   "p50": 0.018,
    "p90": 0.0875,
    "actual": null,
    "curve": 0.024
@@ -5755,7 +5755,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0047,
+   "p50": 0.0,
    "p90": 0.1471,
    "actual": null,
    "curve": 0.0104
@@ -5765,7 +5765,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0433,
+   "p50": 0.012,
    "p90": 0.093,
    "actual": null,
    "curve": 0.0152
@@ -5785,7 +5785,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0247,
+   "p50": 0.0193,
    "p90": 0.0735,
    "actual": null,
    "curve": 0.0425
@@ -5805,7 +5805,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0231,
+   "p50": 0.0128,
    "p90": 0.0549,
    "actual": null,
    "curve": 0.0401
@@ -5815,7 +5815,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0182,
+   "p50": 0.0132,
    "p90": 0.1849,
    "actual": null,
    "curve": 0.0102
@@ -5825,7 +5825,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0297,
+   "p50": 0.0199,
    "p90": 0.0602,
    "actual": null,
    "curve": 0.0278
@@ -5835,7 +5835,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0085,
+   "p50": 0.0121,
    "p90": 0.1329,
    "actual": null,
    "curve": 0.01
@@ -5845,7 +5845,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0193,
+   "p50": 0.0465,
    "p90": 0.0698,
    "actual": null,
    "curve": 0.0326
@@ -5855,7 +5855,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0051,
+   "p50": 0.0295,
    "p90": 0.0866,
    "actual": null,
    "curve": 0.01
@@ -5865,7 +5865,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0147,
+   "p50": 0.0224,
    "p90": 0.1062,
    "actual": null,
    "curve": 0.0508
@@ -5885,7 +5885,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0067,
+   "p50": 0.0036,
    "p90": 0.0856,
    "actual": null,
    "curve": 0.0303
@@ -5895,7 +5895,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0214,
+   "p50": 0.0463,
    "p90": 0.104,
    "actual": null,
    "curve": 0.0116
@@ -5905,7 +5905,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0135,
+   "p50": 0.0044,
    "p90": 0.0414,
    "actual": null,
    "curve": 0.0403
@@ -5915,7 +5915,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0113,
+   "p50": 0.009,
    "p90": 0.0281,
    "actual": null,
    "curve": 0.016
@@ -5935,7 +5935,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0247,
+   "p50": 0.0233,
    "p90": 0.0391,
    "actual": null,
    "curve": 0.07
@@ -5945,7 +5945,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0106,
+   "p50": 0.0053,
    "p90": 0.0234,
    "actual": null,
    "curve": 0.0293
@@ -5955,8 +5955,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0005,
-   "p90": 0.0357,
+   "p50": 0.0357,
+   "p90": 0.0638,
    "actual": null,
    "curve": 0.0569
   },
@@ -5965,8 +5965,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0248,
-   "p90": 0.0313,
+   "p50": 0.0313,
+   "p90": 0.0376,
    "actual": null,
    "curve": 0.0292
   },
@@ -5975,8 +5975,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0106,
-   "p90": 0.0473,
+   "p50": 0.0473,
+   "p90": 0.0594,
    "actual": null,
    "curve": 0.0479
   },
@@ -5985,7 +5985,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0413,
+   "p50": 0.0312,
    "p90": 0.0552,
    "actual": null,
    "curve": 0.0182
@@ -5995,7 +5995,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0381,
+   "p50": 0.0779,
    "p90": 0.1344,
    "actual": null,
    "curve": 0.0498
@@ -6005,7 +6005,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0462,
+   "p50": 0.0507,
    "p90": 0.051,
    "actual": null,
    "curve": 0.034
@@ -6016,7 +6016,7 @@ window.DASHBOARD_DATA = {
    "lead_h": 24,
    "p10": 0.0,
    "p50": 0.0402,
-   "p90": 0.0595,
+   "p90": 0.0719,
    "actual": null,
    "curve": 0.02
   },
@@ -6025,7 +6025,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0182,
+   "p50": 0.0403,
    "p90": 0.0439,
    "actual": null,
    "curve": 0.1062
@@ -6035,7 +6035,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1075,
+   "p50": 0.095,
    "p90": 0.2299,
    "actual": null,
    "curve": 0.0458
@@ -6045,7 +6045,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0351,
+   "p50": 0.0315,
    "p90": 0.146,
    "actual": null,
    "curve": 0.1975
@@ -6055,7 +6055,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0124,
-   "p50": 0.1423,
+   "p50": 0.1853,
    "p90": 0.3466,
    "actual": null,
    "curve": 0.1406
@@ -6065,7 +6065,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0127,
-   "p50": 0.1727,
+   "p50": 0.1431,
    "p90": 0.4469,
    "actual": null,
    "curve": 0.2073
@@ -6075,7 +6075,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0305,
-   "p50": 0.3354,
+   "p50": 0.3304,
    "p90": 0.6366,
    "actual": null,
    "curve": 0.3255
@@ -6085,7 +6085,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0417,
-   "p50": 0.4022,
+   "p50": 0.4108,
    "p90": 0.9014,
    "actual": null,
    "curve": 0.2932
@@ -6095,7 +6095,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0901,
-   "p50": 0.5316,
+   "p50": 0.5086,
    "p90": 0.9163,
    "actual": null,
    "curve": 0.6065
@@ -6105,7 +6105,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.1172,
-   "p50": 0.742,
+   "p50": 0.5551,
    "p90": 0.9736,
    "actual": null,
    "curve": 0.3084
@@ -6115,7 +6115,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.2843,
-   "p50": 0.7148,
+   "p50": 0.689,
    "p90": 0.9683,
    "actual": null,
    "curve": 0.6725
@@ -6125,7 +6125,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.1474,
-   "p50": 0.7277,
+   "p50": 0.6533,
    "p90": 1.0,
    "actual": null,
    "curve": 0.3959
@@ -6135,7 +6135,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.3749,
-   "p50": 0.8122,
+   "p50": 0.7702,
    "p90": 1.0,
    "actual": null,
    "curve": 0.5801
@@ -6145,7 +6145,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.2493,
-   "p50": 0.8387,
+   "p50": 0.8045,
    "p90": 1.0,
    "actual": null,
    "curve": 0.418
@@ -6155,7 +6155,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.3864,
-   "p50": 0.8218,
+   "p50": 0.81,
    "p90": 1.0,
    "actual": null,
    "curve": 0.5756
@@ -6165,7 +6165,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.3931,
-   "p50": 0.8321,
+   "p50": 0.7475,
    "p90": 1.0,
    "actual": null,
    "curve": 0.5408
@@ -6175,7 +6175,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.3816,
-   "p50": 0.8519,
+   "p50": 0.8447,
    "p90": 1.0,
    "actual": null,
    "curve": 0.5984
@@ -6185,7 +6185,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.323,
-   "p50": 0.8119,
+   "p50": 0.7382,
    "p90": 1.0,
    "actual": null,
    "curve": 0.4944
@@ -6195,7 +6195,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.4213,
-   "p50": 0.8084,
+   "p50": 0.8254,
    "p90": 1.0,
    "actual": null,
    "curve": 0.5806
@@ -6205,7 +6205,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.2701,
-   "p50": 0.7268,
+   "p50": 0.6381,
    "p90": 0.9643,
    "actual": null,
    "curve": 0.4454
@@ -6215,7 +6215,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.408,
-   "p50": 0.7424,
+   "p50": 0.7002,
    "p90": 1.0,
    "actual": null,
    "curve": 0.5911
@@ -6225,7 +6225,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.2175,
-   "p50": 0.6934,
+   "p50": 0.6401,
    "p90": 0.9288,
    "actual": null,
    "curve": 0.3346
@@ -6235,7 +6235,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.352,
-   "p50": 0.7419,
+   "p50": 0.6424,
    "p90": 1.0,
    "actual": null,
    "curve": 0.5393
@@ -6245,7 +6245,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.2396,
-   "p50": 0.7618,
+   "p50": 0.6543,
    "p90": 0.8804,
    "actual": null,
    "curve": 0.1913
@@ -6255,7 +6255,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.1356,
-   "p50": 0.4117,
+   "p50": 0.4531,
    "p90": 0.9208,
    "actual": null,
    "curve": 0.4471
@@ -6265,7 +6265,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.2173,
+   "p50": 0.1909,
    "p90": 0.6489,
    "actual": null,
    "curve": 0.1024
@@ -6275,7 +6275,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.2777,
+   "p50": 0.236,
    "p90": 0.7561,
    "actual": null,
    "curve": 0.2888
@@ -6285,7 +6285,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0109,
-   "p50": 0.1801,
+   "p50": 0.2387,
    "p90": 0.6481,
    "actual": null,
    "curve": 0.0281
@@ -6295,7 +6295,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1005,
+   "p50": 0.0515,
    "p90": 0.484,
    "actual": null,
    "curve": 0.098
@@ -6305,7 +6305,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0024,
-   "p50": 0.1977,
+   "p50": 0.3265,
    "p90": 0.6008,
    "actual": null,
    "curve": 0.026
@@ -6315,7 +6315,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0551,
+   "p50": 0.028,
    "p90": 0.5092,
    "actual": null,
    "curve": 0.0999
@@ -6325,7 +6325,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0028,
-   "p50": 0.3203,
+   "p50": 0.2717,
    "p90": 0.4655,
    "actual": null,
    "curve": 0.0338
@@ -6335,7 +6335,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0019,
-   "p50": 0.1289,
+   "p50": 0.1096,
    "p90": 0.435,
    "actual": null,
    "curve": 0.0452
@@ -6345,7 +6345,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.2744,
+   "p50": 0.291,
    "p90": 0.4595,
    "actual": null,
    "curve": 0.0183
@@ -6355,7 +6355,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.122,
+   "p50": 0.0631,
    "p90": 0.3669,
    "actual": null,
    "curve": 0.0125
@@ -6365,7 +6365,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.2024,
+   "p50": 0.1754,
    "p90": 0.4753,
    "actual": null,
    "curve": 0.014
@@ -6375,7 +6375,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0444,
+   "p50": 0.045,
    "p90": 0.4676,
    "actual": null,
    "curve": 0.0174
@@ -6385,7 +6385,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0467,
+   "p50": 0.0368,
    "p90": 0.3334,
    "actual": null,
    "curve": 0.0177
@@ -6395,7 +6395,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0308,
+   "p50": 0.0973,
    "p90": 0.2811,
    "actual": null,
    "curve": 0.0113
@@ -6405,7 +6405,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.122,
+   "p50": 0.1749,
    "p90": 0.4166,
    "actual": null,
    "curve": 0.0233
@@ -6415,7 +6415,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0615,
+   "p50": 0.071,
    "p90": 0.2452,
    "actual": null,
    "curve": 0.0108
@@ -6425,7 +6425,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.025,
+   "p50": 0.0476,
    "p90": 0.1372,
    "actual": null,
    "curve": 0.0538
@@ -6435,7 +6435,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0509,
+   "p50": 0.0725,
    "p90": 0.1538,
    "actual": null,
    "curve": 0.0549
@@ -6445,7 +6445,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0541,
+   "p50": 0.0649,
    "p90": 0.1676,
    "actual": null,
    "curve": 0.0978
@@ -6455,7 +6455,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0653,
+   "p50": 0.1249,
    "p90": 0.131,
    "actual": null,
    "curve": 0.01
@@ -6465,7 +6465,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0412,
+   "p50": 0.09,
    "p90": 0.0919,
    "actual": null,
    "curve": 0.0575
@@ -6475,7 +6475,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0826,
+   "p50": 0.0768,
    "p90": 0.1444,
    "actual": null,
    "curve": 0.01
@@ -6485,7 +6485,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0494,
+   "p50": 0.0676,
    "p90": 0.1224,
    "actual": null,
    "curve": 0.0805
@@ -6495,7 +6495,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1727,
+   "p50": 0.129,
    "p90": 0.3229,
    "actual": null,
    "curve": 0.0076
@@ -6505,7 +6505,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0656,
+   "p50": 0.0584,
    "p90": 0.2369,
    "actual": null,
    "curve": 0.2164
@@ -6515,7 +6515,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.2191,
+   "p50": 0.1529,
    "p90": 0.3989,
    "actual": null,
    "curve": 0.0051
@@ -6525,7 +6525,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0523,
+   "p50": 0.0537,
    "p90": 0.2139,
    "actual": null,
    "curve": 0.2104
@@ -6535,7 +6535,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1096,
+   "p50": 0.0818,
    "p90": 0.2417,
    "actual": null,
    "curve": 0.0126
@@ -6545,7 +6545,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0766,
+   "p50": 0.0865,
    "p90": 0.2517,
    "actual": null,
    "curve": 0.2608
@@ -6555,7 +6555,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0502,
+   "p50": 0.0776,
    "p90": 0.1094,
    "actual": null,
    "curve": 0.0326
@@ -6565,7 +6565,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0699,
+   "p50": 0.0737,
    "p90": 0.1953,
    "actual": null,
    "curve": 0.2087
@@ -6575,7 +6575,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1025,
+   "p50": 0.0901,
    "p90": 0.1752,
    "actual": null,
    "curve": 0.0463
@@ -6585,7 +6585,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0954,
+   "p50": 0.0991,
    "p90": 0.131,
    "actual": null,
    "curve": 0.1206
@@ -6595,7 +6595,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.061,
+   "p50": 0.0694,
    "p90": 0.1157,
    "actual": null,
    "curve": 0.0489
@@ -6606,7 +6606,7 @@ window.DASHBOARD_DATA = {
    "lead_h": 48,
    "p10": 0.0,
    "p50": 0.1211,
-   "p90": 0.1247,
+   "p90": 0.1219,
    "actual": null,
    "curve": 0.1014
   },
@@ -6615,7 +6615,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0241,
+   "p50": 0.0162,
    "p90": 0.1392,
    "actual": null,
    "curve": 0.0057
@@ -6626,7 +6626,7 @@ window.DASHBOARD_DATA = {
    "lead_h": 48,
    "p10": 0.0,
    "p50": 0.0604,
-   "p90": 0.1007,
+   "p90": 0.084,
    "actual": null,
    "curve": 0.0338
   },
@@ -6635,7 +6635,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0651,
+   "p50": 0.0643,
    "p90": 0.2347,
    "actual": null,
    "curve": 0.008
@@ -6646,7 +6646,7 @@ window.DASHBOARD_DATA = {
    "lead_h": 48,
    "p10": 0.0,
    "p50": 0.0608,
-   "p90": 0.0842,
+   "p90": 0.0728,
    "actual": null,
    "curve": 0.0294
   },
@@ -6655,7 +6655,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0689,
+   "p50": 0.0466,
    "p90": 0.1842,
    "actual": null,
    "curve": 0.01
@@ -6665,7 +6665,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0004,
+   "p50": 0.0,
    "p90": 0.0887,
    "actual": null,
    "curve": 0.014
@@ -6675,7 +6675,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0319,
+   "p50": 0.0288,
    "p90": 0.1799,
    "actual": null,
    "curve": 0.0105
@@ -6685,7 +6685,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0247,
+   "p50": 0.0221,
    "p90": 0.1082,
    "actual": null,
    "curve": 0.0285
@@ -6696,7 +6696,7 @@ window.DASHBOARD_DATA = {
    "lead_h": 24,
    "p10": 0.0,
    "p50": 0.0569,
-   "p90": 0.0827,
+   "p90": 0.0589,
    "actual": null,
    "curve": 0.022
   },
@@ -6705,7 +6705,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0914,
+   "p50": 0.0624,
    "p90": 0.1927,
    "actual": null,
    "curve": 0.0177
@@ -6715,7 +6715,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0584,
+   "p50": 0.031,
    "p90": 0.1211,
    "actual": null,
    "curve": 0.0911
@@ -6725,7 +6725,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.1412,
+   "p50": 0.1377,
    "p90": 0.2267,
    "actual": null,
    "curve": 0.0521
@@ -6735,7 +6735,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0661,
+   "p50": 0.066,
    "p90": 0.2108,
    "actual": null,
    "curve": 0.0606
@@ -6745,7 +6745,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0848,
+   "p50": 0.0774,
    "p90": 0.3673,
    "actual": null,
    "curve": 0.1001
@@ -6755,7 +6755,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1352,
+   "p50": 0.0899,
    "p90": 0.5887,
    "actual": null,
    "curve": 0.2453
@@ -6765,7 +6765,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.288,
+   "p50": 0.1806,
    "p90": 0.6942,
    "actual": null,
    "curve": 0.1963
@@ -6775,7 +6775,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0304,
-   "p50": 0.2378,
+   "p50": 0.202,
    "p90": 0.7708,
    "actual": null,
    "curve": 0.2576
@@ -6785,7 +6785,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0713,
-   "p50": 0.3644,
+   "p50": 0.3065,
    "p90": 0.7743,
    "actual": null,
    "curve": 0.2967
@@ -6795,7 +6795,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.1033,
-   "p50": 0.4442,
+   "p50": 0.3896,
    "p90": 0.9267,
    "actual": null,
    "curve": 0.4423
@@ -6805,7 +6805,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0792,
-   "p50": 0.5516,
+   "p50": 0.5423,
    "p90": 0.9557,
    "actual": null,
    "curve": 0.4073
@@ -6815,7 +6815,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.3341,
-   "p50": 0.5063,
+   "p50": 0.5993,
    "p90": 0.9879,
    "actual": null,
    "curve": 0.597
@@ -6825,7 +6825,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.2667,
-   "p50": 0.7246,
+   "p50": 0.6966,
    "p90": 0.9797,
    "actual": null,
    "curve": 0.474
@@ -6835,7 +6835,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.4746,
-   "p50": 0.6825,
+   "p50": 0.6547,
    "p90": 0.989,
    "actual": null,
    "curve": 0.6202
@@ -6845,7 +6845,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.4606,
-   "p50": 0.704,
+   "p50": 0.6293,
    "p90": 0.9911,
    "actual": null,
    "curve": 0.5972
@@ -6855,7 +6855,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.4911,
-   "p50": 0.7556,
+   "p50": 0.774,
    "p90": 0.9946,
    "actual": null,
    "curve": 0.7192
@@ -6865,7 +6865,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.5442,
-   "p50": 0.7654,
+   "p50": 0.7636,
    "p90": 0.9914,
    "actual": null,
    "curve": 0.6914
@@ -6875,7 +6875,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.8361,
-   "p50": 0.8752,
+   "p50": 0.8819,
    "p90": 0.9972,
    "actual": null,
    "curve": 0.8558
@@ -6885,7 +6885,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.6941,
-   "p50": 0.8693,
+   "p50": 0.8322,
    "p90": 0.9997,
    "actual": null,
    "curve": 0.8235
@@ -6895,7 +6895,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.8424,
-   "p50": 0.9547,
+   "p50": 0.9925,
    "p90": 1.0,
    "actual": null,
    "curve": 0.8558
@@ -6905,7 +6905,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.7109,
-   "p50": 0.8809,
+   "p50": 0.9199,
    "p90": 0.9967,
    "actual": null,
    "curve": 0.8398
@@ -6915,7 +6915,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.7005,
-   "p50": 0.9477,
+   "p50": 0.9937,
    "p90": 0.9961,
    "actual": null,
    "curve": 0.734
@@ -6925,8 +6925,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.7732,
-   "p50": 0.9993,
-   "p90": 1.0,
+   "p50": 0.9851,
+   "p90": 0.9993,
    "actual": null,
    "curve": 0.82
   },
@@ -6935,7 +6935,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.663,
-   "p50": 0.9441,
+   "p50": 0.9577,
    "p90": 0.994,
    "actual": null,
    "curve": 0.7093
@@ -6945,7 +6945,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.6408,
-   "p50": 0.9176,
+   "p50": 0.9511,
    "p90": 1.0,
    "actual": null,
    "curve": 0.6833
@@ -6955,7 +6955,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.5566,
-   "p50": 0.9142,
+   "p50": 0.9398,
    "p90": 0.9984,
    "actual": null,
    "curve": 0.6892
@@ -6965,7 +6965,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.497,
-   "p50": 0.9107,
+   "p50": 0.9296,
    "p90": 1.0,
    "actual": null,
    "curve": 0.6217
@@ -6975,7 +6975,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.4986,
-   "p50": 0.9243,
+   "p50": 0.9605,
    "p90": 0.9983,
    "actual": null,
    "curve": 0.6868
@@ -6985,7 +6985,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.4602,
-   "p50": 0.9035,
+   "p50": 0.9674,
    "p90": 1.0,
    "actual": null,
    "curve": 0.6457
@@ -6995,7 +6995,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.4143,
-   "p50": 0.867,
+   "p50": 0.91,
    "p90": 0.9999,
    "actual": null,
    "curve": 0.6191
@@ -7005,7 +7005,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.4168,
-   "p50": 0.9267,
+   "p50": 0.9574,
    "p90": 1.0,
    "actual": null,
    "curve": 0.6343
@@ -7015,7 +7015,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.4141,
-   "p50": 0.9326,
+   "p50": 0.9603,
    "p90": 0.9987,
    "actual": null,
    "curve": 0.6282
@@ -7025,7 +7025,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.4392,
-   "p50": 0.9501,
+   "p50": 0.9144,
    "p90": 0.9998,
    "actual": null,
    "curve": 0.6505
@@ -7035,7 +7035,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.4338,
-   "p50": 0.9584,
+   "p50": 0.9666,
    "p90": 1.0,
    "actual": null,
    "curve": 0.6771
@@ -7045,7 +7045,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.4388,
-   "p50": 0.9295,
+   "p50": 0.8979,
    "p90": 1.0,
    "actual": null,
    "curve": 0.6339
@@ -7055,7 +7055,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.3874,
-   "p50": 0.851,
+   "p50": 0.8195,
    "p90": 1.0,
    "actual": null,
    "curve": 0.5825
@@ -7065,7 +7065,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.4009,
-   "p50": 0.8545,
+   "p50": 0.8456,
    "p90": 0.9886,
    "actual": null,
    "curve": 0.6268
@@ -7075,7 +7075,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.3133,
-   "p50": 0.8103,
+   "p50": 0.7673,
    "p90": 0.9401,
    "actual": null,
    "curve": 0.3737
@@ -7085,7 +7085,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.3857,
-   "p50": 0.8289,
+   "p50": 0.8255,
    "p90": 1.0,
    "actual": null,
    "curve": 0.5883
@@ -7095,7 +7095,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.3264,
-   "p50": 0.7019,
+   "p50": 0.7491,
    "p90": 0.9074,
    "actual": null,
    "curve": 0.2713
@@ -7105,7 +7105,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.2718,
-   "p50": 0.7094,
+   "p50": 0.7298,
    "p90": 0.9661,
    "actual": null,
    "curve": 0.4335
@@ -7115,7 +7115,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.2319,
-   "p50": 0.5659,
+   "p50": 0.653,
    "p90": 0.8942,
    "actual": null,
    "curve": 0.2369
@@ -7125,7 +7125,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.2398,
-   "p50": 0.6409,
+   "p50": 0.6856,
    "p90": 0.9508,
    "actual": null,
    "curve": 0.4237
@@ -7135,7 +7135,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.356,
-   "p50": 0.7142,
+   "p50": 0.7295,
    "p90": 0.9454,
    "actual": null,
    "curve": 0.3185
@@ -7145,7 +7145,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.3607,
-   "p50": 0.7552,
+   "p50": 0.7218,
    "p90": 0.9741,
    "actual": null,
    "curve": 0.4451
@@ -7155,7 +7155,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.3188,
-   "p50": 0.7541,
+   "p50": 0.6979,
    "p90": 0.9411,
    "actual": null,
    "curve": 0.3658
@@ -7165,7 +7165,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.3241,
-   "p50": 0.7195,
+   "p50": 0.7379,
    "p90": 0.9426,
    "actual": null,
    "curve": 0.4065
@@ -7175,7 +7175,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.3647,
-   "p50": 0.7264,
+   "p50": 0.7342,
    "p90": 0.9569,
    "actual": null,
    "curve": 0.4063
@@ -7185,7 +7185,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.298,
-   "p50": 0.6938,
+   "p50": 0.62,
    "p90": 0.937,
    "actual": null,
    "curve": 0.3223
@@ -7195,7 +7195,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.3654,
-   "p50": 0.7138,
+   "p50": 0.6724,
    "p90": 0.9593,
    "actual": null,
    "curve": 0.4286
@@ -7205,7 +7205,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.3662,
-   "p50": 0.7743,
+   "p50": 0.7374,
    "p90": 0.9399,
    "actual": null,
    "curve": 0.2983
@@ -7215,7 +7215,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.3216,
-   "p50": 0.6443,
+   "p50": 0.611,
    "p90": 0.9458,
    "actual": null,
    "curve": 0.4382
@@ -7225,7 +7225,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.2917,
-   "p50": 0.6394,
+   "p50": 0.6324,
    "p90": 0.8901,
    "actual": null,
    "curve": 0.2863
@@ -7235,7 +7235,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.3097,
-   "p50": 0.6361,
+   "p50": 0.6265,
    "p90": 0.9391,
    "actual": null,
    "curve": 0.4556
@@ -7245,7 +7245,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.2921,
-   "p50": 0.6483,
+   "p50": 0.6781,
    "p90": 0.8815,
    "actual": null,
    "curve": 0.2664
@@ -7255,7 +7255,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.3502,
-   "p50": 0.6065,
+   "p50": 0.5594,
    "p90": 0.9566,
    "actual": null,
    "curve": 0.4721
@@ -7265,7 +7265,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.2633,
-   "p50": 0.5434,
+   "p50": 0.5315,
    "p90": 0.8945,
    "actual": null,
    "curve": 0.3261
@@ -7275,7 +7275,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.3486,
-   "p50": 0.7363,
+   "p50": 0.7131,
    "p90": 0.934,
    "actual": null,
    "curve": 0.4153
@@ -7285,7 +7285,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.2589,
-   "p50": 0.5997,
+   "p50": 0.6019,
    "p90": 0.9464,
    "actual": null,
    "curve": 0.4436
@@ -7295,7 +7295,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.2941,
-   "p50": 0.6981,
+   "p50": 0.6245,
    "p90": 0.9896,
    "actual": null,
    "curve": 0.512
@@ -7305,7 +7305,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.2939,
-   "p50": 0.5725,
+   "p50": 0.5993,
    "p90": 0.9791,
    "actual": null,
    "curve": 0.5082
@@ -7315,7 +7315,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.2687,
-   "p50": 0.7215,
+   "p50": 0.6958,
    "p90": 0.9142,
    "actual": null,
    "curve": 0.2857
@@ -7325,7 +7325,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.3479,
-   "p50": 0.7159,
+   "p50": 0.6291,
    "p90": 0.9166,
    "actual": null,
    "curve": 0.2769
@@ -7335,7 +7335,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.4176,
-   "p50": 0.6727,
+   "p50": 0.765,
    "p90": 0.9771,
    "actual": null,
    "curve": 0.5039
@@ -7345,7 +7345,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.2363,
-   "p50": 0.7325,
+   "p50": 0.6705,
    "p90": 0.939,
    "actual": null,
    "curve": 0.315
@@ -7355,7 +7355,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.3996,
-   "p50": 0.7931,
+   "p50": 0.7479,
    "p90": 0.984,
    "actual": null,
    "curve": 0.5935
@@ -7365,7 +7365,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.2978,
-   "p50": 0.7484,
+   "p50": 0.6858,
    "p90": 1.0,
    "actual": null,
    "curve": 0.2604
@@ -7375,7 +7375,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.3647,
-   "p50": 0.7614,
+   "p50": 0.7998,
    "p90": 0.9758,
    "actual": null,
    "curve": 0.5346
@@ -7385,7 +7385,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.2042,
-   "p50": 0.7122,
+   "p50": 0.7391,
    "p90": 0.9222,
    "actual": null,
    "curve": 0.1583
@@ -7395,7 +7395,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.3676,
-   "p50": 0.7256,
+   "p50": 0.7246,
    "p90": 0.9436,
    "actual": null,
    "curve": 0.4249
@@ -7405,7 +7405,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.2486,
-   "p50": 0.7032,
+   "p50": 0.7969,
    "p90": 0.9619,
    "actual": null,
    "curve": 0.2217
@@ -7415,7 +7415,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.2558,
-   "p50": 0.7984,
+   "p50": 0.771,
    "p90": 0.9188,
    "actual": null,
    "curve": 0.2554
@@ -7425,7 +7425,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.2376,
-   "p50": 0.6828,
+   "p50": 0.7917,
    "p90": 0.9142,
    "actual": null,
    "curve": 0.212
@@ -7435,7 +7435,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.235,
-   "p50": 0.782,
+   "p50": 0.7648,
    "p90": 0.893,
    "actual": null,
    "curve": 0.2306
@@ -7445,7 +7445,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.2482,
-   "p50": 0.6364,
+   "p50": 0.6922,
    "p90": 0.8876,
    "actual": null,
    "curve": 0.3114
@@ -7455,7 +7455,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.2869,
-   "p50": 0.7913,
+   "p50": 0.8781,
    "p90": 0.9564,
    "actual": null,
    "curve": 0.2095
@@ -7465,7 +7465,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.3638,
-   "p50": 0.7104,
+   "p50": 0.7998,
    "p90": 0.9732,
    "actual": null,
    "curve": 0.4588
@@ -7475,7 +7475,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.299,
-   "p50": 0.9036,
+   "p50": 0.9031,
    "p90": 0.9355,
    "actual": null,
    "curve": 0.2971
@@ -7485,7 +7485,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.2859,
-   "p50": 0.7746,
+   "p50": 0.7899,
    "p90": 0.9451,
    "actual": null,
    "curve": 0.2596
@@ -7495,7 +7495,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.3235,
-   "p50": 0.8258,
+   "p50": 0.7805,
    "p90": 0.9551,
    "actual": null,
    "curve": 0.2636
@@ -7505,7 +7505,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.2888,
-   "p50": 0.7372,
+   "p50": 0.6682,
    "p90": 0.9533,
    "actual": null,
    "curve": 0.3388
@@ -7515,7 +7515,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.3148,
-   "p50": 0.8225,
+   "p50": 0.7733,
    "p90": 0.9542,
    "actual": null,
    "curve": 0.2617
@@ -7525,7 +7525,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.3515,
-   "p50": 0.6999,
+   "p50": 0.712,
    "p90": 0.9896,
    "actual": null,
    "curve": 0.4777
@@ -7535,7 +7535,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.3203,
-   "p50": 0.7971,
+   "p50": 0.7989,
    "p90": 0.9429,
    "actual": null,
    "curve": 0.2753
@@ -7545,7 +7545,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.3707,
-   "p50": 0.7197,
+   "p50": 0.7169,
    "p90": 0.9954,
    "actual": null,
    "curve": 0.5553
@@ -7555,7 +7555,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.3153,
-   "p50": 0.8457,
+   "p50": 0.7831,
    "p90": 0.9495,
    "actual": null,
    "curve": 0.2468
@@ -7565,7 +7565,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.3407,
-   "p50": 0.6923,
+   "p50": 0.7143,
    "p90": 0.9811,
    "actual": null,
    "curve": 0.4838
@@ -7575,7 +7575,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.2602,
-   "p50": 0.8502,
+   "p50": 0.813,
    "p90": 0.9218,
    "actual": null,
    "curve": 0.2117
@@ -7585,7 +7585,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.253,
-   "p50": 0.6757,
+   "p50": 0.6007,
    "p90": 0.9205,
    "actual": null,
    "curve": 0.3481
@@ -7595,7 +7595,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.2497,
-   "p50": 0.8242,
+   "p50": 0.744,
    "p90": 0.9377,
    "actual": null,
    "curve": 0.1927
@@ -7605,7 +7605,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.2306,
-   "p50": 0.6352,
+   "p50": 0.5766,
    "p90": 0.9033,
    "actual": null,
    "curve": 0.3089
@@ -7615,7 +7615,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.2623,
-   "p50": 0.7468,
+   "p50": 0.6962,
    "p90": 0.9367,
    "actual": null,
    "curve": 0.2752
@@ -7625,7 +7625,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.2187,
-   "p50": 0.6404,
+   "p50": 0.565,
    "p90": 0.9111,
    "actual": null,
    "curve": 0.323
@@ -7635,7 +7635,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.2257,
-   "p50": 0.592,
+   "p50": 0.6637,
    "p90": 0.9194,
    "actual": null,
    "curve": 0.3492
@@ -7645,7 +7645,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.126,
-   "p50": 0.516,
+   "p50": 0.5742,
    "p90": 0.8971,
    "actual": null,
    "curve": 0.3268
@@ -7655,7 +7655,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.2784,
-   "p50": 0.5932,
+   "p50": 0.649,
    "p90": 0.9478,
    "actual": null,
    "curve": 0.4321
@@ -7665,7 +7665,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0682,
-   "p50": 0.5272,
+   "p50": 0.5266,
    "p90": 0.886,
    "actual": null,
    "curve": 0.2934
@@ -7675,7 +7675,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.1823,
-   "p50": 0.5592,
+   "p50": 0.606,
    "p90": 0.93,
    "actual": null,
    "curve": 0.3364
@@ -7685,7 +7685,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.079,
-   "p50": 0.4896,
+   "p50": 0.4738,
    "p90": 0.9662,
    "actual": null,
    "curve": 0.3101
@@ -7695,7 +7695,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0239,
-   "p50": 0.3544,
+   "p50": 0.3602,
    "p90": 0.6129,
    "actual": null,
    "curve": 0.0299
@@ -7705,7 +7705,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0202,
-   "p50": 0.395,
+   "p50": 0.215,
    "p90": 0.6999,
    "actual": null,
    "curve": 0.2288
@@ -7715,7 +7715,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.017,
-   "p50": 0.211,
+   "p50": 0.2354,
    "p90": 0.4039,
    "actual": null,
    "curve": 0.0188
@@ -7725,7 +7725,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.215,
+   "p50": 0.1494,
    "p90": 0.564,
    "actual": null,
    "curve": 0.2411
@@ -7735,7 +7735,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1134,
+   "p50": 0.1029,
    "p90": 0.3397,
    "actual": null,
    "curve": 0.0531
@@ -7745,7 +7745,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.1913,
+   "p50": 0.1908,
    "p90": 0.4647,
    "actual": null,
    "curve": 0.1127
@@ -7755,7 +7755,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1257,
+   "p50": 0.0969,
    "p90": 0.4141,
    "actual": null,
    "curve": 0.1401
@@ -7765,7 +7765,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0036,
-   "p50": 0.1726,
+   "p50": 0.1919,
    "p90": 0.4065,
    "actual": null,
    "curve": 0.0672
@@ -7775,7 +7775,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1573,
+   "p50": 0.0907,
    "p90": 0.5998,
    "actual": null,
    "curve": 0.2562
@@ -7785,7 +7785,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0052,
-   "p50": 0.1613,
+   "p50": 0.1616,
    "p90": 0.4991,
    "actual": null,
    "curve": 0.0928
@@ -7795,7 +7795,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0114,
-   "p50": 0.2361,
+   "p50": 0.084,
    "p90": 0.7122,
    "actual": null,
    "curve": 0.3388
@@ -7805,7 +7805,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.002,
-   "p50": 0.2242,
+   "p50": 0.1838,
    "p90": 0.611,
    "actual": null,
    "curve": 0.1778
@@ -7815,7 +7815,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0079,
-   "p50": 0.3036,
+   "p50": 0.2121,
    "p90": 0.6543,
    "actual": null,
    "curve": 0.1411
@@ -7825,7 +7825,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0155,
-   "p50": 0.2254,
+   "p50": 0.1996,
    "p90": 0.5334,
    "actual": null,
    "curve": 0.096
@@ -7835,7 +7835,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0161,
-   "p50": 0.3236,
+   "p50": 0.2299,
    "p90": 0.6427,
    "actual": null,
    "curve": 0.2055
@@ -7845,7 +7845,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0126,
-   "p50": 0.2364,
+   "p50": 0.229,
    "p90": 0.5533,
    "actual": null,
    "curve": 0.1414
@@ -7855,7 +7855,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0183,
-   "p50": 0.3052,
+   "p50": 0.3313,
    "p90": 0.5882,
    "actual": null,
    "curve": 0.1783
@@ -7865,7 +7865,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0243,
-   "p50": 0.2639,
+   "p50": 0.2725,
    "p90": 0.5393,
    "actual": null,
    "curve": 0.099
@@ -7875,7 +7875,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0252,
-   "p50": 0.3326,
+   "p50": 0.339,
    "p90": 0.6517,
    "actual": null,
    "curve": 0.2086
@@ -7885,7 +7885,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0552,
-   "p50": 0.3628,
+   "p50": 0.3478,
    "p90": 0.6201,
    "actual": null,
    "curve": 0.1777
@@ -7895,7 +7895,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0728,
-   "p50": 0.5075,
+   "p50": 0.5297,
    "p90": 0.8114,
    "actual": null,
    "curve": 0.2179
@@ -7905,7 +7905,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0729,
-   "p50": 0.5181,
+   "p50": 0.4531,
    "p90": 0.8332,
    "actual": null,
    "curve": 0.2359
@@ -7915,7 +7915,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0849,
-   "p50": 0.5543,
+   "p50": 0.5726,
    "p90": 0.8428,
    "actual": null,
    "curve": 0.181
@@ -7925,7 +7925,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.1807,
-   "p50": 0.6359,
+   "p50": 0.6209,
    "p90": 0.874,
    "actual": null,
    "curve": 0.2564
@@ -7935,7 +7935,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.2593,
-   "p50": 0.7358,
+   "p50": 0.7581,
    "p90": 1.0,
    "actual": null,
    "curve": 0.4368
@@ -7945,7 +7945,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.2761,
-   "p50": 0.8128,
+   "p50": 0.824,
    "p90": 0.9739,
    "actual": null,
    "curve": 0.4669
@@ -7955,7 +7955,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.341,
-   "p50": 0.7269,
+   "p50": 0.7881,
    "p90": 0.9791,
    "actual": null,
    "curve": 0.4647
@@ -7965,7 +7965,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.3257,
-   "p50": 0.7547,
+   "p50": 0.8288,
    "p90": 1.0,
    "actual": null,
    "curve": 0.5324
@@ -7975,7 +7975,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.3865,
-   "p50": 0.839,
+   "p50": 0.8698,
    "p90": 1.0,
    "actual": null,
    "curve": 0.5889
@@ -7985,7 +7985,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.4097,
-   "p50": 0.8681,
+   "p50": 0.8635,
    "p90": 1.0,
    "actual": null,
    "curve": 0.5352
@@ -7995,7 +7995,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.4513,
-   "p50": 0.7666,
+   "p50": 0.8204,
    "p90": 1.0,
    "actual": null,
    "curve": 0.6786
@@ -8005,7 +8005,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.371,
-   "p50": 0.8242,
+   "p50": 0.7644,
    "p90": 1.0,
    "actual": null,
    "curve": 0.4829
@@ -8015,7 +8015,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.436,
-   "p50": 0.8032,
+   "p50": 0.8682,
    "p90": 0.9954,
    "actual": null,
    "curve": 0.6685
@@ -8025,7 +8025,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.3201,
-   "p50": 0.77,
+   "p50": 0.8199,
    "p90": 1.0,
    "actual": null,
    "curve": 0.5133
@@ -8035,7 +8035,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.3632,
-   "p50": 0.7737,
+   "p50": 0.8902,
    "p90": 1.0,
    "actual": null,
    "curve": 0.5718
@@ -8045,7 +8045,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.3778,
-   "p50": 0.7931,
+   "p50": 0.853,
    "p90": 1.0,
    "actual": null,
    "curve": 0.5476
@@ -8055,7 +8055,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.3929,
-   "p50": 0.8249,
+   "p50": 0.8114,
    "p90": 1.0,
    "actual": null,
    "curve": 0.5417
@@ -8065,7 +8065,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.4106,
-   "p50": 0.9059,
+   "p50": 0.885,
    "p90": 1.0,
    "actual": null,
    "curve": 0.6025
@@ -8075,7 +8075,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.3749,
-   "p50": 0.8861,
+   "p50": 0.8642,
    "p90": 1.0,
    "actual": null,
    "curve": 0.5636
@@ -8085,7 +8085,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.4327,
-   "p50": 0.9189,
+   "p50": 0.9168,
    "p90": 1.0,
    "actual": null,
    "curve": 0.6797
@@ -8095,7 +8095,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.4116,
-   "p50": 0.8651,
+   "p50": 0.8125,
    "p90": 1.0,
    "actual": null,
    "curve": 0.6213
@@ -8105,7 +8105,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.5507,
-   "p50": 0.8262,
+   "p50": 0.8358,
    "p90": 0.9847,
    "actual": null,
    "curve": 0.8105
@@ -8115,7 +8115,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.3127,
-   "p50": 0.8504,
+   "p50": 0.7376,
    "p90": 0.9692,
    "actual": null,
    "curve": 0.4483
@@ -8125,7 +8125,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.3897,
-   "p50": 0.8851,
+   "p50": 0.8885,
    "p90": 1.0,
    "actual": null,
    "curve": 0.6213
@@ -8135,7 +8135,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.2981,
-   "p50": 0.8421,
+   "p50": 0.7927,
    "p90": 0.9674,
    "actual": null,
    "curve": 0.4432
@@ -8145,7 +8145,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.346,
-   "p50": 0.8639,
+   "p50": 0.8884,
    "p90": 1.0,
    "actual": null,
    "curve": 0.5499
@@ -8155,7 +8155,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.4026,
-   "p50": 0.9734,
+   "p50": 0.9125,
    "p90": 1.0,
    "actual": null,
    "curve": 0.5108
@@ -8165,7 +8165,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.3506,
-   "p50": 0.8987,
+   "p50": 0.9137,
    "p90": 1.0,
    "actual": null,
    "curve": 0.5309
@@ -8175,7 +8175,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.352,
-   "p50": 0.8759,
+   "p50": 0.783,
    "p90": 0.989,
    "actual": null,
    "curve": 0.5263
@@ -8185,7 +8185,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.4442,
-   "p50": 0.9047,
+   "p50": 0.8221,
    "p90": 1.0,
    "actual": null,
    "curve": 0.5913
@@ -8195,7 +8195,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.2957,
-   "p50": 0.8763,
+   "p50": 0.7712,
    "p90": 0.9511,
    "actual": null,
    "curve": 0.4228
@@ -8205,7 +8205,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.492,
-   "p50": 0.9228,
+   "p50": 0.845,
    "p90": 0.9963,
    "actual": null,
    "curve": 0.6135
@@ -8215,7 +8215,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.4627,
-   "p50": 0.8214,
+   "p50": 0.8174,
    "p90": 0.9937,
    "actual": null,
    "curve": 0.5739
@@ -8225,7 +8225,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.4981,
-   "p50": 0.8271,
+   "p50": 0.7802,
    "p90": 0.9913,
    "actual": null,
    "curve": 0.6106
@@ -8235,7 +8235,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.547,
-   "p50": 0.7523,
+   "p50": 0.7725,
    "p90": 0.988,
    "actual": null,
    "curve": 0.6763
@@ -8245,7 +8245,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.5431,
-   "p50": 0.7866,
+   "p50": 0.8283,
    "p90": 0.9862,
    "actual": null,
    "curve": 0.6274
@@ -8255,7 +8255,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.5772,
-   "p50": 0.8125,
+   "p50": 0.8636,
    "p90": 0.9976,
    "actual": null,
    "curve": 0.6793
@@ -8265,7 +8265,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.4943,
-   "p50": 0.7902,
+   "p50": 0.8154,
    "p90": 0.9863,
    "actual": null,
    "curve": 0.535
@@ -8275,7 +8275,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.6936,
-   "p50": 0.8816,
+   "p50": 0.9058,
    "p90": 0.9989,
    "actual": null,
    "curve": 0.7192
@@ -8285,7 +8285,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.5815,
-   "p50": 0.8414,
+   "p50": 0.8608,
    "p90": 0.9997,
    "actual": null,
    "curve": 0.5816
@@ -8294,8 +8294,8 @@ window.DASHBOARD_DATA = {
    "time": "2026-02-18T06:00",
    "turbine": "T1",
    "lead_h": 24,
-   "p10": 0.849,
-   "p50": 0.8757,
+   "p10": 0.8757,
+   "p50": 0.9726,
    "p90": 0.9916,
    "actual": null,
    "curve": 0.9242
@@ -8305,7 +8305,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.6865,
-   "p50": 0.8828,
+   "p50": 0.8904,
    "p90": 0.9944,
    "actual": null,
    "curve": 0.6854
@@ -8315,7 +8315,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.8628,
-   "p50": 0.9508,
+   "p50": 0.9685,
    "p90": 0.9953,
    "actual": null,
    "curve": 0.8779
@@ -8325,7 +8325,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.7917,
-   "p50": 0.9591,
+   "p50": 0.9404,
    "p90": 0.9962,
    "actual": null,
    "curve": 0.7712
@@ -8335,7 +8335,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.8668,
-   "p50": 0.9415,
+   "p50": 0.9716,
    "p90": 0.9955,
    "actual": null,
    "curve": 0.8735
@@ -8345,7 +8345,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.8681,
-   "p50": 0.9666,
+   "p50": 0.9949,
    "p90": 0.9985,
    "actual": null,
    "curve": 0.8883
@@ -8355,7 +8355,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.8773,
-   "p50": 0.9779,
+   "p50": 0.9861,
    "p90": 0.9983,
    "actual": null,
    "curve": 0.8589
@@ -8365,7 +8365,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.8844,
-   "p50": 1.0,
+   "p50": 0.999,
    "p90": 1.0,
    "actual": null,
    "curve": 0.9073
@@ -8375,7 +8375,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.8227,
-   "p50": 0.9815,
+   "p50": 0.9961,
    "p90": 0.9978,
    "actual": null,
    "curve": 0.8125
@@ -8385,8 +8385,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.8594,
-   "p50": 0.9871,
-   "p90": 0.9959,
+   "p50": 0.9959,
+   "p90": 1.0,
    "actual": null,
    "curve": 0.8694
   },
@@ -8395,8 +8395,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.6924,
-   "p50": 0.8507,
-   "p90": 0.998,
+   "p50": 0.998,
+   "p90": 1.0,
    "actual": null,
    "curve": 0.8752
   },
@@ -8405,7 +8405,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.7121,
-   "p50": 0.9723,
+   "p50": 0.9946,
    "p90": 0.9957,
    "actual": null,
    "curve": 0.8229
@@ -8415,7 +8415,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.5551,
-   "p50": 0.9587,
+   "p50": 0.9569,
    "p90": 1.0,
    "actual": null,
    "curve": 0.7192
@@ -8425,7 +8425,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.4293,
-   "p50": 0.888,
+   "p50": 0.9054,
    "p90": 1.0,
    "actual": null,
    "curve": 0.6162
@@ -8435,7 +8435,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.4073,
-   "p50": 0.8107,
+   "p50": 0.8504,
    "p90": 0.9987,
    "actual": null,
    "curve": 0.51
@@ -8445,7 +8445,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.3709,
-   "p50": 0.8712,
+   "p50": 0.9148,
    "p90": 0.9962,
    "actual": null,
    "curve": 0.5162
@@ -8455,7 +8455,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.3967,
-   "p50": 0.8297,
+   "p50": 0.8719,
    "p90": 1.0,
    "actual": null,
    "curve": 0.5825
@@ -8465,7 +8465,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.385,
-   "p50": 0.834,
+   "p50": 0.8459,
    "p90": 0.9802,
    "actual": null,
    "curve": 0.458
@@ -8475,7 +8475,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.3933,
-   "p50": 0.9117,
+   "p50": 0.8811,
    "p90": 0.9854,
    "actual": null,
    "curve": 0.4209
@@ -8485,7 +8485,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.3738,
-   "p50": 0.7794,
+   "p50": 0.8351,
    "p90": 1.0,
    "actual": null,
    "curve": 0.5825
@@ -8495,7 +8495,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.3651,
-   "p50": 0.7044,
+   "p50": 0.7115,
    "p90": 0.9929,
    "actual": null,
    "curve": 0.4987
@@ -8505,7 +8505,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.3936,
-   "p50": 0.76,
+   "p50": 0.7887,
    "p90": 0.9853,
    "actual": null,
    "curve": 0.607
@@ -8515,7 +8515,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.3722,
-   "p50": 0.8904,
+   "p50": 0.8329,
    "p90": 0.9826,
    "actual": null,
    "curve": 0.336
@@ -8525,7 +8525,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.3547,
-   "p50": 0.7007,
+   "p50": 0.7468,
    "p90": 0.9883,
    "actual": null,
    "curve": 0.5178
@@ -8535,7 +8535,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.3508,
-   "p50": 0.8335,
+   "p50": 0.8073,
    "p90": 0.9326,
    "actual": null,
    "curve": 0.3082
@@ -8545,7 +8545,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.3406,
-   "p50": 0.757,
+   "p50": 0.7199,
    "p90": 0.9227,
    "actual": null,
    "curve": 0.3046
@@ -8555,7 +8555,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.2809,
-   "p50": 0.648,
+   "p50": 0.6679,
    "p90": 0.9234,
    "actual": null,
    "curve": 0.362
@@ -8565,7 +8565,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.3002,
-   "p50": 0.671,
+   "p50": 0.6984,
    "p90": 0.9379,
    "actual": null,
    "curve": 0.3993
@@ -8575,7 +8575,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.2794,
-   "p50": 0.6616,
+   "p50": 0.6649,
    "p90": 0.8511,
    "actual": null,
    "curve": 0.2109
@@ -8585,7 +8585,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.2892,
-   "p50": 0.7166,
+   "p50": 0.7246,
    "p90": 0.8589,
    "actual": null,
    "curve": 0.2256
@@ -8595,7 +8595,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.2758,
-   "p50": 0.7492,
+   "p50": 0.7252,
    "p90": 0.8602,
    "actual": null,
    "curve": 0.214
@@ -8605,7 +8605,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.3125,
-   "p50": 0.6818,
+   "p50": 0.7185,
    "p90": 0.8827,
    "actual": null,
    "curve": 0.2673
@@ -8615,7 +8615,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.3026,
-   "p50": 0.8306,
+   "p50": 0.7618,
    "p90": 0.8898,
    "actual": null,
    "curve": 0.1897
@@ -8625,7 +8625,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.298,
-   "p50": 0.6588,
+   "p50": 0.7364,
    "p90": 0.8822,
    "actual": null,
    "curve": 0.2766
@@ -8635,7 +8635,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.2541,
-   "p50": 0.7057,
+   "p50": 0.6339,
    "p90": 0.875,
    "actual": null,
    "curve": 0.2197
@@ -8645,7 +8645,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.1452,
-   "p50": 0.4746,
+   "p50": 0.4775,
    "p90": 0.8528,
    "actual": null,
    "curve": 0.1817
@@ -8655,7 +8655,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.1216,
-   "p50": 0.3843,
+   "p50": 0.435,
    "p90": 0.8289,
    "actual": null,
    "curve": 0.1349
@@ -8665,7 +8665,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0576,
-   "p50": 0.2884,
+   "p50": 0.3116,
    "p90": 0.8642,
    "actual": null,
    "curve": 0.2381
@@ -8675,7 +8675,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.1176,
-   "p50": 0.3701,
+   "p50": 0.3605,
    "p90": 0.7945,
    "actual": null,
    "curve": 0.1422
@@ -8685,7 +8685,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0432,
-   "p50": 0.3962,
+   "p50": 0.3755,
    "p90": 0.8889,
    "actual": null,
    "curve": 0.2966
@@ -8695,7 +8695,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.1307,
-   "p50": 0.4119,
+   "p50": 0.3972,
    "p90": 0.8149,
    "actual": null,
    "curve": 0.1452
@@ -8705,7 +8705,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0436,
-   "p50": 0.4462,
+   "p50": 0.3496,
    "p90": 0.8888,
    "actual": null,
    "curve": 0.2618
@@ -8715,7 +8715,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.1159,
-   "p50": 0.5539,
+   "p50": 0.6343,
    "p90": 0.837,
    "actual": null,
    "curve": 0.1426
@@ -8725,7 +8725,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0416,
-   "p50": 0.3706,
+   "p50": 0.3158,
    "p90": 0.8757,
    "actual": null,
    "curve": 0.29
@@ -8735,7 +8735,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.1147,
-   "p50": 0.4795,
+   "p50": 0.5048,
    "p90": 0.8416,
    "actual": null,
    "curve": 0.1676
@@ -8745,7 +8745,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0791,
-   "p50": 0.3876,
+   "p50": 0.3566,
    "p90": 0.9179,
    "actual": null,
    "curve": 0.4525
@@ -8755,7 +8755,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0982,
-   "p50": 0.4863,
+   "p50": 0.4878,
    "p90": 0.8783,
    "actual": null,
    "curve": 0.2471
@@ -8765,7 +8765,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0669,
-   "p50": 0.4398,
+   "p50": 0.3877,
    "p90": 0.8653,
    "actual": null,
    "curve": 0.2248
@@ -8775,7 +8775,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0992,
-   "p50": 0.4287,
+   "p50": 0.4488,
    "p90": 0.7992,
    "actual": null,
    "curve": 0.1492
@@ -8785,7 +8785,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.1051,
-   "p50": 0.5037,
+   "p50": 0.4719,
    "p90": 0.8837,
    "actual": null,
    "curve": 0.28
@@ -8795,7 +8795,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0587,
-   "p50": 0.4072,
+   "p50": 0.3176,
    "p90": 0.7532,
    "actual": null,
    "curve": 0.1707
@@ -8805,7 +8805,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0625,
-   "p50": 0.4385,
+   "p50": 0.3349,
    "p90": 0.7652,
    "actual": null,
    "curve": 0.1691
@@ -8815,7 +8815,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0485,
-   "p50": 0.3096,
+   "p50": 0.2983,
    "p90": 0.6583,
    "actual": null,
    "curve": 0.1583
@@ -8825,7 +8825,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0362,
-   "p50": 0.2884,
+   "p50": 0.2475,
    "p90": 0.5932,
    "actual": null,
    "curve": 0.1223
@@ -8835,7 +8835,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0534,
-   "p50": 0.3164,
+   "p50": 0.3308,
    "p90": 0.5341,
    "actual": null,
    "curve": 0.147
@@ -8845,7 +8845,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0203,
-   "p50": 0.2939,
+   "p50": 0.315,
    "p90": 0.5118,
    "actual": null,
    "curve": 0.1281
@@ -8855,7 +8855,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0269,
-   "p50": 0.2726,
+   "p50": 0.3302,
    "p90": 0.4617,
    "actual": null,
    "curve": 0.1158
@@ -8865,7 +8865,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0179,
-   "p50": 0.2665,
+   "p50": 0.2818,
    "p90": 0.3787,
    "actual": null,
    "curve": 0.0959
@@ -8875,7 +8875,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0097,
-   "p50": 0.2479,
+   "p50": 0.2921,
    "p90": 0.3401,
    "actual": null,
    "curve": 0.0341
@@ -8885,7 +8885,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.207,
+   "p50": 0.231,
    "p90": 0.3498,
    "actual": null,
    "curve": 0.1047
@@ -8895,7 +8895,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0068,
-   "p50": 0.2695,
+   "p50": 0.2936,
    "p90": 0.3709,
    "actual": null,
    "curve": 0.0637
@@ -8905,7 +8905,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0091,
-   "p50": 0.1905,
+   "p50": 0.2451,
    "p90": 0.3473,
    "actual": null,
    "curve": 0.1038
@@ -8915,7 +8915,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0017,
-   "p50": 0.2135,
+   "p50": 0.1775,
    "p90": 0.2609,
    "actual": null,
    "curve": 0.01
@@ -8925,7 +8925,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0038,
-   "p50": 0.1989,
+   "p50": 0.1667,
    "p90": 0.3182,
    "actual": null,
    "curve": 0.052
@@ -8935,7 +8935,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1162,
+   "p50": 0.0997,
    "p90": 0.2423,
    "actual": null,
    "curve": 0.0154
@@ -8945,7 +8945,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.2014,
+   "p50": 0.152,
    "p90": 0.3381,
    "actual": null,
    "curve": 0.0261
@@ -8955,7 +8955,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1243,
+   "p50": 0.1352,
    "p90": 0.2112,
    "actual": null,
    "curve": 0.1539
@@ -8965,7 +8965,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.2403,
+   "p50": 0.2189,
    "p90": 0.3529,
    "actual": null,
    "curve": 0.0141
@@ -8975,8 +8975,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1432,
-   "p90": 0.1993,
+   "p50": 0.1993,
+   "p90": 0.2218,
    "actual": null,
    "curve": 0.2281
   },
@@ -8985,7 +8985,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.162,
+   "p50": 0.2185,
    "p90": 0.2335,
    "actual": null,
    "curve": 0.049
@@ -8995,7 +8995,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0118,
-   "p50": 0.374,
+   "p50": 0.3505,
    "p90": 0.5441,
    "actual": null,
    "curve": 0.4887
@@ -9005,7 +9005,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0045,
-   "p50": 0.192,
+   "p50": 0.2646,
    "p90": 0.3646,
    "actual": null,
    "curve": 0.209
@@ -9015,7 +9015,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.038,
-   "p50": 0.4138,
+   "p50": 0.4186,
    "p90": 0.549,
    "actual": null,
    "curve": 0.35
@@ -9025,7 +9025,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0377,
-   "p50": 0.3975,
+   "p50": 0.453,
    "p90": 0.6651,
    "actual": null,
    "curve": 0.3972
@@ -9035,7 +9035,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0252,
-   "p50": 0.4079,
+   "p50": 0.3726,
    "p90": 0.8349,
    "actual": null,
    "curve": 0.5043
@@ -9045,7 +9045,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0409,
-   "p50": 0.5939,
+   "p50": 0.563,
    "p90": 0.8003,
    "actual": null,
    "curve": 0.2589
@@ -9055,7 +9055,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0928,
-   "p50": 0.4079,
+   "p50": 0.475,
    "p90": 0.9354,
    "actual": null,
    "curve": 0.5777
@@ -9065,7 +9065,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.092,
-   "p50": 0.6014,
+   "p50": 0.6298,
    "p90": 0.8632,
    "actual": null,
    "curve": 0.1804
@@ -9075,7 +9075,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0945,
-   "p50": 0.4894,
+   "p50": 0.5441,
    "p90": 0.967,
    "actual": null,
    "curve": 0.5792
@@ -9085,7 +9085,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.137,
-   "p50": 0.5545,
+   "p50": 0.5839,
    "p90": 0.9058,
    "actual": null,
    "curve": 0.303
@@ -9095,7 +9095,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.1727,
-   "p50": 0.5352,
+   "p50": 0.5078,
    "p90": 0.924,
    "actual": null,
    "curve": 0.4804
@@ -9105,7 +9105,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.1551,
-   "p50": 0.5615,
+   "p50": 0.552,
    "p90": 0.9273,
    "actual": null,
    "curve": 0.4578
@@ -9115,7 +9115,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.1372,
-   "p50": 0.5672,
+   "p50": 0.5996,
    "p90": 0.9723,
    "actual": null,
    "curve": 0.5672
@@ -9125,7 +9125,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.1604,
-   "p50": 0.5823,
+   "p50": 0.7043,
    "p90": 0.9291,
    "actual": null,
    "curve": 0.4466
@@ -9135,7 +9135,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.1661,
-   "p50": 0.6425,
+   "p50": 0.6078,
    "p90": 0.9499,
    "actual": null,
    "curve": 0.6172
@@ -9145,7 +9145,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.2056,
-   "p50": 0.7053,
+   "p50": 0.6653,
    "p90": 0.9811,
    "actual": null,
    "curve": 0.5762
@@ -9155,7 +9155,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.2423,
-   "p50": 0.7076,
+   "p50": 0.6992,
    "p90": 0.9563,
    "actual": null,
    "curve": 0.641
@@ -9165,7 +9165,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.2337,
-   "p50": 0.7578,
+   "p50": 0.7603,
    "p90": 0.971,
    "actual": null,
    "curve": 0.5828
@@ -9175,7 +9175,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.2667,
-   "p50": 0.664,
+   "p50": 0.6594,
    "p90": 0.9611,
    "actual": null,
    "curve": 0.7192
@@ -9185,7 +9185,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.2204,
-   "p50": 0.6733,
+   "p50": 0.7099,
    "p90": 0.9676,
    "actual": null,
    "curve": 0.5264
@@ -9195,7 +9195,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.1983,
-   "p50": 0.5992,
+   "p50": 0.5853,
    "p90": 0.9073,
    "actual": null,
    "curve": 0.6309
@@ -9205,7 +9205,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.1911,
-   "p50": 0.502,
+   "p50": 0.5461,
    "p90": 0.9308,
    "actual": null,
    "curve": 0.4578
@@ -9215,7 +9215,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0942,
-   "p50": 0.5567,
+   "p50": 0.4723,
    "p90": 0.8473,
    "actual": null,
    "curve": 0.3846
@@ -9225,7 +9225,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0901,
-   "p50": 0.4475,
+   "p50": 0.4408,
    "p90": 0.8555,
    "actual": null,
    "curve": 0.2408
@@ -9235,7 +9235,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0486,
-   "p50": 0.3321,
+   "p50": 0.3263,
    "p90": 0.6733,
    "actual": null,
    "curve": 0.251
@@ -9245,7 +9245,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0081,
-   "p50": 0.3681,
+   "p50": 0.2617,
    "p90": 0.6967,
    "actual": null,
    "curve": 0.1558
@@ -9255,7 +9255,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0136,
-   "p50": 0.2041,
+   "p50": 0.2328,
    "p90": 0.4346,
    "actual": null,
    "curve": 0.2419
@@ -9265,7 +9265,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0052,
-   "p50": 0.2553,
+   "p50": 0.2546,
    "p90": 0.4171,
    "actual": null,
    "curve": 0.1093
@@ -9275,7 +9275,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0024,
-   "p50": 0.2035,
+   "p50": 0.2222,
    "p90": 0.4129,
    "actual": null,
    "curve": 0.1561
@@ -9285,7 +9285,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.2538,
+   "p50": 0.2262,
    "p90": 0.354,
    "actual": null,
    "curve": 0.0546
@@ -9295,7 +9295,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1427,
+   "p50": 0.155,
    "p90": 0.2691,
    "actual": null,
    "curve": 0.1184
@@ -9305,7 +9305,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0023,
-   "p50": 0.1651,
+   "p50": 0.2075,
    "p90": 0.293,
    "actual": null,
    "curve": 0.0436
@@ -9315,7 +9315,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0877,
+   "p50": 0.1388,
    "p90": 0.1503,
    "actual": null,
    "curve": 0.0763
@@ -9325,7 +9325,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0977,
+   "p50": 0.1411,
    "p90": 0.1572,
    "actual": null,
    "curve": 0.0315
@@ -9335,8 +9335,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0031,
-   "p50": 0.0644,
-   "p90": 0.1058,
+   "p50": 0.1058,
+   "p90": 0.1133,
    "actual": null,
    "curve": 0.0518
   },
@@ -9345,7 +9345,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.1248,
+   "p50": 0.1287,
    "p90": 0.1349,
    "actual": null,
    "curve": 0.0214
@@ -9355,8 +9355,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0583,
-   "p90": 0.0777,
+   "p50": 0.0777,
+   "p90": 0.0934,
    "actual": null,
    "curve": 0.027
   },
@@ -9365,8 +9365,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.105,
-   "p90": 0.1155,
+   "p50": 0.1155,
+   "p90": 0.1166,
    "actual": null,
    "curve": 0.0292
   },
@@ -9375,7 +9375,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0694,
+   "p50": 0.0963,
    "p90": 0.1197,
    "actual": null,
    "curve": 0.0257
@@ -9386,7 +9386,7 @@ window.DASHBOARD_DATA = {
    "lead_h": 48,
    "p10": 0.0,
    "p50": 0.1318,
-   "p90": 0.1322,
+   "p90": 0.1514,
    "actual": null,
    "curve": 0.0711
   },
@@ -9395,7 +9395,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1929,
+   "p50": 0.2084,
    "p90": 0.2788,
    "actual": null,
    "curve": 0.01
@@ -9405,7 +9405,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.1762,
+   "p50": 0.1983,
    "p90": 0.6812,
    "actual": null,
    "curve": 0.581
@@ -9415,7 +9415,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0235,
-   "p50": 0.2758,
+   "p50": 0.2817,
    "p90": 0.4448,
    "actual": null,
    "curve": 0.0811
@@ -9425,7 +9425,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.228,
+   "p50": 0.2142,
    "p90": 0.8992,
    "actual": null,
    "curve": 0.6161
@@ -9435,7 +9435,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.1041,
-   "p50": 0.562,
+   "p50": 0.5878,
    "p90": 1.0,
    "actual": null,
    "curve": 0.4209
@@ -9445,7 +9445,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.142,
-   "p50": 0.4775,
+   "p50": 0.437,
    "p90": 0.9842,
    "actual": null,
    "curve": 0.6256
@@ -9455,7 +9455,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.2223,
-   "p50": 0.7205,
+   "p50": 0.8077,
    "p90": 0.9893,
    "actual": null,
    "curve": 0.5534
@@ -9465,7 +9465,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.1719,
-   "p50": 0.6347,
+   "p50": 0.67,
    "p90": 0.9989,
    "actual": null,
    "curve": 0.6375
@@ -9475,7 +9475,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.5464,
-   "p50": 0.8146,
+   "p50": 0.8837,
    "p90": 1.0,
    "actual": null,
    "curve": 0.6679
@@ -9485,7 +9485,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.4076,
-   "p50": 0.8534,
+   "p50": 0.8661,
    "p90": 0.9946,
    "actual": null,
    "curve": 0.6265
@@ -9495,7 +9495,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.5693,
-   "p50": 0.9261,
+   "p50": 0.9295,
    "p90": 1.0,
    "actual": null,
    "curve": 0.7178
@@ -9505,7 +9505,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.4883,
-   "p50": 0.8605,
+   "p50": 0.8713,
    "p90": 0.9971,
    "actual": null,
    "curve": 0.6277
@@ -9515,7 +9515,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.4738,
-   "p50": 0.874,
+   "p50": 0.883,
    "p90": 1.0,
    "actual": null,
    "curve": 0.6588
@@ -9525,7 +9525,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.4632,
-   "p50": 0.8364,
+   "p50": 0.8508,
    "p90": 1.0,
    "actual": null,
    "curve": 0.6356
@@ -9535,7 +9535,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.3895,
-   "p50": 0.8403,
+   "p50": 0.8393,
    "p90": 1.0,
    "actual": null,
    "curve": 0.592
@@ -9545,7 +9545,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.4295,
-   "p50": 0.7739,
+   "p50": 0.7991,
    "p90": 0.9973,
    "actual": null,
    "curve": 0.6113
@@ -9555,7 +9555,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.38,
-   "p50": 0.8166,
+   "p50": 0.8103,
    "p90": 1.0,
    "actual": null,
    "curve": 0.5637
@@ -9565,7 +9565,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.3417,
-   "p50": 0.7467,
+   "p50": 0.7519,
    "p90": 1.0,
    "actual": null,
    "curve": 0.5226
@@ -9575,7 +9575,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.3119,
-   "p50": 0.699,
+   "p50": 0.7032,
    "p90": 0.9688,
    "actual": null,
    "curve": 0.4601
@@ -9585,7 +9585,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.2963,
-   "p50": 0.7118,
+   "p50": 0.7085,
    "p90": 0.932,
    "actual": null,
    "curve": 0.3848
@@ -9595,7 +9595,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.2821,
-   "p50": 0.6647,
+   "p50": 0.6719,
    "p90": 0.9465,
    "actual": null,
    "curve": 0.3956
@@ -9605,7 +9605,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.2441,
-   "p50": 0.6577,
+   "p50": 0.7039,
    "p90": 0.8818,
    "actual": null,
    "curve": 0.2333
@@ -9615,7 +9615,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.1607,
-   "p50": 0.5306,
+   "p50": 0.5539,
    "p90": 0.8863,
    "actual": null,
    "curve": 0.2832
@@ -9625,7 +9625,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.1521,
-   "p50": 0.4718,
+   "p50": 0.4587,
    "p90": 0.8504,
    "actual": null,
    "curve": 0.1812
@@ -9635,7 +9635,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0881,
-   "p50": 0.4129,
+   "p50": 0.3435,
    "p90": 0.8548,
    "actual": null,
    "curve": 0.1848
@@ -9645,7 +9645,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.1101,
-   "p50": 0.4229,
+   "p50": 0.3137,
    "p90": 0.736,
    "actual": null,
    "curve": 0.1026
@@ -9655,7 +9655,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.1153,
-   "p50": 0.4194,
+   "p50": 0.4556,
    "p90": 0.8125,
    "actual": null,
    "curve": 0.1502
@@ -9665,7 +9665,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.1047,
-   "p50": 0.3715,
+   "p50": 0.3544,
    "p90": 0.8049,
    "actual": null,
    "curve": 0.1559
@@ -9675,7 +9675,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0583,
-   "p50": 0.342,
+   "p50": 0.31,
    "p90": 0.8258,
    "actual": null,
    "curve": 0.1433
@@ -9685,7 +9685,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0553,
-   "p50": 0.4107,
+   "p50": 0.3523,
    "p90": 0.8887,
    "actual": null,
    "curve": 0.2632
@@ -9695,7 +9695,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0071,
-   "p50": 0.3006,
+   "p50": 0.2198,
    "p90": 0.5137,
    "actual": null,
    "curve": 0.01
@@ -9705,7 +9705,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.1701,
+   "p50": 0.1357,
    "p90": 0.4012,
    "actual": null,
    "curve": 0.1678
@@ -9715,7 +9715,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0529,
-   "p50": 0.4257,
+   "p50": 0.3792,
    "p90": 0.7467,
    "actual": null,
    "curve": 0.2758
@@ -9725,7 +9725,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.1143,
-   "p50": 0.4557,
+   "p50": 0.3073,
    "p90": 0.9273,
    "actual": null,
    "curve": 0.0375
@@ -9735,7 +9735,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.2518,
-   "p50": 0.5894,
+   "p50": 0.6879,
    "p90": 0.9526,
    "actual": null,
    "curve": 0.9212
@@ -9745,7 +9745,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.4832,
-   "p50": 0.8576,
+   "p50": 0.8732,
    "p90": 0.9895,
    "actual": null,
    "curve": 0.9294
@@ -9755,7 +9755,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.3567,
-   "p50": 0.8521,
+   "p50": 0.8736,
    "p90": 0.9973,
    "actual": null,
    "curve": 0.9242
@@ -9765,7 +9765,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.7152,
-   "p50": 0.9461,
+   "p50": 0.9018,
    "p90": 0.9958,
    "actual": null,
    "curve": 0.9588
@@ -9775,7 +9775,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.891,
-   "p50": 0.9415,
+   "p50": 0.9595,
    "p90": 0.9726,
    "actual": null,
    "curve": 0.9685
@@ -9785,7 +9785,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.6912,
-   "p50": 0.8901,
+   "p50": 0.8973,
    "p90": 0.9939,
    "actual": null,
    "curve": 0.9369
@@ -9795,7 +9795,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.7869,
-   "p50": 0.9177,
+   "p50": 0.918,
    "p90": 0.9944,
    "actual": null,
    "curve": 0.9327
@@ -9805,7 +9805,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.5585,
-   "p50": 0.8175,
+   "p50": 0.7805,
    "p90": 1.0,
    "actual": null,
    "curve": 0.687
@@ -9815,7 +9815,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.6055,
-   "p50": 0.9112,
+   "p50": 0.8696,
    "p90": 0.9876,
    "actual": null,
    "curve": 0.8558
@@ -9825,7 +9825,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.2896,
-   "p50": 0.7471,
+   "p50": 0.7717,
    "p90": 0.9484,
    "actual": null,
    "curve": 0.4979
@@ -9835,7 +9835,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.1624,
-   "p50": 0.6472,
+   "p50": 0.69,
    "p90": 0.9027,
    "actual": null,
    "curve": 0.5823
@@ -9845,7 +9845,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.238,
-   "p50": 0.8266,
+   "p50": 0.7932,
    "p90": 0.9759,
    "actual": null,
    "curve": 0.1797
@@ -9855,7 +9855,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.2148,
-   "p50": 0.5468,
+   "p50": 0.5121,
    "p90": 0.9246,
    "actual": null,
    "curve": 0.3957
@@ -9865,7 +9865,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.1652,
-   "p50": 0.6183,
+   "p50": 0.6049,
    "p90": 0.8605,
    "actual": null,
    "curve": 0.1705
@@ -9875,7 +9875,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.1275,
-   "p50": 0.5612,
+   "p50": 0.5053,
    "p90": 0.7935,
    "actual": null,
    "curve": 0.1778
@@ -9885,7 +9885,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0571,
-   "p50": 0.5359,
+   "p50": 0.582,
    "p90": 0.7404,
    "actual": null,
    "curve": 0.1212
@@ -9895,7 +9895,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0755,
-   "p50": 0.3877,
+   "p50": 0.4515,
    "p90": 0.6404,
    "actual": null,
    "curve": 0.2942
@@ -9905,7 +9905,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0417,
-   "p50": 0.3454,
+   "p50": 0.3131,
    "p90": 0.6248,
    "actual": null,
    "curve": 0.3096
@@ -9915,7 +9915,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0031,
-   "p50": 0.3074,
+   "p50": 0.3696,
    "p90": 0.8056,
    "actual": null,
    "curve": 0.6024
@@ -9925,7 +9925,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.034,
-   "p50": 0.2407,
+   "p50": 0.269,
    "p90": 0.6016,
    "actual": null,
    "curve": 0.393
@@ -9935,7 +9935,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0945,
-   "p50": 0.5333,
+   "p50": 0.5315,
    "p90": 0.8784,
    "actual": null,
    "curve": 0.6415
@@ -9945,7 +9945,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0487,
-   "p50": 0.3432,
+   "p50": 0.2988,
    "p90": 0.7916,
    "actual": null,
    "curve": 0.5426
@@ -9955,7 +9955,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.1593,
-   "p50": 0.715,
+   "p50": 0.6599,
    "p90": 0.9008,
    "actual": null,
    "curve": 0.6476
@@ -9965,7 +9965,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.1643,
+   "p50": 0.1463,
    "p90": 0.7128,
    "actual": null,
    "curve": 0.7205
@@ -9975,7 +9975,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0273,
-   "p50": 0.6207,
+   "p50": 0.6692,
    "p90": 0.875,
    "actual": null,
    "curve": 0.202
@@ -9985,7 +9985,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.1924,
+   "p50": 0.1282,
    "p90": 0.6514,
    "actual": null,
    "curve": 0.5947
@@ -9995,7 +9995,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0238,
-   "p50": 0.523,
+   "p50": 0.5271,
    "p90": 0.8322,
    "actual": null,
    "curve": 0.1419
@@ -10005,7 +10005,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0963,
+   "p50": 0.1021,
    "p90": 0.7062,
    "actual": null,
    "curve": 0.6218
@@ -10015,7 +10015,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0171,
-   "p50": 0.4537,
+   "p50": 0.3974,
    "p90": 0.7682,
    "actual": null,
    "curve": 0.148
@@ -10025,7 +10025,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.2262,
+   "p50": 0.2678,
    "p90": 0.6268,
    "actual": null,
    "curve": 0.5502
@@ -10035,7 +10035,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.2671,
+   "p50": 0.2104,
    "p90": 0.4549,
    "actual": null,
    "curve": 0.0798
@@ -10045,7 +10045,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.048,
+   "p50": 0.0367,
    "p90": 0.3325,
    "actual": null,
    "curve": 0.3097
@@ -10055,7 +10055,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0827,
+   "p50": 0.0657,
    "p90": 0.2178,
    "actual": null,
    "curve": 0.0176
@@ -10065,7 +10065,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0365,
+   "p50": 0.0511,
    "p90": 0.1909,
    "actual": null,
    "curve": 0.2292
@@ -10075,7 +10075,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1079,
+   "p50": 0.0589,
    "p90": 0.1922,
    "actual": null,
    "curve": 0.01
@@ -10085,7 +10085,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0529,
+   "p50": 0.0796,
    "p90": 0.1282,
    "actual": null,
    "curve": 0.1034
@@ -10105,7 +10105,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0139,
+   "p50": 0.0062,
    "p90": 0.0783,
    "actual": null,
    "curve": 0.0137
@@ -10125,7 +10125,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0799,
+   "p50": 0.0486,
    "p90": 0.1377,
    "actual": null,
    "curve": 0.0157
@@ -10145,7 +10145,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.1885,
+   "p50": 0.1511,
    "p90": 0.2474,
    "actual": null,
    "curve": 0.0244
@@ -10155,7 +10155,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0511,
+   "p50": 0.0309,
    "p90": 0.3199,
    "actual": null,
    "curve": 0.2641
@@ -10165,7 +10165,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0024,
-   "p50": 0.2776,
+   "p50": 0.2355,
    "p90": 0.5391,
    "actual": null,
    "curve": 0.0293
@@ -10175,7 +10175,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0014,
-   "p50": 0.2045,
+   "p50": 0.1367,
    "p90": 0.601,
    "actual": null,
    "curve": 0.2882
@@ -10185,7 +10185,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.038,
-   "p50": 0.293,
+   "p50": 0.3474,
    "p90": 0.6873,
    "actual": null,
    "curve": 0.0336
@@ -10195,7 +10195,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0359,
-   "p50": 0.2198,
+   "p50": 0.095,
    "p90": 0.916,
    "actual": null,
    "curve": 0.5574
@@ -10205,7 +10205,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.1528,
-   "p50": 0.6978,
+   "p50": 0.6215,
    "p90": 1.0,
    "actual": null,
    "curve": 0.0536
@@ -10215,7 +10215,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.3828,
-   "p50": 0.5856,
+   "p50": 0.5991,
    "p90": 0.9601,
    "actual": null,
    "curve": 0.6905
@@ -10225,7 +10225,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.3368,
-   "p50": 0.8589,
+   "p50": 0.8099,
    "p90": 1.0,
    "actual": null,
    "curve": 0.1762
@@ -10235,7 +10235,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.7214,
-   "p50": 0.7505,
+   "p50": 0.7868,
    "p90": 0.9921,
    "actual": null,
    "curve": 0.8245
@@ -10245,7 +10245,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.5207,
-   "p50": 0.7794,
+   "p50": 0.7306,
    "p90": 1.0,
    "actual": null,
    "curve": 0.4482
@@ -10255,7 +10255,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.7536,
-   "p50": 0.8044,
+   "p50": 0.9525,
    "p90": 0.9931,
    "actual": null,
    "curve": 0.8014
@@ -10265,7 +10265,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.5691,
-   "p50": 0.8461,
+   "p50": 0.9171,
    "p90": 0.9865,
    "actual": null,
    "curve": 0.6065
@@ -10275,8 +10275,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.666,
-   "p50": 0.8583,
-   "p90": 0.9983,
+   "p50": 0.9983,
+   "p90": 1.0,
    "actual": null,
    "curve": 0.7192
   },
@@ -10285,7 +10285,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.5851,
-   "p50": 0.849,
+   "p50": 0.9319,
    "p90": 0.9954,
    "actual": null,
    "curve": 0.6344
@@ -10295,7 +10295,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.6001,
-   "p50": 0.8027,
+   "p50": 0.9216,
    "p90": 0.9949,
    "actual": null,
    "curve": 0.6589
@@ -10305,7 +10305,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.5795,
-   "p50": 0.8026,
+   "p50": 0.883,
    "p90": 0.9945,
    "actual": null,
    "curve": 0.6329
@@ -10315,7 +10315,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.5537,
-   "p50": 0.7869,
+   "p50": 0.8832,
    "p90": 0.9829,
    "actual": null,
    "curve": 0.6037
@@ -10325,7 +10325,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.5175,
-   "p50": 0.7884,
+   "p50": 0.8393,
    "p90": 0.9824,
    "actual": null,
    "curve": 0.6049
@@ -10335,7 +10335,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.3636,
-   "p50": 0.7055,
+   "p50": 0.9035,
    "p90": 1.0,
    "actual": null,
    "curve": 0.5889
@@ -10345,7 +10345,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.3323,
-   "p50": 0.7062,
+   "p50": 0.8064,
    "p90": 1.0,
    "actual": null,
    "curve": 0.58
@@ -10355,7 +10355,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.2916,
-   "p50": 0.7217,
+   "p50": 0.8186,
    "p90": 0.9556,
    "actual": null,
    "curve": 0.3302
@@ -10365,7 +10365,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.2074,
-   "p50": 0.6783,
+   "p50": 0.6653,
    "p90": 0.9353,
    "actual": null,
    "curve": 0.3034
@@ -10375,7 +10375,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.1153,
-   "p50": 0.3608,
+   "p50": 0.3836,
    "p90": 0.6637,
    "actual": null,
    "curve": 0.1225
@@ -10385,7 +10385,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.108,
-   "p50": 0.3866,
+   "p50": 0.3569,
    "p90": 0.6367,
    "actual": null,
    "curve": 0.128
@@ -10395,7 +10395,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0067,
-   "p50": 0.3062,
+   "p50": 0.2575,
    "p90": 0.5363,
    "actual": null,
    "curve": 0.0618
@@ -10405,7 +10405,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.2272,
+   "p50": 0.2625,
    "p90": 0.5019,
    "actual": null,
    "curve": 0.1037
@@ -10415,7 +10415,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1561,
+   "p50": 0.1766,
    "p90": 0.3381,
    "actual": null,
    "curve": 0.0214
@@ -10425,7 +10425,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.1295,
+   "p50": 0.2279,
    "p90": 0.3543,
    "actual": null,
    "curve": 0.1047
@@ -10435,7 +10435,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0928,
+   "p50": 0.1737,
    "p90": 0.295,
    "actual": null,
    "curve": 0.0134
@@ -10445,7 +10445,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0026,
-   "p50": 0.1152,
+   "p50": 0.1975,
    "p90": 0.2979,
    "actual": null,
    "curve": 0.1122
@@ -10455,7 +10455,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1024,
+   "p50": 0.1621,
    "p90": 0.3026,
    "actual": null,
    "curve": 0.017
@@ -10465,7 +10465,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.1266,
+   "p50": 0.2463,
    "p90": 0.2971,
    "actual": null,
    "curve": 0.0511
@@ -10475,7 +10475,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0642,
+   "p50": 0.1164,
    "p90": 0.2497,
    "actual": null,
    "curve": 0.0183
@@ -10485,7 +10485,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0059,
-   "p50": 0.0155,
+   "p50": 0.1311,
    "p90": 0.2542,
    "actual": null,
    "curve": 0.0242
@@ -10495,7 +10495,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.077,
+   "p50": 0.1474,
    "p90": 0.2745,
    "actual": null,
    "curve": 0.0121
@@ -10505,7 +10505,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0272,
+   "p50": 0.0801,
    "p90": 0.2327,
    "actual": null,
    "curve": 0.0202
@@ -10515,7 +10515,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0799,
+   "p50": 0.1162,
    "p90": 0.2272,
    "actual": null,
    "curve": 0.0113
@@ -10525,7 +10525,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0387,
+   "p50": 0.0678,
    "p90": 0.2941,
    "actual": null,
    "curve": 0.0232
@@ -10535,8 +10535,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0613,
-   "p90": 0.0981,
+   "p50": 0.0981,
+   "p90": 0.1058,
    "actual": null,
    "curve": 0.0178
   },
@@ -10545,7 +10545,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0859,
+   "p50": 0.1156,
    "p90": 0.1261,
    "actual": null,
    "curve": 0.0291
@@ -10555,8 +10555,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.073,
-   "p90": 0.1139,
+   "p50": 0.1139,
+   "p90": 0.1216,
    "actual": null,
    "curve": 0.01
   },
@@ -10565,8 +10565,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0586,
-   "p90": 0.0661,
+   "p50": 0.0661,
+   "p90": 0.0784,
    "actual": null,
    "curve": 0.0298
   },
@@ -10575,7 +10575,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0741,
+   "p50": 0.0549,
    "p90": 0.0777,
    "actual": null,
    "curve": 0.01
@@ -10585,7 +10585,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0239,
+   "p50": 0.031,
    "p90": 0.1087,
    "actual": null,
    "curve": 0.0521
@@ -10595,7 +10595,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0612,
+   "p50": 0.08,
    "p90": 0.2209,
    "actual": null,
    "curve": 0.0218
@@ -10605,7 +10605,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.1084,
+   "p50": 0.1421,
    "p90": 0.2607,
    "actual": null,
    "curve": 0.0992
@@ -10615,7 +10615,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.09,
+   "p50": 0.1189,
    "p90": 0.2442,
    "actual": null,
    "curve": 0.1057
@@ -10625,7 +10625,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.1282,
+   "p50": 0.2051,
    "p90": 0.3536,
    "actual": null,
    "curve": 0.088
@@ -10635,7 +10635,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1409,
+   "p50": 0.1347,
    "p90": 0.2861,
    "actual": null,
    "curve": 0.1297
@@ -10645,7 +10645,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0007,
-   "p50": 0.2115,
+   "p50": 0.2551,
    "p90": 0.4442,
    "actual": null,
    "curve": 0.0682
@@ -10655,7 +10655,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1089,
+   "p50": 0.1227,
    "p90": 0.1884,
    "actual": null,
    "curve": 0.1151
@@ -10665,7 +10665,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.1188,
+   "p50": 0.1477,
    "p90": 0.2565,
    "actual": null,
    "curve": 0.0562
@@ -10675,7 +10675,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1038,
+   "p50": 0.132,
    "p90": 0.1715,
    "actual": null,
    "curve": 0.1127
@@ -10685,7 +10685,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.1123,
+   "p50": 0.1485,
    "p90": 0.1749,
    "actual": null,
    "curve": 0.0844
@@ -10695,7 +10695,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.2097,
+   "p50": 0.1857,
    "p90": 0.3491,
    "actual": null,
    "curve": 0.1471
@@ -10705,7 +10705,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.189,
+   "p50": 0.2289,
    "p90": 0.4701,
    "actual": null,
    "curve": 0.1847
@@ -10715,7 +10715,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0107,
-   "p50": 0.323,
+   "p50": 0.3331,
    "p90": 0.6434,
    "actual": null,
    "curve": 0.1322
@@ -10725,7 +10725,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.038,
-   "p50": 0.2496,
+   "p50": 0.2251,
    "p90": 0.6184,
    "actual": null,
    "curve": 0.3264
@@ -10735,7 +10735,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.1284,
-   "p50": 0.5333,
+   "p50": 0.5056,
    "p90": 0.7922,
    "actual": null,
    "curve": 0.2014
@@ -10745,7 +10745,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.1862,
-   "p50": 0.3722,
+   "p50": 0.4099,
    "p90": 0.8566,
    "actual": null,
    "curve": 0.4174
@@ -10755,7 +10755,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.2222,
-   "p50": 0.5596,
+   "p50": 0.5509,
    "p90": 0.8919,
    "actual": null,
    "curve": 0.403
@@ -10765,7 +10765,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.1711,
-   "p50": 0.458,
+   "p50": 0.4954,
    "p90": 0.8738,
    "actual": null,
    "curve": 0.5969
@@ -10775,7 +10775,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.218,
-   "p50": 0.6009,
+   "p50": 0.6421,
    "p90": 0.8696,
    "actual": null,
    "curve": 0.4217
@@ -10785,7 +10785,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.2381,
-   "p50": 0.4926,
+   "p50": 0.5071,
    "p90": 0.8688,
    "actual": null,
    "curve": 0.7206
@@ -10795,7 +10795,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.3025,
-   "p50": 0.6492,
+   "p50": 0.6385,
    "p90": 0.8882,
    "actual": null,
    "curve": 0.7192
@@ -10805,7 +10805,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.3222,
-   "p50": 0.7153,
+   "p50": 0.6706,
    "p90": 0.953,
    "actual": null,
    "curve": 0.8049
@@ -10815,7 +10815,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.3362,
-   "p50": 0.6713,
+   "p50": 0.6816,
    "p90": 0.9661,
    "actual": null,
    "curve": 0.7159
@@ -10825,7 +10825,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.4558,
-   "p50": 0.7003,
+   "p50": 0.6704,
    "p90": 0.9662,
    "actual": null,
    "curve": 0.8502
@@ -10835,7 +10835,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.3846,
-   "p50": 0.8018,
+   "p50": 0.7761,
    "p90": 0.9709,
    "actual": null,
    "curve": 0.7324
@@ -10845,7 +10845,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.4873,
-   "p50": 0.7907,
+   "p50": 0.7609,
    "p90": 0.9857,
    "actual": null,
    "curve": 0.8883
@@ -10855,7 +10855,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.49,
-   "p50": 0.7617,
+   "p50": 0.8085,
    "p90": 0.9762,
    "actual": null,
    "curve": 0.8558
@@ -10865,7 +10865,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.4722,
-   "p50": 0.7752,
+   "p50": 0.8017,
    "p90": 0.979,
    "actual": null,
    "curve": 0.8883
@@ -10875,7 +10875,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.5144,
-   "p50": 0.8372,
+   "p50": 0.8427,
    "p90": 0.9896,
    "actual": null,
    "curve": 0.8937
@@ -10885,7 +10885,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.4291,
-   "p50": 0.765,
+   "p50": 0.7763,
    "p90": 0.9837,
    "actual": null,
    "curve": 0.8883
@@ -10895,7 +10895,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.531,
-   "p50": 0.8281,
+   "p50": 0.8386,
    "p90": 0.9907,
    "actual": null,
    "curve": 0.9117
@@ -10905,7 +10905,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.4716,
-   "p50": 0.7927,
+   "p50": 0.782,
    "p90": 0.9883,
    "actual": null,
    "curve": 0.8883
@@ -10915,7 +10915,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.6407,
-   "p50": 0.8579,
+   "p50": 0.8622,
    "p90": 0.9904,
    "actual": null,
    "curve": 0.9228
@@ -10925,7 +10925,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.5639,
-   "p50": 0.8782,
+   "p50": 0.8456,
    "p90": 0.9826,
    "actual": null,
    "curve": 0.8516
@@ -10935,7 +10935,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.6541,
-   "p50": 0.9057,
+   "p50": 0.8878,
    "p90": 0.9903,
    "actual": null,
    "curve": 0.9117
@@ -10945,7 +10945,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.687,
-   "p50": 0.9253,
+   "p50": 0.8506,
    "p90": 0.9979,
    "actual": null,
    "curve": 0.8253
@@ -10955,7 +10955,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.6991,
-   "p50": 0.9498,
+   "p50": 0.9504,
    "p90": 0.9965,
    "actual": null,
    "curve": 0.8785
@@ -10965,7 +10965,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.6937,
-   "p50": 0.9001,
+   "p50": 0.8433,
    "p90": 0.991,
    "actual": null,
    "curve": 0.8292
@@ -10975,7 +10975,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.6937,
-   "p50": 0.9582,
+   "p50": 0.9215,
    "p90": 0.9926,
    "actual": null,
    "curve": 0.8178
@@ -10985,7 +10985,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.524,
-   "p50": 0.8961,
+   "p50": 0.8962,
    "p90": 0.9902,
    "actual": null,
    "curve": 0.6775
@@ -10995,7 +10995,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.5252,
-   "p50": 0.9199,
+   "p50": 0.9148,
    "p90": 0.9925,
    "actual": null,
    "curve": 0.7192
@@ -11005,7 +11005,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.4898,
-   "p50": 0.8195,
+   "p50": 0.8609,
    "p90": 0.9779,
    "actual": null,
    "curve": 0.6296
@@ -11015,7 +11015,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.4743,
-   "p50": 0.8147,
+   "p50": 0.843,
    "p90": 0.9821,
    "actual": null,
    "curve": 0.6805
@@ -11025,7 +11025,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.4456,
-   "p50": 0.7784,
+   "p50": 0.8367,
    "p90": 0.9754,
    "actual": null,
    "curve": 0.6247
@@ -11035,7 +11035,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.4799,
-   "p50": 0.8278,
+   "p50": 0.8615,
    "p90": 0.9829,
    "actual": null,
    "curve": 0.6544
@@ -11045,7 +11045,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.4741,
-   "p50": 0.8299,
+   "p50": 0.8825,
    "p90": 0.9902,
    "actual": null,
    "curve": 0.6549
@@ -11055,7 +11055,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.3304,
-   "p50": 0.6545,
+   "p50": 0.6369,
    "p90": 0.958,
    "actual": null,
    "curve": 0.5209
@@ -11065,7 +11065,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.4092,
-   "p50": 0.6507,
+   "p50": 0.7356,
    "p90": 0.9697,
    "actual": null,
    "curve": 0.7149
@@ -11075,7 +11075,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.2925,
-   "p50": 0.6575,
+   "p50": 0.6532,
    "p90": 0.9843,
    "actual": null,
    "curve": 0.5417
@@ -11085,7 +11085,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.3669,
-   "p50": 0.734,
+   "p50": 0.7401,
    "p90": 0.9476,
    "actual": null,
    "curve": 0.6916
@@ -11095,7 +11095,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.2451,
-   "p50": 0.511,
+   "p50": 0.5399,
    "p90": 0.931,
    "actual": null,
    "curve": 0.509
@@ -11105,7 +11105,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.316,
-   "p50": 0.6696,
+   "p50": 0.6686,
    "p90": 0.8935,
    "actual": null,
    "curve": 0.6857
@@ -11115,7 +11115,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.1071,
-   "p50": 0.4468,
+   "p50": 0.497,
    "p90": 0.8821,
    "actual": null,
    "curve": 0.4404
@@ -11125,7 +11125,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0854,
-   "p50": 0.5199,
+   "p50": 0.5724,
    "p90": 0.8645,
    "actual": null,
    "curve": 0.5458
@@ -11135,7 +11135,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0449,
-   "p50": 0.2073,
+   "p50": 0.3235,
    "p90": 0.8314,
    "actual": null,
    "curve": 0.4324
@@ -11145,7 +11145,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0442,
-   "p50": 0.1963,
+   "p50": 0.1931,
    "p90": 0.8412,
    "actual": null,
    "curve": 0.4828
@@ -11155,7 +11155,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0419,
-   "p50": 0.1503,
+   "p50": 0.1692,
    "p90": 0.6806,
    "actual": null,
    "curve": 0.4488
@@ -11165,7 +11165,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0323,
-   "p50": 0.2285,
+   "p50": 0.3348,
    "p90": 0.7792,
    "actual": null,
    "curve": 0.4245
@@ -11175,7 +11175,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0477,
-   "p50": 0.2871,
+   "p50": 0.2824,
    "p90": 0.7144,
    "actual": null,
    "curve": 0.3009
@@ -11185,7 +11185,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.2079,
+   "p50": 0.2051,
    "p90": 0.7495,
    "actual": null,
    "curve": 0.5257
@@ -11195,7 +11195,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0834,
-   "p50": 0.2539,
+   "p50": 0.2567,
    "p90": 0.7426,
    "actual": null,
    "curve": 0.3656
@@ -11205,7 +11205,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.1231,
-   "p50": 0.2785,
+   "p50": 0.3264,
    "p90": 0.7522,
    "actual": null,
    "curve": 0.4482
@@ -11215,7 +11215,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0873,
-   "p50": 0.3268,
+   "p50": 0.2557,
    "p90": 0.7634,
    "actual": null,
    "curve": 0.3656
@@ -11225,7 +11225,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.1238,
-   "p50": 0.3574,
+   "p50": 0.3834,
    "p90": 0.7786,
    "actual": null,
    "curve": 0.3243
@@ -11235,7 +11235,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0955,
-   "p50": 0.3651,
+   "p50": 0.3842,
    "p90": 0.7956,
    "actual": null,
    "curve": 0.3372
@@ -11245,7 +11245,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.1236,
-   "p50": 0.4358,
+   "p50": 0.4265,
    "p90": 0.7534,
    "actual": null,
    "curve": 0.2743
@@ -11255,7 +11255,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0471,
-   "p50": 0.3477,
+   "p50": 0.2835,
    "p90": 0.7862,
    "actual": null,
    "curve": 0.2835
@@ -11265,7 +11265,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0414,
-   "p50": 0.4378,
+   "p50": 0.4201,
    "p90": 0.6881,
    "actual": null,
    "curve": 0.1902
@@ -11275,7 +11275,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0341,
-   "p50": 0.282,
+   "p50": 0.2776,
    "p90": 0.6873,
    "actual": null,
    "curve": 0.206
@@ -11285,7 +11285,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0186,
-   "p50": 0.3229,
+   "p50": 0.3296,
    "p90": 0.6252,
    "actual": null,
    "curve": 0.1417
@@ -11295,7 +11295,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0436,
-   "p50": 0.2566,
+   "p50": 0.2036,
    "p90": 0.5173,
    "actual": null,
    "curve": 0.1605
@@ -11305,7 +11305,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0074,
-   "p50": 0.2132,
+   "p50": 0.2623,
    "p90": 0.4148,
    "actual": null,
    "curve": 0.0905
@@ -11315,7 +11315,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1601,
+   "p50": 0.1429,
    "p90": 0.3386,
    "actual": null,
    "curve": 0.104
@@ -11325,7 +11325,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0027,
-   "p50": 0.134,
+   "p50": 0.1421,
    "p90": 0.3455,
    "actual": null,
    "curve": 0.0492
@@ -11335,7 +11335,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0765,
+   "p50": 0.1373,
    "p90": 0.2675,
    "actual": null,
    "curve": 0.0929
@@ -11345,7 +11345,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.1031,
+   "p50": 0.1264,
    "p90": 0.2178,
    "actual": null,
    "curve": 0.0279
@@ -11355,7 +11355,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0825,
+   "p50": 0.077,
    "p90": 0.2194,
    "actual": null,
    "curve": 0.0705
@@ -11365,7 +11365,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.1851,
+   "p50": 0.2332,
    "p90": 0.2921,
    "actual": null,
    "curve": 0.0147
@@ -11375,7 +11375,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0542,
+   "p50": 0.0779,
    "p90": 0.1614,
    "actual": null,
    "curve": 0.038
@@ -11385,7 +11385,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0008,
-   "p50": 0.1436,
+   "p50": 0.1411,
    "p90": 0.1587,
    "actual": null,
    "curve": 0.0313
@@ -11395,7 +11395,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0509,
+   "p50": 0.0965,
    "p90": 0.1673,
    "actual": null,
    "curve": 0.0158
@@ -11405,7 +11405,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0836,
+   "p50": 0.035,
    "p90": 0.0904,
    "actual": null,
    "curve": 0.054
@@ -11415,7 +11415,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0681,
+   "p50": 0.0523,
    "p90": 0.2125,
    "actual": null,
    "curve": 0.0143
@@ -11425,8 +11425,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0039,
-   "p50": 0.0209,
-   "p90": 0.0327,
+   "p50": 0.0202,
+   "p90": 0.0209,
    "actual": null,
    "curve": 0.0324
   },
@@ -11435,7 +11435,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.047,
+   "p50": 0.0377,
    "p90": 0.1138,
    "actual": null,
    "curve": 0.0114
@@ -11445,8 +11445,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0056,
-   "p90": 0.0177,
+   "p50": 0.0032,
+   "p90": 0.0056,
    "actual": null,
    "curve": 0.0277
   },
@@ -11455,7 +11455,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0462,
+   "p50": 0.0037,
    "p90": 0.0898,
    "actual": null,
    "curve": 0.0105
@@ -11465,7 +11465,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0333,
+   "p50": 0.0155,
    "p90": 0.1184,
    "actual": null,
    "curve": 0.0494
@@ -11475,7 +11475,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0021,
-   "p50": 0.0094,
+   "p50": 0.0195,
    "p90": 0.086,
    "actual": null,
    "curve": 0.0207
@@ -11485,7 +11485,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0566,
+   "p50": 0.0257,
    "p90": 0.1705,
    "actual": null,
    "curve": 0.1005
@@ -11495,7 +11495,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1103,
+   "p50": 0.0797,
    "p90": 0.1836,
    "actual": null,
    "curve": 0.0674
@@ -11505,7 +11505,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.111,
+   "p50": 0.0721,
    "p90": 0.1979,
    "actual": null,
    "curve": 0.1866
@@ -11515,7 +11515,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1345,
+   "p50": 0.1288,
    "p90": 0.3446,
    "actual": null,
    "curve": 0.0708
@@ -11525,7 +11525,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0603,
+   "p50": 0.0292,
    "p90": 0.2771,
    "actual": null,
    "curve": 0.2416
@@ -11535,7 +11535,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0446,
+   "p50": 0.1056,
    "p90": 0.3208,
    "actual": null,
    "curve": 0.0968
@@ -11545,7 +11545,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0181,
+   "p50": 0.0,
    "p90": 0.4103,
    "actual": null,
    "curve": 0.2852
@@ -11555,7 +11555,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1072,
+   "p50": 0.1347,
    "p90": 0.4494,
    "actual": null,
    "curve": 0.0881
@@ -11565,7 +11565,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0182,
+   "p50": 0.0,
    "p90": 0.4278,
    "actual": null,
    "curve": 0.3206
@@ -11575,7 +11575,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1138,
+   "p50": 0.1295,
    "p90": 0.4959,
    "actual": null,
    "curve": 0.1078
@@ -11585,7 +11585,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.1481,
+   "p50": 0.0475,
    "p90": 0.5542,
    "actual": null,
    "curve": 0.3758
@@ -11595,7 +11595,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.008,
-   "p50": 0.1368,
+   "p50": 0.0764,
    "p90": 0.4649,
    "actual": null,
    "curve": 0.1037
@@ -11605,7 +11605,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.1903,
+   "p50": 0.1132,
    "p90": 0.5857,
    "actual": null,
    "curve": 0.3681
@@ -11615,7 +11615,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0035,
-   "p50": 0.213,
+   "p50": 0.1509,
    "p90": 0.4244,
    "actual": null,
    "curve": 0.0593
@@ -11625,7 +11625,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.1463,
+   "p50": 0.0,
    "p90": 0.5934,
    "actual": null,
    "curve": 0.3742
@@ -11635,7 +11635,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1926,
+   "p50": 0.2145,
    "p90": 0.442,
    "actual": null,
    "curve": 0.0508
@@ -11644,8 +11644,8 @@ window.DASHBOARD_DATA = {
    "time": "2026-02-25T05:00",
    "turbine": "T1",
    "lead_h": 48,
-   "p10": 0.0036,
-   "p50": 0.142,
+   "p10": 0.0031,
+   "p50": 0.0036,
    "p90": 0.5863,
    "actual": null,
    "curve": 0.4793
@@ -11655,7 +11655,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0079,
-   "p50": 0.2211,
+   "p50": 0.1811,
    "p90": 0.3569,
    "actual": null,
    "curve": 0.0204
@@ -11665,7 +11665,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0284,
-   "p50": 0.1457,
+   "p50": 0.1345,
    "p90": 0.4737,
    "actual": null,
    "curve": 0.4519
@@ -11675,7 +11675,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.001,
-   "p50": 0.1882,
+   "p50": 0.1467,
    "p90": 0.3459,
    "actual": null,
    "curve": 0.0176
@@ -11685,7 +11685,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0105,
-   "p50": 0.1031,
+   "p50": 0.1481,
    "p90": 0.5313,
    "actual": null,
    "curve": 0.468
@@ -11695,7 +11695,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0158,
-   "p50": 0.1086,
+   "p50": 0.1034,
    "p90": 0.2737,
    "actual": null,
    "curve": 0.0204
@@ -11705,7 +11705,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0001,
-   "p50": 0.0539,
+   "p50": 0.0984,
    "p90": 0.408,
    "actual": null,
    "curve": 0.3604
@@ -11715,7 +11715,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0002,
-   "p50": 0.1199,
+   "p50": 0.1172,
    "p90": 0.2902,
    "actual": null,
    "curve": 0.0166
@@ -11725,7 +11725,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0721,
+   "p50": 0.1204,
    "p90": 0.2456,
    "actual": null,
    "curve": 0.2945
@@ -11735,7 +11735,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1433,
+   "p50": 0.1095,
    "p90": 0.2256,
    "actual": null,
    "curve": 0.0123
@@ -11745,7 +11745,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0485,
+   "p50": 0.0898,
    "p90": 0.2155,
    "actual": null,
    "curve": 0.2194
@@ -11755,7 +11755,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.131,
+   "p50": 0.1218,
    "p90": 0.2638,
    "actual": null,
    "curve": 0.0139
@@ -11765,7 +11765,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.065,
+   "p50": 0.101,
    "p90": 0.3232,
    "actual": null,
    "curve": 0.2336
@@ -11775,7 +11775,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0935,
+   "p50": 0.0981,
    "p90": 0.2059,
    "actual": null,
    "curve": 0.0216
@@ -11785,7 +11785,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.1136,
+   "p50": 0.1453,
    "p90": 0.3163,
    "actual": null,
    "curve": 0.0514
@@ -11795,7 +11795,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.115,
+   "p50": 0.1322,
    "p90": 0.221,
    "actual": null,
    "curve": 0.0129
@@ -11805,7 +11805,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0014,
-   "p50": 0.1264,
+   "p50": 0.1345,
    "p90": 0.273,
    "actual": null,
    "curve": 0.067
@@ -11815,7 +11815,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1521,
+   "p50": 0.1893,
    "p90": 0.3505,
    "actual": null,
    "curve": 0.0089
@@ -11825,7 +11825,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0034,
-   "p50": 0.1711,
+   "p50": 0.2114,
    "p90": 0.2974,
    "actual": null,
    "curve": 0.1018
@@ -11835,7 +11835,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0022,
-   "p50": 0.1758,
+   "p50": 0.1622,
    "p90": 0.4071,
    "actual": null,
    "curve": 0.013
@@ -11845,7 +11845,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.2945,
+   "p50": 0.2917,
    "p90": 0.5011,
    "actual": null,
    "curve": 0.1706
@@ -11855,7 +11855,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0026,
-   "p50": 0.4457,
+   "p50": 0.4384,
    "p90": 0.7546,
    "actual": null,
    "curve": 0.0348
@@ -11865,7 +11865,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0955,
-   "p50": 0.5033,
+   "p50": 0.41,
    "p90": 0.7267,
    "actual": null,
    "curve": 0.2165
@@ -11875,7 +11875,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0331,
-   "p50": 0.449,
+   "p50": 0.4445,
    "p90": 0.8469,
    "actual": null,
    "curve": 0.1428
@@ -11885,7 +11885,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.1874,
-   "p50": 0.4797,
+   "p50": 0.555,
    "p90": 0.9828,
    "actual": null,
    "curve": 0.3331
@@ -11895,7 +11895,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.3208,
-   "p50": 0.6213,
+   "p50": 0.6754,
    "p90": 0.9531,
    "actual": null,
    "curve": 0.4655
@@ -11905,7 +11905,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.4114,
-   "p50": 0.8397,
+   "p50": 0.8282,
    "p90": 1.0,
    "actual": null,
    "curve": 0.5389
@@ -11915,7 +11915,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.4003,
-   "p50": 0.7933,
+   "p50": 0.8061,
    "p90": 0.9912,
    "actual": null,
    "curve": 0.5672
@@ -11925,7 +11925,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.3312,
-   "p50": 0.8305,
+   "p50": 0.7785,
    "p90": 0.9952,
    "actual": null,
    "curve": 0.4828
@@ -11935,7 +11935,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.452,
-   "p50": 0.8529,
+   "p50": 0.889,
    "p90": 0.9983,
    "actual": null,
    "curve": 0.6077
@@ -11945,7 +11945,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.3923,
-   "p50": 0.897,
+   "p50": 0.8546,
    "p90": 0.9975,
    "actual": null,
    "curve": 0.5234
@@ -11955,7 +11955,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.4588,
-   "p50": 0.8616,
+   "p50": 0.83,
    "p90": 0.9994,
    "actual": null,
    "curve": 0.6131
@@ -11965,7 +11965,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.3398,
-   "p50": 0.8005,
+   "p50": 0.8428,
    "p90": 1.0,
    "actual": null,
    "curve": 0.5515
@@ -11975,7 +11975,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.3826,
-   "p50": 0.9027,
+   "p50": 0.8336,
    "p90": 0.9736,
    "actual": null,
    "curve": 0.438
@@ -11985,7 +11985,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.3737,
-   "p50": 0.8241,
+   "p50": 0.8492,
    "p90": 0.9991,
    "actual": null,
    "curve": 0.5735
@@ -11995,7 +11995,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.334,
-   "p50": 0.9209,
+   "p50": 0.8073,
    "p90": 0.9545,
    "actual": null,
    "curve": 0.2789
@@ -12005,7 +12005,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.3455,
-   "p50": 0.7899,
+   "p50": 0.7631,
    "p90": 0.997,
    "actual": null,
    "curve": 0.5317
@@ -12015,7 +12015,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.2786,
-   "p50": 0.5925,
+   "p50": 0.4844,
    "p90": 0.909,
    "actual": null,
    "curve": 0.3917
@@ -12025,7 +12025,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.3317,
-   "p50": 0.7216,
+   "p50": 0.6943,
    "p90": 0.9245,
    "actual": null,
    "curve": 0.286
@@ -12035,7 +12035,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.299,
-   "p50": 0.5444,
+   "p50": 0.5133,
    "p90": 0.8834,
    "actual": null,
    "curve": 0.3236
@@ -12045,7 +12045,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.358,
-   "p50": 0.6301,
+   "p50": 0.6692,
    "p90": 0.9589,
    "actual": null,
    "curve": 0.491
@@ -12055,7 +12055,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.2937,
-   "p50": 0.6124,
+   "p50": 0.597,
    "p90": 0.8847,
    "actual": null,
    "curve": 0.2592
@@ -12065,7 +12065,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.2829,
-   "p50": 0.5072,
+   "p50": 0.5774,
    "p90": 0.9561,
    "actual": null,
    "curve": 0.503
@@ -12075,7 +12075,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.1997,
-   "p50": 0.643,
+   "p50": 0.6292,
    "p90": 0.9191,
    "actual": null,
    "curve": 0.2107
@@ -12085,7 +12085,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.3598,
+   "p50": 0.3551,
    "p90": 0.9485,
    "actual": null,
    "curve": 0.4218
@@ -12095,7 +12095,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0409,
-   "p50": 0.4811,
+   "p50": 0.4179,
    "p90": 0.8277,
    "actual": null,
    "curve": 0.1076
@@ -12105,7 +12105,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0076,
-   "p50": 0.2404,
+   "p50": 0.2429,
    "p90": 0.6795,
    "actual": null,
    "curve": 0.0487
@@ -12115,7 +12115,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0115,
-   "p50": 0.1273,
+   "p50": 0.0592,
    "p90": 0.508,
    "actual": null,
    "curve": 0.0212
@@ -12125,7 +12125,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.2211,
+   "p50": 0.1884,
    "p90": 0.7917,
    "actual": null,
    "curve": 0.5894
@@ -12135,7 +12135,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0142,
-   "p50": 0.2652,
+   "p50": 0.3296,
    "p90": 0.8476,
    "actual": null,
    "curve": 0.8558
@@ -12145,7 +12145,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.135,
-   "p50": 0.4931,
+   "p50": 0.502,
    "p90": 0.7454,
    "actual": null,
    "curve": 0.5102
@@ -12155,7 +12155,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.1032,
-   "p50": 0.4352,
+   "p50": 0.4727,
    "p90": 0.7751,
    "actual": null,
    "curve": 0.5677
@@ -12165,7 +12165,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.1286,
-   "p50": 0.4276,
+   "p50": 0.4455,
    "p90": 0.8441,
    "actual": null,
    "curve": 0.261
@@ -12175,7 +12175,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.1071,
-   "p50": 0.5928,
+   "p50": 0.5932,
    "p90": 0.7383,
    "actual": null,
    "curve": 0.0884
@@ -12185,7 +12185,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0809,
-   "p50": 0.3648,
+   "p50": 0.3489,
    "p90": 0.7018,
    "actual": null,
    "curve": 0.2527
@@ -12195,7 +12195,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0452,
-   "p50": 0.4106,
+   "p50": 0.386,
    "p90": 0.6821,
    "actual": null,
    "curve": 0.1427
@@ -12205,7 +12205,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0197,
-   "p50": 0.3098,
+   "p50": 0.3601,
    "p90": 0.7156,
    "actual": null,
    "curve": 0.1328
@@ -12215,7 +12215,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0871,
-   "p50": 0.3739,
+   "p50": 0.4876,
    "p90": 0.7663,
    "actual": null,
    "curve": 0.25
@@ -12225,7 +12225,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0776,
-   "p50": 0.3442,
+   "p50": 0.5408,
    "p90": 0.8171,
    "actual": null,
    "curve": 0.1356
@@ -12235,7 +12235,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0921,
-   "p50": 0.4987,
+   "p50": 0.4133,
    "p90": 0.8451,
    "actual": null,
    "curve": 0.3288
@@ -12245,7 +12245,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.143,
-   "p50": 0.6239,
+   "p50": 0.6842,
    "p90": 0.9412,
    "actual": null,
    "curve": 0.102
@@ -12255,7 +12255,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.2634,
-   "p50": 0.6732,
+   "p50": 0.6479,
    "p90": 0.9405,
    "actual": null,
    "curve": 0.6944
@@ -12265,7 +12265,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.319,
-   "p50": 0.6731,
+   "p50": 0.7069,
    "p90": 0.9671,
    "actual": null,
    "curve": 0.483
@@ -12275,7 +12275,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.3231,
-   "p50": 0.7586,
+   "p50": 0.7722,
    "p90": 0.9482,
    "actual": null,
    "curve": 0.6779
@@ -12285,7 +12285,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.2527,
-   "p50": 0.7139,
+   "p50": 0.7681,
    "p90": 0.9393,
    "actual": null,
    "curve": 0.6261
@@ -12295,7 +12295,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.2513,
-   "p50": 0.7599,
+   "p50": 0.7661,
    "p90": 0.928,
    "actual": null,
    "curve": 0.5641
@@ -12305,7 +12305,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.2666,
-   "p50": 0.622,
+   "p50": 0.7017,
    "p90": 0.9321,
    "actual": null,
    "curve": 0.6414
@@ -12315,7 +12315,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.3956,
-   "p50": 0.8344,
+   "p50": 0.8396,
    "p90": 0.9138,
    "actual": null,
    "curve": 0.6213
@@ -12325,7 +12325,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.3778,
-   "p50": 0.7377,
+   "p50": 0.7607,
    "p90": 0.9317,
    "actual": null,
    "curve": 0.6215
@@ -12335,7 +12335,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.4318,
-   "p50": 0.7023,
+   "p50": 0.7462,
    "p90": 0.9268,
    "actual": null,
    "curve": 0.7192
@@ -12345,7 +12345,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.2568,
-   "p50": 0.6673,
+   "p50": 0.6046,
    "p90": 0.9134,
    "actual": null,
    "curve": 0.4576
@@ -12355,7 +12355,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.4544,
-   "p50": 0.7477,
+   "p50": 0.769,
    "p90": 0.9335,
    "actual": null,
    "curve": 0.7411
@@ -12365,7 +12365,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.4095,
-   "p50": 0.6956,
+   "p50": 0.7921,
    "p90": 0.9211,
    "actual": null,
    "curve": 0.6505
@@ -12375,7 +12375,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.4254,
-   "p50": 0.6908,
+   "p50": 0.7521,
    "p90": 0.965,
    "actual": null,
    "curve": 0.7192
@@ -12385,7 +12385,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.3504,
-   "p50": 0.7129,
+   "p50": 0.7063,
    "p90": 0.9612,
    "actual": null,
    "curve": 0.7093
@@ -12395,7 +12395,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.4577,
-   "p50": 0.7522,
+   "p50": 0.8057,
    "p90": 0.9771,
    "actual": null,
    "curve": 0.8442
@@ -12405,7 +12405,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.3215,
-   "p50": 0.6428,
+   "p50": 0.7517,
    "p90": 0.9737,
    "actual": null,
    "curve": 0.8095
@@ -12415,7 +12415,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.3127,
-   "p50": 0.7506,
+   "p50": 0.7328,
    "p90": 0.9509,
    "actual": null,
    "curve": 0.6658
@@ -12425,7 +12425,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.3247,
-   "p50": 0.6442,
+   "p50": 0.7276,
    "p90": 0.963,
    "actual": null,
    "curve": 0.8119
@@ -12435,7 +12435,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.3052,
-   "p50": 0.6505,
+   "p50": 0.7475,
    "p90": 0.9253,
    "actual": null,
    "curve": 0.7017
@@ -12445,7 +12445,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.3002,
-   "p50": 0.6009,
+   "p50": 0.687,
    "p90": 0.9321,
    "actual": null,
    "curve": 0.605
@@ -12455,7 +12455,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.2447,
-   "p50": 0.5577,
+   "p50": 0.5659,
    "p90": 0.8862,
    "actual": null,
    "curve": 0.6491
@@ -12465,7 +12465,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.1415,
-   "p50": 0.4695,
+   "p50": 0.5438,
    "p90": 0.8796,
    "actual": null,
    "curve": 0.5545
@@ -12475,7 +12475,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.169,
-   "p50": 0.5233,
+   "p50": 0.6016,
    "p90": 0.8673,
    "actual": null,
    "curve": 0.5245
@@ -12485,7 +12485,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.2012,
-   "p50": 0.3575,
+   "p50": 0.4326,
    "p90": 0.8055,
    "actual": null,
    "curve": 0.5119
@@ -12495,7 +12495,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.1279,
-   "p50": 0.4226,
+   "p50": 0.3772,
    "p90": 0.8696,
    "actual": null,
    "curve": 0.2606
@@ -12505,7 +12505,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0877,
-   "p50": 0.3744,
+   "p50": 0.3093,
    "p90": 0.7771,
    "actual": null,
    "curve": 0.5979
@@ -12515,7 +12515,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.111,
-   "p50": 0.4205,
+   "p50": 0.3916,
    "p90": 0.8053,
    "actual": null,
    "curve": 0.2558
@@ -12525,7 +12525,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.1212,
-   "p50": 0.2588,
+   "p50": 0.3543,
    "p90": 0.8234,
    "actual": null,
    "curve": 0.4785
@@ -12535,7 +12535,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0835,
-   "p50": 0.2798,
+   "p50": 0.287,
    "p90": 0.7853,
    "actual": null,
    "curve": 0.2566
@@ -12545,7 +12545,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0524,
-   "p50": 0.1961,
+   "p50": 0.2762,
    "p90": 0.8002,
    "actual": null,
    "curve": 0.4933
@@ -12555,7 +12555,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0719,
-   "p50": 0.2866,
+   "p50": 0.2914,
    "p90": 0.7608,
    "actual": null,
    "curve": 0.2294
@@ -12565,7 +12565,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.232,
+   "p50": 0.2287,
    "p90": 0.6818,
    "actual": null,
    "curve": 0.4283
@@ -12575,7 +12575,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0079,
-   "p50": 0.2473,
+   "p50": 0.2292,
    "p90": 0.6304,
    "actual": null,
    "curve": 0.1474
@@ -12585,7 +12585,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0131,
-   "p50": 0.1251,
+   "p50": 0.1196,
    "p90": 0.5026,
    "actual": null,
    "curve": 0.2677
@@ -12595,7 +12595,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0078,
-   "p50": 0.2644,
+   "p50": 0.3008,
    "p90": 0.5278,
    "actual": null,
    "curve": 0.1503
@@ -12605,7 +12605,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.113,
+   "p50": 0.1344,
    "p90": 0.4617,
    "actual": null,
    "curve": 0.1955
@@ -12615,7 +12615,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0016,
-   "p50": 0.2067,
+   "p50": 0.2115,
    "p90": 0.3726,
    "actual": null,
    "curve": 0.1556
@@ -12625,7 +12625,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.1378,
+   "p50": 0.1614,
    "p90": 0.3812,
    "actual": null,
    "curve": 0.1077
@@ -12635,7 +12635,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0038,
-   "p50": 0.2224,
+   "p50": 0.2068,
    "p90": 0.4208,
    "actual": null,
    "curve": 0.1287
@@ -12645,7 +12645,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0232,
-   "p50": 0.1915,
+   "p50": 0.229,
    "p90": 0.4877,
    "actual": null,
    "curve": 0.2142
@@ -12655,7 +12655,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.038,
-   "p50": 0.3396,
+   "p50": 0.3436,
    "p90": 0.662,
    "actual": null,
    "curve": 0.1671
@@ -12665,7 +12665,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0667,
-   "p50": 0.3616,
+   "p50": 0.3559,
    "p90": 0.7574,
    "actual": null,
    "curve": 0.285
@@ -12675,7 +12675,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.1422,
-   "p50": 0.4887,
+   "p50": 0.5039,
    "p90": 0.839,
    "actual": null,
    "curve": 0.3131
@@ -12685,7 +12685,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.099,
-   "p50": 0.3604,
+   "p50": 0.4247,
    "p90": 0.8858,
    "actual": null,
    "curve": 0.3143
@@ -12695,7 +12695,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.1389,
-   "p50": 0.486,
+   "p50": 0.4909,
    "p90": 0.8703,
    "actual": null,
    "curve": 0.4017
@@ -12705,7 +12705,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.1402,
-   "p50": 0.4156,
+   "p50": 0.5104,
    "p90": 0.8774,
    "actual": null,
    "curve": 0.514
@@ -12715,7 +12715,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.2493,
-   "p50": 0.5573,
+   "p50": 0.5193,
    "p90": 0.8773,
    "actual": null,
    "curve": 0.4484
@@ -12725,7 +12725,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.2976,
-   "p50": 0.5756,
+   "p50": 0.6315,
    "p90": 0.9325,
    "actual": null,
    "curve": 0.6219
@@ -12735,7 +12735,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.2758,
-   "p50": 0.6588,
+   "p50": 0.6254,
    "p90": 0.9429,
    "actual": null,
    "curve": 0.3365
@@ -12745,7 +12745,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.3732,
-   "p50": 0.7698,
+   "p50": 0.7557,
    "p90": 0.9542,
    "actual": null,
    "curve": 0.6207
@@ -12755,7 +12755,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.2162,
-   "p50": 0.6616,
+   "p50": 0.5902,
    "p90": 0.9239,
    "actual": null,
    "curve": 0.4527
@@ -12765,7 +12765,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.3753,
-   "p50": 0.7618,
+   "p50": 0.7959,
    "p90": 0.9863,
    "actual": null,
    "curve": 0.6352
@@ -12775,7 +12775,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.2619,
-   "p50": 0.6621,
+   "p50": 0.6356,
    "p90": 0.9437,
    "actual": null,
    "curve": 0.3937
@@ -12785,7 +12785,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.38,
-   "p50": 0.614,
+   "p50": 0.6858,
    "p90": 0.9838,
    "actual": null,
    "curve": 0.6148
@@ -12795,7 +12795,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.2805,
-   "p50": 0.7046,
+   "p50": 0.6328,
    "p90": 0.9718,
    "actual": null,
    "curve": 0.5757
@@ -12805,7 +12805,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.3398,
-   "p50": 0.6443,
+   "p50": 0.6366,
    "p90": 0.9863,
    "actual": null,
    "curve": 0.5505
@@ -12815,7 +12815,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.3503,
-   "p50": 0.6617,
+   "p50": 0.7267,
    "p90": 0.9955,
    "actual": null,
    "curve": 0.5692
@@ -12825,7 +12825,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.3672,
-   "p50": 0.7192,
+   "p50": 0.721,
    "p90": 0.995,
    "actual": null,
    "curve": 0.5479
@@ -12835,7 +12835,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.3019,
-   "p50": 0.5785,
+   "p50": 0.5672,
    "p90": 0.9567,
    "actual": null,
    "curve": 0.4697
@@ -12845,7 +12845,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.2824,
-   "p50": 0.6964,
+   "p50": 0.7005,
    "p90": 0.995,
    "actual": null,
    "curve": 0.5232
@@ -12855,7 +12855,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.2619,
-   "p50": 0.6025,
+   "p50": 0.6249,
    "p90": 0.9344,
    "actual": null,
    "curve": 0.4156
@@ -12865,7 +12865,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.2107,
-   "p50": 0.5215,
+   "p50": 0.5539,
    "p90": 0.9418,
    "actual": null,
    "curve": 0.32
@@ -12875,7 +12875,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.2416,
-   "p50": 0.5226,
+   "p50": 0.5266,
    "p90": 0.9048,
    "actual": null,
    "curve": 0.3826
@@ -12885,7 +12885,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.1959,
-   "p50": 0.3989,
+   "p50": 0.4753,
    "p90": 0.9088,
    "actual": null,
    "curve": 0.3273
@@ -12895,7 +12895,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.2613,
-   "p50": 0.5716,
+   "p50": 0.6065,
    "p90": 0.9365,
    "actual": null,
    "curve": 0.4409
@@ -12905,7 +12905,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.2527,
-   "p50": 0.5904,
+   "p50": 0.5617,
    "p90": 0.9082,
    "actual": null,
    "curve": 0.2288
@@ -12915,7 +12915,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.1299,
-   "p50": 0.6005,
+   "p50": 0.5203,
    "p90": 0.9188,
    "actual": null,
    "curve": 0.3829
@@ -12925,7 +12925,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.2727,
-   "p50": 0.5823,
+   "p50": 0.5275,
    "p90": 0.9036,
    "actual": null,
    "curve": 0.287
@@ -12935,7 +12935,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.3178,
-   "p50": 0.6469,
+   "p50": 0.6065,
    "p90": 0.9275,
    "actual": null,
    "curve": 0.5064
@@ -12945,7 +12945,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.247,
-   "p50": 0.6171,
+   "p50": 0.5565,
    "p90": 0.9495,
    "actual": null,
    "curve": 0.3226
@@ -12955,7 +12955,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.3374,
-   "p50": 0.7095,
+   "p50": 0.7293,
    "p90": 0.9462,
    "actual": null,
    "curve": 0.5307
@@ -12965,7 +12965,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.3186,
-   "p50": 0.6716,
+   "p50": 0.6417,
    "p90": 0.9412,
    "actual": null,
    "curve": 0.4856
@@ -12975,7 +12975,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.3202,
-   "p50": 0.6061,
+   "p50": 0.5606,
    "p90": 0.9498,
    "actual": null,
    "curve": 0.5962
@@ -12985,7 +12985,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.2735,
-   "p50": 0.596,
+   "p50": 0.6159,
    "p90": 0.9538,
    "actual": null,
    "curve": 0.5527
@@ -12995,7 +12995,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.3273,
-   "p50": 0.6357,
+   "p50": 0.5692,
    "p90": 0.9487,
    "actual": null,
    "curve": 0.5888
@@ -13005,7 +13005,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.2677,
-   "p50": 0.6282,
+   "p50": 0.5915,
    "p90": 0.9479,
    "actual": null,
    "curve": 0.5349
@@ -13015,7 +13015,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.3037,
-   "p50": 0.6781,
+   "p50": 0.6043,
    "p90": 0.9621,
    "actual": null,
    "curve": 0.5765
@@ -13025,7 +13025,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.2924,
-   "p50": 0.6651,
+   "p50": 0.6207,
    "p90": 0.9344,
    "actual": null,
    "curve": 0.5717
@@ -13035,7 +13035,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.2255,
-   "p50": 0.6848,
+   "p50": 0.6253,
    "p90": 0.9588,
    "actual": null,
    "curve": 0.5769
@@ -13045,7 +13045,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.3065,
-   "p50": 0.6854,
+   "p50": 0.6898,
    "p90": 0.9595,
    "actual": null,
    "curve": 0.5468
@@ -13055,7 +13055,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.3242,
-   "p50": 0.7643,
+   "p50": 0.7692,
    "p90": 0.9547,
    "actual": null,
    "curve": 0.6438
@@ -13065,7 +13065,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.3253,
-   "p50": 0.6211,
+   "p50": 0.7867,
    "p90": 0.9722,
    "actual": null,
    "curve": 0.5479
@@ -13075,7 +13075,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.2356,
-   "p50": 0.6725,
+   "p50": 0.6034,
    "p90": 0.933,
    "actual": null,
    "curve": 0.6187
@@ -13085,7 +13085,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.3048,
-   "p50": 0.5695,
+   "p50": 0.6219,
    "p90": 0.9093,
    "actual": null,
    "curve": 0.5368
@@ -13095,7 +13095,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.2313,
-   "p50": 0.5614,
+   "p50": 0.5877,
    "p90": 0.9042,
    "actual": null,
    "curve": 0.5764
@@ -13105,7 +13105,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.3922,
-   "p50": 0.6145,
+   "p50": 0.7944,
    "p90": 0.9357,
    "actual": null,
    "curve": 0.6227
@@ -13115,7 +13115,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.3149,
-   "p50": 0.6034,
+   "p50": 0.6427,
    "p90": 0.9154,
    "actual": null,
    "curve": 0.6385
@@ -13125,7 +13125,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.3134,
-   "p50": 0.5654,
+   "p50": 0.614,
    "p90": 0.8862,
    "actual": null,
    "curve": 0.6092
@@ -13135,7 +13135,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.3412,
-   "p50": 0.663,
+   "p50": 0.7352,
    "p90": 0.9589,
    "actual": null,
    "curve": 0.6524
@@ -13145,7 +13145,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.3167,
-   "p50": 0.5711,
+   "p50": 0.6358,
    "p90": 0.8789,
    "actual": null,
    "curve": 0.6036
@@ -13155,7 +13155,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.335,
-   "p50": 0.6915,
+   "p50": 0.7487,
    "p90": 0.9725,
    "actual": null,
    "curve": 0.5966
@@ -13165,7 +13165,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.4019,
-   "p50": 0.7246,
+   "p50": 0.7308,
    "p90": 0.9463,
    "actual": null,
    "curve": 0.6022
@@ -13175,7 +13175,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.3421,
-   "p50": 0.7083,
+   "p50": 0.7281,
    "p90": 0.9795,
    "actual": null,
    "curve": 0.5755
@@ -13185,7 +13185,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.3405,
-   "p50": 0.771,
+   "p50": 0.7568,
    "p90": 0.9607,
    "actual": null,
    "curve": 0.5591
@@ -13195,7 +13195,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.3188,
-   "p50": 0.7411,
+   "p50": 0.7302,
    "p90": 0.9664,
    "actual": null,
    "curve": 0.5011
@@ -13205,7 +13205,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.3321,
-   "p50": 0.7527,
+   "p50": 0.7635,
    "p90": 0.9747,
    "actual": null,
    "curve": 0.5282
@@ -13215,7 +13215,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.3088,
-   "p50": 0.6851,
+   "p50": 0.7173,
    "p90": 0.9404,
    "actual": null,
    "curve": 0.4441
@@ -13225,7 +13225,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.2113,
-   "p50": 0.6064,
+   "p50": 0.6318,
    "p90": 0.9381,
    "actual": null,
    "curve": 0.3293
@@ -13235,7 +13235,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.2404,
-   "p50": 0.6051,
+   "p50": 0.6505,
    "p90": 0.9187,
    "actual": null,
    "curve": 0.4167
@@ -13245,7 +13245,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.2061,
-   "p50": 0.5616,
+   "p50": 0.5866,
    "p90": 0.8886,
    "actual": null,
    "curve": 0.3045
@@ -13255,7 +13255,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.205,
-   "p50": 0.5652,
+   "p50": 0.7245,
    "p90": 0.8981,
    "actual": null,
    "curve": 0.3513
@@ -13265,7 +13265,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.1427,
-   "p50": 0.4862,
+   "p50": 0.4891,
    "p90": 0.8499,
    "actual": null,
    "curve": 0.2738
@@ -13275,7 +13275,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0474,
-   "p50": 0.2865,
+   "p50": 0.4178,
    "p90": 0.682,
    "actual": null,
    "curve": 0.1823
@@ -13285,7 +13285,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0457,
-   "p50": 0.3077,
+   "p50": 0.4082,
    "p90": 0.6265,
    "actual": null,
    "curve": 0.1614
@@ -13295,7 +13295,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.026,
-   "p50": 0.2614,
+   "p50": 0.3216,
    "p90": 0.524,
    "actual": null,
    "curve": 0.1321
@@ -13305,7 +13305,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0234,
-   "p50": 0.2825,
+   "p50": 0.2857,
    "p90": 0.525,
    "actual": null,
    "curve": 0.1227
@@ -13315,7 +13315,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0351,
-   "p50": 0.33,
+   "p50": 0.3434,
    "p90": 0.5752,
    "actual": null,
    "curve": 0.1439
@@ -13325,7 +13325,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0333,
-   "p50": 0.3143,
+   "p50": 0.2537,
    "p90": 0.4459,
    "actual": null,
    "curve": 0.1026
@@ -13335,7 +13335,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0207,
-   "p50": 0.3108,
+   "p50": 0.3139,
    "p90": 0.3499,
    "actual": null,
    "curve": 0.0843
@@ -13345,7 +13345,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0224,
-   "p50": 0.1868,
+   "p50": 0.2265,
    "p90": 0.3153,
    "actual": null,
    "curve": 0.101
@@ -13355,7 +13355,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0124,
-   "p50": 0.2029,
+   "p50": 0.2442,
    "p90": 0.2778,
    "actual": null,
    "curve": 0.0475
@@ -13365,7 +13365,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0036,
-   "p50": 0.1521,
+   "p50": 0.1912,
    "p90": 0.2719,
    "actual": null,
    "curve": 0.0912
@@ -13375,7 +13375,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0009,
-   "p50": 0.1388,
+   "p50": 0.1104,
    "p90": 0.21,
    "actual": null,
    "curve": 0.0411
@@ -13385,7 +13385,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0021,
-   "p50": 0.1247,
+   "p50": 0.2046,
    "p90": 0.2554,
    "actual": null,
    "curve": 0.0644
@@ -13395,7 +13395,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0038,
-   "p50": 0.189,
+   "p50": 0.2003,
    "p90": 0.2385,
    "actual": null,
    "curve": 0.0332
@@ -13405,7 +13405,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0071,
-   "p50": 0.1318,
+   "p50": 0.155,
    "p90": 0.2324,
    "actual": null,
    "curve": 0.0389
@@ -13415,7 +13415,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0058,
-   "p50": 0.1087,
+   "p50": 0.1929,
    "p90": 0.2338,
    "actual": null,
    "curve": 0.0353
@@ -13425,7 +13425,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.006,
-   "p50": 0.1319,
+   "p50": 0.1474,
    "p90": 0.2269,
    "actual": null,
    "curve": 0.0408
@@ -13435,8 +13435,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0817,
-   "p90": 0.1685,
+   "p50": 0.1685,
+   "p90": 0.1761,
    "actual": null,
    "curve": 0.023
   },
@@ -13445,7 +13445,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T1",
    "lead_h": 48,
    "p10": 0.0033,
-   "p50": 0.085,
+   "p50": 0.138,
    "p90": 0.1397,
    "actual": null,
    "curve": 0.0344
@@ -13455,7 +13455,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.078,
+   "p50": 0.0295,
    "p90": 0.1609,
    "actual": null,
    "curve": 0.0107
@@ -13466,7 +13466,7 @@ window.DASHBOARD_DATA = {
    "lead_h": 48,
    "p10": 0.0,
    "p50": 0.1874,
-   "p90": 0.2446,
+   "p90": 0.1971,
    "actual": null,
    "curve": 0.0133
   },
@@ -13475,7 +13475,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0027,
+   "p50": 0.0,
    "p90": 0.1129,
    "actual": null,
    "curve": 0.0195
@@ -13485,7 +13485,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.1269,
+   "p50": 0.1163,
    "p90": 0.307,
    "actual": null,
    "curve": 0.0183
@@ -13505,7 +13505,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.1107,
+   "p50": 0.0613,
    "p90": 0.3464,
    "actual": null,
    "curve": 0.0362
@@ -13515,7 +13515,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0749,
+   "p50": 0.0497,
    "p90": 0.4296,
    "actual": null,
    "curve": 0.1942
@@ -13525,7 +13525,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0049,
-   "p50": 0.0499,
+   "p50": 0.1,
    "p90": 0.4328,
    "actual": null,
    "curve": 0.0523
@@ -13535,7 +13535,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.2302,
+   "p50": 0.1786,
    "p90": 0.6743,
    "actual": null,
    "curve": 0.157
@@ -13545,7 +13545,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0111,
-   "p50": 0.1472,
+   "p50": 0.0798,
    "p90": 0.6826,
    "actual": null,
    "curve": 0.0782
@@ -13555,7 +13555,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0017,
-   "p50": 0.235,
+   "p50": 0.046,
    "p90": 0.6159,
    "actual": null,
    "curve": 0.1314
@@ -13565,7 +13565,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0078,
-   "p50": 0.1107,
+   "p50": 0.0174,
    "p90": 0.6007,
    "actual": null,
    "curve": 0.1328
@@ -13575,7 +13575,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0089,
-   "p50": 0.2211,
+   "p50": 0.184,
    "p90": 0.6595,
    "actual": null,
    "curve": 0.0778
@@ -13585,7 +13585,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0207,
-   "p50": 0.2128,
+   "p50": 0.1252,
    "p90": 0.6538,
    "actual": null,
    "curve": 0.2038
@@ -13595,7 +13595,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0373,
-   "p50": 0.2225,
+   "p50": 0.1829,
    "p90": 0.588,
    "actual": null,
    "curve": 0.0955
@@ -13605,7 +13605,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0501,
-   "p50": 0.2531,
+   "p50": 0.1592,
    "p90": 0.6727,
    "actual": null,
    "curve": 0.2667
@@ -13615,7 +13615,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0475,
-   "p50": 0.2683,
+   "p50": 0.2469,
    "p90": 0.5805,
    "actual": null,
    "curve": 0.1074
@@ -13625,7 +13625,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0614,
-   "p50": 0.2851,
+   "p50": 0.2688,
    "p90": 0.6349,
    "actual": null,
    "curve": 0.262
@@ -13635,7 +13635,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0561,
-   "p50": 0.3275,
+   "p50": 0.3335,
    "p90": 0.5187,
    "actual": null,
    "curve": 0.1133
@@ -13645,7 +13645,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0342,
-   "p50": 0.2935,
+   "p50": 0.2919,
    "p90": 0.5798,
    "actual": null,
    "curve": 0.1998
@@ -13655,7 +13655,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0181,
-   "p50": 0.3145,
+   "p50": 0.3628,
    "p90": 0.5083,
    "actual": null,
    "curve": 0.1165
@@ -13665,7 +13665,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0395,
-   "p50": 0.4374,
+   "p50": 0.3843,
    "p90": 0.6762,
    "actual": null,
    "curve": 0.1833
@@ -13675,7 +13675,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0741,
-   "p50": 0.4918,
+   "p50": 0.4997,
    "p90": 0.7306,
    "actual": null,
    "curve": 0.2597
@@ -13685,7 +13685,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0676,
-   "p50": 0.4521,
+   "p50": 0.4475,
    "p90": 0.8006,
    "actual": null,
    "curve": 0.2953
@@ -13695,7 +13695,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0395,
-   "p50": 0.3856,
+   "p50": 0.4692,
    "p90": 0.773,
    "actual": null,
    "curve": 0.2038
@@ -13705,7 +13705,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0652,
-   "p50": 0.4891,
+   "p50": 0.4749,
    "p90": 0.7697,
    "actual": null,
    "curve": 0.2883
@@ -13715,7 +13715,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0665,
-   "p50": 0.4306,
+   "p50": 0.4549,
    "p90": 0.7158,
    "actual": null,
    "curve": 0.2572
@@ -13725,7 +13725,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0759,
-   "p50": 0.4355,
+   "p50": 0.4434,
    "p90": 0.7635,
    "actual": null,
    "curve": 0.3002
@@ -13735,7 +13735,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0725,
-   "p50": 0.3963,
+   "p50": 0.4519,
    "p90": 0.8085,
    "actual": null,
    "curve": 0.2541
@@ -13745,7 +13745,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0723,
-   "p50": 0.4087,
+   "p50": 0.4115,
    "p90": 0.8382,
    "actual": null,
    "curve": 0.298
@@ -13755,7 +13755,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0623,
-   "p50": 0.4826,
+   "p50": 0.4807,
    "p90": 0.8572,
    "actual": null,
    "curve": 0.2686
@@ -13765,7 +13765,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0691,
-   "p50": 0.4584,
+   "p50": 0.3853,
    "p90": 0.909,
    "actual": null,
    "curve": 0.3703
@@ -13775,7 +13775,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.051,
-   "p50": 0.3925,
+   "p50": 0.3928,
    "p90": 0.8089,
    "actual": null,
    "curve": 0.2878
@@ -13785,7 +13785,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0077,
-   "p50": 0.3955,
+   "p50": 0.3671,
    "p90": 0.9063,
    "actual": null,
    "curve": 0.373
@@ -13795,7 +13795,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0575,
-   "p50": 0.387,
+   "p50": 0.3868,
    "p90": 0.787,
    "actual": null,
    "curve": 0.266
@@ -13805,7 +13805,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0177,
-   "p50": 0.4352,
+   "p50": 0.403,
    "p90": 0.9124,
    "actual": null,
    "curve": 0.3924
@@ -13815,7 +13815,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0592,
-   "p50": 0.3643,
+   "p50": 0.3583,
    "p90": 0.8177,
    "actual": null,
    "curve": 0.2462
@@ -13825,7 +13825,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0822,
-   "p50": 0.4678,
+   "p50": 0.3599,
    "p90": 0.8639,
    "actual": null,
    "curve": 0.2939
@@ -13835,7 +13835,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0899,
-   "p50": 0.4419,
+   "p50": 0.4019,
    "p90": 0.8986,
    "actual": null,
    "curve": 0.371
@@ -13845,7 +13845,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0833,
-   "p50": 0.4794,
+   "p50": 0.4853,
    "p90": 0.8756,
    "actual": null,
    "curve": 0.271
@@ -13855,7 +13855,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.1055,
-   "p50": 0.5644,
+   "p50": 0.4898,
    "p90": 0.9729,
    "actual": null,
    "curve": 0.4176
@@ -13865,7 +13865,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.1083,
-   "p50": 0.4955,
+   "p50": 0.523,
    "p90": 0.8896,
    "actual": null,
    "curve": 0.2995
@@ -13875,7 +13875,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.1047,
-   "p50": 0.531,
+   "p50": 0.5552,
    "p90": 0.9775,
    "actual": null,
    "curve": 0.4166
@@ -13885,7 +13885,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.1,
-   "p50": 0.4513,
+   "p50": 0.5031,
    "p90": 0.9282,
    "actual": null,
    "curve": 0.3064
@@ -13895,7 +13895,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.1725,
-   "p50": 0.431,
+   "p50": 0.5126,
    "p90": 0.9267,
    "actual": null,
    "curve": 0.3822
@@ -13905,7 +13905,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.1308,
-   "p50": 0.3379,
+   "p50": 0.4384,
    "p90": 0.8938,
    "actual": null,
    "curve": 0.3095
@@ -13915,7 +13915,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.1869,
-   "p50": 0.4887,
+   "p50": 0.5142,
    "p90": 0.9226,
    "actual": null,
    "curve": 0.3855
@@ -13925,7 +13925,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.2085,
-   "p50": 0.4877,
+   "p50": 0.5409,
    "p90": 0.8979,
    "actual": null,
    "curve": 0.3082
@@ -13935,7 +13935,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.1971,
-   "p50": 0.4457,
+   "p50": 0.4484,
    "p90": 0.9331,
    "actual": null,
    "curve": 0.4533
@@ -13945,7 +13945,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.198,
-   "p50": 0.4132,
+   "p50": 0.4717,
    "p90": 0.9002,
    "actual": null,
    "curve": 0.3568
@@ -13955,7 +13955,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.168,
-   "p50": 0.4708,
+   "p50": 0.4836,
    "p90": 0.9291,
    "actual": null,
    "curve": 0.4451
@@ -13965,7 +13965,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.1584,
-   "p50": 0.3807,
+   "p50": 0.4456,
    "p90": 0.8813,
    "actual": null,
    "curve": 0.3477
@@ -13975,7 +13975,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.199,
-   "p50": 0.4331,
+   "p50": 0.4762,
    "p90": 0.9079,
    "actual": null,
    "curve": 0.4084
@@ -13985,7 +13985,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.1336,
-   "p50": 0.3426,
+   "p50": 0.4627,
    "p90": 0.9043,
    "actual": null,
    "curve": 0.391
@@ -13995,7 +13995,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.1928,
-   "p50": 0.563,
+   "p50": 0.5086,
    "p90": 0.9122,
    "actual": null,
    "curve": 0.3914
@@ -14005,7 +14005,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.1978,
-   "p50": 0.5564,
+   "p50": 0.5377,
    "p90": 0.8998,
    "actual": null,
    "curve": 0.3817
@@ -14015,7 +14015,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.3728,
-   "p50": 0.6853,
+   "p50": 0.7326,
    "p90": 0.9822,
    "actual": null,
    "curve": 0.6189
@@ -14025,7 +14025,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.3402,
-   "p50": 0.7308,
+   "p50": 0.7812,
    "p90": 0.9665,
    "actual": null,
    "curve": 0.5235
@@ -14035,7 +14035,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.3468,
-   "p50": 0.6514,
+   "p50": 0.5427,
    "p90": 0.9384,
    "actual": null,
    "curve": 0.4297
@@ -14045,7 +14045,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.2817,
-   "p50": 0.7117,
+   "p50": 0.5823,
    "p90": 0.9208,
    "actual": null,
    "curve": 0.3754
@@ -14055,7 +14055,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.452,
-   "p50": 0.7163,
+   "p50": 0.6722,
    "p90": 0.9671,
    "actual": null,
    "curve": 0.5283
@@ -14065,7 +14065,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.4574,
-   "p50": 0.7474,
+   "p50": 0.7031,
    "p90": 0.9722,
    "actual": null,
    "curve": 0.5335
@@ -14075,7 +14075,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.5408,
-   "p50": 0.749,
+   "p50": 0.7563,
    "p90": 0.9994,
    "actual": null,
    "curve": 0.5903
@@ -14085,7 +14085,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.5871,
-   "p50": 0.7741,
+   "p50": 0.8102,
    "p90": 0.9898,
    "actual": null,
    "curve": 0.6362
@@ -14095,7 +14095,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.5782,
-   "p50": 0.781,
+   "p50": 0.913,
    "p90": 0.9872,
    "actual": null,
    "curve": 0.6558
@@ -14105,7 +14105,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.6358,
-   "p50": 0.8279,
+   "p50": 0.9538,
    "p90": 0.9875,
    "actual": null,
    "curve": 0.7163
@@ -14115,7 +14115,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.6024,
-   "p50": 0.81,
+   "p50": 0.9613,
    "p90": 0.9846,
    "actual": null,
    "curve": 0.6962
@@ -14125,7 +14125,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.5528,
-   "p50": 0.7757,
+   "p50": 0.9243,
    "p90": 0.9922,
    "actual": null,
    "curve": 0.6788
@@ -14135,7 +14135,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.4735,
-   "p50": 0.8148,
+   "p50": 0.8804,
    "p90": 1.0,
    "actual": null,
    "curve": 0.6157
@@ -14145,7 +14145,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.4059,
-   "p50": 0.8095,
+   "p50": 0.8046,
    "p90": 0.9953,
    "actual": null,
    "curve": 0.55
@@ -14155,7 +14155,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.409,
-   "p50": 0.8283,
+   "p50": 0.8803,
    "p90": 1.0,
    "actual": null,
    "curve": 0.586
@@ -14165,7 +14165,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0675,
-   "p50": 0.6857,
+   "p50": 0.6162,
    "p90": 0.919,
    "actual": null,
    "curve": 0.1028
@@ -14175,7 +14175,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.1297,
-   "p50": 0.5979,
+   "p50": 0.6854,
    "p90": 0.8778,
    "actual": null,
    "curve": 0.2401
@@ -14185,7 +14185,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.099,
-   "p50": 0.5793,
+   "p50": 0.3659,
    "p90": 0.8153,
    "actual": null,
    "curve": 0.2602
@@ -14195,7 +14195,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0002,
-   "p50": 0.3759,
+   "p50": 0.3365,
    "p90": 0.634,
    "actual": null,
    "curve": 0.0985
@@ -14205,7 +14205,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0047,
-   "p50": 0.3075,
+   "p50": 0.2865,
    "p90": 0.5882,
    "actual": null,
    "curve": 0.1084
@@ -14215,7 +14215,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0092,
-   "p50": 0.2829,
+   "p50": 0.3095,
    "p90": 0.4866,
    "actual": null,
    "curve": 0.0489
@@ -14225,7 +14225,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0187,
-   "p50": 0.2456,
+   "p50": 0.1794,
    "p90": 0.3628,
    "actual": null,
    "curve": 0.0953
@@ -14235,7 +14235,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0098,
-   "p50": 0.2318,
+   "p50": 0.2092,
    "p90": 0.4626,
    "actual": null,
    "curve": 0.0499
@@ -14245,7 +14245,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0036,
-   "p50": 0.2509,
+   "p50": 0.2252,
    "p90": 0.4688,
    "actual": null,
    "curve": 0.1247
@@ -14255,7 +14255,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0123,
-   "p50": 0.2692,
+   "p50": 0.2401,
    "p90": 0.4428,
    "actual": null,
    "curve": 0.0867
@@ -14265,7 +14265,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0046,
-   "p50": 0.3082,
+   "p50": 0.2408,
    "p90": 0.5296,
    "actual": null,
    "curve": 0.1441
@@ -14275,7 +14275,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.002,
-   "p50": 0.1412,
+   "p50": 0.1703,
    "p90": 0.4349,
    "actual": null,
    "curve": 0.0851
@@ -14285,7 +14285,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0033,
-   "p50": 0.2088,
+   "p50": 0.2287,
    "p90": 0.4324,
    "actual": null,
    "curve": 0.0675
@@ -14295,7 +14295,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0083,
-   "p50": 0.1772,
+   "p50": 0.1594,
    "p90": 0.4283,
    "actual": null,
    "curve": 0.1016
@@ -14305,7 +14305,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0224,
-   "p50": 0.2914,
+   "p50": 0.3449,
    "p90": 0.5502,
    "actual": null,
    "curve": 0.0397
@@ -14315,7 +14315,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0114,
-   "p50": 0.2725,
+   "p50": 0.256,
    "p90": 0.7193,
    "actual": null,
    "curve": 0.2153
@@ -14325,7 +14325,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0456,
-   "p50": 0.3666,
+   "p50": 0.3516,
    "p90": 0.7021,
    "actual": null,
    "curve": 0.0961
@@ -14335,7 +14335,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.1008,
-   "p50": 0.4325,
+   "p50": 0.3761,
    "p90": 0.9083,
    "actual": null,
    "curve": 0.3209
@@ -14345,7 +14345,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0939,
-   "p50": 0.4608,
+   "p50": 0.4689,
    "p90": 0.8805,
    "actual": null,
    "curve": 0.2247
@@ -14355,7 +14355,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.1765,
-   "p50": 0.4546,
+   "p50": 0.503,
    "p90": 0.9577,
    "actual": null,
    "curve": 0.3907
@@ -14365,7 +14365,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.1075,
-   "p50": 0.46,
+   "p50": 0.5064,
    "p90": 0.8979,
    "actual": null,
    "curve": 0.233
@@ -14375,7 +14375,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.2092,
-   "p50": 0.4159,
+   "p50": 0.4655,
    "p90": 0.9254,
    "actual": null,
    "curve": 0.3984
@@ -14385,7 +14385,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0832,
-   "p50": 0.5613,
+   "p50": 0.5,
    "p90": 0.9122,
    "actual": null,
    "curve": 0.189
@@ -14395,7 +14395,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.1965,
-   "p50": 0.5491,
+   "p50": 0.5697,
    "p90": 0.9351,
    "actual": null,
    "curve": 0.3999
@@ -14405,7 +14405,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0731,
-   "p50": 0.515,
+   "p50": 0.5614,
    "p90": 0.9269,
    "actual": null,
    "curve": 0.1419
@@ -14415,7 +14415,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0129,
-   "p50": 0.095,
+   "p50": 0.2527,
    "p90": 0.7785,
    "actual": null,
    "curve": 0.151
@@ -14425,7 +14425,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0024,
-   "p50": 0.2805,
+   "p50": 0.292,
    "p90": 0.8391,
    "actual": null,
    "curve": 0.1599
@@ -14435,7 +14435,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0281,
-   "p50": 0.0557,
+   "p50": 0.1228,
    "p90": 0.4851,
    "actual": null,
    "curve": 0.0289
@@ -14445,7 +14445,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0216,
-   "p50": 0.2954,
+   "p50": 0.2224,
    "p90": 0.5865,
    "actual": null,
    "curve": 0.1041
@@ -14455,7 +14455,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0608,
+   "p50": 0.0443,
    "p90": 0.4089,
    "actual": null,
    "curve": 0.0672
@@ -14465,7 +14465,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0073,
-   "p50": 0.3982,
+   "p50": 0.2095,
    "p90": 0.5461,
    "actual": null,
    "curve": 0.0531
@@ -14475,7 +14475,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0335,
+   "p50": 0.0794,
    "p90": 0.3742,
    "actual": null,
    "curve": 0.0303
@@ -14485,7 +14485,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0,
+   "p50": 0.0708,
    "p90": 0.2551,
    "actual": null,
    "curve": 0.0296
@@ -14495,7 +14495,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0672,
+   "p50": 0.0938,
    "p90": 0.2581,
    "actual": null,
    "curve": 0.0378
@@ -14505,7 +14505,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0664,
+   "p50": 0.072,
    "p90": 0.2483,
    "actual": null,
    "curve": 0.0207
@@ -14515,8 +14515,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.124,
-   "p90": 0.1317,
+   "p50": 0.1111,
+   "p90": 0.124,
    "actual": null,
    "curve": 0.065
   },
@@ -14525,7 +14525,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0485,
+   "p50": 0.0546,
    "p90": 0.1342,
    "actual": null,
    "curve": 0.0298
@@ -14535,7 +14535,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0905,
+   "p50": 0.1008,
    "p90": 0.172,
    "actual": null,
    "curve": 0.1894
@@ -14545,7 +14545,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0749,
+   "p50": 0.1064,
    "p90": 0.1609,
    "actual": null,
    "curve": 0.0941
@@ -14555,7 +14555,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0734,
+   "p50": 0.1373,
    "p90": 0.1844,
    "actual": null,
    "curve": 0.1507
@@ -14565,7 +14565,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0451,
+   "p50": 0.1029,
    "p90": 0.1342,
    "actual": null,
    "curve": 0.0872
@@ -14575,7 +14575,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0678,
+   "p50": 0.0945,
    "p90": 0.1251,
    "actual": null,
    "curve": 0.0502
@@ -14585,7 +14585,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.053,
+   "p50": 0.1119,
    "p90": 0.1306,
    "actual": null,
    "curve": 0.0387
@@ -14595,8 +14595,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0623,
-   "p90": 0.0857,
+   "p50": 0.0857,
+   "p90": 0.0894,
    "actual": null,
    "curve": 0.0514
   },
@@ -14605,8 +14605,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0437,
-   "p90": 0.0801,
+   "p50": 0.0801,
+   "p90": 0.0831,
    "actual": null,
    "curve": 0.0482
   },
@@ -14615,7 +14615,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.086,
+   "p50": 0.1151,
    "p90": 0.1468,
    "actual": null,
    "curve": 0.0286
@@ -14625,7 +14625,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0599,
+   "p50": 0.1115,
    "p90": 0.1705,
    "actual": null,
    "curve": 0.1719
@@ -14635,7 +14635,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0697,
+   "p50": 0.104,
    "p90": 0.2141,
    "actual": null,
    "curve": 0.0516
@@ -14645,7 +14645,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.1278,
+   "p50": 0.1872,
    "p90": 0.223,
    "actual": null,
    "curve": 0.1618
@@ -14655,7 +14655,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0013,
-   "p50": 0.1189,
+   "p50": 0.1261,
    "p90": 0.3356,
    "actual": null,
    "curve": 0.1614
@@ -14665,7 +14665,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0084,
-   "p50": 0.2323,
+   "p50": 0.2189,
    "p90": 0.4373,
    "actual": null,
    "curve": 0.1014
@@ -14675,7 +14675,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0147,
-   "p50": 0.2578,
+   "p50": 0.2863,
    "p90": 0.5211,
    "actual": null,
    "curve": 0.1258
@@ -14685,7 +14685,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0194,
-   "p50": 0.2899,
+   "p50": 0.2976,
    "p90": 0.6418,
    "actual": null,
    "curve": 0.2977
@@ -14695,7 +14695,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0447,
-   "p50": 0.4516,
+   "p50": 0.4337,
    "p90": 0.7259,
    "actual": null,
    "curve": 0.3812
@@ -14705,7 +14705,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0364,
-   "p50": 0.4409,
+   "p50": 0.4187,
    "p90": 0.8527,
    "actual": null,
    "curve": 0.5746
@@ -14715,7 +14715,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.1017,
-   "p50": 0.4968,
+   "p50": 0.5094,
    "p90": 0.8175,
    "actual": null,
    "curve": 0.53
@@ -14725,7 +14725,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0841,
-   "p50": 0.5559,
+   "p50": 0.5578,
    "p90": 0.8295,
    "actual": null,
    "curve": 0.4976
@@ -14735,7 +14735,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0973,
-   "p50": 0.4972,
+   "p50": 0.5297,
    "p90": 0.8217,
    "actual": null,
    "curve": 0.3993
@@ -14745,7 +14745,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.1047,
-   "p50": 0.5063,
+   "p50": 0.529,
    "p90": 0.9105,
    "actual": null,
    "curve": 0.4215
@@ -14755,7 +14755,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.1202,
-   "p50": 0.5965,
+   "p50": 0.6047,
    "p90": 0.8435,
    "actual": null,
    "curve": 0.3735
@@ -14765,7 +14765,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.089,
-   "p50": 0.5294,
+   "p50": 0.5254,
    "p90": 0.9453,
    "actual": null,
    "curve": 0.3924
@@ -14775,7 +14775,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0257,
-   "p50": 0.4353,
+   "p50": 0.5605,
    "p90": 0.8283,
    "actual": null,
    "curve": 0.4071
@@ -14785,7 +14785,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.073,
-   "p50": 0.5467,
+   "p50": 0.6073,
    "p90": 0.8144,
    "actual": null,
    "curve": 0.2136
@@ -14795,7 +14795,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.099,
-   "p50": 0.5313,
+   "p50": 0.6209,
    "p90": 0.8654,
    "actual": null,
    "curve": 0.3634
@@ -14805,7 +14805,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0956,
-   "p50": 0.5718,
+   "p50": 0.6303,
    "p90": 0.7969,
    "actual": null,
    "curve": 0.205
@@ -14815,7 +14815,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0903,
-   "p50": 0.5219,
+   "p50": 0.66,
    "p90": 0.8677,
    "actual": null,
    "curve": 0.5337
@@ -14825,7 +14825,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.142,
-   "p50": 0.5603,
+   "p50": 0.5943,
    "p90": 0.8815,
    "actual": null,
    "curve": 0.3075
@@ -14835,7 +14835,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.1024,
-   "p50": 0.5143,
+   "p50": 0.6555,
    "p90": 0.9379,
    "actual": null,
    "curve": 0.3903
@@ -14845,7 +14845,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0898,
-   "p50": 0.5614,
+   "p50": 0.5996,
    "p90": 0.9228,
    "actual": null,
    "curve": 0.3825
@@ -14855,7 +14855,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0866,
-   "p50": 0.5854,
+   "p50": 0.6385,
    "p90": 0.8821,
    "actual": null,
    "curve": 0.3743
@@ -14865,7 +14865,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.1127,
-   "p50": 0.4683,
+   "p50": 0.5348,
    "p90": 0.8354,
    "actual": null,
    "curve": 0.4349
@@ -14875,7 +14875,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.1393,
-   "p50": 0.6097,
+   "p50": 0.6794,
    "p90": 0.8898,
    "actual": null,
    "curve": 0.3392
@@ -14885,7 +14885,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0897,
-   "p50": 0.4525,
+   "p50": 0.4621,
    "p90": 0.8451,
    "actual": null,
    "curve": 0.5728
@@ -14895,7 +14895,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0731,
-   "p50": 0.5984,
+   "p50": 0.5763,
    "p90": 0.9291,
    "actual": null,
    "curve": 0.59
@@ -14905,7 +14905,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.1106,
-   "p50": 0.7404,
+   "p50": 0.6814,
    "p90": 0.9041,
    "actual": null,
    "curve": 0.3816
@@ -14915,7 +14915,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0927,
-   "p50": 0.4738,
+   "p50": 0.4859,
    "p90": 0.8863,
    "actual": null,
    "curve": 0.4536
@@ -14925,7 +14925,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.1301,
-   "p50": 0.595,
+   "p50": 0.6192,
    "p90": 0.8592,
    "actual": null,
    "curve": 0.3073
@@ -14935,7 +14935,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.147,
-   "p50": 0.4219,
+   "p50": 0.5016,
    "p90": 0.9098,
    "actual": null,
    "curve": 0.4777
@@ -14945,7 +14945,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.1037,
-   "p50": 0.5677,
+   "p50": 0.5662,
    "p90": 0.8503,
    "actual": null,
    "curve": 0.3205
@@ -14955,7 +14955,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.1141,
-   "p50": 0.4308,
+   "p50": 0.4243,
    "p90": 0.8507,
    "actual": null,
    "curve": 0.482
@@ -14965,7 +14965,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.1155,
-   "p50": 0.6388,
+   "p50": 0.5842,
    "p90": 0.929,
    "actual": null,
    "curve": 0.5108
@@ -14975,7 +14975,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.1143,
-   "p50": 0.522,
+   "p50": 0.488,
    "p90": 0.8782,
    "actual": null,
    "curve": 0.5137
@@ -14985,7 +14985,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.1054,
-   "p50": 0.4872,
+   "p50": 0.5127,
    "p90": 0.8469,
    "actual": null,
    "curve": 0.3071
@@ -14995,7 +14995,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.032,
-   "p50": 0.4369,
+   "p50": 0.3995,
    "p90": 0.8176,
    "actual": null,
    "curve": 0.4911
@@ -15005,7 +15005,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0238,
-   "p50": 0.35,
+   "p50": 0.3424,
    "p90": 0.7113,
    "actual": null,
    "curve": 0.1974
@@ -15015,7 +15015,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0178,
-   "p50": 0.2756,
+   "p50": 0.2597,
    "p90": 0.6478,
    "actual": null,
    "curve": 0.2518
@@ -15025,7 +15025,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0087,
-   "p50": 0.2332,
+   "p50": 0.2652,
    "p90": 0.5845,
    "actual": null,
    "curve": 0.1984
@@ -15035,7 +15035,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0041,
-   "p50": 0.1882,
+   "p50": 0.196,
    "p90": 0.5107,
    "actual": null,
    "curve": 0.217
@@ -15045,7 +15045,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0079,
-   "p50": 0.2125,
+   "p50": 0.2012,
    "p90": 0.45,
    "actual": null,
    "curve": 0.099
@@ -15055,7 +15055,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0035,
-   "p50": 0.159,
+   "p50": 0.1472,
    "p90": 0.3703,
    "actual": null,
    "curve": 0.209
@@ -15065,7 +15065,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0018,
-   "p50": 0.2174,
+   "p50": 0.2116,
    "p90": 0.3725,
    "actual": null,
    "curve": 0.096
@@ -15075,7 +15075,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1493,
+   "p50": 0.1545,
    "p90": 0.3417,
    "actual": null,
    "curve": 0.1769
@@ -15085,7 +15085,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.157,
+   "p50": 0.2127,
    "p90": 0.2801,
    "actual": null,
    "curve": 0.1178
@@ -15095,7 +15095,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0952,
+   "p50": 0.1386,
    "p90": 0.2465,
    "actual": null,
    "curve": 0.1325
@@ -15105,7 +15105,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0874,
+   "p50": 0.1408,
    "p90": 0.1839,
    "actual": null,
    "curve": 0.1024
@@ -15115,7 +15115,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0443,
+   "p50": 0.1208,
    "p90": 0.1818,
    "actual": null,
    "curve": 0.0949
@@ -15125,7 +15125,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.1092,
+   "p50": 0.1195,
    "p90": 0.1331,
    "actual": null,
    "curve": 0.0694
@@ -15135,7 +15135,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1096,
+   "p50": 0.1743,
    "p90": 0.1884,
    "actual": null,
    "curve": 0.0416
@@ -15145,7 +15145,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0785,
+   "p50": 0.1077,
    "p90": 0.1713,
    "actual": null,
    "curve": 0.0449
@@ -15155,7 +15155,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1221,
+   "p50": 0.183,
    "p90": 0.3652,
    "actual": null,
    "curve": 0.013
@@ -15165,7 +15165,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0011,
-   "p50": 0.271,
+   "p50": 0.1952,
    "p90": 0.4281,
    "actual": null,
    "curve": 0.0133
@@ -15175,7 +15175,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0044,
-   "p50": 0.2176,
+   "p50": 0.2301,
    "p90": 0.4459,
    "actual": null,
    "curve": 0.053
@@ -15185,7 +15185,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0493,
-   "p50": 0.5142,
+   "p50": 0.5019,
    "p90": 0.7694,
    "actual": null,
    "curve": 0.1875
@@ -15195,7 +15195,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.1357,
-   "p50": 0.6051,
+   "p50": 0.5343,
    "p90": 0.9022,
    "actual": null,
    "curve": 0.3156
@@ -15205,7 +15205,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.2041,
-   "p50": 0.7164,
+   "p50": 0.6645,
    "p90": 0.9847,
    "actual": null,
    "curve": 0.3824
@@ -15215,7 +15215,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.2344,
-   "p50": 0.662,
+   "p50": 0.635,
    "p90": 0.9473,
    "actual": null,
    "curve": 0.3948
@@ -15225,7 +15225,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.1872,
-   "p50": 0.7622,
+   "p50": 0.7773,
    "p90": 1.0,
    "actual": null,
    "curve": 0.5242
@@ -15235,7 +15235,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.315,
-   "p50": 0.7704,
+   "p50": 0.6815,
    "p90": 0.9899,
    "actual": null,
    "curve": 0.4723
@@ -15245,7 +15245,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.4364,
-   "p50": 0.8182,
+   "p50": 0.7983,
    "p90": 1.0,
    "actual": null,
    "curve": 0.5809
@@ -15255,7 +15255,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.43,
-   "p50": 0.875,
+   "p50": 0.8708,
    "p90": 1.0,
    "actual": null,
    "curve": 0.598
@@ -15265,7 +15265,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.4108,
-   "p50": 0.847,
+   "p50": 0.804,
    "p90": 1.0,
    "actual": null,
    "curve": 0.55
@@ -15275,7 +15275,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.5933,
-   "p50": 0.919,
+   "p50": 0.8967,
    "p90": 1.0,
    "actual": null,
    "curve": 0.7092
@@ -15285,7 +15285,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.458,
-   "p50": 0.9115,
+   "p50": 0.8723,
    "p90": 1.0,
    "actual": null,
    "curve": 0.59
@@ -15295,7 +15295,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.6955,
-   "p50": 0.8774,
+   "p50": 0.8551,
    "p90": 1.0,
    "actual": null,
    "curve": 0.8074
@@ -15305,7 +15305,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.3874,
-   "p50": 0.9118,
+   "p50": 0.8345,
    "p90": 1.0,
    "actual": null,
    "curve": 0.6288
@@ -15315,7 +15315,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.7437,
-   "p50": 0.8434,
+   "p50": 0.8043,
    "p90": 0.9869,
    "actual": null,
    "curve": 0.8467
@@ -15325,7 +15325,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.5923,
-   "p50": 0.8819,
+   "p50": 0.8155,
    "p90": 1.0,
    "actual": null,
    "curve": 0.6706
@@ -15335,7 +15335,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.7233,
-   "p50": 0.8949,
+   "p50": 0.8282,
    "p90": 1.0,
    "actual": null,
    "curve": 0.8734
@@ -15345,7 +15345,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.5953,
-   "p50": 0.8833,
+   "p50": 0.7984,
    "p90": 1.0,
    "actual": null,
    "curve": 0.6851
@@ -15355,7 +15355,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.8089,
-   "p50": 0.9042,
+   "p50": 0.9072,
    "p90": 0.9867,
    "actual": null,
    "curve": 0.8908
@@ -15365,7 +15365,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.7284,
-   "p50": 0.8643,
+   "p50": 0.8071,
    "p90": 0.9949,
    "actual": null,
    "curve": 0.8329
@@ -15375,7 +15375,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.8115,
-   "p50": 0.921,
+   "p50": 0.9542,
    "p90": 0.9874,
    "actual": null,
    "curve": 0.9052
@@ -15385,7 +15385,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.7962,
-   "p50": 0.8733,
+   "p50": 0.9509,
    "p90": 0.9874,
    "actual": null,
    "curve": 0.8705
@@ -15395,7 +15395,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.8361,
-   "p50": 0.9486,
+   "p50": 0.9426,
    "p90": 0.9816,
    "actual": null,
    "curve": 0.9283
@@ -15405,7 +15405,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.8093,
-   "p50": 0.9064,
+   "p50": 0.9564,
    "p90": 0.9809,
    "actual": null,
    "curve": 0.9126
@@ -15415,7 +15415,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.8179,
-   "p50": 0.9421,
+   "p50": 0.9314,
    "p90": 0.9822,
    "actual": null,
    "curve": 0.9283
@@ -15425,7 +15425,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.8266,
-   "p50": 0.9289,
+   "p50": 0.9398,
    "p90": 0.9821,
    "actual": null,
    "curve": 0.9226
@@ -15435,7 +15435,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.8328,
-   "p50": 0.9437,
+   "p50": 0.9399,
    "p90": 0.9817,
    "actual": null,
    "curve": 0.9283
@@ -15445,7 +15445,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.8318,
-   "p50": 0.9298,
+   "p50": 0.9529,
    "p90": 0.9799,
    "actual": null,
    "curve": 0.9263
@@ -15455,7 +15455,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.763,
-   "p50": 0.9096,
+   "p50": 0.9263,
    "p90": 0.9769,
    "actual": null,
    "curve": 0.9283
@@ -15465,7 +15465,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.8123,
-   "p50": 0.8994,
+   "p50": 0.9404,
    "p90": 0.9786,
    "actual": null,
    "curve": 0.8719
@@ -15475,7 +15475,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.8304,
-   "p50": 0.9352,
+   "p50": 0.9573,
    "p90": 0.9767,
    "actual": null,
    "curve": 0.9283
@@ -15485,7 +15485,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.775,
-   "p50": 0.9049,
+   "p50": 0.9252,
    "p90": 0.982,
    "actual": null,
    "curve": 0.8805
@@ -15495,8 +15495,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.8199,
-   "p50": 0.9775,
-   "p90": 0.9888,
+   "p50": 0.9737,
+   "p90": 0.9775,
    "actual": null,
    "curve": 0.9283
   },
@@ -15515,8 +15515,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.8327,
-   "p50": 0.9771,
-   "p90": 0.9773,
+   "p50": 0.9726,
+   "p90": 0.9771,
    "actual": null,
    "curve": 0.9283
   },
@@ -15535,8 +15535,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.8234,
-   "p50": 0.9606,
-   "p90": 0.9759,
+   "p50": 0.9759,
+   "p90": 1.0,
    "actual": null,
    "curve": 0.9146
   },
@@ -15545,7 +15545,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.8379,
-   "p50": 0.9545,
+   "p50": 0.9507,
    "p90": 0.9742,
    "actual": null,
    "curve": 0.9292
@@ -15556,7 +15556,7 @@ window.DASHBOARD_DATA = {
    "lead_h": 24,
    "p10": 0.8041,
    "p50": 0.9855,
-   "p90": 0.9872,
+   "p90": 1.0,
    "actual": null,
    "curve": 0.8702
   },
@@ -15565,8 +15565,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.7833,
-   "p50": 0.9742,
-   "p90": 0.9789,
+   "p50": 0.9789,
+   "p90": 1.0,
    "actual": null,
    "curve": 0.8713
   },
@@ -15575,8 +15575,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.6419,
-   "p50": 0.9696,
-   "p90": 0.9927,
+   "p50": 0.9927,
+   "p90": 1.0,
    "actual": null,
    "curve": 0.7092
   },
@@ -15585,7 +15585,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.6308,
-   "p50": 0.9504,
+   "p50": 0.9618,
    "p90": 0.9905,
    "actual": null,
    "curve": 0.6696
@@ -15595,8 +15595,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.566,
-   "p50": 0.9954,
-   "p90": 1.0,
+   "p50": 0.9575,
+   "p90": 0.9954,
    "actual": null,
    "curve": 0.6334
   },
@@ -15615,7 +15615,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.3844,
-   "p50": 0.9473,
+   "p50": 0.8701,
    "p90": 0.9835,
    "actual": null,
    "curve": 0.4821
@@ -15635,7 +15635,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.2819,
-   "p50": 0.8099,
+   "p50": 0.7664,
    "p90": 0.9354,
    "actual": null,
    "curve": 0.393
@@ -15645,7 +15645,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.2858,
-   "p50": 0.838,
+   "p50": 0.7585,
    "p90": 0.9988,
    "actual": null,
    "curve": 0.5114
@@ -15655,7 +15655,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.2861,
-   "p50": 0.762,
+   "p50": 0.722,
    "p90": 0.9139,
    "actual": null,
    "curve": 0.4072
@@ -15665,7 +15665,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.2732,
-   "p50": 0.8037,
+   "p50": 0.7748,
    "p90": 0.9287,
    "actual": null,
    "curve": 0.3926
@@ -15675,7 +15675,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.3079,
-   "p50": 0.7995,
+   "p50": 0.7048,
    "p90": 0.943,
    "actual": null,
    "curve": 0.4524
@@ -15685,7 +15685,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.2982,
-   "p50": 0.7972,
+   "p50": 0.7498,
    "p90": 0.9339,
    "actual": null,
    "curve": 0.4262
@@ -15695,7 +15695,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.3365,
-   "p50": 0.7057,
+   "p50": 0.7489,
    "p90": 0.9495,
    "actual": null,
    "curve": 0.4567
@@ -15705,7 +15705,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.2824,
-   "p50": 0.7226,
+   "p50": 0.7291,
    "p90": 0.9337,
    "actual": null,
    "curve": 0.4213
@@ -15715,7 +15715,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.2705,
-   "p50": 0.6683,
+   "p50": 0.6552,
    "p90": 0.9214,
    "actual": null,
    "curve": 0.3742
@@ -15725,7 +15725,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.3614,
-   "p50": 0.6686,
+   "p50": 0.7365,
    "p90": 0.9559,
    "actual": null,
    "curve": 0.4782
@@ -15735,7 +15735,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.2909,
-   "p50": 0.5882,
+   "p50": 0.6356,
    "p90": 0.9227,
    "actual": null,
    "curve": 0.4043
@@ -15745,7 +15745,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.1916,
-   "p50": 0.4061,
+   "p50": 0.5268,
    "p90": 0.9031,
    "actual": null,
    "curve": 0.3327
@@ -15755,7 +15755,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.1869,
-   "p50": 0.42,
+   "p50": 0.5328,
    "p90": 0.8964,
    "actual": null,
    "curve": 0.3445
@@ -15765,7 +15765,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.1813,
-   "p50": 0.4535,
+   "p50": 0.5235,
    "p90": 0.825,
    "actual": null,
    "curve": 0.2995
@@ -15775,7 +15775,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.1149,
-   "p50": 0.4401,
+   "p50": 0.5029,
    "p90": 0.8388,
    "actual": null,
    "curve": 0.2451
@@ -15785,7 +15785,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.1518,
-   "p50": 0.474,
+   "p50": 0.5694,
    "p90": 0.8279,
    "actual": null,
    "curve": 0.264
@@ -15795,7 +15795,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0555,
-   "p50": 0.5032,
+   "p50": 0.517,
    "p90": 0.8237,
    "actual": null,
    "curve": 0.2039
@@ -15805,7 +15805,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.1064,
-   "p50": 0.4778,
+   "p50": 0.567,
    "p90": 0.7802,
    "actual": null,
    "curve": 0.2218
@@ -15815,7 +15815,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0098,
-   "p50": 0.3604,
+   "p50": 0.428,
    "p90": 0.8444,
    "actual": null,
    "curve": 0.1447
@@ -15825,7 +15825,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0559,
-   "p50": 0.493,
+   "p50": 0.457,
    "p90": 0.8523,
    "actual": null,
    "curve": 0.1847
@@ -15835,7 +15835,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0127,
-   "p50": 0.1755,
+   "p50": 0.2074,
    "p90": 0.5324,
    "actual": null,
    "curve": 0.0476
@@ -15845,7 +15845,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0264,
-   "p50": 0.2603,
+   "p50": 0.2842,
    "p90": 0.5765,
    "actual": null,
    "curve": 0.0492
@@ -15855,7 +15855,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0521,
+   "p50": 0.1264,
    "p90": 0.3409,
    "actual": null,
    "curve": 0.0454
@@ -15865,7 +15865,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.1165,
+   "p50": 0.1225,
    "p90": 0.4435,
    "actual": null,
    "curve": 0.0493
@@ -15875,7 +15875,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1044,
+   "p50": 0.1654,
    "p90": 0.3661,
    "actual": null,
    "curve": 0.0177
@@ -15885,7 +15885,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.2639,
+   "p50": 0.2673,
    "p90": 0.6563,
    "actual": null,
    "curve": 0.6137
@@ -15895,7 +15895,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1279,
+   "p50": 0.1069,
    "p90": 0.3443,
    "actual": null,
    "curve": 0.3256
@@ -15905,7 +15905,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.2193,
+   "p50": 0.1817,
    "p90": 0.4518,
    "actual": null,
    "curve": 0.2784
@@ -15915,7 +15915,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.3105,
+   "p50": 0.3066,
    "p90": 0.5828,
    "actual": null,
    "curve": 0.5427
@@ -15925,7 +15925,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.1702,
+   "p50": 0.2019,
    "p90": 0.412,
    "actual": null,
    "curve": 0.205
@@ -15935,7 +15935,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.2322,
+   "p50": 0.2333,
    "p90": 0.4857,
    "actual": null,
    "curve": 0.2428
@@ -15945,7 +15945,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.2328,
+   "p50": 0.2775,
    "p90": 0.705,
    "actual": null,
    "curve": 0.6644
@@ -15955,7 +15955,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0907,
-   "p50": 0.2422,
+   "p50": 0.2349,
    "p90": 0.6107,
    "actual": null,
    "curve": 0.0416
@@ -15965,7 +15965,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0382,
-   "p50": 0.4155,
+   "p50": 0.4528,
    "p90": 0.9231,
    "actual": null,
    "curve": 0.9667
@@ -15975,7 +15975,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0645,
-   "p50": 0.364,
+   "p50": 0.4331,
    "p90": 0.7922,
    "actual": null,
    "curve": 0.2295
@@ -15985,7 +15985,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0408,
-   "p50": 0.3478,
+   "p50": 0.2602,
    "p90": 0.9442,
    "actual": null,
    "curve": 0.9227
@@ -15995,7 +15995,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.2024,
-   "p50": 0.5263,
+   "p50": 0.4949,
    "p90": 0.8934,
    "actual": null,
    "curve": 0.7092
@@ -16005,7 +16005,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.4183,
-   "p50": 0.7019,
+   "p50": 0.7741,
    "p90": 0.9696,
    "actual": null,
    "curve": 0.9595
@@ -16015,7 +16015,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.3698,
-   "p50": 0.8082,
+   "p50": 0.749,
    "p90": 0.9804,
    "actual": null,
    "curve": 0.8467
@@ -16025,7 +16025,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.6215,
-   "p50": 0.9166,
+   "p50": 0.893,
    "p90": 0.9787,
    "actual": null,
    "curve": 0.9593
@@ -16035,7 +16035,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.895,
-   "p50": 0.9337,
+   "p50": 0.9092,
    "p90": 0.9776,
    "actual": null,
    "curve": 0.9283
@@ -16045,7 +16045,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.9342,
-   "p50": 0.9698,
+   "p50": 0.9664,
    "p90": 0.9831,
    "actual": null,
    "curve": 0.9667
@@ -16055,7 +16055,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.931,
-   "p50": 0.9507,
+   "p50": 0.9654,
    "p90": 0.9746,
    "actual": null,
    "curve": 0.9466
@@ -16065,7 +16065,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.9514,
-   "p50": 0.9644,
+   "p50": 0.9776,
    "p90": 0.9835,
    "actual": null,
    "curve": 0.9667
@@ -16075,7 +16075,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.9523,
-   "p50": 0.9691,
+   "p50": 0.9682,
    "p90": 0.9768,
    "actual": null,
    "curve": 0.9695
@@ -16085,7 +16085,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.934,
-   "p50": 0.9536,
+   "p50": 0.9622,
    "p90": 0.9802,
    "actual": null,
    "curve": 0.9565
@@ -16095,7 +16095,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.9374,
-   "p50": 0.97,
+   "p50": 0.9606,
    "p90": 0.979,
    "actual": null,
    "curve": 0.97
@@ -16105,7 +16105,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.9536,
-   "p50": 0.9856,
+   "p50": 0.9727,
    "p90": 0.9878,
    "actual": null,
    "curve": 0.9693
@@ -16115,7 +16115,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.9428,
-   "p50": 0.9767,
+   "p50": 0.9599,
    "p90": 0.9794,
    "actual": null,
    "curve": 0.97
@@ -16125,7 +16125,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.9432,
-   "p50": 0.9776,
+   "p50": 0.9667,
    "p90": 0.9781,
    "actual": null,
    "curve": 0.9667
@@ -16134,8 +16134,8 @@ window.DASHBOARD_DATA = {
    "time": "2026-02-06T14:00",
    "turbine": "T2",
    "lead_h": 24,
-   "p10": 0.9563,
-   "p50": 0.9596,
+   "p10": 0.953,
+   "p50": 0.9563,
    "p90": 0.982,
    "actual": null,
    "curve": 0.97
@@ -16145,7 +16145,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.933,
-   "p50": 0.9634,
+   "p50": 0.9622,
    "p90": 0.9769,
    "actual": null,
    "curve": 0.967
@@ -16155,7 +16155,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.9421,
-   "p50": 0.9782,
+   "p50": 0.9634,
    "p90": 0.9817,
    "actual": null,
    "curve": 0.97
@@ -16165,7 +16165,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.9432,
-   "p50": 0.9551,
+   "p50": 0.9596,
    "p90": 0.9785,
    "actual": null,
    "curve": 0.9678
@@ -16175,7 +16175,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.9368,
-   "p50": 0.9519,
+   "p50": 0.9562,
    "p90": 0.9814,
    "actual": null,
    "curve": 0.9687
@@ -16185,7 +16185,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.9425,
-   "p50": 0.9539,
+   "p50": 0.9664,
    "p90": 0.9865,
    "actual": null,
    "curve": 0.9667
@@ -16195,7 +16195,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.9238,
-   "p50": 0.9544,
+   "p50": 0.9517,
    "p90": 0.9808,
    "actual": null,
    "curve": 0.9283
@@ -16205,7 +16205,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.8941,
-   "p50": 0.9258,
+   "p50": 0.9359,
    "p90": 0.9847,
    "actual": null,
    "curve": 0.937
@@ -16215,7 +16215,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.5115,
-   "p50": 0.8822,
+   "p50": 0.8709,
    "p90": 0.9947,
    "actual": null,
    "curve": 0.6218
@@ -16225,7 +16225,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.8411,
-   "p50": 0.8617,
+   "p50": 0.8497,
    "p90": 0.9882,
    "actual": null,
    "curve": 0.9404
@@ -16235,7 +16235,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.3254,
-   "p50": 0.7101,
+   "p50": 0.6908,
    "p90": 0.9249,
    "actual": null,
    "curve": 0.3691
@@ -16245,7 +16245,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.6838,
-   "p50": 0.8492,
+   "p50": 0.8494,
    "p90": 0.9782,
    "actual": null,
    "curve": 0.8735
@@ -16255,7 +16255,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.3003,
-   "p50": 0.7199,
+   "p50": 0.6967,
    "p90": 0.9149,
    "actual": null,
    "curve": 0.2726
@@ -16265,7 +16265,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.5026,
-   "p50": 0.7218,
+   "p50": 0.7637,
    "p90": 0.9778,
    "actual": null,
    "curve": 0.87
@@ -16275,7 +16275,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.2671,
-   "p50": 0.7228,
+   "p50": 0.7232,
    "p90": 0.9474,
    "actual": null,
    "curve": 0.3567
@@ -16285,7 +16285,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.3826,
-   "p50": 0.7093,
+   "p50": 0.6815,
    "p90": 0.9511,
    "actual": null,
    "curve": 0.8193
@@ -16295,7 +16295,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.1684,
-   "p50": 0.5851,
+   "p50": 0.5933,
    "p90": 0.9417,
    "actual": null,
    "curve": 0.327
@@ -16305,7 +16305,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.1935,
-   "p50": 0.5106,
+   "p50": 0.4738,
    "p90": 0.85,
    "actual": null,
    "curve": 0.6393
@@ -16315,7 +16315,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.1224,
-   "p50": 0.4887,
+   "p50": 0.4932,
    "p90": 0.8522,
    "actual": null,
    "curve": 0.2917
@@ -16325,7 +16325,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0279,
-   "p50": 0.2857,
+   "p50": 0.2562,
    "p90": 0.7268,
    "actual": null,
    "curve": 0.5626
@@ -16335,7 +16335,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0108,
-   "p50": 0.2463,
+   "p50": 0.2061,
    "p90": 0.4348,
    "actual": null,
    "curve": 0.1004
@@ -16345,7 +16345,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0009,
-   "p50": 0.0885,
+   "p50": 0.0868,
    "p90": 0.2705,
    "actual": null,
    "curve": 0.2295
@@ -16355,7 +16355,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0999,
+   "p50": 0.1007,
    "p90": 0.1416,
    "actual": null,
    "curve": 0.034
@@ -16365,7 +16365,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0663,
+   "p50": 0.0639,
    "p90": 0.1245,
    "actual": null,
    "curve": 0.133
@@ -16375,7 +16375,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1186,
+   "p50": 0.1378,
    "p90": 0.2095,
    "actual": null,
    "curve": 0.0083
@@ -16385,7 +16385,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0885,
+   "p50": 0.0912,
    "p90": 0.102,
    "actual": null,
    "curve": 0.0363
@@ -16395,7 +16395,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0275,
+   "p50": 0.0414,
    "p90": 0.1137,
    "actual": null,
    "curve": 0.0067
@@ -16405,7 +16405,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0516,
+   "p50": 0.0375,
    "p90": 0.1261,
    "actual": null,
    "curve": 0.0141
@@ -16415,7 +16415,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0522,
+   "p50": 0.0641,
    "p90": 0.1456,
    "actual": null,
    "curve": 0.0092
@@ -16425,7 +16425,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0002,
-   "p50": 0.1145,
+   "p50": 0.0924,
    "p90": 0.258,
    "actual": null,
    "curve": 0.0298
@@ -16435,7 +16435,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0918,
+   "p50": 0.0869,
    "p90": 0.354,
    "actual": null,
    "curve": 0.053
@@ -16445,7 +16445,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0114,
-   "p50": 0.2543,
+   "p50": 0.1909,
    "p90": 0.6156,
    "actual": null,
    "curve": 0.0296
@@ -16455,7 +16455,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0351,
-   "p50": 0.2391,
+   "p50": 0.1123,
    "p90": 0.7179,
    "actual": null,
    "curve": 0.2533
@@ -16465,7 +16465,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0429,
-   "p50": 0.4355,
+   "p50": 0.3576,
    "p90": 0.747,
    "actual": null,
    "curve": 0.0712
@@ -16475,7 +16475,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0995,
-   "p50": 0.3898,
+   "p50": 0.3013,
    "p90": 0.8146,
    "actual": null,
    "curve": 0.3388
@@ -16485,7 +16485,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0348,
-   "p50": 0.3931,
+   "p50": 0.3361,
    "p90": 0.7899,
    "actual": null,
    "curve": 0.1337
@@ -16495,7 +16495,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0737,
-   "p50": 0.3447,
+   "p50": 0.3981,
    "p90": 0.6988,
    "actual": null,
    "curve": 0.326
@@ -16505,7 +16505,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0265,
-   "p50": 0.3784,
+   "p50": 0.3858,
    "p90": 0.7419,
    "actual": null,
    "curve": 0.1946
@@ -16515,7 +16515,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.015,
-   "p50": 0.333,
+   "p50": 0.3777,
    "p90": 0.7381,
    "actual": null,
    "curve": 0.2155
@@ -16525,7 +16525,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0101,
-   "p50": 0.2493,
+   "p50": 0.3035,
    "p90": 0.5493,
    "actual": null,
    "curve": 0.1842
@@ -16535,7 +16535,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0095,
-   "p50": 0.2276,
+   "p50": 0.2216,
    "p90": 0.4956,
    "actual": null,
    "curve": 0.0854
@@ -16545,7 +16545,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.009,
-   "p50": 0.1252,
+   "p50": 0.1495,
    "p90": 0.319,
    "actual": null,
    "curve": 0.1062
@@ -16555,7 +16555,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0019,
-   "p50": 0.1636,
+   "p50": 0.1492,
    "p90": 0.3134,
    "actual": null,
    "curve": 0.0247
@@ -16565,7 +16565,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.1146,
+   "p50": 0.0966,
    "p90": 0.2559,
    "actual": null,
    "curve": 0.0625
@@ -16575,7 +16575,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1851,
+   "p50": 0.2082,
    "p90": 0.3051,
    "actual": null,
    "curve": 0.0069
@@ -16585,7 +16585,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0031,
-   "p50": 0.1844,
+   "p50": 0.2107,
    "p90": 0.3397,
    "actual": null,
    "curve": 0.023
@@ -16595,7 +16595,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0019,
-   "p50": 0.1304,
+   "p50": 0.1644,
    "p90": 0.4303,
    "actual": null,
    "curve": 0.2037
@@ -16605,7 +16605,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0167,
-   "p50": 0.4425,
+   "p50": 0.4462,
    "p90": 0.7464,
    "actual": null,
    "curve": 0.1255
@@ -16615,7 +16615,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0635,
-   "p50": 0.3468,
+   "p50": 0.2881,
    "p90": 0.9136,
    "actual": null,
    "curve": 0.5911
@@ -16625,7 +16625,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.1332,
-   "p50": 0.3594,
+   "p50": 0.3764,
    "p90": 0.7301,
    "actual": null,
    "curve": 0.5054
@@ -16635,7 +16635,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.1753,
-   "p50": 0.5032,
+   "p50": 0.4761,
    "p90": 0.8352,
    "actual": null,
    "curve": 0.7616
@@ -16645,7 +16645,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.1555,
-   "p50": 0.6006,
+   "p50": 0.6163,
    "p90": 0.8677,
    "actual": null,
    "curve": 0.5298
@@ -16655,7 +16655,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.2983,
-   "p50": 0.6194,
+   "p50": 0.5625,
    "p90": 0.9479,
    "actual": null,
    "curve": 0.8842
@@ -16665,7 +16665,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.2574,
-   "p50": 0.7612,
+   "p50": 0.7265,
    "p90": 0.9642,
    "actual": null,
    "curve": 0.5625
@@ -16675,7 +16675,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.4126,
-   "p50": 0.7197,
+   "p50": 0.7419,
    "p90": 0.9705,
    "actual": null,
    "curve": 0.8908
@@ -16685,7 +16685,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.3895,
-   "p50": 0.8165,
+   "p50": 0.7636,
    "p90": 0.9783,
    "actual": null,
    "curve": 0.7254
@@ -16695,7 +16695,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.5677,
-   "p50": 0.7468,
+   "p50": 0.7812,
    "p90": 0.9853,
    "actual": null,
    "curve": 0.9156
@@ -16705,7 +16705,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.544,
-   "p50": 0.9069,
+   "p50": 0.8667,
    "p90": 0.9935,
    "actual": null,
    "curve": 0.8229
@@ -16715,7 +16715,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.5505,
-   "p50": 0.7549,
+   "p50": 0.7376,
    "p90": 0.981,
    "actual": null,
    "curve": 0.9283
@@ -16725,7 +16725,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.5345,
-   "p50": 0.8599,
+   "p50": 0.8522,
    "p90": 0.9909,
    "actual": null,
    "curve": 0.8701
@@ -16735,7 +16735,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.5843,
-   "p50": 0.8037,
+   "p50": 0.7489,
    "p90": 0.9811,
    "actual": null,
    "curve": 0.9283
@@ -16745,7 +16745,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.5849,
-   "p50": 0.8976,
+   "p50": 0.8926,
    "p90": 0.975,
    "actual": null,
    "curve": 0.8103
@@ -16755,7 +16755,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.63,
-   "p50": 0.8479,
+   "p50": 0.8542,
    "p90": 0.9775,
    "actual": null,
    "curve": 0.8908
@@ -16765,7 +16765,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.5239,
-   "p50": 0.8728,
+   "p50": 0.8561,
    "p90": 0.9711,
    "actual": null,
    "curve": 0.8368
@@ -16775,7 +16775,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.6075,
-   "p50": 0.9203,
+   "p50": 0.908,
    "p90": 0.9712,
    "actual": null,
    "curve": 0.8467
@@ -16785,7 +16785,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.5893,
-   "p50": 0.9294,
+   "p50": 0.8924,
    "p90": 0.9767,
    "actual": null,
    "curve": 0.8409
@@ -16795,7 +16795,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.5288,
-   "p50": 0.9198,
+   "p50": 0.9081,
    "p90": 0.9817,
    "actual": null,
    "curve": 0.7092
@@ -16805,7 +16805,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.5574,
-   "p50": 0.9453,
+   "p50": 0.9221,
    "p90": 0.9691,
    "actual": null,
    "curve": 0.7594
@@ -16815,7 +16815,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.4088,
-   "p50": 0.8299,
+   "p50": 0.8207,
    "p90": 0.9564,
    "actual": null,
    "curve": 0.6602
@@ -16825,7 +16825,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.2448,
-   "p50": 0.6459,
+   "p50": 0.6235,
    "p90": 0.9443,
    "actual": null,
    "curve": 0.542
@@ -16835,7 +16835,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.2298,
-   "p50": 0.7516,
+   "p50": 0.6588,
    "p90": 0.9453,
    "actual": null,
    "curve": 0.5984
@@ -16845,7 +16845,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.1806,
-   "p50": 0.5528,
+   "p50": 0.5984,
    "p90": 0.9022,
    "actual": null,
    "curve": 0.4644
@@ -16855,7 +16855,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.1397,
-   "p50": 0.5696,
+   "p50": 0.5273,
    "p90": 0.8889,
    "actual": null,
    "curve": 0.4345
@@ -16865,7 +16865,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0949,
-   "p50": 0.4295,
+   "p50": 0.3451,
    "p90": 0.8011,
    "actual": null,
    "curve": 0.3336
@@ -16875,7 +16875,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0427,
-   "p50": 0.3213,
+   "p50": 0.3524,
    "p90": 0.728,
    "actual": null,
    "curve": 0.1912
@@ -16885,7 +16885,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0229,
-   "p50": 0.2711,
+   "p50": 0.2755,
    "p90": 0.5803,
    "actual": null,
    "curve": 0.2892
@@ -16895,7 +16895,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1109,
+   "p50": 0.1374,
    "p90": 0.3286,
    "actual": null,
    "curve": 0.0671
@@ -16905,7 +16905,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0616,
+   "p50": 0.1114,
    "p90": 0.2629,
    "actual": null,
    "curve": 0.1768
@@ -16915,7 +16915,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0498,
+   "p50": 0.0677,
    "p90": 0.207,
    "actual": null,
    "curve": 0.0347
@@ -16925,7 +16925,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0555,
+   "p50": 0.0616,
    "p90": 0.1269,
    "actual": null,
    "curve": 0.0732
@@ -16935,7 +16935,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0088,
+   "p50": 0.02,
    "p90": 0.1082,
    "actual": null,
    "curve": 0.0203
@@ -16945,7 +16945,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0,
+   "p50": 0.0328,
    "p90": 0.0651,
    "actual": null,
    "curve": 0.0295
@@ -16955,7 +16955,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0102,
+   "p50": 0.0262,
    "p90": 0.0403,
    "actual": null,
    "curve": 0.0083
@@ -16965,7 +16965,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0,
+   "p50": 0.0157,
    "p90": 0.0574,
    "actual": null,
    "curve": 0.0148
@@ -16975,7 +16975,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0294,
+   "p50": 0.0486,
    "p90": 0.1435,
    "actual": null,
    "curve": 0.0079
@@ -16985,7 +16985,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.09,
+   "p50": 0.0845,
    "p90": 0.1655,
    "actual": null,
    "curve": 0.0275
@@ -16995,7 +16995,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0027,
-   "p50": 0.1625,
+   "p50": 0.1606,
    "p90": 0.3545,
    "actual": null,
    "curve": 0.0456
@@ -17005,7 +17005,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0274,
-   "p50": 0.3713,
+   "p50": 0.378,
    "p90": 0.7133,
    "actual": null,
    "curve": 0.1024
@@ -17015,7 +17015,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.1656,
-   "p50": 0.6236,
+   "p50": 0.5962,
    "p90": 0.9008,
    "actual": null,
    "curve": 0.2921
@@ -17025,7 +17025,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.2722,
-   "p50": 0.8921,
+   "p50": 0.8406,
    "p90": 0.9552,
    "actual": null,
    "curve": 0.4933
@@ -17035,7 +17035,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.5421,
-   "p50": 0.8886,
+   "p50": 0.9812,
    "p90": 0.9907,
    "actual": null,
    "curve": 0.7092
@@ -17055,8 +17055,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.8041,
-   "p50": 0.9905,
-   "p90": 0.9986,
+   "p50": 0.9527,
+   "p90": 0.9905,
    "actual": null,
    "curve": 0.8908
   },
@@ -17065,7 +17065,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.7692,
-   "p50": 0.9918,
+   "p50": 0.9364,
    "p90": 0.9947,
    "actual": null,
    "curve": 0.8688
@@ -17085,7 +17085,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.6206,
-   "p50": 0.9684,
+   "p50": 0.9811,
    "p90": 0.9956,
    "actual": null,
    "curve": 0.8887
@@ -17095,8 +17095,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.6296,
-   "p50": 0.9866,
-   "p90": 0.9921,
+   "p50": 0.9921,
+   "p90": 0.9984,
    "actual": null,
    "curve": 0.9283
   },
@@ -17105,7 +17105,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.6338,
-   "p50": 0.9895,
+   "p50": 0.9902,
    "p90": 0.997,
    "actual": null,
    "curve": 0.9291
@@ -17125,7 +17125,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.6154,
-   "p50": 0.9836,
+   "p50": 0.9823,
    "p90": 0.9911,
    "actual": null,
    "curve": 0.9341
@@ -17156,7 +17156,7 @@ window.DASHBOARD_DATA = {
    "lead_h": 24,
    "p10": 0.8484,
    "p50": 0.9826,
-   "p90": 1.0,
+   "p90": 0.9897,
    "actual": null,
    "curve": 0.9338
   },
@@ -17166,7 +17166,7 @@ window.DASHBOARD_DATA = {
    "lead_h": 48,
    "p10": 0.8708,
    "p50": 0.9886,
-   "p90": 0.9912,
+   "p90": 1.0,
    "actual": null,
    "curve": 0.945
   },
@@ -17175,7 +17175,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.8459,
-   "p50": 0.9715,
+   "p50": 0.9638,
    "p90": 0.9818,
    "actual": null,
    "curve": 0.9288
@@ -17185,8 +17185,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.8734,
-   "p50": 0.9876,
-   "p90": 1.0,
+   "p50": 0.9818,
+   "p90": 0.9876,
    "actual": null,
    "curve": 0.9582
   },
@@ -17195,7 +17195,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.8623,
-   "p50": 0.9608,
+   "p50": 0.9711,
    "p90": 0.9876,
    "actual": null,
    "curve": 0.9283
@@ -17205,8 +17205,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.8798,
-   "p50": 0.9921,
-   "p90": 0.997,
+   "p50": 0.9835,
+   "p90": 0.9921,
    "actual": null,
    "curve": 0.9494
   },
@@ -17215,7 +17215,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.8369,
-   "p50": 0.9722,
+   "p50": 0.9692,
    "p90": 0.9876,
    "actual": null,
    "curve": 0.9283
@@ -17225,7 +17225,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.8765,
-   "p50": 0.9869,
+   "p50": 0.9773,
    "p90": 0.9891,
    "actual": null,
    "curve": 0.9455
@@ -17235,7 +17235,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.8591,
-   "p50": 0.9371,
+   "p50": 0.9657,
    "p90": 0.9888,
    "actual": null,
    "curve": 0.9283
@@ -17245,7 +17245,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.8803,
-   "p50": 0.9465,
+   "p50": 0.9818,
    "p90": 0.9894,
    "actual": null,
    "curve": 0.9464
@@ -17255,7 +17255,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.8434,
-   "p50": 0.9617,
+   "p50": 0.976,
    "p90": 0.9887,
    "actual": null,
    "curve": 0.9283
@@ -17265,7 +17265,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.8435,
-   "p50": 0.9603,
+   "p50": 0.9672,
    "p90": 0.9943,
    "actual": null,
    "curve": 0.9318
@@ -17275,8 +17275,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.8291,
-   "p50": 0.9457,
-   "p90": 0.966,
+   "p50": 0.966,
+   "p90": 0.9887,
    "actual": null,
    "curve": 0.9283
   },
@@ -17285,7 +17285,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.8522,
-   "p50": 0.9509,
+   "p50": 0.9833,
    "p90": 1.0,
    "actual": null,
    "curve": 0.9428
@@ -17295,7 +17295,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.6418,
-   "p50": 0.8583,
+   "p50": 0.8782,
    "p90": 0.9868,
    "actual": null,
    "curve": 0.8908
@@ -17305,7 +17305,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.8284,
-   "p50": 0.8891,
+   "p50": 0.9128,
    "p90": 0.9841,
    "actual": null,
    "curve": 0.9092
@@ -17315,7 +17315,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.6021,
-   "p50": 0.8426,
+   "p50": 0.8663,
    "p90": 0.9846,
    "actual": null,
    "curve": 0.8615
@@ -17325,7 +17325,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.6081,
-   "p50": 0.8415,
+   "p50": 0.851,
    "p90": 0.9826,
    "actual": null,
    "curve": 0.8751
@@ -17335,7 +17335,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.5983,
-   "p50": 0.7661,
+   "p50": 0.8328,
    "p90": 0.9843,
    "actual": null,
    "curve": 0.8555
@@ -17345,7 +17345,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.6055,
-   "p50": 0.8084,
+   "p50": 0.8576,
    "p90": 0.9883,
    "actual": null,
    "curve": 0.8697
@@ -17355,7 +17355,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.6152,
-   "p50": 0.7852,
+   "p50": 0.8537,
    "p90": 0.9778,
    "actual": null,
    "curve": 0.8467
@@ -17365,7 +17365,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.6167,
-   "p50": 0.7888,
+   "p50": 0.8615,
    "p90": 0.9807,
    "actual": null,
    "curve": 0.8539
@@ -17375,7 +17375,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.7659,
-   "p50": 0.833,
+   "p50": 0.9179,
    "p90": 0.9953,
    "actual": null,
    "curve": 0.841
@@ -17385,7 +17385,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.7716,
-   "p50": 0.8364,
+   "p50": 0.917,
    "p90": 0.9569,
    "actual": null,
    "curve": 0.8564
@@ -17395,7 +17395,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.7317,
-   "p50": 0.8555,
+   "p50": 0.9339,
    "p90": 0.9806,
    "actual": null,
    "curve": 0.8467
@@ -17405,7 +17405,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.6392,
-   "p50": 0.8381,
+   "p50": 0.8851,
    "p90": 0.9816,
    "actual": null,
    "curve": 0.7491
@@ -17415,7 +17415,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.7515,
-   "p50": 0.8935,
+   "p50": 0.9191,
    "p90": 0.9799,
    "actual": null,
    "curve": 0.8507
@@ -17425,7 +17425,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.6913,
-   "p50": 0.8959,
+   "p50": 0.9343,
    "p90": 0.9849,
    "actual": null,
    "curve": 0.8116
@@ -17435,7 +17435,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.7634,
-   "p50": 0.9274,
+   "p50": 0.9433,
    "p90": 0.9886,
    "actual": null,
    "curve": 0.8658
@@ -17445,7 +17445,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.7491,
-   "p50": 0.9147,
+   "p50": 0.8867,
    "p90": 0.9929,
    "actual": null,
    "curve": 0.8233
@@ -17455,8 +17455,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.8069,
-   "p50": 0.9358,
-   "p90": 0.9806,
+   "p50": 0.9806,
+   "p90": 0.9896,
    "actual": null,
    "curve": 0.8467
   },
@@ -17465,7 +17465,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.7531,
-   "p50": 0.9311,
+   "p50": 0.9456,
    "p90": 0.9826,
    "actual": null,
    "curve": 0.765
@@ -17486,7 +17486,7 @@ window.DASHBOARD_DATA = {
    "lead_h": 48,
    "p10": 0.7484,
    "p50": 0.981,
-   "p90": 0.9823,
+   "p90": 0.9918,
    "actual": null,
    "curve": 0.8257
   },
@@ -17495,8 +17495,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.6927,
-   "p50": 0.9875,
-   "p90": 0.9937,
+   "p50": 0.9937,
+   "p90": 1.0,
    "actual": null,
    "curve": 0.7906
   },
@@ -17505,8 +17505,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.7491,
-   "p50": 0.9735,
-   "p90": 0.9873,
+   "p50": 0.9873,
+   "p90": 1.0,
    "actual": null,
    "curve": 0.8446
   },
@@ -17516,7 +17516,7 @@ window.DASHBOARD_DATA = {
    "lead_h": 24,
    "p10": 0.7409,
    "p50": 0.9875,
-   "p90": 0.9965,
+   "p90": 1.0,
    "actual": null,
    "curve": 0.832
   },
@@ -17525,8 +17525,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.7356,
-   "p50": 0.9566,
-   "p90": 0.9814,
+   "p50": 0.9814,
+   "p90": 0.9825,
    "actual": null,
    "curve": 0.8297
   },
@@ -17535,7 +17535,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.4995,
-   "p50": 0.8673,
+   "p50": 0.907,
    "p90": 0.9982,
    "actual": null,
    "curve": 0.6348
@@ -17545,7 +17545,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.6669,
-   "p50": 0.931,
+   "p50": 0.9364,
    "p90": 0.9723,
    "actual": null,
    "curve": 0.8472
@@ -17555,7 +17555,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.3494,
-   "p50": 0.7764,
+   "p50": 0.7587,
    "p90": 0.9807,
    "actual": null,
    "curve": 0.4303
@@ -17565,7 +17565,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.5061,
-   "p50": 0.9328,
+   "p50": 0.9597,
    "p90": 0.9773,
    "actual": null,
    "curve": 0.7212
@@ -17575,7 +17575,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.271,
-   "p50": 0.6644,
+   "p50": 0.8078,
    "p90": 1.0,
    "actual": null,
    "curve": 0.2339
@@ -17585,7 +17585,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.3555,
-   "p50": 0.7172,
+   "p50": 0.7407,
    "p90": 0.9903,
    "actual": null,
    "curve": 0.6375
@@ -17595,7 +17595,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0935,
-   "p50": 0.4873,
+   "p50": 0.6498,
    "p90": 0.8426,
    "actual": null,
    "curve": 0.093
@@ -17605,7 +17605,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.1358,
-   "p50": 0.5193,
+   "p50": 0.5536,
    "p90": 0.8914,
    "actual": null,
    "curve": 0.3644
@@ -17615,7 +17615,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0383,
-   "p50": 0.242,
+   "p50": 0.3648,
    "p90": 0.4901,
    "actual": null,
    "curve": 0.0283
@@ -17625,7 +17625,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0082,
-   "p50": 0.1863,
+   "p50": 0.3028,
    "p90": 0.545,
    "actual": null,
    "curve": 0.0653
@@ -17635,7 +17635,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1112,
+   "p50": 0.2162,
    "p90": 0.311,
    "actual": null,
    "curve": 0.0148
@@ -17645,7 +17645,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0735,
+   "p50": 0.186,
    "p90": 0.2466,
    "actual": null,
    "curve": 0.017
@@ -17655,7 +17655,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0336,
+   "p50": 0.1446,
    "p90": 0.2917,
    "actual": null,
    "curve": 0.0204
@@ -17665,7 +17665,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0689,
+   "p50": 0.1704,
    "p90": 0.2296,
    "actual": null,
    "curve": 0.0161
@@ -17675,7 +17675,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0885,
+   "p50": 0.1512,
    "p90": 0.2715,
    "actual": null,
    "curve": 0.0487
@@ -17685,7 +17685,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0692,
+   "p50": 0.1531,
    "p90": 0.3475,
    "actual": null,
    "curve": 0.0521
@@ -17695,7 +17695,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1498,
+   "p50": 0.232,
    "p90": 0.3484,
    "actual": null,
    "curve": 0.0274
@@ -17705,7 +17705,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0024,
-   "p50": 0.1566,
+   "p50": 0.2013,
    "p90": 0.3594,
    "actual": null,
    "curve": 0.0917
@@ -17715,7 +17715,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1373,
+   "p50": 0.1906,
    "p90": 0.3873,
    "actual": null,
    "curve": 0.0206
@@ -17725,7 +17725,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.1429,
+   "p50": 0.1873,
    "p90": 0.3985,
    "actual": null,
    "curve": 0.095
@@ -17735,7 +17735,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0028,
-   "p50": 0.2041,
+   "p50": 0.2043,
    "p90": 0.3807,
    "actual": null,
    "curve": 0.0201
@@ -17745,7 +17745,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0076,
-   "p50": 0.2621,
+   "p50": 0.1898,
    "p90": 0.5242,
    "actual": null,
    "curve": 0.1027
@@ -17755,7 +17755,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0137,
-   "p50": 0.3511,
+   "p50": 0.2654,
    "p90": 0.5352,
    "actual": null,
    "curve": 0.0478
@@ -17765,7 +17765,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0041,
-   "p50": 0.2527,
+   "p50": 0.2182,
    "p90": 0.6035,
    "actual": null,
    "curve": 0.1567
@@ -17775,7 +17775,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.2514,
+   "p50": 0.1986,
    "p90": 0.4427,
    "actual": null,
    "curve": 0.0085
@@ -17785,7 +17785,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0348,
+   "p50": 0.0631,
    "p90": 0.3482,
    "actual": null,
    "curve": 0.1454
@@ -17795,7 +17795,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.2417,
+   "p50": 0.2081,
    "p90": 0.5248,
    "actual": null,
    "curve": 0.0847
@@ -17805,7 +17805,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0088,
-   "p50": 0.1324,
+   "p50": 0.1374,
    "p90": 0.5803,
    "actual": null,
    "curve": 0.2773
@@ -17815,7 +17815,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0023,
-   "p50": 0.3158,
+   "p50": 0.353,
    "p90": 0.4707,
    "actual": null,
    "curve": 0.1301
@@ -17825,7 +17825,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0242,
-   "p50": 0.2908,
+   "p50": 0.3506,
    "p90": 0.5921,
    "actual": null,
    "curve": 0.0641
@@ -17835,7 +17835,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.2126,
+   "p50": 0.2613,
    "p90": 0.6768,
    "actual": null,
    "curve": 0.2519
@@ -17845,7 +17845,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.2459,
+   "p50": 0.2498,
    "p90": 0.4767,
    "actual": null,
    "curve": 0.2357
@@ -17855,7 +17855,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.2133,
+   "p50": 0.2367,
    "p90": 0.4627,
    "actual": null,
    "curve": 0.1364
@@ -17865,7 +17865,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0054,
-   "p50": 0.217,
+   "p50": 0.2504,
    "p90": 0.5811,
    "actual": null,
    "curve": 0.0507
@@ -17875,7 +17875,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0083,
-   "p50": 0.2412,
+   "p50": 0.21,
    "p90": 0.565,
    "actual": null,
    "curve": 0.2283
@@ -17885,7 +17885,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.2492,
+   "p50": 0.2337,
    "p90": 0.4228,
    "actual": null,
    "curve": 0.1842
@@ -17895,7 +17895,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.2393,
+   "p50": 0.2188,
    "p90": 0.3201,
    "actual": null,
    "curve": 0.0532
@@ -17905,7 +17905,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.148,
+   "p50": 0.1499,
    "p90": 0.3021,
    "actual": null,
    "curve": 0.0484
@@ -17915,7 +17915,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0002,
-   "p50": 0.1297,
+   "p50": 0.1541,
    "p90": 0.3162,
    "actual": null,
    "curve": 0.0592
@@ -17925,7 +17925,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0024,
-   "p50": 0.2029,
+   "p50": 0.1937,
    "p90": 0.3903,
    "actual": null,
    "curve": 0.1791
@@ -17935,7 +17935,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0386,
-   "p50": 0.4446,
+   "p50": 0.3791,
    "p90": 0.6905,
    "actual": null,
    "curve": 0.1732
@@ -17945,7 +17945,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0012,
-   "p50": 0.2176,
+   "p50": 0.2796,
    "p90": 0.6331,
    "actual": null,
    "curve": 0.5386
@@ -17955,7 +17955,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0472,
-   "p50": 0.3349,
+   "p50": 0.2851,
    "p90": 0.6713,
    "actual": null,
    "curve": 0.2945
@@ -17965,7 +17965,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0103,
-   "p50": 0.3021,
+   "p50": 0.3527,
    "p90": 0.6041,
    "actual": null,
    "curve": 0.1713
@@ -17975,7 +17975,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0306,
-   "p50": 0.3831,
+   "p50": 0.3827,
    "p90": 0.6032,
    "actual": null,
    "curve": 0.2661
@@ -17985,7 +17985,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0183,
-   "p50": 0.3356,
+   "p50": 0.2787,
    "p90": 0.6102,
    "actual": null,
    "curve": 0.1786
@@ -17995,7 +17995,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0472,
-   "p50": 0.447,
+   "p50": 0.3488,
    "p90": 0.7008,
    "actual": null,
    "curve": 0.2827
@@ -18005,7 +18005,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0415,
-   "p50": 0.3485,
+   "p50": 0.3214,
    "p90": 0.559,
    "actual": null,
    "curve": 0.2541
@@ -18015,7 +18015,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0199,
-   "p50": 0.3367,
+   "p50": 0.3824,
    "p90": 0.5604,
    "actual": null,
    "curve": 0.241
@@ -18025,7 +18025,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0093,
-   "p50": 0.3923,
+   "p50": 0.379,
    "p90": 0.4662,
    "actual": null,
    "curve": 0.0979
@@ -18035,7 +18035,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0057,
-   "p50": 0.2369,
+   "p50": 0.2084,
    "p90": 0.4723,
    "actual": null,
    "curve": 0.0988
@@ -18045,7 +18045,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0082,
-   "p50": 0.18,
+   "p50": 0.1942,
    "p90": 0.3733,
    "actual": null,
    "curve": 0.1136
@@ -18055,7 +18055,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0128,
-   "p50": 0.1784,
+   "p50": 0.248,
    "p90": 0.4551,
    "actual": null,
    "curve": 0.1059
@@ -18065,7 +18065,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.009,
-   "p50": 0.2659,
+   "p50": 0.3523,
    "p90": 0.5312,
    "actual": null,
    "curve": 0.0452
@@ -18075,7 +18075,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.179,
-   "p50": 0.6077,
+   "p50": 0.5928,
    "p90": 0.9533,
    "actual": null,
    "curve": 0.5115
@@ -18085,7 +18085,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.2239,
-   "p50": 0.8099,
+   "p50": 0.8524,
    "p90": 1.0,
    "actual": null,
    "curve": 0.5822
@@ -18095,7 +18095,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.4483,
-   "p50": 0.8375,
+   "p50": 0.9371,
    "p90": 0.9893,
    "actual": null,
    "curve": 0.7618
@@ -18105,7 +18105,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.595,
-   "p50": 0.8141,
+   "p50": 0.8932,
    "p90": 0.9863,
    "actual": null,
    "curve": 0.6037
@@ -18115,7 +18115,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.697,
-   "p50": 0.9307,
+   "p50": 0.952,
    "p90": 0.9853,
    "actual": null,
    "curve": 0.8792
@@ -18125,7 +18125,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.6795,
-   "p50": 0.9553,
+   "p50": 0.9817,
    "p90": 1.0,
    "actual": null,
    "curve": 0.6795
@@ -18135,7 +18135,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.8165,
-   "p50": 0.9539,
+   "p50": 0.9814,
    "p90": 0.9825,
    "actual": null,
    "curve": 0.9283
@@ -18155,7 +18155,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.8398,
-   "p50": 0.9668,
+   "p50": 0.9785,
    "p90": 0.9944,
    "actual": null,
    "curve": 0.9283
@@ -18165,7 +18165,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.7766,
-   "p50": 0.8971,
+   "p50": 0.9841,
    "p90": 0.9859,
    "actual": null,
    "curve": 0.8897
@@ -18175,7 +18175,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.788,
-   "p50": 0.8843,
+   "p50": 0.945,
    "p90": 0.9872,
    "actual": null,
    "curve": 0.8908
@@ -18185,7 +18185,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.645,
-   "p50": 0.8688,
+   "p50": 0.9218,
    "p90": 1.0,
    "actual": null,
    "curve": 0.7554
@@ -18195,7 +18195,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.5548,
-   "p50": 0.8442,
+   "p50": 0.9179,
    "p90": 0.9898,
    "actual": null,
    "curve": 0.7092
@@ -18205,7 +18205,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.4374,
-   "p50": 0.8246,
+   "p50": 0.8237,
    "p90": 0.9899,
    "actual": null,
    "curve": 0.6267
@@ -18215,7 +18215,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.4037,
-   "p50": 0.8551,
+   "p50": 0.8243,
    "p90": 0.9614,
    "actual": null,
    "curve": 0.5061
@@ -18225,7 +18225,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.2464,
-   "p50": 0.7213,
+   "p50": 0.6785,
    "p90": 0.9175,
    "actual": null,
    "curve": 0.3794
@@ -18235,7 +18235,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0934,
-   "p50": 0.4808,
+   "p50": 0.4493,
    "p90": 0.8081,
    "actual": null,
    "curve": 0.1588
@@ -18245,7 +18245,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0411,
-   "p50": 0.3449,
+   "p50": 0.2812,
    "p90": 0.6187,
    "actual": null,
    "curve": 0.0511
@@ -18255,7 +18255,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0283,
-   "p50": 0.1979,
+   "p50": 0.2021,
    "p90": 0.6582,
    "actual": null,
    "curve": 0.1065
@@ -18265,7 +18265,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.1112,
+   "p50": 0.0039,
    "p90": 0.5396,
    "actual": null,
    "curve": 0.0937
@@ -18275,7 +18275,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0012,
-   "p50": 0.0909,
+   "p50": 0.1182,
    "p90": 0.3165,
    "actual": null,
    "curve": 0.0221
@@ -18285,7 +18285,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0382,
+   "p50": 0.0708,
    "p90": 0.2621,
    "actual": null,
    "curve": 0.0327
@@ -18295,7 +18295,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0072,
+   "p50": 0.0477,
    "p90": 0.1082,
    "actual": null,
    "curve": 0.029
@@ -18305,7 +18305,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0249,
+   "p50": 0.0686,
    "p90": 0.1722,
    "actual": null,
    "curve": 0.0307
@@ -18315,7 +18315,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0939,
+   "p50": 0.0626,
    "p90": 0.2098,
    "actual": null,
    "curve": 0.1583
@@ -18325,7 +18325,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.1447,
+   "p50": 0.1605,
    "p90": 0.4656,
    "actual": null,
    "curve": 0.0162
@@ -18335,7 +18335,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1793,
+   "p50": 0.147,
    "p90": 0.3713,
    "actual": null,
    "curve": 0.0518
@@ -18345,7 +18345,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.2323,
+   "p50": 0.204,
    "p90": 0.4712,
    "actual": null,
    "curve": 0.1004
@@ -18355,7 +18355,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.006,
-   "p50": 0.4739,
+   "p50": 0.3773,
    "p90": 0.7297,
    "actual": null,
    "curve": 0.0166
@@ -18365,7 +18365,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.054,
-   "p50": 0.6591,
+   "p50": 0.5789,
    "p90": 0.8234,
    "actual": null,
    "curve": 0.0309
@@ -18375,7 +18375,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.2622,
-   "p50": 0.5274,
+   "p50": 0.6153,
    "p90": 0.8876,
    "actual": null,
    "curve": 0.0466
@@ -18385,7 +18385,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.1249,
-   "p50": 0.5538,
+   "p50": 0.4818,
    "p90": 0.8465,
    "actual": null,
    "curve": 0.1106
@@ -18395,7 +18395,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.1978,
-   "p50": 0.4866,
+   "p50": 0.5716,
    "p90": 0.9052,
    "actual": null,
    "curve": 0.0423
@@ -18405,7 +18405,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0592,
-   "p50": 0.4185,
+   "p50": 0.4073,
    "p90": 0.7073,
    "actual": null,
    "curve": 0.1004
@@ -18415,7 +18415,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.3532,
+   "p50": 0.4261,
    "p90": 0.7594,
    "actual": null,
    "curve": 0.0223
@@ -18425,7 +18425,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0319,
-   "p50": 0.4176,
+   "p50": 0.4027,
    "p90": 0.7735,
    "actual": null,
    "curve": 0.0162
@@ -18435,7 +18435,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.131,
-   "p50": 0.6025,
+   "p50": 0.4962,
    "p90": 0.9561,
    "actual": null,
    "curve": 0.4371
@@ -18445,7 +18445,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.1551,
-   "p50": 0.4901,
+   "p50": 0.4942,
    "p90": 0.8911,
    "actual": null,
    "curve": 0.5677
@@ -18455,7 +18455,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.2684,
-   "p50": 0.5613,
+   "p50": 0.5669,
    "p90": 0.9447,
    "actual": null,
    "curve": 0.8751
@@ -18465,7 +18465,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.4065,
-   "p50": 0.8255,
+   "p50": 0.814,
    "p90": 0.9668,
    "actual": null,
    "curve": 0.9469
@@ -18475,7 +18475,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.5624,
-   "p50": 0.8382,
+   "p50": 0.8446,
    "p90": 0.9645,
    "actual": null,
    "curve": 0.9283
@@ -18485,7 +18485,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.638,
-   "p50": 0.875,
+   "p50": 0.9364,
    "p90": 0.9805,
    "actual": null,
    "curve": 0.9627
@@ -18495,7 +18495,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.6805,
-   "p50": 0.9392,
+   "p50": 0.9423,
    "p90": 0.9777,
    "actual": null,
    "curve": 0.9283
@@ -18505,7 +18505,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.7832,
-   "p50": 0.9611,
+   "p50": 0.9634,
    "p90": 0.9785,
    "actual": null,
    "curve": 0.9667
@@ -18515,7 +18515,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.7423,
-   "p50": 0.9032,
+   "p50": 0.9407,
    "p90": 0.9816,
    "actual": null,
    "curve": 0.8955
@@ -18525,7 +18525,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.7455,
-   "p50": 0.9154,
+   "p50": 0.9467,
    "p90": 0.9825,
    "actual": null,
    "curve": 0.9382
@@ -18535,7 +18535,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.8069,
-   "p50": 0.9172,
+   "p50": 0.9434,
    "p90": 0.9809,
    "actual": null,
    "curve": 0.8877
@@ -18545,7 +18545,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.6589,
-   "p50": 0.9175,
+   "p50": 0.9167,
    "p90": 0.9895,
    "actual": null,
    "curve": 0.9418
@@ -18555,7 +18555,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.7737,
-   "p50": 0.9726,
+   "p50": 0.9681,
    "p90": 0.9824,
    "actual": null,
    "curve": 0.8463
@@ -18565,7 +18565,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.7962,
-   "p50": 0.9533,
+   "p50": 0.9285,
    "p90": 0.9885,
    "actual": null,
    "curve": 0.8859
@@ -18575,7 +18575,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.6806,
-   "p50": 0.9475,
+   "p50": 0.9375,
    "p90": 0.9827,
    "actual": null,
    "curve": 0.7764
@@ -18585,7 +18585,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.7277,
-   "p50": 0.919,
+   "p50": 0.9013,
    "p90": 0.9857,
    "actual": null,
    "curve": 0.834
@@ -18595,7 +18595,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.7106,
-   "p50": 0.9689,
+   "p50": 0.9368,
    "p90": 0.9792,
    "actual": null,
    "curve": 0.8467
@@ -18605,7 +18605,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.3706,
-   "p50": 0.8039,
+   "p50": 0.7307,
    "p90": 0.9742,
    "actual": null,
    "curve": 0.6707
@@ -18615,7 +18615,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.3567,
-   "p50": 0.891,
+   "p50": 0.8966,
    "p90": 0.9981,
    "actual": null,
    "curve": 0.5069
@@ -18625,7 +18625,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.4504,
-   "p50": 0.7725,
+   "p50": 0.7616,
    "p90": 0.9663,
    "actual": null,
    "curve": 0.8114
@@ -18635,7 +18635,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.3075,
-   "p50": 0.7924,
+   "p50": 0.8959,
    "p90": 0.9952,
    "actual": null,
    "curve": 0.4359
@@ -18645,7 +18645,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.3416,
-   "p50": 0.6982,
+   "p50": 0.6909,
    "p90": 0.9665,
    "actual": null,
    "curve": 0.6377
@@ -18655,7 +18655,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.3071,
-   "p50": 0.7179,
+   "p50": 0.8017,
    "p90": 0.9879,
    "actual": null,
    "curve": 0.4837
@@ -18665,7 +18665,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.299,
-   "p50": 0.6752,
+   "p50": 0.6414,
    "p90": 0.9659,
    "actual": null,
    "curve": 0.5465
@@ -18675,7 +18675,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.3111,
-   "p50": 0.7658,
+   "p50": 0.8108,
    "p90": 0.9911,
    "actual": null,
    "curve": 0.5262
@@ -18685,7 +18685,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.2778,
-   "p50": 0.6527,
+   "p50": 0.6771,
    "p90": 0.9838,
    "actual": null,
    "curve": 0.5685
@@ -18695,7 +18695,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.1696,
-   "p50": 0.5646,
+   "p50": 0.7117,
    "p90": 0.9315,
    "actual": null,
    "curve": 0.3926
@@ -18705,7 +18705,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.1049,
-   "p50": 0.4098,
+   "p50": 0.445,
    "p90": 0.8767,
    "actual": null,
    "curve": 0.3277
@@ -18715,7 +18715,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.1695,
-   "p50": 0.6371,
+   "p50": 0.6732,
    "p90": 0.8649,
    "actual": null,
    "curve": 0.3392
@@ -18725,7 +18725,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0482,
-   "p50": 0.3601,
+   "p50": 0.3876,
    "p90": 0.8441,
    "actual": null,
    "curve": 0.3829
@@ -18735,7 +18735,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0514,
-   "p50": 0.3277,
+   "p50": 0.4179,
    "p90": 0.7046,
    "actual": null,
    "curve": 0.1594
@@ -18745,7 +18745,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.1856,
+   "p50": 0.1904,
    "p90": 0.5893,
    "actual": null,
    "curve": 0.4246
@@ -18755,7 +18755,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.2057,
+   "p50": 0.2051,
    "p90": 0.4975,
    "actual": null,
    "curve": 0.0432
@@ -18765,7 +18765,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0436,
+   "p50": 0.0681,
    "p90": 0.329,
    "actual": null,
    "curve": 0.235
@@ -18775,7 +18775,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0809,
+   "p50": 0.0967,
    "p90": 0.3245,
    "actual": null,
    "curve": 0.0263
@@ -18785,7 +18785,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0246,
+   "p50": 0.0695,
    "p90": 0.2223,
    "actual": null,
    "curve": 0.0822
@@ -18795,7 +18795,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0099,
+   "p50": 0.0229,
    "p90": 0.0887,
    "actual": null,
    "curve": 0.0191
@@ -18805,7 +18805,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0,
+   "p50": 0.0199,
    "p90": 0.0892,
    "actual": null,
    "curve": 0.0297
@@ -18815,7 +18815,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0396,
+   "p50": 0.0319,
    "p90": 0.1303,
    "actual": null,
    "curve": 0.0173
@@ -18825,7 +18825,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0007,
+   "p50": 0.0,
    "p90": 0.0589,
    "actual": null,
    "curve": 0.0293
@@ -18835,7 +18835,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0311,
+   "p50": 0.0408,
    "p90": 0.1362,
    "actual": null,
    "curve": 0.0427
@@ -18845,7 +18845,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0411,
+   "p50": 0.0254,
    "p90": 0.1367,
    "actual": null,
    "curve": 0.0224
@@ -18855,7 +18855,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0176,
+   "p50": 0.0137,
    "p90": 0.0911,
    "actual": null,
    "curve": 0.0152
@@ -18865,7 +18865,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0708,
+   "p50": 0.0876,
    "p90": 0.1265,
    "actual": null,
    "curve": 0.0401
@@ -18875,7 +18875,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0422,
+   "p50": 0.0441,
    "p90": 0.1271,
    "actual": null,
    "curve": 0.0415
@@ -18885,7 +18885,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0731,
+   "p50": 0.0724,
    "p90": 0.1967,
    "actual": null,
    "curve": 0.0231
@@ -18895,7 +18895,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0788,
+   "p50": 0.0479,
    "p90": 0.1208,
    "actual": null,
    "curve": 0.0422
@@ -18905,7 +18905,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0788,
+   "p50": 0.076,
    "p90": 0.1487,
    "actual": null,
    "curve": 0.0164
@@ -18915,7 +18915,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0377,
+   "p50": 0.0412,
    "p90": 0.1108,
    "actual": null,
    "curve": 0.0185
@@ -18925,7 +18925,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0815,
+   "p50": 0.0791,
    "p90": 0.1581,
    "actual": null,
    "curve": 0.027
@@ -18935,7 +18935,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0664,
+   "p50": 0.0644,
    "p90": 0.1662,
    "actual": null,
    "curve": 0.0092
@@ -18945,7 +18945,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0672,
+   "p50": 0.0654,
    "p90": 0.1257,
    "actual": null,
    "curve": 0.035
@@ -18955,7 +18955,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0566,
+   "p50": 0.0518,
    "p90": 0.1896,
    "actual": null,
    "curve": 0.0138
@@ -18965,7 +18965,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.078,
+   "p50": 0.0894,
    "p90": 0.1814,
    "actual": null,
    "curve": 0.0482
@@ -18975,7 +18975,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.09,
+   "p50": 0.1201,
    "p90": 0.2103,
    "actual": null,
    "curve": 0.1212
@@ -18985,7 +18985,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0881,
+   "p50": 0.0792,
    "p90": 0.3077,
    "actual": null,
    "curve": 0.2218
@@ -18995,7 +18995,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0033,
-   "p50": 0.1298,
+   "p50": 0.1349,
    "p90": 0.2633,
    "actual": null,
    "curve": 0.0835
@@ -19005,7 +19005,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0012,
-   "p50": 0.1085,
+   "p50": 0.0575,
    "p90": 0.3918,
    "actual": null,
    "curve": 0.2179
@@ -19015,7 +19015,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0046,
-   "p50": 0.1495,
+   "p50": 0.126,
    "p90": 0.3915,
    "actual": null,
    "curve": 0.1032
@@ -19025,7 +19025,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0003,
-   "p50": 0.0942,
+   "p50": 0.09,
    "p90": 0.3776,
    "actual": null,
    "curve": 0.1799
@@ -19035,7 +19035,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0904,
+   "p50": 0.1168,
    "p90": 0.2214,
    "actual": null,
    "curve": 0.057
@@ -19045,7 +19045,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0954,
+   "p50": 0.0963,
    "p90": 0.2635,
    "actual": null,
    "curve": 0.0779
@@ -19055,7 +19055,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1015,
+   "p50": 0.0741,
    "p90": 0.2338,
    "actual": null,
    "curve": 0.1033
@@ -19065,7 +19065,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0897,
+   "p50": 0.1201,
    "p90": 0.2073,
    "actual": null,
    "curve": 0.062
@@ -19075,7 +19075,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0611,
+   "p50": 0.1147,
    "p90": 0.2416,
    "actual": null,
    "curve": 0.0168
@@ -19085,7 +19085,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0498,
+   "p50": 0.0538,
    "p90": 0.2274,
    "actual": null,
    "curve": 0.0295
@@ -19095,7 +19095,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0304,
+   "p50": 0.047,
    "p90": 0.1271,
    "actual": null,
    "curve": 0.0153
@@ -19105,7 +19105,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0555,
+   "p50": 0.0783,
    "p90": 0.1531,
    "actual": null,
    "curve": 0.0295
@@ -19115,7 +19115,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0679,
+   "p50": 0.0564,
    "p90": 0.0957,
    "actual": null,
    "curve": 0.0203
@@ -19125,7 +19125,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0488,
+   "p50": 0.0262,
    "p90": 0.081,
    "actual": null,
    "curve": 0.0361
@@ -19135,7 +19135,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0001,
-   "p50": 0.0477,
+   "p50": 0.0745,
    "p90": 0.1347,
    "actual": null,
    "curve": 0.0317
@@ -19145,7 +19145,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0021,
-   "p50": 0.0699,
+   "p50": 0.0614,
    "p90": 0.0939,
    "actual": null,
    "curve": 0.044
@@ -19155,7 +19155,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.075,
+   "p50": 0.078,
    "p90": 0.1138,
    "actual": null,
    "curve": 0.008
@@ -19165,7 +19165,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0145,
+   "p50": 0.0033,
    "p90": 0.0149,
    "actual": null,
    "curve": 0.0329
@@ -19175,7 +19175,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0,
+   "p50": 0.0049,
    "p90": 0.123,
    "actual": null,
    "curve": 0.0083
@@ -19185,7 +19185,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0248,
+   "p50": 0.0171,
    "p90": 0.0879,
    "actual": null,
    "curve": 0.0246
@@ -19195,7 +19195,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0036,
+   "p50": 0.0,
    "p90": 0.1384,
    "actual": null,
    "curve": 0.0089
@@ -19205,7 +19205,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.042,
+   "p50": 0.0112,
    "p90": 0.0935,
    "actual": null,
    "curve": 0.0141
@@ -19225,7 +19225,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0226,
+   "p50": 0.0163,
    "p90": 0.0696,
    "actual": null,
    "curve": 0.0388
@@ -19245,7 +19245,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0215,
+   "p50": 0.0102,
    "p90": 0.0515,
    "actual": null,
    "curve": 0.0369
@@ -19255,7 +19255,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0182,
+   "p50": 0.0118,
    "p90": 0.1834,
    "actual": null,
    "curve": 0.0086
@@ -19265,7 +19265,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0333,
+   "p50": 0.0208,
    "p90": 0.0611,
    "actual": null,
    "curve": 0.0289
@@ -19275,7 +19275,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0076,
+   "p50": 0.0126,
    "p90": 0.1313,
    "actual": null,
    "curve": 0.0083
@@ -19285,7 +19285,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0188,
+   "p50": 0.0458,
    "p90": 0.0683,
    "actual": null,
    "curve": 0.0313
@@ -19295,7 +19295,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0042,
+   "p50": 0.0311,
    "p90": 0.0849,
    "actual": null,
    "curve": 0.0083
@@ -19305,7 +19305,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0118,
+   "p50": 0.0212,
    "p90": 0.1044,
    "actual": null,
    "curve": 0.0462
@@ -19315,7 +19315,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0,
+   "p50": 0.0029,
    "p90": 0.0925,
    "actual": null,
    "curve": 0.0133
@@ -19325,7 +19325,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0069,
+   "p50": 0.004,
    "p90": 0.0852,
    "actual": null,
    "curve": 0.0301
@@ -19335,7 +19335,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0206,
+   "p50": 0.0479,
    "p90": 0.1302,
    "actual": null,
    "curve": 0.0108
@@ -19345,7 +19345,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0106,
+   "p50": 0.0035,
    "p90": 0.038,
    "actual": null,
    "curve": 0.0371
@@ -19355,7 +19355,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0089,
+   "p50": 0.0119,
    "p90": 0.0288,
    "actual": null,
    "curve": 0.0157
@@ -19375,7 +19375,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0212,
+   "p50": 0.0225,
    "p90": 0.0345,
    "actual": null,
    "curve": 0.0646
@@ -19385,7 +19385,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0114,
+   "p50": 0.0067,
    "p90": 0.0244,
    "actual": null,
    "curve": 0.0296
@@ -19395,8 +19395,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0,
-   "p90": 0.0316,
+   "p50": 0.0316,
+   "p90": 0.0616,
    "actual": null,
    "curve": 0.0522
   },
@@ -19405,8 +19405,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0272,
-   "p90": 0.0315,
+   "p50": 0.0315,
+   "p90": 0.039,
    "actual": null,
    "curve": 0.0296
   },
@@ -19415,8 +19415,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.01,
-   "p90": 0.0447,
+   "p50": 0.0447,
+   "p90": 0.0594,
    "actual": null,
    "curve": 0.0453
   },
@@ -19425,7 +19425,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0412,
+   "p50": 0.0322,
    "p90": 0.0544,
    "actual": null,
    "curve": 0.0166
@@ -19435,7 +19435,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0344,
+   "p50": 0.0773,
    "p90": 0.1278,
    "actual": null,
    "curve": 0.0467
@@ -19446,7 +19446,7 @@ window.DASHBOARD_DATA = {
    "lead_h": 48,
    "p10": 0.0,
    "p50": 0.0418,
-   "p90": 0.0423,
+   "p90": 0.0487,
    "actual": null,
    "curve": 0.0322
   },
@@ -19456,7 +19456,7 @@ window.DASHBOARD_DATA = {
    "lead_h": 24,
    "p10": 0.0,
    "p50": 0.0396,
-   "p90": 0.0583,
+   "p90": 0.0713,
    "actual": null,
    "curve": 0.0194
   },
@@ -19465,8 +19465,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0238,
-   "p90": 0.0393,
+   "p50": 0.0393,
+   "p90": 0.0395,
    "actual": null,
    "curve": 0.1019
   },
@@ -19475,7 +19475,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1047,
+   "p50": 0.0912,
    "p90": 0.2286,
    "actual": null,
    "curve": 0.0435
@@ -19485,7 +19485,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.036,
+   "p50": 0.0151,
    "p90": 0.1345,
    "actual": null,
    "curve": 0.1862
@@ -19495,7 +19495,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0101,
-   "p50": 0.1446,
+   "p50": 0.1773,
    "p90": 0.3322,
    "actual": null,
    "curve": 0.1262
@@ -19505,7 +19505,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0107,
-   "p50": 0.1721,
+   "p50": 0.1464,
    "p90": 0.4455,
    "actual": null,
    "curve": 0.1958
@@ -19515,7 +19515,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0348,
-   "p50": 0.3181,
+   "p50": 0.3231,
    "p90": 0.6178,
    "actual": null,
    "curve": 0.3067
@@ -19525,7 +19525,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0385,
-   "p50": 0.4067,
+   "p50": 0.4104,
    "p90": 0.8911,
    "actual": null,
    "curve": 0.2861
@@ -19535,7 +19535,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0892,
-   "p50": 0.5276,
+   "p50": 0.5264,
    "p90": 0.9256,
    "actual": null,
    "curve": 0.5921
@@ -19545,7 +19545,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.1068,
-   "p50": 0.7483,
+   "p50": 0.5657,
    "p90": 0.9673,
    "actual": null,
    "curve": 0.2992
@@ -19555,7 +19555,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.2818,
-   "p50": 0.71,
+   "p50": 0.7105,
    "p90": 0.9739,
    "actual": null,
    "curve": 0.6625
@@ -19565,7 +19565,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.136,
-   "p50": 0.72,
+   "p50": 0.6559,
    "p90": 1.0,
    "actual": null,
    "curve": 0.3838
@@ -19575,7 +19575,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.3545,
-   "p50": 0.7924,
+   "p50": 0.7617,
    "p90": 0.9981,
    "actual": null,
    "curve": 0.5593
@@ -19585,7 +19585,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.237,
-   "p50": 0.8301,
+   "p50": 0.8075,
    "p90": 0.9917,
    "actual": null,
    "curve": 0.4057
@@ -19595,7 +19595,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.3649,
-   "p50": 0.801,
+   "p50": 0.7909,
    "p90": 1.0,
    "actual": null,
    "curve": 0.5538
@@ -19605,7 +19605,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.379,
-   "p50": 0.8191,
+   "p50": 0.738,
    "p90": 1.0,
    "actual": null,
    "curve": 0.5268
@@ -19615,7 +19615,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.3649,
-   "p50": 0.8369,
+   "p50": 0.8474,
    "p90": 1.0,
    "actual": null,
    "curve": 0.582
@@ -19625,7 +19625,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.3098,
-   "p50": 0.8001,
+   "p50": 0.7459,
    "p90": 0.9946,
    "actual": null,
    "curve": 0.4811
@@ -19635,7 +19635,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.4009,
-   "p50": 0.7892,
+   "p50": 0.8093,
    "p90": 1.0,
    "actual": null,
    "curve": 0.56
@@ -19645,7 +19645,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.2576,
-   "p50": 0.7252,
+   "p50": 0.6387,
    "p90": 0.9553,
    "actual": null,
    "curve": 0.4329
@@ -19655,7 +19655,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.3895,
-   "p50": 0.7268,
+   "p50": 0.6867,
    "p90": 1.0,
    "actual": null,
    "curve": 0.573
@@ -19665,7 +19665,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.2255,
-   "p50": 0.6842,
+   "p50": 0.6477,
    "p90": 0.9296,
    "actual": null,
    "curve": 0.3229
@@ -19675,7 +19675,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.3312,
-   "p50": 0.7225,
+   "p50": 0.6382,
    "p90": 0.9865,
    "actual": null,
    "curve": 0.5168
@@ -19685,7 +19685,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.2324,
-   "p50": 0.7522,
+   "p50": 0.6394,
    "p90": 0.8688,
    "actual": null,
    "curve": 0.1802
@@ -19695,7 +19695,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.1183,
-   "p50": 0.3917,
+   "p50": 0.4459,
    "p90": 0.9066,
    "actual": null,
    "curve": 0.43
@@ -19705,7 +19705,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.2132,
+   "p50": 0.1826,
    "p90": 0.652,
    "actual": null,
    "curve": 0.0978
@@ -19715,7 +19715,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.259,
+   "p50": 0.2294,
    "p90": 0.7424,
    "actual": null,
    "curve": 0.2751
@@ -19725,7 +19725,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0112,
-   "p50": 0.1929,
+   "p50": 0.2536,
    "p90": 0.6488,
    "actual": null,
    "curve": 0.0291
@@ -19735,7 +19735,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0023,
-   "p50": 0.0927,
+   "p50": 0.0437,
    "p90": 0.4774,
    "actual": null,
    "curve": 0.0913
@@ -19745,7 +19745,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0004,
-   "p50": 0.2109,
+   "p50": 0.3459,
    "p90": 0.602,
    "actual": null,
    "curve": 0.0274
@@ -19755,7 +19755,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0469,
+   "p50": 0.0197,
    "p90": 0.5022,
    "actual": null,
    "curve": 0.0928
@@ -19765,7 +19765,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0013,
-   "p50": 0.3282,
+   "p50": 0.2704,
    "p90": 0.4635,
    "actual": null,
    "curve": 0.032
@@ -19775,7 +19775,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0009,
-   "p50": 0.1273,
+   "p50": 0.1087,
    "p90": 0.4329,
    "actual": null,
    "curve": 0.0431
@@ -19785,7 +19785,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.2867,
+   "p50": 0.3145,
    "p90": 0.4641,
    "actual": null,
    "curve": 0.0166
@@ -19795,7 +19795,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1189,
+   "p50": 0.0634,
    "p90": 0.3673,
    "actual": null,
    "curve": 0.0121
@@ -19805,7 +19805,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.2114,
+   "p50": 0.1851,
    "p90": 0.4778,
    "actual": null,
    "curve": 0.0133
@@ -19815,7 +19815,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0348,
+   "p50": 0.0571,
    "p90": 0.4681,
    "actual": null,
    "curve": 0.017
@@ -19825,7 +19825,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0493,
+   "p50": 0.0432,
    "p90": 0.3324,
    "actual": null,
    "curve": 0.0162
@@ -19835,7 +19835,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0262,
+   "p50": 0.0974,
    "p90": 0.2827,
    "actual": null,
    "curve": 0.0104
@@ -19845,7 +19845,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.1261,
+   "p50": 0.1773,
    "p90": 0.4175,
    "actual": null,
    "curve": 0.0237
@@ -19855,7 +19855,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0601,
+   "p50": 0.072,
    "p90": 0.2189,
    "actual": null,
    "curve": 0.0096
@@ -19865,7 +19865,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0249,
+   "p50": 0.0416,
    "p90": 0.1391,
    "actual": null,
    "curve": 0.0499
@@ -19875,7 +19875,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0003,
-   "p50": 0.0457,
+   "p50": 0.0703,
    "p90": 0.1556,
    "actual": null,
    "curve": 0.0507
@@ -19885,7 +19885,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0513,
+   "p50": 0.0621,
    "p90": 0.1632,
    "actual": null,
    "curve": 0.0928
@@ -19895,7 +19895,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0657,
+   "p50": 0.1259,
    "p90": 0.1301,
    "actual": null,
    "curve": 0.0083
@@ -19905,7 +19905,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0416,
+   "p50": 0.0889,
    "p90": 0.0923,
    "actual": null,
    "curve": 0.0542
@@ -19915,7 +19915,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0858,
+   "p50": 0.0749,
    "p90": 0.1436,
    "actual": null,
    "curve": 0.0083
@@ -19925,7 +19925,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0497,
+   "p50": 0.0609,
    "p90": 0.1187,
    "actual": null,
    "curve": 0.0762
@@ -19935,7 +19935,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1732,
+   "p50": 0.1336,
    "p90": 0.3219,
    "actual": null,
    "curve": 0.0065
@@ -19945,7 +19945,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0514,
+   "p50": 0.044,
    "p90": 0.2259,
    "actual": null,
    "curve": 0.2048
@@ -19955,7 +19955,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.2088,
+   "p50": 0.1501,
    "p90": 0.3993,
    "actual": null,
    "curve": 0.0046
@@ -19965,7 +19965,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0469,
+   "p50": 0.0413,
    "p90": 0.2022,
    "actual": null,
    "curve": 0.1989
@@ -19975,7 +19975,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1167,
+   "p50": 0.0818,
    "p90": 0.2414,
    "actual": null,
    "curve": 0.0122
@@ -19985,7 +19985,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0744,
+   "p50": 0.0785,
    "p90": 0.2445,
    "actual": null,
    "curve": 0.2531
@@ -19995,7 +19995,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0544,
+   "p50": 0.0768,
    "p90": 0.1082,
    "actual": null,
    "curve": 0.0314
@@ -20005,7 +20005,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.06,
+   "p50": 0.0635,
    "p90": 0.1836,
    "actual": null,
    "curve": 0.1972
@@ -20015,7 +20015,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1001,
+   "p50": 0.0887,
    "p90": 0.1729,
    "actual": null,
    "curve": 0.044
@@ -20025,7 +20025,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0904,
+   "p50": 0.0905,
    "p90": 0.1262,
    "actual": null,
    "curve": 0.1152
@@ -20035,7 +20035,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.06,
+   "p50": 0.0669,
    "p90": 0.1158,
    "actual": null,
    "curve": 0.046
@@ -20045,7 +20045,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.1154,
+   "p50": 0.1155,
    "p90": 0.1169,
    "actual": null,
    "curve": 0.0967
@@ -20055,7 +20055,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0114,
+   "p50": 0.0014,
    "p90": 0.1386,
    "actual": null,
    "curve": 0.0051
@@ -20066,7 +20066,7 @@ window.DASHBOARD_DATA = {
    "lead_h": 48,
    "p10": 0.0,
    "p50": 0.0592,
-   "p90": 0.0953,
+   "p90": 0.0806,
    "actual": null,
    "curve": 0.032
   },
@@ -20075,7 +20075,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0568,
+   "p50": 0.0621,
    "p90": 0.2336,
    "actual": null,
    "curve": 0.0068
@@ -20086,7 +20086,7 @@ window.DASHBOARD_DATA = {
    "lead_h": 48,
    "p10": 0.0,
    "p50": 0.0616,
-   "p90": 0.0809,
+   "p90": 0.0748,
    "actual": null,
    "curve": 0.0297
   },
@@ -20095,7 +20095,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0585,
+   "p50": 0.0439,
    "p90": 0.1834,
    "actual": null,
    "curve": 0.0083
@@ -20115,7 +20115,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0301,
+   "p50": 0.0278,
    "p90": 0.1709,
    "actual": null,
    "curve": 0.009
@@ -20125,7 +20125,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.025,
+   "p50": 0.0239,
    "p90": 0.1009,
    "actual": null,
    "curve": 0.0293
@@ -20136,7 +20136,7 @@ window.DASHBOARD_DATA = {
    "lead_h": 24,
    "p10": 0.0,
    "p50": 0.0562,
-   "p90": 0.0696,
+   "p90": 0.0586,
    "actual": null,
    "curve": 0.0212
   },
@@ -20145,7 +20145,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0908,
+   "p50": 0.0675,
    "p90": 0.1967,
    "actual": null,
    "curve": 0.0161
@@ -20155,7 +20155,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0493,
+   "p50": 0.0257,
    "p90": 0.1148,
    "actual": null,
    "curve": 0.0847
@@ -20165,7 +20165,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.134,
+   "p50": 0.119,
    "p90": 0.2252,
    "actual": null,
    "curve": 0.0478
@@ -20175,7 +20175,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0627,
+   "p50": 0.0613,
    "p90": 0.211,
    "actual": null,
    "curve": 0.0555
@@ -20185,7 +20185,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0876,
+   "p50": 0.073,
    "p90": 0.3622,
    "actual": null,
    "curve": 0.0953
@@ -20195,7 +20195,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0042,
-   "p50": 0.1368,
+   "p50": 0.085,
    "p90": 0.5755,
    "actual": null,
    "curve": 0.2321
@@ -20205,7 +20205,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.2787,
+   "p50": 0.1719,
    "p90": 0.6827,
    "actual": null,
    "curve": 0.185
@@ -20215,7 +20215,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0322,
-   "p50": 0.2315,
+   "p50": 0.185,
    "p90": 0.7578,
    "actual": null,
    "curve": 0.2446
@@ -20225,7 +20225,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0661,
-   "p50": 0.3638,
+   "p50": 0.3004,
    "p90": 0.7701,
    "actual": null,
    "curve": 0.2891
@@ -20235,7 +20235,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.085,
-   "p50": 0.4326,
+   "p50": 0.388,
    "p90": 0.9118,
    "actual": null,
    "curve": 0.4243
@@ -20245,7 +20245,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.067,
-   "p50": 0.5458,
+   "p50": 0.5346,
    "p90": 0.9571,
    "actual": null,
    "curve": 0.395
@@ -20255,7 +20255,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.3171,
-   "p50": 0.5149,
+   "p50": 0.6064,
    "p90": 0.9851,
    "actual": null,
    "curve": 0.5803
@@ -20265,7 +20265,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.2538,
-   "p50": 0.7232,
+   "p50": 0.7145,
    "p90": 0.9663,
    "actual": null,
    "curve": 0.4611
@@ -20275,7 +20275,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.4624,
-   "p50": 0.6838,
+   "p50": 0.6688,
    "p90": 0.9847,
    "actual": null,
    "curve": 0.609
@@ -20285,7 +20285,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.4464,
-   "p50": 0.704,
+   "p50": 0.6252,
    "p90": 0.9846,
    "actual": null,
    "curve": 0.5838
@@ -20295,7 +20295,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.48,
-   "p50": 0.7573,
+   "p50": 0.7752,
    "p90": 0.9798,
    "actual": null,
    "curve": 0.7092
@@ -20305,7 +20305,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.5304,
-   "p50": 0.757,
+   "p50": 0.7499,
    "p90": 0.9837,
    "actual": null,
    "curve": 0.6784
@@ -20315,7 +20315,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.8207,
-   "p50": 0.8733,
+   "p50": 0.8846,
    "p90": 0.982,
    "actual": null,
    "curve": 0.8467
@@ -20325,7 +20325,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.6897,
-   "p50": 0.8806,
+   "p50": 0.8362,
    "p90": 0.99,
    "actual": null,
    "curve": 0.8252
@@ -20335,8 +20335,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.8269,
-   "p50": 0.9503,
-   "p90": 0.9849,
+   "p50": 0.9849,
+   "p90": 0.9953,
    "actual": null,
    "curve": 0.8467
   },
@@ -20345,7 +20345,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.706,
-   "p50": 0.8893,
+   "p50": 0.9274,
    "p90": 0.9873,
    "actual": null,
    "curve": 0.8408
@@ -20355,8 +20355,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.6811,
-   "p50": 0.9429,
-   "p90": 0.9885,
+   "p50": 0.9885,
+   "p90": 0.9902,
    "actual": null,
    "curve": 0.7241
   },
@@ -20366,7 +20366,7 @@ window.DASHBOARD_DATA = {
    "lead_h": 48,
    "p10": 0.7657,
    "p50": 0.9915,
-   "p90": 1.0,
+   "p90": 0.9932,
    "actual": null,
    "curve": 0.8216
   },
@@ -20375,7 +20375,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.6513,
-   "p50": 0.9532,
+   "p50": 0.9781,
    "p90": 0.9917,
    "actual": null,
    "curve": 0.6993
@@ -20385,7 +20385,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.6232,
-   "p50": 0.9135,
+   "p50": 0.949,
    "p90": 0.9927,
    "actual": null,
    "curve": 0.6748
@@ -20395,7 +20395,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.5372,
-   "p50": 0.9097,
+   "p50": 0.9399,
    "p90": 0.9969,
    "actual": null,
    "curve": 0.6792
@@ -20405,7 +20405,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.4903,
-   "p50": 0.9189,
+   "p50": 0.9389,
    "p90": 0.9886,
    "actual": null,
    "curve": 0.6242
@@ -20415,7 +20415,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.4852,
-   "p50": 0.9205,
+   "p50": 0.9591,
    "p90": 0.9971,
    "actual": null,
    "curve": 0.6768
@@ -20425,7 +20425,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.4697,
-   "p50": 0.9189,
+   "p50": 0.985,
    "p90": 0.9892,
    "actual": null,
    "curve": 0.6582
@@ -20435,7 +20435,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.3995,
-   "p50": 0.8621,
+   "p50": 0.8969,
    "p90": 0.9965,
    "actual": null,
    "curve": 0.6077
@@ -20445,7 +20445,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.4188,
-   "p50": 0.9416,
+   "p50": 0.9854,
    "p90": 1.0,
    "actual": null,
    "curve": 0.6475
@@ -20455,7 +20455,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.4008,
-   "p50": 0.9255,
+   "p50": 0.982,
    "p90": 1.0,
    "actual": null,
    "curve": 0.6182
@@ -20465,7 +20465,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.446,
-   "p50": 0.9607,
+   "p50": 0.9279,
    "p90": 0.9929,
    "actual": null,
    "curve": 0.6604
@@ -20475,8 +20475,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.4274,
-   "p50": 0.9499,
-   "p90": 0.9884,
+   "p50": 0.9884,
+   "p90": 1.0,
    "actual": null,
    "curve": 0.6671
   },
@@ -20485,7 +20485,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.4377,
-   "p50": 0.9431,
+   "p50": 0.9179,
    "p90": 1.0,
    "actual": null,
    "curve": 0.6468
@@ -20495,7 +20495,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.3669,
-   "p50": 0.8312,
+   "p50": 0.7982,
    "p90": 1.0,
    "actual": null,
    "curve": 0.5623
@@ -20505,7 +20505,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.4076,
-   "p50": 0.8616,
+   "p50": 0.8595,
    "p90": 0.9929,
    "actual": null,
    "curve": 0.6336
@@ -20515,7 +20515,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.3001,
-   "p50": 0.8013,
+   "p50": 0.7511,
    "p90": 0.9139,
    "actual": null,
    "curve": 0.3482
@@ -20525,7 +20525,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.372,
-   "p50": 0.8142,
+   "p50": 0.8158,
    "p90": 1.0,
    "actual": null,
    "curve": 0.5747
@@ -20535,7 +20535,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.3217,
-   "p50": 0.6972,
+   "p50": 0.7259,
    "p90": 0.8939,
    "actual": null,
    "curve": 0.2586
@@ -20545,7 +20545,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.2595,
-   "p50": 0.7,
+   "p50": 0.7213,
    "p90": 0.9526,
    "actual": null,
    "curve": 0.4211
@@ -20555,7 +20555,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.222,
-   "p50": 0.5683,
+   "p50": 0.6336,
    "p90": 0.8805,
    "actual": null,
    "curve": 0.2235
@@ -20565,7 +20565,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.2275,
-   "p50": 0.6315,
+   "p50": 0.7003,
    "p90": 0.9374,
    "actual": null,
    "curve": 0.4114
@@ -20575,7 +20575,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.3289,
-   "p50": 0.7168,
+   "p50": 0.7188,
    "p90": 0.9367,
    "actual": null,
    "curve": 0.3007
@@ -20585,7 +20585,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.3482,
-   "p50": 0.7464,
+   "p50": 0.7166,
    "p90": 0.9606,
    "actual": null,
    "curve": 0.4326
@@ -20595,7 +20595,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.3016,
-   "p50": 0.7683,
+   "p50": 0.7099,
    "p90": 0.9381,
    "actual": null,
    "curve": 0.3415
@@ -20605,7 +20605,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.3119,
-   "p50": 0.711,
+   "p50": 0.733,
    "p90": 0.9381,
    "actual": null,
    "curve": 0.3943
@@ -20615,7 +20615,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.34,
-   "p50": 0.7099,
+   "p50": 0.7279,
    "p90": 0.9449,
    "actual": null,
    "curve": 0.3819
@@ -20625,7 +20625,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.2879,
-   "p50": 0.6883,
+   "p50": 0.6219,
    "p90": 0.9363,
    "actual": null,
    "curve": 0.3113
@@ -20635,7 +20635,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.3447,
-   "p50": 0.6971,
+   "p50": 0.679,
    "p90": 0.9492,
    "actual": null,
    "curve": 0.4081
@@ -20645,7 +20645,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.3497,
-   "p50": 0.7701,
+   "p50": 0.7358,
    "p90": 0.9341,
    "actual": null,
    "curve": 0.2905
@@ -20655,7 +20655,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.3025,
-   "p50": 0.621,
+   "p50": 0.5872,
    "p90": 0.9263,
    "actual": null,
    "curve": 0.4195
@@ -20665,7 +20665,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.2963,
-   "p50": 0.632,
+   "p50": 0.6295,
    "p90": 0.8828,
    "actual": null,
    "curve": 0.28
@@ -20675,7 +20675,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.3088,
-   "p50": 0.6339,
+   "p50": 0.6196,
    "p90": 0.9242,
    "actual": null,
    "curve": 0.4386
@@ -20685,7 +20685,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.2849,
-   "p50": 0.6501,
+   "p50": 0.6593,
    "p90": 0.8731,
    "actual": null,
    "curve": 0.2591
@@ -20695,7 +20695,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.3318,
-   "p50": 0.5946,
+   "p50": 0.5448,
    "p90": 0.9374,
    "actual": null,
    "curve": 0.454
@@ -20705,7 +20705,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.2527,
-   "p50": 0.5273,
+   "p50": 0.5149,
    "p90": 0.8819,
    "actual": null,
    "curve": 0.3147
@@ -20715,7 +20715,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.3257,
-   "p50": 0.7202,
+   "p50": 0.7153,
    "p90": 0.9244,
    "actual": null,
    "curve": 0.3926
@@ -20725,7 +20725,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.2465,
-   "p50": 0.5901,
+   "p50": 0.5983,
    "p90": 0.9329,
    "actual": null,
    "curve": 0.4311
@@ -20735,7 +20735,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.2958,
-   "p50": 0.677,
+   "p50": 0.6164,
    "p90": 0.9791,
    "actual": null,
    "curve": 0.4913
@@ -20745,7 +20745,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.3031,
-   "p50": 0.5631,
+   "p50": 0.6036,
    "p90": 0.9745,
    "actual": null,
    "curve": 0.4947
@@ -20755,7 +20755,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.266,
-   "p50": 0.711,
+   "p50": 0.6924,
    "p90": 0.9003,
    "actual": null,
    "curve": 0.2724
@@ -20765,7 +20765,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.3416,
-   "p50": 0.7122,
+   "p50": 0.6299,
    "p90": 0.9094,
    "actual": null,
    "curve": 0.2706
@@ -20775,7 +20775,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.3973,
-   "p50": 0.6567,
+   "p50": 0.7545,
    "p90": 0.9662,
    "actual": null,
    "curve": 0.4837
@@ -20785,7 +20785,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.2183,
-   "p50": 0.7488,
+   "p50": 0.6714,
    "p90": 0.9381,
    "actual": null,
    "curve": 0.305
@@ -20795,7 +20795,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.3819,
-   "p50": 0.7841,
+   "p50": 0.7468,
    "p90": 0.9882,
    "actual": null,
    "curve": 0.576
@@ -20805,7 +20805,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.2978,
-   "p50": 0.7486,
+   "p50": 0.6801,
    "p90": 0.9956,
    "actual": null,
    "curve": 0.2526
@@ -20815,7 +20815,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.37,
-   "p50": 0.7482,
+   "p50": 0.7926,
    "p90": 0.9837,
    "actual": null,
    "curve": 0.5124
@@ -20825,7 +20825,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.217,
-   "p50": 0.7171,
+   "p50": 0.7278,
    "p90": 0.9127,
    "actual": null,
    "curve": 0.1492
@@ -20835,7 +20835,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.3432,
-   "p50": 0.7119,
+   "p50": 0.7272,
    "p90": 0.922,
    "actual": null,
    "curve": 0.4039
@@ -20845,7 +20845,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.2463,
-   "p50": 0.716,
+   "p50": 0.7836,
    "p90": 0.9503,
    "actual": null,
    "curve": 0.2105
@@ -20855,7 +20855,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.2467,
-   "p50": 0.7915,
+   "p50": 0.7593,
    "p90": 0.9052,
    "actual": null,
    "curve": 0.2424
@@ -20865,7 +20865,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.2336,
-   "p50": 0.7137,
+   "p50": 0.7726,
    "p90": 0.8981,
    "actual": null,
    "curve": 0.2004
@@ -20875,7 +20875,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.2237,
-   "p50": 0.7956,
+   "p50": 0.7577,
    "p90": 0.8791,
    "actual": null,
    "curve": 0.2173
@@ -20885,7 +20885,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.2256,
-   "p50": 0.6565,
+   "p50": 0.6922,
    "p90": 0.8871,
    "actual": null,
    "curve": 0.3018
@@ -20895,7 +20895,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.284,
-   "p50": 0.8164,
+   "p50": 0.8849,
    "p90": 0.9392,
    "actual": null,
    "curve": 0.1962
@@ -20905,7 +20905,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.3446,
-   "p50": 0.7047,
+   "p50": 0.8003,
    "p90": 0.9594,
    "actual": null,
    "curve": 0.4461
@@ -20915,7 +20915,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.2914,
-   "p50": 0.8988,
+   "p50": 0.9007,
    "p90": 0.9232,
    "actual": null,
    "curve": 0.2823
@@ -20925,7 +20925,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.2826,
-   "p50": 0.77,
+   "p50": 0.7878,
    "p90": 0.9364,
    "actual": null,
    "curve": 0.2517
@@ -20935,7 +20935,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.315,
-   "p50": 0.8358,
+   "p50": 0.7667,
    "p90": 0.9417,
    "actual": null,
    "curve": 0.2507
@@ -20945,7 +20945,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.3046,
-   "p50": 0.7345,
+   "p50": 0.6537,
    "p90": 0.9405,
    "actual": null,
    "curve": 0.327
@@ -20955,7 +20955,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.3006,
-   "p50": 0.8129,
+   "p50": 0.7593,
    "p90": 0.9407,
    "actual": null,
    "curve": 0.2488
@@ -20965,7 +20965,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.3383,
-   "p50": 0.7001,
+   "p50": 0.6982,
    "p90": 0.9753,
    "actual": null,
    "curve": 0.4647
@@ -20975,7 +20975,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.3069,
-   "p50": 0.7986,
+   "p50": 0.7853,
    "p90": 0.9298,
    "actual": null,
    "curve": 0.2627
@@ -20985,7 +20985,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.3565,
-   "p50": 0.713,
+   "p50": 0.705,
    "p90": 0.9914,
    "actual": null,
    "curve": 0.5413
@@ -20995,7 +20995,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.309,
-   "p50": 0.8507,
+   "p50": 0.8195,
    "p90": 0.9358,
    "actual": null,
    "curve": 0.2336
@@ -21005,7 +21005,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.3274,
-   "p50": 0.6854,
+   "p50": 0.7139,
    "p90": 0.9666,
    "actual": null,
    "curve": 0.4707
@@ -21015,7 +21015,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.2603,
-   "p50": 0.8587,
+   "p50": 0.8093,
    "p90": 0.9042,
    "actual": null,
    "curve": 0.1984
@@ -21025,7 +21025,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.2633,
-   "p50": 0.7114,
+   "p50": 0.6249,
    "p90": 0.9253,
    "actual": null,
    "curve": 0.3363
@@ -21035,7 +21035,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.2386,
-   "p50": 0.828,
+   "p50": 0.7341,
    "p90": 0.9239,
    "actual": null,
    "curve": 0.1794
@@ -21045,7 +21045,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.2114,
-   "p50": 0.6548,
+   "p50": 0.5875,
    "p90": 0.903,
    "actual": null,
    "curve": 0.2997
@@ -21055,7 +21055,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.2577,
-   "p50": 0.7517,
+   "p50": 0.6859,
    "p90": 0.9198,
    "actual": null,
    "curve": 0.2626
@@ -21065,7 +21065,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.2084,
-   "p50": 0.6371,
+   "p50": 0.57,
    "p90": 0.905,
    "actual": null,
    "curve": 0.312
@@ -21075,7 +21075,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.2254,
-   "p50": 0.5809,
+   "p50": 0.6495,
    "p90": 0.9144,
    "actual": null,
    "curve": 0.3271
@@ -21085,7 +21085,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.1153,
-   "p50": 0.5123,
+   "p50": 0.5722,
    "p90": 0.8905,
    "actual": null,
    "curve": 0.3152
@@ -21095,7 +21095,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.2581,
-   "p50": 0.5725,
+   "p50": 0.6384,
    "p90": 0.9274,
    "actual": null,
    "curve": 0.4123
@@ -21105,7 +21105,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.061,
-   "p50": 0.528,
+   "p50": 0.5287,
    "p90": 0.8783,
    "actual": null,
    "curve": 0.2862
@@ -21115,7 +21115,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.1751,
-   "p50": 0.5372,
+   "p50": 0.5884,
    "p90": 0.9153,
    "actual": null,
    "curve": 0.3161
@@ -21125,7 +21125,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0779,
-   "p50": 0.4961,
+   "p50": 0.4805,
    "p90": 0.9657,
    "actual": null,
    "curve": 0.3007
@@ -21135,7 +21135,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.022,
-   "p50": 0.3377,
+   "p50": 0.3571,
    "p90": 0.6118,
    "actual": null,
    "curve": 0.0288
@@ -21145,7 +21145,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0202,
-   "p50": 0.4072,
+   "p50": 0.2189,
    "p90": 0.6891,
    "actual": null,
    "curve": 0.2182
@@ -21155,7 +21155,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0163,
-   "p50": 0.2073,
+   "p50": 0.2286,
    "p90": 0.4034,
    "actual": null,
    "curve": 0.0183
@@ -21165,7 +21165,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.2157,
+   "p50": 0.1491,
    "p90": 0.5543,
    "actual": null,
    "curve": 0.2316
@@ -21175,7 +21175,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1081,
+   "p50": 0.0971,
    "p90": 0.3359,
    "actual": null,
    "curve": 0.0492
@@ -21185,7 +21185,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.1937,
+   "p50": 0.1842,
    "p90": 0.4599,
    "actual": null,
    "curve": 0.1081
@@ -21195,7 +21195,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1105,
+   "p50": 0.0811,
    "p90": 0.3997,
    "actual": null,
    "curve": 0.1256
@@ -21205,7 +21205,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0033,
-   "p50": 0.1674,
+   "p50": 0.1881,
    "p90": 0.4025,
    "actual": null,
    "curve": 0.0635
@@ -21215,7 +21215,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1505,
+   "p50": 0.0781,
    "p90": 0.5868,
    "actual": null,
    "curve": 0.2432
@@ -21225,7 +21225,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0029,
-   "p50": 0.1527,
+   "p50": 0.1548,
    "p90": 0.4941,
    "actual": null,
    "curve": 0.088
@@ -21235,7 +21235,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0025,
-   "p50": 0.2216,
+   "p50": 0.0655,
    "p90": 0.6945,
    "actual": null,
    "curve": 0.3181
@@ -21245,7 +21245,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.211,
+   "p50": 0.1679,
    "p90": 0.5999,
    "actual": null,
    "curve": 0.1669
@@ -21255,7 +21255,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0028,
-   "p50": 0.2917,
+   "p50": 0.1918,
    "p90": 0.64,
    "actual": null,
    "curve": 0.1267
@@ -21265,7 +21265,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0178,
-   "p50": 0.2197,
+   "p50": 0.1954,
    "p90": 0.5283,
    "actual": null,
    "curve": 0.0911
@@ -21275,7 +21275,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0208,
-   "p50": 0.3167,
+   "p50": 0.2358,
    "p90": 0.6296,
    "actual": null,
    "curve": 0.1922
@@ -21285,7 +21285,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0093,
-   "p50": 0.2336,
+   "p50": 0.2206,
    "p90": 0.5456,
    "actual": null,
    "curve": 0.134
@@ -21295,7 +21295,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0198,
-   "p50": 0.2979,
+   "p50": 0.3193,
    "p90": 0.5749,
    "actual": null,
    "curve": 0.1649
@@ -21305,7 +21305,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0237,
-   "p50": 0.2594,
+   "p50": 0.2667,
    "p90": 0.5342,
    "actual": null,
    "curve": 0.094
@@ -21315,7 +21315,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.018,
-   "p50": 0.3361,
+   "p50": 0.3431,
    "p90": 0.6386,
    "actual": null,
    "curve": 0.1952
@@ -21325,7 +21325,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0487,
-   "p50": 0.3573,
+   "p50": 0.336,
    "p90": 0.6089,
    "actual": null,
    "curve": 0.1668
@@ -21335,7 +21335,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0624,
-   "p50": 0.4933,
+   "p50": 0.5159,
    "p90": 0.7981,
    "actual": null,
    "curve": 0.2046
@@ -21345,7 +21345,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0636,
-   "p50": 0.5142,
+   "p50": 0.4416,
    "p90": 0.823,
    "actual": null,
    "curve": 0.226
@@ -21355,7 +21355,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0755,
-   "p50": 0.5362,
+   "p50": 0.5606,
    "p90": 0.8296,
    "actual": null,
    "curve": 0.1677
@@ -21365,7 +21365,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.1771,
-   "p50": 0.6307,
+   "p50": 0.6136,
    "p90": 0.8656,
    "actual": null,
    "curve": 0.2482
@@ -21375,7 +21375,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.2369,
-   "p50": 0.725,
+   "p50": 0.7523,
    "p90": 0.9984,
    "actual": null,
    "curve": 0.4178
@@ -21385,7 +21385,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.2602,
-   "p50": 0.8084,
+   "p50": 0.8359,
    "p90": 0.9634,
    "actual": null,
    "curve": 0.454
@@ -21395,7 +21395,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.3238,
-   "p50": 0.7193,
+   "p50": 0.7821,
    "p90": 0.961,
    "actual": null,
    "curve": 0.447
@@ -21405,7 +21405,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.3364,
-   "p50": 0.7471,
+   "p50": 0.8309,
    "p90": 1.0,
    "actual": null,
    "curve": 0.5186
@@ -21415,7 +21415,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.3644,
-   "p50": 0.8294,
+   "p50": 0.8631,
    "p90": 1.0,
    "actual": null,
    "curve": 0.5702
@@ -21425,7 +21425,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.3926,
-   "p50": 0.8648,
+   "p50": 0.8583,
    "p90": 1.0,
    "actual": null,
    "curve": 0.5213
@@ -21435,7 +21435,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.447,
-   "p50": 0.7681,
+   "p50": 0.8499,
    "p90": 1.0,
    "actual": null,
    "curve": 0.6686
@@ -21445,7 +21445,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.3578,
-   "p50": 0.8237,
+   "p50": 0.7638,
    "p90": 1.0,
    "actual": null,
    "curve": 0.4699
@@ -21455,7 +21455,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.4256,
-   "p50": 0.8137,
+   "p50": 0.8725,
    "p90": 0.9949,
    "actual": null,
    "curve": 0.6585
@@ -21465,7 +21465,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.3227,
-   "p50": 0.7587,
+   "p50": 0.8062,
    "p90": 0.9879,
    "actual": null,
    "curve": 0.4997
@@ -21475,7 +21475,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.3465,
-   "p50": 0.7506,
+   "p50": 0.8682,
    "p90": 1.0,
    "actual": null,
    "curve": 0.549
@@ -21485,7 +21485,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.3636,
-   "p50": 0.7839,
+   "p50": 0.8387,
    "p90": 0.9985,
    "actual": null,
    "curve": 0.5335
@@ -21495,7 +21495,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.3699,
-   "p50": 0.7923,
+   "p50": 0.7759,
    "p90": 0.9935,
    "actual": null,
    "curve": 0.5191
@@ -21505,7 +21505,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.3972,
-   "p50": 0.8932,
+   "p50": 0.8873,
    "p90": 1.0,
    "actual": null,
    "curve": 0.5892
@@ -21515,7 +21515,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.3513,
-   "p50": 0.8626,
+   "p50": 0.8418,
    "p90": 1.0,
    "actual": null,
    "curve": 0.5396
@@ -21525,7 +21525,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.4262,
-   "p50": 0.9104,
+   "p50": 0.9138,
    "p90": 0.9947,
    "actual": null,
    "curve": 0.6733
@@ -21535,7 +21535,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.4005,
-   "p50": 0.8559,
+   "p50": 0.8238,
    "p90": 0.9998,
    "actual": null,
    "curve": 0.6105
@@ -21545,7 +21545,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.5523,
-   "p50": 0.8266,
+   "p50": 0.841,
    "p90": 0.9818,
    "actual": null,
    "curve": 0.8122
@@ -21555,7 +21555,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.2955,
-   "p50": 0.8444,
+   "p50": 0.7207,
    "p90": 0.9549,
    "actual": null,
    "curve": 0.4313
@@ -21565,7 +21565,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.3918,
-   "p50": 0.8867,
+   "p50": 0.8958,
    "p90": 0.9998,
    "actual": null,
    "curve": 0.6233
@@ -21575,7 +21575,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.28,
-   "p50": 0.8238,
+   "p50": 0.7878,
    "p90": 0.948,
    "actual": null,
    "curve": 0.4253
@@ -21585,7 +21585,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.3319,
-   "p50": 0.8544,
+   "p50": 0.875,
    "p90": 0.9951,
    "actual": null,
    "curve": 0.5357
@@ -21595,7 +21595,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.3973,
-   "p50": 0.9488,
+   "p50": 0.9049,
    "p90": 0.9999,
    "actual": null,
    "curve": 0.4902
@@ -21605,7 +21605,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.3388,
-   "p50": 0.8843,
+   "p50": 0.8912,
    "p90": 0.99,
    "actual": null,
    "curve": 0.517
@@ -21615,7 +21615,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.3353,
-   "p50": 0.8565,
+   "p50": 0.7663,
    "p90": 0.9792,
    "actual": null,
    "curve": 0.5047
@@ -21625,7 +21625,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.4308,
-   "p50": 0.8933,
+   "p50": 0.8175,
    "p90": 0.9883,
    "actual": null,
    "curve": 0.5778
@@ -21635,7 +21635,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.274,
-   "p50": 0.857,
+   "p50": 0.7694,
    "p90": 0.9266,
    "actual": null,
    "curve": 0.4013
@@ -21645,7 +21645,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.4865,
-   "p50": 0.9191,
+   "p50": 0.8578,
    "p90": 0.9884,
    "actual": null,
    "curve": 0.609
@@ -21655,7 +21655,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.44,
-   "p50": 0.8022,
+   "p50": 0.8016,
    "p90": 0.9706,
    "actual": null,
    "curve": 0.5517
@@ -21665,7 +21665,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.4896,
-   "p50": 0.8269,
+   "p50": 0.7904,
    "p90": 0.9769,
    "actual": null,
    "curve": 0.6035
@@ -21675,7 +21675,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.5398,
-   "p50": 0.749,
+   "p50": 0.7888,
    "p90": 0.9716,
    "actual": null,
    "curve": 0.6663
@@ -21685,7 +21685,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.5414,
-   "p50": 0.7965,
+   "p50": 0.8457,
    "p90": 0.986,
    "actual": null,
    "curve": 0.6347
@@ -21695,7 +21695,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.5631,
-   "p50": 0.813,
+   "p50": 0.8618,
    "p90": 0.9819,
    "actual": null,
    "curve": 0.6693
@@ -21705,7 +21705,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.4796,
-   "p50": 0.7789,
+   "p50": 0.8143,
    "p90": 0.9681,
    "actual": null,
    "curve": 0.5211
@@ -21715,7 +21715,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.6825,
-   "p50": 0.8773,
+   "p50": 0.8983,
    "p90": 0.9822,
    "actual": null,
    "curve": 0.7092
@@ -21725,7 +21725,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.567,
-   "p50": 0.8245,
+   "p50": 0.8553,
    "p90": 0.9818,
    "actual": null,
    "curve": 0.5679
@@ -21734,9 +21734,9 @@ window.DASHBOARD_DATA = {
    "time": "2026-02-18T06:00",
    "turbine": "T2",
    "lead_h": 24,
-   "p10": 0.872,
-   "p50": 0.8788,
-   "p90": 0.9737,
+   "p10": 0.8788,
+   "p50": 0.9737,
+   "p90": 0.9819,
    "actual": null,
    "curve": 0.9283
   },
@@ -21745,7 +21745,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.6761,
-   "p50": 0.8777,
+   "p50": 0.8858,
    "p90": 0.9891,
    "actual": null,
    "curve": 0.6758
@@ -21755,7 +21755,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.8521,
-   "p50": 0.9484,
+   "p50": 0.9769,
    "p90": 0.98,
    "actual": null,
    "curve": 0.8641
@@ -21765,7 +21765,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.7824,
-   "p50": 0.9623,
+   "p50": 0.9592,
    "p90": 0.9817,
    "actual": null,
    "curve": 0.7679
@@ -21775,7 +21775,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.8476,
-   "p50": 0.9352,
+   "p50": 0.9638,
    "p90": 0.9817,
    "actual": null,
    "curve": 0.8606
@@ -21785,8 +21785,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.8551,
-   "p50": 0.9615,
-   "p90": 0.9817,
+   "p50": 0.9817,
+   "p90": 1.0,
    "actual": null,
    "curve": 0.872
   },
@@ -21795,7 +21795,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.8581,
-   "p50": 0.9746,
+   "p50": 0.9696,
    "p90": 0.9766,
    "actual": null,
    "curve": 0.8491
@@ -21815,8 +21815,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.8049,
-   "p50": 0.9794,
-   "p90": 0.9849,
+   "p50": 0.9849,
+   "p90": 0.9917,
    "actual": null,
    "curve": 0.8031
   },
@@ -21826,7 +21826,7 @@ window.DASHBOARD_DATA = {
    "lead_h": 48,
    "p10": 0.839,
    "p50": 0.9802,
-   "p90": 0.9831,
+   "p90": 1.0,
    "actual": null,
    "curve": 0.8581
   },
@@ -21835,8 +21835,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.6895,
-   "p50": 0.8684,
-   "p90": 0.9903,
+   "p50": 0.9903,
+   "p90": 1.0,
    "actual": null,
    "curve": 0.862
   },
@@ -21845,8 +21845,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.7046,
-   "p50": 0.982,
-   "p90": 0.9848,
+   "p50": 0.9848,
+   "p90": 0.9859,
    "actual": null,
    "curve": 0.8246
   },
@@ -21855,7 +21855,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.5417,
-   "p50": 0.9545,
+   "p50": 0.9611,
    "p90": 0.9909,
    "actual": null,
    "curve": 0.7092
@@ -21865,7 +21865,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.4238,
-   "p50": 0.8918,
+   "p50": 0.9115,
    "p90": 1.0,
    "actual": null,
    "curve": 0.6138
@@ -21875,7 +21875,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.4124,
-   "p50": 0.7828,
+   "p50": 0.8299,
    "p90": 0.9872,
    "actual": null,
    "curve": 0.4894
@@ -21885,7 +21885,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.3832,
-   "p50": 0.8516,
+   "p50": 0.8918,
    "p90": 0.9953,
    "actual": null,
    "curve": 0.5026
@@ -21895,7 +21895,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.3731,
-   "p50": 0.8025,
+   "p50": 0.8423,
    "p90": 1.0,
    "actual": null,
    "curve": 0.5624
@@ -21905,7 +21905,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.3731,
-   "p50": 0.8231,
+   "p50": 0.832,
    "p90": 0.9664,
    "actual": null,
    "curve": 0.4454
@@ -21915,7 +21915,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.3711,
-   "p50": 0.8763,
+   "p50": 0.8838,
    "p90": 0.9719,
    "actual": null,
    "curve": 0.3991
@@ -21925,7 +21925,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.3601,
-   "p50": 0.7587,
+   "p50": 0.812,
    "p90": 1.0,
    "actual": null,
    "curve": 0.5688
@@ -21935,7 +21935,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.3449,
-   "p50": 0.6761,
+   "p50": 0.6935,
    "p90": 0.9821,
    "actual": null,
    "curve": 0.4789
@@ -21945,7 +21945,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.3833,
-   "p50": 0.7425,
+   "p50": 0.769,
    "p90": 0.995,
    "actual": null,
    "curve": 0.5968
@@ -21955,7 +21955,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.3636,
-   "p50": 0.8801,
+   "p50": 0.8188,
    "p90": 0.9832,
    "actual": null,
    "curve": 0.3158
@@ -21965,7 +21965,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.3694,
-   "p50": 0.6771,
+   "p50": 0.7349,
    "p90": 0.9871,
    "actual": null,
    "curve": 0.5041
@@ -21975,7 +21975,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.3243,
-   "p50": 0.8241,
+   "p50": 0.7804,
    "p90": 0.931,
    "actual": null,
    "curve": 0.2918
@@ -21985,7 +21985,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.3302,
-   "p50": 0.7426,
+   "p50": 0.7008,
    "p90": 0.913,
    "actual": null,
    "curve": 0.296
@@ -21995,7 +21995,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.279,
-   "p50": 0.6588,
+   "p50": 0.6737,
    "p90": 0.9158,
    "actual": null,
    "curve": 0.3381
@@ -22005,7 +22005,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.2879,
-   "p50": 0.6495,
+   "p50": 0.6909,
    "p90": 0.9262,
    "actual": null,
    "curve": 0.3871
@@ -22015,7 +22015,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.2711,
-   "p50": 0.6698,
+   "p50": 0.6461,
    "p90": 0.8333,
    "actual": null,
    "curve": 0.1976
@@ -22025,7 +22025,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.2839,
-   "p50": 0.7215,
+   "p50": 0.7097,
    "p90": 0.847,
    "actual": null,
    "curve": 0.2148
@@ -22035,7 +22035,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.2685,
-   "p50": 0.7335,
+   "p50": 0.7099,
    "p90": 0.8461,
    "actual": null,
    "curve": 0.2006
@@ -22045,7 +22045,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.3052,
-   "p50": 0.676,
+   "p50": 0.7041,
    "p90": 0.8712,
    "actual": null,
    "curve": 0.26
@@ -22055,7 +22055,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.293,
-   "p50": 0.8135,
+   "p50": 0.7525,
    "p90": 0.8757,
    "actual": null,
    "curve": 0.1764
@@ -22065,7 +22065,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.2916,
-   "p50": 0.6472,
+   "p50": 0.7228,
    "p90": 0.8747,
    "actual": null,
    "curve": 0.2702
@@ -22075,7 +22075,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.2524,
-   "p50": 0.6975,
+   "p50": 0.6306,
    "p90": 0.8608,
    "actual": null,
    "curve": 0.2064
@@ -22085,7 +22085,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.1417,
-   "p50": 0.4573,
+   "p50": 0.4668,
    "p90": 0.8407,
    "actual": null,
    "curve": 0.1707
@@ -22095,7 +22095,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.1179,
-   "p50": 0.3841,
+   "p50": 0.4309,
    "p90": 0.8134,
    "actual": null,
    "curve": 0.1202
@@ -22105,7 +22105,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0516,
-   "p50": 0.2728,
+   "p50": 0.3031,
    "p90": 0.8534,
    "actual": null,
    "curve": 0.2284
@@ -22115,7 +22115,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.1143,
-   "p50": 0.3659,
+   "p50": 0.3636,
    "p90": 0.7798,
    "actual": null,
    "curve": 0.1279
@@ -22125,7 +22125,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0356,
-   "p50": 0.3883,
+   "p50": 0.3713,
    "p90": 0.8837,
    "actual": null,
    "curve": 0.289
@@ -22135,7 +22135,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.1275,
-   "p50": 0.4062,
+   "p50": 0.3819,
    "p90": 0.8004,
    "actual": null,
    "curve": 0.131
@@ -22145,7 +22145,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0436,
-   "p50": 0.4315,
+   "p50": 0.3451,
    "p90": 0.8801,
    "actual": null,
    "curve": 0.2541
@@ -22155,7 +22155,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.1046,
-   "p50": 0.5396,
+   "p50": 0.6453,
    "p90": 0.8228,
    "actual": null,
    "curve": 0.1283
@@ -22165,7 +22165,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0349,
-   "p50": 0.3635,
+   "p50": 0.3112,
    "p90": 0.8683,
    "actual": null,
    "curve": 0.2833
@@ -22175,7 +22175,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.1151,
-   "p50": 0.4596,
+   "p50": 0.4965,
    "p90": 0.8283,
    "actual": null,
    "curve": 0.1542
@@ -22185,7 +22185,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0677,
-   "p50": 0.3844,
+   "p50": 0.3505,
    "p90": 0.9104,
    "actual": null,
    "curve": 0.4399
@@ -22195,7 +22195,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0921,
-   "p50": 0.4854,
+   "p50": 0.4826,
    "p90": 0.8652,
    "actual": null,
    "curve": 0.2339
@@ -22205,7 +22205,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0617,
-   "p50": 0.4387,
+   "p50": 0.3985,
    "p90": 0.8537,
    "actual": null,
    "curve": 0.214
@@ -22215,7 +22215,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0981,
-   "p50": 0.4224,
+   "p50": 0.4464,
    "p90": 0.7853,
    "actual": null,
    "curve": 0.1353
@@ -22225,7 +22225,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0991,
-   "p50": 0.505,
+   "p50": 0.473,
    "p90": 0.8773,
    "actual": null,
    "curve": 0.2738
@@ -22235,7 +22235,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0538,
-   "p50": 0.402,
+   "p50": 0.3017,
    "p90": 0.7452,
    "actual": null,
    "curve": 0.1573
@@ -22245,7 +22245,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0608,
-   "p50": 0.4364,
+   "p50": 0.3271,
    "p90": 0.76,
    "actual": null,
    "curve": 0.1589
@@ -22255,7 +22255,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0409,
-   "p50": 0.3,
+   "p50": 0.2783,
    "p90": 0.6449,
    "actual": null,
    "curve": 0.1448
@@ -22265,7 +22265,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0404,
-   "p50": 0.2862,
+   "p50": 0.2426,
    "p90": 0.5874,
    "actual": null,
    "curve": 0.1167
@@ -22275,7 +22275,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.046,
-   "p50": 0.3063,
+   "p50": 0.3112,
    "p90": 0.5201,
    "actual": null,
    "curve": 0.1329
@@ -22285,7 +22285,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0165,
-   "p50": 0.291,
+   "p50": 0.3043,
    "p90": 0.5054,
    "actual": null,
    "curve": 0.1219
@@ -22295,7 +22295,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0245,
-   "p50": 0.2727,
+   "p50": 0.3134,
    "p90": 0.4663,
    "actual": null,
    "curve": 0.1045
@@ -22305,7 +22305,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0169,
-   "p50": 0.2629,
+   "p50": 0.2714,
    "p90": 0.3736,
    "actual": null,
    "curve": 0.091
@@ -22315,7 +22315,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0073,
-   "p50": 0.2482,
+   "p50": 0.2846,
    "p90": 0.3388,
    "actual": null,
    "curve": 0.0328
@@ -22325,7 +22325,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0005,
-   "p50": 0.191,
+   "p50": 0.2175,
    "p90": 0.3451,
    "actual": null,
    "curve": 0.1003
@@ -22335,7 +22335,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0012,
-   "p50": 0.2799,
+   "p50": 0.3003,
    "p90": 0.3657,
    "actual": null,
    "curve": 0.0584
@@ -22345,7 +22345,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0044,
-   "p50": 0.1984,
+   "p50": 0.2297,
    "p90": 0.3425,
    "actual": null,
    "curve": 0.0993
@@ -22355,7 +22355,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.2109,
+   "p50": 0.1736,
    "p90": 0.2593,
    "actual": null,
    "curve": 0.0083
@@ -22365,7 +22365,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0005,
-   "p50": 0.1959,
+   "p50": 0.1752,
    "p90": 0.3139,
    "actual": null,
    "curve": 0.0477
@@ -22375,7 +22375,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1181,
+   "p50": 0.1086,
    "p90": 0.243,
    "actual": null,
    "curve": 0.0152
@@ -22385,7 +22385,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.2102,
+   "p50": 0.1554,
    "p90": 0.3393,
    "actual": null,
    "curve": 0.0275
@@ -22395,7 +22395,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1237,
+   "p50": 0.1295,
    "p90": 0.1984,
    "actual": null,
    "curve": 0.1402
@@ -22405,7 +22405,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.2449,
+   "p50": 0.2222,
    "p90": 0.3546,
    "actual": null,
    "curve": 0.0133
@@ -22415,8 +22415,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1353,
-   "p90": 0.186,
+   "p50": 0.186,
+   "p90": 0.2139,
    "actual": null,
    "curve": 0.2148
   },
@@ -22425,7 +22425,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.1575,
+   "p50": 0.225,
    "p90": 0.2266,
    "actual": null,
    "curve": 0.0442
@@ -22435,7 +22435,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0222,
-   "p50": 0.3698,
+   "p50": 0.3424,
    "p90": 0.5279,
    "actual": null,
    "curve": 0.4696
@@ -22445,7 +22445,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0026,
-   "p50": 0.1912,
+   "p50": 0.2735,
    "p90": 0.3594,
    "actual": null,
    "curve": 0.1975
@@ -22455,7 +22455,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0203,
-   "p50": 0.4039,
+   "p50": 0.395,
    "p90": 0.5265,
    "actual": null,
    "curve": 0.3278
@@ -22465,7 +22465,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0273,
-   "p50": 0.4054,
+   "p50": 0.4569,
    "p90": 0.6548,
    "actual": null,
    "curve": 0.3851
@@ -22475,7 +22475,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0327,
-   "p50": 0.3885,
+   "p50": 0.3577,
    "p90": 0.8144,
    "actual": null,
    "curve": 0.4841
@@ -22485,7 +22485,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0399,
-   "p50": 0.5808,
+   "p50": 0.5669,
    "p90": 0.7891,
    "actual": null,
    "curve": 0.2509
@@ -22495,7 +22495,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0794,
-   "p50": 0.4111,
+   "p50": 0.456,
    "p90": 0.9309,
    "actual": null,
    "curve": 0.5563
@@ -22505,7 +22505,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0828,
-   "p50": 0.6092,
+   "p50": 0.6458,
    "p90": 0.849,
    "actual": null,
    "curve": 0.1695
@@ -22515,7 +22515,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0814,
-   "p50": 0.4789,
+   "p50": 0.5255,
    "p90": 0.9637,
    "actual": null,
    "curve": 0.5582
@@ -22525,7 +22525,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.1276,
-   "p50": 0.5642,
+   "p50": 0.595,
    "p90": 0.8976,
    "actual": null,
    "curve": 0.2946
@@ -22535,7 +22535,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.153,
-   "p50": 0.5245,
+   "p50": 0.5207,
    "p90": 0.905,
    "actual": null,
    "curve": 0.4617
@@ -22545,7 +22545,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.1415,
-   "p50": 0.5609,
+   "p50": 0.5573,
    "p90": 0.9296,
    "actual": null,
    "curve": 0.4451
@@ -22555,7 +22555,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.1138,
-   "p50": 0.5508,
+   "p50": 0.5853,
    "p90": 0.9678,
    "actual": null,
    "curve": 0.5433
@@ -22565,7 +22565,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.147,
-   "p50": 0.5819,
+   "p50": 0.7272,
    "p90": 0.9213,
    "actual": null,
    "curve": 0.4341
@@ -22575,7 +22575,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.1589,
-   "p50": 0.6335,
+   "p50": 0.613,
    "p90": 0.9405,
    "actual": null,
    "curve": 0.6053
@@ -22585,7 +22585,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.1919,
-   "p50": 0.6898,
+   "p50": 0.6556,
    "p90": 0.9751,
    "actual": null,
    "curve": 0.5624
@@ -22595,7 +22595,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.2401,
-   "p50": 0.7048,
+   "p50": 0.6936,
    "p90": 0.9467,
    "actual": null,
    "curve": 0.631
@@ -22605,7 +22605,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.2201,
-   "p50": 0.7487,
+   "p50": 0.7506,
    "p90": 0.9883,
    "actual": null,
    "curve": 0.5691
@@ -22615,7 +22615,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.2564,
-   "p50": 0.664,
+   "p50": 0.6716,
    "p90": 0.9523,
    "actual": null,
    "curve": 0.7092
@@ -22625,7 +22625,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.2058,
-   "p50": 0.6632,
+   "p50": 0.7115,
    "p90": 0.9564,
    "actual": null,
    "curve": 0.5126
@@ -22635,7 +22635,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.1881,
-   "p50": 0.5917,
+   "p50": 0.5823,
    "p90": 0.91,
    "actual": null,
    "curve": 0.6209
@@ -22645,7 +22645,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.195,
-   "p50": 0.4881,
+   "p50": 0.5332,
    "p90": 0.9267,
    "actual": null,
    "curve": 0.4451
@@ -22655,7 +22655,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0958,
-   "p50": 0.5259,
+   "p50": 0.465,
    "p90": 0.8325,
    "actual": null,
    "curve": 0.3576
@@ -22665,7 +22665,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0844,
-   "p50": 0.45,
+   "p50": 0.4308,
    "p90": 0.8457,
    "actual": null,
    "curve": 0.2313
@@ -22675,7 +22675,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0426,
-   "p50": 0.3206,
+   "p50": 0.3139,
    "p90": 0.6603,
    "actual": null,
    "curve": 0.2379
@@ -22685,7 +22685,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0091,
-   "p50": 0.3528,
+   "p50": 0.2535,
    "p90": 0.6876,
    "actual": null,
    "curve": 0.1469
@@ -22695,7 +22695,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0112,
-   "p50": 0.1944,
+   "p50": 0.2173,
    "p90": 0.4214,
    "actual": null,
    "curve": 0.2286
@@ -22705,7 +22705,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0054,
-   "p50": 0.2541,
+   "p50": 0.2504,
    "p90": 0.4126,
    "actual": null,
    "curve": 0.105
@@ -22715,7 +22715,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0016,
-   "p50": 0.2014,
+   "p50": 0.22,
    "p90": 0.3994,
    "actual": null,
    "curve": 0.1425
@@ -22725,7 +22725,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.2509,
+   "p50": 0.2214,
    "p90": 0.3553,
    "actual": null,
    "curve": 0.0509
@@ -22735,7 +22735,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1486,
+   "p50": 0.1606,
    "p90": 0.2572,
    "actual": null,
    "curve": 0.1065
@@ -22745,7 +22745,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0027,
-   "p50": 0.162,
+   "p50": 0.2025,
    "p90": 0.2888,
    "actual": null,
    "curve": 0.0397
@@ -22755,7 +22755,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0839,
+   "p50": 0.1338,
    "p90": 0.1446,
    "actual": null,
    "curve": 0.0705
@@ -22765,7 +22765,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.099,
+   "p50": 0.1393,
    "p90": 0.1563,
    "actual": null,
    "curve": 0.0307
@@ -22775,8 +22775,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0022,
-   "p50": 0.0662,
-   "p90": 0.1048,
+   "p50": 0.1048,
+   "p90": 0.1108,
    "actual": null,
    "curve": 0.0483
   },
@@ -22785,7 +22785,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.1263,
+   "p50": 0.1272,
    "p90": 0.1342,
    "actual": null,
    "curve": 0.021
@@ -22795,8 +22795,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0593,
-   "p90": 0.0767,
+   "p50": 0.0767,
+   "p90": 0.0951,
    "actual": null,
    "curve": 0.026
   },
@@ -22805,8 +22805,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.1074,
-   "p90": 0.1079,
+   "p50": 0.1079,
+   "p90": 0.1182,
    "actual": null,
    "curve": 0.0296
   },
@@ -22815,7 +22815,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0712,
+   "p50": 0.1008,
    "p90": 0.1196,
    "actual": null,
    "curve": 0.0248
@@ -22825,8 +22825,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.1225,
-   "p90": 0.1285,
+   "p50": 0.1285,
+   "p90": 0.1505,
    "actual": null,
    "curve": 0.0672
   },
@@ -22835,7 +22835,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1877,
+   "p50": 0.2052,
    "p90": 0.2772,
    "actual": null,
    "curve": 0.0083
@@ -22845,7 +22845,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.1689,
+   "p50": 0.1906,
    "p90": 0.6722,
    "actual": null,
    "curve": 0.5673
@@ -22855,7 +22855,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0168,
-   "p50": 0.2704,
+   "p50": 0.2758,
    "p90": 0.439,
    "actual": null,
    "curve": 0.0752
@@ -22865,7 +22865,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.2336,
+   "p50": 0.225,
    "p90": 0.9002,
    "actual": null,
    "curve": 0.6138
@@ -22875,7 +22875,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0954,
-   "p50": 0.5528,
+   "p50": 0.5826,
    "p90": 1.0,
    "actual": null,
    "curve": 0.3991
@@ -22885,7 +22885,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.1476,
-   "p50": 0.4894,
+   "p50": 0.4584,
    "p90": 0.9924,
    "actual": null,
    "curve": 0.6314
@@ -22895,7 +22895,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.1985,
-   "p50": 0.724,
+   "p50": 0.793,
    "p90": 0.9795,
    "actual": null,
    "curve": 0.53
@@ -22905,7 +22905,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.1877,
-   "p50": 0.655,
+   "p50": 0.7061,
    "p90": 0.9955,
    "actual": null,
    "curve": 0.6534
@@ -22915,7 +22915,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.5359,
-   "p50": 0.8228,
+   "p50": 0.8894,
    "p90": 1.0,
    "actual": null,
    "curve": 0.6579
@@ -22925,7 +22925,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.4141,
-   "p50": 0.86,
+   "p50": 0.8799,
    "p90": 0.9968,
    "actual": null,
    "curve": 0.6331
@@ -22935,7 +22935,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.559,
-   "p50": 0.9192,
+   "p50": 0.9352,
    "p90": 0.9882,
    "actual": null,
    "curve": 0.7078
@@ -22945,7 +22945,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.4934,
-   "p50": 0.8715,
+   "p50": 0.8872,
    "p90": 1.0,
    "actual": null,
    "curve": 0.6352
@@ -22955,7 +22955,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.4635,
-   "p50": 0.866,
+   "p50": 0.8754,
    "p90": 0.9881,
    "actual": null,
    "curve": 0.6488
@@ -22965,7 +22965,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.4774,
-   "p50": 0.8529,
+   "p50": 0.8687,
    "p90": 0.9903,
    "actual": null,
    "curve": 0.6499
@@ -22975,7 +22975,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.3713,
-   "p50": 0.8251,
+   "p50": 0.8226,
    "p90": 1.0,
    "actual": null,
    "curve": 0.5741
@@ -22985,7 +22985,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.428,
-   "p50": 0.795,
+   "p50": 0.8064,
    "p90": 0.988,
    "actual": null,
    "curve": 0.6049
@@ -22995,7 +22995,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.362,
-   "p50": 0.793,
+   "p50": 0.7837,
    "p90": 1.0,
    "actual": null,
    "curve": 0.5397
@@ -23005,7 +23005,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.3556,
-   "p50": 0.7378,
+   "p50": 0.7429,
    "p90": 0.9997,
    "actual": null,
    "curve": 0.5089
@@ -23015,7 +23015,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.2981,
-   "p50": 0.6973,
+   "p50": 0.6894,
    "p90": 0.9549,
    "actual": null,
    "curve": 0.4427
@@ -23025,7 +23025,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.2843,
-   "p50": 0.7046,
+   "p50": 0.703,
    "p90": 0.9254,
    "actual": null,
    "curve": 0.3727
@@ -23035,7 +23035,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.268,
-   "p50": 0.6367,
+   "p50": 0.6501,
    "p90": 0.9275,
    "actual": null,
    "curve": 0.3693
@@ -23045,7 +23045,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.2378,
-   "p50": 0.6679,
+   "p50": 0.687,
    "p90": 0.8708,
    "actual": null,
    "curve": 0.2231
@@ -23055,7 +23055,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.1583,
-   "p50": 0.513,
+   "p50": 0.5348,
    "p90": 0.8728,
    "actual": null,
    "curve": 0.2703
@@ -23065,7 +23065,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.1485,
-   "p50": 0.455,
+   "p50": 0.4426,
    "p90": 0.8386,
    "actual": null,
    "curve": 0.1702
@@ -23075,7 +23075,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0973,
-   "p50": 0.3937,
+   "p50": 0.3314,
    "p90": 0.8409,
    "actual": null,
    "curve": 0.1715
@@ -23085,7 +23085,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.1083,
-   "p50": 0.4179,
+   "p50": 0.3246,
    "p90": 0.7384,
    "actual": null,
    "curve": 0.0979
@@ -23095,7 +23095,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.1218,
-   "p50": 0.4275,
+   "p50": 0.44,
    "p90": 0.7981,
    "actual": null,
    "curve": 0.1363
@@ -23105,7 +23105,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.109,
-   "p50": 0.3888,
+   "p50": 0.3478,
    "p90": 0.7951,
    "actual": null,
    "curve": 0.147
@@ -23115,7 +23115,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0551,
-   "p50": 0.3241,
+   "p50": 0.3005,
    "p90": 0.8116,
    "actual": null,
    "curve": 0.129
@@ -23125,7 +23125,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0605,
-   "p50": 0.3974,
+   "p50": 0.3476,
    "p90": 0.8809,
    "actual": null,
    "curve": 0.2556
@@ -23135,7 +23135,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0064,
-   "p50": 0.2973,
+   "p50": 0.2153,
    "p90": 0.5121,
    "actual": null,
    "curve": 0.0083
@@ -23145,7 +23145,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.1635,
+   "p50": 0.1203,
    "p90": 0.3961,
    "actual": null,
    "curve": 0.1577
@@ -23155,7 +23155,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0509,
-   "p50": 0.4158,
+   "p50": 0.371,
    "p90": 0.7399,
    "actual": null,
    "curve": 0.2632
@@ -23165,7 +23165,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.1151,
-   "p50": 0.4677,
+   "p50": 0.3026,
    "p90": 0.9316,
    "actual": null,
    "curve": 0.0349
@@ -23175,7 +23175,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.2498,
-   "p50": 0.5905,
+   "p50": 0.6881,
    "p90": 0.9387,
    "actual": null,
    "curve": 0.9195
@@ -23185,7 +23185,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.4997,
-   "p50": 0.8696,
+   "p50": 0.8713,
    "p90": 0.9711,
    "actual": null,
    "curve": 0.9267
@@ -23195,7 +23195,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.3606,
-   "p50": 0.8568,
+   "p50": 0.8797,
    "p90": 0.9778,
    "actual": null,
    "curve": 0.9283
@@ -23205,7 +23205,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.7006,
-   "p50": 0.9328,
+   "p50": 0.8937,
    "p90": 0.9782,
    "actual": null,
    "curve": 0.9443
@@ -23215,7 +23215,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.8767,
-   "p50": 0.9359,
+   "p50": 0.9478,
    "p90": 0.9597,
    "actual": null,
    "curve": 0.9545
@@ -23225,7 +23225,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.684,
-   "p50": 0.8824,
+   "p50": 0.8919,
    "p90": 0.9757,
    "actual": null,
    "curve": 0.9297
@@ -23235,7 +23235,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.7824,
-   "p50": 0.9146,
+   "p50": 0.9157,
    "p90": 0.9727,
    "actual": null,
    "curve": 0.9285
@@ -23245,7 +23245,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.5479,
-   "p50": 0.8327,
+   "p50": 0.8286,
    "p90": 1.0,
    "actual": null,
    "curve": 0.6765
@@ -23255,7 +23255,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.596,
-   "p50": 0.9052,
+   "p50": 0.8683,
    "p90": 0.9736,
    "actual": null,
    "curve": 0.8467
@@ -23265,7 +23265,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.2854,
-   "p50": 0.7341,
+   "p50": 0.7538,
    "p90": 0.9432,
    "actual": null,
    "curve": 0.4846
@@ -23275,7 +23275,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.1419,
-   "p50": 0.6287,
+   "p50": 0.6726,
    "p90": 0.8886,
    "actual": null,
    "curve": 0.5621
@@ -23285,7 +23285,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.2298,
-   "p50": 0.8078,
+   "p50": 0.7785,
    "p90": 0.9646,
    "actual": null,
    "curve": 0.1688
@@ -23295,7 +23295,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.2228,
-   "p50": 0.5576,
+   "p50": 0.5186,
    "p90": 0.918,
    "actual": null,
    "curve": 0.3695
@@ -23305,7 +23305,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.1641,
-   "p50": 0.6078,
+   "p50": 0.6088,
    "p90": 0.8469,
    "actual": null,
    "curve": 0.1602
@@ -23315,7 +23315,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.1274,
-   "p50": 0.5543,
+   "p50": 0.5041,
    "p90": 0.7803,
    "actual": null,
    "curve": 0.1645
@@ -23325,7 +23325,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0551,
-   "p50": 0.535,
+   "p50": 0.5934,
    "p90": 0.7397,
    "actual": null,
    "curve": 0.1158
@@ -23335,7 +23335,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0729,
-   "p50": 0.3767,
+   "p50": 0.4456,
    "p90": 0.626,
    "actual": null,
    "curve": 0.2797
@@ -23345,7 +23345,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0478,
-   "p50": 0.3392,
+   "p50": 0.3064,
    "p90": 0.6182,
    "actual": null,
    "curve": 0.3003
@@ -23355,7 +23355,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0057,
-   "p50": 0.2988,
+   "p50": 0.369,
    "p90": 0.7874,
    "actual": null,
    "curve": 0.5869
@@ -23365,7 +23365,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0228,
-   "p50": 0.2551,
+   "p50": 0.2718,
    "p90": 0.5921,
    "actual": null,
    "curve": 0.3809
@@ -23375,7 +23375,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0833,
-   "p50": 0.5181,
+   "p50": 0.5186,
    "p90": 0.8818,
    "actual": null,
    "curve": 0.6315
@@ -23385,7 +23385,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0379,
-   "p50": 0.3261,
+   "p50": 0.2798,
    "p90": 0.7798,
    "actual": null,
    "curve": 0.5285
@@ -23395,7 +23395,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.1481,
-   "p50": 0.7007,
+   "p50": 0.6493,
    "p90": 0.9039,
    "actual": null,
    "curve": 0.6376
@@ -23405,7 +23405,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.1761,
+   "p50": 0.1522,
    "p90": 0.7109,
    "actual": null,
    "curve": 0.7094
@@ -23415,7 +23415,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0298,
-   "p50": 0.5984,
+   "p50": 0.6705,
    "p90": 0.8699,
    "actual": null,
    "curve": 0.1886
@@ -23425,7 +23425,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.1811,
+   "p50": 0.146,
    "p90": 0.6235,
    "actual": null,
    "curve": 0.5812
@@ -23435,7 +23435,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0186,
-   "p50": 0.5064,
+   "p50": 0.5376,
    "p90": 0.8179,
    "actual": null,
    "curve": 0.1275
@@ -23445,7 +23445,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0993,
+   "p50": 0.1066,
    "p90": 0.6986,
    "actual": null,
    "curve": 0.6243
@@ -23455,7 +23455,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.018,
-   "p50": 0.4459,
+   "p50": 0.398,
    "p90": 0.7543,
    "actual": null,
    "curve": 0.134
@@ -23465,7 +23465,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.2241,
+   "p50": 0.2586,
    "p90": 0.612,
    "actual": null,
    "curve": 0.536
@@ -23475,7 +23475,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.2652,
+   "p50": 0.2055,
    "p90": 0.4491,
    "actual": null,
    "curve": 0.0739
@@ -23485,7 +23485,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0406,
+   "p50": 0.0324,
    "p90": 0.3226,
    "actual": null,
    "curve": 0.3004
@@ -23495,7 +23495,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0833,
+   "p50": 0.0663,
    "p90": 0.2233,
    "actual": null,
    "curve": 0.0172
@@ -23505,7 +23505,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0257,
+   "p50": 0.0388,
    "p90": 0.181,
    "actual": null,
    "curve": 0.2187
@@ -23515,7 +23515,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1056,
+   "p50": 0.0577,
    "p90": 0.1906,
    "actual": null,
    "curve": 0.0083
@@ -23525,7 +23525,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0452,
+   "p50": 0.0756,
    "p90": 0.1234,
    "actual": null,
    "curve": 0.0988
@@ -23545,7 +23545,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0129,
+   "p50": 0.0067,
    "p90": 0.0777,
    "actual": null,
    "curve": 0.0133
@@ -23565,7 +23565,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0768,
+   "p50": 0.0494,
    "p90": 0.1363,
    "actual": null,
    "curve": 0.0145
@@ -23585,7 +23585,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.1902,
+   "p50": 0.1523,
    "p90": 0.2479,
    "actual": null,
    "curve": 0.0251
@@ -23595,7 +23595,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0495,
+   "p50": 0.0377,
    "p90": 0.3122,
    "actual": null,
    "curve": 0.2513
@@ -23605,7 +23605,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0027,
-   "p50": 0.2748,
+   "p50": 0.2379,
    "p90": 0.5392,
    "actual": null,
    "curve": 0.0296
@@ -23615,7 +23615,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1941,
+   "p50": 0.1235,
    "p90": 0.5874,
    "actual": null,
    "curve": 0.2746
@@ -23625,7 +23625,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0291,
-   "p50": 0.2919,
+   "p50": 0.3471,
    "p90": 0.6854,
    "actual": null,
    "curve": 0.0318
@@ -23635,7 +23635,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.012,
-   "p50": 0.2125,
+   "p50": 0.0878,
    "p90": 0.9085,
    "actual": null,
    "curve": 0.5337
@@ -23645,7 +23645,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.145,
-   "p50": 0.6982,
+   "p50": 0.6166,
    "p90": 1.0,
    "actual": null,
    "curve": 0.0496
@@ -23655,7 +23655,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.3726,
-   "p50": 0.582,
+   "p50": 0.5825,
    "p90": 0.9602,
    "actual": null,
    "curve": 0.6805
@@ -23665,7 +23665,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.3305,
-   "p50": 0.8518,
+   "p50": 0.7941,
    "p90": 1.0,
    "actual": null,
    "curve": 0.1654
@@ -23675,7 +23675,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.7058,
-   "p50": 0.7655,
+   "p50": 0.7981,
    "p90": 0.9811,
    "actual": null,
    "curve": 0.8151
@@ -23685,7 +23685,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.5022,
-   "p50": 0.7827,
+   "p50": 0.7234,
    "p90": 0.9943,
    "actual": null,
    "curve": 0.4356
@@ -23695,7 +23695,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.7384,
-   "p50": 0.8227,
+   "p50": 0.9481,
    "p90": 0.9931,
    "actual": null,
    "curve": 0.7919
@@ -23705,7 +23705,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.5525,
-   "p50": 0.8557,
+   "p50": 0.9088,
    "p90": 0.9947,
    "actual": null,
    "curve": 0.5959
@@ -23715,8 +23715,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.6466,
-   "p50": 0.873,
-   "p90": 0.9832,
+   "p50": 0.9832,
+   "p90": 1.0,
    "actual": null,
    "curve": 0.7092
   },
@@ -23725,7 +23725,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.5813,
-   "p50": 0.885,
+   "p50": 0.9479,
    "p90": 0.9924,
    "actual": null,
    "curve": 0.6476
@@ -23735,7 +23735,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.5807,
-   "p50": 0.8154,
+   "p50": 0.9197,
    "p90": 0.9805,
    "actual": null,
    "curve": 0.6489
@@ -23745,7 +23745,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.5744,
-   "p50": 0.8373,
+   "p50": 0.8976,
    "p90": 0.9902,
    "actual": null,
    "curve": 0.6449
@@ -23755,7 +23755,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.5292,
-   "p50": 0.799,
+   "p50": 0.8798,
    "p90": 1.0,
    "actual": null,
    "curve": 0.5886
@@ -23765,7 +23765,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.4964,
-   "p50": 0.7977,
+   "p50": 0.8445,
    "p90": 0.9906,
    "actual": null,
    "curve": 0.593
@@ -23775,7 +23775,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.3415,
-   "p50": 0.7066,
+   "p50": 0.9007,
    "p90": 0.9981,
    "actual": null,
    "curve": 0.5703
@@ -23785,7 +23785,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.3154,
-   "p50": 0.6996,
+   "p50": 0.7985,
    "p90": 1.0,
    "actual": null,
    "curve": 0.5663
@@ -23795,7 +23795,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.2697,
-   "p50": 0.7005,
+   "p50": 0.7982,
    "p90": 0.9356,
    "actual": null,
    "curve": 0.3108
@@ -23805,7 +23805,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.1958,
-   "p50": 0.6681,
+   "p50": 0.6621,
    "p90": 0.9295,
    "actual": null,
    "curve": 0.2949
@@ -23815,7 +23815,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.1109,
-   "p50": 0.3457,
+   "p50": 0.3668,
    "p90": 0.6507,
    "actual": null,
    "curve": 0.1094
@@ -23825,7 +23825,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.1046,
-   "p50": 0.3841,
+   "p50": 0.3431,
    "p90": 0.6304,
    "actual": null,
    "curve": 0.1219
@@ -23835,7 +23835,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0064,
-   "p50": 0.2831,
+   "p50": 0.2439,
    "p90": 0.5312,
    "actual": null,
    "curve": 0.0566
@@ -23845,7 +23845,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.2188,
+   "p50": 0.2564,
    "p90": 0.5013,
    "actual": null,
    "curve": 0.0991
@@ -23855,7 +23855,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1444,
+   "p50": 0.1782,
    "p90": 0.3382,
    "actual": null,
    "curve": 0.0207
@@ -23865,7 +23865,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.1202,
+   "p50": 0.2147,
    "p90": 0.3504,
    "actual": null,
    "curve": 0.1003
@@ -23875,7 +23875,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1018,
+   "p50": 0.1774,
    "p90": 0.2958,
    "actual": null,
    "curve": 0.0134
@@ -23885,7 +23885,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0024,
-   "p50": 0.1088,
+   "p50": 0.1898,
    "p90": 0.2939,
    "actual": null,
    "curve": 0.1076
@@ -23895,7 +23895,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1035,
+   "p50": 0.1622,
    "p90": 0.3031,
    "actual": null,
    "curve": 0.0167
@@ -23905,7 +23905,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.1219,
+   "p50": 0.2419,
    "p90": 0.2962,
    "actual": null,
    "curve": 0.0466
@@ -23915,7 +23915,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0652,
+   "p50": 0.1162,
    "p90": 0.2558,
    "actual": null,
    "curve": 0.0179
@@ -23925,7 +23925,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0063,
-   "p50": 0.0277,
+   "p50": 0.1456,
    "p90": 0.2555,
    "actual": null,
    "curve": 0.0249
@@ -23935,7 +23935,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0765,
+   "p50": 0.1433,
    "p90": 0.2748,
    "actual": null,
    "curve": 0.0115
@@ -23945,7 +23945,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0284,
+   "p50": 0.0807,
    "p90": 0.2324,
    "actual": null,
    "curve": 0.0193
@@ -23955,7 +23955,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0755,
+   "p50": 0.1168,
    "p90": 0.235,
    "actual": null,
    "curve": 0.0102
@@ -23965,7 +23965,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0335,
+   "p50": 0.0729,
    "p90": 0.295,
    "actual": null,
    "curve": 0.0234
@@ -23975,8 +23975,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0566,
-   "p90": 0.0985,
+   "p50": 0.0985,
+   "p90": 0.1176,
    "actual": null,
    "curve": 0.0174
   },
@@ -23985,7 +23985,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0848,
+   "p50": 0.113,
    "p90": 0.1236,
    "actual": null,
    "curve": 0.0296
@@ -23995,8 +23995,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.078,
-   "p90": 0.1131,
+   "p50": 0.1131,
+   "p90": 0.1217,
    "actual": null,
    "curve": 0.0083
   },
@@ -24005,8 +24005,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0522,
-   "p90": 0.0668,
+   "p50": 0.0668,
+   "p90": 0.084,
    "actual": null,
    "curve": 0.0299
   },
@@ -24015,7 +24015,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0717,
+   "p50": 0.0559,
    "p90": 0.0769,
    "actual": null,
    "curve": 0.0083
@@ -24025,7 +24025,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0189,
+   "p50": 0.0309,
    "p90": 0.1073,
    "actual": null,
    "curve": 0.0479
@@ -24035,7 +24035,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0597,
+   "p50": 0.0819,
    "p90": 0.2201,
    "actual": null,
    "curve": 0.0211
@@ -24045,7 +24045,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0894,
+   "p50": 0.1398,
    "p90": 0.2556,
    "actual": null,
    "curve": 0.0943
@@ -24055,7 +24055,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0898,
+   "p50": 0.113,
    "p90": 0.2356,
    "actual": null,
    "curve": 0.0971
@@ -24065,7 +24065,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0019,
-   "p50": 0.1238,
+   "p50": 0.2053,
    "p90": 0.3539,
    "actual": null,
    "curve": 0.0834
@@ -24075,7 +24075,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1268,
+   "p50": 0.1314,
    "p90": 0.2743,
    "actual": null,
    "curve": 0.1148
@@ -24085,7 +24085,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.2095,
+   "p50": 0.2298,
    "p90": 0.4402,
    "actual": null,
    "curve": 0.0644
@@ -24095,7 +24095,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1022,
+   "p50": 0.1287,
    "p90": 0.1929,
    "actual": null,
    "curve": 0.104
@@ -24105,7 +24105,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.1153,
+   "p50": 0.145,
    "p90": 0.2632,
    "actual": null,
    "curve": 0.0528
@@ -24115,7 +24115,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0983,
+   "p50": 0.1386,
    "p90": 0.1611,
    "actual": null,
    "curve": 0.1023
@@ -24125,7 +24125,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.1082,
+   "p50": 0.1443,
    "p90": 0.1703,
    "actual": null,
    "curve": 0.0799
@@ -24135,7 +24135,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1986,
+   "p50": 0.1717,
    "p90": 0.3351,
    "actual": null,
    "curve": 0.1331
@@ -24145,7 +24145,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.1813,
+   "p50": 0.2175,
    "p90": 0.4588,
    "actual": null,
    "curve": 0.1737
@@ -24155,7 +24155,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0113,
-   "p50": 0.3331,
+   "p50": 0.3698,
    "p90": 0.6398,
    "actual": null,
    "curve": 0.1174
@@ -24165,7 +24165,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0435,
-   "p50": 0.2426,
+   "p50": 0.2147,
    "p90": 0.6096,
    "actual": null,
    "curve": 0.3149
@@ -24175,7 +24175,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.1245,
-   "p50": 0.5342,
+   "p50": 0.4943,
    "p90": 0.7761,
    "actual": null,
    "curve": 0.1881
@@ -24185,7 +24185,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.1739,
-   "p50": 0.365,
+   "p50": 0.3986,
    "p90": 0.847,
    "actual": null,
    "curve": 0.4051
@@ -24195,7 +24195,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.1979,
-   "p50": 0.5762,
+   "p50": 0.5596,
    "p90": 0.904,
    "actual": null,
    "curve": 0.3781
@@ -24205,7 +24205,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.1577,
-   "p50": 0.4585,
+   "p50": 0.5116,
    "p90": 0.8546,
    "actual": null,
    "curve": 0.5835
@@ -24215,7 +24215,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.1961,
-   "p50": 0.5855,
+   "p50": 0.6364,
    "p90": 0.851,
    "actual": null,
    "curve": 0.4001
@@ -24225,7 +24225,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.2271,
-   "p50": 0.4979,
+   "p50": 0.5172,
    "p90": 0.8711,
    "actual": null,
    "curve": 0.7095
@@ -24235,7 +24235,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.2923,
-   "p50": 0.6408,
+   "p50": 0.6527,
    "p90": 0.8781,
    "actual": null,
    "curve": 0.7092
@@ -24245,7 +24245,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.3239,
-   "p50": 0.7191,
+   "p50": 0.6766,
    "p90": 0.9526,
    "actual": null,
    "curve": 0.8066
@@ -24255,7 +24255,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.3259,
-   "p50": 0.6641,
+   "p50": 0.6833,
    "p90": 0.952,
    "actual": null,
    "curve": 0.7059
@@ -24265,7 +24265,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.4525,
-   "p50": 0.6996,
+   "p50": 0.6714,
    "p90": 0.959,
    "actual": null,
    "curve": 0.8469
@@ -24275,7 +24275,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.3744,
-   "p50": 0.7944,
+   "p50": 0.7705,
    "p90": 0.9647,
    "actual": null,
    "curve": 0.7225
@@ -24285,7 +24285,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.4786,
-   "p50": 0.7844,
+   "p50": 0.7643,
    "p90": 0.9665,
    "actual": null,
    "curve": 0.8708
@@ -24295,7 +24295,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.4806,
-   "p50": 0.7576,
+   "p50": 0.8059,
    "p90": 0.9666,
    "actual": null,
    "curve": 0.8467
@@ -24305,7 +24305,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.4621,
-   "p50": 0.7625,
+   "p50": 0.792,
    "p90": 0.9679,
    "actual": null,
    "curve": 0.8693
@@ -24315,7 +24315,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.4971,
-   "p50": 0.8235,
+   "p50": 0.8302,
    "p90": 0.9749,
    "actual": null,
    "curve": 0.8766
@@ -24325,7 +24325,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.418,
-   "p50": 0.7525,
+   "p50": 0.7672,
    "p90": 0.9764,
    "actual": null,
    "curve": 0.8694
@@ -24335,7 +24335,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.5119,
-   "p50": 0.8206,
+   "p50": 0.8393,
    "p90": 0.9776,
    "actual": null,
    "curve": 0.8908
@@ -24345,7 +24345,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.4625,
-   "p50": 0.779,
+   "p50": 0.7769,
    "p90": 0.9779,
    "actual": null,
    "curve": 0.8703
@@ -24355,7 +24355,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.6418,
-   "p50": 0.8596,
+   "p50": 0.8682,
    "p90": 0.9818,
    "actual": null,
    "curve": 0.9241
@@ -24365,7 +24365,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.5601,
-   "p50": 0.8765,
+   "p50": 0.8441,
    "p90": 0.9747,
    "actual": null,
    "curve": 0.8477
@@ -24375,7 +24375,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.6341,
-   "p50": 0.9191,
+   "p50": 0.9008,
    "p90": 0.9791,
    "actual": null,
    "curve": 0.8908
@@ -24385,7 +24385,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.6887,
-   "p50": 0.8996,
+   "p50": 0.8534,
    "p90": 0.9845,
    "actual": null,
    "curve": 0.827
@@ -24395,7 +24395,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.6949,
-   "p50": 0.9498,
+   "p50": 0.9662,
    "p90": 0.9893,
    "actual": null,
    "curve": 0.8646
@@ -24405,7 +24405,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.6954,
-   "p50": 0.9046,
+   "p50": 0.8461,
    "p90": 0.9879,
    "actual": null,
    "curve": 0.8309
@@ -24415,7 +24415,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.6841,
-   "p50": 0.9524,
+   "p50": 0.9171,
    "p90": 0.9854,
    "actual": null,
    "curve": 0.8084
@@ -24425,7 +24425,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.5188,
-   "p50": 0.8945,
+   "p50": 0.8922,
    "p90": 0.9839,
    "actual": null,
    "curve": 0.6723
@@ -24435,7 +24435,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.5149,
-   "p50": 0.9165,
+   "p50": 0.9181,
    "p90": 0.9809,
    "actual": null,
    "curve": 0.7092
@@ -24445,7 +24445,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.4966,
-   "p50": 0.8333,
+   "p50": 0.873,
    "p90": 0.9854,
    "actual": null,
    "curve": 0.6387
@@ -24455,7 +24455,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.4611,
-   "p50": 0.8314,
+   "p50": 0.8359,
    "p90": 0.9718,
    "actual": null,
    "curve": 0.6705
@@ -24465,7 +24465,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.4506,
-   "p50": 0.788,
+   "p50": 0.8445,
    "p90": 0.9787,
    "actual": null,
    "curve": 0.6296
@@ -24475,7 +24475,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.4697,
-   "p50": 0.8224,
+   "p50": 0.8503,
    "p90": 0.9821,
    "actual": null,
    "curve": 0.6444
@@ -24485,7 +24485,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.4816,
-   "p50": 0.8419,
+   "p50": 0.8911,
    "p90": 0.9852,
    "actual": null,
    "curve": 0.6623
@@ -24495,7 +24495,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.3116,
-   "p50": 0.6349,
+   "p50": 0.6195,
    "p90": 0.95,
    "actual": null,
    "curve": 0.4996
@@ -24505,7 +24505,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.409,
-   "p50": 0.6597,
+   "p50": 0.729,
    "p90": 0.9676,
    "actual": null,
    "curve": 0.703
@@ -24515,7 +24515,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.2696,
-   "p50": 0.638,
+   "p50": 0.6421,
    "p90": 0.9607,
    "actual": null,
    "curve": 0.5191
@@ -24525,7 +24525,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.3538,
-   "p50": 0.7225,
+   "p50": 0.73,
    "p90": 0.9449,
    "actual": null,
    "curve": 0.6785
@@ -24535,7 +24535,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.2337,
-   "p50": 0.4922,
+   "p50": 0.5439,
    "p90": 0.9215,
    "actual": null,
    "curve": 0.4885
@@ -24545,7 +24545,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.3062,
-   "p50": 0.6614,
+   "p50": 0.6659,
    "p90": 0.8965,
    "actual": null,
    "curve": 0.6759
@@ -24555,7 +24555,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0885,
-   "p50": 0.431,
+   "p50": 0.5026,
    "p90": 0.8666,
    "actual": null,
    "curve": 0.422
@@ -24565,7 +24565,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0713,
-   "p50": 0.5109,
+   "p50": 0.5653,
    "p90": 0.8531,
    "actual": null,
    "curve": 0.5317
@@ -24575,7 +24575,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0249,
-   "p50": 0.1892,
+   "p50": 0.3139,
    "p90": 0.8146,
    "actual": null,
    "curve": 0.4127
@@ -24585,7 +24585,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0312,
-   "p50": 0.1809,
+   "p50": 0.1941,
    "p90": 0.8308,
    "actual": null,
    "curve": 0.4697
@@ -24595,7 +24595,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0248,
-   "p50": 0.1366,
+   "p50": 0.177,
    "p90": 0.6823,
    "actual": null,
    "curve": 0.432
@@ -24605,7 +24605,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.02,
-   "p50": 0.2189,
+   "p50": 0.3314,
    "p90": 0.7695,
    "actual": null,
    "curve": 0.4121
@@ -24615,7 +24615,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0344,
-   "p50": 0.2838,
+   "p50": 0.2917,
    "p90": 0.7025,
    "actual": null,
    "curve": 0.2855
@@ -24625,7 +24625,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.1969,
+   "p50": 0.2107,
    "p90": 0.7449,
    "actual": null,
    "curve": 0.512
@@ -24635,7 +24635,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0642,
-   "p50": 0.2327,
+   "p50": 0.2506,
    "p90": 0.7428,
    "actual": null,
    "curve": 0.3412
@@ -24645,7 +24645,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.1106,
-   "p50": 0.2688,
+   "p50": 0.3319,
    "p90": 0.7579,
    "actual": null,
    "curve": 0.4356
@@ -24655,7 +24655,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0681,
-   "p50": 0.3056,
+   "p50": 0.2497,
    "p90": 0.7636,
    "actual": null,
    "curve": 0.3412
@@ -24665,7 +24665,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.1261,
-   "p50": 0.3489,
+   "p50": 0.3777,
    "p90": 0.77,
    "actual": null,
    "curve": 0.3131
@@ -24675,7 +24675,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0883,
-   "p50": 0.3475,
+   "p50": 0.3791,
    "p90": 0.7937,
    "actual": null,
    "curve": 0.3168
@@ -24685,7 +24685,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.117,
-   "p50": 0.432,
+   "p50": 0.4302,
    "p90": 0.7466,
    "actual": null,
    "curve": 0.2677
@@ -24695,7 +24695,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0471,
-   "p50": 0.3402,
+   "p50": 0.28,
    "p90": 0.7733,
    "actual": null,
    "curve": 0.2705
@@ -24705,7 +24705,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0339,
-   "p50": 0.4337,
+   "p50": 0.4091,
    "p90": 0.6767,
    "actual": null,
    "curve": 0.1791
@@ -24715,7 +24715,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0296,
-   "p50": 0.2755,
+   "p50": 0.2733,
    "p90": 0.678,
    "actual": null,
    "curve": 0.1926
@@ -24725,7 +24725,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0152,
-   "p50": 0.3205,
+   "p50": 0.3153,
    "p90": 0.6175,
    "actual": null,
    "curve": 0.1342
@@ -24735,7 +24735,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0381,
-   "p50": 0.2432,
+   "p50": 0.189,
    "p90": 0.504,
    "actual": null,
    "curve": 0.1472
@@ -24745,7 +24745,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0058,
-   "p50": 0.2114,
+   "p50": 0.2723,
    "p90": 0.4099,
    "actual": null,
    "curve": 0.0858
@@ -24755,7 +24755,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1583,
+   "p50": 0.1477,
    "p90": 0.3304,
    "actual": null,
    "curve": 0.0958
@@ -24765,7 +24765,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0017,
-   "p50": 0.1331,
+   "p50": 0.151,
    "p90": 0.3434,
    "actual": null,
    "curve": 0.0444
@@ -24775,7 +24775,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0735,
+   "p50": 0.1367,
    "p90": 0.2612,
    "actual": null,
    "curve": 0.0864
@@ -24785,7 +24785,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.1119,
+   "p50": 0.1232,
    "p90": 0.2186,
    "actual": null,
    "curve": 0.029
@@ -24795,7 +24795,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0757,
+   "p50": 0.079,
    "p90": 0.2139,
    "actual": null,
    "curve": 0.065
@@ -24805,7 +24805,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.1741,
+   "p50": 0.231,
    "p90": 0.2934,
    "actual": null,
    "curve": 0.0137
@@ -24815,7 +24815,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0532,
+   "p50": 0.0752,
    "p90": 0.16,
    "actual": null,
    "curve": 0.0366
@@ -24825,7 +24825,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0007,
-   "p50": 0.1412,
+   "p50": 0.1393,
    "p90": 0.1578,
    "actual": null,
    "curve": 0.0306
@@ -24835,7 +24835,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0553,
+   "p50": 0.0951,
    "p90": 0.1672,
    "actual": null,
    "curve": 0.0155
@@ -24845,7 +24845,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0761,
+   "p50": 0.029,
    "p90": 0.0863,
    "actual": null,
    "curve": 0.0502
@@ -24855,7 +24855,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0638,
+   "p50": 0.0526,
    "p90": 0.2109,
    "actual": null,
    "curve": 0.0142
@@ -24866,7 +24866,7 @@ window.DASHBOARD_DATA = {
    "lead_h": 48,
    "p10": 0.0,
    "p50": 0.0195,
-   "p90": 0.0268,
+   "p90": 0.0226,
    "actual": null,
    "curve": 0.0312
   },
@@ -24875,7 +24875,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0329,
+   "p50": 0.0371,
    "p90": 0.1254,
    "actual": null,
    "curve": 0.0104
@@ -24885,8 +24885,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0065,
-   "p90": 0.0207,
+   "p50": 0.0048,
+   "p90": 0.0065,
    "actual": null,
    "curve": 0.0289
   },
@@ -24895,7 +24895,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0437,
+   "p50": 0.003,
    "p90": 0.0744,
    "actual": null,
    "curve": 0.0091
@@ -24905,7 +24905,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0278,
+   "p50": 0.0115,
    "p90": 0.1098,
    "actual": null,
    "curve": 0.0446
@@ -24915,7 +24915,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.001,
-   "p50": 0.0078,
+   "p50": 0.0191,
    "p90": 0.0854,
    "actual": null,
    "curve": 0.0201
@@ -24925,7 +24925,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0578,
+   "p50": 0.0245,
    "p90": 0.1654,
    "actual": null,
    "curve": 0.0957
@@ -24935,7 +24935,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1,
+   "p50": 0.0531,
    "p90": 0.1783,
    "actual": null,
    "curve": 0.0621
@@ -24945,7 +24945,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.1039,
+   "p50": 0.0653,
    "p90": 0.1866,
    "actual": null,
    "curve": 0.1755
@@ -24955,7 +24955,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.135,
+   "p50": 0.1254,
    "p90": 0.3391,
    "actual": null,
    "curve": 0.0653
@@ -24965,7 +24965,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.001,
-   "p50": 0.0514,
+   "p50": 0.0204,
    "p90": 0.2674,
    "actual": null,
    "curve": 0.2321
@@ -24975,7 +24975,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0435,
+   "p50": 0.1026,
    "p90": 0.3142,
    "actual": null,
    "curve": 0.0902
@@ -24985,7 +24985,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0194,
+   "p50": 0.0,
    "p90": 0.404,
    "actual": null,
    "curve": 0.2791
@@ -24995,7 +24995,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1085,
+   "p50": 0.1323,
    "p90": 0.4432,
    "actual": null,
    "curve": 0.0818
@@ -25005,7 +25005,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0056,
+   "p50": 0.0,
    "p90": 0.4197,
    "actual": null,
    "curve": 0.3099
@@ -25015,7 +25015,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1098,
+   "p50": 0.1223,
    "p90": 0.4868,
    "actual": null,
    "curve": 0.0987
@@ -25025,7 +25025,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.1205,
+   "p50": 0.052,
    "p90": 0.5449,
    "actual": null,
    "curve": 0.3638
@@ -25035,7 +25035,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0026,
-   "p50": 0.1375,
+   "p50": 0.0842,
    "p90": 0.4569,
    "actual": null,
    "curve": 0.0956
@@ -25045,7 +25045,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.1787,
+   "p50": 0.1032,
    "p90": 0.5765,
    "actual": null,
    "curve": 0.3562
@@ -25055,7 +25055,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0021,
-   "p50": 0.2076,
+   "p50": 0.1485,
    "p90": 0.4255,
    "actual": null,
    "curve": 0.0542
@@ -25065,7 +25065,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.1405,
+   "p50": 0.0,
    "p90": 0.5841,
    "actual": null,
    "curve": 0.3622
@@ -25075,7 +25075,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0007,
-   "p50": 0.1885,
+   "p50": 0.217,
    "p90": 0.4396,
    "actual": null,
    "curve": 0.0475
@@ -25084,8 +25084,8 @@ window.DASHBOARD_DATA = {
    "time": "2026-02-25T05:00",
    "turbine": "T2",
    "lead_h": 48,
-   "p10": 0.0011,
-   "p50": 0.1422,
+   "p10": 0.0,
+   "p50": 0.0011,
    "p90": 0.5759,
    "actual": null,
    "curve": 0.4663
@@ -25095,7 +25095,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0071,
-   "p50": 0.2197,
+   "p50": 0.1827,
    "p90": 0.3563,
    "actual": null,
    "curve": 0.0197
@@ -25105,7 +25105,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0181,
-   "p50": 0.1363,
+   "p50": 0.1245,
    "p90": 0.4638,
    "actual": null,
    "curve": 0.4393
@@ -25115,7 +25115,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0006,
-   "p50": 0.1871,
+   "p50": 0.1489,
    "p90": 0.3456,
    "actual": null,
    "curve": 0.0172
@@ -25125,7 +25125,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0935,
+   "p50": 0.145,
    "p90": 0.5211,
    "actual": null,
    "curve": 0.4551
@@ -25135,7 +25135,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0149,
-   "p50": 0.1084,
+   "p50": 0.1053,
    "p90": 0.2731,
    "actual": null,
    "curve": 0.0198
@@ -25145,7 +25145,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.05,
+   "p50": 0.0859,
    "p90": 0.3988,
    "actual": null,
    "curve": 0.3486
@@ -25155,7 +25155,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.12,
+   "p50": 0.119,
    "p90": 0.2908,
    "actual": null,
    "curve": 0.0163
@@ -25165,7 +25165,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0699,
+   "p50": 0.1128,
    "p90": 0.2388,
    "actual": null,
    "curve": 0.2872
@@ -25175,7 +25175,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1433,
+   "p50": 0.117,
    "p90": 0.2259,
    "actual": null,
    "curve": 0.0118
@@ -25185,7 +25185,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.057,
+   "p50": 0.077,
    "p90": 0.2047,
    "actual": null,
    "curve": 0.2081
@@ -25195,7 +25195,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1235,
+   "p50": 0.1212,
    "p90": 0.2638,
    "actual": null,
    "curve": 0.0138
@@ -25205,7 +25205,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.0585,
+   "p50": 0.0881,
    "p90": 0.3128,
    "actual": null,
    "curve": 0.2234
@@ -25215,7 +25215,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0927,
+   "p50": 0.0968,
    "p90": 0.2052,
    "actual": null,
    "curve": 0.0208
@@ -25225,7 +25225,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.1087,
+   "p50": 0.142,
    "p90": 0.3147,
    "actual": null,
    "curve": 0.047
@@ -25235,7 +25235,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1147,
+   "p50": 0.1318,
    "p90": 0.2216,
    "actual": null,
    "curve": 0.0127
@@ -25245,7 +25245,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.1242,
+   "p50": 0.1275,
    "p90": 0.2699,
    "actual": null,
    "curve": 0.0632
@@ -25255,7 +25255,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1481,
+   "p50": 0.1872,
    "p90": 0.3716,
    "actual": null,
    "curve": 0.0075
@@ -25265,7 +25265,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.1667,
+   "p50": 0.2051,
    "p90": 0.2933,
    "actual": null,
    "curve": 0.0971
@@ -25275,7 +25275,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0028,
-   "p50": 0.179,
+   "p50": 0.165,
    "p90": 0.407,
    "actual": null,
    "curve": 0.0128
@@ -25285,7 +25285,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0048,
-   "p50": 0.2959,
+   "p50": 0.2799,
    "p90": 0.4939,
    "actual": null,
    "curve": 0.1602
@@ -25295,7 +25295,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0001,
-   "p50": 0.4571,
+   "p50": 0.4535,
    "p90": 0.7533,
    "actual": null,
    "curve": 0.0334
@@ -25305,7 +25305,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0902,
-   "p50": 0.4957,
+   "p50": 0.4021,
    "p90": 0.7148,
    "actual": null,
    "curve": 0.2048
@@ -25315,7 +25315,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0308,
-   "p50": 0.4731,
+   "p50": 0.4623,
    "p90": 0.8322,
    "actual": null,
    "curve": 0.1286
@@ -25325,7 +25325,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.1756,
-   "p50": 0.4687,
+   "p50": 0.5579,
    "p90": 0.9701,
    "actual": null,
    "curve": 0.3214
@@ -25335,7 +25335,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.3066,
-   "p50": 0.6073,
+   "p50": 0.6623,
    "p90": 0.9355,
    "actual": null,
    "curve": 0.4479
@@ -25345,7 +25345,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.3974,
-   "p50": 0.8307,
+   "p50": 0.8248,
    "p90": 0.9994,
    "actual": null,
    "curve": 0.5249
@@ -25355,7 +25355,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.3824,
-   "p50": 0.7797,
+   "p50": 0.7831,
    "p90": 0.9801,
    "actual": null,
    "curve": 0.5434
@@ -25365,7 +25365,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.3182,
-   "p50": 0.8222,
+   "p50": 0.7737,
    "p90": 0.98,
    "actual": null,
    "curve": 0.4698
@@ -25375,7 +25375,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.4365,
-   "p50": 0.8485,
+   "p50": 0.8756,
    "p90": 1.0,
    "actual": null,
    "curve": 0.5936
@@ -25385,7 +25385,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.3725,
-   "p50": 0.885,
+   "p50": 0.8455,
    "p90": 0.995,
    "actual": null,
    "curve": 0.5097
@@ -25395,7 +25395,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.4446,
-   "p50": 0.8541,
+   "p50": 0.8259,
    "p90": 1.0,
    "actual": null,
    "curve": 0.6002
@@ -25405,7 +25405,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.3255,
-   "p50": 0.7969,
+   "p50": 0.836,
    "p90": 0.9951,
    "actual": null,
    "curve": 0.5374
@@ -25415,7 +25415,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.3634,
-   "p50": 0.8865,
+   "p50": 0.8201,
    "p90": 0.9532,
    "actual": null,
    "curve": 0.4192
@@ -25425,7 +25425,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.3604,
-   "p50": 0.8129,
+   "p50": 0.8407,
    "p90": 0.986,
    "actual": null,
    "curve": 0.5597
@@ -25435,7 +25435,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.3293,
-   "p50": 0.911,
+   "p50": 0.799,
    "p90": 0.9396,
    "actual": null,
    "curve": 0.2664
@@ -25445,7 +25445,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.3591,
-   "p50": 0.7774,
+   "p50": 0.7427,
    "p90": 0.9798,
    "actual": null,
    "curve": 0.5178
@@ -25455,7 +25455,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.2639,
-   "p50": 0.58,
+   "p50": 0.4754,
    "p90": 0.8879,
    "actual": null,
    "curve": 0.3648
@@ -25465,7 +25465,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.3363,
-   "p50": 0.7172,
+   "p50": 0.6979,
    "p90": 0.9157,
    "actual": null,
    "curve": 0.2798
@@ -25475,7 +25475,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.2731,
-   "p50": 0.5471,
+   "p50": 0.5102,
    "p90": 0.8835,
    "actual": null,
    "curve": 0.3051
@@ -25485,7 +25485,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.3449,
-   "p50": 0.619,
+   "p50": 0.6668,
    "p90": 0.9443,
    "actual": null,
    "curve": 0.4778
@@ -25495,7 +25495,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.2883,
-   "p50": 0.6023,
+   "p50": 0.5866,
    "p90": 0.871,
    "actual": null,
    "curve": 0.2462
@@ -25505,7 +25505,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.2696,
-   "p50": 0.4937,
+   "p50": 0.5804,
    "p90": 0.9514,
    "actual": null,
    "curve": 0.4896
@@ -25515,7 +25515,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.1971,
-   "p50": 0.6428,
+   "p50": 0.6387,
    "p90": 0.9017,
    "actual": null,
    "curve": 0.1974
@@ -25525,7 +25525,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.3508,
+   "p50": 0.3693,
    "p90": 0.9384,
    "actual": null,
    "curve": 0.4095
@@ -25535,7 +25535,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0311,
-   "p50": 0.4839,
+   "p50": 0.4083,
    "p90": 0.8228,
    "actual": null,
    "curve": 0.0985
@@ -25545,7 +25545,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0127,
-   "p50": 0.2349,
+   "p50": 0.2233,
    "p90": 0.6724,
    "actual": null,
    "curve": 0.0438
@@ -25555,7 +25555,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0111,
-   "p50": 0.1272,
+   "p50": 0.0492,
    "p90": 0.5073,
    "actual": null,
    "curve": 0.0205
@@ -25565,7 +25565,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.2144,
+   "p50": 0.1767,
    "p90": 0.7681,
    "actual": null,
    "curve": 0.5759
@@ -25575,7 +25575,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0047,
-   "p50": 0.2533,
+   "p50": 0.3118,
    "p90": 0.8503,
    "actual": null,
    "curve": 0.8467
@@ -25595,7 +25595,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0799,
-   "p50": 0.4194,
+   "p50": 0.4473,
    "p90": 0.77,
    "actual": null,
    "curve": 0.5439
@@ -25605,7 +25605,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.1285,
-   "p50": 0.4316,
+   "p50": 0.4578,
    "p90": 0.8526,
    "actual": null,
    "curve": 0.2532
@@ -25615,7 +25615,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.1073,
-   "p50": 0.5867,
+   "p50": 0.5999,
    "p90": 0.7321,
    "actual": null,
    "curve": 0.0821
@@ -25625,7 +25625,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0798,
-   "p50": 0.3594,
+   "p50": 0.3453,
    "p90": 0.6931,
    "actual": null,
    "curve": 0.2442
@@ -25635,7 +25635,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0404,
-   "p50": 0.4046,
+   "p50": 0.377,
    "p90": 0.6678,
    "actual": null,
    "curve": 0.1284
@@ -25645,7 +25645,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0183,
-   "p50": 0.3045,
+   "p50": 0.3584,
    "p90": 0.7087,
    "actual": null,
    "curve": 0.1262
@@ -25655,7 +25655,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.081,
-   "p50": 0.3556,
+   "p50": 0.4908,
    "p90": 0.7532,
    "actual": null,
    "curve": 0.2369
@@ -25665,7 +25665,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0643,
-   "p50": 0.3387,
+   "p50": 0.5411,
    "p90": 0.81,
    "actual": null,
    "curve": 0.1287
@@ -25675,7 +25675,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.1031,
-   "p50": 0.4908,
+   "p50": 0.4053,
    "p90": 0.841,
    "actual": null,
    "curve": 0.3096
@@ -25685,7 +25685,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.1341,
-   "p50": 0.6224,
+   "p50": 0.7059,
    "p90": 0.9431,
    "actual": null,
    "curve": 0.0973
@@ -25695,7 +25695,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.2522,
-   "p50": 0.662,
+   "p50": 0.6314,
    "p90": 0.9383,
    "actual": null,
    "curve": 0.6844
@@ -25705,7 +25705,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.306,
-   "p50": 0.6695,
+   "p50": 0.7079,
    "p90": 0.9536,
    "actual": null,
    "curve": 0.4699
@@ -25715,7 +25715,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.3168,
-   "p50": 0.7695,
+   "p50": 0.7808,
    "p90": 0.937,
    "actual": null,
    "curve": 0.6679
@@ -25725,7 +25725,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.2579,
-   "p50": 0.7266,
+   "p50": 0.7773,
    "p90": 0.9433,
    "actual": null,
    "curve": 0.6323
@@ -25735,7 +25735,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.2334,
-   "p50": 0.7339,
+   "p50": 0.7576,
    "p90": 0.9176,
    "actual": null,
    "curve": 0.54
@@ -25745,7 +25745,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.2816,
-   "p50": 0.6413,
+   "p50": 0.7242,
    "p90": 0.9228,
    "actual": null,
    "curve": 0.6564
@@ -25755,7 +25755,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.3845,
-   "p50": 0.8255,
+   "p50": 0.8473,
    "p90": 0.9103,
    "actual": null,
    "curve": 0.6104
@@ -25765,7 +25765,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.38,
-   "p50": 0.7425,
+   "p50": 0.7752,
    "p90": 0.9203,
    "actual": null,
    "curve": 0.6237
@@ -25775,7 +25775,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.4216,
-   "p50": 0.6918,
+   "p50": 0.761,
    "p90": 0.9135,
    "actual": null,
    "curve": 0.7092
@@ -25785,7 +25785,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.2487,
-   "p50": 0.6538,
+   "p50": 0.6028,
    "p90": 0.9144,
    "actual": null,
    "curve": 0.4449
@@ -25795,7 +25795,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.4443,
-   "p50": 0.7382,
+   "p50": 0.766,
    "p90": 0.9199,
    "actual": null,
    "curve": 0.7313
@@ -25805,7 +25805,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.4195,
-   "p50": 0.7088,
+   "p50": 0.8123,
    "p90": 0.9186,
    "actual": null,
    "curve": 0.6604
@@ -25815,7 +25815,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.4152,
-   "p50": 0.6842,
+   "p50": 0.7624,
    "p90": 0.9525,
    "actual": null,
    "curve": 0.7092
@@ -25825,7 +25825,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.3501,
-   "p50": 0.7185,
+   "p50": 0.709,
    "p90": 0.9505,
    "actual": null,
    "curve": 0.6965
@@ -25835,7 +25835,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.4482,
-   "p50": 0.7463,
+   "p50": 0.7981,
    "p90": 0.9641,
    "actual": null,
    "curve": 0.835
@@ -25845,7 +25845,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.3232,
-   "p50": 0.6436,
+   "p50": 0.7538,
    "p90": 0.9738,
    "actual": null,
    "curve": 0.8112
@@ -25855,7 +25855,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.3025,
-   "p50": 0.7445,
+   "p50": 0.7266,
    "p90": 0.9388,
    "actual": null,
    "curve": 0.6558
@@ -25865,7 +25865,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.3264,
-   "p50": 0.6465,
+   "p50": 0.7316,
    "p90": 0.9659,
    "actual": null,
    "curve": 0.8136
@@ -25875,7 +25875,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.295,
-   "p50": 0.6394,
+   "p50": 0.7482,
    "p90": 0.9252,
    "actual": null,
    "curve": 0.6917
@@ -25885,7 +25885,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.2884,
-   "p50": 0.6019,
+   "p50": 0.6808,
    "p90": 0.941,
    "actual": null,
    "curve": 0.5931
@@ -25895,7 +25895,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.2344,
-   "p50": 0.5516,
+   "p50": 0.5682,
    "p90": 0.8962,
    "actual": null,
    "curve": 0.6391
@@ -25905,7 +25905,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.1274,
-   "p50": 0.4504,
+   "p50": 0.541,
    "p90": 0.8763,
    "actual": null,
    "curve": 0.5404
@@ -25915,7 +25915,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.1464,
-   "p50": 0.5047,
+   "p50": 0.6011,
    "p90": 0.8587,
    "actual": null,
    "curve": 0.503
@@ -25925,7 +25925,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.1869,
-   "p50": 0.3568,
+   "p50": 0.4186,
    "p90": 0.7909,
    "actual": null,
    "curve": 0.4983
@@ -25935,7 +25935,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.1224,
-   "p50": 0.4162,
+   "p50": 0.4036,
    "p90": 0.8537,
    "actual": null,
    "curve": 0.2477
@@ -25945,7 +25945,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0743,
-   "p50": 0.342,
+   "p50": 0.335,
    "p90": 0.7613,
    "actual": null,
    "curve": 0.5845
@@ -25955,7 +25955,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.1051,
-   "p50": 0.4061,
+   "p50": 0.4161,
    "p90": 0.7894,
    "actual": null,
    "curve": 0.2428
@@ -25965,7 +25965,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.1082,
-   "p50": 0.2427,
+   "p50": 0.3476,
    "p90": 0.8131,
    "actual": null,
    "curve": 0.4655
@@ -25975,7 +25975,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0854,
-   "p50": 0.2654,
+   "p50": 0.2849,
    "p90": 0.7723,
    "actual": null,
    "curve": 0.2436
@@ -25985,7 +25985,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0528,
-   "p50": 0.1837,
+   "p50": 0.2856,
    "p90": 0.7896,
    "actual": null,
    "curve": 0.48
@@ -25995,7 +25995,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0639,
-   "p50": 0.2864,
+   "p50": 0.2861,
    "p90": 0.7475,
    "actual": null,
    "curve": 0.2161
@@ -26005,7 +26005,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.2245,
+   "p50": 0.222,
    "p90": 0.6721,
    "actual": null,
    "curve": 0.416
@@ -26015,7 +26015,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.009,
-   "p50": 0.24,
+   "p50": 0.2171,
    "p90": 0.6164,
    "actual": null,
    "curve": 0.1334
@@ -26025,7 +26025,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0196,
-   "p50": 0.1227,
+   "p50": 0.1391,
    "p90": 0.5055,
    "actual": null,
    "curve": 0.2605
@@ -26035,7 +26035,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0038,
-   "p50": 0.2581,
+   "p50": 0.2889,
    "p90": 0.514,
    "actual": null,
    "curve": 0.1365
@@ -26045,7 +26045,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.1081,
+   "p50": 0.1321,
    "p90": 0.4502,
    "actual": null,
    "curve": 0.1843
@@ -26055,7 +26055,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0008,
-   "p50": 0.2048,
+   "p50": 0.2118,
    "p90": 0.3591,
    "actual": null,
    "curve": 0.142
@@ -26065,7 +26065,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0,
-   "p50": 0.1369,
+   "p50": 0.1598,
    "p90": 0.3768,
    "actual": null,
    "curve": 0.1034
@@ -26075,7 +26075,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0046,
-   "p50": 0.2148,
+   "p50": 0.2135,
    "p90": 0.4062,
    "actual": null,
    "curve": 0.114
@@ -26085,7 +26085,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0178,
-   "p50": 0.1842,
+   "p50": 0.2174,
    "p90": 0.4758,
    "actual": null,
    "curve": 0.2026
@@ -26095,7 +26095,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0395,
-   "p50": 0.3349,
+   "p50": 0.333,
    "p90": 0.654,
    "actual": null,
    "curve": 0.1537
@@ -26105,7 +26105,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0714,
-   "p50": 0.3604,
+   "p50": 0.3534,
    "p90": 0.7511,
    "actual": null,
    "curve": 0.279
@@ -26115,7 +26115,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.1416,
-   "p50": 0.4885,
+   "p50": 0.5152,
    "p90": 0.8319,
    "actual": null,
    "curve": 0.296
@@ -26125,7 +26125,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.102,
-   "p50": 0.3728,
+   "p50": 0.443,
    "p90": 0.8881,
    "actual": null,
    "curve": 0.3044
@@ -26135,7 +26135,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.1135,
-   "p50": 0.4822,
+   "p50": 0.4969,
    "p90": 0.8838,
    "actual": null,
    "curve": 0.3766
@@ -26145,7 +26145,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.1288,
-   "p50": 0.4068,
+   "p50": 0.5054,
    "p90": 0.8766,
    "actual": null,
    "curve": 0.5004
@@ -26155,7 +26155,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.2321,
-   "p50": 0.5451,
+   "p50": 0.522,
    "p90": 0.8749,
    "actual": null,
    "curve": 0.4314
@@ -26165,7 +26165,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.3002,
-   "p50": 0.5836,
+   "p50": 0.6404,
    "p90": 0.9229,
    "actual": null,
    "curve": 0.6244
@@ -26175,7 +26175,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.2906,
-   "p50": 0.6414,
+   "p50": 0.6374,
    "p90": 0.9344,
    "actual": null,
    "curve": 0.3162
@@ -26185,7 +26185,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.3748,
-   "p50": 0.7758,
+   "p50": 0.7531,
    "p90": 0.9546,
    "actual": null,
    "curve": 0.6222
@@ -26195,7 +26195,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.203,
-   "p50": 0.6477,
+   "p50": 0.5914,
    "p90": 0.9212,
    "actual": null,
    "curve": 0.4359
@@ -26205,7 +26205,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.3893,
-   "p50": 0.7728,
+   "p50": 0.8039,
    "p90": 0.977,
    "actual": null,
    "curve": 0.6492
@@ -26215,7 +26215,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.2441,
-   "p50": 0.6265,
+   "p50": 0.6077,
    "p90": 0.9387,
    "actual": null,
    "curve": 0.3671
@@ -26225,7 +26225,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.3765,
-   "p50": 0.6076,
+   "p50": 0.678,
    "p90": 0.9801,
    "actual": null,
    "curve": 0.6113
@@ -26235,7 +26235,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.2591,
-   "p50": 0.6516,
+   "p50": 0.6068,
    "p90": 0.9584,
    "actual": null,
    "curve": 0.5539
@@ -26245,7 +26245,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.3257,
-   "p50": 0.6002,
+   "p50": 0.6182,
    "p90": 0.9713,
    "actual": null,
    "curve": 0.5363
@@ -26255,7 +26255,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.3331,
-   "p50": 0.634,
+   "p50": 0.7018,
    "p90": 0.9885,
    "actual": null,
    "curve": 0.5458
@@ -26265,7 +26265,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.3531,
-   "p50": 0.6773,
+   "p50": 0.7026,
    "p90": 0.9801,
    "actual": null,
    "curve": 0.5338
@@ -26275,7 +26275,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.2883,
-   "p50": 0.5288,
+   "p50": 0.5498,
    "p90": 0.9381,
    "actual": null,
    "curve": 0.4517
@@ -26285,7 +26285,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.2707,
-   "p50": 0.6695,
+   "p50": 0.6869,
    "p90": 0.9941,
    "actual": null,
    "curve": 0.5095
@@ -26295,7 +26295,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.239,
-   "p50": 0.5634,
+   "p50": 0.5952,
    "p90": 0.9465,
    "actual": null,
    "curve": 0.3929
@@ -26305,7 +26305,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.201,
-   "p50": 0.4935,
+   "p50": 0.5386,
    "p90": 0.9305,
    "actual": null,
    "curve": 0.3094
@@ -26315,7 +26315,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.2248,
-   "p50": 0.4883,
+   "p50": 0.4969,
    "p90": 0.8953,
    "actual": null,
    "curve": 0.3559
@@ -26325,7 +26325,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.1852,
-   "p50": 0.3741,
+   "p50": 0.4594,
    "p90": 0.8966,
    "actual": null,
    "curve": 0.3157
@@ -26335,7 +26335,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.2429,
-   "p50": 0.5409,
+   "p50": 0.584,
    "p90": 0.9298,
    "actual": null,
    "curve": 0.4226
@@ -26345,7 +26345,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.2478,
-   "p50": 0.6011,
+   "p50": 0.5512,
    "p90": 0.9041,
    "actual": null,
    "curve": 0.2183
@@ -26355,7 +26355,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.1407,
-   "p50": 0.5476,
+   "p50": 0.4905,
    "p90": 0.9093,
    "actual": null,
    "curve": 0.3561
@@ -26365,7 +26365,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.2771,
-   "p50": 0.5754,
+   "p50": 0.5135,
    "p90": 0.8966,
    "actual": null,
    "curve": 0.2807
@@ -26375,7 +26375,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.3139,
-   "p50": 0.6313,
+   "p50": 0.5999,
    "p90": 0.9177,
    "actual": null,
    "curve": 0.4861
@@ -26385,7 +26385,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.2369,
-   "p50": 0.575,
+   "p50": 0.5413,
    "p90": 0.9378,
    "actual": null,
    "curve": 0.3116
@@ -26395,7 +26395,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.3173,
-   "p50": 0.6939,
+   "p50": 0.7092,
    "p90": 0.9377,
    "actual": null,
    "curve": 0.5088
@@ -26405,7 +26405,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.3055,
-   "p50": 0.6589,
+   "p50": 0.6307,
    "p90": 0.9276,
    "actual": null,
    "curve": 0.4725
@@ -26415,7 +26415,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.3031,
-   "p50": 0.5878,
+   "p50": 0.558,
    "p90": 0.9445,
    "actual": null,
    "curve": 0.5793
@@ -26425,7 +26425,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.2593,
-   "p50": 0.5874,
+   "p50": 0.6145,
    "p90": 0.9509,
    "actual": null,
    "curve": 0.5386
@@ -26435,7 +26435,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.3084,
-   "p50": 0.6175,
+   "p50": 0.5553,
    "p90": 0.935,
    "actual": null,
    "curve": 0.5701
@@ -26445,7 +26445,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.2557,
-   "p50": 0.6164,
+   "p50": 0.5831,
    "p90": 0.9328,
    "actual": null,
    "curve": 0.5209
@@ -26455,7 +26455,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.2826,
-   "p50": 0.657,
+   "p50": 0.5871,
    "p90": 0.9431,
    "actual": null,
    "curve": 0.5549
@@ -26465,7 +26465,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.2793,
-   "p50": 0.6507,
+   "p50": 0.6112,
    "p90": 0.9233,
    "actual": null,
    "curve": 0.5578
@@ -26475,7 +26475,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.2044,
-   "p50": 0.6639,
+   "p50": 0.6063,
    "p90": 0.9399,
    "actual": null,
    "curve": 0.5554
@@ -26485,7 +26485,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.2925,
-   "p50": 0.6773,
+   "p50": 0.6785,
    "p90": 0.9437,
    "actual": null,
    "curve": 0.5327
@@ -26495,7 +26495,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.3154,
-   "p50": 0.7549,
+   "p50": 0.7617,
    "p90": 0.9566,
    "actual": null,
    "curve": 0.6338
@@ -26505,7 +26505,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.3112,
-   "p50": 0.6092,
+   "p50": 0.7754,
    "p90": 0.9569,
    "actual": null,
    "curve": 0.5338
@@ -26515,7 +26515,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.2288,
-   "p50": 0.6704,
+   "p50": 0.5749,
    "p90": 0.9321,
    "actual": null,
    "curve": 0.6072
@@ -26525,7 +26525,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.2908,
-   "p50": 0.5594,
+   "p50": 0.5962,
    "p90": 0.8941,
    "actual": null,
    "curve": 0.5229
@@ -26535,7 +26535,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.2101,
-   "p50": 0.5427,
+   "p50": 0.5685,
    "p90": 0.8843,
    "actual": null,
    "curve": 0.5548
@@ -26545,7 +26545,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.3955,
-   "p50": 0.6218,
+   "p50": 0.8005,
    "p90": 0.9257,
    "actual": null,
    "curve": 0.6259
@@ -26555,7 +26555,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.3061,
-   "p50": 0.5963,
+   "p50": 0.6363,
    "p90": 0.9041,
    "actual": null,
    "curve": 0.6285
@@ -26565,7 +26565,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.3101,
-   "p50": 0.5671,
+   "p50": 0.5995,
    "p90": 0.8989,
    "actual": null,
    "curve": 0.6009
@@ -26575,7 +26575,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.331,
-   "p50": 0.656,
+   "p50": 0.7339,
    "p90": 0.958,
    "actual": null,
    "curve": 0.6424
@@ -26585,7 +26585,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.3036,
-   "p50": 0.5609,
+   "p50": 0.6334,
    "p90": 0.898,
    "actual": null,
    "curve": 0.5906
@@ -26595,7 +26595,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.318,
-   "p50": 0.6775,
+   "p50": 0.7527,
    "p90": 0.9674,
    "actual": null,
    "curve": 0.5797
@@ -26605,7 +26605,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.3886,
-   "p50": 0.7147,
+   "p50": 0.7304,
    "p90": 0.9437,
    "actual": null,
    "curve": 0.5888
@@ -26615,7 +26615,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.3207,
-   "p50": 0.6927,
+   "p50": 0.7087,
    "p90": 0.963,
    "actual": null,
    "curve": 0.5536
@@ -26625,7 +26625,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.3322,
-   "p50": 0.7642,
+   "p50": 0.7483,
    "p90": 0.9589,
    "actual": null,
    "curve": 0.5451
@@ -26635,7 +26635,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.3077,
-   "p50": 0.7283,
+   "p50": 0.7203,
    "p90": 0.9575,
    "actual": null,
    "curve": 0.4811
@@ -26645,7 +26645,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.3203,
-   "p50": 0.7452,
+   "p50": 0.7537,
    "p90": 0.9599,
    "actual": null,
    "curve": 0.5144
@@ -26655,7 +26655,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.2909,
-   "p50": 0.6753,
+   "p50": 0.702,
    "p90": 0.9224,
    "actual": null,
    "curve": 0.4264
@@ -26665,7 +26665,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.1996,
-   "p50": 0.6026,
+   "p50": 0.628,
    "p90": 0.9258,
    "actual": null,
    "curve": 0.3176
@@ -26675,7 +26675,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.2176,
-   "p50": 0.5904,
+   "p50": 0.6277,
    "p90": 0.9046,
    "actual": null,
    "curve": 0.3942
@@ -26685,7 +26685,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.1957,
-   "p50": 0.5597,
+   "p50": 0.5794,
    "p90": 0.8794,
    "actual": null,
    "curve": 0.2959
@@ -26695,7 +26695,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.1929,
-   "p50": 0.5477,
+   "p50": 0.72,
    "p90": 0.8949,
    "actual": null,
    "curve": 0.3289
@@ -26705,7 +26705,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.1444,
-   "p50": 0.4874,
+   "p50": 0.4825,
    "p90": 0.8432,
    "actual": null,
    "curve": 0.2672
@@ -26715,7 +26715,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0507,
-   "p50": 0.2688,
+   "p50": 0.4068,
    "p90": 0.6687,
    "actual": null,
    "curve": 0.169
@@ -26725,7 +26725,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0412,
-   "p50": 0.3071,
+   "p50": 0.4023,
    "p90": 0.6221,
    "actual": null,
    "curve": 0.1519
@@ -26735,7 +26735,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.026,
-   "p50": 0.2448,
+   "p50": 0.3172,
    "p90": 0.5092,
    "actual": null,
    "curve": 0.1172
@@ -26745,7 +26745,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0273,
-   "p50": 0.2784,
+   "p50": 0.2955,
    "p90": 0.5191,
    "actual": null,
    "curve": 0.1171
@@ -26755,7 +26755,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0266,
-   "p50": 0.3168,
+   "p50": 0.3353,
    "p90": 0.5611,
    "actual": null,
    "curve": 0.1297
@@ -26765,7 +26765,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0245,
-   "p50": 0.3087,
+   "p50": 0.2498,
    "p90": 0.441,
    "actual": null,
    "curve": 0.098
@@ -26775,7 +26775,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.015,
-   "p50": 0.3053,
+   "p50": 0.3124,
    "p90": 0.3438,
    "actual": null,
    "curve": 0.0782
@@ -26785,7 +26785,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0134,
-   "p50": 0.179,
+   "p50": 0.2224,
    "p90": 0.3103,
    "actual": null,
    "curve": 0.0962
@@ -26795,7 +26795,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0146,
-   "p50": 0.1961,
+   "p50": 0.238,
    "p90": 0.2752,
    "actual": null,
    "curve": 0.0449
@@ -26805,7 +26805,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0026,
-   "p50": 0.1438,
+   "p50": 0.1858,
    "p90": 0.267,
    "actual": null,
    "curve": 0.0865
@@ -26815,7 +26815,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.1349,
+   "p50": 0.1086,
    "p90": 0.2084,
    "actual": null,
    "curve": 0.0395
@@ -26825,7 +26825,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0013,
-   "p50": 0.1203,
+   "p50": 0.2003,
    "p90": 0.2515,
    "actual": null,
    "curve": 0.0607
@@ -26835,7 +26835,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0026,
-   "p50": 0.1756,
+   "p50": 0.1916,
    "p90": 0.2373,
    "actual": null,
    "curve": 0.0319
@@ -26845,7 +26845,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0071,
-   "p50": 0.126,
+   "p50": 0.1514,
    "p90": 0.2292,
    "actual": null,
    "curve": 0.036
@@ -26855,7 +26855,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0035,
-   "p50": 0.1128,
+   "p50": 0.1935,
    "p90": 0.2325,
    "actual": null,
    "curve": 0.0339
@@ -26865,7 +26865,7 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0041,
-   "p50": 0.134,
+   "p50": 0.146,
    "p90": 0.2234,
    "actual": null,
    "curve": 0.0374
@@ -26875,8 +26875,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 24,
    "p10": 0.0,
-   "p50": 0.0862,
-   "p90": 0.1698,
+   "p50": 0.1698,
+   "p90": 0.1772,
    "actual": null,
    "curve": 0.0221
   },
@@ -26885,8 +26885,8 @@ window.DASHBOARD_DATA = {
    "turbine": "T2",
    "lead_h": 48,
    "p10": 0.0023,
-   "p50": 0.0885,
-   "p90": 0.1376,
+   "p50": 0.1376,
+   "p90": 0.138,
    "actual": null,
    "curve": 0.0325
   }
@@ -26895,10 +26895,10 @@ window.DASHBOARD_DATA = {
   {
    "model": "наше решение",
    "lead_h": 24,
-   "nmae": 0.1608,
-   "nrmse": 0.2187,
-   "bias": 0.0396,
-   "skill": 0.5799
+   "nmae": 0.156,
+   "nrmse": 0.2153,
+   "bias": 0.0351,
+   "skill": 0.5926
   },
   {
    "model": "кривая мощности",
@@ -26935,10 +26935,10 @@ window.DASHBOARD_DATA = {
   {
    "model": "наше решение",
    "lead_h": 48,
-   "nmae": 0.1616,
-   "nrmse": 0.22,
-   "bias": 0.0399,
-   "skill": 0.5796
+   "nmae": 0.1562,
+   "nrmse": 0.2158,
+   "bias": 0.0321,
+   "skill": 0.5939
   },
   {
    "model": "кривая мощности",
@@ -26975,1216 +26975,1216 @@ window.DASHBOARD_DATA = {
  ],
  "agent_log": [
   {
-   "ts": "2026-09-23T09:27:42+00:00",
+   "ts": "2026-09-23T09:40:15+00:00",
    "step": "collect",
    "status": "ok",
    "text": "архив прогнозов: 48 часов на 2026-02-01 — 2026-02-02, горизонты [24, 48] ч",
-   "duration_ms": 92
+   "duration_ms": 90
   },
   {
-   "ts": "2026-09-23T09:27:42+00:00",
+   "ts": "2026-09-23T09:40:15+00:00",
    "step": "prepare",
    "status": "ok",
    "text": "ряд принят: 48 часов, ветер 1.5–9.0 м/с",
-   "duration_ms": 0
+   "duration_ms": 1
   },
   {
-   "ts": "2026-09-23T09:27:42+00:00",
+   "ts": "2026-09-23T09:40:15+00:00",
    "step": "decide",
    "status": "ok",
    "text": "первый прогон за сессию",
    "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T09:27:42+00:00",
+   "ts": "2026-09-23T09:40:15+00:00",
    "step": "forecast",
    "status": "ok",
    "text": "посчитано 96 строк, средняя мощность 0.41 от номинала, коридор P10–P90 шириной 0.63",
-   "duration_ms": 30
+   "duration_ms": 33
   },
   {
-   "ts": "2026-09-23T09:27:42+00:00",
+   "ts": "2026-09-23T09:40:15+00:00",
    "step": "reflect",
    "status": "ok",
-   "text": "смещение за неделю: T1 -0.018, T2 -0.019",
-   "duration_ms": 38
+   "text": "смещение за 14 сут до 30.01: T1 -0.047±0.011, сдвигаю медиану на -0.024; T2 -0.048±0.011, сдвигаю медиану на -0.024",
+   "duration_ms": 42
   },
   {
-   "ts": "2026-09-23T09:27:42+00:00",
+   "ts": "2026-09-23T09:40:15+00:00",
    "step": "verify",
    "status": "ok",
-   "text": "проверка на 14 днях до 2026-01-31: nRMSE 0.218, скилл к персистентности +0.65, чистая кривая дала 0.229",
-   "duration_ms": 68
+   "text": "проверка на 14 днях до 2026-01-31: nRMSE 0.212, скилл к персистентности +0.66, чистая кривая дала 0.229",
+   "duration_ms": 72
   },
   {
-   "ts": "2026-09-23T09:27:42+00:00",
+   "ts": "2026-09-23T09:40:15+00:00",
    "step": "explain",
    "status": "fallback",
-   "text": "Сутки 01.02 00:00 — 01.02 23:00: средняя выработка 0.31 от номинала, размах 0.00–0.55. Ветер 1.5–9.0 м/с, часов на полке 0, почти без выработки 6. Коридор P10–P90 шириной 0.63 — это и есть мера риска.",
+   "text": "Сутки 01.02 00:00 — 01.02 23:00: средняя выработка 0.30 от номинала, размах 0.00–0.53. Ветер 1.5–9.0 м/с, часов на полке 0, почти без выработки 10. Коридор P10–P90 шириной 0.64 — это и есть мера риска.",
    "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T09:27:42+00:00",
+   "ts": "2026-09-23T09:40:15+00:00",
    "step": "collect",
    "status": "ok",
    "text": "архив прогнозов: 48 часов на 2026-02-02 — 2026-02-03, горизонты [24, 48] ч",
-   "duration_ms": 109
+   "duration_ms": 85
   },
   {
-   "ts": "2026-09-23T09:27:42+00:00",
+   "ts": "2026-09-23T09:40:15+00:00",
    "step": "prepare",
    "status": "ok",
    "text": "ряд принят: 48 часов, ветер 1.4–8.3 м/с",
-   "duration_ms": 1
+   "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T09:27:42+00:00",
+   "ts": "2026-09-23T09:40:15+00:00",
    "step": "decide",
    "status": "ok",
    "text": "новый прогон погоды, ветер почти тот же (0.8 м/с)",
    "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T09:27:42+00:00",
+   "ts": "2026-09-23T09:40:15+00:00",
    "step": "forecast",
    "status": "ok",
    "text": "посчитано 96 строк, средняя мощность 0.40 от номинала, коридор P10–P90 шириной 0.55",
-   "duration_ms": 29
+   "duration_ms": 34
   },
   {
-   "ts": "2026-09-23T09:27:42+00:00",
+   "ts": "2026-09-23T09:40:15+00:00",
    "step": "reflect",
    "status": "ok",
-   "text": "смещение за неделю: T1 -0.020, T2 -0.010",
-   "duration_ms": 40
+   "text": "смещение за 14 сут до 31.01: T1 -0.040±0.011, сдвигаю медиану на -0.020; T2 -0.039±0.011, сдвигаю медиану на -0.020",
+   "duration_ms": 42
   },
   {
-   "ts": "2026-09-23T09:27:42+00:00",
+   "ts": "2026-09-23T09:40:15+00:00",
    "step": "verify",
    "status": "ok",
-   "text": "проверка на 14 днях до 2026-01-31: nRMSE 0.217, скилл к персистентности +0.64, чистая кривая дала 0.236",
-   "duration_ms": 73
+   "text": "проверка на 14 днях до 2026-01-31: nRMSE 0.210, скилл к персистентности +0.66, чистая кривая дала 0.236",
+   "duration_ms": 67
   },
   {
-   "ts": "2026-09-23T09:27:42+00:00",
+   "ts": "2026-09-23T09:40:15+00:00",
    "step": "collect",
    "status": "ok",
    "text": "архив прогнозов: 48 часов на 2026-02-03 — 2026-02-04, горизонты [24, 48] ч",
-   "duration_ms": 89
+   "duration_ms": 91
   },
   {
-   "ts": "2026-09-23T09:27:42+00:00",
+   "ts": "2026-09-23T09:40:15+00:00",
    "step": "prepare",
    "status": "ok",
    "text": "ряд принят: 48 часов, ветер 0.7–9.7 м/с",
-   "duration_ms": 0
+   "duration_ms": 1
   },
   {
-   "ts": "2026-09-23T09:27:42+00:00",
+   "ts": "2026-09-23T09:40:15+00:00",
    "step": "decide",
    "status": "ok",
    "text": "новый прогон погоды, ветер почти тот же (0.9 м/с)",
    "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T09:27:43+00:00",
+   "ts": "2026-09-23T09:40:15+00:00",
    "step": "forecast",
    "status": "ok",
-   "text": "посчитано 96 строк, средняя мощность 0.40 от номинала, коридор P10–P90 шириной 0.52",
-   "duration_ms": 27
+   "text": "посчитано 96 строк, средняя мощность 0.42 от номинала, коридор P10–P90 шириной 0.52",
+   "duration_ms": 35
   },
   {
-   "ts": "2026-09-23T09:27:43+00:00",
+   "ts": "2026-09-23T09:40:15+00:00",
    "step": "reflect",
    "status": "ok",
-   "text": "смещение за неделю: T1 -0.020, T2 -0.010",
-   "duration_ms": 36
+   "text": "смещение за 14 сут до 31.01: T1 -0.040±0.011, сдвигаю медиану на -0.020; T2 -0.039±0.011, сдвигаю медиану на -0.020",
+   "duration_ms": 51
   },
   {
-   "ts": "2026-09-23T09:27:43+00:00",
+   "ts": "2026-09-23T09:40:15+00:00",
    "step": "verify",
    "status": "ok",
-   "text": "проверка на 14 днях до 2026-01-31: nRMSE 0.217, скилл к персистентности +0.64, чистая кривая дала 0.236",
-   "duration_ms": 68
+   "text": "проверка на 14 днях до 2026-01-31: nRMSE 0.210, скилл к персистентности +0.66, чистая кривая дала 0.236",
+   "duration_ms": 75
   },
   {
-   "ts": "2026-09-23T09:27:43+00:00",
+   "ts": "2026-09-23T09:40:15+00:00",
    "step": "collect",
    "status": "ok",
    "text": "архив прогнозов: 48 часов на 2026-02-04 — 2026-02-05, горизонты [24, 48] ч",
-   "duration_ms": 93
+   "duration_ms": 91
   },
   {
-   "ts": "2026-09-23T09:27:43+00:00",
+   "ts": "2026-09-23T09:40:15+00:00",
    "step": "prepare",
    "status": "ok",
    "text": "ряд принят: 48 часов, ветер 1.7–12.6 м/с",
    "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T09:27:43+00:00",
+   "ts": "2026-09-23T09:40:15+00:00",
    "step": "decide",
    "status": "ok",
    "text": "новый прогон погоды, ветер почти тот же (0.8 м/с)",
    "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T09:27:43+00:00",
+   "ts": "2026-09-23T09:40:15+00:00",
    "step": "forecast",
    "status": "ok",
-   "text": "посчитано 96 строк, средняя мощность 0.66 от номинала, коридор P10–P90 шириной 0.48",
-   "duration_ms": 28
+   "text": "посчитано 96 строк, средняя мощность 0.65 от номинала, коридор P10–P90 шириной 0.48",
+   "duration_ms": 33
   },
   {
-   "ts": "2026-09-23T09:27:43+00:00",
+   "ts": "2026-09-23T09:40:15+00:00",
    "step": "reflect",
    "status": "ok",
-   "text": "смещение за неделю: T1 -0.020, T2 -0.010",
-   "duration_ms": 34
+   "text": "смещение за 14 сут до 31.01: T1 -0.040±0.011, сдвигаю медиану на -0.020; T2 -0.039±0.011, сдвигаю медиану на -0.020",
+   "duration_ms": 45
   },
   {
-   "ts": "2026-09-23T09:27:43+00:00",
+   "ts": "2026-09-23T09:40:15+00:00",
    "step": "verify",
    "status": "ok",
-   "text": "проверка на 14 днях до 2026-01-31: nRMSE 0.217, скилл к персистентности +0.64, чистая кривая дала 0.236",
-   "duration_ms": 66
+   "text": "проверка на 14 днях до 2026-01-31: nRMSE 0.210, скилл к персистентности +0.66, чистая кривая дала 0.236",
+   "duration_ms": 72
   },
   {
-   "ts": "2026-09-23T09:27:43+00:00",
+   "ts": "2026-09-23T09:40:16+00:00",
    "step": "collect",
    "status": "ok",
    "text": "архив прогнозов: 48 часов на 2026-02-05 — 2026-02-06, горизонты [24, 48] ч",
-   "duration_ms": 94
+   "duration_ms": 91
   },
   {
-   "ts": "2026-09-23T09:27:43+00:00",
+   "ts": "2026-09-23T09:40:16+00:00",
    "step": "prepare",
    "status": "ok",
    "text": "ряд принят: 48 часов, ветер 3.0–14.2 м/с",
    "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T09:27:43+00:00",
+   "ts": "2026-09-23T09:40:16+00:00",
    "step": "decide",
    "status": "ok",
    "text": "новый прогон погоды, ветер почти тот же (0.4 м/с)",
    "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T09:27:43+00:00",
+   "ts": "2026-09-23T09:40:16+00:00",
    "step": "forecast",
    "status": "ok",
    "text": "посчитано 96 строк, средняя мощность 0.77 от номинала, коридор P10–P90 шириной 0.40",
-   "duration_ms": 28
+   "duration_ms": 31
   },
   {
-   "ts": "2026-09-23T09:27:43+00:00",
+   "ts": "2026-09-23T09:40:16+00:00",
    "step": "reflect",
    "status": "ok",
-   "text": "смещение за неделю: T1 -0.020, T2 -0.010",
-   "duration_ms": 35
+   "text": "смещение за 14 сут до 31.01: T1 -0.040±0.011, сдвигаю медиану на -0.020; T2 -0.039±0.011, сдвигаю медиану на -0.020",
+   "duration_ms": 38
   },
   {
-   "ts": "2026-09-23T09:27:43+00:00",
+   "ts": "2026-09-23T09:40:16+00:00",
    "step": "verify",
    "status": "ok",
-   "text": "проверка на 14 днях до 2026-01-31: nRMSE 0.217, скилл к персистентности +0.64, чистая кривая дала 0.236",
-   "duration_ms": 61
+   "text": "проверка на 14 днях до 2026-01-31: nRMSE 0.210, скилл к персистентности +0.66, чистая кривая дала 0.236",
+   "duration_ms": 76
   },
   {
-   "ts": "2026-09-23T09:27:43+00:00",
+   "ts": "2026-09-23T09:40:16+00:00",
    "step": "collect",
    "status": "ok",
    "text": "архив прогнозов: 48 часов на 2026-02-06 — 2026-02-07, горизонты [24, 48] ч",
-   "duration_ms": 85
+   "duration_ms": 91
   },
   {
-   "ts": "2026-09-23T09:27:43+00:00",
+   "ts": "2026-09-23T09:40:16+00:00",
    "step": "prepare",
    "status": "ok",
    "text": "ряд принят: 48 часов, ветер 0.9–16.0 м/с",
    "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T09:27:43+00:00",
+   "ts": "2026-09-23T09:40:16+00:00",
    "step": "decide",
    "status": "ok",
    "text": "новый прогон погоды, ветер сдвинулся на 2.6 м/с",
    "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T09:27:43+00:00",
+   "ts": "2026-09-23T09:40:16+00:00",
    "step": "forecast",
    "status": "ok",
-   "text": "посчитано 96 строк, средняя мощность 0.50 от номинала, коридор P10–P90 шириной 0.42",
-   "duration_ms": 26
+   "text": "посчитано 96 строк, средняя мощность 0.49 от номинала, коридор P10–P90 шириной 0.42",
+   "duration_ms": 33
   },
   {
-   "ts": "2026-09-23T09:27:43+00:00",
+   "ts": "2026-09-23T09:40:16+00:00",
    "step": "reflect",
    "status": "ok",
-   "text": "смещение за неделю: T1 -0.020, T2 -0.010",
-   "duration_ms": 37
+   "text": "смещение за 14 сут до 31.01: T1 -0.040±0.011, сдвигаю медиану на -0.020; T2 -0.039±0.011, сдвигаю медиану на -0.020",
+   "duration_ms": 41
   },
   {
-   "ts": "2026-09-23T09:27:43+00:00",
+   "ts": "2026-09-23T09:40:16+00:00",
    "step": "verify",
    "status": "ok",
-   "text": "проверка на 14 днях до 2026-01-31: nRMSE 0.217, скилл к персистентности +0.64, чистая кривая дала 0.236",
-   "duration_ms": 62
+   "text": "проверка на 14 днях до 2026-01-31: nRMSE 0.210, скилл к персистентности +0.66, чистая кривая дала 0.236",
+   "duration_ms": 66
   },
   {
-   "ts": "2026-09-23T09:27:43+00:00",
+   "ts": "2026-09-23T09:40:16+00:00",
    "step": "collect",
    "status": "ok",
    "text": "архив прогнозов: 48 часов на 2026-02-07 — 2026-02-08, горизонты [24, 48] ч",
-   "duration_ms": 83
+   "duration_ms": 94
   },
   {
-   "ts": "2026-09-23T09:27:43+00:00",
+   "ts": "2026-09-23T09:40:16+00:00",
    "step": "prepare",
    "status": "ok",
    "text": "ряд принят: 48 часов, ветер 0.6–12.4 м/с",
-   "duration_ms": 0
+   "duration_ms": 1
   },
   {
-   "ts": "2026-09-23T09:27:43+00:00",
+   "ts": "2026-09-23T09:40:16+00:00",
    "step": "decide",
    "status": "ok",
    "text": "новый прогон погоды, ветер сдвинулся на 1.2 м/с",
    "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T09:27:43+00:00",
+   "ts": "2026-09-23T09:40:16+00:00",
    "step": "forecast",
    "status": "ok",
-   "text": "посчитано 96 строк, средняя мощность 0.54 от номинала, коридор P10–P90 шириной 0.39",
-   "duration_ms": 26
+   "text": "посчитано 96 строк, средняя мощность 0.53 от номинала, коридор P10–P90 шириной 0.39",
+   "duration_ms": 39
   },
   {
-   "ts": "2026-09-23T09:27:43+00:00",
+   "ts": "2026-09-23T09:40:16+00:00",
    "step": "reflect",
    "status": "ok",
-   "text": "смещение за неделю: T1 -0.020, T2 -0.010",
-   "duration_ms": 36
+   "text": "смещение за 14 сут до 31.01: T1 -0.040±0.011, сдвигаю медиану на -0.020; T2 -0.039±0.011, сдвигаю медиану на -0.020",
+   "duration_ms": 51
   },
   {
-   "ts": "2026-09-23T09:27:44+00:00",
+   "ts": "2026-09-23T09:40:16+00:00",
    "step": "verify",
    "status": "ok",
-   "text": "проверка на 14 днях до 2026-01-31: nRMSE 0.217, скилл к персистентности +0.64, чистая кривая дала 0.236",
-   "duration_ms": 58
+   "text": "проверка на 14 днях до 2026-01-31: nRMSE 0.210, скилл к персистентности +0.66, чистая кривая дала 0.236",
+   "duration_ms": 88
   },
   {
-   "ts": "2026-09-23T09:27:44+00:00",
+   "ts": "2026-09-23T09:40:16+00:00",
    "step": "collect",
    "status": "ok",
    "text": "архив прогнозов: 48 часов на 2026-02-08 — 2026-02-09, горизонты [24, 48] ч",
-   "duration_ms": 85
+   "duration_ms": 91
   },
   {
-   "ts": "2026-09-23T09:27:44+00:00",
+   "ts": "2026-09-23T09:40:16+00:00",
    "step": "prepare",
    "status": "ok",
    "text": "ряд принят: 48 часов, ветер 0.7–12.4 м/с",
    "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T09:27:44+00:00",
+   "ts": "2026-09-23T09:40:16+00:00",
    "step": "decide",
    "status": "ok",
    "text": "новый прогон погоды, ветер почти тот же (0.5 м/с)",
    "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T09:27:44+00:00",
+   "ts": "2026-09-23T09:40:16+00:00",
    "step": "forecast",
    "status": "ok",
-   "text": "посчитано 96 строк, средняя мощность 0.66 от номинала, коридор P10–P90 шириной 0.36",
-   "duration_ms": 26
-  },
-  {
-   "ts": "2026-09-23T09:27:44+00:00",
-   "step": "reflect",
-   "status": "ok",
-   "text": "смещение за неделю: T1 -0.020, T2 -0.010",
+   "text": "посчитано 96 строк, средняя мощность 0.68 от номинала, коридор P10–P90 шириной 0.36",
    "duration_ms": 32
   },
   {
-   "ts": "2026-09-23T09:27:44+00:00",
-   "step": "verify",
+   "ts": "2026-09-23T09:40:16+00:00",
+   "step": "reflect",
    "status": "ok",
-   "text": "проверка на 14 днях до 2026-01-31: nRMSE 0.217, скилл к персистентности +0.64, чистая кривая дала 0.236",
-   "duration_ms": 63
+   "text": "смещение за 14 сут до 31.01: T1 -0.040±0.011, сдвигаю медиану на -0.020; T2 -0.039±0.011, сдвигаю медиану на -0.020",
+   "duration_ms": 43
   },
   {
-   "ts": "2026-09-23T09:27:44+00:00",
+   "ts": "2026-09-23T09:40:16+00:00",
+   "step": "verify",
+   "status": "ok",
+   "text": "проверка на 14 днях до 2026-01-31: nRMSE 0.210, скилл к персистентности +0.66, чистая кривая дала 0.236",
+   "duration_ms": 67
+  },
+  {
+   "ts": "2026-09-23T09:40:16+00:00",
    "step": "explain",
    "status": "fallback",
-   "text": "Сутки 08.02 00:00 — 08.02 23:00: средняя выработка 0.65 от номинала, размах 0.04–0.99. Ветер 0.7–12.4 м/с, часов на полке 24, почти без выработки 7. Коридор P10–P90 шириной 0.34 — это и есть мера риска.",
+   "text": "Сутки 08.02 00:00 — 08.02 23:00: средняя выработка 0.65 от номинала, размах 0.07–0.98. Ветер 0.7–12.4 м/с, часов на полке 26, почти без выработки 6. Коридор P10–P90 шириной 0.34 — это и есть мера риска.",
    "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T09:27:44+00:00",
+   "ts": "2026-09-23T09:40:17+00:00",
    "step": "collect",
    "status": "ok",
    "text": "архив прогнозов: 48 часов на 2026-02-09 — 2026-02-10, горизонты [24, 48] ч",
-   "duration_ms": 82
+   "duration_ms": 93
   },
   {
-   "ts": "2026-09-23T09:27:44+00:00",
+   "ts": "2026-09-23T09:40:17+00:00",
    "step": "prepare",
    "status": "ok",
    "text": "ряд принят: 48 часов, ветер 1.9–12.2 м/с",
-   "duration_ms": 0
+   "duration_ms": 1
   },
   {
-   "ts": "2026-09-23T09:27:44+00:00",
+   "ts": "2026-09-23T09:40:17+00:00",
    "step": "decide",
    "status": "ok",
    "text": "новый прогон погоды, ветер сдвинулся на 1.1 м/с",
    "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T09:27:44+00:00",
+   "ts": "2026-09-23T09:40:17+00:00",
    "step": "forecast",
    "status": "ok",
-   "text": "посчитано 96 строк, средняя мощность 0.53 от номинала, коридор P10–P90 шириной 0.47",
-   "duration_ms": 25
+   "text": "посчитано 96 строк, средняя мощность 0.56 от номинала, коридор P10–P90 шириной 0.47",
+   "duration_ms": 36
   },
   {
-   "ts": "2026-09-23T09:27:44+00:00",
+   "ts": "2026-09-23T09:40:17+00:00",
    "step": "reflect",
    "status": "ok",
-   "text": "смещение за неделю: T1 -0.020, T2 -0.010",
-   "duration_ms": 33
+   "text": "смещение за 14 сут до 31.01: T1 -0.040±0.011, сдвигаю медиану на -0.020; T2 -0.039±0.011, сдвигаю медиану на -0.020",
+   "duration_ms": 37
   },
   {
-   "ts": "2026-09-23T09:27:44+00:00",
+   "ts": "2026-09-23T09:40:17+00:00",
    "step": "verify",
    "status": "ok",
-   "text": "проверка на 14 днях до 2026-01-31: nRMSE 0.217, скилл к персистентности +0.64, чистая кривая дала 0.236",
-   "duration_ms": 61
+   "text": "проверка на 14 днях до 2026-01-31: nRMSE 0.210, скилл к персистентности +0.66, чистая кривая дала 0.236",
+   "duration_ms": 70
   },
   {
-   "ts": "2026-09-23T09:27:44+00:00",
+   "ts": "2026-09-23T09:40:17+00:00",
    "step": "collect",
    "status": "ok",
    "text": "архив прогнозов: 48 часов на 2026-02-10 — 2026-02-11, горизонты [24, 48] ч",
-   "duration_ms": 82
+   "duration_ms": 100
   },
   {
-   "ts": "2026-09-23T09:27:44+00:00",
+   "ts": "2026-09-23T09:40:17+00:00",
    "step": "prepare",
    "status": "ok",
    "text": "ряд принят: 48 часов, ветер 1.2–13.2 м/с",
    "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T09:27:44+00:00",
+   "ts": "2026-09-23T09:40:17+00:00",
    "step": "decide",
    "status": "ok",
    "text": "новый прогон погоды, ветер сдвинулся на 1.1 м/с",
    "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T09:27:44+00:00",
+   "ts": "2026-09-23T09:40:17+00:00",
    "step": "forecast",
    "status": "ok",
    "text": "посчитано 96 строк, средняя мощность 0.56 от номинала, коридор P10–P90 шириной 0.50",
-   "duration_ms": 27
+   "duration_ms": 44
   },
   {
-   "ts": "2026-09-23T09:27:44+00:00",
+   "ts": "2026-09-23T09:40:17+00:00",
    "step": "reflect",
    "status": "ok",
-   "text": "смещение за неделю: T1 -0.020, T2 -0.010",
-   "duration_ms": 35
+   "text": "смещение за 14 сут до 31.01: T1 -0.040±0.011, сдвигаю медиану на -0.020; T2 -0.039±0.011, сдвигаю медиану на -0.020",
+   "duration_ms": 51
   },
   {
-   "ts": "2026-09-23T09:27:44+00:00",
+   "ts": "2026-09-23T09:40:17+00:00",
    "step": "verify",
    "status": "ok",
-   "text": "проверка на 14 днях до 2026-01-31: nRMSE 0.217, скилл к персистентности +0.64, чистая кривая дала 0.236",
-   "duration_ms": 62
+   "text": "проверка на 14 днях до 2026-01-31: nRMSE 0.210, скилл к персистентности +0.66, чистая кривая дала 0.236",
+   "duration_ms": 85
   },
   {
-   "ts": "2026-09-23T09:27:44+00:00",
+   "ts": "2026-09-23T09:40:17+00:00",
    "step": "collect",
    "status": "ok",
    "text": "архив прогнозов: 48 часов на 2026-02-11 — 2026-02-12, горизонты [24, 48] ч",
-   "duration_ms": 82
+   "duration_ms": 96
   },
   {
-   "ts": "2026-09-23T09:27:44+00:00",
+   "ts": "2026-09-23T09:40:17+00:00",
    "step": "prepare",
    "status": "ok",
    "text": "ряд принят: 48 часов, ветер 0.9–12.3 м/с",
    "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T09:27:44+00:00",
+   "ts": "2026-09-23T09:40:17+00:00",
    "step": "decide",
    "status": "ok",
    "text": "новый прогон погоды, ветер сдвинулся на 1.0 м/с",
    "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T09:27:44+00:00",
+   "ts": "2026-09-23T09:40:17+00:00",
    "step": "forecast",
    "status": "ok",
-   "text": "посчитано 96 строк, средняя мощность 0.33 от номинала, коридор P10–P90 шириной 0.39",
-   "duration_ms": 27
+   "text": "посчитано 96 строк, средняя мощность 0.34 от номинала, коридор P10–P90 шириной 0.39",
+   "duration_ms": 37
   },
   {
-   "ts": "2026-09-23T09:27:44+00:00",
+   "ts": "2026-09-23T09:40:17+00:00",
    "step": "reflect",
    "status": "ok",
-   "text": "смещение за неделю: T1 -0.020, T2 -0.010",
-   "duration_ms": 34
+   "text": "смещение за 14 сут до 31.01: T1 -0.040±0.011, сдвигаю медиану на -0.020; T2 -0.039±0.011, сдвигаю медиану на -0.020",
+   "duration_ms": 69
   },
   {
-   "ts": "2026-09-23T09:27:44+00:00",
+   "ts": "2026-09-23T09:40:17+00:00",
    "step": "verify",
    "status": "ok",
-   "text": "проверка на 14 днях до 2026-01-31: nRMSE 0.217, скилл к персистентности +0.64, чистая кривая дала 0.236",
-   "duration_ms": 61
+   "text": "проверка на 14 днях до 2026-01-31: nRMSE 0.210, скилл к персистентности +0.66, чистая кривая дала 0.236",
+   "duration_ms": 94
   },
   {
-   "ts": "2026-09-23T09:27:44+00:00",
+   "ts": "2026-09-23T09:40:17+00:00",
    "step": "collect",
    "status": "ok",
    "text": "архив прогнозов: 48 часов на 2026-02-12 — 2026-02-13, горизонты [24, 48] ч",
-   "duration_ms": 79
+   "duration_ms": 91
   },
   {
-   "ts": "2026-09-23T09:27:44+00:00",
+   "ts": "2026-09-23T09:40:17+00:00",
    "step": "prepare",
    "status": "ok",
    "text": "ряд принят: 48 часов, ветер 0.7–7.2 м/с",
-   "duration_ms": 0
+   "duration_ms": 1
   },
   {
-   "ts": "2026-09-23T09:27:44+00:00",
+   "ts": "2026-09-23T09:40:17+00:00",
    "step": "decide",
    "status": "ok",
    "text": "новый прогон погоды, ветер почти тот же (0.9 м/с)",
    "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T09:27:44+00:00",
+   "ts": "2026-09-23T09:40:17+00:00",
    "step": "forecast",
    "status": "ok",
    "text": "посчитано 96 строк, средняя мощность 0.14 от номинала, коридор P10–P90 шириной 0.25",
-   "duration_ms": 26
+   "duration_ms": 29
   },
   {
-   "ts": "2026-09-23T09:27:44+00:00",
+   "ts": "2026-09-23T09:40:17+00:00",
    "step": "reflect",
    "status": "ok",
-   "text": "смещение за неделю: T1 -0.020, T2 -0.010",
-   "duration_ms": 34
+   "text": "смещение за 14 сут до 31.01: T1 -0.040±0.011, сдвигаю медиану на -0.020; T2 -0.039±0.011, сдвигаю медиану на -0.020",
+   "duration_ms": 45
   },
   {
-   "ts": "2026-09-23T09:27:45+00:00",
+   "ts": "2026-09-23T09:40:18+00:00",
    "step": "verify",
    "status": "ok",
-   "text": "проверка на 14 днях до 2026-01-31: nRMSE 0.217, скилл к персистентности +0.64, чистая кривая дала 0.236",
-   "duration_ms": 92
+   "text": "проверка на 14 днях до 2026-01-31: nRMSE 0.210, скилл к персистентности +0.66, чистая кривая дала 0.236",
+   "duration_ms": 91
   },
   {
-   "ts": "2026-09-23T09:27:45+00:00",
+   "ts": "2026-09-23T09:40:18+00:00",
    "step": "collect",
    "status": "ok",
    "text": "архив прогнозов: 48 часов на 2026-02-13 — 2026-02-14, горизонты [24, 48] ч",
-   "duration_ms": 80
+   "duration_ms": 93
   },
   {
-   "ts": "2026-09-23T09:27:45+00:00",
+   "ts": "2026-09-23T09:40:18+00:00",
    "step": "prepare",
    "status": "ok",
    "text": "ряд принят: 48 часов, ветер 0.7–8.0 м/с",
-   "duration_ms": 0
+   "duration_ms": 1
   },
   {
-   "ts": "2026-09-23T09:27:45+00:00",
+   "ts": "2026-09-23T09:40:18+00:00",
    "step": "decide",
    "status": "ok",
    "text": "новый прогон погоды, ветер сдвинулся на 1.1 м/с",
    "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T09:27:45+00:00",
+   "ts": "2026-09-23T09:40:18+00:00",
    "step": "forecast",
    "status": "ok",
    "text": "посчитано 96 строк, средняя мощность 0.24 от номинала, коридор P10–P90 шириной 0.36",
-   "duration_ms": 27
+   "duration_ms": 83
   },
   {
-   "ts": "2026-09-23T09:27:45+00:00",
+   "ts": "2026-09-23T09:40:18+00:00",
    "step": "reflect",
    "status": "ok",
-   "text": "смещение за неделю: T1 -0.020, T2 -0.010",
-   "duration_ms": 36
+   "text": "смещение за 14 сут до 31.01: T1 -0.040±0.011, сдвигаю медиану на -0.020; T2 -0.039±0.011, сдвигаю медиану на -0.020",
+   "duration_ms": 49
   },
   {
-   "ts": "2026-09-23T09:27:45+00:00",
+   "ts": "2026-09-23T09:40:18+00:00",
    "step": "verify",
    "status": "ok",
-   "text": "проверка на 14 днях до 2026-01-31: nRMSE 0.217, скилл к персистентности +0.64, чистая кривая дала 0.236",
-   "duration_ms": 59
+   "text": "проверка на 14 днях до 2026-01-31: nRMSE 0.210, скилл к персистентности +0.66, чистая кривая дала 0.236",
+   "duration_ms": 71
   },
   {
-   "ts": "2026-09-23T09:27:45+00:00",
+   "ts": "2026-09-23T09:40:18+00:00",
    "step": "collect",
    "status": "ok",
    "text": "архив прогнозов: 48 часов на 2026-02-14 — 2026-02-15, горизонты [24, 48] ч",
-   "duration_ms": 82
+   "duration_ms": 73
   },
   {
-   "ts": "2026-09-23T09:27:45+00:00",
+   "ts": "2026-09-23T09:40:18+00:00",
    "step": "prepare",
    "status": "ok",
    "text": "ряд принят: 48 часов, ветер 0.4–9.8 м/с",
-   "duration_ms": 0
+   "duration_ms": 1
   },
   {
-   "ts": "2026-09-23T09:27:45+00:00",
+   "ts": "2026-09-23T09:40:18+00:00",
    "step": "decide",
    "status": "ok",
    "text": "новый прогон погоды, ветер сдвинулся на 1.9 м/с",
    "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T09:27:45+00:00",
+   "ts": "2026-09-23T09:40:18+00:00",
    "step": "forecast",
    "status": "ok",
-   "text": "посчитано 96 строк, средняя мощность 0.40 от номинала, коридор P10–P90 шириной 0.38",
-   "duration_ms": 27
+   "text": "посчитано 96 строк, средняя мощность 0.39 от номинала, коридор P10–P90 шириной 0.38",
+   "duration_ms": 39
   },
   {
-   "ts": "2026-09-23T09:27:45+00:00",
+   "ts": "2026-09-23T09:40:18+00:00",
    "step": "reflect",
    "status": "ok",
-   "text": "смещение за неделю: T1 -0.020, T2 -0.010",
-   "duration_ms": 35
+   "text": "смещение за 14 сут до 31.01: T1 -0.040±0.011, сдвигаю медиану на -0.020; T2 -0.039±0.011, сдвигаю медиану на -0.020",
+   "duration_ms": 37
   },
   {
-   "ts": "2026-09-23T09:27:45+00:00",
+   "ts": "2026-09-23T09:40:18+00:00",
    "step": "verify",
    "status": "ok",
-   "text": "проверка на 14 днях до 2026-01-31: nRMSE 0.217, скилл к персистентности +0.64, чистая кривая дала 0.236",
-   "duration_ms": 58
+   "text": "проверка на 14 днях до 2026-01-31: nRMSE 0.210, скилл к персистентности +0.66, чистая кривая дала 0.236",
+   "duration_ms": 61
   },
   {
-   "ts": "2026-09-23T09:27:45+00:00",
+   "ts": "2026-09-23T09:40:18+00:00",
    "step": "collect",
    "status": "ok",
    "text": "архив прогнозов: 48 часов на 2026-02-15 — 2026-02-16, горизонты [24, 48] ч",
-   "duration_ms": 82
+   "duration_ms": 76
   },
   {
-   "ts": "2026-09-23T09:27:45+00:00",
+   "ts": "2026-09-23T09:40:18+00:00",
    "step": "prepare",
    "status": "ok",
    "text": "ряд принят: 48 часов, ветер 3.3–9.8 м/с",
-   "duration_ms": 0
+   "duration_ms": 1
   },
   {
-   "ts": "2026-09-23T09:27:45+00:00",
+   "ts": "2026-09-23T09:40:18+00:00",
    "step": "decide",
    "status": "ok",
    "text": "новый прогон погоды, ветер почти тот же (0.5 м/с)",
    "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T09:27:45+00:00",
+   "ts": "2026-09-23T09:40:18+00:00",
    "step": "forecast",
    "status": "ok",
-   "text": "посчитано 96 строк, средняя мощность 0.67 от номинала, коридор P10–P90 шириной 0.62",
-   "duration_ms": 28
+   "text": "посчитано 96 строк, средняя мощность 0.68 от номинала, коридор P10–P90 шириной 0.62",
+   "duration_ms": 37
   },
   {
-   "ts": "2026-09-23T09:27:45+00:00",
+   "ts": "2026-09-23T09:40:18+00:00",
    "step": "reflect",
    "status": "ok",
-   "text": "смещение за неделю: T1 -0.020, T2 -0.010",
-   "duration_ms": 35
+   "text": "смещение за 14 сут до 31.01: T1 -0.040±0.011, сдвигаю медиану на -0.020; T2 -0.039±0.011, сдвигаю медиану на -0.020",
+   "duration_ms": 41
   },
   {
-   "ts": "2026-09-23T09:27:45+00:00",
+   "ts": "2026-09-23T09:40:18+00:00",
    "step": "verify",
    "status": "ok",
-   "text": "проверка на 14 днях до 2026-01-31: nRMSE 0.217, скилл к персистентности +0.64, чистая кривая дала 0.236",
-   "duration_ms": 60
+   "text": "проверка на 14 днях до 2026-01-31: nRMSE 0.210, скилл к персистентности +0.66, чистая кривая дала 0.236",
+   "duration_ms": 69
   },
   {
-   "ts": "2026-09-23T09:27:45+00:00",
+   "ts": "2026-09-23T09:40:18+00:00",
    "step": "explain",
    "status": "fallback",
-   "text": "Сутки 15.02 00:00 — 15.02 23:00: средняя выработка 0.68 от номинала, размах 0.11–0.96. Ветер 3.3–9.8 м/с, часов на полке 20, почти без выработки 0. Коридор P10–P90 шириной 0.55 — это и есть мера риска.",
+   "text": "Сутки 15.02 00:00 — 15.02 23:00: средняя выработка 0.69 от номинала, размах 0.08–0.97. Ветер 3.3–9.8 м/с, часов на полке 19, почти без выработки 2. Коридор P10–P90 шириной 0.55 — это и есть мера риска.",
    "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T09:27:45+00:00",
+   "ts": "2026-09-23T09:40:18+00:00",
    "step": "collect",
    "status": "ok",
    "text": "архив прогнозов: 48 часов на 2026-02-16 — 2026-02-17, горизонты [24, 48] ч",
-   "duration_ms": 84
+   "duration_ms": 78
   },
   {
-   "ts": "2026-09-23T09:27:45+00:00",
+   "ts": "2026-09-23T09:40:18+00:00",
    "step": "prepare",
    "status": "ok",
    "text": "ряд принят: 48 часов, ветер 3.4–9.4 м/с",
-   "duration_ms": 0
+   "duration_ms": 1
   },
   {
-   "ts": "2026-09-23T09:27:45+00:00",
+   "ts": "2026-09-23T09:40:18+00:00",
    "step": "decide",
    "status": "ok",
    "text": "новый прогон погоды, ветер почти тот же (0.9 м/с)",
    "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T09:27:45+00:00",
+   "ts": "2026-09-23T09:40:18+00:00",
    "step": "forecast",
    "status": "ok",
-   "text": "посчитано 96 строк, средняя мощность 0.62 от номинала, коридор P10–P90 шириной 0.64",
-   "duration_ms": 30
+   "text": "посчитано 96 строк, средняя мощность 0.61 от номинала, коридор P10–P90 шириной 0.64",
+   "duration_ms": 39
   },
   {
-   "ts": "2026-09-23T09:27:45+00:00",
+   "ts": "2026-09-23T09:40:18+00:00",
    "step": "reflect",
    "status": "ok",
-   "text": "смещение за неделю: T1 -0.020, T2 -0.010",
-   "duration_ms": 36
+   "text": "смещение за 14 сут до 31.01: T1 -0.040±0.011, сдвигаю медиану на -0.020; T2 -0.039±0.011, сдвигаю медиану на -0.020",
+   "duration_ms": 43
   },
   {
-   "ts": "2026-09-23T09:27:45+00:00",
+   "ts": "2026-09-23T09:40:19+00:00",
    "step": "verify",
    "status": "ok",
-   "text": "проверка на 14 днях до 2026-01-31: nRMSE 0.217, скилл к персистентности +0.64, чистая кривая дала 0.236",
-   "duration_ms": 62
+   "text": "проверка на 14 днях до 2026-01-31: nRMSE 0.210, скилл к персистентности +0.66, чистая кривая дала 0.236",
+   "duration_ms": 71
   },
   {
-   "ts": "2026-09-23T09:27:45+00:00",
+   "ts": "2026-09-23T09:40:19+00:00",
    "step": "collect",
    "status": "ok",
    "text": "архив прогнозов: 48 часов на 2026-02-17 — 2026-02-18, горизонты [24, 48] ч",
-   "duration_ms": 78
+   "duration_ms": 79
   },
   {
-   "ts": "2026-09-23T09:27:45+00:00",
+   "ts": "2026-09-23T09:40:19+00:00",
    "step": "prepare",
    "status": "ok",
    "text": "ряд принят: 48 часов, ветер 2.1–11.3 м/с",
-   "duration_ms": 0
+   "duration_ms": 1
   },
   {
-   "ts": "2026-09-23T09:27:46+00:00",
+   "ts": "2026-09-23T09:40:19+00:00",
    "step": "decide",
    "status": "ok",
    "text": "новый прогон погоды, ветер почти тот же (1.0 м/с)",
    "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T09:27:46+00:00",
+   "ts": "2026-09-23T09:40:19+00:00",
    "step": "forecast",
    "status": "ok",
    "text": "посчитано 96 строк, средняя мощность 0.66 от номинала, коридор P10–P90 шириной 0.54",
-   "duration_ms": 29
+   "duration_ms": 40
   },
   {
-   "ts": "2026-09-23T09:27:46+00:00",
+   "ts": "2026-09-23T09:40:19+00:00",
    "step": "reflect",
    "status": "ok",
-   "text": "смещение за неделю: T1 -0.020, T2 -0.010",
-   "duration_ms": 36
+   "text": "смещение за 14 сут до 31.01: T1 -0.040±0.011, сдвигаю медиану на -0.020; T2 -0.039±0.011, сдвигаю медиану на -0.020",
+   "duration_ms": 44
   },
   {
-   "ts": "2026-09-23T09:27:46+00:00",
+   "ts": "2026-09-23T09:40:19+00:00",
    "step": "verify",
    "status": "ok",
-   "text": "проверка на 14 днях до 2026-01-31: nRMSE 0.217, скилл к персистентности +0.64, чистая кривая дала 0.236",
-   "duration_ms": 58
+   "text": "проверка на 14 днях до 2026-01-31: nRMSE 0.210, скилл к персистентности +0.66, чистая кривая дала 0.236",
+   "duration_ms": 75
   },
   {
-   "ts": "2026-09-23T09:27:46+00:00",
+   "ts": "2026-09-23T09:40:19+00:00",
    "step": "collect",
    "status": "ok",
    "text": "архив прогнозов: 48 часов на 2026-02-18 — 2026-02-19, горизонты [24, 48] ч",
-   "duration_ms": 86
+   "duration_ms": 84
   },
   {
-   "ts": "2026-09-23T09:27:46+00:00",
+   "ts": "2026-09-23T09:40:19+00:00",
    "step": "prepare",
    "status": "ok",
    "text": "ряд принят: 48 часов, ветер 0.7–11.4 м/с",
-   "duration_ms": 0
+   "duration_ms": 1
   },
   {
-   "ts": "2026-09-23T09:27:46+00:00",
+   "ts": "2026-09-23T09:40:19+00:00",
    "step": "decide",
    "status": "ok",
    "text": "новый прогон погоды, ветер почти тот же (0.7 м/с)",
    "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T09:27:46+00:00",
+   "ts": "2026-09-23T09:40:19+00:00",
    "step": "forecast",
    "status": "ok",
-   "text": "посчитано 96 строк, средняя мощность 0.60 от номинала, коридор P10–P90 шириной 0.50",
-   "duration_ms": 26
+   "text": "посчитано 96 строк, средняя мощность 0.61 от номинала, коридор P10–P90 шириной 0.50",
+   "duration_ms": 46
   },
   {
-   "ts": "2026-09-23T09:27:46+00:00",
+   "ts": "2026-09-23T09:40:19+00:00",
    "step": "reflect",
    "status": "ok",
-   "text": "смещение за неделю: T1 -0.020, T2 -0.010",
-   "duration_ms": 35
+   "text": "смещение за 14 сут до 31.01: T1 -0.040±0.011, сдвигаю медиану на -0.020; T2 -0.039±0.011, сдвигаю медиану на -0.020",
+   "duration_ms": 45
   },
   {
-   "ts": "2026-09-23T09:27:46+00:00",
+   "ts": "2026-09-23T09:40:19+00:00",
    "step": "verify",
    "status": "ok",
-   "text": "проверка на 14 днях до 2026-01-31: nRMSE 0.217, скилл к персистентности +0.64, чистая кривая дала 0.236",
-   "duration_ms": 61
+   "text": "проверка на 14 днях до 2026-01-31: nRMSE 0.210, скилл к персистентности +0.66, чистая кривая дала 0.236",
+   "duration_ms": 73
   },
   {
-   "ts": "2026-09-23T09:27:46+00:00",
+   "ts": "2026-09-23T09:40:19+00:00",
    "step": "collect",
    "status": "ok",
    "text": "архив прогнозов: 48 часов на 2026-02-19 — 2026-02-20, горизонты [24, 48] ч",
-   "duration_ms": 77
+   "duration_ms": 92
   },
   {
-   "ts": "2026-09-23T09:27:46+00:00",
+   "ts": "2026-09-23T09:40:19+00:00",
    "step": "prepare",
    "status": "ok",
    "text": "ряд принят: 48 часов, ветер 1.2–8.3 м/с",
-   "duration_ms": 0
+   "duration_ms": 1
   },
   {
-   "ts": "2026-09-23T09:27:46+00:00",
+   "ts": "2026-09-23T09:40:19+00:00",
    "step": "decide",
    "status": "ok",
    "text": "новый прогон погоды, ветер сдвинулся на 1.2 м/с",
    "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T09:27:46+00:00",
+   "ts": "2026-09-23T09:40:19+00:00",
    "step": "forecast",
    "status": "ok",
-   "text": "посчитано 96 строк, средняя мощность 0.40 от номинала, коридор P10–P90 шириной 0.56",
-   "duration_ms": 29
+   "text": "посчитано 96 строк, средняя мощность 0.41 от номинала, коридор P10–P90 шириной 0.56",
+   "duration_ms": 43
   },
   {
-   "ts": "2026-09-23T09:27:46+00:00",
+   "ts": "2026-09-23T09:40:19+00:00",
    "step": "reflect",
    "status": "ok",
-   "text": "смещение за неделю: T1 -0.020, T2 -0.010",
-   "duration_ms": 35
+   "text": "смещение за 14 сут до 31.01: T1 -0.040±0.011, сдвигаю медиану на -0.020; T2 -0.039±0.011, сдвигаю медиану на -0.020",
+   "duration_ms": 45
   },
   {
-   "ts": "2026-09-23T09:27:46+00:00",
+   "ts": "2026-09-23T09:40:19+00:00",
    "step": "verify",
    "status": "ok",
-   "text": "проверка на 14 днях до 2026-01-31: nRMSE 0.217, скилл к персистентности +0.64, чистая кривая дала 0.236",
-   "duration_ms": 63
+   "text": "проверка на 14 днях до 2026-01-31: nRMSE 0.210, скилл к персистентности +0.66, чистая кривая дала 0.236",
+   "duration_ms": 70
   },
   {
-   "ts": "2026-09-23T09:27:46+00:00",
+   "ts": "2026-09-23T09:40:19+00:00",
    "step": "collect",
    "status": "ok",
    "text": "архив прогнозов: 48 часов на 2026-02-20 — 2026-02-21, горизонты [24, 48] ч",
-   "duration_ms": 79
+   "duration_ms": 80
   },
   {
-   "ts": "2026-09-23T09:27:46+00:00",
+   "ts": "2026-09-23T09:40:19+00:00",
    "step": "prepare",
    "status": "ok",
    "text": "ряд принят: 48 часов, ветер 1.0–12.2 м/с",
    "duration_ms": 1
   },
   {
-   "ts": "2026-09-23T09:27:46+00:00",
+   "ts": "2026-09-23T09:40:19+00:00",
    "step": "decide",
    "status": "ok",
    "text": "новый прогон погоды, ветер сдвинулся на 1.2 м/с",
    "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T09:27:46+00:00",
+   "ts": "2026-09-23T09:40:19+00:00",
    "step": "forecast",
    "status": "ok",
    "text": "посчитано 96 строк, средняя мощность 0.51 от номинала, коридор P10–P90 шириной 0.66",
-   "duration_ms": 32
+   "duration_ms": 43
   },
   {
-   "ts": "2026-09-23T09:27:46+00:00",
+   "ts": "2026-09-23T09:40:19+00:00",
    "step": "reflect",
    "status": "ok",
-   "text": "смещение за неделю: T1 -0.020, T2 -0.010",
-   "duration_ms": 36
+   "text": "смещение за 14 сут до 31.01: T1 -0.040±0.011, сдвигаю медиану на -0.020; T2 -0.039±0.011, сдвигаю медиану на -0.020",
+   "duration_ms": 46
   },
   {
-   "ts": "2026-09-23T09:27:46+00:00",
+   "ts": "2026-09-23T09:40:20+00:00",
    "step": "verify",
    "status": "ok",
-   "text": "проверка на 14 днях до 2026-01-31: nRMSE 0.217, скилл к персистентности +0.64, чистая кривая дала 0.236",
-   "duration_ms": 61
+   "text": "проверка на 14 днях до 2026-01-31: nRMSE 0.210, скилл к персистентности +0.66, чистая кривая дала 0.236",
+   "duration_ms": 76
   },
   {
-   "ts": "2026-09-23T09:27:46+00:00",
+   "ts": "2026-09-23T09:40:20+00:00",
    "step": "collect",
    "status": "ok",
    "text": "архив прогнозов: 48 часов на 2026-02-21 — 2026-02-22, горизонты [24, 48] ч",
-   "duration_ms": 80
+   "duration_ms": 84
   },
   {
-   "ts": "2026-09-23T09:27:46+00:00",
+   "ts": "2026-09-23T09:40:20+00:00",
    "step": "prepare",
    "status": "ok",
    "text": "ряд принят: 48 часов, ветер 0.5–13.1 м/с",
-   "duration_ms": 0
+   "duration_ms": 1
   },
   {
-   "ts": "2026-09-23T09:27:46+00:00",
+   "ts": "2026-09-23T09:40:20+00:00",
    "step": "decide",
    "status": "ok",
    "text": "новый прогон погоды, ветер сдвинулся на 1.8 м/с",
    "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T09:27:46+00:00",
+   "ts": "2026-09-23T09:40:20+00:00",
    "step": "forecast",
    "status": "ok",
    "text": "посчитано 96 строк, средняя мощность 0.43 от номинала, коридор P10–P90 шириной 0.52",
-   "duration_ms": 28
+   "duration_ms": 43
   },
   {
-   "ts": "2026-09-23T09:27:46+00:00",
+   "ts": "2026-09-23T09:40:20+00:00",
    "step": "reflect",
    "status": "ok",
-   "text": "смещение за неделю: T1 -0.020, T2 -0.010",
-   "duration_ms": 38
+   "text": "смещение за 14 сут до 31.01: T1 -0.040±0.011, сдвигаю медиану на -0.020; T2 -0.039±0.011, сдвигаю медиану на -0.020",
+   "duration_ms": 46
   },
   {
-   "ts": "2026-09-23T09:27:46+00:00",
+   "ts": "2026-09-23T09:40:20+00:00",
    "step": "verify",
    "status": "ok",
-   "text": "проверка на 14 днях до 2026-01-31: nRMSE 0.217, скилл к персистентности +0.64, чистая кривая дала 0.236",
-   "duration_ms": 62
+   "text": "проверка на 14 днях до 2026-01-31: nRMSE 0.210, скилл к персистентности +0.66, чистая кривая дала 0.236",
+   "duration_ms": 69
   },
   {
-   "ts": "2026-09-23T09:27:47+00:00",
+   "ts": "2026-09-23T09:40:20+00:00",
    "step": "collect",
    "status": "ok",
    "text": "архив прогнозов: 48 часов на 2026-02-22 — 2026-02-23, горизонты [24, 48] ч",
-   "duration_ms": 77
+   "duration_ms": 81
   },
   {
-   "ts": "2026-09-23T09:27:47+00:00",
+   "ts": "2026-09-23T09:40:20+00:00",
    "step": "prepare",
    "status": "ok",
    "text": "ряд принят: 48 часов, ветер 0.5–10.5 м/с",
-   "duration_ms": 0
+   "duration_ms": 1
   },
   {
-   "ts": "2026-09-23T09:27:47+00:00",
+   "ts": "2026-09-23T09:40:20+00:00",
    "step": "decide",
    "status": "ok",
    "text": "новый прогон погоды, ветер сдвинулся на 1.3 м/с",
    "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T09:27:47+00:00",
+   "ts": "2026-09-23T09:40:20+00:00",
    "step": "forecast",
    "status": "ok",
-   "text": "посчитано 96 строк, средняя мощность 0.44 от номинала, коридор P10–P90 шириной 0.39",
-   "duration_ms": 32
+   "text": "посчитано 96 строк, средняя мощность 0.46 от номинала, коридор P10–P90 шириной 0.39",
+   "duration_ms": 38
   },
   {
-   "ts": "2026-09-23T09:27:47+00:00",
+   "ts": "2026-09-23T09:40:20+00:00",
    "step": "reflect",
    "status": "ok",
-   "text": "смещение за неделю: T1 -0.020, T2 -0.010",
-   "duration_ms": 37
+   "text": "смещение за 14 сут до 31.01: T1 -0.040±0.011, сдвигаю медиану на -0.020; T2 -0.039±0.011, сдвигаю медиану на -0.020",
+   "duration_ms": 39
   },
   {
-   "ts": "2026-09-23T09:27:47+00:00",
+   "ts": "2026-09-23T09:40:20+00:00",
    "step": "verify",
    "status": "ok",
-   "text": "проверка на 14 днях до 2026-01-31: nRMSE 0.217, скилл к персистентности +0.64, чистая кривая дала 0.236",
+   "text": "проверка на 14 днях до 2026-01-31: nRMSE 0.210, скилл к персистентности +0.66, чистая кривая дала 0.236",
    "duration_ms": 63
   },
   {
-   "ts": "2026-09-23T09:27:47+00:00",
+   "ts": "2026-09-23T09:40:20+00:00",
    "step": "explain",
    "status": "fallback",
-   "text": "Сутки 22.02 00:00 — 22.02 23:00: средняя выработка 0.36 от номинала, размах 0.00–0.88. Ветер 0.5–10.5 м/с, часов на полке 5, почти без выработки 21. Коридор P10–P90 шириной 0.36 — это и есть мера риска.",
+   "text": "Сутки 22.02 00:00 — 22.02 23:00: средняя выработка 0.39 от номинала, размах 0.00–0.98. Ветер 0.5–10.5 м/с, часов на полке 9, почти без выработки 13. Коридор P10–P90 шириной 0.37 — это и есть мера риска.",
    "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T09:27:47+00:00",
+   "ts": "2026-09-23T09:40:20+00:00",
    "step": "collect",
    "status": "ok",
    "text": "архив прогнозов: 48 часов на 2026-02-23 — 2026-02-24, горизонты [24, 48] ч",
-   "duration_ms": 84
+   "duration_ms": 81
   },
   {
-   "ts": "2026-09-23T09:27:47+00:00",
+   "ts": "2026-09-23T09:40:20+00:00",
    "step": "prepare",
    "status": "ok",
    "text": "ряд принят: 48 часов, ветер 0.8–11.2 м/с",
-   "duration_ms": 0
+   "duration_ms": 1
   },
   {
-   "ts": "2026-09-23T09:27:47+00:00",
+   "ts": "2026-09-23T09:40:20+00:00",
    "step": "decide",
    "status": "ok",
    "text": "новый прогон погоды, ветер почти тот же (0.9 м/с)",
    "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T09:27:47+00:00",
+   "ts": "2026-09-23T09:40:20+00:00",
    "step": "forecast",
    "status": "ok",
-   "text": "посчитано 96 строк, средняя мощность 0.45 от номинала, коридор P10–P90 шириной 0.44",
-   "duration_ms": 27
+   "text": "посчитано 96 строк, средняя мощность 0.47 от номинала, коридор P10–P90 шириной 0.44",
+   "duration_ms": 40
   },
   {
-   "ts": "2026-09-23T09:27:47+00:00",
+   "ts": "2026-09-23T09:40:20+00:00",
    "step": "reflect",
    "status": "ok",
-   "text": "смещение за неделю: T1 -0.020, T2 -0.010",
-   "duration_ms": 35
+   "text": "смещение за 14 сут до 31.01: T1 -0.040±0.011, сдвигаю медиану на -0.020; T2 -0.039±0.011, сдвигаю медиану на -0.020",
+   "duration_ms": 41
   },
   {
-   "ts": "2026-09-23T09:27:47+00:00",
+   "ts": "2026-09-23T09:40:20+00:00",
    "step": "verify",
    "status": "ok",
-   "text": "проверка на 14 днях до 2026-01-31: nRMSE 0.217, скилл к персистентности +0.64, чистая кривая дала 0.236",
-   "duration_ms": 62
+   "text": "проверка на 14 днях до 2026-01-31: nRMSE 0.210, скилл к персистентности +0.66, чистая кривая дала 0.236",
+   "duration_ms": 69
   },
   {
-   "ts": "2026-09-23T09:27:47+00:00",
+   "ts": "2026-09-23T09:40:20+00:00",
    "step": "collect",
    "status": "ok",
    "text": "архив прогнозов: 48 часов на 2026-02-24 — 2026-02-25, горизонты [24, 48] ч",
-   "duration_ms": 78
+   "duration_ms": 87
   },
   {
-   "ts": "2026-09-23T09:27:47+00:00",
+   "ts": "2026-09-23T09:40:20+00:00",
    "step": "prepare",
    "status": "ok",
    "text": "ряд принят: 48 часов, ветер 1.3–7.5 м/с",
    "duration_ms": 1
   },
   {
-   "ts": "2026-09-23T09:27:47+00:00",
+   "ts": "2026-09-23T09:40:20+00:00",
    "step": "decide",
    "status": "ok",
    "text": "новый прогон погоды, ветер сдвинулся на 1.1 м/с",
    "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T09:27:47+00:00",
+   "ts": "2026-09-23T09:40:20+00:00",
    "step": "forecast",
    "status": "ok",
-   "text": "посчитано 96 строк, средняя мощность 0.41 от номинала, коридор P10–P90 шириной 0.59",
-   "duration_ms": 28
+   "text": "посчитано 96 строк, средняя мощность 0.40 от номинала, коридор P10–P90 шириной 0.59",
+   "duration_ms": 52
   },
   {
-   "ts": "2026-09-23T09:27:47+00:00",
+   "ts": "2026-09-23T09:40:20+00:00",
    "step": "reflect",
    "status": "ok",
-   "text": "смещение за неделю: T1 -0.020, T2 -0.010",
-   "duration_ms": 37
+   "text": "смещение за 14 сут до 31.01: T1 -0.040±0.011, сдвигаю медиану на -0.020; T2 -0.039±0.011, сдвигаю медиану на -0.020",
+   "duration_ms": 44
   },
   {
-   "ts": "2026-09-23T09:27:47+00:00",
+   "ts": "2026-09-23T09:40:21+00:00",
    "step": "verify",
    "status": "ok",
-   "text": "проверка на 14 днях до 2026-01-31: nRMSE 0.217, скилл к персистентности +0.64, чистая кривая дала 0.236",
-   "duration_ms": 62
+   "text": "проверка на 14 днях до 2026-01-31: nRMSE 0.210, скилл к персистентности +0.66, чистая кривая дала 0.236",
+   "duration_ms": 76
   },
   {
-   "ts": "2026-09-23T09:27:47+00:00",
+   "ts": "2026-09-23T09:40:21+00:00",
    "step": "collect",
    "status": "ok",
    "text": "архив прогнозов: 48 часов на 2026-02-25 — 2026-02-26, горизонты [24, 48] ч",
    "duration_ms": 77
   },
   {
-   "ts": "2026-09-23T09:27:47+00:00",
+   "ts": "2026-09-23T09:40:21+00:00",
    "step": "prepare",
    "status": "ok",
    "text": "ряд принят: 48 часов, ветер 0.7–9.4 м/с",
-   "duration_ms": 0
+   "duration_ms": 1
   },
   {
-   "ts": "2026-09-23T09:27:47+00:00",
+   "ts": "2026-09-23T09:40:21+00:00",
    "step": "decide",
    "status": "ok",
    "text": "новый прогон погоды, ветер сдвинулся на 2.5 м/с",
    "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T09:27:47+00:00",
+   "ts": "2026-09-23T09:40:21+00:00",
    "step": "forecast",
    "status": "ok",
-   "text": "посчитано 96 строк, средняя мощность 0.39 от номинала, коридор P10–P90 шириной 0.47",
-   "duration_ms": 27
+   "text": "посчитано 96 строк, средняя мощность 0.41 от номинала, коридор P10–P90 шириной 0.47",
+   "duration_ms": 40
   },
   {
-   "ts": "2026-09-23T09:27:47+00:00",
+   "ts": "2026-09-23T09:40:21+00:00",
    "step": "reflect",
    "status": "ok",
-   "text": "смещение за неделю: T1 -0.020, T2 -0.010",
-   "duration_ms": 38
+   "text": "смещение за 14 сут до 31.01: T1 -0.040±0.011, сдвигаю медиану на -0.020; T2 -0.039±0.011, сдвигаю медиану на -0.020",
+   "duration_ms": 48
   },
   {
-   "ts": "2026-09-23T09:27:47+00:00",
+   "ts": "2026-09-23T09:40:21+00:00",
    "step": "verify",
    "status": "ok",
-   "text": "проверка на 14 днях до 2026-01-31: nRMSE 0.217, скилл к персистентности +0.64, чистая кривая дала 0.236",
-   "duration_ms": 60
+   "text": "проверка на 14 днях до 2026-01-31: nRMSE 0.210, скилл к персистентности +0.66, чистая кривая дала 0.236",
+   "duration_ms": 74
   },
   {
-   "ts": "2026-09-23T09:27:47+00:00",
+   "ts": "2026-09-23T09:40:21+00:00",
    "step": "collect",
    "status": "ok",
    "text": "архив прогнозов: 48 часов на 2026-02-26 — 2026-02-27, горизонты [24, 48] ч",
-   "duration_ms": 78
+   "duration_ms": 72
   },
   {
-   "ts": "2026-09-23T09:27:47+00:00",
+   "ts": "2026-09-23T09:40:21+00:00",
    "step": "prepare",
    "status": "ok",
    "text": "ряд принят: 48 часов, ветер 2.2–9.4 м/с",
-   "duration_ms": 1
+   "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T09:27:47+00:00",
+   "ts": "2026-09-23T09:40:21+00:00",
    "step": "decide",
    "status": "ok",
    "text": "новый прогон погоды, ветер сдвинулся на 1.2 м/с",
    "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T09:27:47+00:00",
+   "ts": "2026-09-23T09:40:21+00:00",
    "step": "forecast",
    "status": "ok",
-   "text": "посчитано 96 строк, средняя мощность 0.55 от номинала, коридор P10–P90 шириной 0.66",
-   "duration_ms": 29
+   "text": "посчитано 96 строк, средняя мощность 0.56 от номинала, коридор P10–P90 шириной 0.66",
+   "duration_ms": 40
   },
   {
-   "ts": "2026-09-23T09:27:47+00:00",
+   "ts": "2026-09-23T09:40:21+00:00",
    "step": "reflect",
    "status": "ok",
-   "text": "смещение за неделю: T1 -0.020, T2 -0.010",
-   "duration_ms": 34
+   "text": "смещение за 14 сут до 31.01: T1 -0.040±0.011, сдвигаю медиану на -0.020; T2 -0.039±0.011, сдвигаю медиану на -0.020",
+   "duration_ms": 47
   },
   {
-   "ts": "2026-09-23T09:27:48+00:00",
+   "ts": "2026-09-23T09:40:21+00:00",
    "step": "verify",
    "status": "ok",
-   "text": "проверка на 14 днях до 2026-01-31: nRMSE 0.217, скилл к персистентности +0.64, чистая кривая дала 0.236",
-   "duration_ms": 63
+   "text": "проверка на 14 днях до 2026-01-31: nRMSE 0.210, скилл к персистентности +0.66, чистая кривая дала 0.236",
+   "duration_ms": 79
   },
   {
-   "ts": "2026-09-23T09:27:48+00:00",
+   "ts": "2026-09-23T09:40:21+00:00",
    "step": "collect",
    "status": "ok",
    "text": "архив прогнозов: 48 часов на 2026-02-27 — 2026-02-28, горизонты [24, 48] ч",
-   "duration_ms": 74
+   "duration_ms": 67
   },
   {
-   "ts": "2026-09-23T09:27:48+00:00",
+   "ts": "2026-09-23T09:40:21+00:00",
    "step": "prepare",
    "status": "ok",
    "text": "ряд принят: 48 часов, ветер 2.3–8.0 м/с",
    "duration_ms": 1
   },
   {
-   "ts": "2026-09-23T09:27:48+00:00",
+   "ts": "2026-09-23T09:40:21+00:00",
    "step": "decide",
    "status": "ok",
    "text": "новый прогон погоды, ветер почти тот же (0.9 м/с)",
    "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T09:27:48+00:00",
+   "ts": "2026-09-23T09:40:21+00:00",
    "step": "forecast",
    "status": "ok",
-   "text": "посчитано 96 строк, средняя мощность 0.45 от номинала, коридор P10–P90 шириной 0.60",
-   "duration_ms": 30
+   "text": "посчитано 96 строк, средняя мощность 0.47 от номинала, коридор P10–P90 шириной 0.60",
+   "duration_ms": 40
   },
   {
-   "ts": "2026-09-23T09:27:48+00:00",
+   "ts": "2026-09-23T09:40:21+00:00",
    "step": "reflect",
    "status": "ok",
-   "text": "смещение за неделю: T1 -0.020, T2 -0.010",
-   "duration_ms": 35
+   "text": "смещение за 14 сут до 31.01: T1 -0.040±0.011, сдвигаю медиану на -0.020; T2 -0.039±0.011, сдвигаю медиану на -0.020",
+   "duration_ms": 47
   },
   {
-   "ts": "2026-09-23T09:27:48+00:00",
+   "ts": "2026-09-23T09:40:21+00:00",
    "step": "verify",
    "status": "ok",
-   "text": "проверка на 14 днях до 2026-01-31: nRMSE 0.217, скилл к персистентности +0.64, чистая кривая дала 0.236",
-   "duration_ms": 61
+   "text": "проверка на 14 днях до 2026-01-31: nRMSE 0.210, скилл к персистентности +0.66, чистая кривая дала 0.236",
+   "duration_ms": 81
   },
   {
-   "ts": "2026-09-23T09:27:48+00:00",
+   "ts": "2026-09-23T09:40:21+00:00",
    "step": "collect",
    "status": "ok",
    "text": "архив прогнозов: 24 часов на 2026-02-28 — 2026-03-01, горизонты [24] ч",
-   "duration_ms": 76
+   "duration_ms": 70
   },
   {
-   "ts": "2026-09-23T09:27:48+00:00",
+   "ts": "2026-09-23T09:40:21+00:00",
    "step": "prepare",
    "status": "ok",
    "text": "ряд принят: 24 часов, ветер 2.2–7.8 м/с",
-   "duration_ms": 0
+   "duration_ms": 1
   },
   {
-   "ts": "2026-09-23T09:27:48+00:00",
+   "ts": "2026-09-23T09:40:21+00:00",
    "step": "decide",
    "status": "ok",
    "text": "новый прогон погоды, ветер почти тот же (0.3 м/с)",
    "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T09:27:48+00:00",
+   "ts": "2026-09-23T09:40:21+00:00",
    "step": "forecast",
    "status": "ok",
-   "text": "посчитано 48 строк, средняя мощность 0.57 от номинала, коридор P10–P90 шириной 0.54",
-   "duration_ms": 26
+   "text": "посчитано 48 строк, средняя мощность 0.61 от номинала, коридор P10–P90 шириной 0.55",
+   "duration_ms": 38
   },
   {
-   "ts": "2026-09-23T09:27:48+00:00",
+   "ts": "2026-09-23T09:40:21+00:00",
    "step": "reflect",
    "status": "ok",
-   "text": "смещение за неделю: T1 -0.020, T2 -0.010",
-   "duration_ms": 34
+   "text": "смещение за 14 сут до 31.01: T1 -0.040±0.011, сдвигаю медиану на -0.020; T2 -0.039±0.011, сдвигаю медиану на -0.020",
+   "duration_ms": 45
   },
   {
-   "ts": "2026-09-23T09:27:48+00:00",
+   "ts": "2026-09-23T09:40:21+00:00",
    "step": "verify",
    "status": "ok",
-   "text": "проверка на 14 днях до 2026-01-31: nRMSE 0.217, скилл к персистентности +0.64, чистая кривая дала 0.236",
-   "duration_ms": 60
+   "text": "проверка на 14 днях до 2026-01-31: nRMSE 0.210, скилл к персистентности +0.66, чистая кривая дала 0.236",
+   "duration_ms": 67
   }
  ],
  "economics": {
   "penalty_per_mwh": 12000,
   "capacity_mw": 2.5,
-  "monthly_loss": 6483882,
+  "monthly_loss": 6288320,
   "baseline_loss": 15435336,
   "currency": "₸"
  },
- "coverage": 0.7831024301612537
+ "coverage": 0.783556665909607
 };

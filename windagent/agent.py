@@ -24,7 +24,9 @@ from . import llm
 from . import model as mdl
 from . import weather as wx
 
-REFLECT_DAYS = 7          # окно свежего факта, по которому агент подкручивает смещение
+REFLECT_DAYS = 14         # окно свежего факта, по которому агент подкручивает смещение
+REFLECT_SHRINK = 0.5      # сдвигаем на половину смещения: полный сдвиг гонится за шумом окна
+REFLECT_GATE_SE = 2.0     # сдвигать, только если |смещение| больше стольких стандартных ошибок
 
 ARCHIVE = ('2024-02-17', '2026-02-28')
 VERIFY_DAYS = 14          # окно, на котором шлюз качества сверяет решение с базовой линией
@@ -48,16 +50,7 @@ def context(refresh: bool = False) -> dict:
     if _CONTEXT is not None and not refresh:
         return _CONTEXT
     hourly, table, curves = bt.prepare()
-    good = (table.power.notna() & table.curve.notna() & ~table.curtailed
-            & table.lead_h.isin(bt.LEADS))
-    train_all = table[(table.time <= bt.TRAIN_END) & good]
-    calib_start = bt.TRAIN_END - pd.Timedelta(days=bt.CALIB_DAYS)
-    train = train_all[train_all.time <= calib_start]
-    calib = train_all[train_all.time > calib_start]
-    models = mdl.fit(train)
-    offsets = mdl.calibrate(models, calib, alpha=1 - bt.COVERAGE_TARGET)
-    _CONTEXT = {'hourly': hourly, 'table': table, 'curves': curves,
-                'train': train, 'calib': calib, 'models': models, 'offsets': offsets,
+    _CONTEXT = {'hourly': hourly, 'table': table, 'curves': curves, **bt.train_models(table),
                 'turbines': sorted({name for name, _ in curves})}
     return _CONTEXT
 
@@ -142,14 +135,22 @@ def forecast(window: pd.DataFrame, journal: list, ctx: dict) -> pd.DataFrame:
 
 
 def reflect(predicted: pd.DataFrame, issue_time: pd.Timestamp, journal: list, ctx: dict) -> pd.DataFrame:
-    """Рефлексия: свериться со свежим фактом и подкрутить смещение медианы под каждую турбину.
+    """Рефлексия: свериться со свежим фактом и решить, нужна ли поправка медианы по каждой турбине.
 
     Каждая ВЭС дрейфует по-своему из-за локальных эффектов, которых нет в общей модели: обледенение,
-    затенение, тонкие настройки контроллера. Скользящее среднее ошибки прошедших семи суток —
-    самая простая честная поправка."""
+    затенение, настройки контроллера. Средняя ошибка медианы на горизонте 24 ч за последние
+    REFLECT_DAYS суток — самая простая честная оценка; сдвигаем на её половину и только когда она
+    выходит за REFLECT_GATE_SE стандартных ошибок, иначе это шум, и агент так и пишет в журнал.
+    Коридор не трогаем: он откалиброван конформно и сидит на массах факта в нуле и на полке,
+    сдвиг границ даже на 0,02 роняет покрытие с 78 до 72 %. Медиана двигается внутри него.
+
+    Замер checks/reflect_eval.py на выпусках 15.11.2025 — 30.01.2026, nMAE 24/48 ч без простоев:
+    без поправки 0,157/0,157; окно 3 сут ×1 0,158/0,160, ×0,5 0,155/0,156; 7 сут ×1 0,157/0,159,
+    ×0,5 0,156/0,156; 14 сут ×1 0,156/0,155, ×0,5 0,155/0,155, то же со шлюзом 2 SE 0,156/0,155."""
     started = time.perf_counter()
     table = ctx['table']
-    end = min(issue_time, table[table.power.notna()].time.max())
+    # час выпуска ещё не закрыт, поэтому последний годный факт — на час раньше
+    end = min(issue_time - pd.Timedelta(hours=1), table[table.power.notna()].time.max())
     recent = table[(table.lead_h == 24) & (table.time <= end)
                    & (table.time > end - pd.Timedelta(days=REFLECT_DAYS))
                    & table.power.notna() & ~table.curtailed]
@@ -159,14 +160,22 @@ def reflect(predicted: pd.DataFrame, issue_time: pd.Timestamp, journal: list, ct
     check = mdl.predict(ctx['models'], recent)
     joined = recent[['time', 'turbine', 'lead_h', 'power']].merge(
         check[['time', 'turbine', 'lead_h', 'p50']], on=['time', 'turbine', 'lead_h'])
-    bias = joined.groupby('turbine').apply(lambda g: float((g.power - g.p50).mean()), include_groups=False)
+    error = (joined.power - joined.p50).groupby(joined.turbine).agg(['mean', 'std', 'count'])
     predicted = predicted.copy()
-    for turbine, shift in bias.items():
-        mask = predicted.turbine == turbine
-        for column in ('p10', 'p50', 'p90'):
-            predicted.loc[mask, column] = np.clip(predicted.loc[mask, column] + shift, 0, 1)
-    text = 'смещение за неделю: ' + ', '.join(f'{t} {shift:+.03f}' for t, shift in bias.items())
-    _note(journal, 'reflect', 'ok', text, started)
+    notes, shifted = [], 0
+    for turbine, row in error.iterrows():
+        se = row['std'] / np.sqrt(row['count'])
+        if abs(row['mean']) <= REFLECT_GATE_SE * se:
+            notes.append(f'{turbine} {row["mean"]:+.3f}±{se:.3f} в пределах шума, поправка не нужна')
+            continue
+        shift = REFLECT_SHRINK * row['mean']
+        rows = predicted.turbine == turbine
+        predicted.loc[rows, 'p50'] = np.clip(predicted.loc[rows, 'p50'] + shift,
+                                             predicted.loc[rows, 'p10'], predicted.loc[rows, 'p90'])
+        notes.append(f'{turbine} {row["mean"]:+.3f}±{se:.3f}, сдвигаю медиану на {shift:+.3f}')
+        shifted += 1
+    _note(journal, 'reflect', 'ok' if shifted else 'skipped',
+          f'смещение за {REFLECT_DAYS} сут до {end:%d.%m}: ' + '; '.join(notes), started)
     return predicted
 
 
@@ -185,7 +194,7 @@ def verify(predicted: pd.DataFrame, issue_time: pd.Timestamp, journal: list, ctx
     check = mdl.predict(ctx['models'], recent)
     merged = recent[['time', 'turbine', 'lead_h', 'power', 'curve']].merge(
         check[['time', 'turbine', 'lead_h', 'p50']], on=['time', 'turbine', 'lead_h'])
-    reference = bt.add_baselines(merged, hourly, ctx['train'])
+    reference = bt.add_baselines(merged, hourly, ctx['train_all'])
     ours = bt.metrics(reference.power, reference.p50, reference.persistence)
     curve_only = bt.metrics(reference.power, reference.curve, reference.persistence)
 

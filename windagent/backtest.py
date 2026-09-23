@@ -92,24 +92,33 @@ def prepare(leads=LEADS):
     return hourly, table, curves
 
 
-def run(leads=LEADS) -> dict:
-    started = time.time()
-    hourly, table, curves = prepare(leads)
-    train_all = table[(table.time <= TRAIN_END) & table.power.notna() & ~table.curtailed
-                      & table.lead_h.isin(leads)]
-    # последние 30 дней обучения отдаём под конформную калибровку коридора: если считать её на valid,
-    # это утечка, а на самом train — оптимистичная оценка (модель эти часы уже видела)
+def train_models(table: pd.DataFrame, leads=LEADS) -> dict:
+    """Обучение и конформная калибровка на всём, что известно до TRAIN_END.
+
+    Последние CALIB_DAYS дней уходят под калибровку коридора: считать её на valid — утечка, а на
+    самом train — оптимистичная оценка (квантильные модели эти часы уже видели). Медиана в
+    калибровке не участвует, поэтому учится на всём ряду целиком."""
+    train_all = table[(table.time <= TRAIN_END) & table.power.notna() & table.curve.notna()
+                      & ~table.curtailed & table.lead_h.isin(leads)]
     calib_start = TRAIN_END - pd.Timedelta(days=CALIB_DAYS)
     train = train_all[train_all.time <= calib_start]
     calib = train_all[train_all.time > calib_start]
-    models = mdl.fit(train)
+    models = mdl.fit(train, median_train=train_all)
     offsets = mdl.calibrate(models, calib, alpha=1 - COVERAGE_TARGET)
+    return {'train_all': train_all, 'train': train, 'calib': calib, 'models': models, 'offsets': offsets}
+
+
+def run(leads=LEADS) -> dict:
+    started = time.time()
+    hourly, table, curves = prepare(leads)
+    fitted = train_models(table, leads)
+    models, offsets = fitted['models'], fitted['offsets']
 
     valid = table[table.time.between(*VALID) & table.lead_h.isin(leads)].copy()
     predicted = mdl.apply_bounds(mdl.predict(models, valid), offsets)
     valid = valid.merge(predicted[['time', 'turbine', 'lead_h', 'p50', 'p10', 'p90']],
                         on=['time', 'turbine', 'lead_h'])
-    valid = add_baselines(valid, hourly, train)
+    valid = add_baselines(valid, hourly, fitted['train_all'])
 
     rows = []
     for lead, group in valid.groupby('lead_h'):
@@ -130,9 +139,9 @@ def run(leads=LEADS) -> dict:
     test = table[table.time.between(*TEST) & table.lead_h.isin(leads)]
     forecast = mdl.apply_bounds(mdl.predict(models, test), offsets)
 
-    return {'hourly': hourly, 'table': table, 'curves': curves, 'models': models, 'train': train,
-            'calib': calib, 'offsets': offsets, 'valid': valid, 'scores': scores,
-            'coverage': coverage, 'width': width, 'forecast': forecast, 'seconds': time.time() - started}
+    return {'hourly': hourly, 'table': table, 'curves': curves, **fitted, 'valid': valid,
+            'scores': scores, 'coverage': coverage, 'width': width, 'forecast': forecast,
+            'seconds': time.time() - started}
 
 
 def leakage_price(result: dict) -> pd.DataFrame:
