@@ -112,7 +112,10 @@ def export_json(result: dict, agent_log: list | None = None) -> Path:
     }
     WEB.mkdir(parents=True, exist_ok=True)
     path = WEB / 'data.json'
-    path.write_text(json.dumps(payload, ensure_ascii=False, indent=1), encoding='utf-8')
+    text = json.dumps(payload, ensure_ascii=False, indent=1)
+    path.write_text(text, encoding='utf-8')
+    # без data.js страница, открытая двойным кликом, не читает соседний json (политика file://)
+    (WEB / 'data.js').write_text('window.DASHBOARD_DATA = ' + text + ';\n', encoding='utf-8')
     return path
 
 
@@ -133,7 +136,14 @@ def do_backtest() -> dict:
     scores.round(4).to_csv(metrics_path, index=False)
 
     agent = _agent()
-    log = agent.run_backtest_month(result) if agent and hasattr(agent, 'run_backtest_month') else None
+    log = None
+    if agent and hasattr(agent, 'run_backtest_month'):
+        try:
+            _, log = agent.run_backtest_month()
+            print(f'агент: {sum(1 for e in log if e["step"] == "forecast")} циклов, '
+                  f'{sum(1 for e in log if e["status"] == "rollback")} откатов на базовую линию')
+        except Exception as err:   # прогон и выгрузки не должны падать из-за агента
+            print(f'агент не отработал ({err}); прогноз и метрики это не затрагивает')
     export_json(result, log)
 
     hours = forecast[forecast.lead_h == 24].groupby('turbine').size().to_dict()
@@ -147,7 +157,13 @@ def do_forecast() -> pd.DataFrame:
     """Прогноз «как сейчас»: свежая погода, та же обученная модель."""
     agent = _agent()
     if agent and hasattr(agent, 'run_cycle'):
-        return agent.run_cycle()
+        issued = pd.Timestamp.now(tz='UTC').tz_localize(None).floor('h')
+        predicted, journal, _ = agent.run_cycle(issued, live=True)
+        for entry in journal:
+            print(f'{entry["step"]:<9} {entry["status"]:<8} {entry["text"]}')
+        if predicted is not None:
+            print(predicted.round(3).to_string(index=False))
+        return predicted
 
     result = backtest.run()
     models, curves = result['models'], result['curves']

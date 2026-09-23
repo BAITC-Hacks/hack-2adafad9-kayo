@@ -94,3 +94,41 @@ def predict(models: dict, table: pd.DataFrame) -> pd.DataFrame:
     for name, model in models.items():
         out[name] = np.clip(table.curve + model.predict(X), 0, 1)
     return out.rename(columns={'mid': 'p50'})
+
+
+def calibrate(models: dict, calib: pd.DataFrame, alpha: float = 0.2) -> dict:
+    """Конформная поправка коридора: раздвинуть P10/P90 так, чтобы фактическое покрытие ≈ 1-α.
+
+    Отдельно на пару (турбина, горизонт): у 48 ч разброс шире, чем у 24 ч, и одной поправкой обе
+    группы не выровнять. CQR даёт покрытие с гарантией на будущем при условии обменяемости.
+    """
+    usable = calib[calib.power.notna() & calib.curve.notna()]
+    if usable.empty:
+        return {}
+    pred = predict(models, usable)
+    joined = usable[['time', 'turbine', 'lead_h', 'power']].merge(
+        pred[['time', 'turbine', 'lead_h', 'p10', 'p90']], on=['time', 'turbine', 'lead_h'])
+    offsets = {}
+    for (turbine, lead), group in joined.groupby(['turbine', 'lead_h']):
+        scores = np.maximum(group.p10 - group.power, group.power - group.p90).values
+        if len(scores) < 30:
+            offsets[(turbine, int(lead))] = 0.0
+            continue
+        offsets[(turbine, int(lead))] = float(np.quantile(scores, 1 - alpha))
+    return offsets
+
+
+def apply_bounds(pred: pd.DataFrame, offsets: dict) -> pd.DataFrame:
+    """Раздвинуть квантили на конформную поправку и заодно починить порядок p10 ≤ p50 ≤ p90.
+
+    Квантильные модели учатся независимо, монотонность не гарантирована — на границах диапазона
+    (мощность около 0 или 1) тройка местами перехлёстывается. Пересортировка построчно —
+    стандартный приём quantile crossing, качество прогноза не меняет."""
+    out = pred.copy()
+    if offsets:
+        q = np.array([offsets.get((t, int(l)), 0.0) for t, l in zip(pred.turbine, pred.lead_h)])
+        out['p10'] = np.clip(pred.p10 - q, 0, 1)
+        out['p90'] = np.clip(pred.p90 + q, 0, 1)
+    triple = np.sort(out[['p10', 'p50', 'p90']].values, axis=1)
+    out[['p10', 'p50', 'p90']] = triple
+    return out

@@ -25,9 +25,11 @@ from . import model as mdl
 from . import weather as wx
 
 TRAIN_END = pd.Timestamp('2025-10-31 23:00')
+CALIB_DAYS = 30                                              # последние N дней обучения — на калибровку
 VALID = (pd.Timestamp('2025-11-01'), pd.Timestamp('2026-01-31 23:00'))
 TEST = (pd.Timestamp('2026-02-01'), pd.Timestamp('2026-02-28 23:00'))
 LEADS = (24, 48)
+COVERAGE_TARGET = 0.80                                       # P10–P90 должен покрывать ~80 % фактов
 
 
 def metrics(actual: pd.Series, predicted: pd.Series, reference: pd.Series | None = None) -> dict:
@@ -90,12 +92,19 @@ def prepare(leads=LEADS):
 def run(leads=LEADS) -> dict:
     started = time.time()
     hourly, table, curves = prepare(leads)
-    train = table[(table.time <= TRAIN_END) & table.power.notna() & (~table.curtailed.fillna(False))
-                  & table.lead_h.isin(leads)]
+    train_all = table[(table.time <= TRAIN_END) & table.power.notna() & (~table.curtailed.fillna(False))
+                      & table.lead_h.isin(leads)]
+    # последние 30 дней обучения отдаём под конформную калибровку коридора: если считать её на valid,
+    # это утечка, а на самом train — оптимистичная оценка (модель эти часы уже видела)
+    calib_start = TRAIN_END - pd.Timedelta(days=CALIB_DAYS)
+    train = train_all[train_all.time <= calib_start]
+    calib = train_all[train_all.time > calib_start]
     models = mdl.fit(train)
+    offsets = mdl.calibrate(models, calib, alpha=1 - COVERAGE_TARGET)
 
     valid = table[table.time.between(*VALID) & table.lead_h.isin(leads)].copy()
-    valid = valid.merge(mdl.predict(models, valid)[['time', 'turbine', 'lead_h', 'p50', 'p10', 'p90']],
+    predicted = mdl.apply_bounds(mdl.predict(models, valid), offsets)
+    valid = valid.merge(predicted[['time', 'turbine', 'lead_h', 'p50', 'p10', 'p90']],
                         on=['time', 'turbine', 'lead_h'])
     valid = add_baselines(valid, hourly, train)
 
@@ -114,11 +123,11 @@ def run(leads=LEADS) -> dict:
     coverage = inside / max(valid.power.notna().sum(), 1)
 
     test = table[table.time.between(*TEST) & table.lead_h.isin(leads)]
-    forecast = mdl.predict(models, test)
+    forecast = mdl.apply_bounds(mdl.predict(models, test), offsets)
 
     return {'hourly': hourly, 'table': table, 'curves': curves, 'models': models, 'train': train,
-            'valid': valid, 'scores': scores, 'coverage': coverage, 'forecast': forecast,
-            'seconds': time.time() - started}
+            'calib': calib, 'offsets': offsets, 'valid': valid, 'scores': scores,
+            'coverage': coverage, 'forecast': forecast, 'seconds': time.time() - started}
 
 
 def leakage_price(result: dict) -> pd.DataFrame:

@@ -16,12 +16,15 @@ import sys
 import time
 from pathlib import Path
 
+import numpy as np
 import pandas as pd
 
 from . import backtest as bt
 from . import llm
 from . import model as mdl
 from . import weather as wx
+
+REFLECT_DAYS = 7          # окно свежего факта, по которому агент подкручивает смещение
 
 ARCHIVE = ('2024-02-17', '2026-02-28')
 VERIFY_DAYS = 14          # окно, на котором шлюз качества сверяет решение с базовой линией
@@ -40,15 +43,21 @@ def _note(journal, step, status, text, started):
 
 
 def context(refresh: bool = False) -> dict:
-    """Данные, кривые и обученные модели. Считается один раз на прогон."""
+    """Данные, кривые, обученные модели и конформная поправка коридора. Считается один раз."""
     global _CONTEXT
     if _CONTEXT is not None and not refresh:
         return _CONTEXT
     hourly, table, curves = bt.prepare()
-    train = table[(table.time <= bt.TRAIN_END) & table.power.notna() & table.curve.notna()
-                  & (~table.curtailed.fillna(False)) & table.lead_h.isin(bt.LEADS)]
+    good = (table.power.notna() & table.curve.notna() & (~table.curtailed.fillna(False))
+            & table.lead_h.isin(bt.LEADS))
+    train_all = table[(table.time <= bt.TRAIN_END) & good]
+    calib_start = bt.TRAIN_END - pd.Timedelta(days=bt.CALIB_DAYS)
+    train = train_all[train_all.time <= calib_start]
+    calib = train_all[train_all.time > calib_start]
+    models = mdl.fit(train)
+    offsets = mdl.calibrate(models, calib, alpha=1 - bt.COVERAGE_TARGET)
     _CONTEXT = {'hourly': hourly, 'table': table, 'curves': curves,
-                'train': train, 'models': mdl.fit(train),
+                'train': train, 'calib': calib, 'models': models, 'offsets': offsets,
                 'turbines': sorted({name for name, _ in curves})}
     return _CONTEXT
 
@@ -125,11 +134,40 @@ def forecast(window: pd.DataFrame, journal: list, ctx: dict) -> pd.DataFrame:
             table.loc[rows, 'curve'] = mdl.apply_curve(curve, table.loc[rows, 'ws_norm'])
         parts.append(table)
     table = pd.concat(parts, ignore_index=True)
-    predicted = mdl.predict(ctx['models'], table)
+    predicted = mdl.apply_bounds(mdl.predict(ctx['models'], table), ctx.get('offsets', {}))
     mean_power = predicted.p50.mean()
     _note(journal, 'forecast', 'ok',
           f'посчитано {len(predicted)} строк, средняя мощность {mean_power:.2f} от номинала, '
           f'коридор P10–P90 шириной {(predicted.p90 - predicted.p10).mean():.2f}', started)
+    return predicted
+
+
+def reflect(predicted: pd.DataFrame, issue_time: pd.Timestamp, journal: list, ctx: dict) -> pd.DataFrame:
+    """Рефлексия: свериться со свежим фактом и подкрутить смещение медианы под каждую турбину.
+
+    Каждая ВЭС дрейфует по-своему из-за локальных эффектов, которых нет в общей модели: обледенение,
+    затенение, тонкие настройки контроллера. Скользящее среднее ошибки прошедших семи суток —
+    самая простая честная поправка."""
+    started = time.perf_counter()
+    table = ctx['table']
+    end = min(issue_time, table[table.power.notna()].time.max())
+    recent = table[(table.lead_h == 24) & (table.time <= end)
+                   & (table.time > end - pd.Timedelta(days=REFLECT_DAYS))
+                   & table.power.notna() & (~table.curtailed.fillna(False))]
+    if recent.empty:
+        _note(journal, 'reflect', 'skipped', 'нет свежего факта — прогноз идёт без поправки', started)
+        return predicted
+    check = mdl.predict(ctx['models'], recent)
+    joined = recent[['time', 'turbine', 'lead_h', 'power']].merge(
+        check[['time', 'turbine', 'lead_h', 'p50']], on=['time', 'turbine', 'lead_h'])
+    bias = joined.groupby('turbine').apply(lambda g: float((g.power - g.p50).mean()), include_groups=False)
+    predicted = predicted.copy()
+    for turbine, shift in bias.items():
+        mask = predicted.turbine == turbine
+        for column in ('p10', 'p50', 'p90'):
+            predicted.loc[mask, column] = np.clip(predicted.loc[mask, column] + shift, 0, 1)
+    text = 'смещение за неделю: ' + ', '.join(f'{t} {shift:+.03f}' for t, shift in bias.items())
+    _note(journal, 'reflect', 'ok', text, started)
     return predicted
 
 
@@ -237,6 +275,7 @@ def run_cycle(issue_time, ctx: dict | None = None, live: bool = False,
         return previous.get('forecast'), journal, previous
 
     predicted = forecast(window, journal, ctx)
+    predicted = reflect(predicted, issue_time, journal, ctx)
     predicted = verify(predicted, issue_time, journal, ctx)
     predicted['issue_time'] = issue_time
     if with_explain:
@@ -289,9 +328,11 @@ if __name__ == '__main__':
               f'время {time.perf_counter() - started:.1f} с')
         print(f'журнал: {save_journal(journal)}')
     else:
-        # самый свежий момент, для которого архив ещё покрывает двое суток вперёд
-        latest = wx.load(*ARCHIVE).time.max()
-        issue_time = (latest - pd.Timedelta(days=2)).normalize()
+        if args.live:
+            issue_time = pd.Timestamp.utcnow().normalize().tz_localize(None)
+        else:
+            # самый свежий момент, для которого архив ещё покрывает двое суток вперёд
+            issue_time = (wx.load(*ARCHIVE).time.max() - pd.Timedelta(days=2)).normalize()
         predicted, journal, _ = run_cycle(issue_time, live=args.live)
         print(f'\nвыпуск {issue_time:%Y-%m-%d}, строк прогноза {len(predicted)}\n')
         for entry in journal:
