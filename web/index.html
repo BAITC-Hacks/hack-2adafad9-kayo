@@ -175,10 +175,10 @@
   };
   var MODEL_ORDER = ['agent', 'curve', 'climatology', 'persistence'];
   var STATUS_NAMES = {
-    ok: 'ок', retry: 'повтор', fallback: 'откат', warn: 'внимание',
-    error: 'ошибка', skip: 'пропуск'
+    ok: 'ок', retry: 'повтор', fallback: 'шаблон', warn: 'внимание', rollback: 'откат',
+    degraded: 'с оговорками', error: 'ошибка', skip: 'пропуск', skipped: 'пропуск'
   };
-  var MARK_STATUS = { fallback: 1, error: 1, retry: 1, warn: 1 };
+  var MARK_STATUS = { rollback: 1, degraded: 1, error: 1, retry: 1, warn: 1 };
 
   var nf = new Intl.NumberFormat('ru-RU');
   var state = { data: null, turbine: null, lead: null, days: 0, points: [] };
