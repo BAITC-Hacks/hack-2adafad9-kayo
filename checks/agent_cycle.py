@@ -7,7 +7,7 @@
 2. Решение о пересчёте: первый прогон, новые сутки, тот же выпуск, новый прогон с тем же ветром,
    новый прогон с другим ветром.
 3. Выпуск за пределами архива: журнал получает запись error, цикл возвращает None без трейсбека.
-4. Рефлексия и шлюз без свежего факта: статус skipped с объяснением.
+4. При обрыве факта агент переносит поправку с последних доступных данных.
 """
 import sys
 from pathlib import Path
@@ -60,7 +60,7 @@ print('\n3. выпуск за пределами архива')
 predicted, journal, _ = agent.run_cycle(pd.Timestamp('2026-03-05'), ctx=ctx, with_explain=False)
 print(f'   прогноз: {predicted}; журнал: {journal[-1]["step"]} {journal[-1]["status"]} — {journal[-1]["text"]}')
 
-print('\n4. выпуск без свежего факта (26.02.2026, факт кончается 31.01)')
+print('\n4. перенос поправки без свежего факта (26.02.2026, факт кончается 31.01)')
 predicted, journal, _ = agent.run_cycle(pd.Timestamp('2026-02-26'), ctx=ctx, with_explain=False)
 for entry in journal:
     if entry['step'] in ('reflect', 'verify'):
