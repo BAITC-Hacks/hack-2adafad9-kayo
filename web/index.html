@@ -303,6 +303,15 @@
   .money-settings label { display:flex; flex-direction:column; gap:8px; font-size:var(--fs-s); color:var(--text-2); }
   .money-settings input { width:160px; max-width:100%; border:0; border-radius:var(--r-s); background:var(--page); color:var(--text); padding:10px 12px; font:inherit; min-height:42px; }
   .money-period { font-size:var(--fs-s); color:var(--text-2); margin-bottom:20px; }
+  .money-details { margin-top:16px; }
+  .money-details > summary { display:inline-flex; align-items:center; gap:10px; min-height:44px; padding:10px 16px; border-radius:var(--r-s); background:#eaf2ee; color:var(--accent); font-size:var(--fs-s); font-weight:600; cursor:pointer; list-style:none; transition:background .15s ease; }
+  .money-details > summary:hover { background:#dcebe3; }
+  .money-details > summary:focus-visible { outline:2px solid var(--accent); outline-offset:3px; }
+  .money-details > summary::after { content:''; width:18px; height:18px; background:currentColor; mask:url('./icons/arrow-down.svg') center / contain no-repeat; transition:transform .2s ease; }
+  .money-details[open] > summary { background:#dcebe3; }
+  .money-details[open] > summary::after { transform:rotate(180deg); }
+  .money-details > p { margin-top:14px; }
+  @media(prefers-reduced-motion:reduce) { .money-details > summary,.money-details > summary::after { transition:none; } }
 
   @media (max-width: 960px) {
     .section { grid-template-columns: minmax(0, 1fr); gap: 16px; }
@@ -455,7 +464,7 @@
         <p class="money-period" id="money-period"></p>
         <div class="effect-values" id="money-values" aria-live="polite"></div>
         <p class="assume">Оценка по средней абсолютной ошибке прогноза на 24 ч на проверочном периоде, без простоев. Это не фактическая выручка, прибыль или достигнутая экономия. Ошибки турбин суммируются без взаимозачёта; цена ошибки — условная.</p>
-        <details><summary>Как рассчитано</summary><p class="assume" id="money-method"></p></details>
+        <details class="money-details"><summary>Как рассчитано</summary><p class="assume" id="money-method"></p></details>
       </div>
     </section>
     <section class="section econ" id="econ-block" hidden>
