@@ -7,8 +7,10 @@
 откатывает решение на физическую кривую мощности, когда оно проигрывает персистентности.
 
 Выпуск дня d отдаёт сутки d+1 с горизонта 24 ч и сутки d+2 с горизонта 48 ч — ровно то, что было
-известно накануне. Февраль — та же прокрутка по дням, что и валидация на ноябре-январе, поэтому
-метрика «наше решение» измеряет именно то, что поставляется.
+известно накануне. Факт кончается 31.01.2026, и февраль идёт на поправке, снятой с последних двух
+недель января. Валидация на ноябре-январе повторяет этот режим: в каждом месяце факт обрывается в
+его начале, — поэтому метрика «наше решение» измеряет именно то, что поставляется. Тот же цикл при
+ежедневном факте, как в эксплуатации, стоит отдельной строкой.
 """
 import argparse
 import datetime as dt
@@ -30,11 +32,18 @@ REFLECT_SHRINK = 1.0      # доля смещения, на которую сд�
 REFLECT_GATE_SE = 2.0     # сдвигать, только если |смещение| больше стольких стандартных ошибок
 MIN_FACT_DAYS = 3         # меньше трёх суток факта — не судим ни о смещении, ни о качестве
 VERIFY_DAYS = 14          # окно, на котором шлюз качества сверяет решение с базовой линией
+# Факт может отставать от выпуска: в феврале история кончается 31.01. Пока отставание не больше
+# порога, окно берётся полным до последнего факта, а не усыхает; старше — как будто факта нет
+# (живой режим без подвоза факта). Порог рефлексии отдельный, чтобы перенос поправки можно было
+# выключить и перемерить: checks/stale_reflect.py, цифры в докстринге reflect
+VERIFY_STALE_DAYS = 30
+REFLECT_STALE_DAYS = 30
 RERUN_WIND_DELTA = 1.0    # м/с: насколько должен измениться прогноз ветра, чтобы пересчитывать
 
 ARCHIVE = ('2024-02-17', '2026-02-28')
 JOURNAL_PATH = Path(__file__).resolve().parent.parent / 'out' / 'agent_log.json'
 OURS = 'наше решение'
+DAILY = 'агент при ежедневном факте'
 
 _CONTEXT = None
 
@@ -161,25 +170,53 @@ def forecast(window: pd.DataFrame, journal: list, ctx: dict, issue_time: pd.Time
     return predicted
 
 
-def _recent_fact(ctx: dict, issue_time: pd.Timestamp, days: int) -> pd.DataFrame:
-    """Часы с фактом на горизонте 24 ч за `days` суток до выпуска. Час выпуска ещё не закрыт,
-    поэтому граница строгая."""
+def _fact_window(ctx: dict, issue_time: pd.Timestamp, days: int, fact_until=None):
+    """Последние `days` суток имеющегося факта на горизонте 24 ч до выпуска, без простоев, и час,
+    которым факт кончается (None — факта нет). Час выпуска ещё не закрыт, поэтому граница строгая.
+    `fact_until` обрывает факт искусственно — так прошлое прокручивается в режиме поставки."""
     table = ctx['table']
-    return table[(table.lead_h == 24) & (table.time < issue_time)
-                 & (table.time >= issue_time - pd.Timedelta(days=days))
-                 & table.power.notna() & ~table.curtailed]
+    cutoff = issue_time if fact_until is None else min(issue_time, pd.Timestamp(fact_until))
+    known = table[(table.lead_h == 24) & (table.time < cutoff) & table.power.notna()]
+    if known.empty:
+        return known, None
+    last = known.time.max()
+    # целые календарные сутки: последний день факта бывает неполным (31.01 кончается в 18:00 UTC),
+    # и отсчёт часами от него захватывал бы хвост лишнего дня
+    since = last.normalize() - pd.Timedelta(days=days - 1)
+    recent = known[(known.time >= since) & ~known.curtailed]
+    return recent, last
 
 
-def _too_little_fact(recent: pd.DataFrame, ctx: dict, days: int) -> str | None:
+def _fact_age(issue_time: pd.Timestamp, last: pd.Timestamp) -> int:
+    """На сколько суток факт отстал от выпуска: 0 — есть факт за сутки перед выпуском."""
+    return max(0, (issue_time.normalize() - last.normalize()).days - 1)
+
+
+def _fact_gap(recent: pd.DataFrame, last, issue_time: pd.Timestamp, days: int, stale_days: int) -> str | None:
+    """Почему по этому окну нельзя судить; None — можно."""
+    if last is None:
+        return 'факта нет вовсе'
+    age = _fact_age(issue_time, last)
+    if age > stale_days:
+        return f'факт устарел: последний {last:%d.%m.%Y}, {age} сут назад при пороге {stale_days}'
     have = recent.time.dt.normalize().nunique()
-    if have >= MIN_FACT_DAYS:
-        return None
-    last = ctx['table'][ctx['table'].power.notna()].time.max()
-    return (f'свежего факта нет: за {days} сут до выпуска только {have} суток с фактом, '
-            f'последний факт {last:%d.%m.%Y}')
+    if have < MIN_FACT_DAYS:
+        return f'мало факта: за {days} сут до {last:%d.%m.%Y} только {have} суток без простоев'
+    return None
 
 
-def reflect(predicted: pd.DataFrame, issue_time: pd.Timestamp, journal: list, ctx: dict) -> pd.DataFrame:
+def _window_label(recent: pd.DataFrame, last: pd.Timestamp, issue_time: pd.Timestamp, what: str) -> str:
+    """«проверка за 14 сут до 31.01» при свежем факте; когда факт отстал — сколько ему суток и что
+    окно перенесено с последнего факта, а не усохло."""
+    age = _fact_age(issue_time, last)
+    if not age:
+        return f'{what} за {recent.time.dt.normalize().nunique()} сут до {last:%d.%m}'
+    return (f'последний факт {last:%d.%m} ({age} сут назад), '
+            f'{what} по {recent.time.min():%d.%m}–{last:%d.%m} перенесена')
+
+
+def reflect(predicted: pd.DataFrame, issue_time: pd.Timestamp, journal: list, ctx: dict,
+            fact_until=None) -> pd.DataFrame:
     """Рефлексия: свериться со свежим фактом и решить, нужна ли поправка медианы по каждой турбине.
 
     Каждая ВЭС дрейфует по-своему из-за локальных эффектов, которых нет в общей модели: обледенение,
@@ -196,12 +233,19 @@ def reflect(predicted: pd.DataFrame, issue_time: pd.Timestamp, journal: list, ct
     ×0,5 — 0,1653/0,1803, ×1 — 0,1627/0,1781 против 0,1722/0,1866 у модели без агента.
     Полный сдвиг взят потому, что смещение системное: −0,08 ± 0,05 по окнам при стандартной
     ошибке около 0,012 — после смены режима погоды в октябре 2025 модель завышает, и половинный
-    сдвиг просто недобирает; пока признаки подсматривали в ноукаст, это смещение было скрыто."""
+    сдвиг просто недобирает; пока признаки подсматривали в ноукаст, это смещение было скрыто.
+
+    Когда факт отстаёт от выпуска (февраль: история кончается 31.01), поправка переносится с
+    последних REFLECT_DAYS суток имеющегося факта на весь месяц, пока отставание не больше
+    REFLECT_STALE_DAYS. Замер checks/stale_reflect.py — валидация в режиме поставки, факт обрывается
+    в начале каждого месяца, nMAE 24/48 ч без простоев за ноябрь-январь: перенос 0,1638/0,1789,
+    без поправки 0,1719/0,1863, при ежедневном факте 0,1627/0,1781. Перенос почти не уступает
+    свежему факту, потому что смещение держится месяцами, а не днями."""
     started = time.perf_counter()
-    recent = _recent_fact(ctx, issue_time, REFLECT_DAYS)
-    short = _too_little_fact(recent, ctx, REFLECT_DAYS)
-    if short:
-        _note(journal, issue_time, 'reflect', 'skipped', short + ' — прогноз идёт без поправки', started)
+    recent, last = _fact_window(ctx, issue_time, REFLECT_DAYS, fact_until)
+    gap = _fact_gap(recent, last, issue_time, REFLECT_DAYS, REFLECT_STALE_DAYS)
+    if gap:
+        _note(journal, issue_time, 'reflect', 'skipped', gap + ' — прогноз идёт без поправки', started)
         return predicted
     check = mdl.predict(ctx['models'], recent)
     joined = recent[['time', 'turbine', 'lead_h', 'power']].merge(
@@ -221,18 +265,18 @@ def reflect(predicted: pd.DataFrame, issue_time: pd.Timestamp, journal: list, ct
         notes.append(f'{turbine} {row["mean"]:+.3f}±{se:.3f}, сдвигаю медиану на {shift:+.3f}')
         shifted += 1
     _note(journal, issue_time, 'reflect', 'ok' if shifted else 'skipped',
-          f'смещение за {recent.time.dt.normalize().nunique()} сут до {recent.time.max():%d.%m}: '
-          + '; '.join(notes), started)
+          _window_label(recent, last, issue_time, 'поправка') + ': ' + '; '.join(notes), started)
     return predicted
 
 
-def verify(predicted: pd.DataFrame, issue_time: pd.Timestamp, journal: list, ctx: dict) -> pd.DataFrame:
+def verify(predicted: pd.DataFrame, issue_time: pd.Timestamp, journal: list, ctx: dict,
+           fact_until=None) -> pd.DataFrame:
     """Шлюз качества: сверяем решение с персистентностью на последнем окне с фактом."""
     started = time.perf_counter()
-    recent = _recent_fact(ctx, issue_time, VERIFY_DAYS)
-    short = _too_little_fact(recent, ctx, VERIFY_DAYS)
-    if short:
-        _note(journal, issue_time, 'verify', 'skipped', short + ' — публикуем расчёт как есть', started)
+    recent, last = _fact_window(ctx, issue_time, VERIFY_DAYS, fact_until)
+    gap = _fact_gap(recent, last, issue_time, VERIFY_DAYS, VERIFY_STALE_DAYS)
+    if gap:
+        _note(journal, issue_time, 'verify', 'skipped', gap + ' — публикуем расчёт как есть', started)
         return predicted
 
     check = mdl.predict(ctx['models'], recent)
@@ -250,8 +294,8 @@ def verify(predicted: pd.DataFrame, issue_time: pd.Timestamp, journal: list, ctx
         return published
 
     _note(journal, issue_time, 'verify', 'ok',
-          f'проверка на {recent.time.dt.normalize().nunique()} днях до {recent.time.max():%d.%m}: '
-          f'nRMSE {ours["nrmse"]:.3f}, скилл к персистентности {ours["skill"]:+.2f}, '
+          _window_label(recent, last, issue_time, 'проверка')
+          + f': nRMSE {ours["nrmse"]:.3f}, скилл к персистентности {ours["skill"]:+.2f}, '
           f'чистая кривая дала {curve_only["nrmse"]:.3f}', started)
     return predicted
 
@@ -327,9 +371,11 @@ def decide_rerun(previous: dict | None, current: dict) -> tuple[bool, str]:
 
 
 def run_cycle(issue_time, ctx: dict | None = None, live: bool = False,
-              previous: dict | None = None, journal: list | None = None, with_explain: bool = True):
+              previous: dict | None = None, journal: list | None = None, with_explain: bool = True,
+              fact_until=None):
     """Один полный проход агента. Возвращает прогноз (None, если выпуск невозможен), журнал и
-    состояние для следующего решения о пересчёте."""
+    состояние для следующего решения о пересчёте. `fact_until` — до какого часа агенту виден факт;
+    нужен только прокрутке прошлого в режиме поставки."""
     issue_time = pd.Timestamp(issue_time)
     journal = journal if journal is not None else []
     ctx = ctx or context()
@@ -348,8 +394,8 @@ def run_cycle(issue_time, ctx: dict | None = None, live: bool = False,
         return kept, journal, previous
 
     predicted = forecast(window, journal, ctx, issue_time)
-    predicted = reflect(predicted, issue_time, journal, ctx)
-    predicted = verify(predicted, issue_time, journal, ctx)
+    predicted = reflect(predicted, issue_time, journal, ctx, fact_until)
+    predicted = verify(predicted, issue_time, journal, ctx, fact_until)
     predicted['issue_time'] = issue_time
     if with_explain:
         explain(predicted, window, journal, issue_time)
@@ -357,21 +403,22 @@ def run_cycle(issue_time, ctx: dict | None = None, live: bool = False,
     return predicted, journal, state
 
 
-def rollout(first_issue, last_issue, ctx: dict | None = None, explain_every: int = 0, live: bool = False):
+def rollout(first_issue, last_issue, ctx: dict | None = None, explain_every: int = 0, live: bool = False,
+            fact_until=None):
     """Цикл по дням выпуска подряд: каждый выпуск d отдаёт сутки d+1 с 24 ч и d+2 с 48 ч."""
     ctx = ctx or context()
     journal, state, parts = [], None, []
     for number, issue_time in enumerate(pd.date_range(first_issue, last_issue, freq='D')):
         predicted, journal, state = run_cycle(
             issue_time, ctx=ctx, live=live, previous=state, journal=journal,
-            with_explain=bool(explain_every) and number % explain_every == 0)
+            with_explain=bool(explain_every) and number % explain_every == 0, fact_until=fact_until)
         if predicted is not None:
             parts.append(predicted)
     return pd.concat(parts, ignore_index=True), journal
 
 
-def run_backtest_month(start: str = '2026-02-01', end: str = '2026-02-28',
-                       ctx: dict | None = None, explain_every: int = 7, live: bool = False):
+def run_backtest_month(start='2026-02-01', end='2026-02-28', ctx: dict | None = None,
+                       explain_every: int = 7, live: bool = False, fact_until=None):
     """Тестовый месяц «как в прошлом»: выпуски с 30.01 по 27.02.
 
     По условию первый выпуск — 31 января, он закрывает 1 февраля на горизонте 24 ч. Но 1 февраля
@@ -380,17 +427,25 @@ def run_backtest_month(start: str = '2026-02-01', end: str = '2026-02-28',
     на 24 ч, его сутки 01.03 уже вне месяца. Итог — 672 часа × 2 горизонта на турбину."""
     first, last = pd.Timestamp(start), pd.Timestamp(end)
     forecasts, journal = rollout(first - pd.Timedelta(days=2), last - pd.Timedelta(days=1),
-                                 ctx=ctx, explain_every=explain_every, live=live)
+                                 ctx=ctx, explain_every=explain_every, live=live, fact_until=fact_until)
     inside = forecasts.time.between(first, last + pd.Timedelta(hours=23))
     return forecasts[inside].reset_index(drop=True), journal
 
 
-def validate(ctx: dict | None = None) -> dict:
-    """Метрика агентного цикла на отложенном окне — той же прокруткой, что делает февраль."""
-    ctx = ctx or context()
-    first, last = bt.VALID
-    forecasts, journal = rollout(first - pd.Timedelta(days=2), last.normalize() - pd.Timedelta(days=1), ctx=ctx)
-    forecasts = forecasts[forecasts.time.between(first, last)]
+def deliver_months(first, last, ctx: dict) -> tuple[pd.DataFrame, list]:
+    """Прошлое в режиме поставки: месяц за месяцем, и в каждом факт обрывается в его начале —
+    так же, как в феврале история кончается 31.01."""
+    parts, journal = [], []
+    for start in pd.date_range(first, last, freq='MS'):
+        forecasts, entries = run_backtest_month(start, start + pd.offsets.MonthEnd(0), ctx=ctx,
+                                                explain_every=0, fact_until=start)
+        parts.append(forecasts)
+        journal += entries
+    return pd.concat(parts, ignore_index=True), journal
+
+
+def evaluate(forecasts: pd.DataFrame, ctx: dict, name: str) -> dict:
+    """Метрики прокрутки против факта под именем модели: по горизонтам, все часы и без простоев."""
     table = ctx['table']
     joined = forecasts.merge(table[['time', 'turbine', 'lead_h', 'power', 'curtailed']],
                              on=['time', 'turbine', 'lead_h'])
@@ -399,10 +454,25 @@ def validate(ctx: dict | None = None) -> dict:
     for lead, group in joined.groupby('lead_h'):
         for scope, subset in (('все часы', group), ('без простоев', group[~group.curtailed])):
             row = bt.metrics(subset.power, subset.p50, subset.persistence)
-            rows.append(dict(model=OURS, lead_h=int(lead), scope=scope, **row))
+            rows.append(dict(model=name, lead_h=int(lead), scope=scope, **row))
     coverage, width = bt.corridor(joined)
-    return {'scores': pd.DataFrame(rows), 'coverage': coverage, 'width': width,
-            'forecasts': joined, 'journal': journal}
+    return {'scores': pd.DataFrame(rows), 'coverage': coverage, 'width': width, 'forecasts': joined}
+
+
+def validate(ctx: dict | None = None) -> dict:
+    """Метрика агентного цикла на отложенном окне.
+
+    «Наше решение» — в режиме поставки: факт обрывается в начале каждого месяца, и агент весь месяц
+    живёт на поправке и проверке, перенесённых с последних двух недель факта. «Агент при ежедневном
+    факте» — та же прокрутка, но факт подвозят каждый день, как будет в эксплуатации."""
+    ctx = ctx or context()
+    first, last = bt.VALID
+    delivered, journal = deliver_months(first, last, ctx)
+    daily, _ = rollout(first - pd.Timedelta(days=2), last.normalize() - pd.Timedelta(days=1), ctx=ctx)
+    ours = evaluate(delivered, ctx, OURS)
+    fresh = evaluate(daily[daily.time.between(first, last)], ctx, DAILY)
+    return {**ours, 'scores': pd.concat([ours['scores'], fresh['scores']], ignore_index=True),
+            'daily': fresh, 'journal': journal}
 
 
 def save_journal(journal: list, path: Path = JOURNAL_PATH):
