@@ -8,19 +8,50 @@ NVIDIA NIM полностью совместим с OpenAI по протокол
 """
 import json
 import os
+import re
+import time
 import urllib.error
 import urllib.request
 from pathlib import Path
 
 # ключи удобно держать в .env в корне проекта (он в .gitignore); переменные окружения важнее файла
 ENV_FILE = Path(__file__).resolve().parent.parent / '.env'
-if ENV_FILE.exists():
-    for line in ENV_FILE.read_text(encoding='utf-8').splitlines():
-        name, sep, value = line.partition('=')
-        if sep and not name.strip().startswith('#'):
-            os.environ.setdefault(name.strip(), value.strip().strip('"\''))
 
-last_error = ''   # почему последний вызов не удался — для диагностики, без ключа
+
+def _parse_env_line(raw_line: str) -> tuple[str, str] | None:
+    """Разобрать одну строку .env: export, комментарии, кавычки, хвостовой # комментарий."""
+    line = raw_line.strip()
+    if not line or line.startswith('#'):
+        return None
+    if line.startswith('export '):
+        line = line[len('export '):].lstrip()
+    name, sep, value = line.partition('=')
+    if not sep:
+        return None
+    name = name.strip()
+    value = value.strip()
+    if len(value) >= 2 and value[0] == value[-1] and value[0] in '"\'':
+        value = value[1:-1]
+    else:
+        # незакавыченное значение — хвост вида "значение # комментарий" отрезаем
+        value = re.split(r'\s+#', value, maxsplit=1)[0].rstrip()
+    if not name or not value:
+        return None
+    return name, value
+
+
+if ENV_FILE.exists():
+    # utf-8-sig — некоторые редакторы на Windows пишут .env с BOM, обычный utf-8 споткнётся на первой строке
+    for _raw_line in ENV_FILE.read_text(encoding='utf-8-sig').splitlines():
+        _parsed = _parse_env_line(_raw_line)
+        if _parsed:
+            os.environ.setdefault(*_parsed)
+
+last_error = ''   # почему последний вызов не удался — для диагностики, без ключа и заголовков
+
+# 429 и 5xx — сбои на стороне сервера, имеет смысл повторить один раз; остальные коды (401, 404 и т.п.)
+# сами себя не починят
+RETRYABLE_STATUS = {429, 500, 502, 503, 504}
 
 # gpt-6-luna — дешёвая модель линейки GPT-6 (сентябрь 2026, $0.10/$0.50 за миллион токенов): для
 # пересказа готовых чисел хватает с запасом. Уровень выше — gpt-6-sol, задаётся через LLM_MODEL.
@@ -35,7 +66,7 @@ def settings():
     base, key_env, default_model = PROVIDERS.get(name, PROVIDERS['openai'])
     return {
         'provider': name if name in PROVIDERS else 'openai',
-        'base_url': os.environ.get('LLM_BASE_URL', base),
+        'base_url': os.environ.get('LLM_BASE_URL') or base,   # пустая переменная — тоже "не задана"
         'model': os.environ.get('LLM_MODEL', default_model),
         'key': os.environ.get(key_env, ''),
         'key_env': key_env,
@@ -46,8 +77,20 @@ def available() -> bool:
     return bool(settings()['key'])
 
 
+def _extract_text(message: dict) -> str:
+    """content обычно строка, но часть моделей отвечает списком частей {'type': 'text', 'text': …}."""
+    content = message.get('content')
+    if isinstance(content, list):
+        return ''.join(part.get('text', '') for part in content
+                        if isinstance(part, dict) and part.get('type') == 'text').strip()
+    return (content or '').strip()
+
+
 def ask(system: str, prompt: str, max_tokens: int = 400, temperature: float = 0.2) -> str | None:
-    """Ответ модели или None, если ключа нет и сеть не отвечает."""
+    """Ответ модели или None — при отсутствии ключа и при любом сбое или неожиданном ответе сервера.
+
+    Исключений наружу не бросает: сервер может вернуть что угодно, шаг объяснения на этом не должен падать.
+    """
     global last_error
     cfg = settings()
     if not cfg['key']:
@@ -68,17 +111,29 @@ def ask(system: str, prompt: str, max_tokens: int = 400, temperature: float = 0.
     request = urllib.request.Request(
         cfg['base_url'].rstrip('/') + '/chat/completions', data=body,
         headers={'Content-Type': 'application/json', 'Authorization': f'Bearer {cfg["key"]}'})
-    for attempt in range(2):
+
+    for attempt in (0, 1):
         try:
             with urllib.request.urlopen(request, timeout=45) as response:
                 answer = json.load(response)
-            text = (answer['choices'][0]['message']['content'] or '').strip()
-            if text:
-                last_error = ''
-                return text
-            last_error = f'пустой ответ, finish_reason={answer["choices"][0].get("finish_reason")}'
         except urllib.error.HTTPError as err:
             last_error = f'HTTP {err.code}: {err.read().decode("utf-8", "replace")[:300]}'
-        except (urllib.error.URLError, TimeoutError, KeyError, IndexError, json.JSONDecodeError) as err:
+            if err.code in RETRYABLE_STATUS and attempt == 0:
+                time.sleep(2)
+                continue
+            return None
+        except (urllib.error.URLError, TimeoutError, json.JSONDecodeError) as err:
             last_error = f'{type(err).__name__}: {err}'
+            return None
+
+        choices = answer.get('choices') or []
+        if not choices:
+            last_error = 'пустой choices в ответе'
+            return None
+        text = _extract_text(choices[0].get('message') or {})
+        if text:
+            last_error = ''
+            return text
+        last_error = f'пустой ответ, finish_reason={choices[0].get("finish_reason")}'
+        return None
     return None

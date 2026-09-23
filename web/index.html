@@ -14,6 +14,22 @@
     --dim: #5d646a;
     --accent: #5ec8a0;
     --accent-soft: rgba(94, 200, 160, .16);
+    --bad: #e2685c;
+    --bad-soft: rgba(226, 104, 92, .18);
+  }
+  @media (prefers-color-scheme: light) {
+    :root {
+      --bg: #f6f7f7;
+      --panel: #ffffff;
+      --line: #e1e4e5;
+      --text: #14181a;
+      --muted: #5b6266;
+      --dim: #8b9196;
+      --accent: #1f8f68;
+      --accent-soft: rgba(31, 143, 104, .12);
+      --bad: #c23b2c;
+      --bad-soft: rgba(194, 59, 44, .12);
+    }
   }
   * { box-sizing: border-box; }
   body {
@@ -35,6 +51,14 @@
     color: var(--muted); margin: 40px 0 14px;
   }
 
+  /* ---- шапка: главный вывод крупно, для жюри за минуту просмотра ---- */
+  .hero { margin-bottom: 8px; }
+  .hero-sub { color: var(--muted); font-size: 14px; max-width: 620px; margin: 0 0 20px; }
+  .hero-kpis { display: flex; flex-wrap: wrap; gap: 28px 44px; }
+  .hero-kpi .v { font-size: 30px; font-weight: 600; letter-spacing: -.01em; }
+  .hero-kpi.main .v { font-size: 42px; color: var(--accent); }
+  .hero-kpi .k { color: var(--muted); font-size: 13px; margin-top: 4px; max-width: 230px; }
+
   .controls { display: flex; flex-wrap: wrap; gap: 10px 20px; align-items: center; margin-bottom: 18px; }
   .group { display: flex; gap: 2px; }
   .group button {
@@ -49,7 +73,8 @@
 
   .legend { display: flex; gap: 18px; flex-wrap: wrap; color: var(--muted); font-size: 13px; margin-top: 10px; }
   .legend i { display: inline-block; width: 14px; height: 2px; vertical-align: middle; margin-right: 6px; }
-  .legend .band { height: 10px; background: var(--accent-soft); border-top: 1px solid rgba(94,200,160,.4); border-bottom: 1px solid rgba(94,200,160,.4); }
+  .legend .band { height: 10px; background: var(--accent-soft); border-top: 1px solid var(--accent); border-bottom: 1px solid var(--accent); opacity: .6; }
+  .legend .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--bad); }
 
   .chart { position: relative; }
   svg { display: block; width: 100%; height: auto; }
@@ -72,16 +97,33 @@
   td:first-child { color: var(--text); }
   .scroller { overflow-x: auto; }
 
-  .log { list-style: none; margin: 0; padding: 0; }
-  .log li {
+  .log { margin: 0; padding: 0; }
+  .log-row {
     display: grid; grid-template-columns: 116px 104px 1fr; gap: 12px; align-items: baseline;
     padding: 8px 0 8px 12px; border-bottom: 1px solid var(--line); border-left: 2px solid transparent;
   }
-  .log .ts { color: var(--dim); font-size: 13px; font-variant-numeric: tabular-nums; }
-  .log .step { color: var(--muted); font-size: 13px; }
-  .log .text { color: var(--text); font-size: 14px; }
-  .log li.mark { border-left-color: var(--accent); }
-  .log li.mark .step, .log li.mark .text { font-weight: 600; }
+  .log-row .ts { color: var(--dim); font-size: 13px; font-variant-numeric: tabular-nums; }
+  .log-row .step { color: var(--muted); font-size: 13px; }
+  .log-row .text { color: var(--text); font-size: 14px; }
+  .log-row.mark { border-left-color: var(--bad); }
+  .log-row.mark .step, .log-row.mark .text { font-weight: 600; }
+  .tag-llm { color: var(--accent); font-weight: 600; font-size: 11px; letter-spacing: .04em; }
+
+  /* записи одного выпуска прогноза свёрнуты под общий заголовок */
+  .log-issue { border-bottom: 1px solid var(--line); }
+  .log-issue summary {
+    cursor: pointer; padding: 10px 4px 10px 12px; border-left: 2px solid transparent;
+    display: grid; grid-template-columns: 116px 104px 1fr; gap: 12px; align-items: baseline;
+  }
+  .log-issue summary .ts { color: var(--dim); font-size: 13px; font-variant-numeric: tabular-nums; }
+  .log-issue summary .step { color: var(--text); font-weight: 600; font-size: 13px; }
+  .log-issue summary .text {
+    color: var(--muted); font-size: 14px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  }
+  .log-issue[open] summary .text { white-space: normal; }
+  .log-issue.mark summary { border-left-color: var(--bad); }
+  .log-steps { padding-left: 12px; }
+  .log-steps .log-row:last-child { border-bottom: none; }
   .more {
     background: none; border: none; color: var(--accent); font: inherit; font-size: 14px;
     cursor: pointer; padding: 12px 0 0;
@@ -101,7 +143,9 @@
   @media (max-width: 640px) {
     .wrap { padding: 24px 16px 48px; }
     h1 { font-size: 21px; }
-    .log li { grid-template-columns: 1fr; gap: 2px; }
+    .hero-kpi.main .v { font-size: 34px; }
+    .log-row, .log-issue summary { grid-template-columns: 1fr; gap: 2px; }
+    .log-issue summary .text { white-space: normal; }
     .econ { gap: 24px; }
   }
 </style>
@@ -121,6 +165,12 @@
   </div>
 
   <main id="main" hidden>
+    <section class="hero" id="hero">
+      <p class="hero-sub">Агент считает почасовую выработку двух турбин ВЭС на 24–48 часов вперёд по прогнозу погоды
+        и объясняет результат простым языком — без ручной калибровки.</p>
+      <div class="hero-kpis" id="hero-kpis"></div>
+    </section>
+
     <section>
       <h2>Прогноз и факт</h2>
       <div class="controls">
@@ -138,7 +188,9 @@
         <span><i class="band"></i>коридор P10–P90</span>
         <span><i style="background: var(--text)"></i>факт</span>
         <span><i style="background: var(--dim)"></i>кривая мощности</span>
+        <span><i class="dot"></i>факт вне коридора</span>
       </div>
+      <div class="note">время на графике и в подсказке — местное, UTC+5</div>
     </section>
 
     <section id="metrics-block">
@@ -146,11 +198,12 @@
       <div class="scroller"><table id="metrics"></table></div>
       <div class="note">Доли от установленной мощности. Скилл — насколько ошибка меньше, чем у
         персистентности: 0 — как у неё, 1 — идеальный прогноз.</div>
+      <div class="note" id="coverage-note" hidden></div>
     </section>
 
     <section id="log-block">
       <h2>Журнал агента</h2>
-      <ul class="log" id="log"></ul>
+      <div class="log" id="log"></div>
       <button class="more" id="log-more" hidden></button>
     </section>
 
@@ -167,13 +220,11 @@
 (function () {
   'use strict';
 
-  var MODEL_NAMES = {
-    agent: 'Наше решение',
-    curve: 'Кривая мощности',
-    climatology: 'Климатология',
-    persistence: 'Персистентность'
-  };
-  var MODEL_ORDER = ['agent', 'curve', 'climatology', 'persistence'];
+  // экспорт пишет русские имена моделей как есть (в нижнем регистре) — здесь только порядок и заглавная буква
+  var MODEL_ORDER = [
+    'наше решение', 'модель без агента', 'кривая мощности',
+    'персистентность+климат', 'климатология', 'персистентность'
+  ];
   var STATUS_NAMES = {
     ok: 'ок', retry: 'повтор', fallback: 'шаблон', warn: 'внимание', rollback: 'откат',
     degraded: 'с оговорками', error: 'ошибка', skip: 'пропуск', skipped: 'пропуск'
@@ -200,19 +251,22 @@
     return x.toFixed(digits === undefined ? 3 : digits).replace('.', ',');
   }
 
+  // время в данных — UTC (см. CLAUDE.md); сразу переводим в Алматы (UTC+5, без перехода на лето) и
+  // дальше везде читаем через getUTC*, чтобы не зависеть от часового пояса браузера
+  var ALMATY_OFFSET_MS = 5 * 3600 * 1000;
+
   function parseTime(s) {
-    // строки вида 2026-02-01T00:00 — без зоны, читаем как есть
     var m = /^(\d{4})-(\d{2})-(\d{2})[T ](\d{2}):(\d{2})/.exec(s || '');
     if (!m) return null;
-    return new Date(+m[1], +m[2] - 1, +m[3], +m[4], +m[5]);
+    return new Date(Date.UTC(+m[1], +m[2] - 1, +m[3], +m[4], +m[5]) + ALMATY_OFFSET_MS);
   }
 
   function fmtDay(d) {
-    return ('0' + d.getDate()).slice(-2) + '.' + ('0' + (d.getMonth() + 1)).slice(-2);
+    return ('0' + d.getUTCDate()).slice(-2) + '.' + ('0' + (d.getUTCMonth() + 1)).slice(-2);
   }
 
   function fmtDateTime(d) {
-    return fmtDay(d) + ' ' + ('0' + d.getHours()).slice(-2) + ':00';
+    return fmtDay(d) + ' ' + ('0' + d.getUTCHours()).slice(-2) + ':00';
   }
 
   function el(tag, attrs, text) {
@@ -228,15 +282,61 @@
     return out;
   }
 
+  // ---- главный вывод: три числа, которые жюри видит за первые секунды
+
+  var OURS_KEY = 'наше решение', BASELINE_KEY = 'персистентность';
+
+  function renderHero() {
+    var rows = state.data.metrics || [];
+    var host = document.getElementById('hero-kpis');
+    if (!rows.length) { host.textContent = ''; return; }
+
+    var lead = uniq(rows.map(function (r) { return r.lead_h; })).sort(function (a, b) { return a - b; })[0];
+    var ours = rows.filter(function (r) { return r.model === OURS_KEY && r.lead_h === lead; })[0];
+    var base = rows.filter(function (r) { return r.model === BASELINE_KEY && r.lead_h === lead; })[0];
+
+    var tiles = [];
+    if (ours && ours.nmae !== null && ours.nmae !== undefined) {
+      tiles.push({ v: Math.round(ours.nmae * 100) + ' %', k: 'ошибка прогноза (nMAE), горизонт ' + lead + ' ч', main: true });
+    }
+    if (ours && base && ours.nmae) {
+      tiles.push({ v: fmtNum(base.nmae / ours.nmae, 1) + '×', k: 'точнее прогноза „как вчера“' });
+    }
+    if (state.data.coverage !== undefined && state.data.coverage !== null) {
+      tiles.push({ v: Math.round(state.data.coverage * 100) + ' %', k: 'фактов внутри коридора P10–P90' });
+    }
+
+    host.textContent = '';
+    tiles.forEach(function (t) {
+      var cell = document.createElement('div');
+      cell.className = 'hero-kpi' + (t.main ? ' main' : '');
+      var v = document.createElement('div');
+      v.className = 'v';
+      v.textContent = t.v;
+      var k = document.createElement('div');
+      k.className = 'k';
+      k.textContent = t.k;
+      cell.appendChild(v);
+      cell.appendChild(k);
+      host.appendChild(cell);
+    });
+  }
+
   // ---- шапка
 
   function renderHead(data) {
-    var parts = [];
+    var parts = [];   // строки или готовые DOM-узлы — site.name и т.п. приходят из данных, innerHTML не годится
     var site = data.site || {};
     if (site.name) {
-      var coords = (site.lat !== undefined && site.lon !== undefined)
-        ? ' (' + site.lat.toFixed(3).replace('.', ',') + ' / ' + site.lon.toFixed(3).replace('.', ',') + ')' : '';
-      parts.push('<b>' + site.name + '</b>' + coords);
+      var span = document.createElement('span');
+      var b = document.createElement('b');
+      b.textContent = site.name;
+      span.appendChild(b);
+      if (site.lat !== undefined && site.lon !== undefined) {
+        span.appendChild(document.createTextNode(
+          ' (' + site.lat.toFixed(3).replace('.', ',') + ' / ' + site.lon.toFixed(3).replace('.', ',') + ')'));
+      }
+      parts.push(span);
     }
     var period = data.period || {};
     var from = parseTime(period.start), to = parseTime(period.end);
@@ -244,13 +344,19 @@
     var made = parseTime(data.generated_at) ||
       (data.generated_at ? new Date(data.generated_at) : null);
     if (made && !isNaN(made)) parts.push('последний прогон ' + fmtDateTime(made));
-    document.getElementById('head-sub').innerHTML = parts.join(' · ');
+
+    var host = document.getElementById('head-sub');
+    host.textContent = '';
+    parts.forEach(function (part, i) {
+      if (i > 0) host.appendChild(document.createTextNode(' · '));
+      host.appendChild(typeof part === 'string' ? document.createTextNode(part) : part);
+    });
   }
 
   // ---- переключатели
 
   function buildGroup(host, values, labels, current, onPick) {
-    host.innerHTML = '';
+    host.textContent = '';
     values.forEach(function (value) {
       var button = document.createElement('button');
       button.type = 'button';
@@ -317,10 +423,14 @@
     var W = Math.max(320, Math.round(svg.parentNode.clientWidth || 960));
     var H = W < 560 ? 240 : 340;
     svg.setAttribute('viewBox', '0 0 ' + W + ' ' + H);
-    var L = 40, R = 12, T = 12, B = 30;
+    var L = 40, R = 12, T = 22, B = 30;
     var innerW = W - L - R, innerH = H - T - B;
     var x = function (i) { return L + (points.length < 2 ? innerW / 2 : innerW * i / (points.length - 1)); };
     var y = function (v) { return T + innerH * (1 - Math.max(0, Math.min(1, v))); };
+
+    // подсветка суток под курсором — самый нижний слой, включается в onmousemove
+    var dayBand = el('rect', { y: T, height: innerH, width: 0, fill: 'var(--line)', opacity: 0 });
+    svg.appendChild(dayBand);
 
     // сетка и подписи по мощности
     [0, .25, .5, .75, 1].forEach(function (v) {
@@ -329,10 +439,13 @@
         x: L - 10, y: y(v) + 4, fill: 'var(--dim)', 'font-size': 12, 'text-anchor': 'end'
       }, v.toFixed(2).replace('.', ',')));
     });
+    svg.appendChild(el('text', {
+      x: L, y: T - 4, fill: 'var(--dim)', 'font-size': 11, 'text-anchor': 'start'
+    }, 'доля от номинала'));
 
     // отметки суток по оси времени, с прореживанием под ширину
     var dayIdx = [];
-    points.forEach(function (p, i) { if (p._t && p._t.getHours() === 0) dayIdx.push(i); });
+    points.forEach(function (p, i) { if (p._t && p._t.getUTCHours() === 0) dayIdx.push(i); });
     var every = Math.ceil(dayIdx.length / Math.max(2, Math.floor(innerW / 70))) || 1;
     dayIdx.forEach(function (i, n) {
       svg.appendChild(el('line', { x1: x(i), x2: x(i), y1: T, y2: T + innerH, stroke: 'var(--line)' }));
@@ -377,6 +490,19 @@
       d: actual, fill: 'none', stroke: 'var(--text)', 'stroke-width': 1.4, 'stroke-linejoin': 'round'
     }));
 
+    // часы, где факт вышел за коридор P10–P90, — их видно сразу, не только по наведению
+    points.forEach(function (p, i) {
+      if (p.actual === null || p.actual === undefined) return;
+      var lo = p.p10 !== undefined && p.p10 !== null ? p.p10 : p.p50;
+      var hi = p.p90 !== undefined && p.p90 !== null ? p.p90 : p.p50;
+      if (lo === undefined || lo === null || hi === undefined || hi === null) return;
+      if (p.actual < lo || p.actual > hi) {
+        svg.appendChild(el('circle', {
+          cx: x(i), cy: y(p.actual), r: 3, fill: 'var(--bad)', stroke: 'var(--bg)', 'stroke-width': 1
+        }));
+      }
+    });
+
     // слой наведения
     var hover = el('g', { id: 'hover', opacity: 0 });
     hover.appendChild(el('line', { id: 'hover-line', y1: T, y2: T + innerH, stroke: 'var(--muted)' }));
@@ -395,16 +521,38 @@
       hover.querySelector('#hover-dot').setAttribute('cx', x(i));
       hover.querySelector('#hover-dot').setAttribute('cy', y(p.p50));
 
+      // подсветка суток, к которым относится точка под курсором
+      if (p._t) {
+        var d0 = i, d1 = i;
+        while (d0 > 0 && points[d0 - 1]._t && points[d0 - 1]._t.getUTCDate() === p._t.getUTCDate()
+          && points[d0 - 1]._t.getUTCMonth() === p._t.getUTCMonth()) d0--;
+        while (d1 < points.length - 1 && points[d1 + 1]._t && points[d1 + 1]._t.getUTCDate() === p._t.getUTCDate()
+          && points[d1 + 1]._t.getUTCMonth() === p._t.getUTCMonth()) d1++;
+        dayBand.setAttribute('x', x(d0) - 2);
+        dayBand.setAttribute('width', Math.max(2, x(d1) - x(d0) + 4));
+        dayBand.setAttribute('opacity', .5);
+      }
+
       var tip = document.getElementById('tip');
-      var rows = ['<b>' + (p._t ? fmtDateTime(p._t) : p.time) + '</b>'];
-      rows.push('<span class="k">прогноз</span> ' + fmtNum(p.p50, 2));
+      tip.textContent = '';   // p.time — сырая строка из данных, только textContent
+      var head = document.createElement('b');
+      head.textContent = p._t ? fmtDateTime(p._t) : (p.time || '');
+      tip.appendChild(head);
+      var addRow = function (label, value) {
+        tip.appendChild(document.createElement('br'));
+        var k = document.createElement('span');
+        k.className = 'k';
+        k.textContent = label;
+        tip.appendChild(k);
+        tip.appendChild(document.createTextNode(' ' + value));
+      };
+      addRow('прогноз', fmtNum(p.p50, 2));
       if (p.p10 !== undefined && p.p90 !== undefined) {
-        rows.push('<span class="k">коридор</span> ' + fmtNum(p.p10, 2) + ' — ' + fmtNum(p.p90, 2));
+        addRow('коридор', fmtNum(p.p10, 2) + ' — ' + fmtNum(p.p90, 2));
       }
       if (p.actual !== null && p.actual !== undefined) {
-        rows.push('<span class="k">факт</span> ' + fmtNum(p.actual, 2));
+        addRow('факт', fmtNum(p.actual, 2));
       }
-      tip.innerHTML = rows.join('<br>');
       tip.style.opacity = 1;
       var left = (event.clientX - box.left) + 14;
       if (left + tip.offsetWidth > box.width) left = (event.clientX - box.left) - tip.offsetWidth - 14;
@@ -413,11 +561,17 @@
     };
     svg.onmouseleave = function () {
       hover.setAttribute('opacity', 0);
+      dayBand.setAttribute('opacity', 0);
       document.getElementById('tip').style.opacity = 0;
     };
   }
 
   // ---- метрики
+
+  function displayModel(model) {
+    // отображаемое имя — то же, что в данных, но с заглавной буквы
+    return model ? model.charAt(0).toUpperCase() + model.slice(1) : model;
+  }
 
   function renderMetrics() {
     var rows = state.data.metrics || [];
@@ -460,34 +614,140 @@
       });
     });
 
-    var html = '<thead><tr><th></th>';
-    leads.forEach(function (lead) {
-      html += '<th class="lead-head" colspan="' + cols.length + '">горизонт ' + lead + ' ч</th>';
-    });
-    html += '</tr><tr><th>модель</th>';
-    leads.forEach(function () {
-      cols.forEach(function (col) { html += '<th>' + col.label + '</th>'; });
-    });
-    html += '</tr></thead><tbody>';
+    // имена моделей — данные из экспорта, строим таблицу через DOM, а не строкой innerHTML
+    var table = document.getElementById('metrics');
+    table.textContent = '';
 
+    var thead = document.createElement('thead');
+    var trTop = document.createElement('tr');
+    trTop.appendChild(document.createElement('th'));
+    leads.forEach(function (lead) {
+      var th = document.createElement('th');
+      th.className = 'lead-head';
+      th.colSpan = cols.length;
+      th.textContent = 'горизонт ' + lead + ' ч';
+      trTop.appendChild(th);
+    });
+    thead.appendChild(trTop);
+
+    var trHead = document.createElement('tr');
+    var thModel = document.createElement('th');
+    thModel.textContent = 'модель';
+    trHead.appendChild(thModel);
+    leads.forEach(function () {
+      cols.forEach(function (col) {
+        var th = document.createElement('th');
+        th.textContent = col.label;
+        trHead.appendChild(th);
+      });
+    });
+    thead.appendChild(trHead);
+    table.appendChild(thead);
+
+    var tbody = document.createElement('tbody');
     models.forEach(function (model) {
-      html += '<tr><td>' + (MODEL_NAMES[model] || model) + '</td>';
+      var tr = document.createElement('tr');
+      var tdName = document.createElement('td');
+      tdName.textContent = displayModel(model);
+      tr.appendChild(tdName);
       leads.forEach(function (lead) {
         var row = find(model, lead);
         cols.forEach(function (col) {
           var v = row ? row[col.key] : null;
-          var isBest = best[lead + '|' + col.key] === model;
-          html += '<td' + (isBest ? ' class="best"' : '') + '>' + fmtNum(v, 3) + '</td>';
+          var td = document.createElement('td');
+          if (best[lead + '|' + col.key] === model) td.className = 'best';
+          td.textContent = fmtNum(v, 3);
+          tr.appendChild(td);
         });
       });
-      html += '</tr>';
+      tbody.appendChild(tr);
     });
-    document.getElementById('metrics').innerHTML = html + '</tbody>';
+    table.appendChild(tbody);
+  }
+
+  // ---- покрытие коридора P10–P90
+
+  function renderCoverage() {
+    var host = document.getElementById('coverage-note');
+    var coverage = state.data.coverage;
+    if (coverage === undefined || coverage === null) { host.hidden = true; return; }
+    var text = 'Коридор P10–P90 покрыл ' + Math.round(coverage * 100) + ' % фактов (цель 80 %)';
+    var width = state.data.width;
+    if (width !== undefined && width !== null) text += ', средняя ширина ' + fmtNum(width, 2);
+    host.textContent = text + '.';
+    host.hidden = false;
   }
 
   // ---- журнал агента
 
   var logShown = 20;
+
+  function logSortKey(entry) {
+    // issue_time — дата выпуска прогноза, свежие сверху; нет поля — сортируем как раньше, по ts
+    return parseTime(entry.issue_time) || parseTime(entry.ts) || 0;
+  }
+
+  function logTsLabel(entry) {
+    var issued = parseTime(entry.issue_time);
+    if (issued) return 'выпуск ' + fmtDay(issued);
+    var time = parseTime(entry.ts);
+    return time ? fmtDateTime(time) : (entry.ts || '');
+  }
+
+  function stepTsLabel(entry) {
+    var time = parseTime(entry.ts);
+    return time ? fmtDateTime(time) : (entry.ts || '');
+  }
+
+  function buildLogRow(entry, tsLabel) {
+    var row = document.createElement('div');
+    row.className = 'log-row' + (MARK_STATUS[entry.status] ? ' mark' : '');
+
+    var tsSpan = document.createElement('span');
+    tsSpan.className = 'ts';
+    tsSpan.textContent = tsLabel;
+    row.appendChild(tsSpan);
+
+    var stepSpan = document.createElement('span');
+    stepSpan.className = 'step';
+    var status = STATUS_NAMES[entry.status] || entry.status || '';
+    stepSpan.textContent = (entry.step || '') + (status ? ' · ' + status : '');
+    if (entry.step === 'explain') {
+      stepSpan.appendChild(document.createTextNode(' '));
+      var tag = document.createElement('span');
+      tag.className = 'tag-llm';
+      tag.textContent = 'GPT';
+      stepSpan.appendChild(tag);
+    }
+    row.appendChild(stepSpan);
+
+    var textSpan = document.createElement('span');
+    textSpan.className = 'text';
+    textSpan.textContent = entry.text || '';
+    row.appendChild(textSpan);
+
+    return row;
+  }
+
+  function groupByIssue(rows) {
+    // группируем, только если хотя бы у одной записи есть issue_time — иначе это старый data.js
+    if (!rows.some(function (r) { return !!r.issue_time; })) return null;
+    var order = [], byKey = {};
+    rows.forEach(function (entry) {
+      var key = entry.issue_time || ('#' + entry.ts);   // запись без issue_time — сама себе группа
+      if (!byKey[key]) { byKey[key] = []; order.push(key); }
+      byKey[key].push(entry);
+    });
+    return order.map(function (key) { return byKey[key]; });
+  }
+
+  function summarizeIssue(entries) {
+    var marks = entries.filter(function (e) { return MARK_STATUS[e.status]; }).length;
+    var meta = entries.length + ' шагов' + (marks ? ', ' + marks + ' с отметкой' : '');
+    var explain = entries.filter(function (e) { return e.step === 'explain'; })[0];
+    var headline = (explain || entries[entries.length - 1] || {}).text || '';
+    return { meta: meta, headline: headline };
+  }
 
   function renderLog() {
     var rows = (state.data.agent_log || []).slice();
@@ -495,25 +755,56 @@
     if (!rows.length) { block.hidden = true; return; }
     block.hidden = false;
 
-    rows.sort(function (a, b) { return (parseTime(b.ts) || 0) - (parseTime(a.ts) || 0); });
-    var shown = rows.slice(0, logShown);
+    // Array.prototype.sort стабилен — при равном ключе порядок шагов внутри записи не меняется
+    rows.sort(function (a, b) { return logSortKey(b) - logSortKey(a); });
     var host = document.getElementById('log');
-    host.innerHTML = '';
-    shown.forEach(function (entry) {
-      var li = document.createElement('li');
-      if (MARK_STATUS[entry.status]) li.className = 'mark';
-      var time = parseTime(entry.ts);
-      var status = STATUS_NAMES[entry.status] || entry.status || '';
-      li.innerHTML = '<span class="ts">' + (time ? fmtDateTime(time) : (entry.ts || '')) + '</span>' +
-        '<span class="step">' + (entry.step || '') + (status ? ' · ' + status : '') + '</span>' +
-        '<span class="text">' + (entry.text || '') + '</span>';
-      host.appendChild(li);
-    });
+    host.textContent = '';
 
+    var groups = groupByIssue(rows);
     var more = document.getElementById('log-more');
-    more.hidden = rows.length <= logShown;
-    more.textContent = 'показать все — ' + rows.length;
-    more.onclick = function () { logShown = rows.length; renderLog(); };
+
+    if (!groups) {
+      // нет ни одного issue_time — плоский список, как в исходном журнале
+      var shown = rows.slice(0, logShown);
+      shown.forEach(function (entry) { host.appendChild(buildLogRow(entry, logTsLabel(entry))); });
+      more.hidden = rows.length <= logShown;
+      more.textContent = 'показать все — ' + rows.length;
+      more.onclick = function () { logShown = rows.length; renderLog(); };
+      return;
+    }
+
+    more.hidden = true;   // при группировке по выпускам разворачивать нужно сами выпуски, а не общий список
+    groups.forEach(function (entries, idx) {
+      var info = summarizeIssue(entries);
+      var details = document.createElement('details');
+      details.className = 'log-issue' + (entries.some(function (e) { return MARK_STATUS[e.status]; }) ? ' mark' : '');
+      if (idx === 0) details.open = true;   // самый свежий выпуск сразу развёрнут
+
+      var summary = document.createElement('summary');
+      var tsSpan = document.createElement('span');
+      tsSpan.className = 'ts';
+      tsSpan.textContent = logTsLabel(entries[0]);
+      summary.appendChild(tsSpan);
+
+      var stepSpan = document.createElement('span');
+      stepSpan.className = 'step';
+      stepSpan.textContent = info.meta;
+      summary.appendChild(stepSpan);
+
+      var textSpan = document.createElement('span');
+      textSpan.className = 'text';
+      textSpan.textContent = info.headline;
+      summary.appendChild(textSpan);
+
+      details.appendChild(summary);
+
+      var steps = document.createElement('div');
+      steps.className = 'log-steps';
+      entries.forEach(function (entry) { steps.appendChild(buildLogRow(entry, stepTsLabel(entry))); });
+      details.appendChild(steps);
+
+      host.appendChild(details);
+    });
   }
 
   // ---- экономика
@@ -524,27 +815,40 @@
     if (!e || (e.monthly_loss === undefined && e.baseline_loss === undefined)) { block.hidden = true; return; }
     block.hidden = false;
 
-    var cur = e.currency || '';
+    var cur = e.currency || '';   // валюта — тоже поле из данных, в разметку через textContent
     var cells = [];
     if (e.monthly_loss !== undefined) {
       cells.push({ v: nf.format(Math.round(e.monthly_loss)) + ' ' + cur, k: 'стоимость ошибки за месяц' });
     }
     if (e.baseline_loss !== undefined) {
-      cells.push({ v: nf.format(Math.round(e.baseline_loss)) + ' ' + cur, k: 'то же на базовой линии' });
+      cells.push({ v: nf.format(Math.round(e.baseline_loss)) + ' ' + cur, k: 'то же при прогнозе „как вчера“' });
     }
     if (e.monthly_loss !== undefined && e.baseline_loss !== undefined) {
       var saved = e.baseline_loss - e.monthly_loss;
       var share = e.baseline_loss ? Math.round(saved / e.baseline_loss * 100) : 0;
       cells.push({ v: nf.format(Math.round(saved)) + ' ' + cur, k: 'экономия за месяц, −' + share + '%', good: true });
     }
-    document.getElementById('econ').innerHTML = cells.map(function (c) {
-      return '<div><div class="v' + (c.good ? ' good' : '') + '">' + c.v + '</div><div class="k">' + c.k + '</div></div>';
-    }).join('');
+    var econHost = document.getElementById('econ');
+    econHost.textContent = '';
+    cells.forEach(function (c) {
+      var cell = document.createElement('div');
+      var v = document.createElement('div');
+      v.className = 'v' + (c.good ? ' good' : '');
+      v.textContent = c.v;
+      var k = document.createElement('div');
+      k.className = 'k';
+      k.textContent = c.k;
+      cell.appendChild(v);
+      cell.appendChild(k);
+      econHost.appendChild(cell);
+    });
 
     var note = [];
     if (e.penalty_per_mwh !== undefined) note.push('штраф за небаланс ' + nf.format(e.penalty_per_mwh) + ' ' + cur + ' за МВт·ч');
     if (e.capacity_mw !== undefined) note.push('установленная мощность ' + String(e.capacity_mw).replace('.', ',') + ' МВт');
-    document.getElementById('econ-note').textContent = note.join(', ');
+    var noteText = note.join(', ');
+    noteText += (noteText ? '. ' : '') + 'Штраф и мощность турбины — наши допущения для оценки порядка величин, не тарифы станции.';
+    document.getElementById('econ-note').textContent = noteText;
   }
 
   // ---- сборка
@@ -559,8 +863,10 @@
     state.data = data;
     document.getElementById('main').hidden = false;
     renderHead(data);
+    renderHero();
     redraw();
     renderMetrics();
+    renderCoverage();
     renderLog();
     renderEcon();
   }).catch(function () {
