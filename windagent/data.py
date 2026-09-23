@@ -2,22 +2,26 @@
 """Данные турбин: часовая агрегация, простои, склейка двух машин.
 
 Исходники — два CSV с шагом 10 минут за 11.03.2023 — 31.01.2026. Февраля 2026 в них нет: это и есть
-горизонт прогноза.
+горизонт прогноза. Часовой срез лежит в репозитории (`data/turbines_hourly.parquet`), поэтому сами
+CSV нужны только для пересборки кеша: положить их в `data/raw/` или указать папку в `WIND_RAW_DIR`.
 
 Две тонкости, которые видно только в данных:
   * «ноль» закодирован как 0.01, а не 0, и вся мощность квантована до сотых;
-  * полка у турбин разная — T1 упирается в 0.99, T2 в 0.97, поэтому нормировать их надо порознь.
+  * метки времени местные, а не UTC, причём сдвиг менялся вместе с часовым поясом Казахстана.
 """
+import os
 from pathlib import Path
 
 import numpy as np
 import pandas as pd
 
-RAW = {
-    'T1': Path(r'C:\Users\perne\Downloads\Dataset HackAlemAI для участников 11.03.2023-28.02.2026 - turbine 1.csv'),
-    'T2': Path(r'C:\Users\perne\Downloads\Dataset HackAlemAI для участников 11.03.2023-28.02.2026 - turbine 2.csv'),
+ROOT = Path(__file__).resolve().parent.parent
+RAW_DIR = Path(os.environ.get('WIND_RAW_DIR', ROOT / 'data' / 'raw'))
+RAW_FILES = {
+    'T1': 'Dataset HackAlemAI для участников 11.03.2023-28.02.2026 - turbine 1.csv',
+    'T2': 'Dataset HackAlemAI для участников 11.03.2023-28.02.2026 - turbine 2.csv',
 }
-CACHE = Path(__file__).resolve().parent.parent / 'data' / 'turbines_hourly.parquet'
+CACHE = ROOT / 'data' / 'turbines_hourly.parquet'
 
 COLUMNS = {
     'Статистическое время': 'time',
@@ -27,6 +31,7 @@ COLUMNS = {
 }
 IDLE = 0.011   # всё, что ниже — простой: реальный ноль в данных записан как 0.01
 WORKING_WIND = 4.0   # при таком ветре турбина обязана выдавать мощность
+FULL_HOUR = 4        # минимум десятиминутных замеров, чтобы часовое среднее считалось надёжным
 
 # Метки времени в данных — местные, а не UTC. Проверено взаимной корреляцией измеренного ветра с
 # прогнозным (checks/timealign.py): до перехода Казахстана на единый пояс пик на +6 ч, после — на +5.
@@ -64,12 +69,15 @@ def load(refresh: bool = False) -> pd.DataFrame:
     """Длинная таблица: turbine, time, power и признаки часа. Кешируется в parquet."""
     if CACHE.exists() and not refresh:
         return pd.read_parquet(CACHE)
+    missing = [name for name in RAW_FILES.values() if not (RAW_DIR / name).exists()]
+    if missing:
+        raise FileNotFoundError(
+            f'нет кеша {CACHE} и исходных CSV организаторов: положите их в {RAW_DIR} '
+            f'или задайте папку в WIND_RAW_DIR. Не найдены: ' + '; '.join(missing))
     parts = []
-    for name, path in RAW.items():
-        hourly = to_hourly(read_raw(path))
+    for name, file in RAW_FILES.items():
+        hourly = to_hourly(read_raw(RAW_DIR / file))
         hourly['turbine'] = name
-        # своя полка у каждой машины: мощность приводим к её собственному максимуму
-        hourly['rated'] = hourly.power.quantile(0.999)
         parts.append(hourly)
     both = pd.concat(parts, ignore_index=True)
     CACHE.parent.mkdir(parents=True, exist_ok=True)
@@ -78,33 +86,10 @@ def load(refresh: bool = False) -> pd.DataFrame:
 
 
 def clean_for_training(frame: pd.DataFrame) -> pd.DataFrame:
-    """Часы, на которых честно учить физику: полные, без простоя и без обрезанных замеров."""
-    good = (frame.n_samples >= 4) & (~frame.curtailed) & (frame.idle_share < 0.5)
-    return frame[good].copy()
+    """Часы, на которых честно учить: полные (не меньше FULL_HOUR замеров) и без простоя.
 
-
-def fill_from_twin(frame: pd.DataFrame) -> pd.DataFrame:
-    """Дыры одной турбины закрываем второй: они стоят в 338 м, мощности коррелируют 0.96.
-
-    Заполненные часы помечаются, чтобы не выдавать их за собственные измерения."""
-    wide = frame.pivot(index='time', columns='turbine', values='power')
-    filled = []
-    for turbine in wide.columns:
-        twin = [c for c in wide.columns if c != turbine]
-        if not twin:
-            continue
-        ratio = (wide[turbine] / wide[twin[0]]).replace([np.inf, -np.inf], np.nan).median()
-        gap = wide[turbine].isna() & wide[twin[0]].notna()
-        patch = pd.DataFrame({
-            'time': wide.index[gap],
-            'turbine': turbine,
-            'power': wide.loc[gap, twin[0]] * ratio,
-            'from_twin': True,
-        })
-        filled.append(patch)
-    if not filled:
-        return frame.assign(from_twin=False)
-    return pd.concat([frame.assign(from_twin=False), pd.concat(filled, ignore_index=True)], ignore_index=True)
+    Штиль, когда машина стоит из-за слабого ветра, — не брак, а физика: такие часы остаются."""
+    return frame[(frame.n_samples >= FULL_HOUR) & ~frame.curtailed]
 
 
 if __name__ == '__main__':
@@ -115,6 +100,5 @@ if __name__ == '__main__':
     print(f'часов всего: {len(hourly)}, период: {hourly.time.min()} — {hourly.time.max()}')
     for name, group in hourly.groupby('turbine'):
         clean = clean_for_training(group)
-        print(f'{name}: {len(group)} ч, чистых для обучения {len(clean)}, '
-              f'простоев {group.curtailed.sum()}, полка {group.rated.iloc[0]:.2f}, '
-              f'средняя мощность {group.power.mean():.3f}')
+        print(f'{name}: {len(group)} ч, чистых для обучения {len(clean)}, простоев {group.curtailed.sum()}, '
+              f'неполных часов {(group.n_samples < FULL_HOUR).sum()}, средняя мощность {group.power.mean():.3f}')

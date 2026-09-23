@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 """Единая точка входа решения.
 
-    python -m windagent.run --backtest   обучение, валидация и прогноз на февраль 2026
+    python -m windagent.run --backtest   обучение, валидация и прогноз на февраль 2026 агентным циклом
     python -m windagent.run --forecast   прогноз на ближайшие 24–48 часов по свежей погоде
-    python -m windagent.run --export     пересобрать web/data.json для дашборда
+    python -m windagent.run --export     пересобрать web/data.json (тот же прогон без выгрузок в forecasts/)
 
 Прогон рассчитан на чистую машину: архив прогнозов погоды лежит в репозитории, интернет нужен только
 режиму `--forecast`.
@@ -12,55 +12,57 @@ import argparse
 import json
 import sys
 import time
-from datetime import datetime, timedelta, timezone
+from datetime import datetime, timezone
 from pathlib import Path
 
 import pandas as pd
 
+from . import agent
 from . import backtest
-from . import model as mdl
-from . import weather as wx
+from . import data as turbines
 
 ROOT = Path(__file__).resolve().parent.parent
 FORECASTS = ROOT / 'forecasts'
 WEB = ROOT / 'web'
 
 SITE = {'name': 'ВЭС, Шелекский коридор', 'lat': 43.645150, 'lon': 78.535604}
-# 2.5 МВт на турбину — типовая машина парка в Шелекском коридоре, штраф за небаланс взят справочно
+# допущения для оценки порядка величин, не данные станции: 2,5 МВт на турбину и штраф за небаланс
 CAPACITY_MW = 2.5
 PENALTY_PER_MWH = 12000
-OURS, BASELINE = 'наше решение', 'персистентность'
+BASELINE = 'персистентность'
 
 
-def _agent():
-    """Агентный слой подключается, когда он готов: без него прогон всё равно работает."""
-    try:
-        from . import agent
-        return agent
-    except ImportError:
-        return None
-
-
-def _forecast_frame(result: dict) -> pd.DataFrame:
-    return result.get('forecast', result.get('test_pred'))
+def build() -> dict:
+    """Полный прогон: обучение один раз, валидация модели и агентного цикла, февраль агентом."""
+    started = time.time()
+    ctx = agent.context()
+    result = backtest.run(fitted=ctx)
+    checked = agent.validate(ctx)
+    forecast, journal = agent.run_backtest_month(ctx=ctx)
+    return {**result, 'scores': pd.concat([checked['scores'], result['scores']], ignore_index=True),
+            'model_coverage': result['coverage'], 'model_width': result['width'],
+            'coverage': checked['coverage'], 'width': checked['width'],
+            'forecast': forecast, 'journal': journal, 'seconds': time.time() - started}
 
 
 def _scores(result: dict) -> pd.DataFrame:
-    """Метрики для витрины: если считались два режима, берём часы без простоев."""
+    """Метрики для витрины: часы без простоев."""
     scores = result['scores']
-    if 'scope' in scores.columns and (scores.scope == 'без простоев').any():
-        return scores[scores.scope == 'без простоев']
-    return scores
+    return scores[scores.scope == 'без простоев']
 
 
 def write_forecast_csv(forecast: pd.DataFrame) -> list[Path]:
+    """Поставка: на турбину 672 часа × 2 горизонта. Время в UTC, рядом местное (Asia/Almaty,
+    UTC+5) — в таком же местном времени организаторы дали факт."""
     out = FORECASTS / '2026-02'
     out.mkdir(parents=True, exist_ok=True)
     written = []
-    for turbine, group in forecast.groupby('turbine'):
+    local = forecast.time + pd.Timedelta(hours=turbines.OFFSET_AFTER)
+    for turbine, group in forecast.assign(time_local=local).groupby('turbine'):
         path = out / f'forecast_{turbine}.csv'
-        (group[['time', 'lead_h', 'p10', 'p50', 'p90']]
-         .sort_values(['lead_h', 'time']).round(4).to_csv(path, index=False))
+        (group[['issue_time', 'time', 'time_local', 'lead_h', 'p10', 'p50', 'p90']]
+         .sort_values(['lead_h', 'time']).round(4)
+         .to_csv(path, index=False, date_format='%Y-%m-%d %H:%M'))
         written.append(path)
     return written
 
@@ -68,26 +70,25 @@ def write_forecast_csv(forecast: pd.DataFrame) -> list[Path]:
 def economics(scores: pd.DataFrame) -> dict:
     """Во что обходится ошибка прогноза за месяц: nMAE переводим в мегаватт-часы и в деньги."""
     day_ahead = scores[scores.lead_h == 24]
-    ours = day_ahead[day_ahead.model == OURS].nmae.mean()
+    ours = day_ahead[day_ahead.model == agent.OURS].nmae.mean()
     base = day_ahead[day_ahead.model == BASELINE].nmae.mean()
     if pd.isna(ours) or pd.isna(base):
         return {}
-    to_money = CAPACITY_MW * 28 * 24 * 2 * PENALTY_PER_MWH   # два месяца турбин за февраль
+    to_money = CAPACITY_MW * 28 * 24 * 2 * PENALTY_PER_MWH   # две турбины × часы февраля
     return {'penalty_per_mwh': PENALTY_PER_MWH, 'capacity_mw': CAPACITY_MW,
             'monthly_loss': round(float(ours) * to_money),
             'baseline_loss': round(float(base) * to_money), 'currency': '₸'}
 
 
-def export_json(result: dict, agent_log: list | None = None) -> Path:
+def export_json(result: dict) -> Path:
     """Собрать web/data.json по контракту дашборда."""
-    forecast = _forecast_frame(result).copy()
+    forecast = result['forecast']
     actual = result['hourly'][['time', 'turbine', 'power']].rename(columns={'power': 'actual'})
     rows = forecast.merge(actual, on=['time', 'turbine'], how='left')
-    if 'actual' not in rows.columns:
-        rows['actual'] = None
 
     payload_forecast = [
         {'time': r.time.strftime('%Y-%m-%dT%H:%M'), 'turbine': r.turbine, 'lead_h': int(r.lead_h),
+         'issue_time': r.issue_time.strftime('%Y-%m-%dT%H:%M'),
          'p10': round(float(r.p10), 4), 'p50': round(float(r.p50), 4), 'p90': round(float(r.p90), 4),
          'actual': None if pd.isna(r.actual) else round(float(r.actual), 4),
          'curve': round(float(r.curve), 4)}
@@ -97,7 +98,7 @@ def export_json(result: dict, agent_log: list | None = None) -> Path:
     payload_metrics = [
         {'model': r.model, 'lead_h': int(r.lead_h), 'nmae': round(float(r.nmae), 4),
          'nrmse': round(float(r.nrmse), 4), 'bias': round(float(r.bias), 4),
-         'skill': None if pd.isna(getattr(r, 'skill', None)) else round(float(r.skill), 4)}
+         'skill': None if pd.isna(r.skill) else round(float(r.skill), 4)}
         for r in scores.itertuples(index=False)
     ]
     payload = {
@@ -106,9 +107,10 @@ def export_json(result: dict, agent_log: list | None = None) -> Path:
         'period': {'start': '2026-02-01T00:00', 'end': '2026-02-28T23:00'},
         'forecast': payload_forecast,
         'metrics': payload_metrics,
-        'agent_log': agent_log or [],
+        'agent_log': result['journal'],
         'economics': economics(scores),
-        'coverage': result.get('coverage'),
+        'coverage': result['coverage'],
+        'width': result['width'],
     }
     WEB.mkdir(parents=True, exist_ok=True)
     path = WEB / 'data.json'
@@ -120,68 +122,40 @@ def export_json(result: dict, agent_log: list | None = None) -> Path:
 
 
 def do_backtest() -> dict:
-    started = time.time()
-    result = backtest.run()
+    result = build()
 
     print('\nВАЛИДАЦИЯ: ноябрь 2025 — январь 2026 (этих данных модель не видела)')
-    scores = result['scores']
-    index = ['scope', 'model'] if 'scope' in scores.columns else ['model']
-    print(scores.pivot_table(index=index, columns='lead_h', values=['nmae', 'skill']).round(3).to_string())
-    if result.get('coverage') is not None:
-        print(f'\nпокрытие коридора P10–P90: {result["coverage"]:.1%}')
+    print(result['scores'].pivot_table(index=['scope', 'model'], columns='lead_h',
+                                       values=['nmae', 'skill']).round(3).to_string())
+    print(f'\nпокрытие коридора P10–P90: агентный цикл {result["coverage"]:.1%} при ширине {result["width"]:.3f}, '
+          f'модель без агента {result["model_coverage"]:.1%} при ширине {result["model_width"]:.3f}')
 
-    forecast = _forecast_frame(result)
+    forecast, journal = result['forecast'], result['journal']
     files = write_forecast_csv(forecast)
     metrics_path = FORECASTS / 'metrics.csv'
-    scores.round(4).to_csv(metrics_path, index=False)
+    result['scores'].round(4).to_csv(metrics_path, index=False)
+    agent.save_journal(journal)
+    export_json(result)
 
-    agent = _agent()
-    log = None
-    if agent and hasattr(agent, 'run_backtest_month'):
-        try:
-            _, log = agent.run_backtest_month()
-            print(f'агент: {sum(1 for e in log if e["step"] == "forecast")} циклов, '
-                  f'{sum(1 for e in log if e["status"] == "rollback")} откатов на базовую линию')
-        except Exception as err:   # прогон и выгрузки не должны падать из-за агента
-            print(f'агент не отработал ({err}); прогноз и метрики это не затрагивает')
-    export_json(result, log)
-
-    hours = forecast[forecast.lead_h == 24].groupby('turbine').size().to_dict()
-    print(f'\nпрогноз на февраль 2026: {hours} часов на горизонте 24 ч')
-    print('выгрузки: ' + ', '.join(str(p.relative_to(ROOT)) for p in files + [metrics_path]))
-    print(f'время прогона: {time.time() - started:.1f} с')
+    hours = forecast.groupby(['turbine', 'lead_h']).size().to_dict()
+    print(f'\nпрогноз на февраль 2026 агентным циклом: часов по (турбина, горизонт) {hours}, '
+          f'выпусков {sum(1 for e in journal if e["step"] == "forecast")}, '
+          f'откатов на кривую {sum(1 for e in journal if e["status"] == "rollback")}')
+    print('выгрузки: ' + ', '.join(str(p.relative_to(ROOT)) for p in files + [metrics_path, agent.JOURNAL_PATH]))
+    print(f'время прогона: {result["seconds"]:.1f} с')
     return result
 
 
-def do_forecast() -> pd.DataFrame:
-    """Прогноз «как сейчас»: свежая погода, та же обученная модель."""
-    agent = _agent()
-    if agent and hasattr(agent, 'run_cycle'):
-        issued = pd.Timestamp.now(tz='UTC').tz_localize(None).floor('h')
-        predicted, journal, _ = agent.run_cycle(issued, live=True)
-        for entry in journal:
-            print(f'{entry["step"]:<9} {entry["status"]:<8} {entry["text"]}')
-        if predicted is not None:
-            print(predicted.round(3).to_string(index=False))
-        return predicted
-
-    result = backtest.run()
-    models, curves = result['models'], result['curves']
-    today = datetime.now(timezone.utc).date()
-    fresh = wx.ensemble(today.isoformat(), (today + timedelta(days=2)).isoformat(), live=True)
-
-    parts = []
-    for turbine in sorted(result['hourly'].turbine.unique()):
-        piece = mdl.features(fresh, turbine)
-        piece['turbine'] = turbine
-        piece['curve'] = [mdl.apply_curve(curves[(turbine, int(lead))], pd.Series([wind]))[0]
-                          if (turbine, int(lead)) in curves else float('nan')
-                          for lead, wind in zip(piece.lead_h, piece.ws_norm)]
-        parts.append(piece.dropna(subset=['curve']))
-    live = mdl.predict(models, pd.concat(parts, ignore_index=True))
-    upcoming = live[live.lead_h == 24].sort_values(['turbine', 'time'])
-    print(upcoming.round(3).to_string(index=False))
-    return upcoming
+def do_forecast() -> pd.DataFrame | None:
+    """Прогноз «как сейчас»: свежая погода, та же обученная модель, тот же цикл агента."""
+    issued = pd.Timestamp.now(tz='UTC').tz_localize(None).floor('h')
+    predicted, journal, _ = agent.run_cycle(issued, live=True)
+    agent.print_journal(journal)
+    if predicted is None:
+        print(f'\nвыпуск {issued:%Y-%m-%d %H:%M} не состоялся — причина в журнале выше')
+        return None
+    print(predicted.round(3).to_string(index=False))
+    return predicted
 
 
 def main():
@@ -195,7 +169,7 @@ def main():
     if args.forecast:
         do_forecast()
     elif args.export:
-        export_json(backtest.run())
+        export_json(build())
         print('web/data.json пересобран')
     else:
         do_backtest()

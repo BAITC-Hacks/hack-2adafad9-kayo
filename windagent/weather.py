@@ -30,9 +30,14 @@ BASE = ['wind_speed_100m', 'wind_direction_100m', 'wind_speed_10m', 'temperature
 HORIZONS = ('', '_previous_day1', '_previous_day2')
 HOURLY = [name + suffix for name in BASE for suffix in HORIZONS]
 
-# Члены ансамбля: три независимых глобальных модели. best_match (запрос без models) на горизонтах 24–48 ч
-# на 80 % совпадает с ICON, поэтому он остаётся базой, а ICON, GFS и ECMWF дают разброс. У ECMWF архив
-# начинается на три недели позже остальных — в эти часы его колонки пустые.
+# Базовая модель названа явно. Запрос без `models` отдаёт best_match, а какая модель под ним, решает
+# Open-Meteo: в архиве она сменилась 01.10.2025 — до этой даты best_match совпадал с ICON час в час,
+# после не совпадает ни разу. Валидация и февраль оказались бы в новом режиме, а кривая мощности
+# снята в старом. От ICON берутся направление, ветер на 10 м, температура и давление; скорость для
+# кривой и модели — среднее по трём членам ансамбля (model.py).
+BASE_MODEL = 'icon_seamless'
+# Члены ансамбля: три независимых глобальных модели, их среднее и разброс идут в признаки. У ECMWF
+# архив начинается на три недели позже остальных — в эти часы его колонки пустые.
 MEMBERS = {'icon_seamless': 'icon', 'gfs_seamless': 'gfs', 'ecmwf_ifs025': 'ecmwf'}
 MEMBER_VARS = ['wind_speed_100m', 'temperature_2m', 'surface_pressure']
 
@@ -94,7 +99,7 @@ def ensemble(start: str, end: str, live: bool = False) -> pd.DataFrame:
 
     live — тянуть свежий прогноз мимо кеша (для выпуска на ближайшие сутки)."""
     source = fetch if live else load
-    tall = tidy(source(start, end))
+    tall = tidy(source(start, end, BASE_MODEL))
     for name, short in MEMBERS.items():
         member = tidy(source(start, end, name))[['time', 'lead_h'] + MEMBER_VARS]
         member = member.rename(columns={var: f'{var}_{short}' for var in MEMBER_VARS})
@@ -107,7 +112,7 @@ if __name__ == '__main__':
 
     sys.stdout.reconfigure(encoding='utf-8', errors='replace')
     # весь нужный период: с начала архива Previous Runs до конца тестового февраля
-    whole = load('2024-02-17', '2026-02-28')
+    whole = load('2024-02-17', '2026-02-28', BASE_MODEL)
     print(f'часов: {len(whole)}, период: {whole.time.min()} — {whole.time.max()}')
     tall = ensemble('2024-02-17', '2026-02-28')
     for lead, group in tall.groupby('lead_h'):

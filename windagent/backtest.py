@@ -1,9 +1,13 @@
 # -*- coding: utf-8 -*-
-"""Валидация решения и прогноз на тестовый февраль.
+"""Валидация модели и всё, что нужно агенту: данные, кривые, обученные модели, калибровка.
 
 Февраля 2026 в данных нет, поэтому никакого «бэктеста февраля» не существует: февраль — это режим
 поставки. Себя проверяем на отложенном окне ноябрь 2025 — январь 2026: модель его не видела, зима —
 тот же режим, что и в феврале, а прогнозы погоды взяты те, что были известны за сутки и за двое.
+
+Здесь считается строка «модель без агента» — бустинг поверх кривой как есть. Поставляется не она,
+а агентный цикл с рефлексией и шлюзом качества (agent.py); его метрика на том же окне считается
+той же прокруткой, что делает февраль, и в таблице стоит строкой «наше решение».
 
 Лестница базовых линий, без которой цифры ничего не значат:
   * климатология — среднее по месяцу и часу;
@@ -30,6 +34,7 @@ VALID = (pd.Timestamp('2025-11-01'), pd.Timestamp('2026-01-31 23:00'))
 TEST = (pd.Timestamp('2026-02-01'), pd.Timestamp('2026-02-28 23:00'))
 LEADS = (24, 48)
 COVERAGE_TARGET = 0.80                                       # P10–P90 должен покрывать ~80 % фактов
+MODEL_ONLY = 'модель без агента'
 
 
 def metrics(actual: pd.Series, predicted: pd.Series, reference: pd.Series | None = None) -> dict:
@@ -44,6 +49,14 @@ def metrics(actual: pd.Series, predicted: pd.Series, reference: pd.Series | None
         mae_ref = float((a - r).abs().mean())
         out['skill'] = float(1 - out['nmae'] / mae_ref) if mae_ref else 0.0
     return out
+
+
+def corridor(frame: pd.DataFrame) -> tuple[float, float]:
+    """Покрытие коридора P10–P90 и его средняя ширина: одно без другого ничего не значит —
+    коридор от 0 до 1 покроет всё."""
+    known = frame[frame.power.notna()]
+    coverage = float(((known.power >= known.p10) & (known.power <= known.p90)).mean())
+    return coverage, float((known.p90 - known.p10).mean())
 
 
 def add_baselines(frame: pd.DataFrame, hourly: pd.DataFrame, train: pd.DataFrame) -> pd.DataFrame:
@@ -82,10 +95,10 @@ def prepare(leads=LEADS):
     table = pd.concat(parts, ignore_index=True)
     table = table[table.lead_h.isin(list(leads) + [0])].reset_index(drop=True)
 
-    # кривые снимаем только с обучающего периода и отдельно для каждого горизонта
+    # кривые снимаем только с чистых часов обучающего периода и отдельно для каждого горизонта
     curves = {}
-    train_mask = (table.time <= TRAIN_END) & table.power.notna() & ~table.curtailed
-    for (turbine, lead), group in table[train_mask].groupby(['turbine', 'lead_h']):
+    clean = turbines.clean_for_training(table[table.time <= TRAIN_END])
+    for (turbine, lead), group in clean.groupby(['turbine', 'lead_h']):
         curves[(turbine, int(lead))] = mdl.power_curve(group, mdl.CURVE_WIND)
     table['curve'] = [mdl.apply_curve(curves[(t, int(l))], pd.Series([w]))[0]
                       for t, l, w in zip(table.turbine, table.lead_h, table[mdl.CURVE_WIND])]
@@ -98,10 +111,13 @@ def train_models(table: pd.DataFrame, leads=LEADS) -> dict:
     Окно CALIB_WINDOW уходит под калибровку коридора: считать её на valid — утечка, а на
     самом train — оптимистичная оценка (квантильные модели эти часы уже видели). Медиана в
     калибровке не участвует, поэтому учится на всём ряду целиком."""
-    train_all = table[(table.time <= TRAIN_END) & table.power.notna() & table.curve.notna()
-                      & ~table.curtailed & table.lead_h.isin(leads)]
-    # калибруем на прошлой зиме, а не на последнем месяце: зимний ветер порывистее осеннего, и отступ,
-    # снятый с октября, на ноябре-январе недобирал покрытие (78,4 % против 79,8 %, коридор 0,451 → 0,431)
+    train_all = turbines.clean_for_training(
+        table[(table.time <= TRAIN_END) & table.curve.notna() & table.lead_h.isin(leads)])
+    # Калибруем на прошлой зиме — правило «тот же сезон год назад», а не подбор окна под valid.
+    # Для справки покрытие на ноябре-январе при соседних окнах (checks/calib_windows.py, честные
+    # признаки): октябрь 2025 — 75,6 %, ноябрь–январь 2024/25 — 76,9 %, декабрь–февраль — 79,1 % при
+    # более широком коридоре (0,464); выбранное ноябрь–февраль — 77,8 % при ширине 0,445. До цели
+    # 80 % не дотягивает ни одно: после смены режима погоды в октябре 2025 разброс вырос
     in_calib = train_all.time.between(*CALIB_WINDOW)
     train = train_all[~in_calib]
     calib = train_all[in_calib]
@@ -110,47 +126,42 @@ def train_models(table: pd.DataFrame, leads=LEADS) -> dict:
     return {'train_all': train_all, 'train': train, 'calib': calib, 'models': models, 'offsets': offsets}
 
 
-def run(leads=LEADS) -> dict:
-    started = time.time()
+def fit_all(leads=LEADS) -> dict:
+    """Всё обученное одним словарём: данные, кривые, модели, поправка коридора."""
     hourly, table, curves = prepare(leads)
-    fitted = train_models(table, leads)
-    models, offsets = fitted['models'], fitted['offsets']
+    return {'hourly': hourly, 'table': table, 'curves': curves, **train_models(table, leads)}
+
+
+def run(leads=LEADS, fitted: dict | None = None) -> dict:
+    """Метрики модели без агента на отложенном окне против лестницы базовых линий."""
+    started = time.time()
+    fitted = fitted or fit_all(leads)
+    table, models, offsets = fitted['table'], fitted['models'], fitted['offsets']
 
     valid = table[table.time.between(*VALID) & table.lead_h.isin(leads)].copy()
     predicted = mdl.apply_bounds(mdl.predict(models, valid), offsets)
     valid = valid.merge(predicted[['time', 'turbine', 'lead_h', 'p50', 'p10', 'p90']],
                         on=['time', 'turbine', 'lead_h'])
-    valid = add_baselines(valid, hourly, fitted['train_all'])
+    valid = add_baselines(valid, fitted['hourly'], fitted['train_all'])
 
     rows = []
     for lead, group in valid.groupby('lead_h'):
         for scope, subset in (('все часы', group), ('без простоев', group[~group.curtailed])):
-            for name, column in (('наше решение', 'p50'), ('кривая мощности', 'curve'),
+            for name, column in ((MODEL_ONLY, 'p50'), ('кривая мощности', 'curve'),
                                  ('персистентность+климат', 'persistence_mix'),
                                  ('персистентность', 'persistence'), ('климатология', 'climatology')):
                 row = metrics(subset.power, subset[column], subset.persistence)
                 if row:
                     rows.append(dict(model=name, lead_h=int(lead), scope=scope, **row))
-    scores = pd.DataFrame(rows)
-
-    inside = valid[(valid.power >= valid.p10) & (valid.power <= valid.p90)].shape[0]
-    coverage = inside / max(valid.power.notna().sum(), 1)
-    # покрытие само по себе ничего не значит: коридор от 0 до 1 покроет всё. Смотрим и ширину
-    width = float((valid.p90 - valid.p10).mean())
-
-    test = table[table.time.between(*TEST) & table.lead_h.isin(leads)]
-    forecast = mdl.apply_bounds(mdl.predict(models, test), offsets)
-
-    return {'hourly': hourly, 'table': table, 'curves': curves, **fitted, 'valid': valid,
-            'scores': scores, 'coverage': coverage, 'width': width, 'forecast': forecast,
+    coverage, width = corridor(valid)
+    return {**fitted, 'valid': valid, 'scores': pd.DataFrame(rows), 'coverage': coverage, 'width': width,
             'seconds': time.time() - started}
 
 
 def leakage_price(result: dict) -> pd.DataFrame:
     """Во что обошлась бы подмена честного архива прогнозов ноукастом (горизонт 0 ч)."""
     table = result['table']
-    train = table[(table.time <= TRAIN_END) & table.power.notna()
-                  & ~table.curtailed & (table.lead_h == 0)]
+    train = turbines.clean_for_training(table[(table.time <= TRAIN_END) & (table.lead_h == 0)])
     if train.empty:
         return pd.DataFrame()
     models = mdl.fit(train)
@@ -172,9 +183,9 @@ if __name__ == '__main__':
                                          values=['nmae', 'skill']).round(3)
     print(table.to_string())
     print(f'\nпокрытие коридора P10–P90: {result["coverage"]:.1%}, средняя ширина {result["width"]:.3f}')
-    print(f'прогноз на февраль: {len(result["forecast"])} строк')
     print(f'время прогона: {result["seconds"]:.1f} с')
     leak = leakage_price(result)
     if not leak.empty:
-        honest = result['scores'].query('model == "наше решение" and scope == "все часы"').nmae.min()
+        honest = result['scores'].query('model == @MODEL_ONLY and scope == "все часы"').nmae.min()
         print(f'\nцена утечки: на ноукасте nMAE {leak.nmae.iloc[0]:.3f} против честных {honest:.3f}')
+    print('строка «наше решение» (агентный цикл) считается прокруткой: python -m windagent.agent --validate')

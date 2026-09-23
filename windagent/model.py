@@ -7,9 +7,21 @@
 
 Всё считается на архивных прогнозах (что было известно за 24 и 48 часов), поэтому метрики честные.
 
-Поверх базовой модели погоды — ансамбль из ICON, GFS и ECMWF: среднее по трём ближе к измеренному
-ветру, чем любая одна, а их разброс говорит, насколько прогнозу можно верить в этот час. На
-валидации это сняло nMAE с 0,175 до 0,161 и сузило коридор P10–P90 при том же покрытии.
+Признаки считаются из блока выпуска — 24 часа одного горизонта и одних календарных суток: ровно
+то, что агент получает на руки в день выпуска. Скользящие окна не выходят за блок, поэтому в
+обучении и в поставке признаки совпадают один в один, а ноукаст соседнего горизонта в них не
+попадает.
+
+Базовая погода — явно названная модель ICON; поверх неё ансамбль ICON/GFS/ECMWF: среднее по трём
+ближе к измеренному ветру, чем любая одна, а разброс говорит, насколько прогнозу можно верить в
+этот час. Кривая мощности снимается с ветра ICON. Что сравнивалось (checks/base_choice.py, честные
+окна, nMAE 24/48 ч без простоев на ноябре 2025 — январе 2026):
+  best_match, кривая на нём      0,166 / 0,182 — лучше всех, но какая модель под best_match, решает
+                                                 Open-Meteo: 01.10.2025 он её сменил (weather.py);
+  ICON, кривая на ICON           0,172 / 0,187 — выбран: источник назван и не подменяется;
+  ICON, кривая на среднем        0,174 / 0,189 — бустинг почти не обгоняет кривую (0,175 / 0,189).
+Смещение +0,07 на валидации у обоих явных вариантов — все три модели после октября 2025 дают ветер
+выше прежнего относительно выработки; такой дрейф и ловит рефлексия агента.
 """
 import numpy as np
 import pandas as pd
@@ -23,7 +35,7 @@ QUANTILES = {'p10': 0.1, 'p90': 0.9}
 # Ансамбль погодных моделей: скорость по каждой, среднее и разброс как мера неопределённости.
 # Флаг оставлен, чтобы одной строкой вернуться к одиночной модели и повторить сравнение.
 USE_ENSEMBLE = True
-CURVE_WIND = 'ws_norm'   # какой ветер идёт в кривую мощности
+CURVE_WIND = 'ws_norm'   # какой ветер идёт в кривую мощности: базовая модель (ICON)
 
 
 def power_curve(clean: pd.DataFrame, wind_col: str = 'ws_norm', step: float = 0.5) -> pd.DataFrame:
@@ -50,9 +62,22 @@ def air_density(temp_c: pd.Series, pressure_hpa: pd.Series) -> pd.Series:
     return (pressure_hpa * 100) / (R_DRY * (temp_c + 273.15))
 
 
+def block_mean(frame: pd.DataFrame, column: str, window: int) -> pd.Series:
+    """Скользящее среднее внутри блока выпуска: один горизонт × одни календарные сутки.
+
+    Окно не должно выходить за блок. В таблице обучения соседняя строка того же часа — другой
+    горизонт, и окно по строкам подмешивало в признак ноукаст (nMAE на валидации 0,156 вместо
+    честных 0,17); соседние сутки агент в день выпуска ещё не видит. Блок — ровно то, что агент
+    получает на руки, поэтому одна функция даёт одинаковые признаки в обучении и в поставке."""
+    ordered = frame.sort_values(['lead_h', 'time'])
+    rolled = (ordered.groupby([ordered.lead_h, ordered.time.dt.normalize()], sort=False)[column]
+              .rolling(window, center=True, min_periods=1).mean())
+    return rolled.reset_index(level=[0, 1], drop=True).reindex(frame.index)
+
+
 def features(weather: pd.DataFrame, turbine: str) -> pd.DataFrame:
     """Признаки из прогноза погоды. Ничего из будущего факта здесь нет."""
-    f = weather.copy()
+    f = weather.reset_index(drop=True)
     f['rho'] = air_density(f.temperature_2m, f.surface_pressure)
     # нормировка скорости по плотности (IEC 61400-12-1): холодный воздух плотнее, мощность выше
     f['ws_norm'] = f.wind_speed_100m * (f.rho / 1.225) ** (1 / 3)
@@ -65,7 +90,7 @@ def features(weather: pd.DataFrame, turbine: str) -> pd.DataFrame:
     f['turbine_id'] = 0 if turbine == 'T1' else 1
     # сглаживание гасит фазовый сдвиг прогноза: ветер часто приходит на час раньше или позже
     for window in (3, 6):
-        f[f'ws_roll{window}'] = f.ws_norm.rolling(window, center=True, min_periods=1).mean()
+        f[f'ws_roll{window}'] = block_mean(f, 'ws_norm', window)
     if USE_ENSEMBLE:
         for short in wx.MEMBERS.values():
             rho = air_density(f[f'temperature_2m_{short}'], f[f'surface_pressure_{short}'])
@@ -76,7 +101,7 @@ def features(weather: pd.DataFrame, turbine: str) -> pd.DataFrame:
         f['ws_ens'] = members.mean(axis=1)
         f['ws_spread'] = members.std(axis=1, ddof=0)
         for window in (3, 6):
-            f[f'ws_ens_roll{window}'] = f.ws_ens.rolling(window, center=True, min_periods=1).mean()
+            f[f'ws_ens_roll{window}'] = block_mean(f, 'ws_ens', window)
     return f
 
 
