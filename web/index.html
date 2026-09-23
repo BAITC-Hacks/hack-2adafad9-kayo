@@ -3,87 +3,103 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
+<meta name="color-scheme" content="light">
 <link rel="icon" href="data:,">
 <title>Прогноз выработки ВЭС</title>
 <style>
   :root {
-    --accent: #2C88F7;
+    --accent: #146E5A;
+    --page: #f4f6f9;
     --bg: #ffffff;
-    --line: #e3e6ea;
-    --line-soft: #f2f4f6;
-    --mark-muted: #c3c8ce;
-    --text: #17191c;
-    --text-2: #4f565e;
-    --text-3: #6f7680;
+    --line: #dfe5ec;
+    --line-soft: #eef2f6;
+    --mark-muted: #b9c3ce;
+    --text: #182332;
+    --text-2: #4e5d6e;
+    --text-3: #647386;
     --bad: #d63a2f;
     --band-opacity: .16;
-    --fs-s: 13px;
-    --fs-m: 15px;
-    --fs-l: 28px;
-    --fs-xl: 60px;
-    --r-s: 4px;
-    --r-m: 8px;
-  }
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --accent: #4d9ef9;
-      --bg: #101214;
-      --line: #2a2e34;
-      --line-soft: #1a1d21;
-      --mark-muted: #4a5057;
-      --text: #e9ebee;
-      --text-2: #a0a7af;
-      --text-3: #7d848d;
-      --bad: #ec5a4d;
-      --band-opacity: .24;
-    }
+    --fs-s: 14px;
+    --fs-m: 16px;
+    --fs-l: 32px;
+    --fs-xl: 58px;
+    --r-s: 8px;
+    --r-m: 28px;
   }
 
   * { box-sizing: border-box; }
-  html { background: var(--bg); }
+  html { background: var(--page); }
   body {
     margin: 0;
-    background: var(--bg);
+    background: var(--page);
     color: var(--text);
     font: var(--fs-m)/1.5 -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
   }
-  .page { max-width: 1180px; margin: 0 auto; padding: 44px 24px 80px; }
+  .page { max-width: 1240px; margin: 0 auto; padding: 24px 28px 80px; }
   [hidden] { display: none !important; }
   button { font: inherit; color: inherit; }
 
-  /* ---- шапка: имя мелко, фраза для неспециалиста — крупно ---- */
+  .topbar {
+    display: flex; align-items: center; justify-content: space-between; gap: 16px;
+    min-height: 42px; margin-bottom: 20px; color: var(--text-2); font-size: var(--fs-s);
+  }
+  .brand { display: flex; align-items: center; gap: 10px; color: var(--text); font-weight: 700; letter-spacing: .04em; }
+  .brand-mark { display: grid; place-items: center; width: 32px; height: 32px; border-radius: var(--r-s); background: var(--accent); color: #fff; }
+  .topbar .edition { color: var(--text-3); text-align: right; }
+
+  /* ---- первый экран: задача слева, актуальный выпуск справа ---- */
+  .hero {
+    display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(280px, .7fr); gap: 36px;
+    background: var(--bg); border-radius: var(--r-m); corner-shape: squircle;
+    box-shadow: 0 12px 32px rgba(24, 35, 50, .045);
+    padding: 40px 42px; align-items: stretch;
+  }
   .kicker {
-    font-size: var(--fs-s); color: var(--text-2); text-transform: uppercase; letter-spacing: .08em;
-    margin: 0 0 14px;
+    font-size: var(--fs-s); color: var(--accent); font-weight: 700; text-transform: uppercase; letter-spacing: .08em;
+    margin: 0 0 18px;
   }
   h1 {
-    font-size: var(--fs-l); font-weight: 500; line-height: 1.25; letter-spacing: -.01em;
-    max-width: 860px; margin: 0 0 14px;
+    font-size: var(--fs-l); font-weight: 700; line-height: 1.18; letter-spacing: -.025em;
+    max-width: 720px; margin: 0 0 18px;
   }
+  .hero-lead { max-width: 600px; margin: 0 0 22px; color: var(--text-2); }
   .meta { font-size: var(--fs-s); color: var(--text-3); margin: 0; }
   .meta b { color: var(--text-2); font-weight: 500; }
 
-  /* ---- ряд показателей: главный вдвое весомее ---- */
-  .kpis { display: grid; grid-template-columns: 1.5fr 1fr 1fr 1fr; gap: 24px 32px; margin: 44px 0 12px; }
-  .kpi + .kpi { border-left: 1px solid var(--line); padding-left: 32px; }
-  .kpi .v { font-size: var(--fs-l); font-weight: 600; letter-spacing: -.02em; line-height: 1.1; }
-  .kpi.main .v { font-size: var(--fs-xl); letter-spacing: -.03em; }
-  .kpi .k { margin-top: 8px; font-size: var(--fs-s); color: var(--text); }
-  .kpi.main .k { font-size: var(--fs-m); }
-  .kpi .n { font-size: var(--fs-s); color: var(--text-3); margin-top: 2px; }
+  .latest { border-left: 1px solid var(--line); padding-left: 36px; display: flex; flex-direction: column; justify-content: center; }
+  .latest .label { color: var(--text-3); text-transform: uppercase; font-size: var(--fs-s); font-weight: 700; letter-spacing: .06em; }
+  .latest .v { color: var(--accent); font-size: var(--fs-xl); line-height: 1.05; font-weight: 700; letter-spacing: -.04em; margin: 14px 0 6px; }
+  .latest .k { font-weight: 700; }
+  .latest .n { color: var(--text-2); font-size: var(--fs-s); margin-top: 8px; }
+  .latest a { color: var(--accent); font-size: var(--fs-s); text-decoration: none; font-weight: 600; margin-top: 20px; }
+  .latest a:hover { text-decoration: underline; }
 
-  /* ---- секции отчёта: заголовок слева, содержимое справа ---- */
+  /* ---- проверка качества на отложенном периоде ---- */
+  .quality { background: var(--bg); border-radius: var(--r-m); corner-shape: squircle; box-shadow: 0 12px 32px rgba(24, 35, 50, .045); margin: 16px 0; padding: 26px 32px 30px; }
+  .quality-head { display: flex; justify-content: space-between; gap: 12px 32px; align-items: baseline; flex-wrap: wrap; }
+  .quality-head h2 { margin: 0; font-size: var(--fs-m); }
+  .quality-head p { margin: 0; color: var(--text-2); font-size: var(--fs-s); }
+  .kpis { display: grid; grid-template-columns: 1.25fr 1fr 1fr 1fr; gap: 24px 32px; margin: 26px 0 0; }
+  .kpi + .kpi { border-left: 1px solid var(--line); padding-left: 32px; }
+  .kpi .eyebrow { color: var(--text-3); font-size: var(--fs-s); font-weight: 600; margin-bottom: 10px; }
+  .kpi .v { font-size: var(--fs-l); font-weight: 700; letter-spacing: -.025em; line-height: 1.1; }
+  .kpi.main .v { font-size: var(--fs-xl); color: var(--accent); }
+  .kpi .k { margin-top: 10px; color: var(--text); font-weight: 600; }
+  .kpi .n { font-size: var(--fs-s); color: var(--text-2); margin-top: 4px; }
+
+  /* ---- секции отчёта ---- */
   .section {
-    display: grid; grid-template-columns: 220px minmax(0, 1fr); gap: 16px 48px;
-    padding: 36px 0 48px; border-top: 1px solid var(--line);
+    display: grid; grid-template-columns: 210px minmax(0, 1fr); gap: 16px 36px;
+    padding: 30px 32px 36px; margin: 16px 0;
+    background: var(--bg); border-radius: var(--r-m); corner-shape: squircle;
+    box-shadow: 0 12px 32px rgba(24, 35, 50, .045);
   }
-  .section-head { position: sticky; top: 24px; align-self: start; }
-  .section-head h2 { font-size: var(--fs-m); font-weight: 600; margin: 0 0 6px; }
+  .section-head { align-self: start; }
+  .section-head h2 { font-size: var(--fs-l); line-height: 1.15; letter-spacing: -.02em; font-weight: 700; margin: 0 0 10px; }
   .section-head p { font-size: var(--fs-s); color: var(--text-2); margin: 0; }
   .section-head p + p { margin-top: 8px; }
-  .section.wide { grid-template-columns: minmax(0, 1fr); gap: 20px; }
+  .section.wide { grid-template-columns: minmax(0, 1fr); gap: 24px; }
   .section.wide .section-head { position: static; display: flex; justify-content: space-between; align-items: flex-start; gap: 24px; flex-wrap: wrap; }
   .section.wide .section-head p { max-width: 640px; }
 
@@ -109,34 +125,37 @@
   .issue-nav button:not(:disabled):hover, .issue-nav select:hover { border-color: var(--text-3); }
 
   .cycle {
-    display: grid; grid-template-columns: repeat(var(--n, 6), minmax(0, 1fr)); gap: 0 20px;
-    position: relative; padding-top: 24px;
+    display: grid; grid-template-columns: repeat(var(--n, 6), minmax(0, 1fr)); gap: 0 18px;
+    position: relative; padding-top: 32px;
   }
-  .cycle::before { content: ''; position: absolute; left: 4px; right: 4px; top: 4px; border-top: 1px solid var(--line); }
+  .cycle::before { content: ''; position: absolute; left: 4px; right: 4px; top: 4px; border-top: 2px solid var(--line); }
   .node { position: relative; min-width: 0; }
   .node + .node::after {
-    content: ''; position: absolute; left: -13px; top: -22px; width: 5px; height: 5px;
+    content: ''; position: absolute; left: -12px; top: -30px; width: 5px; height: 5px;
     border-right: 1px solid var(--text-3); border-bottom: 1px solid var(--text-3); transform: rotate(-45deg);
   }
   .dot {
-    display: inline-block; width: 9px; height: 9px; border-radius: var(--r-s); background: var(--mark-muted);
+    display: inline-block; width: 10px; height: 10px; border-radius: var(--r-s); background: var(--mark-muted);
     vertical-align: middle;
   }
-  .node .dot { position: absolute; top: -24px; left: 0; box-shadow: 0 0 0 3px var(--bg); }
+  .node .dot { position: absolute; top: -32px; left: 0; box-shadow: 0 0 0 4px var(--bg); }
   .dot.ok { background: var(--accent); }
   .dot.bad { background: var(--bad); }
   .dot.warn { background: var(--bg); border: 2px solid var(--text-3); }
   .dot.skip { background: var(--bg); border: 2px solid var(--mark-muted); }
-  .node .t { font-weight: 600; }
-  .node .s { font-size: var(--fs-s); color: var(--text-3); }
+  .node .num { font-size: var(--fs-s); color: var(--accent); font-weight: 700; margin-bottom: 8px; }
+  .node .t { font-weight: 700; }
+  .node .s { font-size: var(--fs-s); color: var(--text-2); margin-top: 5px; }
   .node .s.bad { color: var(--bad); }
-  .node .hint { font-size: var(--fs-s); color: var(--text-3); margin-top: 6px; }
+  .node .hint { font-size: var(--fs-s); color: var(--text-2); margin-top: 9px; }
   .node .line {
-    margin: 8px 0 0; font-size: var(--fs-s); color: var(--text-2);
-    display: -webkit-box; -webkit-line-clamp: 5; -webkit-box-orient: vertical; overflow: hidden;
+    margin: 8px 0 0; font-size: var(--fs-s); color: var(--text-3);
+    display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
   }
   .node .line b { font-weight: 600; color: var(--text); }
   .cycle-note { font-size: var(--fs-s); color: var(--text-3); margin: 20px 0 0; }
+  .cycle-note a { color: var(--accent); text-decoration: none; }
+  .cycle-note a:hover { text-decoration: underline; }
   .quote {
     margin: 24px 0 0; padding: 2px 0 2px 20px; border-left: 2px solid var(--accent); max-width: 860px;
   }
@@ -146,6 +165,8 @@
 
   /* ---- график ---- */
   .chart { position: relative; }
+  .chart-context { padding: 10px 14px; margin: 0 0 20px; border-left: 3px solid var(--accent); background: var(--line-soft); font-size: var(--fs-s); color: var(--text-2); }
+  .chart-context b { color: var(--text); }
   .chart svg { display: block; width: 100%; height: auto; }
   .chart .grid { stroke: var(--line); }
   .chart .axis { fill: var(--text-3); font-size: var(--fs-s); }
@@ -159,14 +180,14 @@
   .chart .hover { opacity: 0; transition: opacity .15s ease-out; }
   .tip {
     position: absolute; pointer-events: none; background: var(--bg); border: 1px solid var(--line);
-    border-radius: var(--r-m); padding: 8px 12px; font-size: var(--fs-s); line-height: 1.5; white-space: nowrap;
+    border-radius: var(--r-s); padding: 8px 12px; font-size: var(--fs-s); line-height: 1.5; white-space: nowrap;
     opacity: 0; transition: opacity .15s ease-out; z-index: 5; font-variant-numeric: tabular-nums;
   }
   .tip .th { font-weight: 600; color: var(--text); }
   .tip .row { display: flex; gap: 10px; justify-content: space-between; color: var(--text-2); }
   .tip .row b { font-weight: 600; color: var(--text); }
   .tip .row.out b { color: var(--bad); }
-  .legend { display: flex; flex-wrap: wrap; gap: 6px 18px; align-items: center; margin-top: 14px; font-size: var(--fs-s); color: var(--text-2); }
+  .legend { display: flex; flex-wrap: wrap; gap: 8px 20px; align-items: center; margin-top: 14px; font-size: var(--fs-s); color: var(--text-2); }
   .legend .sw { display: inline-block; width: 16px; height: 2px; background: var(--accent); vertical-align: middle; margin-right: 6px; }
   .legend .sw.band { height: 10px; background: var(--accent); opacity: .3; }
   .legend .sw.actual { background: var(--text); }
@@ -178,15 +199,16 @@
   .chart-note { font-size: var(--fs-s); color: var(--text-3); margin: 8px 0 0; }
 
   /* ---- сравнение моделей: полосы nMAE ---- */
-  .bars { display: grid; gap: 10px; margin-top: 4px; }
-  .bar { display: grid; grid-template-columns: 220px minmax(0, 1fr) 52px; gap: 12px; align-items: center; font-size: var(--fs-s); }
+  .bars { display: grid; gap: 12px; margin-top: 4px; }
+  .bar { display: grid; grid-template-columns: 190px minmax(0, 1fr) 58px; gap: 12px; align-items: center; font-size: var(--fs-s); }
   .bar .name { color: var(--text-2); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   .bar .track { display: block; min-width: 0; }
-  .bar .fill { display: block; height: 12px; background: var(--mark-muted); border-radius: 0 var(--r-s) var(--r-s) 0; transition: width .2s ease-out; }
+  .bar .fill { display: block; height: 16px; background: var(--mark-muted); border-radius: 0 var(--r-s) var(--r-s) 0; transition: width .2s ease-out; }
   .bar .val { text-align: right; color: var(--text-2); font-variant-numeric: tabular-nums; }
   .bar.ours .name, .bar.ours .val { color: var(--text); font-weight: 600; }
   .bar.ours .fill { background: var(--accent); }
   .bars-note { font-size: var(--fs-s); color: var(--text-3); margin: 14px 0 0; }
+  .fresh-reference { margin: 18px 0 0; padding-top: 14px; border-top: 1px solid var(--line); font-size: var(--fs-s); color: var(--text-2); }
 
   details.all { margin-top: 20px; }
   details.all summary, details.issue summary { cursor: pointer; list-style: none; }
@@ -248,22 +270,30 @@
   .empty code { background: var(--line-soft); padding: 1px 6px; border-radius: var(--r-s); color: var(--text); }
 
   @media (max-width: 960px) {
+    .hero { grid-template-columns: 1fr; }
+    .latest { border-left: 0; border-top: 1px solid var(--line); padding: 24px 0 0; }
     .section { grid-template-columns: minmax(0, 1fr); gap: 16px; }
     .section-head { position: static; }
     .cycle { grid-template-columns: 1fr; gap: 22px 0; padding-top: 0; padding-left: 28px; }
     .cycle::before { top: 4px; bottom: 4px; left: 4px; right: auto; border-top: 0; border-left: 1px solid var(--line); }
     .node .dot { top: 7px; left: -28px; }
     .node + .node::after { left: -26px; top: -13px; transform: rotate(45deg); }
-    .node .line { -webkit-line-clamp: 8; }
+    .node .line { -webkit-line-clamp: 2; }
   }
   @media (max-width: 720px) {
-    :root { --fs-xl: 48px; }
-    .page { padding: 28px 16px 56px; }
-    .kpis { grid-template-columns: repeat(3, 1fr); gap: 20px 12px; margin-top: 32px; }
+    :root { --fs-xl: 48px; --fs-l: 28px; }
+    .page { padding: 12px 12px 40px; }
+    .topbar { padding: 0 4px; margin-bottom: 12px; }
+    .topbar .edition { font-size: var(--fs-s); }
+    .hero { padding: 28px 22px; gap: 20px; }
+    .hero-lead { margin-bottom: 16px; }
+    .quality { padding: 24px 22px; }
+    .kpis { grid-template-columns: repeat(3, 1fr); gap: 20px 12px; margin-top: 24px; }
     .kpi.main { grid-column: 1 / -1; }
     .kpi + .kpi { border-left: 0; padding-left: 0; }
     .kpi:nth-child(3), .kpi:nth-child(4) { border-left: 1px solid var(--line); padding-left: 12px; }
-    .bar { grid-template-columns: minmax(0, 1fr) 52px; gap: 4px 12px; }
+    .section { padding: 26px 20px 30px; }
+    .bar { grid-template-columns: minmax(0, 1fr) 58px; gap: 4px 12px; }
     .bar .name { grid-column: 1 / -1; }
     details.issue summary, .step { grid-template-columns: 1fr; gap: 2px; }
     .issue .h { white-space: normal; }
@@ -276,10 +306,24 @@
 </head>
 <body>
 <div class="page">
-  <header>
-    <p class="kicker">Прогноз выработки ВЭС</p>
-    <h1>Агент каждый день берёт прогноз погоды и предсказывает, сколько электричества выдадут две турбины завтра и послезавтра.</h1>
-    <p class="meta" id="meta">загрузка данных…</p>
+  <div class="topbar">
+    <div class="brand"><span class="brand-mark">H</span><span>HACKALEM / WINDAGENT</span></div>
+    <span class="edition">Прогноз ветропарка · отчёт для диспетчера</span>
+  </div>
+  <header class="hero">
+    <div>
+      <p class="kicker">Прогноз выработки ВЭС</p>
+      <h1>Сколько энергии дадут две турбины завтра и послезавтра</h1>
+      <p class="hero-lead">Агент берёт архивный прогноз погоды, рассчитывает почасовую выработку и объясняет, когда прогнозу стоит доверять.</p>
+      <p class="meta" id="meta">загрузка данных…</p>
+    </div>
+    <aside class="latest" id="latest" hidden>
+      <div class="label">Последний выпуск · 24 часа</div>
+      <div class="v" id="latest-value"></div>
+      <div class="k">ожидаемая средняя выработка</div>
+      <div class="n" id="latest-note"></div>
+      <a href="#chart-block">Смотреть почасовой прогноз →</a>
+    </aside>
   </header>
 
   <div id="empty" class="empty" hidden>
@@ -290,14 +334,19 @@
   </div>
 
   <main id="main" hidden>
-    <section class="kpis" id="kpis" hidden></section>
+    <section class="quality" id="quality-block" hidden>
+      <div class="quality-head">
+        <h2>Насколько точен прогноз</h2>
+        <p id="quality-period">Проверка на отложенных данных. Меньше ошибка — лучше.</p>
+      </div>
+      <div class="kpis" id="kpis"></div>
+    </section>
 
     <section class="section wide" id="cycle-block" hidden>
       <div class="section-head">
         <div>
           <h2>Цикл агента</h2>
-          <p>Шесть шагов из условия кейса. Под каждым — что агент записал в журнал в выбранный день выпуска;
-            анализ объединяет рефлексию (сверка с фактом) и шлюз качества.</p>
+          <p>Как из прогноза погоды получается прогноз выработки. Показан выбранный выпуск; подробные записи есть в журнале ниже.</p>
         </div>
         <div class="issue-nav" id="issue-nav">
           <button type="button" id="issue-prev" aria-label="предыдущий выпуск">‹</button>
@@ -315,11 +364,11 @@
 
     <section class="section" id="chart-block" hidden>
       <div class="section-head">
-        <h2>Прогноз и факт</h2>
-        <p>Медиана прогноза и коридор P10–P90, в котором факт должен оказываться в 80 % часов.
-          Выработка — в долях от номинальной мощности турбины.</p>
+        <h2>Почасовой прогноз</h2>
+        <p>Синяя линия — ожидаемая выработка; светлая область — диапазон возможных значений. Шкала от 0 до 1 доли номинальной мощности.</p>
       </div>
       <div>
+        <div class="chart-context" id="chart-context"></div>
         <div class="toolbar">
           <div class="seg" id="turbines" role="group" aria-label="турбина"></div>
           <div class="seg" id="leads" role="group" aria-label="горизонт"></div>
@@ -344,13 +393,13 @@
     <section class="section" id="metrics-block" hidden>
       <div class="section-head">
         <h2>Сравнение моделей</h2>
-        <p>nMAE — средняя ошибка в долях от номинала, меньше — лучше. Персистентность — прогноз «как вчера»,
-          климатология — среднее по месяцу и часу, кривая мощности — физика без обучения.</p>
+        <p>Полоса показывает среднюю ошибку: короче — точнее. Персистентность — прогноз «как вчера»; климатология — среднее для месяца и часа.</p>
       </div>
       <div>
         <div class="toolbar"><div class="seg" id="bar-leads" role="group" aria-label="горизонт"></div></div>
         <div class="bars" id="bars"></div>
         <p class="bars-note" id="bars-note"></p>
+        <p class="fresh-reference" id="fresh-reference" hidden></p>
         <details class="all"><summary>все метрики: nRMSE, смещение, скилл по горизонтам</summary>
           <div class="scroller"><table id="metrics"></table></div>
           <p class="bars-note">Скилл — насколько ошибка меньше, чем у персистентности: 0 — как у неё, 1 — идеальный прогноз.</p>
@@ -387,7 +436,7 @@
 (function () {
   'use strict';
 
-  var OURS_KEY = 'наше решение', BASELINE_KEY = 'персистентность';
+  var OURS_KEY = 'наше решение', BASELINE_KEY = 'персистентность', FRESH_KEY = 'агент при ежедневном факте';
   var STEP_NAMES = {
     collect: 'погода', prepare: 'подготовка', decide: 'пересчёт', forecast: 'прогноз',
     reflect: 'рефлексия', verify: 'проверка', explain: 'объяснение'
@@ -406,16 +455,16 @@
   var CYCLE = [
     { steps: ['collect'], title: 'Погода', hint: 'архив прогнозов Open-Meteo по координатам' },
     { steps: ['prepare'], title: 'Подготовка', hint: 'часовой ряд, признаки, отбраковка' },
-    { steps: ['forecast'], title: 'Прогноз', hint: 'кривая мощности и бустинг, коридор P10–P90' },
+    { steps: ['forecast'], title: 'Модель', hint: 'кривая мощности + бустинг', model: true },
+    { steps: ['forecast'], title: 'Прогноз', hint: 'почасовые P10 / P50 / P90' },
     { steps: ['reflect', 'verify'], title: 'Анализ', hint: 'смещение к факту и шлюз качества' },
-    { steps: ['decide'], title: 'Пересчёт', hint: 'новый прогон погоды: считать заново или оставить' },
-    { steps: ['explain'], title: 'Объяснение', hint: 'разбор для диспетчера языковой моделью' }
+    { steps: ['decide'], title: 'Пересчёт', hint: 'новый прогон погоды: считать заново или оставить' }
   ];
 
   var nf = new Intl.NumberFormat('ru-RU');
   var state = {
     data: null, turbine: null, lead: null, days: null, showCurve: false, points: [],
-    issues: [], issue: 0, barLead: null, issuesShown: 10
+    issues: [], issue: 0, barLead: null, issuesShown: 5
   };
 
   // ---- загрузка: data.js работает при открытии файлом, data.json — с сервера; ?data=… для проверок
@@ -525,10 +574,10 @@
     }
     if (valid(site.lat) && valid(site.lon)) parts.push(fmtNum(site.lat, 3) + ' / ' + fmtNum(site.lon, 3));
     var period = data.period || {};
-    var from = parseTime(period.start), to = parseTime(period.end);
-    if (from && to) parts.push('прогноз на ' + fmtDay(from) + ' — ' + fmtDay(to));
-    var made = parseTime(data.generated_at);
-    if (made) parts.push('прогон ' + fmtDateTime(made));
+    var from = /^\d{4}-\d{2}-\d{2}/.exec(period.start || '');
+    var to = /^\d{4}-\d{2}-\d{2}/.exec(period.end || '');
+    if (from && to) parts.push('прогноз на ' + from[0].slice(8, 10) + '.' + from[0].slice(5, 7) +
+      ' — ' + to[0].slice(8, 10) + '.' + to[0].slice(5, 7));
 
     var host = document.getElementById('meta');
     host.textContent = '';
@@ -537,6 +586,35 @@
       host.appendChild(typeof part === 'string' ? document.createTextNode(part) : part);
     });
     if (!parts.length) host.hidden = true;
+  }
+
+  function shortDay(s) {
+    return s && /^\d{4}-\d{2}-\d{2}/.test(s) ? s.slice(8, 10) + '.' + s.slice(5, 7) + '.' + s.slice(0, 4) : '';
+  }
+
+  function renderValidationPeriod() {
+    var period = state.data.validation_period || {};
+    var label = shortDay(period.start) && shortDay(period.end)
+      ? shortDay(period.start) + ' — ' + shortDay(period.end) : 'отложенный период';
+    document.getElementById('quality-period').textContent = 'Проверка на данных ' + label + '. Меньше ошибка — лучше.';
+  }
+
+  function renderLatest() {
+    var rows = state.data.forecast || [];
+    var issues = uniq(rows.map(function (r) { return r.issue_time; })).sort();
+    var last = issues[issues.length - 1];
+    var candidates = rows.filter(function (r) { return r.issue_time === last && r.lead_h === 24 && valid(r.p50); });
+    var host = document.getElementById('latest');
+    if (!candidates.length) { host.hidden = true; return; }
+    var mean = candidates.reduce(function (sum, r) { return sum + r.p50; }, 0) / candidates.length;
+    var days = uniq(candidates.map(function (r) { return (r.time || '').slice(0, 10); })).sort();
+    var turbines = uniq(candidates.map(function (r) { return r.turbine; }));
+    document.getElementById('latest-value').textContent = Math.round(mean * 100) + ' %';
+    document.getElementById('latest-note').textContent =
+      (days.length ? days[0].slice(8, 10) + '.' + days[0].slice(5, 7) + '.' + days[0].slice(0, 4) + ' · ' : '') +
+      turbines.length + ' ' + plural(turbines.length, 'турбина', 'турбины', 'турбин') +
+      ' · доля от номинальной мощности';
+    host.hidden = false;
   }
 
   // ---- показатели: ошибка на сутки — главный, вдвое весомее остальных
@@ -554,29 +632,34 @@
 
     if (ours && valid(ours.nmae)) {
       tiles.push({
-        v: Math.round(ours.nmae * 100) + ' %', main: true,
-        k: 'ошибка прогноза ' + leadWord(lead),
-        n: (ours.model === OURS_KEY ? 'средняя, ' : ours.model + ', средняя ') + 'в долях мощности турбины'
+        v: fmtNum(ours.nmae * 100, 1) + ' %', main: true,
+        eyebrow: 'nMAE · ' + lead + ' ч',
+        k: 'Средняя ошибка прогноза',
+        n: 'Доля номинальной мощности в каждом часе'
       });
     }
     if (ours && base && ours.nmae) {
-      tiles.push({ v: fmtNum(base.nmae / ours.nmae, 1) + '×', k: 'точнее прогноза «как вчера»', n: 'персистентность / наша ошибка' });
+      tiles.push({ v: fmtNum(base.nmae / ours.nmae, 1) + '×', eyebrow: 'Сравнение',
+        k: 'меньше ошибка', n: 'чем у прогноза «как вчера»' });
     }
     if (valid(state.data.coverage)) {
       tiles.push({
-        v: Math.round(state.data.coverage * 100) + ' %', k: 'фактов попали в коридор P10–P90',
-        n: valid(state.data.width) ? 'при ширине ' + fmtNum(state.data.width, 2) + ', цель 80 %' : 'цель 80 %'
+        v: Math.round(state.data.coverage * 100) + ' %', eyebrow: 'Надёжность',
+        k: 'попадание в диапазон',
+        n: 'цель — 80 % часов на проверке'
       });
     }
     var far = leads[leads.length - 1];
     var oursFar = far !== lead ? findMetric(rows, ours ? ours.model : OURS_KEY, far) : null;
     if (oursFar && valid(oursFar.nmae)) {
-      tiles.push({ v: Math.round(oursFar.nmae * 100) + ' %', k: 'ошибка ' + leadWord(far), n: 'тот же прогноз днём раньше' });
+      tiles.push({ v: fmtNum(oursFar.nmae * 100, 1) + ' %', eyebrow: 'nMAE · ' + far + ' ч',
+        k: 'ошибка на двое суток', n: 'прогноз на большем горизонте' });
     }
 
-    host.hidden = !tiles.length;
+    document.getElementById('quality-block').hidden = !tiles.length;
     tiles.slice(0, 4).forEach(function (t) {
       var cell = h('div', 'kpi' + (t.main ? ' main' : ''));
+      cell.appendChild(h('div', 'eyebrow', t.eyebrow));
       cell.appendChild(h('div', 'v', t.v));
       cell.appendChild(h('div', 'k', t.k));
       if (t.n) cell.appendChild(h('div', 'n', t.n));
@@ -646,6 +729,7 @@
       return { spec: spec, entries: issue.entries.filter(function (e) { return spec.steps.indexOf(e.step) >= 0; }) };
     });
     // шаги, которых нет в схеме кейса, — отдельными узлами в конце, чтобы ничего не потерять
+    used.explain = 1;   // объяснение показано отдельной цитатой под циклом
     issue.entries.forEach(function (e) {
       if (used[e.step]) return;
       used[e.step] = 1;
@@ -656,24 +740,24 @@
     var host = document.getElementById('cycle');
     host.textContent = '';
     host.style.setProperty('--n', nodes.length);
-    nodes.forEach(function (node) {
+    nodes.forEach(function (node, index) {
       var box = h('div', 'node');
       var kind = 'none';
       node.entries.forEach(function (e) { if (KIND_RANK[statusKind(e)] > KIND_RANK[kind]) kind = statusKind(e); });
       box.appendChild(dot(kind));
+      box.appendChild(h('div', 'num', pad2(index + 1)));
       box.appendChild(h('div', 't', node.spec.title));
 
-      var statuses = uniq(node.entries.map(statusName));
-      var s = h('div', 's' + (kind === 'bad' || kind === 'warn' ? ' bad' : ''),
-        node.spec.steps.join(', ') + ' · ' + (statuses.length ? statuses.join(', ') : 'нет записи'));
+      var stateLabel = !node.entries.length ? 'Нет записи' : kind === 'bad' ? 'Откат' :
+        kind === 'warn' ? 'С оговоркой' : node.spec.model ? 'Модель применена' :
+        node.spec.title === 'Пересчёт' ? 'Решение принято' : 'Готово';
+      var s = h('div', 's' + (kind === 'bad' ? ' bad' : ''), stateLabel);
       box.appendChild(s);
       if (node.spec.hint) box.appendChild(h('div', 'hint', node.spec.hint));
 
-      node.entries.forEach(function (e) {
+      if (!node.spec.model) node.entries.slice(0, 1).forEach(function (e) {
         var line = h('p', 'line');
-        if (node.entries.length > 1) line.appendChild(h('b', null, stepName(e.step) + ': '));
-        // объяснение целиком идёт цитатой под схемой — в узле хватит первой фразы
-        var text = e.step === 'explain' ? firstSentence(e.text) : (e.text || '');
+        var text = firstSentence(e.text);
         line.appendChild(document.createTextNode(text));
         line.title = e.text || '';
         box.appendChild(line);
@@ -684,13 +768,17 @@
     var times = issues.filter(function (i) { return i.time; });
     var note = issues.length + ' ' + plural(issues.length, 'выпуск', 'выпуска', 'выпусков');
     if (times.length > 1) note += ', с ' + fmtDay(times[times.length - 1].time) + ' по ' + fmtDay(times[0].time);
-    document.getElementById('cycle-note').textContent = 'Цикл повторяется каждый день: ' + note + '. Показан ' + issue.label + '.';
+    var cycleNote = document.getElementById('cycle-note');
+    cycleNote.textContent = 'Цикл повторяется каждый день: ' + note + '. Показан ' + issue.label + '. ';
+    var logLink = h('a', null, 'Подробности в журнале →');
+    logLink.href = '#log-block';
+    cycleNote.appendChild(logLink);
 
     var quote = document.getElementById('quote'), none = document.getElementById('quote-none');
     if (issue.explain && issue.explain.text) {
       document.getElementById('quote-text').textContent = issue.explain.text;
       var who = issue.explain.status === 'fallback' ? 'шаблон без языковой модели' : 'языковая модель';
-      var foot = 'объяснение для диспетчера, ' + who;
+      var foot = 'объяснение для диспетчера · ' + issue.label + ' · ' + who;
       if (valid(issue.explain.duration_ms)) foot += ' · ' + fmtDur(issue.explain.duration_ms);
       document.getElementById('quote-foot').textContent = foot;
       quote.hidden = false; none.hidden = true;
@@ -897,8 +985,19 @@
     var block = document.getElementById('chart-block');
     if (!(state.data.forecast || []).length) { block.hidden = true; return; }
     block.hidden = false;
+    var hasActual = state.data.forecast.some(function (r) { return valid(r.actual); });
+    var context = document.getElementById('chart-context');
+    context.textContent = '';
+    var period = state.data.period || {};
+    var validation = state.data.validation_period || {};
+    context.appendChild(h('b', null, hasActual ? 'Прогноз и фактическая выработка. ' : 'Прогноз на ' +
+      (shortDay(period.start) && shortDay(period.end) ? shortDay(period.start) + ' — ' + shortDay(period.end) : 'выбранный период') + ' · режим поставки. '));
+    context.appendChild(document.createTextNode(hasActual
+      ? 'Чёрная линия показывает измеренную выработку; красные точки — часы вне прогнозного диапазона.'
+      : 'Фактических данных за выбранный период нет. Качество выше рассчитано на ' +
+        (shortDay(validation.start) && shortDay(validation.end) ? shortDay(validation.start) + ' — ' + shortDay(validation.end) : 'отложенных данных') + '.'));
     // есть факт — сразу показываем весь период, чтобы сравнение с ним было на виду; нет — неделю, она читается
-    if (state.days === null) state.days = state.data.forecast.some(function (r) { return valid(r.actual); }) ? 0 : 7;
+    if (state.days === null) state.days = hasActual ? 0 : 7;
     var curve = document.getElementById('show-curve');
     curve.checked = state.showCurve;
     curve.onchange = function () { state.showCurve = curve.checked; drawChart(); };
@@ -920,7 +1019,7 @@
     buildGroup(group, leads, function (v) { return 'горизонт ' + v + ' ч'; }, state.barLead,
       function (v) { state.barLead = v; renderBars(); });
 
-    var list = rows.filter(function (r) { return r.lead_h === state.barLead && valid(r.nmae); })
+    var list = rows.filter(function (r) { return r.lead_h === state.barLead && r.model !== FRESH_KEY && valid(r.nmae); })
       .slice().sort(function (a, b) { return a.nmae - b.nmae; });
     var max = list.reduce(function (m, r) { return Math.max(m, r.nmae); }, 0) || 1;
 
@@ -944,6 +1043,11 @@
       ? 'nMAE ' + fmtNum(ours.nmae, 3) + ' — прогноз в среднем ошибается на ' + Math.round(ours.nmae * 100) +
         ' % мощности турбины' + (valid(ours.skill) ? ', скилл к персистентности ' + fmtNum(ours.skill, 2) : '') + '.'
       : '';
+    var fresh = findMetric(rows, FRESH_KEY, state.barLead);
+    var reference = document.getElementById('fresh-reference');
+    reference.hidden = !(fresh && valid(fresh.nmae));
+    if (!reference.hidden) reference.textContent = 'Справочно: при ежедневном доступе к факту агент дал nMAE ' +
+      fmtNum(fresh.nmae, 3) + '. Для февральского прогноза свежего факта нет, поэтому этот режим не включён в сравнение выше.';
   }
 
   function renderTable() {
@@ -1049,7 +1153,8 @@
   function headline(issue) {
     var verify = issue.entries.filter(function (e) { return e.step === 'verify'; })[0];
     var pick = issue.explain || verify || issue.entries[issue.entries.length - 1] || {};
-    return pick.text || '';
+    var line = firstSentence(pick.text || '');
+    return line.length > 90 ? line.slice(0, 87).trimEnd() + '…' : line;
   }
 
   function renderLog() {
@@ -1141,6 +1246,8 @@
     if (!hasAnything) throw new Error('empty');
     document.getElementById('main').hidden = false;
     renderMeta(data);
+    renderValidationPeriod();
+    renderLatest();
     renderKpis();
     state.issues = buildIssues(data.agent_log || []);
     renderCycle();

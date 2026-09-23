@@ -9,6 +9,10 @@ window.DASHBOARD_DATA = {
   "start": "2026-02-01T00:00",
   "end": "2026-02-28T23:00"
  },
+ "validation_period": {
+  "start": "2025-11-01T00:00",
+  "end": "2026-01-31T23:00"
+ },
  "forecast": [
   {
    "time": "2026-02-01T00:00",

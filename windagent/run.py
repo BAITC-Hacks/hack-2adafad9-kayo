@@ -104,7 +104,10 @@ def export_json(result: dict) -> Path:
     payload = {
         'generated_at': datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'),
         'site': SITE,
-        'period': {'start': '2026-02-01T00:00', 'end': '2026-02-28T23:00'},
+        'period': {'start': forecast.time.min().strftime('%Y-%m-%dT%H:%M'),
+                   'end': forecast.time.max().strftime('%Y-%m-%dT%H:%M')},
+        'validation_period': {'start': result['valid'].time.min().strftime('%Y-%m-%dT%H:%M'),
+                              'end': result['valid'].time.max().strftime('%Y-%m-%dT%H:%M')},
         'forecast': payload_forecast,
         'metrics': payload_metrics,
         'agent_log': result['journal'],
