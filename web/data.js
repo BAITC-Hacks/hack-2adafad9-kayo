@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
- "generated_at": "2026-09-23T10:39:08Z",
+ "generated_at": "2026-09-23T11:39:26Z",
  "site": {
   "name": "ВЭС, Шелекский коридор",
   "lat": 43.64515,
@@ -23,7 +23,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.5039,
    "actual": null,
-   "curve": 0.0156
+   "curve": 0.0156,
+   "wind_speed_100m": 0.59,
+   "wind_direction_100m": 360.0
   },
   {
    "time": "2026-02-01T01:00",
@@ -34,7 +36,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0186,
    "p90": 0.5947,
    "actual": null,
-   "curve": 0.0173
+   "curve": 0.0173,
+   "wind_speed_100m": 0.84,
+   "wind_direction_100m": 339.0
   },
   {
    "time": "2026-02-01T02:00",
@@ -45,7 +49,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0307,
    "p90": 0.6663,
    "actual": null,
-   "curve": 0.0152
+   "curve": 0.0152,
+   "wind_speed_100m": 0.53,
+   "wind_direction_100m": 112.0
   },
   {
    "time": "2026-02-01T03:00",
@@ -56,7 +62,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.3784,
    "actual": null,
-   "curve": 0.0456
+   "curve": 0.0456,
+   "wind_speed_100m": 2.84,
+   "wind_direction_100m": 90.0
   },
   {
    "time": "2026-02-01T04:00",
@@ -67,7 +75,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.434,
    "actual": null,
-   "curve": 0.0992
+   "curve": 0.0992,
+   "wind_speed_100m": 3.9,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-01T05:00",
@@ -78,7 +88,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1288,
    "p90": 0.7064,
    "actual": null,
-   "curve": 0.196
+   "curve": 0.196,
+   "wind_speed_100m": 5.08,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-01T06:00",
@@ -89,7 +101,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2093,
    "p90": 0.7464,
    "actual": null,
-   "curve": 0.1234
+   "curve": 0.1234,
+   "wind_speed_100m": 4.43,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-01T07:00",
@@ -100,7 +114,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3002,
    "p90": 0.8371,
    "actual": null,
-   "curve": 0.1585
+   "curve": 0.1585,
+   "wind_speed_100m": 4.75,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-01T08:00",
@@ -111,7 +127,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.493,
    "p90": 0.9268,
    "actual": null,
-   "curve": 0.1806
+   "curve": 0.1806,
+   "wind_speed_100m": 4.96,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-01T09:00",
@@ -122,7 +140,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5859,
    "p90": 0.9415,
    "actual": null,
-   "curve": 0.2027
+   "curve": 0.2027,
+   "wind_speed_100m": 5.17,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-01T10:00",
@@ -133,7 +153,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5792,
    "p90": 0.8932,
    "actual": null,
-   "curve": 0.1962
+   "curve": 0.1962,
+   "wind_speed_100m": 5.11,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-01T11:00",
@@ -144,7 +166,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4748,
    "p90": 0.8773,
    "actual": null,
-   "curve": 0.2171
+   "curve": 0.2171,
+   "wind_speed_100m": 5.3,
+   "wind_direction_100m": 74.0
   },
   {
    "time": "2026-02-01T12:00",
@@ -155,7 +179,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2477,
    "p90": 0.7383,
    "actual": null,
-   "curve": 0.0544
+   "curve": 0.0544,
+   "wind_speed_100m": 3.24,
+   "wind_direction_100m": 87.0
   },
   {
    "time": "2026-02-01T13:00",
@@ -166,7 +192,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2925,
    "p90": 0.6834,
    "actual": null,
-   "curve": 0.0619
+   "curve": 0.0619,
+   "wind_speed_100m": 3.34,
+   "wind_direction_100m": 85.0
   },
   {
    "time": "2026-02-01T14:00",
@@ -177,7 +205,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1498,
    "p90": 0.8326,
    "actual": null,
-   "curve": 0.0889
+   "curve": 0.0889,
+   "wind_speed_100m": 3.66,
+   "wind_direction_100m": 82.0
   },
   {
    "time": "2026-02-01T15:00",
@@ -188,7 +218,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1334,
    "p90": 0.8123,
    "actual": null,
-   "curve": 0.1027
+   "curve": 0.1027,
+   "wind_speed_100m": 4.11,
+   "wind_direction_100m": 78.0
   },
   {
    "time": "2026-02-01T16:00",
@@ -199,7 +231,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1424,
    "p90": 0.7998,
    "actual": null,
-   "curve": 0.1052
+   "curve": 0.1052,
+   "wind_speed_100m": 4.25,
+   "wind_direction_100m": 75.0
   },
   {
    "time": "2026-02-01T17:00",
@@ -210,7 +244,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.172,
    "p90": 0.8231,
    "actual": null,
-   "curve": 0.1315
+   "curve": 0.1315,
+   "wind_speed_100m": 4.48,
+   "wind_direction_100m": 80.0
   },
   {
    "time": "2026-02-01T18:00",
@@ -221,7 +257,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1955,
    "p90": 0.8054,
    "actual": null,
-   "curve": 0.0436
+   "curve": 0.0436,
+   "wind_speed_100m": 2.76,
+   "wind_direction_100m": 84.0
   },
   {
    "time": "2026-02-01T19:00",
@@ -232,7 +270,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1281,
    "p90": 0.8486,
    "actual": null,
-   "curve": 0.0655
+   "curve": 0.0655,
+   "wind_speed_100m": 3.37,
+   "wind_direction_100m": 82.0
   },
   {
    "time": "2026-02-01T20:00",
@@ -243,7 +283,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1561,
    "p90": 0.8451,
    "actual": null,
-   "curve": 0.102
+   "curve": 0.102,
+   "wind_speed_100m": 4.06,
+   "wind_direction_100m": 82.0
   },
   {
    "time": "2026-02-01T21:00",
@@ -254,7 +296,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2827,
    "p90": 0.9604,
    "actual": null,
-   "curve": 0.202
+   "curve": 0.202,
+   "wind_speed_100m": 5.11,
+   "wind_direction_100m": 78.0
   },
   {
    "time": "2026-02-01T22:00",
@@ -265,7 +309,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.381,
    "p90": 0.9921,
    "actual": null,
-   "curve": 0.3117
+   "curve": 0.3117,
+   "wind_speed_100m": 6.26,
+   "wind_direction_100m": 73.0
   },
   {
    "time": "2026-02-01T23:00",
@@ -276,7 +322,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5457,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.5098
+   "curve": 0.5098,
+   "wind_speed_100m": 7.22,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-01T00:00",
@@ -287,7 +335,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.5083,
    "actual": null,
-   "curve": 0.0162
+   "curve": 0.0162,
+   "wind_speed_100m": 0.59,
+   "wind_direction_100m": 360.0
   },
   {
    "time": "2026-02-01T01:00",
@@ -298,7 +348,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.031,
    "p90": 0.6375,
    "actual": null,
-   "curve": 0.0183
+   "curve": 0.0183,
+   "wind_speed_100m": 0.84,
+   "wind_direction_100m": 339.0
   },
   {
    "time": "2026-02-01T02:00",
@@ -309,7 +361,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0335,
    "p90": 0.6703,
    "actual": null,
-   "curve": 0.0154
+   "curve": 0.0154,
+   "wind_speed_100m": 0.53,
+   "wind_direction_100m": 112.0
   },
   {
    "time": "2026-02-01T03:00",
@@ -320,7 +374,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.3785,
    "actual": null,
-   "curve": 0.042
+   "curve": 0.042,
+   "wind_speed_100m": 2.84,
+   "wind_direction_100m": 90.0
   },
   {
    "time": "2026-02-01T04:00",
@@ -331,7 +387,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.4333,
    "actual": null,
-   "curve": 0.0947
+   "curve": 0.0947,
+   "wind_speed_100m": 3.9,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-01T05:00",
@@ -342,7 +400,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1241,
    "p90": 0.701,
    "actual": null,
-   "curve": 0.1867
+   "curve": 0.1867,
+   "wind_speed_100m": 5.08,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-01T06:00",
@@ -353,7 +413,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2083,
    "p90": 0.7472,
    "actual": null,
-   "curve": 0.119
+   "curve": 0.119,
+   "wind_speed_100m": 4.43,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-01T07:00",
@@ -364,7 +426,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3,
    "p90": 0.8359,
    "actual": null,
-   "curve": 0.152
+   "curve": 0.152,
+   "wind_speed_100m": 4.75,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-01T08:00",
@@ -375,7 +439,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4923,
    "p90": 0.9283,
    "actual": null,
-   "curve": 0.1725
+   "curve": 0.1725,
+   "wind_speed_100m": 4.96,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-01T09:00",
@@ -386,7 +452,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5835,
    "p90": 0.9368,
    "actual": null,
-   "curve": 0.1929
+   "curve": 0.1929,
+   "wind_speed_100m": 5.17,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-01T10:00",
@@ -397,7 +465,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5761,
    "p90": 0.8891,
    "actual": null,
-   "curve": 0.1868
+   "curve": 0.1868,
+   "wind_speed_100m": 5.11,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-01T11:00",
@@ -408,7 +478,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4703,
    "p90": 0.8718,
    "actual": null,
-   "curve": 0.2064
+   "curve": 0.2064,
+   "wind_speed_100m": 5.3,
+   "wind_direction_100m": 74.0
   },
   {
    "time": "2026-02-01T12:00",
@@ -419,7 +491,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2447,
    "p90": 0.7372,
    "actual": null,
-   "curve": 0.0495
+   "curve": 0.0495,
+   "wind_speed_100m": 3.24,
+   "wind_direction_100m": 87.0
   },
   {
    "time": "2026-02-01T13:00",
@@ -430,7 +504,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2893,
    "p90": 0.7143,
    "actual": null,
-   "curve": 0.0569
+   "curve": 0.0569,
+   "wind_speed_100m": 3.34,
+   "wind_direction_100m": 85.0
   },
   {
    "time": "2026-02-01T14:00",
@@ -441,7 +517,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1433,
    "p90": 0.8314,
    "actual": null,
-   "curve": 0.0839
+   "curve": 0.0839,
+   "wind_speed_100m": 3.66,
+   "wind_direction_100m": 82.0
   },
   {
    "time": "2026-02-01T15:00",
@@ -452,7 +530,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1275,
    "p90": 0.8137,
    "actual": null,
-   "curve": 0.0989
+   "curve": 0.0989,
+   "wind_speed_100m": 4.11,
+   "wind_direction_100m": 78.0
   },
   {
    "time": "2026-02-01T16:00",
@@ -463,7 +543,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1353,
    "p90": 0.8017,
    "actual": null,
-   "curve": 0.1018
+   "curve": 0.1018,
+   "wind_speed_100m": 4.25,
+   "wind_direction_100m": 75.0
   },
   {
    "time": "2026-02-01T17:00",
@@ -474,7 +556,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1568,
    "p90": 0.8234,
    "actual": null,
-   "curve": 0.1266
+   "curve": 0.1266,
+   "wind_speed_100m": 4.48,
+   "wind_direction_100m": 80.0
   },
   {
    "time": "2026-02-01T18:00",
@@ -485,7 +569,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1926,
    "p90": 0.8058,
    "actual": null,
-   "curve": 0.0403
+   "curve": 0.0403,
+   "wind_speed_100m": 2.76,
+   "wind_direction_100m": 84.0
   },
   {
    "time": "2026-02-01T19:00",
@@ -496,7 +582,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1177,
    "p90": 0.8488,
    "actual": null,
-   "curve": 0.0605
+   "curve": 0.0605,
+   "wind_speed_100m": 3.37,
+   "wind_direction_100m": 82.0
   },
   {
    "time": "2026-02-01T20:00",
@@ -507,7 +595,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1501,
    "p90": 0.8464,
    "actual": null,
-   "curve": 0.0981
+   "curve": 0.0981,
+   "wind_speed_100m": 4.06,
+   "wind_direction_100m": 82.0
   },
   {
    "time": "2026-02-01T21:00",
@@ -518,7 +608,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2534,
    "p90": 0.9555,
    "actual": null,
-   "curve": 0.1923
+   "curve": 0.1923,
+   "wind_speed_100m": 5.11,
+   "wind_direction_100m": 78.0
   },
   {
    "time": "2026-02-01T22:00",
@@ -529,7 +621,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.367,
    "p90": 0.9922,
    "actual": null,
-   "curve": 0.3078
+   "curve": 0.3078,
+   "wind_speed_100m": 6.26,
+   "wind_direction_100m": 73.0
   },
   {
    "time": "2026-02-01T23:00",
@@ -540,7 +634,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5245,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.4964
+   "curve": 0.4964,
+   "wind_speed_100m": 7.22,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-01T00:00",
@@ -551,7 +647,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.4514,
    "actual": null,
-   "curve": 0.0153
+   "curve": 0.0153,
+   "wind_speed_100m": 1.77,
+   "wind_direction_100m": 34.0
   },
   {
    "time": "2026-02-01T01:00",
@@ -562,7 +660,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1989,
    "p90": 0.5438,
    "actual": null,
-   "curve": 0.0482
+   "curve": 0.0482,
+   "wind_speed_100m": 2.91,
+   "wind_direction_100m": 57.0
   },
   {
    "time": "2026-02-01T02:00",
@@ -573,7 +673,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0659,
    "p90": 0.3114,
    "actual": null,
-   "curve": 0.077
+   "curve": 0.077,
+   "wind_speed_100m": 3.5,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-01T03:00",
@@ -584,7 +686,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0536,
    "p90": 0.5634,
    "actual": null,
-   "curve": 0.2435
+   "curve": 0.2435,
+   "wind_speed_100m": 5.37,
+   "wind_direction_100m": 75.0
   },
   {
    "time": "2026-02-01T04:00",
@@ -595,7 +699,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1954,
    "p90": 0.872,
    "actual": null,
-   "curve": 0.4634
+   "curve": 0.4634,
+   "wind_speed_100m": 6.89,
+   "wind_direction_100m": 75.0
   },
   {
    "time": "2026-02-01T05:00",
@@ -606,7 +712,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2774,
    "p90": 0.8899,
    "actual": null,
-   "curve": 0.4583
+   "curve": 0.4583,
+   "wind_speed_100m": 6.88,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-01T06:00",
@@ -617,7 +725,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2885,
    "p90": 0.7569,
    "actual": null,
-   "curve": 0.2114
+   "curve": 0.2114,
+   "wind_speed_100m": 5.14,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-01T07:00",
@@ -628,7 +738,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1626,
    "p90": 0.7582,
    "actual": null,
-   "curve": 0.0991
+   "curve": 0.0991,
+   "wind_speed_100m": 3.84,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-01T08:00",
@@ -639,7 +751,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1771,
    "p90": 0.6342,
    "actual": null,
-   "curve": 0.0828
+   "curve": 0.0828,
+   "wind_speed_100m": 3.61,
+   "wind_direction_100m": 77.0
   },
   {
    "time": "2026-02-01T09:00",
@@ -650,7 +764,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1631,
    "p90": 0.6194,
    "actual": null,
-   "curve": 0.054
+   "curve": 0.054,
+   "wind_speed_100m": 3.13,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-01T10:00",
@@ -661,7 +777,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2052,
    "p90": 0.5692,
    "actual": null,
-   "curve": 0.0592
+   "curve": 0.0592,
+   "wind_speed_100m": 3.29,
+   "wind_direction_100m": 63.0
   },
   {
    "time": "2026-02-01T11:00",
@@ -672,7 +790,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.165,
    "p90": 0.565,
    "actual": null,
-   "curve": 0.0929
+   "curve": 0.0929,
+   "wind_speed_100m": 3.75,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-01T12:00",
@@ -683,7 +803,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0819,
    "p90": 0.5798,
    "actual": null,
-   "curve": 0.0394
+   "curve": 0.0394,
+   "wind_speed_100m": 2.67,
+   "wind_direction_100m": 98.0
   },
   {
    "time": "2026-02-01T13:00",
@@ -694,7 +816,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0396,
    "p90": 0.5728,
    "actual": null,
-   "curve": 0.0548
+   "curve": 0.0548,
+   "wind_speed_100m": 3.14,
+   "wind_direction_100m": 90.0
   },
   {
    "time": "2026-02-01T14:00",
@@ -705,7 +829,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0996,
    "p90": 0.6165,
    "actual": null,
-   "curve": 0.0934
+   "curve": 0.0934,
+   "wind_speed_100m": 3.73,
+   "wind_direction_100m": 76.0
   },
   {
    "time": "2026-02-01T15:00",
@@ -716,7 +842,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0941,
    "p90": 0.6184,
    "actual": null,
-   "curve": 0.119
+   "curve": 0.119,
+   "wind_speed_100m": 4.15,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-01T16:00",
@@ -727,7 +855,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0931,
    "p90": 0.6588,
    "actual": null,
-   "curve": 0.1454
+   "curve": 0.1454,
+   "wind_speed_100m": 4.63,
+   "wind_direction_100m": 77.0
   },
   {
    "time": "2026-02-01T17:00",
@@ -738,7 +868,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1624,
    "p90": 0.6413,
    "actual": null,
-   "curve": 0.1703
+   "curve": 0.1703,
+   "wind_speed_100m": 4.86,
+   "wind_direction_100m": 81.0
   },
   {
    "time": "2026-02-01T18:00",
@@ -749,7 +881,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.194,
    "p90": 0.7295,
    "actual": null,
-   "curve": 0.1775
+   "curve": 0.1775,
+   "wind_speed_100m": 4.9,
+   "wind_direction_100m": 78.0
   },
   {
    "time": "2026-02-01T19:00",
@@ -760,7 +894,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.201,
    "p90": 0.8447,
    "actual": null,
-   "curve": 0.1446
+   "curve": 0.1446,
+   "wind_speed_100m": 4.61,
+   "wind_direction_100m": 86.0
   },
   {
    "time": "2026-02-01T20:00",
@@ -771,7 +907,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.215,
    "p90": 0.8699,
    "actual": null,
-   "curve": 0.1501
+   "curve": 0.1501,
+   "wind_speed_100m": 4.71,
+   "wind_direction_100m": 86.0
   },
   {
    "time": "2026-02-01T21:00",
@@ -782,7 +920,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3329,
    "p90": 0.9609,
    "actual": null,
-   "curve": 0.2594
+   "curve": 0.2594,
+   "wind_speed_100m": 5.56,
+   "wind_direction_100m": 76.0
   },
   {
    "time": "2026-02-01T22:00",
@@ -793,7 +933,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4958,
    "p90": 0.9949,
    "actual": null,
-   "curve": 0.5239
+   "curve": 0.5239,
+   "wind_speed_100m": 7.13,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-01T23:00",
@@ -804,7 +946,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6136,
    "p90": 0.9709,
    "actual": null,
-   "curve": 0.685
+   "curve": 0.685,
+   "wind_speed_100m": 8.24,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-02T00:00",
@@ -815,7 +959,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5079,
    "p90": 0.9491,
    "actual": null,
-   "curve": 0.6973
+   "curve": 0.6973,
+   "wind_speed_100m": 8.74,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-02T01:00",
@@ -826,7 +972,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5579,
    "p90": 0.9719,
    "actual": null,
-   "curve": 0.785
+   "curve": 0.785,
+   "wind_speed_100m": 9.33,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-02T02:00",
@@ -837,7 +985,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5536,
    "p90": 0.9941,
    "actual": null,
-   "curve": 0.8473
+   "curve": 0.8473,
+   "wind_speed_100m": 9.82,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-02T03:00",
@@ -848,7 +998,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7513,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8864
+   "curve": 0.8864,
+   "wind_speed_100m": 10.7,
+   "wind_direction_100m": 74.0
   },
   {
    "time": "2026-02-02T04:00",
@@ -859,7 +1011,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.726,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9031
+   "curve": 0.9031,
+   "wind_speed_100m": 11.04,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-02T05:00",
@@ -870,7 +1024,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8781,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9543
+   "curve": 0.9543,
+   "wind_speed_100m": 11.99,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-02T06:00",
@@ -881,7 +1037,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7721,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8455
+   "curve": 0.8455,
+   "wind_speed_100m": 9.9,
+   "wind_direction_100m": 64.0
   },
   {
    "time": "2026-02-02T07:00",
@@ -892,7 +1050,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8486,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8821
+   "curve": 0.8821,
+   "wind_speed_100m": 10.34,
+   "wind_direction_100m": 64.0
   },
   {
    "time": "2026-02-02T08:00",
@@ -903,7 +1063,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8646,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8928
+   "curve": 0.8928,
+   "wind_speed_100m": 10.97,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-02T09:00",
@@ -914,7 +1076,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8408,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9076
+   "curve": 0.9076,
+   "wind_speed_100m": 11.23,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-02T10:00",
@@ -925,7 +1089,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7666,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9148
+   "curve": 0.9148,
+   "wind_speed_100m": 11.35,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-02T11:00",
@@ -936,7 +1102,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.757,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9259
+   "curve": 0.9259,
+   "wind_speed_100m": 11.53,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-02T12:00",
@@ -947,7 +1115,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7088,
    "p90": 0.9989,
    "actual": null,
-   "curve": 0.831
+   "curve": 0.831,
+   "wind_speed_100m": 9.77,
+   "wind_direction_100m": 62.0
   },
   {
    "time": "2026-02-02T13:00",
@@ -958,7 +1128,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4055,
    "p90": 0.8583,
    "actual": null,
-   "curve": 0.3667
+   "curve": 0.3667,
+   "wind_speed_100m": 6.51,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-02T14:00",
@@ -969,7 +1141,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.418,
    "p90": 0.7941,
    "actual": null,
-   "curve": 0.1724
+   "curve": 0.1724,
+   "wind_speed_100m": 4.86,
+   "wind_direction_100m": 81.0
   },
   {
    "time": "2026-02-02T15:00",
@@ -980,7 +1154,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1428,
    "p90": 0.6957,
    "actual": null,
-   "curve": 0.1631
+   "curve": 0.1631,
+   "wind_speed_100m": 4.77,
+   "wind_direction_100m": 81.0
   },
   {
    "time": "2026-02-02T16:00",
@@ -991,7 +1167,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.112,
    "p90": 0.6816,
    "actual": null,
-   "curve": 0.2427
+   "curve": 0.2427,
+   "wind_speed_100m": 5.52,
+   "wind_direction_100m": 73.0
   },
   {
    "time": "2026-02-02T17:00",
@@ -1002,7 +1180,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2169,
    "p90": 0.7474,
    "actual": null,
-   "curve": 0.3817
+   "curve": 0.3817,
+   "wind_speed_100m": 6.54,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-02T18:00",
@@ -1013,7 +1193,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2059,
    "p90": 0.7707,
    "actual": null,
-   "curve": 0.4417
+   "curve": 0.4417,
+   "wind_speed_100m": 6.77,
+   "wind_direction_100m": 76.0
   },
   {
    "time": "2026-02-02T19:00",
@@ -1024,7 +1206,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3134,
    "p90": 0.7689,
    "actual": null,
-   "curve": 0.5865
+   "curve": 0.5865,
+   "wind_speed_100m": 7.72,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-02T20:00",
@@ -1035,7 +1219,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3839,
    "p90": 0.9288,
    "actual": null,
-   "curve": 0.7109
+   "curve": 0.7109,
+   "wind_speed_100m": 8.86,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-02T21:00",
@@ -1046,7 +1232,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2867,
    "p90": 0.8947,
    "actual": null,
-   "curve": 0.7498
+   "curve": 0.7498,
+   "wind_speed_100m": 9.12,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-02T22:00",
@@ -1057,7 +1245,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.483,
    "p90": 0.9648,
    "actual": null,
-   "curve": 0.8006
+   "curve": 0.8006,
+   "wind_speed_100m": 9.48,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-02T23:00",
@@ -1068,7 +1258,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6225,
    "p90": 0.9825,
    "actual": null,
-   "curve": 0.8223
+   "curve": 0.8223,
+   "wind_speed_100m": 9.64,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-01T00:00",
@@ -1079,7 +1271,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.4569,
    "actual": null,
-   "curve": 0.0153
+   "curve": 0.0153,
+   "wind_speed_100m": 1.77,
+   "wind_direction_100m": 34.0
   },
   {
    "time": "2026-02-01T01:00",
@@ -1090,7 +1284,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1974,
    "p90": 0.5466,
    "actual": null,
-   "curve": 0.0455
+   "curve": 0.0455,
+   "wind_speed_100m": 2.91,
+   "wind_direction_100m": 57.0
   },
   {
    "time": "2026-02-01T02:00",
@@ -1101,7 +1297,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0642,
    "p90": 0.3111,
    "actual": null,
-   "curve": 0.0711
+   "curve": 0.0711,
+   "wind_speed_100m": 3.5,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-01T03:00",
@@ -1112,7 +1310,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0394,
    "p90": 0.5554,
    "actual": null,
-   "curve": 0.2299
+   "curve": 0.2299,
+   "wind_speed_100m": 5.37,
+   "wind_direction_100m": 75.0
   },
   {
    "time": "2026-02-01T04:00",
@@ -1123,7 +1323,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1879,
    "p90": 0.864,
    "actual": null,
-   "curve": 0.4503
+   "curve": 0.4503,
+   "wind_speed_100m": 6.89,
+   "wind_direction_100m": 75.0
   },
   {
    "time": "2026-02-01T05:00",
@@ -1134,7 +1336,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2762,
    "p90": 0.8833,
    "actual": null,
-   "curve": 0.4452
+   "curve": 0.4452,
+   "wind_speed_100m": 6.88,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-01T06:00",
@@ -1145,7 +1349,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2971,
    "p90": 0.7515,
    "actual": null,
-   "curve": 0.2005
+   "curve": 0.2005,
+   "wind_speed_100m": 5.14,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-01T07:00",
@@ -1156,7 +1362,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1668,
    "p90": 0.7562,
    "actual": null,
-   "curve": 0.0915
+   "curve": 0.0915,
+   "wind_speed_100m": 3.84,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-01T08:00",
@@ -1167,7 +1375,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.175,
    "p90": 0.6336,
    "actual": null,
-   "curve": 0.0767
+   "curve": 0.0767,
+   "wind_speed_100m": 3.61,
+   "wind_direction_100m": 77.0
   },
   {
    "time": "2026-02-01T09:00",
@@ -1178,7 +1388,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1648,
    "p90": 0.6209,
    "actual": null,
-   "curve": 0.0499
+   "curve": 0.0499,
+   "wind_speed_100m": 3.13,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-01T10:00",
@@ -1189,7 +1401,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2048,
    "p90": 0.6018,
    "actual": null,
-   "curve": 0.0542
+   "curve": 0.0542,
+   "wind_speed_100m": 3.29,
+   "wind_direction_100m": 63.0
   },
   {
    "time": "2026-02-01T11:00",
@@ -1200,7 +1414,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1625,
    "p90": 0.564,
    "actual": null,
-   "curve": 0.0863
+   "curve": 0.0863,
+   "wind_speed_100m": 3.75,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-01T12:00",
@@ -1211,7 +1427,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0837,
    "p90": 0.5839,
    "actual": null,
-   "curve": 0.0379
+   "curve": 0.0379,
+   "wind_speed_100m": 2.67,
+   "wind_direction_100m": 98.0
   },
   {
    "time": "2026-02-01T13:00",
@@ -1222,7 +1440,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0404,
    "p90": 0.5741,
    "actual": null,
-   "curve": 0.0506
+   "curve": 0.0506,
+   "wind_speed_100m": 3.14,
+   "wind_direction_100m": 90.0
   },
   {
    "time": "2026-02-01T14:00",
@@ -1233,7 +1453,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.097,
    "p90": 0.6155,
    "actual": null,
-   "curve": 0.0868
+   "curve": 0.0868,
+   "wind_speed_100m": 3.73,
+   "wind_direction_100m": 76.0
   },
   {
    "time": "2026-02-01T15:00",
@@ -1244,7 +1466,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0814,
    "p90": 0.6052,
    "actual": null,
-   "curve": 0.107
+   "curve": 0.107,
+   "wind_speed_100m": 4.15,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-01T16:00",
@@ -1255,7 +1479,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0791,
    "p90": 0.6561,
    "actual": null,
-   "curve": 0.1372
+   "curve": 0.1372,
+   "wind_speed_100m": 4.63,
+   "wind_direction_100m": 77.0
   },
   {
    "time": "2026-02-01T17:00",
@@ -1266,7 +1492,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1537,
    "p90": 0.6389,
    "actual": null,
-   "curve": 0.1623
+   "curve": 0.1623,
+   "wind_speed_100m": 4.86,
+   "wind_direction_100m": 81.0
   },
   {
    "time": "2026-02-01T18:00",
@@ -1277,7 +1505,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1848,
    "p90": 0.7265,
    "actual": null,
-   "curve": 0.1689
+   "curve": 0.1689,
+   "wind_speed_100m": 4.9,
+   "wind_direction_100m": 78.0
   },
   {
    "time": "2026-02-01T19:00",
@@ -1288,7 +1518,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1919,
    "p90": 0.8432,
    "actual": null,
-   "curve": 0.1362
+   "curve": 0.1362,
+   "wind_speed_100m": 4.61,
+   "wind_direction_100m": 86.0
   },
   {
    "time": "2026-02-01T20:00",
@@ -1299,7 +1531,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2072,
    "p90": 0.8698,
    "actual": null,
-   "curve": 0.143
+   "curve": 0.143,
+   "wind_speed_100m": 4.71,
+   "wind_direction_100m": 86.0
   },
   {
    "time": "2026-02-01T21:00",
@@ -1310,7 +1544,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2982,
    "p90": 0.9523,
    "actual": null,
-   "curve": 0.2442
+   "curve": 0.2442,
+   "wind_speed_100m": 5.56,
+   "wind_direction_100m": 76.0
   },
   {
    "time": "2026-02-01T22:00",
@@ -1321,7 +1557,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4656,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.5113
+   "curve": 0.5113,
+   "wind_speed_100m": 7.13,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-01T23:00",
@@ -1332,7 +1570,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6115,
    "p90": 0.9679,
    "actual": null,
-   "curve": 0.68
+   "curve": 0.68,
+   "wind_speed_100m": 8.24,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-02T00:00",
@@ -1343,7 +1583,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4647,
    "p90": 0.9427,
    "actual": null,
-   "curve": 0.6778
+   "curve": 0.6778,
+   "wind_speed_100m": 8.74,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-02T01:00",
@@ -1354,7 +1596,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5554,
    "p90": 0.969,
    "actual": null,
-   "curve": 0.7834
+   "curve": 0.7834,
+   "wind_speed_100m": 9.33,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-02T02:00",
@@ -1365,7 +1609,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5443,
    "p90": 0.9855,
    "actual": null,
-   "curve": 0.8442
+   "curve": 0.8442,
+   "wind_speed_100m": 9.82,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-02T03:00",
@@ -1376,7 +1622,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7386,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8899
+   "curve": 0.8899,
+   "wind_speed_100m": 10.7,
+   "wind_direction_100m": 74.0
   },
   {
    "time": "2026-02-02T04:00",
@@ -1387,7 +1635,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7174,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9081
+   "curve": 0.9081,
+   "wind_speed_100m": 11.04,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-02T05:00",
@@ -1398,7 +1648,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8562,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9409
+   "curve": 0.9409,
+   "wind_speed_100m": 11.99,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-02T06:00",
@@ -1409,7 +1661,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7747,
    "p90": 0.9991,
    "actual": null,
-   "curve": 0.8434
+   "curve": 0.8434,
+   "wind_speed_100m": 9.9,
+   "wind_direction_100m": 64.0
   },
   {
    "time": "2026-02-02T07:00",
@@ -1420,7 +1674,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8319,
    "p90": 0.9937,
    "actual": null,
-   "curve": 0.8606
+   "curve": 0.8606,
+   "wind_speed_100m": 10.34,
+   "wind_direction_100m": 64.0
   },
   {
    "time": "2026-02-02T08:00",
@@ -1431,7 +1687,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8611,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8978
+   "curve": 0.8978,
+   "wind_speed_100m": 10.97,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-02T09:00",
@@ -1442,7 +1700,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8373,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9126
+   "curve": 0.9126,
+   "wind_speed_100m": 11.23,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-02T10:00",
@@ -1453,7 +1713,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7764,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9198
+   "curve": 0.9198,
+   "wind_speed_100m": 11.35,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-02T11:00",
@@ -1464,7 +1726,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7506,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.926
+   "curve": 0.926,
+   "wind_speed_100m": 11.53,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-02T12:00",
@@ -1475,7 +1739,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7064,
    "p90": 0.9926,
    "actual": null,
-   "curve": 0.8322
+   "curve": 0.8322,
+   "wind_speed_100m": 9.77,
+   "wind_direction_100m": 62.0
   },
   {
    "time": "2026-02-02T13:00",
@@ -1486,7 +1752,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3957,
    "p90": 0.8526,
    "actual": null,
-   "curve": 0.3576
+   "curve": 0.3576,
+   "wind_speed_100m": 6.51,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-02T14:00",
@@ -1497,7 +1765,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4098,
    "p90": 0.7904,
    "actual": null,
-   "curve": 0.1649
+   "curve": 0.1649,
+   "wind_speed_100m": 4.86,
+   "wind_direction_100m": 81.0
   },
   {
    "time": "2026-02-02T15:00",
@@ -1508,7 +1778,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1354,
    "p90": 0.6928,
    "actual": null,
-   "curve": 0.1563
+   "curve": 0.1563,
+   "wind_speed_100m": 4.77,
+   "wind_direction_100m": 81.0
   },
   {
    "time": "2026-02-02T16:00",
@@ -1519,7 +1791,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1035,
    "p90": 0.6777,
    "actual": null,
-   "curve": 0.235
+   "curve": 0.235,
+   "wind_speed_100m": 5.52,
+   "wind_direction_100m": 73.0
   },
   {
    "time": "2026-02-02T17:00",
@@ -1530,7 +1804,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2058,
    "p90": 0.7408,
    "actual": null,
-   "curve": 0.3712
+   "curve": 0.3712,
+   "wind_speed_100m": 6.54,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-02T18:00",
@@ -1541,7 +1817,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1894,
    "p90": 0.7585,
    "actual": null,
-   "curve": 0.426
+   "curve": 0.426,
+   "wind_speed_100m": 6.77,
+   "wind_direction_100m": 76.0
   },
   {
    "time": "2026-02-02T19:00",
@@ -1552,7 +1830,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3032,
    "p90": 0.7696,
    "actual": null,
-   "curve": 0.5762
+   "curve": 0.5762,
+   "wind_speed_100m": 7.72,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-02T20:00",
@@ -1563,7 +1843,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3686,
    "p90": 0.9155,
    "actual": null,
-   "curve": 0.6947
+   "curve": 0.6947,
+   "wind_speed_100m": 8.86,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-02T21:00",
@@ -1574,7 +1856,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2872,
    "p90": 0.9081,
    "actual": null,
-   "curve": 0.7426
+   "curve": 0.7426,
+   "wind_speed_100m": 9.12,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-02T22:00",
@@ -1585,7 +1869,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4762,
    "p90": 0.9592,
    "actual": null,
-   "curve": 0.8
+   "curve": 0.8,
+   "wind_speed_100m": 9.48,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-02T23:00",
@@ -1596,7 +1882,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6169,
    "p90": 0.9881,
    "actual": null,
-   "curve": 0.823
+   "curve": 0.823,
+   "wind_speed_100m": 9.64,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-02T00:00",
@@ -1607,7 +1895,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6799,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8664
+   "curve": 0.8664,
+   "wind_speed_100m": 9.84,
+   "wind_direction_100m": 75.0
   },
   {
    "time": "2026-02-02T01:00",
@@ -1618,7 +1908,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7103,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.91
+   "curve": 0.91,
+   "wind_speed_100m": 10.51,
+   "wind_direction_100m": 74.0
   },
   {
    "time": "2026-02-02T02:00",
@@ -1629,7 +1921,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7449,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9105
+   "curve": 0.9105,
+   "wind_speed_100m": 10.88,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-02T03:00",
@@ -1640,7 +1934,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7871,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9111
+   "curve": 0.9111,
+   "wind_speed_100m": 11.07,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-02T04:00",
@@ -1651,7 +1947,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8147,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9175
+   "curve": 0.9175,
+   "wind_speed_100m": 11.62,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-02T05:00",
@@ -1662,7 +1960,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8859,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9256
+   "curve": 0.9256,
+   "wind_speed_100m": 12.05,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-02T06:00",
@@ -1673,7 +1973,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8578,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.91
+   "curve": 0.91,
+   "wind_speed_100m": 10.48,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-02T07:00",
@@ -1684,7 +1986,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8577,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9116
+   "curve": 0.9116,
+   "wind_speed_100m": 11.35,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-02T08:00",
@@ -1695,7 +1999,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8704,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9192
+   "curve": 0.9192,
+   "wind_speed_100m": 11.84,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-02T09:00",
@@ -1706,7 +2012,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8465,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9176
+   "curve": 0.9176,
+   "wind_speed_100m": 11.75,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-02T10:00",
@@ -1717,7 +2025,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7724,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9113
+   "curve": 0.9113,
+   "wind_speed_100m": 11.26,
+   "wind_direction_100m": 63.0
   },
   {
    "time": "2026-02-02T11:00",
@@ -1728,7 +2038,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6893,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8178
+   "curve": 0.8178,
+   "wind_speed_100m": 9.24,
+   "wind_direction_100m": 58.0
   },
   {
    "time": "2026-02-02T12:00",
@@ -1739,7 +2051,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5759,
    "p90": 0.9425,
    "actual": null,
-   "curve": 0.243
+   "curve": 0.243,
+   "wind_speed_100m": 5.41,
+   "wind_direction_100m": 55.0
   },
   {
    "time": "2026-02-02T13:00",
@@ -1750,7 +2064,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3798,
    "p90": 0.8465,
    "actual": null,
-   "curve": 0.0556
+   "curve": 0.0556,
+   "wind_speed_100m": 3.17,
+   "wind_direction_100m": 99.0
   },
   {
    "time": "2026-02-02T14:00",
@@ -1761,7 +2077,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0459,
    "p90": 0.5265,
    "actual": null,
-   "curve": 0.0294
+   "curve": 0.0294,
+   "wind_speed_100m": 2.42,
+   "wind_direction_100m": 122.0
   },
   {
    "time": "2026-02-02T15:00",
@@ -1772,7 +2090,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.4759,
    "actual": null,
-   "curve": 0.0187
+   "curve": 0.0187,
+   "wind_speed_100m": 2.0,
+   "wind_direction_100m": 101.0
   },
   {
    "time": "2026-02-02T16:00",
@@ -1783,7 +2103,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.4932,
    "actual": null,
-   "curve": 0.0316
+   "curve": 0.0316,
+   "wind_speed_100m": 2.47,
+   "wind_direction_100m": 83.0
   },
   {
    "time": "2026-02-02T17:00",
@@ -1794,7 +2116,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.5359,
    "actual": null,
-   "curve": 0.0556
+   "curve": 0.0556,
+   "wind_speed_100m": 3.16,
+   "wind_direction_100m": 74.0
   },
   {
    "time": "2026-02-02T18:00",
@@ -1805,7 +2129,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.5101,
    "actual": null,
-   "curve": 0.0612
+   "curve": 0.0612,
+   "wind_speed_100m": 3.29,
+   "wind_direction_100m": 80.0
   },
   {
    "time": "2026-02-02T19:00",
@@ -1816,7 +2142,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1056,
    "p90": 0.6508,
    "actual": null,
-   "curve": 0.1405
+   "curve": 0.1405,
+   "wind_speed_100m": 4.54,
+   "wind_direction_100m": 83.0
   },
   {
    "time": "2026-02-02T20:00",
@@ -1827,7 +2155,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2631,
    "p90": 0.8681,
    "actual": null,
-   "curve": 0.3782
+   "curve": 0.3782,
+   "wind_speed_100m": 6.3,
+   "wind_direction_100m": 78.0
   },
   {
    "time": "2026-02-02T21:00",
@@ -1838,7 +2168,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.465,
    "p90": 0.9981,
    "actual": null,
-   "curve": 0.5476
+   "curve": 0.5476,
+   "wind_speed_100m": 7.27,
+   "wind_direction_100m": 76.0
   },
   {
    "time": "2026-02-02T22:00",
@@ -1849,7 +2181,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4857,
    "p90": 0.9779,
    "actual": null,
-   "curve": 0.653
+   "curve": 0.653,
+   "wind_speed_100m": 8.09,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-02T23:00",
@@ -1860,7 +2194,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6758,
    "p90": 0.9778,
    "actual": null,
-   "curve": 0.6532
+   "curve": 0.6532,
+   "wind_speed_100m": 8.09,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-03T00:00",
@@ -1871,7 +2207,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2521,
    "p90": 0.754,
    "actual": null,
-   "curve": 0.3715
+   "curve": 0.3715,
+   "wind_speed_100m": 6.5,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-03T01:00",
@@ -1882,7 +2220,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.4909,
    "actual": null,
-   "curve": 0.0546
+   "curve": 0.0546,
+   "wind_speed_100m": 3.23,
+   "wind_direction_100m": 88.0
   },
   {
    "time": "2026-02-03T02:00",
@@ -1893,7 +2233,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1021,
    "p90": 0.6685,
    "actual": null,
-   "curve": 0.0216
+   "curve": 0.0216,
+   "wind_speed_100m": 1.32,
+   "wind_direction_100m": 222.0
   },
   {
    "time": "2026-02-03T03:00",
@@ -1904,7 +2246,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0484,
    "p90": 0.3615,
    "actual": null,
-   "curve": 0.1019
+   "curve": 0.1019,
+   "wind_speed_100m": 4.06,
+   "wind_direction_100m": 255.0
   },
   {
    "time": "2026-02-03T04:00",
@@ -1915,7 +2259,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0306,
    "p90": 0.4518,
    "actual": null,
-   "curve": 0.0969
+   "curve": 0.0969,
+   "wind_speed_100m": 3.77,
+   "wind_direction_100m": 242.0
   },
   {
    "time": "2026-02-03T05:00",
@@ -1926,7 +2272,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.026,
    "p90": 0.4413,
    "actual": null,
-   "curve": 0.0511
+   "curve": 0.0511,
+   "wind_speed_100m": 3.1,
+   "wind_direction_100m": 235.0
   },
   {
    "time": "2026-02-03T06:00",
@@ -1937,7 +2285,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0765,
    "p90": 0.5437,
    "actual": null,
-   "curve": 0.0183
+   "curve": 0.0183,
+   "wind_speed_100m": 1.01,
+   "wind_direction_100m": 209.0
   },
   {
    "time": "2026-02-03T07:00",
@@ -1948,7 +2298,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.3068,
    "actual": null,
-   "curve": 0.0195
+   "curve": 0.0195,
+   "wind_speed_100m": 1.18,
+   "wind_direction_100m": 270.0
   },
   {
    "time": "2026-02-03T08:00",
@@ -1959,7 +2311,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0379,
    "p90": 0.3725,
    "actual": null,
-   "curve": 0.0361
+   "curve": 0.0361,
+   "wind_speed_100m": 2.47,
+   "wind_direction_100m": 263.0
   },
   {
    "time": "2026-02-03T09:00",
@@ -1970,7 +2324,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0617,
    "p90": 0.4032,
    "actual": null,
-   "curve": 0.0545
+   "curve": 0.0545,
+   "wind_speed_100m": 3.27,
+   "wind_direction_100m": 261.0
   },
   {
    "time": "2026-02-03T10:00",
@@ -1981,7 +2337,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0887,
    "p90": 0.44,
    "actual": null,
-   "curve": 0.1037
+   "curve": 0.1037,
+   "wind_speed_100m": 4.22,
+   "wind_direction_100m": 266.0
   },
   {
    "time": "2026-02-03T11:00",
@@ -1992,7 +2350,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1229,
    "p90": 0.6154,
    "actual": null,
-   "curve": 0.2949
+   "curve": 0.2949,
+   "wind_speed_100m": 6.18,
+   "wind_direction_100m": 267.0
   },
   {
    "time": "2026-02-03T12:00",
@@ -2003,7 +2363,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2939,
    "p90": 0.8785,
    "actual": null,
-   "curve": 0.5901
+   "curve": 0.5901,
+   "wind_speed_100m": 7.8,
+   "wind_direction_100m": 258.0
   },
   {
    "time": "2026-02-03T13:00",
@@ -2014,7 +2376,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3459,
    "p90": 0.8401,
    "actual": null,
-   "curve": 0.5961
+   "curve": 0.5961,
+   "wind_speed_100m": 7.88,
+   "wind_direction_100m": 259.0
   },
   {
    "time": "2026-02-03T14:00",
@@ -2025,7 +2389,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3393,
    "p90": 0.8601,
    "actual": null,
-   "curve": 0.5575
+   "curve": 0.5575,
+   "wind_speed_100m": 7.58,
+   "wind_direction_100m": 256.0
   },
   {
    "time": "2026-02-03T15:00",
@@ -2036,7 +2402,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3726,
    "p90": 0.8605,
    "actual": null,
-   "curve": 0.5672
+   "curve": 0.5672,
+   "wind_speed_100m": 7.64,
+   "wind_direction_100m": 261.0
   },
   {
    "time": "2026-02-03T16:00",
@@ -2047,7 +2415,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3053,
    "p90": 0.8436,
    "actual": null,
-   "curve": 0.5469
+   "curve": 0.5469,
+   "wind_speed_100m": 7.51,
+   "wind_direction_100m": 255.0
   },
   {
    "time": "2026-02-03T17:00",
@@ -2058,7 +2428,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.356,
    "p90": 0.7634,
    "actual": null,
-   "curve": 0.349
+   "curve": 0.349,
+   "wind_speed_100m": 6.45,
+   "wind_direction_100m": 240.0
   },
   {
    "time": "2026-02-03T18:00",
@@ -2069,7 +2441,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2696,
    "p90": 0.7987,
    "actual": null,
-   "curve": 0.4478
+   "curve": 0.4478,
+   "wind_speed_100m": 6.84,
+   "wind_direction_100m": 246.0
   },
   {
    "time": "2026-02-03T19:00",
@@ -2080,7 +2454,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4047,
    "p90": 0.9162,
    "actual": null,
-   "curve": 0.5147
+   "curve": 0.5147,
+   "wind_speed_100m": 7.3,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-03T20:00",
@@ -2091,7 +2467,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.43,
    "p90": 0.8947,
    "actual": null,
-   "curve": 0.49
+   "curve": 0.49,
+   "wind_speed_100m": 7.13,
+   "wind_direction_100m": 254.0
   },
   {
    "time": "2026-02-03T21:00",
@@ -2102,7 +2480,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3541,
    "p90": 0.8935,
    "actual": null,
-   "curve": 0.4664
+   "curve": 0.4664,
+   "wind_speed_100m": 6.97,
+   "wind_direction_100m": 253.0
   },
   {
    "time": "2026-02-03T22:00",
@@ -2113,7 +2493,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4624,
    "p90": 0.9588,
    "actual": null,
-   "curve": 0.6074
+   "curve": 0.6074,
+   "wind_speed_100m": 8.07,
+   "wind_direction_100m": 260.0
   },
   {
    "time": "2026-02-03T23:00",
@@ -2124,7 +2506,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4734,
    "p90": 0.886,
    "actual": null,
-   "curve": 0.8176
+   "curve": 0.8176,
+   "wind_speed_100m": 9.64,
+   "wind_direction_100m": 251.0
   },
   {
    "time": "2026-02-02T00:00",
@@ -2135,7 +2519,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6708,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8597
+   "curve": 0.8597,
+   "wind_speed_100m": 9.84,
+   "wind_direction_100m": 75.0
   },
   {
    "time": "2026-02-02T01:00",
@@ -2146,7 +2532,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6977,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8867
+   "curve": 0.8867,
+   "wind_speed_100m": 10.51,
+   "wind_direction_100m": 74.0
   },
   {
    "time": "2026-02-02T02:00",
@@ -2157,7 +2545,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7346,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8985
+   "curve": 0.8985,
+   "wind_speed_100m": 10.88,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-02T03:00",
@@ -2168,7 +2558,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.78,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9123
+   "curve": 0.9123,
+   "wind_speed_100m": 11.07,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-02T04:00",
@@ -2179,7 +2571,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8215,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9285
+   "curve": 0.9285,
+   "wind_speed_100m": 11.62,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-02T05:00",
@@ -2190,7 +2584,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8801,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.93
+   "curve": 0.93,
+   "wind_speed_100m": 12.05,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-02T06:00",
@@ -2201,7 +2597,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8543,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8867
+   "curve": 0.8867,
+   "wind_speed_100m": 10.48,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-02T07:00",
@@ -2212,7 +2610,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8764,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9237
+   "curve": 0.9237,
+   "wind_speed_100m": 11.35,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-02T08:00",
@@ -2223,7 +2623,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8807,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9295
+   "curve": 0.9295,
+   "wind_speed_100m": 11.84,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-02T09:00",
@@ -2234,7 +2636,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8575,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9286
+   "curve": 0.9286,
+   "wind_speed_100m": 11.75,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-02T10:00",
@@ -2245,7 +2649,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7842,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9154
+   "curve": 0.9154,
+   "wind_speed_100m": 11.26,
+   "wind_direction_100m": 63.0
   },
   {
    "time": "2026-02-02T11:00",
@@ -2256,7 +2662,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6818,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8154
+   "curve": 0.8154,
+   "wind_speed_100m": 9.24,
+   "wind_direction_100m": 58.0
   },
   {
    "time": "2026-02-02T12:00",
@@ -2267,7 +2675,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5538,
    "p90": 0.9355,
    "actual": null,
-   "curve": 0.2295
+   "curve": 0.2295,
+   "wind_speed_100m": 5.41,
+   "wind_direction_100m": 55.0
   },
   {
    "time": "2026-02-02T13:00",
@@ -2278,7 +2688,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4169,
    "p90": 0.8477,
    "actual": null,
-   "curve": 0.0512
+   "curve": 0.0512,
+   "wind_speed_100m": 3.17,
+   "wind_direction_100m": 99.0
   },
   {
    "time": "2026-02-02T14:00",
@@ -2289,7 +2701,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0404,
    "p90": 0.5309,
    "actual": null,
-   "curve": 0.0283
+   "curve": 0.0283,
+   "wind_speed_100m": 2.42,
+   "wind_direction_100m": 122.0
   },
   {
    "time": "2026-02-02T15:00",
@@ -2300,7 +2714,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.4809,
    "actual": null,
-   "curve": 0.0183
+   "curve": 0.0183,
+   "wind_speed_100m": 2.0,
+   "wind_direction_100m": 101.0
   },
   {
    "time": "2026-02-02T16:00",
@@ -2311,7 +2727,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.4963,
    "actual": null,
-   "curve": 0.0304
+   "curve": 0.0304,
+   "wind_speed_100m": 2.47,
+   "wind_direction_100m": 83.0
   },
   {
    "time": "2026-02-02T17:00",
@@ -2322,7 +2740,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.5371,
    "actual": null,
-   "curve": 0.0512
+   "curve": 0.0512,
+   "wind_speed_100m": 3.16,
+   "wind_direction_100m": 74.0
   },
   {
    "time": "2026-02-02T18:00",
@@ -2333,7 +2753,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.5105,
    "actual": null,
-   "curve": 0.0561
+   "curve": 0.0561,
+   "wind_speed_100m": 3.29,
+   "wind_direction_100m": 80.0
   },
   {
    "time": "2026-02-02T19:00",
@@ -2344,7 +2766,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1011,
    "p90": 0.6469,
    "actual": null,
-   "curve": 0.131
+   "curve": 0.131,
+   "wind_speed_100m": 4.54,
+   "wind_direction_100m": 83.0
   },
   {
    "time": "2026-02-02T20:00",
@@ -2355,7 +2779,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2435,
    "p90": 0.854,
    "actual": null,
-   "curve": 0.3574
+   "curve": 0.3574,
+   "wind_speed_100m": 6.3,
+   "wind_direction_100m": 78.0
   },
   {
    "time": "2026-02-02T21:00",
@@ -2366,7 +2792,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4539,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.5351
+   "curve": 0.5351,
+   "wind_speed_100m": 7.27,
+   "wind_direction_100m": 76.0
   },
   {
    "time": "2026-02-02T22:00",
@@ -2377,7 +2805,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4794,
    "p90": 0.9859,
    "actual": null,
-   "curve": 0.6456
+   "curve": 0.6456,
+   "wind_speed_100m": 8.09,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-02T23:00",
@@ -2388,7 +2818,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6634,
    "p90": 0.9852,
    "actual": null,
-   "curve": 0.6458
+   "curve": 0.6458,
+   "wind_speed_100m": 8.09,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-03T00:00",
@@ -2399,7 +2831,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2437,
    "p90": 0.7477,
    "actual": null,
-   "curve": 0.362
+   "curve": 0.362,
+   "wind_speed_100m": 6.5,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-03T01:00",
@@ -2410,7 +2844,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.4898,
    "actual": null,
-   "curve": 0.0496
+   "curve": 0.0496,
+   "wind_speed_100m": 3.23,
+   "wind_direction_100m": 88.0
   },
   {
    "time": "2026-02-03T02:00",
@@ -2421,7 +2857,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0868,
    "p90": 0.6709,
    "actual": null,
-   "curve": 0.0202
+   "curve": 0.0202,
+   "wind_speed_100m": 1.32,
+   "wind_direction_100m": 222.0
   },
   {
    "time": "2026-02-03T03:00",
@@ -2432,7 +2870,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0511,
    "p90": 0.3614,
    "actual": null,
-   "curve": 0.098
+   "curve": 0.098,
+   "wind_speed_100m": 4.06,
+   "wind_direction_100m": 255.0
   },
   {
    "time": "2026-02-03T04:00",
@@ -2443,7 +2883,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0315,
    "p90": 0.4507,
    "actual": null,
-   "curve": 0.0919
+   "curve": 0.0919,
+   "wind_speed_100m": 3.77,
+   "wind_direction_100m": 242.0
   },
   {
    "time": "2026-02-03T05:00",
@@ -2454,7 +2896,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0263,
    "p90": 0.4407,
    "actual": null,
-   "curve": 0.0466
+   "curve": 0.0466,
+   "wind_speed_100m": 3.1,
+   "wind_direction_100m": 235.0
   },
   {
    "time": "2026-02-03T06:00",
@@ -2465,7 +2909,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0823,
    "p90": 0.5476,
    "actual": null,
-   "curve": 0.0183
+   "curve": 0.0183,
+   "wind_speed_100m": 1.01,
+   "wind_direction_100m": 209.0
   },
   {
    "time": "2026-02-03T07:00",
@@ -2476,7 +2922,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.3095,
    "actual": null,
-   "curve": 0.0183
+   "curve": 0.0183,
+   "wind_speed_100m": 1.18,
+   "wind_direction_100m": 270.0
   },
   {
    "time": "2026-02-03T08:00",
@@ -2487,7 +2935,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0419,
    "p90": 0.3745,
    "actual": null,
-   "curve": 0.0343
+   "curve": 0.0343,
+   "wind_speed_100m": 2.47,
+   "wind_direction_100m": 263.0
   },
   {
    "time": "2026-02-03T09:00",
@@ -2498,7 +2948,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0626,
    "p90": 0.4021,
    "actual": null,
-   "curve": 0.0496
+   "curve": 0.0496,
+   "wind_speed_100m": 3.27,
+   "wind_direction_100m": 261.0
   },
   {
    "time": "2026-02-03T10:00",
@@ -2509,7 +2961,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0942,
    "p90": 0.4403,
    "actual": null,
-   "curve": 0.1001
+   "curve": 0.1001,
+   "wind_speed_100m": 4.22,
+   "wind_direction_100m": 266.0
   },
   {
    "time": "2026-02-03T11:00",
@@ -2520,7 +2974,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1354,
    "p90": 0.6159,
    "actual": null,
-   "curve": 0.2911
+   "curve": 0.2911,
+   "wind_speed_100m": 6.18,
+   "wind_direction_100m": 267.0
   },
   {
    "time": "2026-02-03T12:00",
@@ -2531,7 +2987,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.287,
    "p90": 0.8721,
    "actual": null,
-   "curve": 0.58
+   "curve": 0.58,
+   "wind_speed_100m": 7.8,
+   "wind_direction_100m": 258.0
   },
   {
    "time": "2026-02-03T13:00",
@@ -2542,7 +3000,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3429,
    "p90": 0.837,
    "actual": null,
-   "curve": 0.5899
+   "curve": 0.5899,
+   "wind_speed_100m": 7.88,
+   "wind_direction_100m": 259.0
   },
   {
    "time": "2026-02-03T14:00",
@@ -2553,7 +3013,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3325,
    "p90": 0.8535,
    "actual": null,
-   "curve": 0.5461
+   "curve": 0.5461,
+   "wind_speed_100m": 7.58,
+   "wind_direction_100m": 256.0
   },
   {
    "time": "2026-02-03T15:00",
@@ -2564,7 +3026,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3668,
    "p90": 0.8543,
    "actual": null,
-   "curve": 0.5562
+   "curve": 0.5562,
+   "wind_speed_100m": 7.64,
+   "wind_direction_100m": 261.0
   },
   {
    "time": "2026-02-03T16:00",
@@ -2575,7 +3039,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3007,
    "p90": 0.8365,
    "actual": null,
-   "curve": 0.535
+   "curve": 0.535,
+   "wind_speed_100m": 7.51,
+   "wind_direction_100m": 255.0
   },
   {
    "time": "2026-02-03T17:00",
@@ -2586,7 +3052,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3555,
    "p90": 0.7598,
    "actual": null,
-   "curve": 0.3415
+   "curve": 0.3415,
+   "wind_speed_100m": 6.45,
+   "wind_direction_100m": 240.0
   },
   {
    "time": "2026-02-03T18:00",
@@ -2597,7 +3065,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.261,
    "p90": 0.787,
    "actual": null,
-   "curve": 0.4322
+   "curve": 0.4322,
+   "wind_speed_100m": 6.84,
+   "wind_direction_100m": 246.0
   },
   {
    "time": "2026-02-03T19:00",
@@ -2608,7 +3078,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4088,
    "p90": 0.9078,
    "actual": null,
-   "curve": 0.5014
+   "curve": 0.5014,
+   "wind_speed_100m": 7.3,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-03T20:00",
@@ -2619,7 +3091,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4241,
    "p90": 0.8924,
    "actual": null,
-   "curve": 0.4759
+   "curve": 0.4759,
+   "wind_speed_100m": 7.13,
+   "wind_direction_100m": 254.0
   },
   {
    "time": "2026-02-03T21:00",
@@ -2630,7 +3104,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3452,
    "p90": 0.8821,
    "actual": null,
-   "curve": 0.4515
+   "curve": 0.4515,
+   "wind_speed_100m": 6.97,
+   "wind_direction_100m": 253.0
   },
   {
    "time": "2026-02-03T22:00",
@@ -2641,7 +3117,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.482,
    "p90": 0.9662,
    "actual": null,
-   "curve": 0.6112
+   "curve": 0.6112,
+   "wind_speed_100m": 8.07,
+   "wind_direction_100m": 260.0
   },
   {
    "time": "2026-02-03T23:00",
@@ -2652,7 +3130,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4807,
    "p90": 0.9142,
    "actual": null,
-   "curve": 0.818
+   "curve": 0.818,
+   "wind_speed_100m": 9.64,
+   "wind_direction_100m": 251.0
   },
   {
    "time": "2026-02-03T00:00",
@@ -2663,7 +3143,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3333,
    "p90": 0.9536,
    "actual": null,
-   "curve": 0.5764
+   "curve": 0.5764,
+   "wind_speed_100m": 7.63,
+   "wind_direction_100m": 77.0
   },
   {
    "time": "2026-02-03T01:00",
@@ -2674,7 +3156,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3233,
    "p90": 0.9138,
    "actual": null,
-   "curve": 0.5742
+   "curve": 0.5742,
+   "wind_speed_100m": 7.6,
+   "wind_direction_100m": 75.0
   },
   {
    "time": "2026-02-03T02:00",
@@ -2685,7 +3169,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2251,
    "p90": 0.7484,
    "actual": null,
-   "curve": 0.5336
+   "curve": 0.5336,
+   "wind_speed_100m": 7.19,
+   "wind_direction_100m": 73.0
   },
   {
    "time": "2026-02-03T03:00",
@@ -2696,7 +3182,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0282,
    "p90": 0.6254,
    "actual": null,
-   "curve": 0.2469
+   "curve": 0.2469,
+   "wind_speed_100m": 5.42,
+   "wind_direction_100m": 77.0
   },
   {
    "time": "2026-02-03T04:00",
@@ -2707,7 +3195,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.4314,
    "actual": null,
-   "curve": 0.0212
+   "curve": 0.0212,
+   "wind_speed_100m": 2.17,
+   "wind_direction_100m": 108.0
   },
   {
    "time": "2026-02-03T05:00",
@@ -2718,7 +3208,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.3932,
    "actual": null,
-   "curve": 0.0127
+   "curve": 0.0127,
+   "wind_speed_100m": 1.53,
+   "wind_direction_100m": 230.0
   },
   {
    "time": "2026-02-03T06:00",
@@ -2729,7 +3221,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2292,
    "actual": null,
-   "curve": 0.0164
+   "curve": 0.0164,
+   "wind_speed_100m": 1.86,
+   "wind_direction_100m": 108.0
   },
   {
    "time": "2026-02-03T07:00",
@@ -2740,7 +3234,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0499,
    "p90": 0.1964,
    "actual": null,
-   "curve": 0.01
+   "curve": 0.01,
+   "wind_speed_100m": 1.2,
+   "wind_direction_100m": 125.0
   },
   {
    "time": "2026-02-03T08:00",
@@ -2751,7 +3247,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0648,
    "p90": 0.1739,
    "actual": null,
-   "curve": 0.0075
+   "curve": 0.0075,
+   "wind_speed_100m": 0.57,
+   "wind_direction_100m": 211.0
   },
   {
    "time": "2026-02-03T09:00",
@@ -2762,7 +3260,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.1394,
    "actual": null,
-   "curve": 0.016
+   "curve": 0.016,
+   "wind_speed_100m": 1.84,
+   "wind_direction_100m": 245.0
   },
   {
    "time": "2026-02-03T10:00",
@@ -2773,7 +3273,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0027,
    "p90": 0.1285,
    "actual": null,
-   "curve": 0.0214
+   "curve": 0.0214,
+   "wind_speed_100m": 2.2,
+   "wind_direction_100m": 249.0
   },
   {
    "time": "2026-02-03T11:00",
@@ -2784,7 +3286,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0517,
    "p90": 0.3761,
    "actual": null,
-   "curve": 0.0269
+   "curve": 0.0269,
+   "wind_speed_100m": 2.38,
+   "wind_direction_100m": 261.0
   },
   {
    "time": "2026-02-03T12:00",
@@ -2795,7 +3299,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1822,
    "p90": 0.7407,
    "actual": null,
-   "curve": 0.3925
+   "curve": 0.3925,
+   "wind_speed_100m": 6.47,
+   "wind_direction_100m": 267.0
   },
   {
    "time": "2026-02-03T13:00",
@@ -2806,7 +3312,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3696,
    "p90": 0.9151,
    "actual": null,
-   "curve": 0.6216
+   "curve": 0.6216,
+   "wind_speed_100m": 7.97,
+   "wind_direction_100m": 264.0
   },
   {
    "time": "2026-02-03T14:00",
@@ -2817,7 +3325,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5024,
    "p90": 0.9396,
    "actual": null,
-   "curve": 0.7037
+   "curve": 0.7037,
+   "wind_speed_100m": 8.84,
+   "wind_direction_100m": 255.0
   },
   {
    "time": "2026-02-03T15:00",
@@ -2828,7 +3338,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5885,
    "p90": 0.9521,
    "actual": null,
-   "curve": 0.685
+   "curve": 0.685,
+   "wind_speed_100m": 8.77,
+   "wind_direction_100m": 252.0
   },
   {
    "time": "2026-02-03T16:00",
@@ -2839,7 +3351,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.645,
    "p90": 0.9594,
    "actual": null,
-   "curve": 0.685
+   "curve": 0.685,
+   "wind_speed_100m": 8.53,
+   "wind_direction_100m": 255.0
   },
   {
    "time": "2026-02-03T17:00",
@@ -2850,7 +3364,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6282,
    "p90": 0.9581,
    "actual": null,
-   "curve": 0.685
+   "curve": 0.685,
+   "wind_speed_100m": 8.52,
+   "wind_direction_100m": 261.0
   },
   {
    "time": "2026-02-03T18:00",
@@ -2861,7 +3377,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.676,
    "p90": 0.9803,
    "actual": null,
-   "curve": 0.685
+   "curve": 0.685,
+   "wind_speed_100m": 8.58,
+   "wind_direction_100m": 256.0
   },
   {
    "time": "2026-02-03T19:00",
@@ -2872,7 +3390,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.557,
    "p90": 0.9511,
    "actual": null,
-   "curve": 0.8533
+   "curve": 0.8533,
+   "wind_speed_100m": 9.36,
+   "wind_direction_100m": 257.0
   },
   {
    "time": "2026-02-03T20:00",
@@ -2883,7 +3403,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5232,
    "p90": 0.9235,
    "actual": null,
-   "curve": 0.8473
+   "curve": 0.8473,
+   "wind_speed_100m": 9.27,
+   "wind_direction_100m": 257.0
   },
   {
    "time": "2026-02-03T21:00",
@@ -2894,7 +3416,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4988,
    "p90": 0.9439,
    "actual": null,
-   "curve": 0.7193
+   "curve": 0.7193,
+   "wind_speed_100m": 8.89,
+   "wind_direction_100m": 256.0
   },
   {
    "time": "2026-02-03T22:00",
@@ -2905,7 +3429,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4627,
    "p90": 0.9492,
    "actual": null,
-   "curve": 0.8276
+   "curve": 0.8276,
+   "wind_speed_100m": 9.21,
+   "wind_direction_100m": 269.0
   },
   {
    "time": "2026-02-03T23:00",
@@ -2916,7 +3442,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5468,
    "p90": 0.9817,
    "actual": null,
-   "curve": 0.685
+   "curve": 0.685,
+   "wind_speed_100m": 8.45,
+   "wind_direction_100m": 266.0
   },
   {
    "time": "2026-02-04T00:00",
@@ -2927,7 +3455,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4539,
    "p90": 0.9211,
    "actual": null,
-   "curve": 0.5047
+   "curve": 0.5047,
+   "wind_speed_100m": 7.23,
+   "wind_direction_100m": 245.0
   },
   {
    "time": "2026-02-04T01:00",
@@ -2938,7 +3468,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.618,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.7072
+   "curve": 0.7072,
+   "wind_speed_100m": 8.87,
+   "wind_direction_100m": 239.0
   },
   {
    "time": "2026-02-04T02:00",
@@ -2949,7 +3481,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6127,
    "p90": 0.9512,
    "actual": null,
-   "curve": 0.7177
+   "curve": 0.7177,
+   "wind_speed_100m": 8.94,
+   "wind_direction_100m": 244.0
   },
   {
    "time": "2026-02-04T03:00",
@@ -2960,7 +3494,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.579,
    "p90": 0.96,
    "actual": null,
-   "curve": 0.7057
+   "curve": 0.7057,
+   "wind_speed_100m": 8.86,
+   "wind_direction_100m": 241.0
   },
   {
    "time": "2026-02-04T04:00",
@@ -2971,7 +3507,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4916,
    "p90": 0.9104,
    "actual": null,
-   "curve": 0.6163
+   "curve": 0.6163,
+   "wind_speed_100m": 8.24,
+   "wind_direction_100m": 242.0
   },
   {
    "time": "2026-02-04T05:00",
@@ -2982,7 +3520,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2674,
    "p90": 0.8225,
    "actual": null,
-   "curve": 0.4385
+   "curve": 0.4385,
+   "wind_speed_100m": 6.79,
+   "wind_direction_100m": 242.0
   },
   {
    "time": "2026-02-04T06:00",
@@ -2993,7 +3533,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2487,
    "p90": 0.8861,
    "actual": null,
-   "curve": 0.6994
+   "curve": 0.6994,
+   "wind_speed_100m": 8.83,
+   "wind_direction_100m": 247.0
   },
   {
    "time": "2026-02-04T07:00",
@@ -3004,7 +3546,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2463,
    "p90": 0.854,
    "actual": null,
-   "curve": 0.5505
+   "curve": 0.5505,
+   "wind_speed_100m": 7.54,
+   "wind_direction_100m": 244.0
   },
   {
    "time": "2026-02-04T08:00",
@@ -3015,7 +3559,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1651,
    "p90": 0.8144,
    "actual": null,
-   "curve": 0.4638
+   "curve": 0.4638,
+   "wind_speed_100m": 6.97,
+   "wind_direction_100m": 246.0
   },
   {
    "time": "2026-02-04T09:00",
@@ -3026,7 +3572,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1468,
    "p90": 0.7705,
    "actual": null,
-   "curve": 0.4444
+   "curve": 0.4444,
+   "wind_speed_100m": 6.84,
+   "wind_direction_100m": 246.0
   },
   {
    "time": "2026-02-04T10:00",
@@ -3037,7 +3585,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1616,
    "p90": 0.7747,
    "actual": null,
-   "curve": 0.3897
+   "curve": 0.3897,
+   "wind_speed_100m": 6.62,
+   "wind_direction_100m": 245.0
   },
   {
    "time": "2026-02-04T11:00",
@@ -3048,7 +3598,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1085,
    "p90": 0.6417,
    "actual": null,
-   "curve": 0.2929
+   "curve": 0.2929,
+   "wind_speed_100m": 6.14,
+   "wind_direction_100m": 241.0
   },
   {
    "time": "2026-02-04T12:00",
@@ -3059,7 +3611,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0817,
    "p90": 0.4438,
    "actual": null,
-   "curve": 0.0809
+   "curve": 0.0809,
+   "wind_speed_100m": 3.59,
+   "wind_direction_100m": 235.0
   },
   {
    "time": "2026-02-04T13:00",
@@ -3070,7 +3624,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.08,
    "p90": 0.4821,
    "actual": null,
-   "curve": 0.0423
+   "curve": 0.0423,
+   "wind_speed_100m": 2.72,
+   "wind_direction_100m": 232.0
   },
   {
    "time": "2026-02-04T14:00",
@@ -3081,7 +3637,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.5363,
    "actual": null,
-   "curve": 0.0176
+   "curve": 0.0176,
+   "wind_speed_100m": 0.9,
+   "wind_direction_100m": 229.0
   },
   {
    "time": "2026-02-04T15:00",
@@ -3092,7 +3650,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1334,
    "p90": 0.7682,
    "actual": null,
-   "curve": 0.0486
+   "curve": 0.0486,
+   "wind_speed_100m": 2.98,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-04T16:00",
@@ -3103,7 +3663,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4373,
    "p90": 0.9643,
    "actual": null,
-   "curve": 0.596
+   "curve": 0.596,
+   "wind_speed_100m": 7.84,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-04T17:00",
@@ -3114,7 +3676,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7194,
    "p90": 0.9992,
    "actual": null,
-   "curve": 0.7999
+   "curve": 0.7999,
+   "wind_speed_100m": 9.48,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-04T18:00",
@@ -3125,7 +3689,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7999,
    "p90": 0.9862,
    "actual": null,
-   "curve": 0.8664
+   "curve": 0.8664,
+   "wind_speed_100m": 10.08,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-04T19:00",
@@ -3136,7 +3702,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8098,
    "p90": 0.9905,
    "actual": null,
-   "curve": 0.8961
+   "curve": 0.8961,
+   "wind_speed_100m": 10.92,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-04T20:00",
@@ -3147,7 +3715,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8589,
    "p90": 0.9912,
    "actual": null,
-   "curve": 0.9492
+   "curve": 0.9492,
+   "wind_speed_100m": 11.85,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-04T21:00",
@@ -3158,7 +3728,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9478,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.981
+   "curve": 0.981,
+   "wind_speed_100m": 12.87,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-04T22:00",
@@ -3169,7 +3741,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9705,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.986
+   "curve": 0.986,
+   "wind_speed_100m": 14.1,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-04T23:00",
@@ -3180,7 +3754,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9705,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9883
+   "curve": 0.9883,
+   "wind_speed_100m": 15.4,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-03T00:00",
@@ -3191,7 +3767,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3219,
    "p90": 0.9448,
    "actual": null,
-   "curve": 0.5639
+   "curve": 0.5639,
+   "wind_speed_100m": 7.63,
+   "wind_direction_100m": 77.0
   },
   {
    "time": "2026-02-03T01:00",
@@ -3202,7 +3780,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3126,
    "p90": 0.905,
    "actual": null,
-   "curve": 0.5617
+   "curve": 0.5617,
+   "wind_speed_100m": 7.6,
+   "wind_direction_100m": 75.0
   },
   {
    "time": "2026-02-03T02:00",
@@ -3213,7 +3793,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2137,
    "p90": 0.7652,
    "actual": null,
-   "curve": 0.521
+   "curve": 0.521,
+   "wind_speed_100m": 7.19,
+   "wind_direction_100m": 73.0
   },
   {
    "time": "2026-02-03T03:00",
@@ -3224,7 +3806,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0087,
    "p90": 0.6171,
    "actual": null,
-   "curve": 0.233
+   "curve": 0.233,
+   "wind_speed_100m": 5.42,
+   "wind_direction_100m": 77.0
   },
   {
    "time": "2026-02-03T04:00",
@@ -3235,7 +3819,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.4363,
    "actual": null,
-   "curve": 0.0205
+   "curve": 0.0205,
+   "wind_speed_100m": 2.17,
+   "wind_direction_100m": 108.0
   },
   {
    "time": "2026-02-03T05:00",
@@ -3246,7 +3832,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.4163,
    "actual": null,
-   "curve": 0.012
+   "curve": 0.012,
+   "wind_speed_100m": 1.53,
+   "wind_direction_100m": 230.0
   },
   {
    "time": "2026-02-03T06:00",
@@ -3257,7 +3845,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2347,
    "actual": null,
-   "curve": 0.0163
+   "curve": 0.0163,
+   "wind_speed_100m": 1.86,
+   "wind_direction_100m": 108.0
   },
   {
    "time": "2026-02-03T07:00",
@@ -3268,7 +3858,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0541,
    "p90": 0.2003,
    "actual": null,
-   "curve": 0.0083
+   "curve": 0.0083,
+   "wind_speed_100m": 1.2,
+   "wind_direction_100m": 125.0
   },
   {
    "time": "2026-02-03T08:00",
@@ -3279,7 +3871,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0696,
    "p90": 0.2074,
    "actual": null,
-   "curve": 0.0065
+   "curve": 0.0065,
+   "wind_speed_100m": 0.57,
+   "wind_direction_100m": 211.0
   },
   {
    "time": "2026-02-03T09:00",
@@ -3290,7 +3884,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0032,
    "p90": 0.1448,
    "actual": null,
-   "curve": 0.0159
+   "curve": 0.0159,
+   "wind_speed_100m": 1.84,
+   "wind_direction_100m": 245.0
   },
   {
    "time": "2026-02-03T10:00",
@@ -3301,7 +3897,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0079,
    "p90": 0.1333,
    "actual": null,
-   "curve": 0.0207
+   "curve": 0.0207,
+   "wind_speed_100m": 2.2,
+   "wind_direction_100m": 249.0
   },
   {
    "time": "2026-02-03T11:00",
@@ -3312,7 +3910,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0566,
    "p90": 0.3806,
    "actual": null,
-   "curve": 0.0259
+   "curve": 0.0259,
+   "wind_speed_100m": 2.38,
+   "wind_direction_100m": 261.0
   },
   {
    "time": "2026-02-03T12:00",
@@ -3323,7 +3923,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1907,
    "p90": 0.7233,
    "actual": null,
-   "curve": 0.3737
+   "curve": 0.3737,
+   "wind_speed_100m": 6.47,
+   "wind_direction_100m": 267.0
   },
   {
    "time": "2026-02-03T13:00",
@@ -3334,7 +3936,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3644,
    "p90": 0.9065,
    "actual": null,
-   "curve": 0.6118
+   "curve": 0.6118,
+   "wind_speed_100m": 7.97,
+   "wind_direction_100m": 264.0
   },
   {
    "time": "2026-02-03T14:00",
@@ -3345,7 +3949,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5066,
    "p90": 0.9403,
    "actual": null,
-   "curve": 0.6991
+   "curve": 0.6991,
+   "wind_speed_100m": 8.84,
+   "wind_direction_100m": 255.0
   },
   {
    "time": "2026-02-03T15:00",
@@ -3356,7 +3962,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6011,
    "p90": 0.9524,
    "actual": null,
-   "curve": 0.68
+   "curve": 0.68,
+   "wind_speed_100m": 8.77,
+   "wind_direction_100m": 252.0
   },
   {
    "time": "2026-02-03T16:00",
@@ -3367,7 +3975,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6567,
    "p90": 0.9594,
    "actual": null,
-   "curve": 0.68
+   "curve": 0.68,
+   "wind_speed_100m": 8.53,
+   "wind_direction_100m": 255.0
   },
   {
    "time": "2026-02-03T17:00",
@@ -3378,7 +3988,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6308,
    "p90": 0.9581,
    "actual": null,
-   "curve": 0.68
+   "curve": 0.68,
+   "wind_speed_100m": 8.52,
+   "wind_direction_100m": 261.0
   },
   {
    "time": "2026-02-03T18:00",
@@ -3389,7 +4001,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6787,
    "p90": 0.9796,
    "actual": null,
-   "curve": 0.68
+   "curve": 0.68,
+   "wind_speed_100m": 8.58,
+   "wind_direction_100m": 256.0
   },
   {
    "time": "2026-02-03T19:00",
@@ -3400,7 +4014,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5501,
    "p90": 0.9755,
    "actual": null,
-   "curve": 0.8517
+   "curve": 0.8517,
+   "wind_speed_100m": 9.36,
+   "wind_direction_100m": 257.0
   },
   {
    "time": "2026-02-03T20:00",
@@ -3411,7 +4027,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5217,
    "p90": 0.9405,
    "actual": null,
-   "curve": 0.8455
+   "curve": 0.8455,
+   "wind_speed_100m": 9.27,
+   "wind_direction_100m": 257.0
   },
   {
    "time": "2026-02-03T21:00",
@@ -3422,7 +4040,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4947,
    "p90": 0.944,
    "actual": null,
-   "curve": 0.715
+   "curve": 0.715,
+   "wind_speed_100m": 8.89,
+   "wind_direction_100m": 256.0
   },
   {
    "time": "2026-02-03T22:00",
@@ -3433,7 +4053,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4593,
    "p90": 0.998,
    "actual": null,
-   "curve": 0.8254
+   "curve": 0.8254,
+   "wind_speed_100m": 9.21,
+   "wind_direction_100m": 269.0
   },
   {
    "time": "2026-02-03T23:00",
@@ -3444,7 +4066,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5554,
    "p90": 0.9808,
    "actual": null,
-   "curve": 0.68
+   "curve": 0.68,
+   "wind_speed_100m": 8.45,
+   "wind_direction_100m": 266.0
   },
   {
    "time": "2026-02-04T00:00",
@@ -3455,7 +4079,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4473,
    "p90": 0.9159,
    "actual": null,
-   "curve": 0.4911
+   "curve": 0.4911,
+   "wind_speed_100m": 7.23,
+   "wind_direction_100m": 245.0
   },
   {
    "time": "2026-02-04T01:00",
@@ -3466,7 +4092,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6078,
    "p90": 0.9864,
    "actual": null,
-   "curve": 0.69
+   "curve": 0.69,
+   "wind_speed_100m": 8.87,
+   "wind_direction_100m": 239.0
   },
   {
    "time": "2026-02-04T02:00",
@@ -3477,7 +4105,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6015,
    "p90": 0.9508,
    "actual": null,
-   "curve": 0.703
+   "curve": 0.703,
+   "wind_speed_100m": 8.94,
+   "wind_direction_100m": 244.0
   },
   {
    "time": "2026-02-04T03:00",
@@ -3488,7 +4118,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5684,
    "p90": 0.9458,
    "actual": null,
-   "curve": 0.6882
+   "curve": 0.6882,
+   "wind_speed_100m": 8.86,
+   "wind_direction_100m": 241.0
   },
   {
    "time": "2026-02-04T04:00",
@@ -3499,7 +4131,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5102,
    "p90": 0.9161,
    "actual": null,
-   "curve": 0.6279
+   "curve": 0.6279,
+   "wind_speed_100m": 8.24,
+   "wind_direction_100m": 242.0
   },
   {
    "time": "2026-02-04T05:00",
@@ -3510,7 +4144,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2606,
    "p90": 0.8103,
    "actual": null,
-   "curve": 0.4227
+   "curve": 0.4227,
+   "wind_speed_100m": 6.79,
+   "wind_direction_100m": 242.0
   },
   {
    "time": "2026-02-04T06:00",
@@ -3521,7 +4157,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2679,
    "p90": 0.8872,
    "actual": null,
-   "curve": 0.6804
+   "curve": 0.6804,
+   "wind_speed_100m": 8.83,
+   "wind_direction_100m": 247.0
   },
   {
    "time": "2026-02-04T07:00",
@@ -3532,7 +4170,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2424,
    "p90": 0.8467,
    "actual": null,
-   "curve": 0.5387
+   "curve": 0.5387,
+   "wind_speed_100m": 7.54,
+   "wind_direction_100m": 244.0
   },
   {
    "time": "2026-02-04T08:00",
@@ -3543,7 +4183,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1579,
    "p90": 0.8029,
    "actual": null,
-   "curve": 0.4488
+   "curve": 0.4488,
+   "wind_speed_100m": 6.97,
+   "wind_direction_100m": 246.0
   },
   {
    "time": "2026-02-04T09:00",
@@ -3554,7 +4196,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1389,
    "p90": 0.7587,
    "actual": null,
-   "curve": 0.4287
+   "curve": 0.4287,
+   "wind_speed_100m": 6.84,
+   "wind_direction_100m": 246.0
   },
   {
    "time": "2026-02-04T10:00",
@@ -3565,7 +4209,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1652,
    "p90": 0.7673,
    "actual": null,
-   "curve": 0.3785
+   "curve": 0.3785,
+   "wind_speed_100m": 6.62,
+   "wind_direction_100m": 245.0
   },
   {
    "time": "2026-02-04T11:00",
@@ -3576,7 +4222,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1139,
    "p90": 0.6439,
    "actual": null,
-   "curve": 0.289
+   "curve": 0.289,
+   "wind_speed_100m": 6.14,
+   "wind_direction_100m": 241.0
   },
   {
    "time": "2026-02-04T12:00",
@@ -3587,7 +4235,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0824,
    "p90": 0.4427,
    "actual": null,
-   "curve": 0.0759
+   "curve": 0.0759,
+   "wind_speed_100m": 3.59,
+   "wind_direction_100m": 235.0
   },
   {
    "time": "2026-02-04T13:00",
@@ -3598,7 +4248,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0846,
    "p90": 0.4828,
    "actual": null,
-   "curve": 0.0392
+   "curve": 0.0392,
+   "wind_speed_100m": 2.72,
+   "wind_direction_100m": 232.0
   },
   {
    "time": "2026-02-04T14:00",
@@ -3609,7 +4261,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.5408,
    "actual": null,
-   "curve": 0.0183
+   "curve": 0.0183,
+   "wind_speed_100m": 0.9,
+   "wind_direction_100m": 229.0
   },
   {
    "time": "2026-02-04T15:00",
@@ -3620,7 +4274,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1401,
    "p90": 0.7679,
    "actual": null,
-   "curve": 0.0445
+   "curve": 0.0445,
+   "wind_speed_100m": 2.98,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-04T16:00",
@@ -3631,7 +4287,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4323,
    "p90": 0.9595,
    "actual": null,
-   "curve": 0.5898
+   "curve": 0.5898,
+   "wind_speed_100m": 7.84,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-04T17:00",
@@ -3642,7 +4300,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7154,
    "p90": 0.9933,
    "actual": null,
-   "curve": 0.7992
+   "curve": 0.7992,
+   "wind_speed_100m": 9.48,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-04T18:00",
@@ -3653,7 +4313,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7707,
    "p90": 0.9807,
    "actual": null,
-   "curve": 0.8532
+   "curve": 0.8532,
+   "wind_speed_100m": 10.08,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-04T19:00",
@@ -3664,7 +4326,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8123,
    "p90": 0.989,
    "actual": null,
-   "curve": 0.9011
+   "curve": 0.9011,
+   "wind_speed_100m": 10.92,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-04T20:00",
@@ -3675,7 +4339,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8388,
    "p90": 0.9851,
    "actual": null,
-   "curve": 0.9376
+   "curve": 0.9376,
+   "wind_speed_100m": 11.85,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-04T21:00",
@@ -3686,7 +4352,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9272,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9667
+   "curve": 0.9667,
+   "wind_speed_100m": 12.87,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-04T22:00",
@@ -3697,7 +4365,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9667,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9688
+   "curve": 0.9688,
+   "wind_speed_100m": 14.1,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-04T23:00",
@@ -3708,7 +4378,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9667,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 15.4,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-04T00:00",
@@ -3719,7 +4391,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5961,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8539
+   "curve": 0.8539,
+   "wind_speed_100m": 9.8,
+   "wind_direction_100m": 271.0
   },
   {
    "time": "2026-02-04T01:00",
@@ -3730,7 +4404,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.51,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9318
+   "curve": 0.9318,
+   "wind_speed_100m": 12.3,
+   "wind_direction_100m": 265.0
   },
   {
    "time": "2026-02-04T02:00",
@@ -3741,7 +4417,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5168,
    "p90": 0.9733,
    "actual": null,
-   "curve": 0.9118
+   "curve": 0.9118,
+   "wind_speed_100m": 11.3,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-04T03:00",
@@ -3752,7 +4430,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5158,
    "p90": 0.9161,
    "actual": null,
-   "curve": 0.9103
+   "curve": 0.9103,
+   "wind_speed_100m": 10.88,
+   "wind_direction_100m": 249.0
   },
   {
    "time": "2026-02-04T04:00",
@@ -3763,7 +4443,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4245,
    "p90": 0.8417,
    "actual": null,
-   "curve": 0.8533
+   "curve": 0.8533,
+   "wind_speed_100m": 9.52,
+   "wind_direction_100m": 253.0
   },
   {
    "time": "2026-02-04T05:00",
@@ -3774,7 +4456,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2988,
    "p90": 0.8524,
    "actual": null,
-   "curve": 0.685
+   "curve": 0.685,
+   "wind_speed_100m": 8.37,
+   "wind_direction_100m": 249.0
   },
   {
    "time": "2026-02-04T06:00",
@@ -3785,7 +4469,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2485,
    "p90": 0.8182,
    "actual": null,
-   "curve": 0.6082
+   "curve": 0.6082,
+   "wind_speed_100m": 7.91,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-04T07:00",
@@ -3796,7 +4482,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1463,
    "p90": 0.8747,
    "actual": null,
-   "curve": 0.474
+   "curve": 0.474,
+   "wind_speed_100m": 6.98,
+   "wind_direction_100m": 236.0
   },
   {
    "time": "2026-02-04T08:00",
@@ -3807,7 +4495,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1831,
    "p90": 0.8384,
    "actual": null,
-   "curve": 0.4986
+   "curve": 0.4986,
+   "wind_speed_100m": 7.1,
+   "wind_direction_100m": 244.0
   },
   {
    "time": "2026-02-04T09:00",
@@ -3818,7 +4508,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2044,
    "p90": 0.7775,
    "actual": null,
-   "curve": 0.5533
+   "curve": 0.5533,
+   "wind_speed_100m": 7.41,
+   "wind_direction_100m": 250.0
   },
   {
    "time": "2026-02-04T10:00",
@@ -3829,7 +4521,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1832,
    "p90": 0.779,
    "actual": null,
-   "curve": 0.5428
+   "curve": 0.5428,
+   "wind_speed_100m": 7.3,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-04T11:00",
@@ -3840,7 +4534,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1067,
    "p90": 0.7039,
    "actual": null,
-   "curve": 0.4413
+   "curve": 0.4413,
+   "wind_speed_100m": 6.84,
+   "wind_direction_100m": 246.0
   },
   {
    "time": "2026-02-04T12:00",
@@ -3851,7 +4547,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0449,
    "p90": 0.3825,
    "actual": null,
-   "curve": 0.0579
+   "curve": 0.0579,
+   "wind_speed_100m": 3.26,
+   "wind_direction_100m": 249.0
   },
   {
    "time": "2026-02-04T13:00",
@@ -3862,7 +4560,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2126,
    "p90": 0.5429,
    "actual": null,
-   "curve": 0.01
+   "curve": 0.01,
+   "wind_speed_100m": 0.98,
+   "wind_direction_100m": 264.0
   },
   {
    "time": "2026-02-04T14:00",
@@ -3873,7 +4573,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.108,
    "p90": 0.707,
    "actual": null,
-   "curve": 0.0198
+   "curve": 0.0198,
+   "wind_speed_100m": 2.08,
+   "wind_direction_100m": 45.0
   },
   {
    "time": "2026-02-04T15:00",
@@ -3884,7 +4586,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2896,
    "p90": 0.8388,
    "actual": null,
-   "curve": 0.2121
+   "curve": 0.2121,
+   "wind_speed_100m": 5.13,
+   "wind_direction_100m": 64.0
   },
   {
    "time": "2026-02-04T16:00",
@@ -3895,7 +4599,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5741,
    "p90": 0.9991,
    "actual": null,
-   "curve": 0.685
+   "curve": 0.685,
+   "wind_speed_100m": 8.65,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-04T17:00",
@@ -3906,7 +4612,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8225,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8629
+   "curve": 0.8629,
+   "wind_speed_100m": 9.85,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-04T18:00",
@@ -3917,7 +4625,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8466,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.91
+   "curve": 0.91,
+   "wind_speed_100m": 10.32,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-04T19:00",
@@ -3928,7 +4638,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8871,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9116
+   "curve": 0.9116,
+   "wind_speed_100m": 11.25,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-04T20:00",
@@ -3939,7 +4651,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9192,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9588
+   "curve": 0.9588,
+   "wind_speed_100m": 12.75,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-04T21:00",
@@ -3950,7 +4664,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9329,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9807
+   "curve": 0.9807,
+   "wind_speed_100m": 13.34,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-04T22:00",
@@ -3961,7 +4677,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9697,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9882
+   "curve": 0.9882,
+   "wind_speed_100m": 14.26,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-04T23:00",
@@ -3972,7 +4690,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9697,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 15.31,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-05T00:00",
@@ -3983,7 +4703,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9399,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 17.39,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-05T01:00",
@@ -3994,7 +4716,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9705,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 17.08,
+   "wind_direction_100m": 73.0
   },
   {
    "time": "2026-02-05T02:00",
@@ -4005,7 +4729,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9705,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 17.94,
+   "wind_direction_100m": 73.0
   },
   {
    "time": "2026-02-05T03:00",
@@ -4016,7 +4742,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9705,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 18.94,
+   "wind_direction_100m": 73.0
   },
   {
    "time": "2026-02-05T04:00",
@@ -4027,7 +4755,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9705,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 19.83,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-05T05:00",
@@ -4038,7 +4768,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.961,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 20.01,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-05T06:00",
@@ -4049,7 +4781,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9519,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 18.8,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-05T07:00",
@@ -4060,7 +4794,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9705,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 19.03,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-05T08:00",
@@ -4071,7 +4807,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9705,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 18.59,
+   "wind_direction_100m": 73.0
   },
   {
    "time": "2026-02-05T09:00",
@@ -4082,7 +4820,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9705,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 18.69,
+   "wind_direction_100m": 74.0
   },
   {
    "time": "2026-02-05T10:00",
@@ -4093,7 +4833,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9122,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 18.19,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-05T11:00",
@@ -4104,7 +4846,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9224,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 17.88,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-05T12:00",
@@ -4115,7 +4859,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9133,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.989
+   "curve": 0.989,
+   "wind_speed_100m": 16.15,
+   "wind_direction_100m": 73.0
   },
   {
    "time": "2026-02-05T13:00",
@@ -4126,7 +4872,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9705,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9876
+   "curve": 0.9876,
+   "wind_speed_100m": 14.35,
+   "wind_direction_100m": 76.0
   },
   {
    "time": "2026-02-05T14:00",
@@ -4137,7 +4885,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9041,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9447
+   "curve": 0.9447,
+   "wind_speed_100m": 11.86,
+   "wind_direction_100m": 75.0
   },
   {
    "time": "2026-02-05T15:00",
@@ -4148,7 +4898,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8721,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8858
+   "curve": 0.8858,
+   "wind_speed_100m": 10.73,
+   "wind_direction_100m": 74.0
   },
   {
    "time": "2026-02-05T16:00",
@@ -4159,7 +4911,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8347,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8692
+   "curve": 0.8692,
+   "wind_speed_100m": 10.17,
+   "wind_direction_100m": 74.0
   },
   {
    "time": "2026-02-05T17:00",
@@ -4170,7 +4924,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7224,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8013
+   "curve": 0.8013,
+   "wind_speed_100m": 9.54,
+   "wind_direction_100m": 73.0
   },
   {
    "time": "2026-02-05T18:00",
@@ -4181,7 +4937,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8335,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.856
+   "curve": 0.856,
+   "wind_speed_100m": 10.01,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-05T19:00",
@@ -4192,7 +4950,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7201,
    "p90": 0.9819,
    "actual": null,
-   "curve": 0.8385
+   "curve": 0.8385,
+   "wind_speed_100m": 9.81,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-05T20:00",
@@ -4203,7 +4963,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6221,
    "p90": 0.9509,
    "actual": null,
-   "curve": 0.7605
+   "curve": 0.7605,
+   "wind_speed_100m": 9.24,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-05T21:00",
@@ -4214,7 +4976,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6079,
    "p90": 0.9477,
    "actual": null,
-   "curve": 0.7039
+   "curve": 0.7039,
+   "wind_speed_100m": 8.86,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-05T22:00",
@@ -4225,7 +4989,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4716,
    "p90": 0.8547,
    "actual": null,
-   "curve": 0.65
+   "curve": 0.65,
+   "wind_speed_100m": 8.5,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-05T23:00",
@@ -4236,7 +5002,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2047,
    "p90": 0.7604,
    "actual": null,
-   "curve": 0.6003
+   "curve": 0.6003,
+   "wind_speed_100m": 7.95,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-04T00:00",
@@ -4247,7 +5015,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5856,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.852
+   "curve": 0.852,
+   "wind_speed_100m": 9.8,
+   "wind_direction_100m": 271.0
   },
   {
    "time": "2026-02-04T01:00",
@@ -4258,7 +5028,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5152,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9301
+   "curve": 0.9301,
+   "wind_speed_100m": 12.3,
+   "wind_direction_100m": 265.0
   },
   {
    "time": "2026-02-04T02:00",
@@ -4269,7 +5041,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.537,
    "p90": 0.9783,
    "actual": null,
-   "curve": 0.9251
+   "curve": 0.9251,
+   "wind_speed_100m": 11.3,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-04T03:00",
@@ -4280,7 +5054,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5034,
    "p90": 0.9165,
    "actual": null,
-   "curve": 0.893
+   "curve": 0.893,
+   "wind_speed_100m": 10.88,
+   "wind_direction_100m": 249.0
   },
   {
    "time": "2026-02-04T04:00",
@@ -4291,7 +5067,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4526,
    "p90": 0.8776,
    "actual": null,
-   "curve": 0.8517
+   "curve": 0.8517,
+   "wind_speed_100m": 9.52,
+   "wind_direction_100m": 253.0
   },
   {
    "time": "2026-02-04T05:00",
@@ -4302,7 +5080,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3251,
    "p90": 0.8519,
    "actual": null,
-   "curve": 0.68
+   "curve": 0.68,
+   "wind_speed_100m": 8.37,
+   "wind_direction_100m": 249.0
   },
   {
    "time": "2026-02-04T06:00",
@@ -4313,7 +5093,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2455,
    "p90": 0.796,
    "actual": null,
-   "curve": 0.5974
+   "curve": 0.5974,
+   "wind_speed_100m": 7.91,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-04T07:00",
@@ -4324,7 +5106,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1411,
    "p90": 0.8673,
    "actual": null,
-   "curve": 0.461
+   "curve": 0.461,
+   "wind_speed_100m": 6.98,
+   "wind_direction_100m": 236.0
   },
   {
    "time": "2026-02-04T08:00",
@@ -4335,7 +5119,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1781,
    "p90": 0.8311,
    "actual": null,
-   "curve": 0.4858
+   "curve": 0.4858,
+   "wind_speed_100m": 7.1,
+   "wind_direction_100m": 244.0
   },
   {
    "time": "2026-02-04T09:00",
@@ -4346,7 +5132,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1997,
    "p90": 0.7715,
    "actual": null,
-   "curve": 0.5408
+   "curve": 0.5408,
+   "wind_speed_100m": 7.41,
+   "wind_direction_100m": 250.0
   },
   {
    "time": "2026-02-04T10:00",
@@ -4357,7 +5145,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.179,
    "p90": 0.773,
    "actual": null,
-   "curve": 0.5303
+   "curve": 0.5303,
+   "wind_speed_100m": 7.3,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-04T11:00",
@@ -4368,7 +5158,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1054,
    "p90": 0.6962,
    "actual": null,
-   "curve": 0.4281
+   "curve": 0.4281,
+   "wind_speed_100m": 6.84,
+   "wind_direction_100m": 246.0
   },
   {
    "time": "2026-02-04T12:00",
@@ -4379,7 +5171,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0613,
    "p90": 0.3832,
    "actual": null,
-   "curve": 0.053
+   "curve": 0.053,
+   "wind_speed_100m": 3.26,
+   "wind_direction_100m": 249.0
   },
   {
    "time": "2026-02-04T13:00",
@@ -4390,7 +5184,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2141,
    "p90": 0.5468,
    "actual": null,
-   "curve": 0.0083
+   "curve": 0.0083,
+   "wind_speed_100m": 0.98,
+   "wind_direction_100m": 264.0
   },
   {
    "time": "2026-02-04T14:00",
@@ -4401,7 +5197,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1133,
    "p90": 0.7075,
    "actual": null,
-   "curve": 0.0193
+   "curve": 0.0193,
+   "wind_speed_100m": 2.08,
+   "wind_direction_100m": 45.0
   },
   {
    "time": "2026-02-04T15:00",
@@ -4412,7 +5210,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2898,
    "p90": 0.8347,
    "actual": null,
-   "curve": 0.2012
+   "curve": 0.2012,
+   "wind_speed_100m": 5.13,
+   "wind_direction_100m": 64.0
   },
   {
    "time": "2026-02-04T16:00",
@@ -4423,7 +5223,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5806,
    "p90": 0.9976,
    "actual": null,
-   "curve": 0.68
+   "curve": 0.68,
+   "wind_speed_100m": 8.65,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-04T17:00",
@@ -4434,7 +5236,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8144,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8576
+   "curve": 0.8576,
+   "wind_speed_100m": 9.85,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-04T18:00",
@@ -4445,7 +5249,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8215,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8867
+   "curve": 0.8867,
+   "wind_speed_100m": 10.32,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-04T19:00",
@@ -4456,7 +5262,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8953,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9238
+   "curve": 0.9238,
+   "wind_speed_100m": 11.25,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-04T20:00",
@@ -4467,7 +5275,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9007,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9452
+   "curve": 0.9452,
+   "wind_speed_100m": 12.75,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-04T21:00",
@@ -4478,7 +5288,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9093,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9686
+   "curve": 0.9686,
+   "wind_speed_100m": 13.34,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-04T22:00",
@@ -4489,7 +5301,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9641,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 14.26,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-04T23:00",
@@ -4500,7 +5314,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9641,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 15.31,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-05T00:00",
@@ -4511,7 +5327,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9178,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 17.39,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-05T01:00",
@@ -4522,7 +5340,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9511,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 17.08,
+   "wind_direction_100m": 73.0
   },
   {
    "time": "2026-02-05T02:00",
@@ -4533,7 +5353,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9522,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 17.94,
+   "wind_direction_100m": 73.0
   },
   {
    "time": "2026-02-05T03:00",
@@ -4544,7 +5366,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9667,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 18.94,
+   "wind_direction_100m": 73.0
   },
   {
    "time": "2026-02-05T04:00",
@@ -4555,7 +5379,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9665,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 19.83,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-05T05:00",
@@ -4566,7 +5392,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9336,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 20.01,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-05T06:00",
@@ -4577,7 +5405,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9244,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 18.8,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-05T07:00",
@@ -4588,7 +5418,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9667,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 19.03,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-05T08:00",
@@ -4599,7 +5431,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9667,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 18.59,
+   "wind_direction_100m": 73.0
   },
   {
    "time": "2026-02-05T09:00",
@@ -4610,7 +5444,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9667,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 18.69,
+   "wind_direction_100m": 74.0
   },
   {
    "time": "2026-02-05T10:00",
@@ -4621,7 +5457,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9181,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 18.19,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-05T11:00",
@@ -4632,7 +5470,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9087,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 17.88,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-05T12:00",
@@ -4643,7 +5483,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9183,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 16.15,
+   "wind_direction_100m": 73.0
   },
   {
    "time": "2026-02-05T13:00",
@@ -4654,7 +5496,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9667,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9696
+   "curve": 0.9696,
+   "wind_speed_100m": 14.35,
+   "wind_direction_100m": 76.0
   },
   {
    "time": "2026-02-05T14:00",
@@ -4665,7 +5509,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8919,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9348
+   "curve": 0.9348,
+   "wind_speed_100m": 11.86,
+   "wind_direction_100m": 75.0
   },
   {
    "time": "2026-02-05T15:00",
@@ -4676,7 +5522,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8651,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.885
+   "curve": 0.885,
+   "wind_speed_100m": 10.73,
+   "wind_direction_100m": 74.0
   },
   {
    "time": "2026-02-05T16:00",
@@ -4687,7 +5535,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8128,
    "p90": 0.9943,
    "actual": null,
-   "curve": 0.8546
+   "curve": 0.8546,
+   "wind_speed_100m": 10.17,
+   "wind_direction_100m": 74.0
   },
   {
    "time": "2026-02-05T17:00",
@@ -4698,7 +5548,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7156,
    "p90": 0.9944,
    "actual": null,
-   "curve": 0.8008
+   "curve": 0.8008,
+   "wind_speed_100m": 9.54,
+   "wind_direction_100m": 73.0
   },
   {
    "time": "2026-02-05T18:00",
@@ -4709,7 +5561,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8265,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8483
+   "curve": 0.8483,
+   "wind_speed_100m": 10.01,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-05T19:00",
@@ -4720,7 +5574,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7154,
    "p90": 0.9782,
    "actual": null,
-   "curve": 0.8401
+   "curve": 0.8401,
+   "wind_speed_100m": 9.81,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-05T20:00",
@@ -4731,7 +5587,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6112,
    "p90": 0.9426,
    "actual": null,
-   "curve": 0.7558
+   "curve": 0.7558,
+   "wind_speed_100m": 9.24,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-05T21:00",
@@ -4742,7 +5600,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5867,
    "p90": 0.9319,
    "actual": null,
-   "curve": 0.686
+   "curve": 0.686,
+   "wind_speed_100m": 8.86,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-05T22:00",
@@ -4753,7 +5613,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4686,
    "p90": 0.8578,
    "actual": null,
-   "curve": 0.6503
+   "curve": 0.6503,
+   "wind_speed_100m": 8.5,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-05T23:00",
@@ -4764,7 +5626,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2021,
    "p90": 0.7612,
    "actual": null,
-   "curve": 0.5979
+   "curve": 0.5979,
+   "wind_speed_100m": 7.95,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-05T00:00",
@@ -4775,7 +5639,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9347,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 18.03,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-05T01:00",
@@ -4786,7 +5652,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9697,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 19.59,
+   "wind_direction_100m": 73.0
   },
   {
    "time": "2026-02-05T02:00",
@@ -4797,7 +5665,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9697,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 20.27,
+   "wind_direction_100m": 73.0
   },
   {
    "time": "2026-02-05T03:00",
@@ -4808,7 +5678,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9697,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 20.77,
+   "wind_direction_100m": 73.0
   },
   {
    "time": "2026-02-05T04:00",
@@ -4819,7 +5691,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9615,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 20.92,
+   "wind_direction_100m": 73.0
   },
   {
    "time": "2026-02-05T05:00",
@@ -4830,7 +5704,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9683,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 19.76,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-05T06:00",
@@ -4841,7 +5717,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9697,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 19.89,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-05T07:00",
@@ -4852,7 +5730,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9697,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 19.34,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-05T08:00",
@@ -4863,7 +5743,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9697,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 18.71,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-05T09:00",
@@ -4874,7 +5756,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9241,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 18.01,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-05T10:00",
@@ -4885,7 +5769,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9044,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 17.58,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-05T11:00",
@@ -4896,7 +5782,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9135,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 16.62,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-05T12:00",
@@ -4907,7 +5795,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.95,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9806
+   "curve": 0.9806,
+   "wind_speed_100m": 13.45,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-05T13:00",
@@ -4918,7 +5808,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8971,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9264
+   "curve": 0.9264,
+   "wind_speed_100m": 12.13,
+   "wind_direction_100m": 74.0
   },
   {
    "time": "2026-02-05T14:00",
@@ -4929,7 +5821,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8739,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9108
+   "curve": 0.9108,
+   "wind_speed_100m": 11.08,
+   "wind_direction_100m": 75.0
   },
   {
    "time": "2026-02-05T15:00",
@@ -4940,7 +5834,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8619,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9101
+   "curve": 0.9101,
+   "wind_speed_100m": 10.84,
+   "wind_direction_100m": 75.0
   },
   {
    "time": "2026-02-05T16:00",
@@ -4951,7 +5847,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8577,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.91
+   "curve": 0.91,
+   "wind_speed_100m": 10.57,
+   "wind_direction_100m": 77.0
   },
   {
    "time": "2026-02-05T17:00",
@@ -4962,7 +5860,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8376,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.91
+   "curve": 0.91,
+   "wind_speed_100m": 10.44,
+   "wind_direction_100m": 73.0
   },
   {
    "time": "2026-02-05T18:00",
@@ -4973,7 +5873,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8538,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8801
+   "curve": 0.8801,
+   "wind_speed_100m": 10.04,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-05T19:00",
@@ -4984,7 +5886,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.826,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8657
+   "curve": 0.8657,
+   "wind_speed_100m": 9.91,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-05T20:00",
@@ -4995,7 +5899,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7822,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8533
+   "curve": 0.8533,
+   "wind_speed_100m": 9.57,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-05T21:00",
@@ -5006,7 +5912,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7369,
    "p90": 0.9798,
    "actual": null,
-   "curve": 0.8533
+   "curve": 0.8533,
+   "wind_speed_100m": 9.3,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-05T22:00",
@@ -5017,7 +5925,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.581,
    "p90": 0.9173,
    "actual": null,
-   "curve": 0.7268
+   "curve": 0.7268,
+   "wind_speed_100m": 8.92,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-05T23:00",
@@ -5028,7 +5938,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.472,
    "p90": 0.8001,
    "actual": null,
-   "curve": 0.5804
+   "curve": 0.5804,
+   "wind_speed_100m": 7.72,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-06T00:00",
@@ -5039,7 +5951,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0197,
    "p90": 0.3724,
    "actual": null,
-   "curve": 0.0952
+   "curve": 0.0952,
+   "wind_speed_100m": 3.75,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-06T01:00",
@@ -5050,7 +5964,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.3162,
    "actual": null,
-   "curve": 0.0195
+   "curve": 0.0195,
+   "wind_speed_100m": 1.18,
+   "wind_direction_100m": 204.0
   },
   {
    "time": "2026-02-06T02:00",
@@ -5061,7 +5977,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2971,
    "actual": null,
-   "curve": 0.1045
+   "curve": 0.1045,
+   "wind_speed_100m": 4.23,
+   "wind_direction_100m": 257.0
   },
   {
    "time": "2026-02-06T03:00",
@@ -5072,7 +5990,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1325,
    "p90": 0.5341,
    "actual": null,
-   "curve": 0.3453
+   "curve": 0.3453,
+   "wind_speed_100m": 6.42,
+   "wind_direction_100m": 258.0
   },
   {
    "time": "2026-02-06T04:00",
@@ -5083,7 +6003,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2006,
    "p90": 0.6818,
    "actual": null,
-   "curve": 0.34
+   "curve": 0.34,
+   "wind_speed_100m": 6.42,
+   "wind_direction_100m": 254.0
   },
   {
    "time": "2026-02-06T05:00",
@@ -5094,7 +6016,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.404,
    "p90": 0.863,
    "actual": null,
-   "curve": 0.5853
+   "curve": 0.5853,
+   "wind_speed_100m": 7.78,
+   "wind_direction_100m": 253.0
   },
   {
    "time": "2026-02-06T06:00",
@@ -5105,7 +6029,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5588,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9868
+   "curve": 0.9868,
+   "wind_speed_100m": 14.28,
+   "wind_direction_100m": 259.0
   },
   {
    "time": "2026-02-06T07:00",
@@ -5116,7 +6042,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7345,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9883
+   "curve": 0.9883,
+   "wind_speed_100m": 14.5,
+   "wind_direction_100m": 257.0
   },
   {
    "time": "2026-02-06T08:00",
@@ -5127,7 +6055,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6904,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9883
+   "curve": 0.9883,
+   "wind_speed_100m": 15.83,
+   "wind_direction_100m": 252.0
   },
   {
    "time": "2026-02-06T09:00",
@@ -5138,7 +6068,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9047,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9883
+   "curve": 0.9883,
+   "wind_speed_100m": 15.9,
+   "wind_direction_100m": 253.0
   },
   {
    "time": "2026-02-06T10:00",
@@ -5149,7 +6081,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9685,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9896
+   "curve": 0.9896,
+   "wind_speed_100m": 16.3,
+   "wind_direction_100m": 251.0
   },
   {
    "time": "2026-02-06T11:00",
@@ -5160,7 +6094,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9705,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 16.79,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-06T12:00",
@@ -5171,7 +6107,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.957,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 16.78,
+   "wind_direction_100m": 249.0
   },
   {
    "time": "2026-02-06T13:00",
@@ -5182,7 +6120,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9596,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 16.67,
+   "wind_direction_100m": 251.0
   },
   {
    "time": "2026-02-06T14:00",
@@ -5193,7 +6133,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9464,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9883
+   "curve": 0.9883,
+   "wind_speed_100m": 15.31,
+   "wind_direction_100m": 250.0
   },
   {
    "time": "2026-02-06T15:00",
@@ -5204,7 +6146,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9619,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9883
+   "curve": 0.9883,
+   "wind_speed_100m": 14.85,
+   "wind_direction_100m": 247.0
   },
   {
    "time": "2026-02-06T16:00",
@@ -5215,7 +6159,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9638,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9842
+   "curve": 0.9842,
+   "wind_speed_100m": 13.98,
+   "wind_direction_100m": 250.0
   },
   {
    "time": "2026-02-06T17:00",
@@ -5226,7 +6172,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9433,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9834
+   "curve": 0.9834,
+   "wind_speed_100m": 13.91,
+   "wind_direction_100m": 251.0
   },
   {
    "time": "2026-02-06T18:00",
@@ -5237,7 +6185,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8347,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8859
+   "curve": 0.8859,
+   "wind_speed_100m": 10.68,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-06T19:00",
@@ -5248,7 +6198,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7867,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8605
+   "curve": 0.8605,
+   "wind_speed_100m": 10.02,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-06T20:00",
@@ -5259,7 +6211,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7198,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.7155
+   "curve": 0.7155,
+   "wind_speed_100m": 8.9,
+   "wind_direction_100m": 249.0
   },
   {
    "time": "2026-02-06T21:00",
@@ -5270,7 +6224,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6858,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.6859
+   "curve": 0.6859,
+   "wind_speed_100m": 8.7,
+   "wind_direction_100m": 256.0
   },
   {
    "time": "2026-02-06T22:00",
@@ -5281,7 +6237,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6062,
    "p90": 0.9743,
    "actual": null,
-   "curve": 0.6275
+   "curve": 0.6275,
+   "wind_speed_100m": 8.31,
+   "wind_direction_100m": 262.0
   },
   {
    "time": "2026-02-06T23:00",
@@ -5292,7 +6250,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5396,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.6292
+   "curve": 0.6292,
+   "wind_speed_100m": 8.32,
+   "wind_direction_100m": 258.0
   },
   {
    "time": "2026-02-05T00:00",
@@ -5303,7 +6263,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9117,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9708
+   "curve": 0.9708,
+   "wind_speed_100m": 18.03,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-05T01:00",
@@ -5314,7 +6276,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9641,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9708
+   "curve": 0.9708,
+   "wind_speed_100m": 19.59,
+   "wind_direction_100m": 73.0
   },
   {
    "time": "2026-02-05T02:00",
@@ -5325,7 +6289,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9641,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9747
+   "curve": 0.9747,
+   "wind_speed_100m": 20.27,
+   "wind_direction_100m": 73.0
   },
   {
    "time": "2026-02-05T03:00",
@@ -5336,7 +6302,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9641,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9795
+   "curve": 0.9795,
+   "wind_speed_100m": 20.77,
+   "wind_direction_100m": 73.0
   },
   {
    "time": "2026-02-05T04:00",
@@ -5347,7 +6315,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.948,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.98
+   "curve": 0.98,
+   "wind_speed_100m": 20.92,
+   "wind_direction_100m": 73.0
   },
   {
    "time": "2026-02-05T05:00",
@@ -5358,7 +6328,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9434,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9708
+   "curve": 0.9708,
+   "wind_speed_100m": 19.76,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-05T06:00",
@@ -5369,7 +6341,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9571,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9708
+   "curve": 0.9708,
+   "wind_speed_100m": 19.89,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-05T07:00",
@@ -5380,7 +6354,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9548,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9708
+   "curve": 0.9708,
+   "wind_speed_100m": 19.34,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-05T08:00",
@@ -5391,7 +6367,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9553,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9708
+   "curve": 0.9708,
+   "wind_speed_100m": 18.71,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-05T09:00",
@@ -5402,7 +6380,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9183,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9708
+   "curve": 0.9708,
+   "wind_speed_100m": 18.01,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-05T10:00",
@@ -5413,7 +6393,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8898,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9708
+   "curve": 0.9708,
+   "wind_speed_100m": 17.58,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-05T11:00",
@@ -5424,7 +6406,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9089,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 16.62,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-05T12:00",
@@ -5435,7 +6419,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9418,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9685
+   "curve": 0.9685,
+   "wind_speed_100m": 13.45,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-05T13:00",
@@ -5446,7 +6432,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8966,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.93
+   "curve": 0.93,
+   "wind_speed_100m": 12.13,
+   "wind_direction_100m": 74.0
   },
   {
    "time": "2026-02-05T14:00",
@@ -5457,7 +6445,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8627,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9058
+   "curve": 0.9058,
+   "wind_speed_100m": 11.08,
+   "wind_direction_100m": 75.0
   },
   {
    "time": "2026-02-05T15:00",
@@ -5468,7 +6458,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8516,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8882
+   "curve": 0.8882,
+   "wind_speed_100m": 10.84,
+   "wind_direction_100m": 75.0
   },
   {
    "time": "2026-02-05T16:00",
@@ -5479,7 +6471,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.846,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8867
+   "curve": 0.8867,
+   "wind_speed_100m": 10.57,
+   "wind_direction_100m": 77.0
   },
   {
    "time": "2026-02-05T17:00",
@@ -5490,7 +6484,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.825,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8867
+   "curve": 0.8867,
+   "wind_speed_100m": 10.44,
+   "wind_direction_100m": 73.0
   },
   {
    "time": "2026-02-05T18:00",
@@ -5501,7 +6497,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8357,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8682
+   "curve": 0.8682,
+   "wind_speed_100m": 10.04,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-05T19:00",
@@ -5512,7 +6510,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8163,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8593
+   "curve": 0.8593,
+   "wind_speed_100m": 9.91,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-05T20:00",
@@ -5523,7 +6523,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.782,
    "p90": 0.9999,
    "actual": null,
-   "curve": 0.8517
+   "curve": 0.8517,
+   "wind_speed_100m": 9.57,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-05T21:00",
@@ -5534,7 +6536,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7326,
    "p90": 0.9802,
    "actual": null,
-   "curve": 0.8517
+   "curve": 0.8517,
+   "wind_speed_100m": 9.3,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-05T22:00",
@@ -5545,7 +6549,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5878,
    "p90": 0.9176,
    "actual": null,
-   "curve": 0.7227
+   "curve": 0.7227,
+   "wind_speed_100m": 8.92,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-05T23:00",
@@ -5556,7 +6562,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.46,
    "p90": 0.7914,
    "actual": null,
-   "curve": 0.5679
+   "curve": 0.5679,
+   "wind_speed_100m": 7.72,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-06T00:00",
@@ -5567,7 +6575,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0165,
    "p90": 0.3713,
    "actual": null,
-   "curve": 0.0902
+   "curve": 0.0902,
+   "wind_speed_100m": 3.75,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-06T01:00",
@@ -5578,7 +6588,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.3292,
    "actual": null,
-   "curve": 0.0183
+   "curve": 0.0183,
+   "wind_speed_100m": 1.18,
+   "wind_direction_100m": 204.0
   },
   {
    "time": "2026-02-06T02:00",
@@ -5589,7 +6601,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2975,
    "actual": null,
-   "curve": 0.101
+   "curve": 0.101,
+   "wind_speed_100m": 4.23,
+   "wind_direction_100m": 257.0
   },
   {
    "time": "2026-02-06T03:00",
@@ -5600,7 +6614,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1312,
    "p90": 0.5309,
    "actual": null,
-   "curve": 0.3382
+   "curve": 0.3382,
+   "wind_speed_100m": 6.42,
+   "wind_direction_100m": 258.0
   },
   {
    "time": "2026-02-06T04:00",
@@ -5611,7 +6627,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1986,
    "p90": 0.6791,
    "actual": null,
-   "curve": 0.3334
+   "curve": 0.3334,
+   "wind_speed_100m": 6.42,
+   "wind_direction_100m": 254.0
   },
   {
    "time": "2026-02-06T05:00",
@@ -5622,7 +6640,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3948,
    "p90": 0.8561,
    "actual": null,
-   "curve": 0.575
+   "curve": 0.575,
+   "wind_speed_100m": 7.78,
+   "wind_direction_100m": 253.0
   },
   {
    "time": "2026-02-06T06:00",
@@ -5633,7 +6653,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5592,
    "p90": 0.9881,
    "actual": null,
-   "curve": 0.9692
+   "curve": 0.9692,
+   "wind_speed_100m": 14.28,
+   "wind_direction_100m": 259.0
   },
   {
    "time": "2026-02-06T07:00",
@@ -5644,7 +6666,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7435,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 14.5,
+   "wind_direction_100m": 257.0
   },
   {
    "time": "2026-02-06T08:00",
@@ -5655,7 +6679,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6934,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 15.83,
+   "wind_direction_100m": 252.0
   },
   {
    "time": "2026-02-06T09:00",
@@ -5666,7 +6692,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8921,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 15.9,
+   "wind_direction_100m": 253.0
   },
   {
    "time": "2026-02-06T10:00",
@@ -5677,7 +6705,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9527,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 16.3,
+   "wind_direction_100m": 251.0
   },
   {
    "time": "2026-02-06T11:00",
@@ -5688,7 +6718,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9667,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 16.79,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-06T12:00",
@@ -5699,7 +6731,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9351,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 16.78,
+   "wind_direction_100m": 249.0
   },
   {
    "time": "2026-02-06T13:00",
@@ -5710,7 +6744,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9377,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 16.67,
+   "wind_direction_100m": 251.0
   },
   {
    "time": "2026-02-06T14:00",
@@ -5721,7 +6757,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9262,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 15.31,
+   "wind_direction_100m": 250.0
   },
   {
    "time": "2026-02-06T15:00",
@@ -5732,7 +6770,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9428,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 14.85,
+   "wind_direction_100m": 247.0
   },
   {
    "time": "2026-02-06T16:00",
@@ -5743,7 +6783,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9485,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9679
+   "curve": 0.9679,
+   "wind_speed_100m": 13.98,
+   "wind_direction_100m": 250.0
   },
   {
    "time": "2026-02-06T17:00",
@@ -5754,7 +6796,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.934,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9675
+   "curve": 0.9675,
+   "wind_speed_100m": 13.91,
+   "wind_direction_100m": 251.0
   },
   {
    "time": "2026-02-06T18:00",
@@ -5765,7 +6809,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8324,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8859
+   "curve": 0.8859,
+   "wind_speed_100m": 10.68,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-06T19:00",
@@ -5776,7 +6822,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.762,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8504
+   "curve": 0.8504,
+   "wind_speed_100m": 10.02,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-06T20:00",
@@ -5787,7 +6835,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7121,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.7002
+   "curve": 0.7002,
+   "wind_speed_100m": 8.9,
+   "wind_direction_100m": 249.0
   },
   {
    "time": "2026-02-06T21:00",
@@ -5798,7 +6848,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6853,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.67
+   "curve": 0.67,
+   "wind_speed_100m": 8.7,
+   "wind_direction_100m": 256.0
   },
   {
    "time": "2026-02-06T22:00",
@@ -5809,7 +6861,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.62,
    "p90": 0.9772,
    "actual": null,
-   "curve": 0.6379
+   "curve": 0.6379,
+   "wind_speed_100m": 8.31,
+   "wind_direction_100m": 262.0
   },
   {
    "time": "2026-02-06T23:00",
@@ -5820,7 +6874,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5423,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.6389
+   "curve": 0.6389,
+   "wind_speed_100m": 8.32,
+   "wind_direction_100m": 258.0
   },
   {
    "time": "2026-02-06T00:00",
@@ -5831,7 +6887,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2073,
    "actual": null,
-   "curve": 0.036
+   "curve": 0.036,
+   "wind_speed_100m": 2.58,
+   "wind_direction_100m": 99.0
   },
   {
    "time": "2026-02-06T01:00",
@@ -5842,7 +6900,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0268,
    "p90": 0.2131,
    "actual": null,
-   "curve": 0.0128
+   "curve": 0.0128,
+   "wind_speed_100m": 1.53,
+   "wind_direction_100m": 130.0
   },
   {
    "time": "2026-02-06T02:00",
@@ -5853,7 +6913,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.1398,
    "actual": null,
-   "curve": 0.01
+   "curve": 0.01,
+   "wind_speed_100m": 1.24,
+   "wind_direction_100m": 252.0
   },
   {
    "time": "2026-02-06T03:00",
@@ -5864,7 +6926,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2223,
    "actual": null,
-   "curve": 0.1119
+   "curve": 0.1119,
+   "wind_speed_100m": 4.04,
+   "wind_direction_100m": 256.0
   },
   {
    "time": "2026-02-06T04:00",
@@ -5875,7 +6939,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0577,
    "p90": 0.4314,
    "actual": null,
-   "curve": 0.1437
+   "curve": 0.1437,
+   "wind_speed_100m": 4.62,
+   "wind_direction_100m": 249.0
   },
   {
    "time": "2026-02-06T05:00",
@@ -5886,7 +6952,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1756,
    "p90": 0.6853,
    "actual": null,
-   "curve": 0.3162
+   "curve": 0.3162,
+   "wind_speed_100m": 6.01,
+   "wind_direction_100m": 251.0
   },
   {
    "time": "2026-02-06T06:00",
@@ -5897,7 +6965,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4221,
    "p90": 0.8889,
    "actual": null,
-   "curve": 0.9064
+   "curve": 0.9064,
+   "wind_speed_100m": 10.3,
+   "wind_direction_100m": 258.0
   },
   {
    "time": "2026-02-06T07:00",
@@ -5908,7 +6978,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6192,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.986
+   "curve": 0.986,
+   "wind_speed_100m": 14.03,
+   "wind_direction_100m": 260.0
   },
   {
    "time": "2026-02-06T08:00",
@@ -5919,7 +6991,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6842,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 15.94,
+   "wind_direction_100m": 256.0
   },
   {
    "time": "2026-02-06T09:00",
@@ -5930,7 +7004,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8638,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 16.3,
+   "wind_direction_100m": 255.0
   },
   {
    "time": "2026-02-06T10:00",
@@ -5941,7 +7017,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9216,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 15.77,
+   "wind_direction_100m": 253.0
   },
   {
    "time": "2026-02-06T11:00",
@@ -5952,7 +7030,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9611,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 16.42,
+   "wind_direction_100m": 250.0
   },
   {
    "time": "2026-02-06T12:00",
@@ -5963,7 +7043,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9528,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 17.43,
+   "wind_direction_100m": 249.0
   },
   {
    "time": "2026-02-06T13:00",
@@ -5974,7 +7056,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9492,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 17.63,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-06T14:00",
@@ -5985,7 +7069,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9697,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 17.22,
+   "wind_direction_100m": 245.0
   },
   {
    "time": "2026-02-06T15:00",
@@ -5996,7 +7082,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9434,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 15.83,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-06T16:00",
@@ -6007,7 +7095,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9449,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9814
+   "curve": 0.9814,
+   "wind_speed_100m": 13.42,
+   "wind_direction_100m": 252.0
   },
   {
    "time": "2026-02-06T17:00",
@@ -6018,7 +7108,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9431,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9708
+   "curve": 0.9708,
+   "wind_speed_100m": 13.04,
+   "wind_direction_100m": 251.0
   },
   {
    "time": "2026-02-06T18:00",
@@ -6029,7 +7121,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9087,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9396
+   "curve": 0.9396,
+   "wind_speed_100m": 12.4,
+   "wind_direction_100m": 244.0
   },
   {
    "time": "2026-02-06T19:00",
@@ -6040,7 +7134,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8974,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9191
+   "curve": 0.9191,
+   "wind_speed_100m": 11.7,
+   "wind_direction_100m": 244.0
   },
   {
    "time": "2026-02-06T20:00",
@@ -6051,7 +7147,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8145,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9106
+   "curve": 0.9106,
+   "wind_speed_100m": 10.94,
+   "wind_direction_100m": 250.0
   },
   {
    "time": "2026-02-06T21:00",
@@ -6062,7 +7160,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7395,
    "p90": 0.9972,
    "actual": null,
-   "curve": 0.91
+   "curve": 0.91,
+   "wind_speed_100m": 10.29,
+   "wind_direction_100m": 252.0
   },
   {
    "time": "2026-02-06T22:00",
@@ -6073,7 +7173,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6116,
    "p90": 0.9167,
    "actual": null,
-   "curve": 0.8533
+   "curve": 0.8533,
+   "wind_speed_100m": 9.49,
+   "wind_direction_100m": 254.0
   },
   {
    "time": "2026-02-06T23:00",
@@ -6084,7 +7186,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.477,
    "p90": 0.8957,
    "actual": null,
-   "curve": 0.8533
+   "curve": 0.8533,
+   "wind_speed_100m": 9.62,
+   "wind_direction_100m": 255.0
   },
   {
    "time": "2026-02-07T00:00",
@@ -6095,7 +7199,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1422,
    "p90": 0.6966,
    "actual": null,
-   "curve": 0.4063
+   "curve": 0.4063,
+   "wind_speed_100m": 6.63,
+   "wind_direction_100m": 254.0
   },
   {
    "time": "2026-02-07T01:00",
@@ -6106,7 +7212,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0384,
    "p90": 0.5571,
    "actual": null,
-   "curve": 0.2156
+   "curve": 0.2156,
+   "wind_speed_100m": 5.25,
+   "wind_direction_100m": 237.0
   },
   {
    "time": "2026-02-07T02:00",
@@ -6117,7 +7225,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0292,
    "p90": 0.4478,
    "actual": null,
-   "curve": 0.1011
+   "curve": 0.1011,
+   "wind_speed_100m": 4.02,
+   "wind_direction_100m": 214.0
   },
   {
    "time": "2026-02-07T03:00",
@@ -6128,7 +7238,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2803,
    "actual": null,
-   "curve": 0.0316
+   "curve": 0.0316,
+   "wind_speed_100m": 2.19,
+   "wind_direction_100m": 170.0
   },
   {
    "time": "2026-02-07T04:00",
@@ -6139,7 +7251,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.4034,
    "actual": null,
-   "curve": 0.0393
+   "curve": 0.0393,
+   "wind_speed_100m": 2.58,
+   "wind_direction_100m": 81.0
   },
   {
    "time": "2026-02-07T05:00",
@@ -6150,7 +7264,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0251,
    "p90": 0.6095,
    "actual": null,
-   "curve": 0.1642
+   "curve": 0.1642,
+   "wind_speed_100m": 4.79,
+   "wind_direction_100m": 49.0
   },
   {
    "time": "2026-02-07T06:00",
@@ -6161,7 +7277,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1509,
    "p90": 0.8001,
    "actual": null,
-   "curve": 0.0998
+   "curve": 0.0998,
+   "wind_speed_100m": 3.96,
+   "wind_direction_100m": 50.0
   },
   {
    "time": "2026-02-07T07:00",
@@ -6172,7 +7290,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0926,
    "p90": 0.6553,
    "actual": null,
-   "curve": 0.1039
+   "curve": 0.1039,
+   "wind_speed_100m": 4.21,
+   "wind_direction_100m": 54.0
   },
   {
    "time": "2026-02-07T08:00",
@@ -6183,7 +7303,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1268,
    "p90": 0.6401,
    "actual": null,
-   "curve": 0.103
+   "curve": 0.103,
+   "wind_speed_100m": 4.16,
+   "wind_direction_100m": 63.0
   },
   {
    "time": "2026-02-07T09:00",
@@ -6194,7 +7316,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1068,
    "p90": 0.6185,
    "actual": null,
-   "curve": 0.0855
+   "curve": 0.0855,
+   "wind_speed_100m": 3.64,
+   "wind_direction_100m": 63.0
   },
   {
    "time": "2026-02-07T10:00",
@@ -6205,7 +7329,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0962,
    "p90": 0.5646,
    "actual": null,
-   "curve": 0.0529
+   "curve": 0.0529,
+   "wind_speed_100m": 3.18,
+   "wind_direction_100m": 56.0
   },
   {
    "time": "2026-02-07T11:00",
@@ -6216,7 +7342,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0873,
    "p90": 0.4659,
    "actual": null,
-   "curve": 0.0483
+   "curve": 0.0483,
+   "wind_speed_100m": 2.98,
+   "wind_direction_100m": 63.0
   },
   {
    "time": "2026-02-07T12:00",
@@ -6227,7 +7355,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0944,
    "p90": 0.5827,
    "actual": null,
-   "curve": 0.0229
+   "curve": 0.0229,
+   "wind_speed_100m": 1.39,
+   "wind_direction_100m": 315.0
   },
   {
    "time": "2026-02-07T13:00",
@@ -6238,7 +7368,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0903,
    "p90": 0.5118,
    "actual": null,
-   "curve": 0.1485
+   "curve": 0.1485,
+   "wind_speed_100m": 4.64,
+   "wind_direction_100m": 263.0
   },
   {
    "time": "2026-02-07T14:00",
@@ -6249,7 +7381,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.279,
    "p90": 0.7489,
    "actual": null,
-   "curve": 0.8143
+   "curve": 0.8143,
+   "wind_speed_100m": 9.58,
+   "wind_direction_100m": 254.0
   },
   {
    "time": "2026-02-07T15:00",
@@ -6260,7 +7394,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3218,
    "p90": 0.8753,
    "actual": null,
-   "curve": 0.8961
+   "curve": 0.8961,
+   "wind_speed_100m": 10.91,
+   "wind_direction_100m": 251.0
   },
   {
    "time": "2026-02-07T16:00",
@@ -6271,7 +7407,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4588,
    "p90": 0.9528,
    "actual": null,
-   "curve": 0.9053
+   "curve": 0.9053,
+   "wind_speed_100m": 11.06,
+   "wind_direction_100m": 253.0
   },
   {
    "time": "2026-02-07T17:00",
@@ -6282,7 +7420,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3896,
    "p90": 0.9441,
    "actual": null,
-   "curve": 0.8745
+   "curve": 0.8745,
+   "wind_speed_100m": 10.16,
+   "wind_direction_100m": 253.0
   },
   {
    "time": "2026-02-07T18:00",
@@ -6293,7 +7433,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.396,
    "p90": 0.9564,
    "actual": null,
-   "curve": 0.8358
+   "curve": 0.8358,
+   "wind_speed_100m": 9.73,
+   "wind_direction_100m": 251.0
   },
   {
    "time": "2026-02-07T19:00",
@@ -6304,7 +7446,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4722,
    "p90": 0.9482,
    "actual": null,
-   "curve": 0.8292
+   "curve": 0.8292,
+   "wind_speed_100m": 9.68,
+   "wind_direction_100m": 259.0
   },
   {
    "time": "2026-02-07T20:00",
@@ -6315,7 +7459,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5447,
    "p90": 0.9633,
    "actual": null,
-   "curve": 0.8742
+   "curve": 0.8742,
+   "wind_speed_100m": 10.15,
+   "wind_direction_100m": 260.0
   },
   {
    "time": "2026-02-07T21:00",
@@ -6326,7 +7472,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6364,
    "p90": 0.9906,
    "actual": null,
-   "curve": 0.8838
+   "curve": 0.8838,
+   "wind_speed_100m": 10.39,
+   "wind_direction_100m": 254.0
   },
   {
    "time": "2026-02-07T22:00",
@@ -6337,7 +7485,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6853,
    "p90": 0.9972,
    "actual": null,
-   "curve": 0.8844
+   "curve": 0.8844,
+   "wind_speed_100m": 10.47,
+   "wind_direction_100m": 253.0
   },
   {
    "time": "2026-02-07T23:00",
@@ -6348,7 +7498,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7078,
    "p90": 0.9926,
    "actual": null,
-   "curve": 0.881
+   "curve": 0.881,
+   "wind_speed_100m": 10.22,
+   "wind_direction_100m": 252.0
   },
   {
    "time": "2026-02-06T00:00",
@@ -6359,7 +7511,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2115,
    "actual": null,
-   "curve": 0.0346
+   "curve": 0.0346,
+   "wind_speed_100m": 2.58,
+   "wind_direction_100m": 99.0
   },
   {
    "time": "2026-02-06T01:00",
@@ -6370,7 +7524,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.032,
    "p90": 0.2121,
    "actual": null,
-   "curve": 0.012
+   "curve": 0.012,
+   "wind_speed_100m": 1.53,
+   "wind_direction_100m": 130.0
   },
   {
    "time": "2026-02-06T02:00",
@@ -6381,7 +7537,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.1437,
    "actual": null,
-   "curve": 0.0083
+   "curve": 0.0083,
+   "wind_speed_100m": 1.24,
+   "wind_direction_100m": 252.0
   },
   {
    "time": "2026-02-06T03:00",
@@ -6392,7 +7550,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2174,
    "actual": null,
-   "curve": 0.1015
+   "curve": 0.1015,
+   "wind_speed_100m": 4.04,
+   "wind_direction_100m": 256.0
   },
   {
    "time": "2026-02-06T04:00",
@@ -6403,7 +7563,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0548,
    "p90": 0.4283,
    "actual": null,
-   "curve": 0.135
+   "curve": 0.135,
+   "wind_speed_100m": 4.62,
+   "wind_direction_100m": 249.0
   },
   {
    "time": "2026-02-06T05:00",
@@ -6414,7 +7576,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1663,
    "p90": 0.6825,
    "actual": null,
-   "curve": 0.2973
+   "curve": 0.2973,
+   "wind_speed_100m": 6.01,
+   "wind_direction_100m": 251.0
   },
   {
    "time": "2026-02-06T06:00",
@@ -6425,7 +7589,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4118,
    "p90": 0.8931,
    "actual": null,
-   "curve": 0.8845
+   "curve": 0.8845,
+   "wind_speed_100m": 10.3,
+   "wind_direction_100m": 258.0
   },
   {
    "time": "2026-02-06T07:00",
@@ -6436,7 +7602,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6254,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 14.03,
+   "wind_direction_100m": 260.0
   },
   {
    "time": "2026-02-06T08:00",
@@ -6447,7 +7615,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7072,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 15.94,
+   "wind_direction_100m": 256.0
   },
   {
    "time": "2026-02-06T09:00",
@@ -6458,7 +7628,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8514,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 16.3,
+   "wind_direction_100m": 255.0
   },
   {
    "time": "2026-02-06T10:00",
@@ -6469,7 +7641,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9071,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 15.77,
+   "wind_direction_100m": 253.0
   },
   {
    "time": "2026-02-06T11:00",
@@ -6480,7 +7654,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9375,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 16.42,
+   "wind_direction_100m": 250.0
   },
   {
    "time": "2026-02-06T12:00",
@@ -6491,7 +7667,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9299,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9708
+   "curve": 0.9708,
+   "wind_speed_100m": 17.43,
+   "wind_direction_100m": 249.0
   },
   {
    "time": "2026-02-06T13:00",
@@ -6502,7 +7680,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9263,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9708
+   "curve": 0.9708,
+   "wind_speed_100m": 17.63,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-06T14:00",
@@ -6513,7 +7693,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9641,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9707
+   "curve": 0.9707,
+   "wind_speed_100m": 17.22,
+   "wind_direction_100m": 245.0
   },
   {
    "time": "2026-02-06T15:00",
@@ -6524,7 +7706,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9196,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 15.83,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-06T16:00",
@@ -6535,7 +7719,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9286,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9688
+   "curve": 0.9688,
+   "wind_speed_100m": 13.42,
+   "wind_direction_100m": 252.0
   },
   {
    "time": "2026-02-06T17:00",
@@ -6546,7 +7732,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9262,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9579
+   "curve": 0.9579,
+   "wind_speed_100m": 13.04,
+   "wind_direction_100m": 251.0
   },
   {
    "time": "2026-02-06T18:00",
@@ -6557,7 +7745,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8994,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9344
+   "curve": 0.9344,
+   "wind_speed_100m": 12.4,
+   "wind_direction_100m": 244.0
   },
   {
    "time": "2026-02-06T19:00",
@@ -6568,7 +7758,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9142,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9294
+   "curve": 0.9294,
+   "wind_speed_100m": 11.7,
+   "wind_direction_100m": 244.0
   },
   {
    "time": "2026-02-06T20:00",
@@ -6579,7 +7771,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8366,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9009
+   "curve": 0.9009,
+   "wind_speed_100m": 10.94,
+   "wind_direction_100m": 250.0
   },
   {
    "time": "2026-02-06T21:00",
@@ -6590,7 +7784,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7117,
    "p90": 0.9853,
    "actual": null,
-   "curve": 0.8867
+   "curve": 0.8867,
+   "wind_speed_100m": 10.29,
+   "wind_direction_100m": 252.0
   },
   {
    "time": "2026-02-06T22:00",
@@ -6601,7 +7797,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6416,
    "p90": 0.9458,
    "actual": null,
-   "curve": 0.8517
+   "curve": 0.8517,
+   "wind_speed_100m": 9.49,
+   "wind_direction_100m": 254.0
   },
   {
    "time": "2026-02-06T23:00",
@@ -6612,7 +7810,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4979,
    "p90": 0.9249,
    "actual": null,
-   "curve": 0.8517
+   "curve": 0.8517,
+   "wind_speed_100m": 9.62,
+   "wind_direction_100m": 255.0
   },
   {
    "time": "2026-02-07T00:00",
@@ -6623,7 +7823,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.146,
    "p90": 0.6876,
    "actual": null,
-   "curve": 0.3936
+   "curve": 0.3936,
+   "wind_speed_100m": 6.63,
+   "wind_direction_100m": 254.0
   },
   {
    "time": "2026-02-07T01:00",
@@ -6634,7 +7836,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0295,
    "p90": 0.5501,
    "actual": null,
-   "curve": 0.2048
+   "curve": 0.2048,
+   "wind_speed_100m": 5.25,
+   "wind_direction_100m": 237.0
   },
   {
    "time": "2026-02-07T02:00",
@@ -6645,7 +7849,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.029,
    "p90": 0.4475,
    "actual": null,
-   "curve": 0.097
+   "curve": 0.097,
+   "wind_speed_100m": 4.02,
+   "wind_direction_100m": 214.0
   },
   {
    "time": "2026-02-07T03:00",
@@ -6656,7 +7862,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2834,
    "actual": null,
-   "curve": 0.0308
+   "curve": 0.0308,
+   "wind_speed_100m": 2.19,
+   "wind_direction_100m": 170.0
   },
   {
    "time": "2026-02-07T04:00",
@@ -6667,7 +7875,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.4048,
    "actual": null,
-   "curve": 0.0368
+   "curve": 0.0368,
+   "wind_speed_100m": 2.58,
+   "wind_direction_100m": 81.0
   },
   {
    "time": "2026-02-07T05:00",
@@ -6678,7 +7888,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0249,
    "p90": 0.6064,
    "actual": null,
-   "curve": 0.1573
+   "curve": 0.1573,
+   "wind_speed_100m": 4.79,
+   "wind_direction_100m": 49.0
   },
   {
    "time": "2026-02-07T06:00",
@@ -6689,7 +7901,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1536,
    "p90": 0.7996,
    "actual": null,
-   "curve": 0.0955
+   "curve": 0.0955,
+   "wind_speed_100m": 3.96,
+   "wind_direction_100m": 50.0
   },
   {
    "time": "2026-02-07T07:00",
@@ -6700,7 +7914,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0957,
    "p90": 0.6556,
    "actual": null,
-   "curve": 0.1004
+   "curve": 0.1004,
+   "wind_speed_100m": 4.21,
+   "wind_direction_100m": 54.0
   },
   {
    "time": "2026-02-07T08:00",
@@ -6711,7 +7927,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1301,
    "p90": 0.6402,
    "actual": null,
-   "curve": 0.0993
+   "curve": 0.0993,
+   "wind_speed_100m": 4.16,
+   "wind_direction_100m": 63.0
   },
   {
    "time": "2026-02-07T09:00",
@@ -6722,7 +7940,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1077,
    "p90": 0.6173,
    "actual": null,
-   "curve": 0.0805
+   "curve": 0.0805,
+   "wind_speed_100m": 3.64,
+   "wind_direction_100m": 63.0
   },
   {
    "time": "2026-02-07T10:00",
@@ -6733,7 +7953,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0984,
    "p90": 0.582,
    "actual": null,
-   "curve": 0.0482
+   "curve": 0.0482,
+   "wind_speed_100m": 3.18,
+   "wind_direction_100m": 56.0
   },
   {
    "time": "2026-02-07T11:00",
@@ -6744,7 +7966,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0865,
    "p90": 0.4657,
    "actual": null,
-   "curve": 0.0443
+   "curve": 0.0443,
+   "wind_speed_100m": 2.98,
+   "wind_direction_100m": 63.0
   },
   {
    "time": "2026-02-07T12:00",
@@ -6755,7 +7979,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0991,
    "p90": 0.5853,
    "actual": null,
-   "curve": 0.0217
+   "curve": 0.0217,
+   "wind_speed_100m": 1.39,
+   "wind_direction_100m": 315.0
   },
   {
    "time": "2026-02-07T13:00",
@@ -6766,7 +7992,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0966,
    "p90": 0.5098,
    "actual": null,
-   "curve": 0.1426
+   "curve": 0.1426,
+   "wind_speed_100m": 4.64,
+   "wind_direction_100m": 263.0
   },
   {
    "time": "2026-02-07T14:00",
@@ -6777,7 +8005,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2889,
    "p90": 0.7772,
    "actual": null,
-   "curve": 0.8145
+   "curve": 0.8145,
+   "wind_speed_100m": 9.58,
+   "wind_direction_100m": 254.0
   },
   {
    "time": "2026-02-07T15:00",
@@ -6788,7 +8018,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3385,
    "p90": 0.898,
    "actual": null,
-   "curve": 0.9011
+   "curve": 0.9011,
+   "wind_speed_100m": 10.91,
+   "wind_direction_100m": 251.0
   },
   {
    "time": "2026-02-07T16:00",
@@ -6799,7 +8031,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4723,
    "p90": 0.9541,
    "actual": null,
-   "curve": 0.9103
+   "curve": 0.9103,
+   "wind_speed_100m": 11.06,
+   "wind_direction_100m": 253.0
   },
   {
    "time": "2026-02-07T17:00",
@@ -6810,7 +8044,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.389,
    "p90": 0.9652,
    "actual": null,
-   "curve": 0.8571
+   "curve": 0.8571,
+   "wind_speed_100m": 10.16,
+   "wind_direction_100m": 253.0
   },
   {
    "time": "2026-02-07T18:00",
@@ -6821,7 +8057,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4092,
    "p90": 0.9765,
    "actual": null,
-   "curve": 0.8373
+   "curve": 0.8373,
+   "wind_speed_100m": 9.73,
+   "wind_direction_100m": 251.0
   },
   {
    "time": "2026-02-07T19:00",
@@ -6832,7 +8070,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.476,
    "p90": 0.9662,
    "actual": null,
-   "curve": 0.8303
+   "curve": 0.8303,
+   "wind_speed_100m": 9.68,
+   "wind_direction_100m": 259.0
   },
   {
    "time": "2026-02-07T20:00",
@@ -6843,7 +8083,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5412,
    "p90": 0.9731,
    "actual": null,
-   "curve": 0.8569
+   "curve": 0.8569,
+   "wind_speed_100m": 10.15,
+   "wind_direction_100m": 260.0
   },
   {
    "time": "2026-02-07T21:00",
@@ -6854,7 +8096,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6317,
    "p90": 0.9757,
    "actual": null,
-   "curve": 0.8701
+   "curve": 0.8701,
+   "wind_speed_100m": 10.39,
+   "wind_direction_100m": 254.0
   },
   {
    "time": "2026-02-07T22:00",
@@ -6865,7 +8109,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6849,
    "p90": 0.9856,
    "actual": null,
-   "curve": 0.8751
+   "curve": 0.8751,
+   "wind_speed_100m": 10.47,
+   "wind_direction_100m": 253.0
   },
   {
    "time": "2026-02-07T23:00",
@@ -6876,7 +8122,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6981,
    "p90": 0.9799,
    "actual": null,
-   "curve": 0.8601
+   "curve": 0.8601,
+   "wind_speed_100m": 10.22,
+   "wind_direction_100m": 252.0
   },
   {
    "time": "2026-02-07T00:00",
@@ -6887,7 +8135,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1567,
    "p90": 0.6624,
    "actual": null,
-   "curve": 0.4042
+   "curve": 0.4042,
+   "wind_speed_100m": 6.51,
+   "wind_direction_100m": 249.0
   },
   {
    "time": "2026-02-07T01:00",
@@ -6898,7 +8148,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0733,
    "p90": 0.5363,
    "actual": null,
-   "curve": 0.2376
+   "curve": 0.2376,
+   "wind_speed_100m": 5.3,
+   "wind_direction_100m": 251.0
   },
   {
    "time": "2026-02-07T02:00",
@@ -6909,7 +8161,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2255,
    "actual": null,
-   "curve": 0.0643
+   "curve": 0.0643,
+   "wind_speed_100m": 3.33,
+   "wind_direction_100m": 223.0
   },
   {
    "time": "2026-02-07T03:00",
@@ -6920,7 +8174,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.1276,
    "actual": null,
-   "curve": 0.0139
+   "curve": 0.0139,
+   "wind_speed_100m": 1.64,
+   "wind_direction_100m": 197.0
   },
   {
    "time": "2026-02-07T04:00",
@@ -6931,7 +8187,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2622,
    "actual": null,
-   "curve": 0.0184
+   "curve": 0.0184,
+   "wind_speed_100m": 1.98,
+   "wind_direction_100m": 81.0
   },
   {
    "time": "2026-02-07T05:00",
@@ -6942,7 +8200,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0271,
    "p90": 0.5088,
    "actual": null,
-   "curve": 0.1506
+   "curve": 0.1506,
+   "wind_speed_100m": 4.74,
+   "wind_direction_100m": 60.0
   },
   {
    "time": "2026-02-07T06:00",
@@ -6953,7 +8213,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1373,
    "p90": 0.7303,
    "actual": null,
-   "curve": 0.1827
+   "curve": 0.1827,
+   "wind_speed_100m": 4.96,
+   "wind_direction_100m": 52.0
   },
   {
    "time": "2026-02-07T07:00",
@@ -6964,7 +8226,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2209,
    "p90": 0.7889,
    "actual": null,
-   "curve": 0.2437
+   "curve": 0.2437,
+   "wind_speed_100m": 5.41,
+   "wind_direction_100m": 55.0
   },
   {
    "time": "2026-02-07T08:00",
@@ -6975,7 +8239,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2439,
    "p90": 0.7353,
    "actual": null,
-   "curve": 0.2002
+   "curve": 0.2002,
+   "wind_speed_100m": 5.08,
+   "wind_direction_100m": 62.0
   },
   {
    "time": "2026-02-07T09:00",
@@ -6986,7 +8252,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1281,
    "p90": 0.5862,
    "actual": null,
-   "curve": 0.1157
+   "curve": 0.1157,
+   "wind_speed_100m": 4.12,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-07T10:00",
@@ -6997,7 +8265,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1185,
    "p90": 0.5689,
    "actual": null,
-   "curve": 0.0459
+   "curve": 0.0459,
+   "wind_speed_100m": 2.85,
+   "wind_direction_100m": 49.0
   },
   {
    "time": "2026-02-07T11:00",
@@ -7008,7 +8278,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2082,
    "p90": 0.5782,
    "actual": null,
-   "curve": 0.0165
+   "curve": 0.0165,
+   "wind_speed_100m": 1.86,
+   "wind_direction_100m": 360.0
   },
   {
    "time": "2026-02-07T12:00",
@@ -7019,7 +8291,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1282,
    "p90": 0.4833,
    "actual": null,
-   "curve": 0.2516
+   "curve": 0.2516,
+   "wind_speed_100m": 5.49,
+   "wind_direction_100m": 270.0
   },
   {
    "time": "2026-02-07T13:00",
@@ -7030,7 +8304,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1435,
    "p90": 0.7781,
    "actual": null,
-   "curve": 0.702
+   "curve": 0.702,
+   "wind_speed_100m": 8.8,
+   "wind_direction_100m": 253.0
   },
   {
    "time": "2026-02-07T14:00",
@@ -7041,7 +8317,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2486,
    "p90": 0.8447,
    "actual": null,
-   "curve": 0.91
+   "curve": 0.91,
+   "wind_speed_100m": 10.27,
+   "wind_direction_100m": 246.0
   },
   {
    "time": "2026-02-07T15:00",
@@ -7052,7 +8330,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4736,
    "p90": 0.9488,
    "actual": null,
-   "curve": 0.9097
+   "curve": 0.9097,
+   "wind_speed_100m": 10.24,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-07T16:00",
@@ -7063,7 +8343,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.569,
    "p90": 0.9997,
    "actual": null,
-   "curve": 0.9182
+   "curve": 0.9182,
+   "wind_speed_100m": 11.63,
+   "wind_direction_100m": 254.0
   },
   {
    "time": "2026-02-07T17:00",
@@ -7074,7 +8356,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7252,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9277
+   "curve": 0.9277,
+   "wind_speed_100m": 12.07,
+   "wind_direction_100m": 259.0
   },
   {
    "time": "2026-02-07T18:00",
@@ -7085,7 +8369,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7869,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9506
+   "curve": 0.9506,
+   "wind_speed_100m": 12.57,
+   "wind_direction_100m": 259.0
   },
   {
    "time": "2026-02-07T19:00",
@@ -7096,7 +8382,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8003,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9206
+   "curve": 0.9206,
+   "wind_speed_100m": 11.76,
+   "wind_direction_100m": 257.0
   },
   {
    "time": "2026-02-07T20:00",
@@ -7107,7 +8395,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7825,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.91
+   "curve": 0.91,
+   "wind_speed_100m": 10.55,
+   "wind_direction_100m": 255.0
   },
   {
    "time": "2026-02-07T21:00",
@@ -7118,7 +8408,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.782,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.91
+   "curve": 0.91,
+   "wind_speed_100m": 10.6,
+   "wind_direction_100m": 251.0
   },
   {
    "time": "2026-02-07T22:00",
@@ -7129,7 +8421,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.795,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9019
+   "curve": 0.9019,
+   "wind_speed_100m": 10.16,
+   "wind_direction_100m": 236.0
   },
   {
    "time": "2026-02-07T23:00",
@@ -7140,7 +8434,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8253,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8533
+   "curve": 0.8533,
+   "wind_speed_100m": 9.27,
+   "wind_direction_100m": 231.0
   },
   {
    "time": "2026-02-08T00:00",
@@ -7151,7 +8447,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5718,
    "p90": 0.9972,
    "actual": null,
-   "curve": 0.8839
+   "curve": 0.8839,
+   "wind_speed_100m": 10.41,
+   "wind_direction_100m": 250.0
   },
   {
    "time": "2026-02-08T01:00",
@@ -7162,7 +8460,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.47,
    "p90": 0.9158,
    "actual": null,
-   "curve": 0.7598
+   "curve": 0.7598,
+   "wind_speed_100m": 9.17,
+   "wind_direction_100m": 247.0
   },
   {
    "time": "2026-02-08T02:00",
@@ -7173,7 +8473,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4131,
    "p90": 0.8914,
    "actual": null,
-   "curve": 0.6392
+   "curve": 0.6392,
+   "wind_speed_100m": 8.37,
+   "wind_direction_100m": 241.0
   },
   {
    "time": "2026-02-08T03:00",
@@ -7184,7 +8486,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3523,
    "p90": 0.8227,
    "actual": null,
-   "curve": 0.5355
+   "curve": 0.5355,
+   "wind_speed_100m": 7.39,
+   "wind_direction_100m": 238.0
   },
   {
    "time": "2026-02-08T04:00",
@@ -7195,7 +8499,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1473,
    "p90": 0.7066,
    "actual": null,
-   "curve": 0.2869
+   "curve": 0.2869,
+   "wind_speed_100m": 6.01,
+   "wind_direction_100m": 236.0
   },
   {
    "time": "2026-02-08T05:00",
@@ -7206,7 +8512,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.074,
    "p90": 0.5849,
    "actual": null,
-   "curve": 0.1768
+   "curve": 0.1768,
+   "wind_speed_100m": 4.89,
+   "wind_direction_100m": 237.0
   },
   {
    "time": "2026-02-08T06:00",
@@ -7217,7 +8525,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0032,
    "p90": 0.2672,
    "actual": null,
-   "curve": 0.0156
+   "curve": 0.0156,
+   "wind_speed_100m": 0.59,
+   "wind_direction_100m": 360.0
   },
   {
    "time": "2026-02-08T07:00",
@@ -7228,7 +8538,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.1582,
    "actual": null,
-   "curve": 0.0191
+   "curve": 0.0191,
+   "wind_speed_100m": 1.12,
+   "wind_direction_100m": 52.0
   },
   {
    "time": "2026-02-08T08:00",
@@ -7239,7 +8551,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2156,
    "actual": null,
-   "curve": 0.0312
+   "curve": 0.0312,
+   "wind_speed_100m": 1.97,
+   "wind_direction_100m": 63.0
   },
   {
    "time": "2026-02-08T09:00",
@@ -7250,7 +8564,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0599,
    "p90": 0.441,
    "actual": null,
-   "curve": 0.0984
+   "curve": 0.0984,
+   "wind_speed_100m": 3.88,
+   "wind_direction_100m": 74.0
   },
   {
    "time": "2026-02-08T10:00",
@@ -7261,7 +8577,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3268,
    "p90": 0.8474,
    "actual": null,
-   "curve": 0.3491
+   "curve": 0.3491,
+   "wind_speed_100m": 6.46,
+   "wind_direction_100m": 80.0
   },
   {
    "time": "2026-02-08T11:00",
@@ -7272,7 +8590,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7588,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.7905
+   "curve": 0.7905,
+   "wind_speed_100m": 9.46,
+   "wind_direction_100m": 77.0
   },
   {
    "time": "2026-02-08T12:00",
@@ -7283,7 +8603,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8804,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9817
+   "curve": 0.9817,
+   "wind_speed_100m": 13.64,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-08T13:00",
@@ -7294,7 +8616,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9705,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9888
+   "curve": 0.9888,
+   "wind_speed_100m": 15.93,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-08T14:00",
@@ -7305,7 +8629,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9705,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 17.45,
+   "wind_direction_100m": 74.0
   },
   {
    "time": "2026-02-08T15:00",
@@ -7316,7 +8642,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9705,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 18.66,
+   "wind_direction_100m": 75.0
   },
   {
    "time": "2026-02-08T16:00",
@@ -7327,7 +8655,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9705,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 19.15,
+   "wind_direction_100m": 76.0
   },
   {
    "time": "2026-02-08T17:00",
@@ -7338,7 +8668,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9705,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 19.53,
+   "wind_direction_100m": 77.0
   },
   {
    "time": "2026-02-08T18:00",
@@ -7349,7 +8681,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9705,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 20.0,
+   "wind_direction_100m": 78.0
   },
   {
    "time": "2026-02-08T19:00",
@@ -7360,7 +8694,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9705,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 20.1,
+   "wind_direction_100m": 78.0
   },
   {
    "time": "2026-02-08T20:00",
@@ -7371,7 +8707,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9705,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 20.08,
+   "wind_direction_100m": 79.0
   },
   {
    "time": "2026-02-08T21:00",
@@ -7382,7 +8720,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9705,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 20.0,
+   "wind_direction_100m": 78.0
   },
   {
    "time": "2026-02-08T22:00",
@@ -7393,7 +8733,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9583,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 19.96,
+   "wind_direction_100m": 76.0
   },
   {
    "time": "2026-02-08T23:00",
@@ -7404,7 +8746,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9442,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 19.61,
+   "wind_direction_100m": 75.0
   },
   {
    "time": "2026-02-07T00:00",
@@ -7415,7 +8759,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1515,
    "p90": 0.6626,
    "actual": null,
-   "curve": 0.3869
+   "curve": 0.3869,
+   "wind_speed_100m": 6.51,
+   "wind_direction_100m": 249.0
   },
   {
    "time": "2026-02-07T01:00",
@@ -7426,7 +8772,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0661,
    "p90": 0.5289,
    "actual": null,
-   "curve": 0.2246
+   "curve": 0.2246,
+   "wind_speed_100m": 5.3,
+   "wind_direction_100m": 251.0
   },
   {
    "time": "2026-02-07T02:00",
@@ -7437,7 +8785,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2258,
    "actual": null,
-   "curve": 0.0591
+   "curve": 0.0591,
+   "wind_speed_100m": 3.33,
+   "wind_direction_100m": 223.0
   },
   {
    "time": "2026-02-07T03:00",
@@ -7448,7 +8798,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.1339,
    "actual": null,
-   "curve": 0.0135
+   "curve": 0.0135,
+   "wind_speed_100m": 1.64,
+   "wind_direction_100m": 197.0
   },
   {
    "time": "2026-02-07T04:00",
@@ -7459,7 +8811,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2673,
    "actual": null,
-   "curve": 0.018
+   "curve": 0.018,
+   "wind_speed_100m": 1.98,
+   "wind_direction_100m": 81.0
   },
   {
    "time": "2026-02-07T05:00",
@@ -7470,7 +8824,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0268,
    "p90": 0.5074,
    "actual": null,
-   "curve": 0.1436
+   "curve": 0.1436,
+   "wind_speed_100m": 4.74,
+   "wind_direction_100m": 60.0
   },
   {
    "time": "2026-02-07T06:00",
@@ -7481,7 +8837,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.135,
    "p90": 0.727,
    "actual": null,
-   "curve": 0.1738
+   "curve": 0.1738,
+   "wind_speed_100m": 4.96,
+   "wind_direction_100m": 52.0
   },
   {
    "time": "2026-02-07T07:00",
@@ -7492,7 +8850,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.214,
    "p90": 0.7809,
    "actual": null,
-   "curve": 0.2301
+   "curve": 0.2301,
+   "wind_speed_100m": 5.41,
+   "wind_direction_100m": 55.0
   },
   {
    "time": "2026-02-07T08:00",
@@ -7503,7 +8863,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2404,
    "p90": 0.7307,
    "actual": null,
-   "curve": 0.1901
+   "curve": 0.1901,
+   "wind_speed_100m": 5.08,
+   "wind_direction_100m": 62.0
   },
   {
    "time": "2026-02-07T09:00",
@@ -7514,7 +8876,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1237,
    "p90": 0.5805,
    "actual": null,
-   "curve": 0.1044
+   "curve": 0.1044,
+   "wind_speed_100m": 4.12,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-07T10:00",
@@ -7525,7 +8889,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1184,
    "p90": 0.5723,
    "actual": null,
-   "curve": 0.0436
+   "curve": 0.0436,
+   "wind_speed_100m": 2.85,
+   "wind_direction_100m": 49.0
   },
   {
    "time": "2026-02-07T11:00",
@@ -7536,7 +8902,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2156,
    "p90": 0.5836,
    "actual": null,
-   "curve": 0.0163
+   "curve": 0.0163,
+   "wind_speed_100m": 1.86,
+   "wind_direction_100m": 360.0
   },
   {
    "time": "2026-02-07T12:00",
@@ -7547,7 +8915,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1249,
    "p90": 0.4744,
    "actual": null,
-   "curve": 0.2372
+   "curve": 0.2372,
+   "wind_speed_100m": 5.49,
+   "wind_direction_100m": 270.0
   },
   {
    "time": "2026-02-07T13:00",
@@ -7558,7 +8928,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1508,
    "p90": 0.7782,
    "actual": null,
-   "curve": 0.6974
+   "curve": 0.6974,
+   "wind_speed_100m": 8.8,
+   "wind_direction_100m": 253.0
   },
   {
    "time": "2026-02-07T14:00",
@@ -7569,7 +8941,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2337,
    "p90": 0.8416,
    "actual": null,
-   "curve": 0.8867
+   "curve": 0.8867,
+   "wind_speed_100m": 10.27,
+   "wind_direction_100m": 246.0
   },
   {
    "time": "2026-02-07T15:00",
@@ -7580,7 +8954,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4597,
    "p90": 0.9484,
    "actual": null,
-   "curve": 0.8865
+   "curve": 0.8865,
+   "wind_speed_100m": 10.24,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-07T16:00",
@@ -7591,7 +8967,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5938,
    "p90": 0.9933,
    "actual": null,
-   "curve": 0.9289
+   "curve": 0.9289,
+   "wind_speed_100m": 11.63,
+   "wind_direction_100m": 254.0
   },
   {
    "time": "2026-02-07T17:00",
@@ -7602,7 +8980,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7364,
    "p90": 0.9922,
    "actual": null,
-   "curve": 0.93
+   "curve": 0.93,
+   "wind_speed_100m": 12.07,
+   "wind_direction_100m": 259.0
   },
   {
    "time": "2026-02-07T18:00",
@@ -7613,7 +8993,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7879,
    "p90": 0.9958,
    "actual": null,
-   "curve": 0.9406
+   "curve": 0.9406,
+   "wind_speed_100m": 12.57,
+   "wind_direction_100m": 259.0
   },
   {
    "time": "2026-02-07T19:00",
@@ -7624,7 +9006,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8094,
    "p90": 0.9987,
    "actual": null,
-   "curve": 0.93
+   "curve": 0.93,
+   "wind_speed_100m": 11.76,
+   "wind_direction_100m": 257.0
   },
   {
    "time": "2026-02-07T20:00",
@@ -7635,7 +9019,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7773,
    "p90": 0.9999,
    "actual": null,
-   "curve": 0.8867
+   "curve": 0.8867,
+   "wind_speed_100m": 10.55,
+   "wind_direction_100m": 255.0
   },
   {
    "time": "2026-02-07T21:00",
@@ -7646,7 +9032,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7759,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8867
+   "curve": 0.8867,
+   "wind_speed_100m": 10.6,
+   "wind_direction_100m": 251.0
   },
   {
    "time": "2026-02-07T22:00",
@@ -7657,7 +9045,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8043,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8817
+   "curve": 0.8817,
+   "wind_speed_100m": 10.16,
+   "wind_direction_100m": 236.0
   },
   {
    "time": "2026-02-07T23:00",
@@ -7668,7 +9058,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8089,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8517
+   "curve": 0.8517,
+   "wind_speed_100m": 9.27,
+   "wind_direction_100m": 231.0
   },
   {
    "time": "2026-02-08T00:00",
@@ -7679,7 +9071,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5663,
    "p90": 0.989,
    "actual": null,
-   "curve": 0.8715
+   "curve": 0.8715,
+   "wind_speed_100m": 10.41,
+   "wind_direction_100m": 250.0
   },
   {
    "time": "2026-02-08T01:00",
@@ -7690,7 +9084,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4721,
    "p90": 0.9116,
    "actual": null,
-   "curve": 0.755
+   "curve": 0.755,
+   "wind_speed_100m": 9.17,
+   "wind_direction_100m": 247.0
   },
   {
    "time": "2026-02-08T02:00",
@@ -7701,7 +9097,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4252,
    "p90": 0.8991,
    "actual": null,
-   "curve": 0.6443
+   "curve": 0.6443,
+   "wind_speed_100m": 8.37,
+   "wind_direction_100m": 241.0
   },
   {
    "time": "2026-02-08T03:00",
@@ -7712,7 +9110,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3469,
    "p90": 0.8149,
    "actual": null,
-   "curve": 0.5232
+   "curve": 0.5232,
+   "wind_speed_100m": 7.39,
+   "wind_direction_100m": 238.0
   },
   {
    "time": "2026-02-08T04:00",
@@ -7723,7 +9123,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1507,
    "p90": 0.7063,
    "actual": null,
-   "curve": 0.2828
+   "curve": 0.2828,
+   "wind_speed_100m": 6.01,
+   "wind_direction_100m": 236.0
   },
   {
    "time": "2026-02-08T05:00",
@@ -7734,7 +9136,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0734,
    "p90": 0.5809,
    "actual": null,
-   "curve": 0.169
+   "curve": 0.169,
+   "wind_speed_100m": 4.89,
+   "wind_direction_100m": 237.0
   },
   {
    "time": "2026-02-08T06:00",
@@ -7745,7 +9149,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0097,
    "p90": 0.2716,
    "actual": null,
-   "curve": 0.0162
+   "curve": 0.0162,
+   "wind_speed_100m": 0.59,
+   "wind_direction_100m": 360.0
   },
   {
    "time": "2026-02-08T07:00",
@@ -7756,7 +9162,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.1629,
    "actual": null,
-   "curve": 0.0183
+   "curve": 0.0183,
+   "wind_speed_100m": 1.12,
+   "wind_direction_100m": 52.0
   },
   {
    "time": "2026-02-08T08:00",
@@ -7767,7 +9175,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2191,
    "actual": null,
-   "curve": 0.0308
+   "curve": 0.0308,
+   "wind_speed_100m": 1.97,
+   "wind_direction_100m": 63.0
   },
   {
    "time": "2026-02-08T09:00",
@@ -7778,7 +9188,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0611,
    "p90": 0.4402,
    "actual": null,
-   "curve": 0.0938
+   "curve": 0.0938,
+   "wind_speed_100m": 3.88,
+   "wind_direction_100m": 74.0
   },
   {
    "time": "2026-02-08T10:00",
@@ -7789,7 +9201,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3309,
    "p90": 0.8438,
    "actual": null,
-   "curve": 0.3417
+   "curve": 0.3417,
+   "wind_speed_100m": 6.46,
+   "wind_direction_100m": 80.0
   },
   {
    "time": "2026-02-08T11:00",
@@ -7800,7 +9214,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7652,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.7893
+   "curve": 0.7893,
+   "wind_speed_100m": 9.46,
+   "wind_direction_100m": 77.0
   },
   {
    "time": "2026-02-08T12:00",
@@ -7811,7 +9227,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8957,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9667
+   "curve": 0.9667,
+   "wind_speed_100m": 13.64,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-08T13:00",
@@ -7822,7 +9240,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9667,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 15.93,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-08T14:00",
@@ -7833,7 +9253,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9667,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 17.45,
+   "wind_direction_100m": 74.0
   },
   {
    "time": "2026-02-08T15:00",
@@ -7844,7 +9266,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9667,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 18.66,
+   "wind_direction_100m": 75.0
   },
   {
    "time": "2026-02-08T16:00",
@@ -7855,7 +9279,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9667,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 19.15,
+   "wind_direction_100m": 76.0
   },
   {
    "time": "2026-02-08T17:00",
@@ -7866,7 +9292,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9667,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 19.53,
+   "wind_direction_100m": 77.0
   },
   {
    "time": "2026-02-08T18:00",
@@ -7877,7 +9305,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9667,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 20.0,
+   "wind_direction_100m": 78.0
   },
   {
    "time": "2026-02-08T19:00",
@@ -7888,7 +9318,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9667,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 20.1,
+   "wind_direction_100m": 78.0
   },
   {
    "time": "2026-02-08T20:00",
@@ -7899,7 +9331,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9667,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 20.08,
+   "wind_direction_100m": 79.0
   },
   {
    "time": "2026-02-08T21:00",
@@ -7910,7 +9344,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9667,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 20.0,
+   "wind_direction_100m": 78.0
   },
   {
    "time": "2026-02-08T22:00",
@@ -7921,7 +9357,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9259,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 19.96,
+   "wind_direction_100m": 76.0
   },
   {
    "time": "2026-02-08T23:00",
@@ -7932,7 +9370,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9117,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 19.61,
+   "wind_direction_100m": 75.0
   },
   {
    "time": "2026-02-08T00:00",
@@ -7943,7 +9383,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7222,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8533
+   "curve": 0.8533,
+   "wind_speed_100m": 9.41,
+   "wind_direction_100m": 239.0
   },
   {
    "time": "2026-02-08T01:00",
@@ -7954,7 +9396,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6514,
    "p90": 0.9576,
    "actual": null,
-   "curve": 0.685
+   "curve": 0.685,
+   "wind_speed_100m": 8.29,
+   "wind_direction_100m": 237.0
   },
   {
    "time": "2026-02-08T02:00",
@@ -7965,7 +9409,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.365,
    "p90": 0.8048,
    "actual": null,
-   "curve": 0.5519
+   "curve": 0.5519,
+   "wind_speed_100m": 7.31,
+   "wind_direction_100m": 238.0
   },
   {
    "time": "2026-02-08T03:00",
@@ -7976,7 +9422,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1869,
    "p90": 0.8058,
    "actual": null,
-   "curve": 0.3623
+   "curve": 0.3623,
+   "wind_speed_100m": 6.19,
+   "wind_direction_100m": 241.0
   },
   {
    "time": "2026-02-08T04:00",
@@ -7987,7 +9435,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0401,
    "p90": 0.5252,
    "actual": null,
-   "curve": 0.1787
+   "curve": 0.1787,
+   "wind_speed_100m": 4.91,
+   "wind_direction_100m": 247.0
   },
   {
    "time": "2026-02-08T05:00",
@@ -7998,7 +9448,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2047,
    "actual": null,
-   "curve": 0.0494
+   "curve": 0.0494,
+   "wind_speed_100m": 2.95,
+   "wind_direction_100m": 255.0
   },
   {
    "time": "2026-02-08T06:00",
@@ -8009,7 +9461,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.0464,
    "actual": null,
-   "curve": 0.0108
+   "curve": 0.0108,
+   "wind_speed_100m": 1.33,
+   "wind_direction_100m": 253.0
   },
   {
    "time": "2026-02-08T07:00",
@@ -8020,7 +9474,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.0501,
    "actual": null,
-   "curve": 0.0052
+   "curve": 0.0052,
+   "wind_speed_100m": 0.39,
+   "wind_direction_100m": 360.0
   },
   {
    "time": "2026-02-08T08:00",
@@ -8031,7 +9487,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2071,
    "actual": null,
-   "curve": 0.0234
+   "curve": 0.0234,
+   "wind_speed_100m": 2.28,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-08T09:00",
@@ -8042,7 +9500,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0937,
    "p90": 0.5595,
    "actual": null,
-   "curve": 0.1419
+   "curve": 0.1419,
+   "wind_speed_100m": 4.59,
+   "wind_direction_100m": 74.0
   },
   {
    "time": "2026-02-08T10:00",
@@ -8053,7 +9513,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4952,
    "p90": 0.9276,
    "actual": null,
-   "curve": 0.5781
+   "curve": 0.5781,
+   "wind_speed_100m": 7.7,
+   "wind_direction_100m": 75.0
   },
   {
    "time": "2026-02-08T11:00",
@@ -8064,7 +9526,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8703,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.911
+   "curve": 0.911,
+   "wind_speed_100m": 11.1,
+   "wind_direction_100m": 74.0
   },
   {
    "time": "2026-02-08T12:00",
@@ -8075,7 +9539,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8944,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9883
+   "curve": 0.9883,
+   "wind_speed_100m": 14.47,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-08T13:00",
@@ -8086,7 +9552,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9697,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 16.83,
+   "wind_direction_100m": 73.0
   },
   {
    "time": "2026-02-08T14:00",
@@ -8097,7 +9565,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9697,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 18.25,
+   "wind_direction_100m": 75.0
   },
   {
    "time": "2026-02-08T15:00",
@@ -8108,7 +9578,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9697,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 18.77,
+   "wind_direction_100m": 76.0
   },
   {
    "time": "2026-02-08T16:00",
@@ -8119,7 +9591,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9697,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 19.56,
+   "wind_direction_100m": 78.0
   },
   {
    "time": "2026-02-08T17:00",
@@ -8130,7 +9604,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9697,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 19.69,
+   "wind_direction_100m": 79.0
   },
   {
    "time": "2026-02-08T18:00",
@@ -8141,7 +9617,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9697,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 19.54,
+   "wind_direction_100m": 78.0
   },
   {
    "time": "2026-02-08T19:00",
@@ -8152,7 +9630,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9697,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 19.89,
+   "wind_direction_100m": 79.0
   },
   {
    "time": "2026-02-08T20:00",
@@ -8163,7 +9643,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9697,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 19.87,
+   "wind_direction_100m": 79.0
   },
   {
    "time": "2026-02-08T21:00",
@@ -8174,7 +9656,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9606,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 19.95,
+   "wind_direction_100m": 78.0
   },
   {
    "time": "2026-02-08T22:00",
@@ -8185,7 +9669,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9481,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 19.96,
+   "wind_direction_100m": 76.0
   },
   {
    "time": "2026-02-08T23:00",
@@ -8196,7 +9682,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9345,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 19.66,
+   "wind_direction_100m": 74.0
   },
   {
    "time": "2026-02-09T00:00",
@@ -8207,7 +9695,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9099,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 19.83,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-09T01:00",
@@ -8218,7 +9708,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9384,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 19.34,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-09T02:00",
@@ -8229,7 +9721,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9349,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 18.93,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-09T03:00",
@@ -8240,7 +9734,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9302,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 17.98,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-09T04:00",
@@ -8251,7 +9747,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9223,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 17.5,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-09T05:00",
@@ -8262,7 +9760,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9028,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 16.54,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-09T06:00",
@@ -8273,7 +9773,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8497,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9883
+   "curve": 0.9883,
+   "wind_speed_100m": 14.6,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-09T07:00",
@@ -8284,7 +9786,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8428,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9809
+   "curve": 0.9809,
+   "wind_speed_100m": 12.93,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-09T08:00",
@@ -8295,7 +9799,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8811,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9381
+   "curve": 0.9381,
+   "wind_speed_100m": 11.8,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-09T09:00",
@@ -8306,7 +9812,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8708,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8944
+   "curve": 0.8944,
+   "wind_speed_100m": 11.05,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-09T10:00",
@@ -8317,7 +9825,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8651,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8778
+   "curve": 0.8778,
+   "wind_speed_100m": 10.36,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-09T11:00",
@@ -8328,7 +9838,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8514,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8833
+   "curve": 0.8833,
+   "wind_speed_100m": 10.5,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-09T12:00",
@@ -8339,7 +9851,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8523,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9613
+   "curve": 0.9613,
+   "wind_speed_100m": 12.25,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-09T13:00",
@@ -8350,7 +9864,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8646,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9278
+   "curve": 0.9278,
+   "wind_speed_100m": 11.59,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-09T14:00",
@@ -8361,7 +9877,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7684,
    "p90": 0.9845,
    "actual": null,
-   "curve": 0.8758
+   "curve": 0.8758,
+   "wind_speed_100m": 10.29,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-09T15:00",
@@ -8372,7 +9890,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4161,
    "p90": 0.8456,
    "actual": null,
-   "curve": 0.6004
+   "curve": 0.6004,
+   "wind_speed_100m": 7.99,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-09T16:00",
@@ -8383,7 +9903,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4256,
    "p90": 0.7167,
    "actual": null,
-   "curve": 0.152
+   "curve": 0.152,
+   "wind_speed_100m": 4.71,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-09T17:00",
@@ -8394,7 +9916,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2301,
    "p90": 0.8721,
    "actual": null,
-   "curve": 0.0303
+   "curve": 0.0303,
+   "wind_speed_100m": 1.74,
+   "wind_direction_100m": 106.0
   },
   {
    "time": "2026-02-09T18:00",
@@ -8405,7 +9929,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0653,
    "p90": 0.625,
    "actual": null,
-   "curve": 0.1085
+   "curve": 0.1085,
+   "wind_speed_100m": 4.31,
+   "wind_direction_100m": 107.0
   },
   {
    "time": "2026-02-09T19:00",
@@ -8416,7 +9942,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3523,
    "p90": 0.8675,
    "actual": null,
-   "curve": 0.3317
+   "curve": 0.3317,
+   "wind_speed_100m": 6.4,
+   "wind_direction_100m": 95.0
   },
   {
    "time": "2026-02-09T20:00",
@@ -8427,7 +9955,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4105,
    "p90": 0.9234,
    "actual": null,
-   "curve": 0.4586
+   "curve": 0.4586,
+   "wind_speed_100m": 6.94,
+   "wind_direction_100m": 59.0
   },
   {
    "time": "2026-02-09T21:00",
@@ -8438,7 +9968,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4181,
    "p90": 0.9049,
    "actual": null,
-   "curve": 0.6177
+   "curve": 0.6177,
+   "wind_speed_100m": 8.29,
+   "wind_direction_100m": 61.0
   },
   {
    "time": "2026-02-09T22:00",
@@ -8449,7 +9981,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3454,
    "p90": 0.9119,
    "actual": null,
-   "curve": 0.4327
+   "curve": 0.4327,
+   "wind_speed_100m": 6.78,
+   "wind_direction_100m": 79.0
   },
   {
    "time": "2026-02-09T23:00",
@@ -8460,7 +9994,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3473,
    "p90": 0.9169,
    "actual": null,
-   "curve": 0.3772
+   "curve": 0.3772,
+   "wind_speed_100m": 6.57,
+   "wind_direction_100m": 92.0
   },
   {
    "time": "2026-02-08T00:00",
@@ -8471,7 +10007,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.722,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8517
+   "curve": 0.8517,
+   "wind_speed_100m": 9.41,
+   "wind_direction_100m": 239.0
   },
   {
    "time": "2026-02-08T01:00",
@@ -8482,7 +10020,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6443,
    "p90": 0.9576,
    "actual": null,
-   "curve": 0.68
+   "curve": 0.68,
+   "wind_speed_100m": 8.29,
+   "wind_direction_100m": 237.0
   },
   {
    "time": "2026-02-08T02:00",
@@ -8493,7 +10033,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3595,
    "p90": 0.7985,
    "actual": null,
-   "curve": 0.5394
+   "curve": 0.5394,
+   "wind_speed_100m": 7.31,
+   "wind_direction_100m": 238.0
   },
   {
    "time": "2026-02-08T03:00",
@@ -8504,7 +10046,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.175,
    "p90": 0.7901,
    "actual": null,
-   "curve": 0.3411
+   "curve": 0.3411,
+   "wind_speed_100m": 6.19,
+   "wind_direction_100m": 241.0
   },
   {
    "time": "2026-02-08T04:00",
@@ -8515,7 +10059,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0399,
    "p90": 0.5221,
    "actual": null,
-   "curve": 0.1701
+   "curve": 0.1701,
+   "wind_speed_100m": 4.91,
+   "wind_direction_100m": 247.0
   },
   {
    "time": "2026-02-08T05:00",
@@ -8526,7 +10072,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2073,
    "actual": null,
-   "curve": 0.0463
+   "curve": 0.0463,
+   "wind_speed_100m": 2.95,
+   "wind_direction_100m": 255.0
   },
   {
    "time": "2026-02-08T06:00",
@@ -8537,7 +10085,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.0505,
    "actual": null,
-   "curve": 0.0094
+   "curve": 0.0094,
+   "wind_speed_100m": 1.33,
+   "wind_direction_100m": 253.0
   },
   {
    "time": "2026-02-08T07:00",
@@ -8548,7 +10098,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.0552,
    "actual": null,
-   "curve": 0.0047
+   "curve": 0.0047,
+   "wind_speed_100m": 0.39,
+   "wind_direction_100m": 360.0
   },
   {
    "time": "2026-02-08T08:00",
@@ -8559,7 +10111,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2118,
    "actual": null,
-   "curve": 0.0225
+   "curve": 0.0225,
+   "wind_speed_100m": 2.28,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-08T09:00",
@@ -8570,7 +10124,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0912,
    "p90": 0.556,
    "actual": null,
-   "curve": 0.1327
+   "curve": 0.1327,
+   "wind_speed_100m": 4.59,
+   "wind_direction_100m": 74.0
   },
   {
    "time": "2026-02-08T10:00",
@@ -8581,7 +10137,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4929,
    "p90": 0.9195,
    "actual": null,
-   "curve": 0.5656
+   "curve": 0.5656,
+   "wind_speed_100m": 7.7,
+   "wind_direction_100m": 75.0
   },
   {
    "time": "2026-02-08T11:00",
@@ -8592,7 +10150,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8759,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.909
+   "curve": 0.909,
+   "wind_speed_100m": 11.1,
+   "wind_direction_100m": 74.0
   },
   {
    "time": "2026-02-08T12:00",
@@ -8603,7 +10163,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9046,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 14.47,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-08T13:00",
@@ -8614,7 +10176,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9641,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9701
+   "curve": 0.9701,
+   "wind_speed_100m": 16.83,
+   "wind_direction_100m": 73.0
   },
   {
    "time": "2026-02-08T14:00",
@@ -8625,7 +10189,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9641,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9708
+   "curve": 0.9708,
+   "wind_speed_100m": 18.25,
+   "wind_direction_100m": 75.0
   },
   {
    "time": "2026-02-08T15:00",
@@ -8636,7 +10202,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9641,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9708
+   "curve": 0.9708,
+   "wind_speed_100m": 18.77,
+   "wind_direction_100m": 76.0
   },
   {
    "time": "2026-02-08T16:00",
@@ -8647,7 +10215,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9641,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9708
+   "curve": 0.9708,
+   "wind_speed_100m": 19.56,
+   "wind_direction_100m": 78.0
   },
   {
    "time": "2026-02-08T17:00",
@@ -8658,7 +10228,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9641,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9708
+   "curve": 0.9708,
+   "wind_speed_100m": 19.69,
+   "wind_direction_100m": 79.0
   },
   {
    "time": "2026-02-08T18:00",
@@ -8669,7 +10241,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9641,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9708
+   "curve": 0.9708,
+   "wind_speed_100m": 19.54,
+   "wind_direction_100m": 78.0
   },
   {
    "time": "2026-02-08T19:00",
@@ -8680,7 +10254,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9641,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9716
+   "curve": 0.9716,
+   "wind_speed_100m": 19.89,
+   "wind_direction_100m": 79.0
   },
   {
    "time": "2026-02-08T20:00",
@@ -8691,7 +10267,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9641,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9714
+   "curve": 0.9714,
+   "wind_speed_100m": 19.87,
+   "wind_direction_100m": 79.0
   },
   {
    "time": "2026-02-08T21:00",
@@ -8702,7 +10280,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9363,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.972
+   "curve": 0.972,
+   "wind_speed_100m": 19.95,
+   "wind_direction_100m": 78.0
   },
   {
    "time": "2026-02-08T22:00",
@@ -8713,7 +10293,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9238,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.972
+   "curve": 0.972,
+   "wind_speed_100m": 19.96,
+   "wind_direction_100m": 76.0
   },
   {
    "time": "2026-02-08T23:00",
@@ -8724,7 +10306,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.909,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9708
+   "curve": 0.9708,
+   "wind_speed_100m": 19.66,
+   "wind_direction_100m": 74.0
   },
   {
    "time": "2026-02-09T00:00",
@@ -8735,7 +10319,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8826,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 19.83,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-09T01:00",
@@ -8746,7 +10332,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9111,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 19.34,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-09T02:00",
@@ -8757,7 +10345,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9076,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 18.93,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-09T03:00",
@@ -8768,7 +10358,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9029,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 17.98,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-09T04:00",
@@ -8779,7 +10371,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.895,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 17.5,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-09T05:00",
@@ -8790,7 +10384,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8796,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 16.54,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-09T06:00",
@@ -8801,7 +10397,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8282,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 14.6,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-09T07:00",
@@ -8812,7 +10410,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8269,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9667
+   "curve": 0.9667,
+   "wind_speed_100m": 12.93,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-09T08:00",
@@ -8823,7 +10423,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8713,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9317
+   "curve": 0.9317,
+   "wind_speed_100m": 11.8,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-09T09:00",
@@ -8834,7 +10436,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8732,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8994
+   "curve": 0.8994,
+   "wind_speed_100m": 11.05,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-09T10:00",
@@ -8845,7 +10449,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8572,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8586
+   "curve": 0.8586,
+   "wind_speed_100m": 10.36,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-09T11:00",
@@ -8856,7 +10462,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8412,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8665
+   "curve": 0.8665,
+   "wind_speed_100m": 10.5,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-09T12:00",
@@ -8867,7 +10475,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8298,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9453
+   "curve": 0.9453,
+   "wind_speed_100m": 12.25,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-09T13:00",
@@ -8878,7 +10488,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8635,
    "p90": 0.9984,
    "actual": null,
-   "curve": 0.9269
+   "curve": 0.9269,
+   "wind_speed_100m": 11.59,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-09T14:00",
@@ -8889,7 +10501,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7469,
    "p90": 0.9903,
    "actual": null,
-   "curve": 0.8577
+   "curve": 0.8577,
+   "wind_speed_100m": 10.29,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-09T15:00",
@@ -8900,7 +10514,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4149,
    "p90": 0.8428,
    "actual": null,
-   "curve": 0.5981
+   "curve": 0.5981,
+   "wind_speed_100m": 7.99,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-09T16:00",
@@ -8911,7 +10527,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4207,
    "p90": 0.7125,
    "actual": null,
-   "curve": 0.1459
+   "curve": 0.1459,
+   "wind_speed_100m": 4.71,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-09T17:00",
@@ -8922,7 +10540,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2436,
    "p90": 0.8758,
    "actual": null,
-   "curve": 0.0303
+   "curve": 0.0303,
+   "wind_speed_100m": 1.74,
+   "wind_direction_100m": 106.0
   },
   {
    "time": "2026-02-09T18:00",
@@ -8933,7 +10553,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0752,
    "p90": 0.6253,
    "actual": null,
-   "curve": 0.105
+   "curve": 0.105,
+   "wind_speed_100m": 4.31,
+   "wind_direction_100m": 107.0
   },
   {
    "time": "2026-02-09T19:00",
@@ -8944,7 +10566,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3513,
    "p90": 0.8655,
    "actual": null,
-   "curve": 0.3259
+   "curve": 0.3259,
+   "wind_speed_100m": 6.4,
+   "wind_direction_100m": 95.0
   },
   {
    "time": "2026-02-09T20:00",
@@ -8955,7 +10579,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4,
    "p90": 0.9118,
    "actual": null,
-   "curve": 0.4434
+   "curve": 0.4434,
+   "wind_speed_100m": 6.94,
+   "wind_direction_100m": 59.0
   },
   {
    "time": "2026-02-09T21:00",
@@ -8966,7 +10592,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4385,
    "p90": 0.9185,
    "actual": null,
-   "curve": 0.6306
+   "curve": 0.6306,
+   "wind_speed_100m": 8.29,
+   "wind_direction_100m": 61.0
   },
   {
    "time": "2026-02-09T22:00",
@@ -8977,7 +10605,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3313,
    "p90": 0.9002,
    "actual": null,
-   "curve": 0.4174
+   "curve": 0.4174,
+   "wind_speed_100m": 6.78,
+   "wind_direction_100m": 79.0
   },
   {
    "time": "2026-02-09T23:00",
@@ -8988,7 +10618,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.342,
    "p90": 0.9107,
    "actual": null,
-   "curve": 0.3671
+   "curve": 0.3671,
+   "wind_speed_100m": 6.57,
+   "wind_direction_100m": 92.0
   },
   {
    "time": "2026-02-09T00:00",
@@ -8999,7 +10631,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9282,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 19.43,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-09T01:00",
@@ -9010,7 +10644,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9337,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 18.62,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-09T02:00",
@@ -9021,7 +10657,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8812,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 18.12,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-09T03:00",
@@ -9032,7 +10670,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9313,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 16.81,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-09T04:00",
@@ -9043,7 +10683,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9697,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 16.08,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-09T05:00",
@@ -9054,7 +10696,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9675,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9883
+   "curve": 0.9883,
+   "wind_speed_100m": 14.67,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-09T06:00",
@@ -9065,7 +10709,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7918,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9732
+   "curve": 0.9732,
+   "wind_speed_100m": 13.23,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-09T07:00",
@@ -9076,7 +10722,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8514,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9653
+   "curve": 0.9653,
+   "wind_speed_100m": 13.06,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-09T08:00",
@@ -9087,7 +10735,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9425,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9462
+   "curve": 0.9462,
+   "wind_speed_100m": 12.7,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-09T09:00",
@@ -9098,7 +10748,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8913,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9211
+   "curve": 0.9211,
+   "wind_speed_100m": 11.99,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-09T10:00",
@@ -9109,7 +10761,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8719,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9107
+   "curve": 0.9107,
+   "wind_speed_100m": 11.15,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-09T11:00",
@@ -9120,7 +10774,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8524,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9129
+   "curve": 0.9129,
+   "wind_speed_100m": 11.5,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-09T12:00",
@@ -9131,7 +10787,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8202,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9112
+   "curve": 0.9112,
+   "wind_speed_100m": 11.26,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-09T13:00",
@@ -9142,7 +10800,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8715,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8986
+   "curve": 0.8986,
+   "wind_speed_100m": 10.26,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-09T14:00",
@@ -9153,7 +10813,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6143,
    "p90": 0.8181,
    "actual": null,
-   "curve": 0.685
+   "curve": 0.685,
+   "wind_speed_100m": 8.43,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-09T15:00",
@@ -9164,7 +10826,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4941,
    "p90": 0.8135,
    "actual": null,
-   "curve": 0.3937
+   "curve": 0.3937,
+   "wind_speed_100m": 6.48,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-09T16:00",
@@ -9175,7 +10839,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2464,
    "p90": 0.6407,
    "actual": null,
-   "curve": 0.1147
+   "curve": 0.1147,
+   "wind_speed_100m": 4.11,
+   "wind_direction_100m": 78.0
   },
   {
    "time": "2026-02-09T17:00",
@@ -9186,7 +10852,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0379,
    "p90": 0.5313,
    "actual": null,
-   "curve": 0.0457
+   "curve": 0.0457,
+   "wind_speed_100m": 2.85,
+   "wind_direction_100m": 106.0
   },
   {
    "time": "2026-02-09T18:00",
@@ -9197,7 +10865,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.4782,
    "actual": null,
-   "curve": 0.0112
+   "curve": 0.0112,
+   "wind_speed_100m": 1.38,
+   "wind_direction_100m": 176.0
   },
   {
    "time": "2026-02-09T19:00",
@@ -9208,7 +10878,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.4407,
    "actual": null,
-   "curve": 0.0147
+   "curve": 0.0147,
+   "wind_speed_100m": 1.73,
+   "wind_direction_100m": 133.0
   },
   {
    "time": "2026-02-09T20:00",
@@ -9219,7 +10891,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.4854,
    "actual": null,
-   "curve": 0.0891
+   "curve": 0.0891,
+   "wind_speed_100m": 3.69,
+   "wind_direction_100m": 101.0
   },
   {
    "time": "2026-02-09T21:00",
@@ -9230,7 +10904,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.014,
    "p90": 0.4789,
    "actual": null,
-   "curve": 0.1299
+   "curve": 0.1299,
+   "wind_speed_100m": 4.37,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-09T22:00",
@@ -9241,7 +10917,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.181,
    "p90": 0.8615,
    "actual": null,
-   "curve": 0.3696
+   "curve": 0.3696,
+   "wind_speed_100m": 6.28,
+   "wind_direction_100m": 59.0
   },
   {
    "time": "2026-02-09T23:00",
@@ -9252,7 +10930,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0165,
    "p90": 0.6025,
    "actual": null,
-   "curve": 0.1199
+   "curve": 0.1199,
+   "wind_speed_100m": 4.19,
+   "wind_direction_100m": 79.0
   },
   {
    "time": "2026-02-10T00:00",
@@ -9263,7 +10943,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0288,
    "p90": 0.8053,
    "actual": null,
-   "curve": 0.0313
+   "curve": 0.0313,
+   "wind_speed_100m": 2.06,
+   "wind_direction_100m": 335.0
   },
   {
    "time": "2026-02-10T01:00",
@@ -9274,7 +10956,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5299,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9813
+   "curve": 0.9813,
+   "wind_speed_100m": 13.13,
+   "wind_direction_100m": 260.0
   },
   {
    "time": "2026-02-10T02:00",
@@ -9285,7 +10969,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.351,
    "p90": 0.8783,
    "actual": null,
-   "curve": 0.8858
+   "curve": 0.8858,
+   "wind_speed_100m": 10.72,
+   "wind_direction_100m": 258.0
   },
   {
    "time": "2026-02-10T03:00",
@@ -9296,7 +10982,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4426,
    "p90": 0.8595,
    "actual": null,
-   "curve": 0.6805
+   "curve": 0.6805,
+   "wind_speed_100m": 8.72,
+   "wind_direction_100m": 249.0
   },
   {
    "time": "2026-02-10T04:00",
@@ -9307,7 +10995,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3272,
    "p90": 0.8339,
    "actual": null,
-   "curve": 0.5608
+   "curve": 0.5608,
+   "wind_speed_100m": 7.63,
+   "wind_direction_100m": 241.0
   },
   {
    "time": "2026-02-10T05:00",
@@ -9318,7 +11008,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3003,
    "p90": 0.8693,
    "actual": null,
-   "curve": 0.4065
+   "curve": 0.4065,
+   "wind_speed_100m": 6.72,
+   "wind_direction_100m": 223.0
   },
   {
    "time": "2026-02-10T06:00",
@@ -9329,7 +11021,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.268,
    "p90": 0.7626,
    "actual": null,
-   "curve": 0.2105
+   "curve": 0.2105,
+   "wind_speed_100m": 5.28,
+   "wind_direction_100m": 220.0
   },
   {
    "time": "2026-02-10T07:00",
@@ -9340,7 +11034,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2045,
    "p90": 0.719,
    "actual": null,
-   "curve": 0.267
+   "curve": 0.267,
+   "wind_speed_100m": 5.85,
+   "wind_direction_100m": 261.0
   },
   {
    "time": "2026-02-10T08:00",
@@ -9351,7 +11047,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2808,
    "p90": 0.8662,
    "actual": null,
-   "curve": 0.5654
+   "curve": 0.5654,
+   "wind_speed_100m": 7.7,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-10T09:00",
@@ -9362,7 +11060,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2898,
    "p90": 0.8866,
    "actual": null,
-   "curve": 0.8389
+   "curve": 0.8389,
+   "wind_speed_100m": 9.92,
+   "wind_direction_100m": 253.0
   },
   {
    "time": "2026-02-10T10:00",
@@ -9373,7 +11073,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3011,
    "p90": 0.8762,
    "actual": null,
-   "curve": 0.841
+   "curve": 0.841,
+   "wind_speed_100m": 9.94,
+   "wind_direction_100m": 260.0
   },
   {
    "time": "2026-02-10T11:00",
@@ -9384,7 +11086,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2336,
    "p90": 0.8164,
    "actual": null,
-   "curve": 0.8645
+   "curve": 0.8645,
+   "wind_speed_100m": 10.2,
+   "wind_direction_100m": 254.0
   },
   {
    "time": "2026-02-10T12:00",
@@ -9395,7 +11099,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3625,
    "p90": 0.8646,
    "actual": null,
-   "curve": 0.572
+   "curve": 0.572,
+   "wind_speed_100m": 7.73,
+   "wind_direction_100m": 240.0
   },
   {
    "time": "2026-02-10T13:00",
@@ -9406,7 +11112,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.375,
    "p90": 0.9724,
    "actual": null,
-   "curve": 0.425
+   "curve": 0.425,
+   "wind_speed_100m": 6.78,
+   "wind_direction_100m": 233.0
   },
   {
    "time": "2026-02-10T14:00",
@@ -9417,7 +11125,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3583,
    "p90": 0.758,
    "actual": null,
-   "curve": 0.1209
+   "curve": 0.1209,
+   "wind_speed_100m": 4.44,
+   "wind_direction_100m": 229.0
   },
   {
    "time": "2026-02-10T15:00",
@@ -9428,7 +11138,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4582,
    "p90": 0.8019,
    "actual": null,
-   "curve": 0.0312
+   "curve": 0.0312,
+   "wind_speed_100m": 2.02,
+   "wind_direction_100m": 256.0
   },
   {
    "time": "2026-02-10T16:00",
@@ -9439,7 +11151,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6068,
    "p90": 0.9821,
    "actual": null,
-   "curve": 0.0269
+   "curve": 0.0269,
+   "wind_speed_100m": 1.58,
+   "wind_direction_100m": 83.0
   },
   {
    "time": "2026-02-10T17:00",
@@ -9450,7 +11164,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7378,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.2664
+   "curve": 0.2664,
+   "wind_speed_100m": 5.79,
+   "wind_direction_100m": 87.0
   },
   {
    "time": "2026-02-10T18:00",
@@ -9461,7 +11177,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9136,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9633
+   "curve": 0.9633,
+   "wind_speed_100m": 12.2,
+   "wind_direction_100m": 78.0
   },
   {
    "time": "2026-02-10T19:00",
@@ -9472,7 +11190,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9705,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9817
+   "curve": 0.9817,
+   "wind_speed_100m": 13.84,
+   "wind_direction_100m": 78.0
   },
   {
    "time": "2026-02-10T20:00",
@@ -9483,7 +11203,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9705,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9883
+   "curve": 0.9883,
+   "wind_speed_100m": 15.49,
+   "wind_direction_100m": 73.0
   },
   {
    "time": "2026-02-10T21:00",
@@ -9494,7 +11216,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9705,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 17.26,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-10T22:00",
@@ -9505,7 +11229,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9443,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 16.54,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-10T23:00",
@@ -9516,7 +11242,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9402,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9883
+   "curve": 0.9883,
+   "wind_speed_100m": 14.82,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-09T00:00",
@@ -9527,7 +11255,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9034,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9708
+   "curve": 0.9708,
+   "wind_speed_100m": 19.43,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-09T01:00",
@@ -9538,7 +11268,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9089,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9708
+   "curve": 0.9708,
+   "wind_speed_100m": 18.62,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-09T02:00",
@@ -9549,7 +11281,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8565,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9708
+   "curve": 0.9708,
+   "wind_speed_100m": 18.12,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-09T03:00",
@@ -9560,7 +11294,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9055,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 16.81,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-09T04:00",
@@ -9571,7 +11307,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9558,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 16.08,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-09T05:00",
@@ -9582,7 +11320,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9442,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 14.67,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-09T06:00",
@@ -9593,7 +11333,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7839,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9607
+   "curve": 0.9607,
+   "wind_speed_100m": 13.23,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-09T07:00",
@@ -9604,7 +11346,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8341,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9518
+   "curve": 0.9518,
+   "wind_speed_100m": 13.06,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-09T08:00",
@@ -9615,7 +11359,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9292,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9381
+   "curve": 0.9381,
+   "wind_speed_100m": 12.7,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-09T09:00",
@@ -9626,7 +11372,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8982,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.93
+   "curve": 0.93,
+   "wind_speed_100m": 11.99,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-09T10:00",
@@ -9637,7 +11385,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8675,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9037
+   "curve": 0.9037,
+   "wind_speed_100m": 11.15,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-09T11:00",
@@ -9648,7 +11398,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8718,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9257
+   "curve": 0.9257,
+   "wind_speed_100m": 11.5,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-09T12:00",
@@ -9659,7 +11411,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8155,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9148
+   "curve": 0.9148,
+   "wind_speed_100m": 11.26,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-09T13:00",
@@ -9670,7 +11424,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8655,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8796
+   "curve": 0.8796,
+   "wind_speed_100m": 10.26,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-09T14:00",
@@ -9681,7 +11437,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5987,
    "p90": 0.8146,
    "actual": null,
-   "curve": 0.68
+   "curve": 0.68,
+   "wind_speed_100m": 8.43,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-09T15:00",
@@ -9692,7 +11450,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4766,
    "p90": 0.8004,
    "actual": null,
-   "curve": 0.375
+   "curve": 0.375,
+   "wind_speed_100m": 6.48,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-09T16:00",
@@ -9703,7 +11463,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2366,
    "p90": 0.6352,
    "actual": null,
-   "curve": 0.1036
+   "curve": 0.1036,
+   "wind_speed_100m": 4.11,
+   "wind_direction_100m": 78.0
   },
   {
    "time": "2026-02-09T17:00",
@@ -9714,7 +11476,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0415,
    "p90": 0.5347,
    "actual": null,
-   "curve": 0.0435
+   "curve": 0.0435,
+   "wind_speed_100m": 2.85,
+   "wind_direction_100m": 106.0
   },
   {
    "time": "2026-02-09T18:00",
@@ -9725,7 +11489,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.4831,
    "actual": null,
-   "curve": 0.01
+   "curve": 0.01,
+   "wind_speed_100m": 1.38,
+   "wind_direction_100m": 176.0
   },
   {
    "time": "2026-02-09T19:00",
@@ -9736,7 +11502,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.4462,
    "actual": null,
-   "curve": 0.0146
+   "curve": 0.0146,
+   "wind_speed_100m": 1.73,
+   "wind_direction_100m": 133.0
   },
   {
    "time": "2026-02-09T20:00",
@@ -9747,7 +11515,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.4846,
    "actual": null,
-   "curve": 0.0827
+   "curve": 0.0827,
+   "wind_speed_100m": 3.69,
+   "wind_direction_100m": 101.0
   },
   {
    "time": "2026-02-09T21:00",
@@ -9758,7 +11528,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.003,
    "p90": 0.4724,
    "actual": null,
-   "curve": 0.1178
+   "curve": 0.1178,
+   "wind_speed_100m": 4.37,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-09T22:00",
@@ -9769,7 +11541,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1641,
    "p90": 0.8455,
    "actual": null,
-   "curve": 0.348
+   "curve": 0.348,
+   "wind_speed_100m": 6.28,
+   "wind_direction_100m": 59.0
   },
   {
    "time": "2026-02-09T23:00",
@@ -9780,7 +11554,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0127,
    "p90": 0.5909,
    "actual": null,
-   "curve": 0.1077
+   "curve": 0.1077,
+   "wind_speed_100m": 4.19,
+   "wind_direction_100m": 79.0
   },
   {
    "time": "2026-02-10T00:00",
@@ -9791,7 +11567,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0246,
    "p90": 0.8087,
    "actual": null,
-   "curve": 0.0308
+   "curve": 0.0308,
+   "wind_speed_100m": 2.06,
+   "wind_direction_100m": 335.0
   },
   {
    "time": "2026-02-10T01:00",
@@ -9802,7 +11580,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5104,
    "p90": 0.9942,
    "actual": null,
-   "curve": 0.9667
+   "curve": 0.9667,
+   "wind_speed_100m": 13.13,
+   "wind_direction_100m": 260.0
   },
   {
    "time": "2026-02-10T02:00",
@@ -9813,7 +11593,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3594,
    "p90": 0.9112,
    "actual": null,
-   "curve": 0.8855
+   "curve": 0.8855,
+   "wind_speed_100m": 10.72,
+   "wind_direction_100m": 258.0
   },
   {
    "time": "2026-02-10T03:00",
@@ -9824,7 +11606,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.438,
    "p90": 0.8691,
    "actual": null,
-   "curve": 0.667
+   "curve": 0.667,
+   "wind_speed_100m": 8.72,
+   "wind_direction_100m": 249.0
   },
   {
    "time": "2026-02-10T04:00",
@@ -9835,7 +11619,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3147,
    "p90": 0.8295,
    "actual": null,
-   "curve": 0.5495
+   "curve": 0.5495,
+   "wind_speed_100m": 7.63,
+   "wind_direction_100m": 241.0
   },
   {
    "time": "2026-02-10T05:00",
@@ -9846,7 +11632,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3173,
    "p90": 0.86,
    "actual": null,
-   "curve": 0.3937
+   "curve": 0.3937,
+   "wind_speed_100m": 6.72,
+   "wind_direction_100m": 223.0
   },
   {
    "time": "2026-02-10T06:00",
@@ -9857,7 +11645,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2637,
    "p90": 0.756,
    "actual": null,
-   "curve": 0.2001
+   "curve": 0.2001,
+   "wind_speed_100m": 5.28,
+   "wind_direction_100m": 220.0
   },
   {
    "time": "2026-02-10T07:00",
@@ -9868,7 +11658,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2065,
    "p90": 0.7178,
    "actual": null,
-   "curve": 0.262
+   "curve": 0.262,
+   "wind_speed_100m": 5.85,
+   "wind_direction_100m": 261.0
   },
   {
    "time": "2026-02-10T08:00",
@@ -9879,7 +11671,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2781,
    "p90": 0.8595,
    "actual": null,
-   "curve": 0.5543
+   "curve": 0.5543,
+   "wind_speed_100m": 7.7,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-10T09:00",
@@ -9890,7 +11684,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.299,
    "p90": 0.9219,
    "actual": null,
-   "curve": 0.8403
+   "curve": 0.8403,
+   "wind_speed_100m": 9.92,
+   "wind_direction_100m": 253.0
   },
   {
    "time": "2026-02-10T10:00",
@@ -9901,7 +11697,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3092,
    "p90": 0.9104,
    "actual": null,
-   "curve": 0.8413
+   "curve": 0.8413,
+   "wind_speed_100m": 9.94,
+   "wind_direction_100m": 260.0
   },
   {
    "time": "2026-02-10T11:00",
@@ -9912,7 +11710,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2326,
    "p90": 0.8556,
    "actual": null,
-   "curve": 0.8523
+   "curve": 0.8523,
+   "wind_speed_100m": 10.2,
+   "wind_direction_100m": 254.0
   },
   {
    "time": "2026-02-10T12:00",
@@ -9923,7 +11723,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3612,
    "p90": 0.8586,
    "actual": null,
-   "curve": 0.5612
+   "curve": 0.5612,
+   "wind_speed_100m": 7.73,
+   "wind_direction_100m": 240.0
   },
   {
    "time": "2026-02-10T13:00",
@@ -9934,7 +11736,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3636,
    "p90": 0.9617,
    "actual": null,
-   "curve": 0.4104
+   "curve": 0.4104,
+   "wind_speed_100m": 6.78,
+   "wind_direction_100m": 233.0
   },
   {
    "time": "2026-02-10T14:00",
@@ -9945,7 +11749,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3587,
    "p90": 0.7575,
    "actual": null,
-   "curve": 0.1166
+   "curve": 0.1166,
+   "wind_speed_100m": 4.44,
+   "wind_direction_100m": 229.0
   },
   {
    "time": "2026-02-10T15:00",
@@ -9956,7 +11762,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.461,
    "p90": 0.8053,
    "actual": null,
-   "curve": 0.0308
+   "curve": 0.0308,
+   "wind_speed_100m": 2.02,
+   "wind_direction_100m": 256.0
   },
   {
    "time": "2026-02-10T16:00",
@@ -9967,7 +11775,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6198,
    "p90": 0.9867,
    "actual": null,
-   "curve": 0.0263
+   "curve": 0.0263,
+   "wind_speed_100m": 1.58,
+   "wind_direction_100m": 83.0
   },
   {
    "time": "2026-02-10T17:00",
@@ -9978,7 +11788,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7339,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.2614
+   "curve": 0.2614,
+   "wind_speed_100m": 5.79,
+   "wind_direction_100m": 87.0
   },
   {
    "time": "2026-02-10T18:00",
@@ -9989,7 +11801,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8886,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9466
+   "curve": 0.9466,
+   "wind_speed_100m": 12.2,
+   "wind_direction_100m": 78.0
   },
   {
    "time": "2026-02-10T19:00",
@@ -10000,7 +11814,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9653,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9667
+   "curve": 0.9667,
+   "wind_speed_100m": 13.84,
+   "wind_direction_100m": 78.0
   },
   {
    "time": "2026-02-10T20:00",
@@ -10011,7 +11827,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.962,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 15.49,
+   "wind_direction_100m": 73.0
   },
   {
    "time": "2026-02-10T21:00",
@@ -10022,7 +11840,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9543,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 17.26,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-10T22:00",
@@ -10033,7 +11853,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9151,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 16.54,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-10T23:00",
@@ -10044,7 +11866,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9126,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 14.82,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-10T00:00",
@@ -10055,7 +11879,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4161,
    "p90": 0.7523,
    "actual": null,
-   "curve": 0.685
+   "curve": 0.685,
+   "wind_speed_100m": 8.43,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-10T01:00",
@@ -10066,7 +11892,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1587,
    "p90": 0.6783,
    "actual": null,
-   "curve": 0.01
+   "curve": 0.01,
+   "wind_speed_100m": 1.18,
+   "wind_direction_100m": 355.0
   },
   {
    "time": "2026-02-10T02:00",
@@ -10077,7 +11905,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2738,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9889
+   "curve": 0.9889,
+   "wind_speed_100m": 15.0,
+   "wind_direction_100m": 261.0
   },
   {
    "time": "2026-02-10T03:00",
@@ -10088,7 +11918,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3968,
    "p90": 0.9707,
    "actual": null,
-   "curve": 0.91
+   "curve": 0.91,
+   "wind_speed_100m": 10.73,
+   "wind_direction_100m": 261.0
   },
   {
    "time": "2026-02-10T04:00",
@@ -10099,7 +11931,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3913,
    "p90": 0.9832,
    "actual": null,
-   "curve": 0.9155
+   "curve": 0.9155,
+   "wind_speed_100m": 11.58,
+   "wind_direction_100m": 262.0
   },
   {
    "time": "2026-02-10T05:00",
@@ -10110,7 +11944,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4603,
    "p90": 0.9798,
    "actual": null,
-   "curve": 0.9111
+   "curve": 0.9111,
+   "wind_speed_100m": 11.18,
+   "wind_direction_100m": 251.0
   },
   {
    "time": "2026-02-10T06:00",
@@ -10121,7 +11957,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3995,
    "p90": 0.85,
    "actual": null,
-   "curve": 0.3831
+   "curve": 0.3831,
+   "wind_speed_100m": 6.43,
+   "wind_direction_100m": 262.0
   },
   {
    "time": "2026-02-10T07:00",
@@ -10132,7 +11970,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3206,
    "p90": 0.9109,
    "actual": null,
-   "curve": 0.577
+   "curve": 0.577,
+   "wind_speed_100m": 7.75,
+   "wind_direction_100m": 238.0
   },
   {
    "time": "2026-02-10T08:00",
@@ -10143,7 +11983,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2173,
    "p90": 0.9206,
    "actual": null,
-   "curve": 0.5542
+   "curve": 0.5542,
+   "wind_speed_100m": 7.48,
+   "wind_direction_100m": 238.0
   },
   {
    "time": "2026-02-10T09:00",
@@ -10154,7 +11996,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1033,
    "p90": 0.799,
    "actual": null,
-   "curve": 0.4187
+   "curve": 0.4187,
+   "wind_speed_100m": 6.75,
+   "wind_direction_100m": 257.0
   },
   {
    "time": "2026-02-10T10:00",
@@ -10165,7 +12009,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1113,
    "p90": 0.6095,
    "actual": null,
-   "curve": 0.2153
+   "curve": 0.2153,
+   "wind_speed_100m": 5.23,
+   "wind_direction_100m": 257.0
   },
   {
    "time": "2026-02-10T11:00",
@@ -10176,7 +12022,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0866,
    "p90": 0.5428,
    "actual": null,
-   "curve": 0.2032
+   "curve": 0.2032,
+   "wind_speed_100m": 5.15,
+   "wind_direction_100m": 249.0
   },
   {
    "time": "2026-02-10T12:00",
@@ -10187,7 +12035,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1761,
    "p90": 0.6085,
    "actual": null,
-   "curve": 0.1064
+   "curve": 0.1064,
+   "wind_speed_100m": 4.0,
+   "wind_direction_100m": 239.0
   },
   {
    "time": "2026-02-10T13:00",
@@ -10198,7 +12048,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1558,
    "p90": 0.3978,
    "actual": null,
-   "curve": 0.0743
+   "curve": 0.0743,
+   "wind_speed_100m": 3.51,
+   "wind_direction_100m": 216.0
   },
   {
    "time": "2026-02-10T14:00",
@@ -10209,7 +12061,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2178,
    "p90": 0.5743,
    "actual": null,
-   "curve": 0.049
+   "curve": 0.049,
+   "wind_speed_100m": 2.97,
+   "wind_direction_100m": 172.0
   },
   {
    "time": "2026-02-10T15:00",
@@ -10220,7 +12074,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1921,
    "p90": 0.7612,
    "actual": null,
-   "curve": 0.073
+   "curve": 0.073,
+   "wind_speed_100m": 3.48,
+   "wind_direction_100m": 122.0
   },
   {
    "time": "2026-02-10T16:00",
@@ -10231,7 +12087,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.794,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.6759
+   "curve": 0.6759,
+   "wind_speed_100m": 8.27,
+   "wind_direction_100m": 85.0
   },
   {
    "time": "2026-02-10T17:00",
@@ -10242,7 +12100,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9143,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.928
+   "curve": 0.928,
+   "wind_speed_100m": 12.19,
+   "wind_direction_100m": 77.0
   },
   {
    "time": "2026-02-10T18:00",
@@ -10253,7 +12113,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9697,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9808
+   "curve": 0.9808,
+   "wind_speed_100m": 13.43,
+   "wind_direction_100m": 76.0
   },
   {
    "time": "2026-02-10T19:00",
@@ -10264,7 +12126,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9697,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9894
+   "curve": 0.9894,
+   "wind_speed_100m": 15.18,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-10T20:00",
@@ -10275,7 +12139,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9036,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 16.21,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-10T21:00",
@@ -10286,7 +12152,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9581,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 16.31,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-10T22:00",
@@ -10297,7 +12165,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9168,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 15.85,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-10T23:00",
@@ -10308,7 +12178,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8024,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9897
+   "curve": 0.9897,
+   "wind_speed_100m": 15.29,
+   "wind_direction_100m": 63.0
   },
   {
    "time": "2026-02-11T00:00",
@@ -10319,7 +12191,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2555,
    "p90": 0.8902,
    "actual": null,
-   "curve": 0.6343
+   "curve": 0.6343,
+   "wind_speed_100m": 8.4,
+   "wind_direction_100m": 73.0
   },
   {
    "time": "2026-02-11T01:00",
@@ -10330,7 +12204,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.069,
    "p90": 0.4741,
    "actual": null,
-   "curve": 0.05
+   "curve": 0.05,
+   "wind_speed_100m": 3.05,
+   "wind_direction_100m": 84.0
   },
   {
    "time": "2026-02-11T02:00",
@@ -10341,7 +12217,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.3205,
    "actual": null,
-   "curve": 0.0172
+   "curve": 0.0172,
+   "wind_speed_100m": 0.83,
+   "wind_direction_100m": 135.0
   },
   {
    "time": "2026-02-11T03:00",
@@ -10352,7 +12230,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.3449,
    "actual": null,
-   "curve": 0.019
+   "curve": 0.019,
+   "wind_speed_100m": 1.1,
+   "wind_direction_100m": 153.0
   },
   {
    "time": "2026-02-11T04:00",
@@ -10363,7 +12243,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0104,
    "p90": 0.4262,
    "actual": null,
-   "curve": 0.0302
+   "curve": 0.0302,
+   "wind_speed_100m": 1.73,
+   "wind_direction_100m": 137.0
   },
   {
    "time": "2026-02-11T05:00",
@@ -10374,7 +12256,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1562,
    "p90": 0.6192,
    "actual": null,
-   "curve": 0.0981
+   "curve": 0.0981,
+   "wind_speed_100m": 3.88,
+   "wind_direction_100m": 111.0
   },
   {
    "time": "2026-02-11T06:00",
@@ -10385,7 +12269,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4694,
    "p90": 0.9407,
    "actual": null,
-   "curve": 0.8537
+   "curve": 0.8537,
+   "wind_speed_100m": 10.09,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-11T07:00",
@@ -10396,7 +12282,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5089,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9393
+   "curve": 0.9393,
+   "wind_speed_100m": 11.86,
+   "wind_direction_100m": 59.0
   },
   {
    "time": "2026-02-11T08:00",
@@ -10407,7 +12295,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2261,
    "p90": 0.9886,
    "actual": null,
-   "curve": 0.6476
+   "curve": 0.6476,
+   "wind_speed_100m": 8.59,
+   "wind_direction_100m": 24.0
   },
   {
    "time": "2026-02-11T09:00",
@@ -10418,7 +12308,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5176,
    "p90": 0.8325,
    "actual": null,
-   "curve": 0.0172
+   "curve": 0.0172,
+   "wind_speed_100m": 0.84,
+   "wind_direction_100m": 21.0
   },
   {
    "time": "2026-02-11T10:00",
@@ -10429,7 +12321,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4018,
    "p90": 0.9547,
    "actual": null,
-   "curve": 0.7785
+   "curve": 0.7785,
+   "wind_speed_100m": 9.47,
+   "wind_direction_100m": 281.0
   },
   {
    "time": "2026-02-11T11:00",
@@ -10440,7 +12334,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7093,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9817
+   "curve": 0.9817,
+   "wind_speed_100m": 13.66,
+   "wind_direction_100m": 259.0
   },
   {
    "time": "2026-02-11T12:00",
@@ -10451,7 +12347,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6902,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 17.07,
+   "wind_direction_100m": 247.0
   },
   {
    "time": "2026-02-11T13:00",
@@ -10462,7 +12360,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7841,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 17.32,
+   "wind_direction_100m": 251.0
   },
   {
    "time": "2026-02-11T14:00",
@@ -10473,7 +12373,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7938,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9891
+   "curve": 0.9891,
+   "wind_speed_100m": 16.05,
+   "wind_direction_100m": 251.0
   },
   {
    "time": "2026-02-11T15:00",
@@ -10484,7 +12386,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9519,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9817
+   "curve": 0.9817,
+   "wind_speed_100m": 13.35,
+   "wind_direction_100m": 252.0
   },
   {
    "time": "2026-02-11T16:00",
@@ -10495,7 +12399,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.902,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9368
+   "curve": 0.9368,
+   "wind_speed_100m": 11.63,
+   "wind_direction_100m": 249.0
   },
   {
    "time": "2026-02-11T17:00",
@@ -10506,7 +12412,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.833,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.901
+   "curve": 0.901,
+   "wind_speed_100m": 11.01,
+   "wind_direction_100m": 246.0
   },
   {
    "time": "2026-02-11T18:00",
@@ -10517,7 +12425,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7384,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.735
+   "curve": 0.735,
+   "wind_speed_100m": 9.03,
+   "wind_direction_100m": 244.0
   },
   {
    "time": "2026-02-11T19:00",
@@ -10528,7 +12438,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6918,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8357
+   "curve": 0.8357,
+   "wind_speed_100m": 9.74,
+   "wind_direction_100m": 246.0
   },
   {
    "time": "2026-02-11T20:00",
@@ -10539,7 +12451,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7582,
    "p90": 0.9962,
    "actual": null,
-   "curve": 0.8295
+   "curve": 0.8295,
+   "wind_speed_100m": 9.69,
+   "wind_direction_100m": 242.0
   },
   {
    "time": "2026-02-11T21:00",
@@ -10550,7 +12464,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7803,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.6577
+   "curve": 0.6577,
+   "wind_speed_100m": 8.51,
+   "wind_direction_100m": 237.0
   },
   {
    "time": "2026-02-11T22:00",
@@ -10561,7 +12477,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.758,
    "p90": 0.9874,
    "actual": null,
-   "curve": 0.5963
+   "curve": 0.5963,
+   "wind_speed_100m": 7.84,
+   "wind_direction_100m": 242.0
   },
   {
    "time": "2026-02-11T23:00",
@@ -10572,7 +12490,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5609,
    "p90": 0.9977,
    "actual": null,
-   "curve": 0.6118
+   "curve": 0.6118,
+   "wind_speed_100m": 8.12,
+   "wind_direction_100m": 247.0
   },
   {
    "time": "2026-02-10T00:00",
@@ -10583,7 +12503,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4091,
    "p90": 0.7584,
    "actual": null,
-   "curve": 0.68
+   "curve": 0.68,
+   "wind_speed_100m": 8.43,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-10T01:00",
@@ -10594,7 +12516,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1747,
    "p90": 0.6828,
    "actual": null,
-   "curve": 0.0083
+   "curve": 0.0083,
+   "wind_speed_100m": 1.18,
+   "wind_direction_100m": 355.0
   },
   {
    "time": "2026-02-10T02:00",
@@ -10605,7 +12529,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2606,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 15.0,
+   "wind_direction_100m": 261.0
   },
   {
    "time": "2026-02-10T03:00",
@@ -10616,7 +12542,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3675,
    "p90": 0.9668,
    "actual": null,
-   "curve": 0.8867
+   "curve": 0.8867,
+   "wind_speed_100m": 10.73,
+   "wind_direction_100m": 261.0
   },
   {
    "time": "2026-02-10T04:00",
@@ -10627,7 +12555,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4063,
    "p90": 0.9899,
    "actual": null,
-   "curve": 0.9273
+   "curve": 0.9273,
+   "wind_speed_100m": 11.58,
+   "wind_direction_100m": 262.0
   },
   {
    "time": "2026-02-10T05:00",
@@ -10638,7 +12568,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4698,
    "p90": 0.9825,
    "actual": null,
-   "curve": 0.9109
+   "curve": 0.9109,
+   "wind_speed_100m": 11.18,
+   "wind_direction_100m": 251.0
   },
   {
    "time": "2026-02-10T06:00",
@@ -10649,7 +12581,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4126,
    "p90": 0.8355,
    "actual": null,
-   "curve": 0.363
+   "curve": 0.363,
+   "wind_speed_100m": 6.43,
+   "wind_direction_100m": 262.0
   },
   {
    "time": "2026-02-10T07:00",
@@ -10660,7 +12594,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.317,
    "p90": 0.9046,
    "actual": null,
-   "curve": 0.5645
+   "curve": 0.5645,
+   "wind_speed_100m": 7.75,
+   "wind_direction_100m": 238.0
   },
   {
    "time": "2026-02-10T08:00",
@@ -10671,7 +12607,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2126,
    "p90": 0.9167,
    "actual": null,
-   "curve": 0.5417
+   "curve": 0.5417,
+   "wind_speed_100m": 7.48,
+   "wind_direction_100m": 238.0
   },
   {
    "time": "2026-02-10T09:00",
@@ -10682,7 +12620,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0973,
    "p90": 0.7892,
    "actual": null,
-   "curve": 0.4034
+   "curve": 0.4034,
+   "wind_speed_100m": 6.75,
+   "wind_direction_100m": 257.0
   },
   {
    "time": "2026-02-10T10:00",
@@ -10693,7 +12633,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1307,
    "p90": 0.6039,
    "actual": null,
-   "curve": 0.2041
+   "curve": 0.2041,
+   "wind_speed_100m": 5.23,
+   "wind_direction_100m": 257.0
   },
   {
    "time": "2026-02-10T11:00",
@@ -10704,7 +12646,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0818,
    "p90": 0.538,
    "actual": null,
-   "curve": 0.1929
+   "curve": 0.1929,
+   "wind_speed_100m": 5.15,
+   "wind_direction_100m": 249.0
   },
   {
    "time": "2026-02-10T12:00",
@@ -10715,7 +12659,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1731,
    "p90": 0.6049,
    "actual": null,
-   "curve": 0.0972
+   "curve": 0.0972,
+   "wind_speed_100m": 4.0,
+   "wind_direction_100m": 239.0
   },
   {
    "time": "2026-02-10T13:00",
@@ -10726,7 +12672,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1559,
    "p90": 0.3976,
    "actual": null,
-   "curve": 0.0686
+   "curve": 0.0686,
+   "wind_speed_100m": 3.51,
+   "wind_direction_100m": 216.0
   },
   {
    "time": "2026-02-10T14:00",
@@ -10737,7 +12685,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2207,
    "p90": 0.5951,
    "actual": null,
-   "curve": 0.0461
+   "curve": 0.0461,
+   "wind_speed_100m": 2.97,
+   "wind_direction_100m": 172.0
   },
   {
    "time": "2026-02-10T15:00",
@@ -10748,7 +12698,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1962,
    "p90": 0.7625,
    "actual": null,
-   "curve": 0.0673
+   "curve": 0.0673,
+   "wind_speed_100m": 3.48,
+   "wind_direction_100m": 122.0
   },
   {
    "time": "2026-02-10T16:00",
@@ -10759,7 +12711,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7897,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.6702
+   "curve": 0.6702,
+   "wind_speed_100m": 8.27,
+   "wind_direction_100m": 85.0
   },
   {
    "time": "2026-02-10T17:00",
@@ -10770,7 +12724,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9101,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.93
+   "curve": 0.93,
+   "wind_speed_100m": 12.19,
+   "wind_direction_100m": 77.0
   },
   {
    "time": "2026-02-10T18:00",
@@ -10781,7 +12737,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9641,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9686
+   "curve": 0.9686,
+   "wind_speed_100m": 13.43,
+   "wind_direction_100m": 76.0
   },
   {
    "time": "2026-02-10T19:00",
@@ -10792,7 +12750,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9641,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 15.18,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-10T20:00",
@@ -10803,7 +12763,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8734,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 16.21,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-10T21:00",
@@ -10814,7 +12776,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9295,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 16.31,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-10T22:00",
@@ -10825,7 +12789,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8882,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 15.85,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-10T23:00",
@@ -10836,7 +12802,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7758,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 15.29,
+   "wind_direction_100m": 63.0
   },
   {
    "time": "2026-02-11T00:00",
@@ -10847,7 +12815,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2641,
    "p90": 0.9037,
    "actual": null,
-   "curve": 0.6416
+   "curve": 0.6416,
+   "wind_speed_100m": 8.4,
+   "wind_direction_100m": 73.0
   },
   {
    "time": "2026-02-11T01:00",
@@ -10858,7 +12828,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0674,
    "p90": 0.4919,
    "actual": null,
-   "curve": 0.0457
+   "curve": 0.0457,
+   "wind_speed_100m": 3.05,
+   "wind_direction_100m": 84.0
   },
   {
    "time": "2026-02-11T02:00",
@@ -10869,7 +12841,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.3255,
    "actual": null,
-   "curve": 0.0183
+   "curve": 0.0183,
+   "wind_speed_100m": 0.83,
+   "wind_direction_100m": 135.0
   },
   {
    "time": "2026-02-11T03:00",
@@ -10880,7 +12854,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.3481,
    "actual": null,
-   "curve": 0.0183
+   "curve": 0.0183,
+   "wind_speed_100m": 1.1,
+   "wind_direction_100m": 153.0
   },
   {
    "time": "2026-02-11T04:00",
@@ -10891,7 +12867,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0162,
    "p90": 0.43,
    "actual": null,
-   "curve": 0.0301
+   "curve": 0.0301,
+   "wind_speed_100m": 1.73,
+   "wind_direction_100m": 137.0
   },
   {
    "time": "2026-02-11T05:00",
@@ -10902,7 +12880,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1564,
    "p90": 0.6183,
    "actual": null,
-   "curve": 0.0933
+   "curve": 0.0933,
+   "wind_speed_100m": 3.88,
+   "wind_direction_100m": 111.0
   },
   {
    "time": "2026-02-11T06:00",
@@ -10913,7 +12893,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4807,
    "p90": 0.9724,
    "actual": null,
-   "curve": 0.8472
+   "curve": 0.8472,
+   "wind_speed_100m": 10.09,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-11T07:00",
@@ -10924,7 +12906,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5078,
    "p90": 0.9966,
    "actual": null,
-   "curve": 0.9323
+   "curve": 0.9323,
+   "wind_speed_100m": 11.86,
+   "wind_direction_100m": 59.0
   },
   {
    "time": "2026-02-11T08:00",
@@ -10935,7 +12919,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2467,
    "p90": 0.9932,
    "actual": null,
-   "curve": 0.649
+   "curve": 0.649,
+   "wind_speed_100m": 8.59,
+   "wind_direction_100m": 24.0
   },
   {
    "time": "2026-02-11T09:00",
@@ -10946,7 +12932,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5238,
    "p90": 0.8375,
    "actual": null,
-   "curve": 0.0183
+   "curve": 0.0183,
+   "wind_speed_100m": 0.84,
+   "wind_direction_100m": 21.0
   },
   {
    "time": "2026-02-11T10:00",
@@ -10957,7 +12945,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4077,
    "p90": 0.9553,
    "actual": null,
-   "curve": 0.7765
+   "curve": 0.7765,
+   "wind_speed_100m": 9.47,
+   "wind_direction_100m": 281.0
   },
   {
    "time": "2026-02-11T11:00",
@@ -10968,7 +12958,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6955,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9667
+   "curve": 0.9667,
+   "wind_speed_100m": 13.66,
+   "wind_direction_100m": 259.0
   },
   {
    "time": "2026-02-11T12:00",
@@ -10979,7 +12971,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7221,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 17.07,
+   "wind_direction_100m": 247.0
   },
   {
    "time": "2026-02-11T13:00",
@@ -10990,7 +12984,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8117,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 17.32,
+   "wind_direction_100m": 251.0
   },
   {
    "time": "2026-02-11T14:00",
@@ -11001,7 +12997,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7936,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 16.05,
+   "wind_direction_100m": 251.0
   },
   {
    "time": "2026-02-11T15:00",
@@ -11012,7 +13010,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9392,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9667
+   "curve": 0.9667,
+   "wind_speed_100m": 13.35,
+   "wind_direction_100m": 252.0
   },
   {
    "time": "2026-02-11T16:00",
@@ -11023,7 +13023,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8954,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9311
+   "curve": 0.9311,
+   "wind_speed_100m": 11.63,
+   "wind_direction_100m": 249.0
   },
   {
    "time": "2026-02-11T17:00",
@@ -11034,7 +13036,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8379,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.906
+   "curve": 0.906,
+   "wind_speed_100m": 11.01,
+   "wind_direction_100m": 246.0
   },
   {
    "time": "2026-02-11T18:00",
@@ -11045,7 +13049,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7346,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.7244
+   "curve": 0.7244,
+   "wind_speed_100m": 9.03,
+   "wind_direction_100m": 244.0
   },
   {
    "time": "2026-02-11T19:00",
@@ -11056,7 +13062,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7001,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8373
+   "curve": 0.8373,
+   "wind_speed_100m": 9.74,
+   "wind_direction_100m": 246.0
   },
   {
    "time": "2026-02-11T20:00",
@@ -11067,7 +13075,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.756,
    "p90": 0.9938,
    "actual": null,
-   "curve": 0.8306
+   "curve": 0.8306,
+   "wind_speed_100m": 9.69,
+   "wind_direction_100m": 242.0
   },
   {
    "time": "2026-02-11T21:00",
@@ -11078,7 +13088,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7841,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.6545
+   "curve": 0.6545,
+   "wind_speed_100m": 8.51,
+   "wind_direction_100m": 237.0
   },
   {
    "time": "2026-02-11T22:00",
@@ -11089,7 +13101,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.759,
    "p90": 0.981,
    "actual": null,
-   "curve": 0.5904
+   "curve": 0.5904,
+   "wind_speed_100m": 7.84,
+   "wind_direction_100m": 242.0
   },
   {
    "time": "2026-02-11T23:00",
@@ -11100,7 +13114,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5755,
    "p90": 0.9916,
    "actual": null,
-   "curve": 0.6195
+   "curve": 0.6195,
+   "wind_speed_100m": 8.12,
+   "wind_direction_100m": 247.0
   },
   {
    "time": "2026-02-11T00:00",
@@ -11111,7 +13127,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4747,
    "p90": 0.9017,
    "actual": null,
-   "curve": 0.8533
+   "curve": 0.8533,
+   "wind_speed_100m": 9.34,
+   "wind_direction_100m": 62.0
   },
   {
    "time": "2026-02-11T01:00",
@@ -11122,7 +13140,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0196,
    "p90": 0.5159,
    "actual": null,
-   "curve": 0.0158
+   "curve": 0.0158,
+   "wind_speed_100m": 1.81,
+   "wind_direction_100m": 131.0
   },
   {
    "time": "2026-02-11T02:00",
@@ -11133,7 +13153,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.4333,
    "actual": null,
-   "curve": 0.0141
+   "curve": 0.0141,
+   "wind_speed_100m": 1.67,
+   "wind_direction_100m": 230.0
   },
   {
    "time": "2026-02-11T03:00",
@@ -11144,7 +13166,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.4286,
    "actual": null,
-   "curve": 0.0152
+   "curve": 0.0152,
+   "wind_speed_100m": 1.77,
+   "wind_direction_100m": 177.0
   },
   {
    "time": "2026-02-11T04:00",
@@ -11155,7 +13179,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0002,
    "p90": 0.4567,
    "actual": null,
-   "curve": 0.0208
+   "curve": 0.0208,
+   "wind_speed_100m": 2.15,
+   "wind_direction_100m": 114.0
   },
   {
    "time": "2026-02-11T05:00",
@@ -11166,7 +13192,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2208,
    "p90": 0.6151,
    "actual": null,
-   "curve": 0.1467
+   "curve": 0.1467,
+   "wind_speed_100m": 4.71,
+   "wind_direction_100m": 73.0
   },
   {
    "time": "2026-02-11T06:00",
@@ -11177,7 +13205,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3667,
    "p90": 0.8893,
    "actual": null,
-   "curve": 0.5403
+   "curve": 0.5403,
+   "wind_speed_100m": 7.33,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-11T07:00",
@@ -11188,7 +13218,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1852,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.6323
+   "curve": 0.6323,
+   "wind_speed_100m": 8.11,
+   "wind_direction_100m": 45.0
   },
   {
    "time": "2026-02-11T08:00",
@@ -11199,7 +13231,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3933,
    "p90": 0.9486,
    "actual": null,
-   "curve": 0.3779
+   "curve": 0.3779,
+   "wind_speed_100m": 6.4,
+   "wind_direction_100m": 40.0
   },
   {
    "time": "2026-02-11T09:00",
@@ -11210,7 +13244,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.316,
    "p90": 0.8383,
    "actual": null,
-   "curve": 0.0116
+   "curve": 0.0116,
+   "wind_speed_100m": 1.43,
+   "wind_direction_100m": 16.0
   },
   {
    "time": "2026-02-11T10:00",
@@ -11221,7 +13257,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3708,
    "p90": 0.9407,
    "actual": null,
-   "curve": 0.8533
+   "curve": 0.8533,
+   "wind_speed_100m": 9.5,
+   "wind_direction_100m": 271.0
   },
   {
    "time": "2026-02-11T11:00",
@@ -11232,7 +13270,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5489,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9246
+   "curve": 0.9246,
+   "wind_speed_100m": 12.08,
+   "wind_direction_100m": 266.0
   },
   {
    "time": "2026-02-11T12:00",
@@ -11243,7 +13283,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7044,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9884
+   "curve": 0.9884,
+   "wind_speed_100m": 14.9,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-11T13:00",
@@ -11254,7 +13296,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7112,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 17.29,
+   "wind_direction_100m": 250.0
   },
   {
    "time": "2026-02-11T14:00",
@@ -11265,7 +13309,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8083,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 17.32,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-11T15:00",
@@ -11276,7 +13322,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8856,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 16.07,
+   "wind_direction_100m": 249.0
   },
   {
    "time": "2026-02-11T16:00",
@@ -11287,7 +13335,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8774,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9883
+   "curve": 0.9883,
+   "wind_speed_100m": 14.47,
+   "wind_direction_100m": 251.0
   },
   {
    "time": "2026-02-11T17:00",
@@ -11298,7 +13348,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8212,
    "p90": 0.9973,
    "actual": null,
-   "curve": 0.954
+   "curve": 0.954,
+   "wind_speed_100m": 12.67,
+   "wind_direction_100m": 252.0
   },
   {
    "time": "2026-02-11T18:00",
@@ -11309,7 +13361,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5034,
    "p90": 0.9512,
    "actual": null,
-   "curve": 0.4441
+   "curve": 0.4441,
+   "wind_speed_100m": 6.82,
+   "wind_direction_100m": 238.0
   },
   {
    "time": "2026-02-11T19:00",
@@ -11320,7 +13374,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5908,
    "p90": 0.9701,
    "actual": null,
-   "curve": 0.4258
+   "curve": 0.4258,
+   "wind_speed_100m": 6.71,
+   "wind_direction_100m": 241.0
   },
   {
    "time": "2026-02-11T20:00",
@@ -11331,7 +13387,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6289,
    "p90": 0.9989,
    "actual": null,
-   "curve": 0.5673
+   "curve": 0.5673,
+   "wind_speed_100m": 7.54,
+   "wind_direction_100m": 244.0
   },
   {
    "time": "2026-02-11T21:00",
@@ -11342,7 +13400,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5705,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.5457
+   "curve": 0.5457,
+   "wind_speed_100m": 7.27,
+   "wind_direction_100m": 243.0
   },
   {
    "time": "2026-02-11T22:00",
@@ -11353,7 +13413,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.519,
    "p90": 0.9737,
    "actual": null,
-   "curve": 0.4986
+   "curve": 0.4986,
+   "wind_speed_100m": 7.06,
+   "wind_direction_100m": 245.0
   },
   {
    "time": "2026-02-11T23:00",
@@ -11364,7 +13426,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5505,
    "p90": 0.9429,
    "actual": null,
-   "curve": 0.5415
+   "curve": 0.5415,
+   "wind_speed_100m": 7.25,
+   "wind_direction_100m": 251.0
   },
   {
    "time": "2026-02-12T00:00",
@@ -11375,7 +13439,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4456,
    "p90": 0.8347,
    "actual": null,
-   "curve": 0.5316
+   "curve": 0.5316,
+   "wind_speed_100m": 7.38,
+   "wind_direction_100m": 240.0
   },
   {
    "time": "2026-02-12T01:00",
@@ -11386,7 +13452,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.265,
    "p90": 0.7543,
    "actual": null,
-   "curve": 0.2855
+   "curve": 0.2855,
+   "wind_speed_100m": 6.0,
+   "wind_direction_100m": 244.0
   },
   {
    "time": "2026-02-12T02:00",
@@ -11397,7 +13465,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1333,
    "p90": 0.558,
    "actual": null,
-   "curve": 0.1557
+   "curve": 0.1557,
+   "wind_speed_100m": 4.7,
+   "wind_direction_100m": 247.0
   },
   {
    "time": "2026-02-12T03:00",
@@ -11408,7 +13478,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0858,
    "p90": 0.4667,
    "actual": null,
-   "curve": 0.0873
+   "curve": 0.0873,
+   "wind_speed_100m": 3.64,
+   "wind_direction_100m": 246.0
   },
   {
    "time": "2026-02-12T04:00",
@@ -11419,7 +13491,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.3572,
    "actual": null,
-   "curve": 0.0463
+   "curve": 0.0463,
+   "wind_speed_100m": 2.88,
+   "wind_direction_100m": 252.0
   },
   {
    "time": "2026-02-12T05:00",
@@ -11430,7 +13504,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.3603,
    "actual": null,
-   "curve": 0.0269
+   "curve": 0.0269,
+   "wind_speed_100m": 1.57,
+   "wind_direction_100m": 270.0
   },
   {
    "time": "2026-02-12T06:00",
@@ -11441,7 +13517,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.1712,
    "actual": null,
-   "curve": 0.0172
+   "curve": 0.0172,
+   "wind_speed_100m": 0.83,
+   "wind_direction_100m": 315.0
   },
   {
    "time": "2026-02-12T07:00",
@@ -11452,7 +13530,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.1357,
    "actual": null,
-   "curve": 0.0193
+   "curve": 0.0193,
+   "wind_speed_100m": 1.15,
+   "wind_direction_100m": 290.0
   },
   {
    "time": "2026-02-12T08:00",
@@ -11463,7 +13543,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2162,
    "actual": null,
-   "curve": 0.0249
+   "curve": 0.0249,
+   "wind_speed_100m": 1.48,
+   "wind_direction_100m": 278.0
   },
   {
    "time": "2026-02-12T09:00",
@@ -11474,7 +13556,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.1955,
    "actual": null,
-   "curve": 0.0311
+   "curve": 0.0311,
+   "wind_speed_100m": 1.89,
+   "wind_direction_100m": 291.0
   },
   {
    "time": "2026-02-12T10:00",
@@ -11485,7 +13569,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2684,
    "actual": null,
-   "curve": 0.0314
+   "curve": 0.0314,
+   "wind_speed_100m": 2.07,
+   "wind_direction_100m": 301.0
   },
   {
    "time": "2026-02-12T11:00",
@@ -11496,7 +13582,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0041,
    "p90": 0.2482,
    "actual": null,
-   "curve": 0.0447
+   "curve": 0.0447,
+   "wind_speed_100m": 2.82,
+   "wind_direction_100m": 290.0
   },
   {
    "time": "2026-02-12T12:00",
@@ -11507,7 +13595,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.3208,
    "actual": null,
-   "curve": 0.0536
+   "curve": 0.0536,
+   "wind_speed_100m": 3.19,
+   "wind_direction_100m": 259.0
   },
   {
    "time": "2026-02-12T13:00",
@@ -11518,7 +13608,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0096,
    "p90": 0.5556,
    "actual": null,
-   "curve": 0.0326
+   "curve": 0.0326,
+   "wind_speed_100m": 2.29,
+   "wind_direction_100m": 250.0
   },
   {
    "time": "2026-02-12T14:00",
@@ -11529,7 +13621,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0448,
    "p90": 0.5863,
    "actual": null,
-   "curve": 0.08
+   "curve": 0.08,
+   "wind_speed_100m": 3.55,
+   "wind_direction_100m": 276.0
   },
   {
    "time": "2026-02-12T15:00",
@@ -11540,7 +13634,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1147,
    "p90": 0.6268,
    "actual": null,
-   "curve": 0.1855
+   "curve": 0.1855,
+   "wind_speed_100m": 4.97,
+   "wind_direction_100m": 255.0
   },
   {
    "time": "2026-02-12T16:00",
@@ -11551,7 +13647,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2377,
    "p90": 0.7707,
    "actual": null,
-   "curve": 0.5896
+   "curve": 0.5896,
+   "wind_speed_100m": 7.73,
+   "wind_direction_100m": 258.0
   },
   {
    "time": "2026-02-12T17:00",
@@ -11562,7 +13660,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1679,
    "p90": 0.7428,
    "actual": null,
-   "curve": 0.7287
+   "curve": 0.7287,
+   "wind_speed_100m": 8.96,
+   "wind_direction_100m": 254.0
   },
   {
    "time": "2026-02-12T18:00",
@@ -11573,7 +13673,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.205,
    "p90": 0.8257,
    "actual": null,
-   "curve": 0.6062
+   "curve": 0.6062,
+   "wind_speed_100m": 8.02,
+   "wind_direction_100m": 242.0
   },
   {
    "time": "2026-02-12T19:00",
@@ -11584,7 +13686,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2641,
    "p90": 0.8067,
    "actual": null,
-   "curve": 0.612
+   "curve": 0.612,
+   "wind_speed_100m": 8.12,
+   "wind_direction_100m": 250.0
   },
   {
    "time": "2026-02-12T20:00",
@@ -11595,7 +13699,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1483,
    "p90": 0.7492,
    "actual": null,
-   "curve": 0.6002
+   "curve": 0.6002,
+   "wind_speed_100m": 7.9,
+   "wind_direction_100m": 253.0
   },
   {
    "time": "2026-02-12T21:00",
@@ -11606,7 +13712,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1097,
    "p90": 0.6217,
    "actual": null,
-   "curve": 0.4662
+   "curve": 0.4662,
+   "wind_speed_100m": 6.93,
+   "wind_direction_100m": 245.0
   },
   {
    "time": "2026-02-12T22:00",
@@ -11617,7 +13725,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.4299,
    "actual": null,
-   "curve": 0.249
+   "curve": 0.249,
+   "wind_speed_100m": 5.57,
+   "wind_direction_100m": 242.0
   },
   {
    "time": "2026-02-12T23:00",
@@ -11628,7 +13738,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0139,
    "p90": 0.3703,
    "actual": null,
-   "curve": 0.1765
+   "curve": 0.1765,
+   "wind_speed_100m": 4.88,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-11T00:00",
@@ -11639,7 +13751,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4797,
    "p90": 0.9198,
    "actual": null,
-   "curve": 0.8517
+   "curve": 0.8517,
+   "wind_speed_100m": 9.34,
+   "wind_direction_100m": 62.0
   },
   {
    "time": "2026-02-11T01:00",
@@ -11650,7 +13764,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0254,
    "p90": 0.5213,
    "actual": null,
-   "curve": 0.0157
+   "curve": 0.0157,
+   "wind_speed_100m": 1.81,
+   "wind_direction_100m": 131.0
   },
   {
    "time": "2026-02-11T02:00",
@@ -11661,7 +13777,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.4386,
    "actual": null,
-   "curve": 0.0139
+   "curve": 0.0139,
+   "wind_speed_100m": 1.67,
+   "wind_direction_100m": 230.0
   },
   {
    "time": "2026-02-11T03:00",
@@ -11672,7 +13790,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.4341,
    "actual": null,
-   "curve": 0.0152
+   "curve": 0.0152,
+   "wind_speed_100m": 1.77,
+   "wind_direction_100m": 177.0
   },
   {
    "time": "2026-02-11T04:00",
@@ -11683,7 +13803,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0054,
    "p90": 0.4606,
    "actual": null,
-   "curve": 0.0202
+   "curve": 0.0202,
+   "wind_speed_100m": 2.15,
+   "wind_direction_100m": 114.0
   },
   {
    "time": "2026-02-11T05:00",
@@ -11694,7 +13816,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2196,
    "p90": 0.6127,
    "actual": null,
-   "curve": 0.1388
+   "curve": 0.1388,
+   "wind_speed_100m": 4.71,
+   "wind_direction_100m": 73.0
   },
   {
    "time": "2026-02-11T06:00",
@@ -11705,7 +13829,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3659,
    "p90": 0.8834,
    "actual": null,
-   "curve": 0.5278
+   "curve": 0.5278,
+   "wind_speed_100m": 7.33,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-11T07:00",
@@ -11716,7 +13842,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2157,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.6233
+   "curve": 0.6233,
+   "wind_speed_100m": 8.11,
+   "wind_direction_100m": 45.0
   },
   {
    "time": "2026-02-11T08:00",
@@ -11727,7 +13855,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4451,
    "p90": 0.9334,
    "actual": null,
-   "curve": 0.3571
+   "curve": 0.3571,
+   "wind_speed_100m": 6.4,
+   "wind_direction_100m": 40.0
   },
   {
    "time": "2026-02-11T09:00",
@@ -11738,7 +13868,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3325,
    "p90": 0.8405,
    "actual": null,
-   "curve": 0.0104
+   "curve": 0.0104,
+   "wind_speed_100m": 1.43,
+   "wind_direction_100m": 16.0
   },
   {
    "time": "2026-02-11T10:00",
@@ -11749,7 +13881,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3832,
    "p90": 0.9629,
    "actual": null,
-   "curve": 0.8517
+   "curve": 0.8517,
+   "wind_speed_100m": 9.5,
+   "wind_direction_100m": 271.0
   },
   {
    "time": "2026-02-11T11:00",
@@ -11760,7 +13894,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5558,
    "p90": 0.9905,
    "actual": null,
-   "curve": 0.93
+   "curve": 0.93,
+   "wind_speed_100m": 12.08,
+   "wind_direction_100m": 266.0
   },
   {
    "time": "2026-02-11T12:00",
@@ -11771,7 +13907,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7109,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 14.9,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-11T13:00",
@@ -11782,7 +13920,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7085,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9707
+   "curve": 0.9707,
+   "wind_speed_100m": 17.29,
+   "wind_direction_100m": 250.0
   },
   {
    "time": "2026-02-11T14:00",
@@ -11793,7 +13933,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8094,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9708
+   "curve": 0.9708,
+   "wind_speed_100m": 17.32,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-11T15:00",
@@ -11804,7 +13946,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8682,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 16.07,
+   "wind_direction_100m": 249.0
   },
   {
    "time": "2026-02-11T16:00",
@@ -11815,7 +13959,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.863,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 14.47,
+   "wind_direction_100m": 251.0
   },
   {
    "time": "2026-02-11T17:00",
@@ -11826,7 +13972,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8166,
    "p90": 0.9956,
    "actual": null,
-   "curve": 0.9425
+   "curve": 0.9425,
+   "wind_speed_100m": 12.67,
+   "wind_direction_100m": 252.0
   },
   {
    "time": "2026-02-11T18:00",
@@ -11837,7 +13985,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.485,
    "p90": 0.9537,
    "actual": null,
-   "curve": 0.4308
+   "curve": 0.4308,
+   "wind_speed_100m": 6.82,
+   "wind_direction_100m": 238.0
   },
   {
    "time": "2026-02-11T19:00",
@@ -11848,7 +13998,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5833,
    "p90": 0.9594,
    "actual": null,
-   "curve": 0.4114
+   "curve": 0.4114,
+   "wind_speed_100m": 6.71,
+   "wind_direction_100m": 241.0
   },
   {
    "time": "2026-02-11T20:00",
@@ -11859,7 +14011,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.624,
    "p90": 0.9902,
    "actual": null,
-   "curve": 0.5548
+   "curve": 0.5548,
+   "wind_speed_100m": 7.54,
+   "wind_direction_100m": 244.0
   },
   {
    "time": "2026-02-11T21:00",
@@ -11870,7 +14024,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5652,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.5332
+   "curve": 0.5332,
+   "wind_speed_100m": 7.27,
+   "wind_direction_100m": 243.0
   },
   {
    "time": "2026-02-11T22:00",
@@ -11881,7 +14037,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.513,
    "p90": 0.9653,
    "actual": null,
-   "curve": 0.4857
+   "curve": 0.4857,
+   "wind_speed_100m": 7.06,
+   "wind_direction_100m": 245.0
   },
   {
    "time": "2026-02-11T23:00",
@@ -11892,7 +14050,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5462,
    "p90": 0.958,
    "actual": null,
-   "curve": 0.529
+   "curve": 0.529,
+   "wind_speed_100m": 7.25,
+   "wind_direction_100m": 251.0
   },
   {
    "time": "2026-02-12T00:00",
@@ -11903,7 +14063,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4402,
    "p90": 0.8438,
    "actual": null,
-   "curve": 0.5191
+   "curve": 0.5191,
+   "wind_speed_100m": 7.38,
+   "wind_direction_100m": 240.0
   },
   {
    "time": "2026-02-12T01:00",
@@ -11914,7 +14076,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2687,
    "p90": 0.754,
    "actual": null,
-   "curve": 0.2813
+   "curve": 0.2813,
+   "wind_speed_100m": 6.0,
+   "wind_direction_100m": 244.0
   },
   {
    "time": "2026-02-12T02:00",
@@ -11925,7 +14089,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1322,
    "p90": 0.5555,
    "actual": null,
-   "curve": 0.1494
+   "curve": 0.1494,
+   "wind_speed_100m": 4.7,
+   "wind_direction_100m": 247.0
   },
   {
    "time": "2026-02-12T03:00",
@@ -11936,7 +14102,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0866,
    "p90": 0.4656,
    "actual": null,
-   "curve": 0.0823
+   "curve": 0.0823,
+   "wind_speed_100m": 3.64,
+   "wind_direction_100m": 246.0
   },
   {
    "time": "2026-02-12T04:00",
@@ -11947,7 +14115,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.3573,
    "actual": null,
-   "curve": 0.0425
+   "curve": 0.0425,
+   "wind_speed_100m": 2.88,
+   "wind_direction_100m": 252.0
   },
   {
    "time": "2026-02-12T05:00",
@@ -11958,7 +14128,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.3635,
    "actual": null,
-   "curve": 0.0263
+   "curve": 0.0263,
+   "wind_speed_100m": 1.57,
+   "wind_direction_100m": 270.0
   },
   {
    "time": "2026-02-12T06:00",
@@ -11969,7 +14141,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.1762,
    "actual": null,
-   "curve": 0.0183
+   "curve": 0.0183,
+   "wind_speed_100m": 0.83,
+   "wind_direction_100m": 315.0
   },
   {
    "time": "2026-02-12T07:00",
@@ -11980,7 +14154,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.1386,
    "actual": null,
-   "curve": 0.0183
+   "curve": 0.0183,
+   "wind_speed_100m": 1.15,
+   "wind_direction_100m": 290.0
   },
   {
    "time": "2026-02-12T08:00",
@@ -11991,7 +14167,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2192,
    "actual": null,
-   "curve": 0.0239
+   "curve": 0.0239,
+   "wind_speed_100m": 1.48,
+   "wind_direction_100m": 278.0
   },
   {
    "time": "2026-02-12T09:00",
@@ -12002,7 +14180,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.1991,
    "actual": null,
-   "curve": 0.0308
+   "curve": 0.0308,
+   "wind_speed_100m": 1.89,
+   "wind_direction_100m": 291.0
   },
   {
    "time": "2026-02-12T10:00",
@@ -12013,7 +14193,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2717,
    "actual": null,
-   "curve": 0.0308
+   "curve": 0.0308,
+   "wind_speed_100m": 2.07,
+   "wind_direction_100m": 301.0
   },
   {
    "time": "2026-02-12T11:00",
@@ -12024,7 +14206,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0074,
    "p90": 0.2485,
    "actual": null,
-   "curve": 0.0412
+   "curve": 0.0412,
+   "wind_speed_100m": 2.82,
+   "wind_direction_100m": 290.0
   },
   {
    "time": "2026-02-12T12:00",
@@ -12035,7 +14219,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.3199,
    "actual": null,
-   "curve": 0.0488
+   "curve": 0.0488,
+   "wind_speed_100m": 3.19,
+   "wind_direction_100m": 259.0
   },
   {
    "time": "2026-02-12T13:00",
@@ -12046,7 +14232,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0144,
    "p90": 0.5584,
    "actual": null,
-   "curve": 0.0315
+   "curve": 0.0315,
+   "wind_speed_100m": 2.29,
+   "wind_direction_100m": 250.0
   },
   {
    "time": "2026-02-12T14:00",
@@ -12057,7 +14245,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0457,
    "p90": 0.5852,
    "actual": null,
-   "curve": 0.075
+   "curve": 0.075,
+   "wind_speed_100m": 3.55,
+   "wind_direction_100m": 276.0
   },
   {
    "time": "2026-02-12T15:00",
@@ -12068,7 +14258,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1146,
    "p90": 0.6201,
    "actual": null,
-   "curve": 0.177
+   "curve": 0.177,
+   "wind_speed_100m": 4.97,
+   "wind_direction_100m": 255.0
   },
   {
    "time": "2026-02-12T16:00",
@@ -12079,7 +14271,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2368,
    "p90": 0.7647,
    "actual": null,
-   "curve": 0.5795
+   "curve": 0.5795,
+   "wind_speed_100m": 7.73,
+   "wind_direction_100m": 258.0
   },
   {
    "time": "2026-02-12T17:00",
@@ -12090,7 +14284,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1619,
    "p90": 0.7361,
    "actual": null,
-   "curve": 0.7165
+   "curve": 0.7165,
+   "wind_speed_100m": 8.96,
+   "wind_direction_100m": 254.0
   },
   {
    "time": "2026-02-12T18:00",
@@ -12101,7 +14297,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2147,
    "p90": 0.8349,
    "actual": null,
-   "curve": 0.609
+   "curve": 0.609,
+   "wind_speed_100m": 8.02,
+   "wind_direction_100m": 242.0
   },
   {
    "time": "2026-02-12T19:00",
@@ -12112,7 +14310,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2789,
    "p90": 0.8211,
    "actual": null,
-   "curve": 0.6198
+   "curve": 0.6198,
+   "wind_speed_100m": 8.12,
+   "wind_direction_100m": 250.0
   },
   {
    "time": "2026-02-12T20:00",
@@ -12123,7 +14323,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1519,
    "p90": 0.7497,
    "actual": null,
-   "curve": 0.5976
+   "curve": 0.5976,
+   "wind_speed_100m": 7.9,
+   "wind_direction_100m": 253.0
   },
   {
    "time": "2026-02-12T21:00",
@@ -12134,7 +14336,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.101,
    "p90": 0.6107,
    "actual": null,
-   "curve": 0.4513
+   "curve": 0.4513,
+   "wind_speed_100m": 6.93,
+   "wind_direction_100m": 245.0
   },
   {
    "time": "2026-02-12T22:00",
@@ -12145,7 +14349,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.4267,
    "actual": null,
-   "curve": 0.2419
+   "curve": 0.2419,
+   "wind_speed_100m": 5.57,
+   "wind_direction_100m": 242.0
   },
   {
    "time": "2026-02-12T23:00",
@@ -12156,7 +14362,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0117,
    "p90": 0.3663,
    "actual": null,
-   "curve": 0.1687
+   "curve": 0.1687,
+   "wind_speed_100m": 4.88,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-12T00:00",
@@ -12167,7 +14375,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0411,
    "p90": 0.3442,
    "actual": null,
-   "curve": 0.071
+   "curve": 0.071,
+   "wind_speed_100m": 3.43,
+   "wind_direction_100m": 239.0
   },
   {
    "time": "2026-02-12T01:00",
@@ -12178,7 +14388,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0131,
    "p90": 0.2048,
    "actual": null,
-   "curve": 0.0419
+   "curve": 0.0419,
+   "wind_speed_100m": 2.72,
+   "wind_direction_100m": 232.0
   },
   {
    "time": "2026-02-12T02:00",
@@ -12189,7 +14401,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.1122,
    "actual": null,
-   "curve": 0.0215
+   "curve": 0.0215,
+   "wind_speed_100m": 2.19,
+   "wind_direction_100m": 243.0
   },
   {
    "time": "2026-02-12T03:00",
@@ -12200,7 +14414,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.0477,
    "actual": null,
-   "curve": 0.0106
+   "curve": 0.0106,
+   "wind_speed_100m": 1.31,
+   "wind_direction_100m": 283.0
   },
   {
    "time": "2026-02-12T04:00",
@@ -12211,7 +14427,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.0303,
    "actual": null,
-   "curve": 0.01
+   "curve": 0.01,
+   "wind_speed_100m": 0.81,
+   "wind_direction_100m": 346.0
   },
   {
    "time": "2026-02-12T05:00",
@@ -12222,7 +14440,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2722,
    "actual": null,
-   "curve": 0.013
+   "curve": 0.013,
+   "wind_speed_100m": 1.55,
+   "wind_direction_100m": 55.0
   },
   {
    "time": "2026-02-12T06:00",
@@ -12233,7 +14453,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1167,
    "p90": 0.6793,
    "actual": null,
-   "curve": 0.4273
+   "curve": 0.4273,
+   "wind_speed_100m": 6.74,
+   "wind_direction_100m": 57.0
   },
   {
    "time": "2026-02-12T07:00",
@@ -12244,7 +14466,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1988,
    "p90": 0.8418,
    "actual": null,
-   "curve": 0.5958
+   "curve": 0.5958,
+   "wind_speed_100m": 7.85,
+   "wind_direction_100m": 61.0
   },
   {
    "time": "2026-02-12T08:00",
@@ -12255,7 +14479,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2636,
    "p90": 0.8667,
    "actual": null,
-   "curve": 0.5748
+   "curve": 0.5748,
+   "wind_speed_100m": 7.67,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-12T09:00",
@@ -12266,7 +14492,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2494,
    "p90": 0.9173,
    "actual": null,
-   "curve": 0.5288
+   "curve": 0.5288,
+   "wind_speed_100m": 7.23,
+   "wind_direction_100m": 54.0
   },
   {
    "time": "2026-02-12T10:00",
@@ -12277,7 +14505,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2641,
    "p90": 0.864,
    "actual": null,
-   "curve": 0.4046
+   "curve": 0.4046,
+   "wind_speed_100m": 6.57,
+   "wind_direction_100m": 63.0
   },
   {
    "time": "2026-02-12T11:00",
@@ -12288,7 +14518,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2439,
    "p90": 0.7637,
    "actual": null,
-   "curve": 0.2875
+   "curve": 0.2875,
+   "wind_speed_100m": 5.87,
+   "wind_direction_100m": 57.0
   },
   {
    "time": "2026-02-12T12:00",
@@ -12299,7 +14531,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2024,
    "p90": 0.6605,
    "actual": null,
-   "curve": 0.0343
+   "curve": 0.0343,
+   "wind_speed_100m": 2.55,
+   "wind_direction_100m": 356.0
   },
   {
    "time": "2026-02-12T13:00",
@@ -12310,7 +14544,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1282,
    "p90": 0.619,
    "actual": null,
-   "curve": 0.2463
+   "curve": 0.2463,
+   "wind_speed_100m": 5.43,
+   "wind_direction_100m": 277.0
   },
   {
    "time": "2026-02-12T14:00",
@@ -12321,7 +14557,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3575,
    "p90": 0.9028,
    "actual": null,
-   "curve": 0.685
+   "curve": 0.685,
+   "wind_speed_100m": 8.62,
+   "wind_direction_100m": 262.0
   },
   {
    "time": "2026-02-12T15:00",
@@ -12332,7 +14570,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2969,
    "p90": 0.7592,
    "actual": null,
-   "curve": 0.5657
+   "curve": 0.5657,
+   "wind_speed_100m": 7.51,
+   "wind_direction_100m": 255.0
   },
   {
    "time": "2026-02-12T16:00",
@@ -12343,7 +14583,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1813,
    "p90": 0.6901,
    "actual": null,
-   "curve": 0.3841
+   "curve": 0.3841,
+   "wind_speed_100m": 6.36,
+   "wind_direction_100m": 241.0
   },
   {
    "time": "2026-02-12T17:00",
@@ -12354,7 +14596,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0512,
    "p90": 0.5614,
    "actual": null,
-   "curve": 0.2336
+   "curve": 0.2336,
+   "wind_speed_100m": 5.26,
+   "wind_direction_100m": 241.0
   },
   {
    "time": "2026-02-12T18:00",
@@ -12365,7 +14609,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.1988,
    "actual": null,
-   "curve": 0.0213
+   "curve": 0.0213,
+   "wind_speed_100m": 2.17,
+   "wind_direction_100m": 252.0
   },
   {
    "time": "2026-02-12T19:00",
@@ -12376,7 +14622,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.122,
    "actual": null,
-   "curve": 0.0108
+   "curve": 0.0108,
+   "wind_speed_100m": 1.33,
+   "wind_direction_100m": 343.0
   },
   {
    "time": "2026-02-12T20:00",
@@ -12387,7 +14635,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.1981,
    "actual": null,
-   "curve": 0.01
+   "curve": 0.01,
+   "wind_speed_100m": 1.23,
+   "wind_direction_100m": 29.0
   },
   {
    "time": "2026-02-12T21:00",
@@ -12398,7 +14648,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2863,
    "actual": null,
-   "curve": 0.0095
+   "curve": 0.0095,
+   "wind_speed_100m": 0.71,
+   "wind_direction_100m": 326.0
   },
   {
    "time": "2026-02-12T22:00",
@@ -12409,7 +14661,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.0778,
    "actual": null,
-   "curve": 0.01
+   "curve": 0.01,
+   "wind_speed_100m": 0.89,
+   "wind_direction_100m": 264.0
   },
   {
    "time": "2026-02-12T23:00",
@@ -12420,7 +14674,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.0303,
    "actual": null,
-   "curve": 0.0083
+   "curve": 0.0083,
+   "wind_speed_100m": 0.62,
+   "wind_direction_100m": 252.0
   },
   {
    "time": "2026-02-13T00:00",
@@ -12431,7 +14687,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2683,
    "actual": null,
-   "curve": 0.0967
+   "curve": 0.0967,
+   "wind_speed_100m": 3.75,
+   "wind_direction_100m": 250.0
   },
   {
    "time": "2026-02-13T01:00",
@@ -12442,7 +14700,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.207,
    "actual": null,
-   "curve": 0.0561
+   "curve": 0.0561,
+   "wind_speed_100m": 3.26,
+   "wind_direction_100m": 249.0
   },
   {
    "time": "2026-02-13T02:00",
@@ -12453,7 +14713,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2215,
    "actual": null,
-   "curve": 0.053
+   "curve": 0.053,
+   "wind_speed_100m": 3.16,
+   "wind_direction_100m": 254.0
   },
   {
    "time": "2026-02-13T03:00",
@@ -12464,7 +14726,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.247,
    "actual": null,
-   "curve": 0.0439
+   "curve": 0.0439,
+   "wind_speed_100m": 2.77,
+   "wind_direction_100m": 262.0
   },
   {
    "time": "2026-02-13T04:00",
@@ -12475,7 +14739,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2019,
    "actual": null,
-   "curve": 0.0479
+   "curve": 0.0479,
+   "wind_speed_100m": 2.94,
+   "wind_direction_100m": 268.0
   },
   {
    "time": "2026-02-13T05:00",
@@ -12486,7 +14752,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.1839,
    "actual": null,
-   "curve": 0.0311
+   "curve": 0.0311,
+   "wind_speed_100m": 1.88,
+   "wind_direction_100m": 279.0
   },
   {
    "time": "2026-02-13T06:00",
@@ -12497,7 +14765,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.1521,
    "actual": null,
-   "curve": 0.0182
+   "curve": 0.0182,
+   "wind_speed_100m": 0.98,
+   "wind_direction_100m": 307.0
   },
   {
    "time": "2026-02-13T07:00",
@@ -12508,7 +14778,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.0541,
    "actual": null,
-   "curve": 0.0197
+   "curve": 0.0197,
+   "wind_speed_100m": 1.21,
+   "wind_direction_100m": 346.0
   },
   {
    "time": "2026-02-13T08:00",
@@ -12519,7 +14791,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.1743,
    "actual": null,
-   "curve": 0.0183
+   "curve": 0.0183,
+   "wind_speed_100m": 1.0,
+   "wind_direction_100m": 349.0
   },
   {
    "time": "2026-02-13T09:00",
@@ -12530,7 +14804,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.1485,
    "actual": null,
-   "curve": 0.0178
+   "curve": 0.0178,
+   "wind_speed_100m": 0.93,
+   "wind_direction_100m": 18.0
   },
   {
    "time": "2026-02-13T10:00",
@@ -12541,7 +14817,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2638,
    "actual": null,
-   "curve": 0.0196
+   "curve": 0.0196,
+   "wind_speed_100m": 1.2,
+   "wind_direction_100m": 35.0
   },
   {
    "time": "2026-02-13T11:00",
@@ -12552,7 +14830,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.1878,
    "actual": null,
-   "curve": 0.0196
+   "curve": 0.0196,
+   "wind_speed_100m": 1.19,
+   "wind_direction_100m": 9.0
   },
   {
    "time": "2026-02-13T12:00",
@@ -12563,7 +14843,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.3301,
    "actual": null,
-   "curve": 0.0177
+   "curve": 0.0177,
+   "wind_speed_100m": 0.9,
+   "wind_direction_100m": 319.0
   },
   {
    "time": "2026-02-13T13:00",
@@ -12574,7 +14856,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.3881,
    "actual": null,
-   "curve": 0.0159
+   "curve": 0.0159,
+   "wind_speed_100m": 0.63,
+   "wind_direction_100m": 51.0
   },
   {
    "time": "2026-02-13T14:00",
@@ -12585,7 +14869,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0154,
    "p90": 0.6517,
    "actual": null,
-   "curve": 0.0175
+   "curve": 0.0175,
+   "wind_speed_100m": 0.88,
+   "wind_direction_100m": 27.0
   },
   {
    "time": "2026-02-13T15:00",
@@ -12596,7 +14882,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0255,
    "p90": 0.539,
    "actual": null,
-   "curve": 0.0181
+   "curve": 0.0181,
+   "wind_speed_100m": 0.96,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-13T16:00",
@@ -12607,7 +14895,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0686,
    "p90": 0.5784,
    "actual": null,
-   "curve": 0.0435
+   "curve": 0.0435,
+   "wind_speed_100m": 2.76,
+   "wind_direction_100m": 73.0
   },
   {
    "time": "2026-02-13T17:00",
@@ -12618,7 +14908,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1606,
    "p90": 0.6638,
    "actual": null,
-   "curve": 0.1785
+   "curve": 0.1785,
+   "wind_speed_100m": 4.91,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-13T18:00",
@@ -12629,7 +14921,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3764,
    "p90": 0.9171,
    "actual": null,
-   "curve": 0.5577
+   "curve": 0.5577,
+   "wind_speed_100m": 7.55,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-13T19:00",
@@ -12640,7 +14934,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4563,
    "p90": 0.9785,
    "actual": null,
-   "curve": 0.7077
+   "curve": 0.7077,
+   "wind_speed_100m": 8.85,
+   "wind_direction_100m": 64.0
   },
   {
    "time": "2026-02-13T20:00",
@@ -12651,7 +14947,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6702,
    "p90": 0.9824,
    "actual": null,
-   "curve": 0.8047
+   "curve": 0.8047,
+   "wind_speed_100m": 9.52,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-13T21:00",
@@ -12662,7 +14960,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6978,
    "p90": 0.9863,
    "actual": null,
-   "curve": 0.7871
+   "curve": 0.7871,
+   "wind_speed_100m": 9.39,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-13T22:00",
@@ -12673,7 +14973,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6843,
    "p90": 0.9914,
    "actual": null,
-   "curve": 0.8422
+   "curve": 0.8422,
+   "wind_speed_100m": 9.81,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-13T23:00",
@@ -12684,7 +14986,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6684,
    "p90": 0.9796,
    "actual": null,
-   "curve": 0.7455
+   "curve": 0.7455,
+   "wind_speed_100m": 9.1,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-12T00:00",
@@ -12695,7 +14999,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0402,
    "p90": 0.3442,
    "actual": null,
-   "curve": 0.0655
+   "curve": 0.0655,
+   "wind_speed_100m": 3.43,
+   "wind_direction_100m": 239.0
   },
   {
    "time": "2026-02-12T01:00",
@@ -12706,7 +15012,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0161,
    "p90": 0.2087,
    "actual": null,
-   "curve": 0.0403
+   "curve": 0.0403,
+   "wind_speed_100m": 2.72,
+   "wind_direction_100m": 232.0
   },
   {
    "time": "2026-02-12T02:00",
@@ -12717,7 +15025,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.117,
    "actual": null,
-   "curve": 0.0208
+   "curve": 0.0208,
+   "wind_speed_100m": 2.19,
+   "wind_direction_100m": 243.0
   },
   {
    "time": "2026-02-12T03:00",
@@ -12728,7 +15038,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.0518,
    "actual": null,
-   "curve": 0.0091
+   "curve": 0.0091,
+   "wind_speed_100m": 1.31,
+   "wind_direction_100m": 283.0
   },
   {
    "time": "2026-02-12T04:00",
@@ -12739,7 +15051,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.0359,
    "actual": null,
-   "curve": 0.0083
+   "curve": 0.0083,
+   "wind_speed_100m": 0.81,
+   "wind_direction_100m": 346.0
   },
   {
    "time": "2026-02-12T05:00",
@@ -12750,7 +15064,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0044,
    "p90": 0.2901,
    "actual": null,
-   "curve": 0.0123
+   "curve": 0.0123,
+   "wind_speed_100m": 1.55,
+   "wind_direction_100m": 55.0
   },
   {
    "time": "2026-02-12T06:00",
@@ -12761,7 +15077,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1112,
    "p90": 0.6708,
    "actual": null,
-   "curve": 0.4132
+   "curve": 0.4132,
+   "wind_speed_100m": 6.74,
+   "wind_direction_100m": 57.0
   },
   {
    "time": "2026-02-12T07:00",
@@ -12772,7 +15090,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2076,
    "p90": 0.835,
    "actual": null,
-   "curve": 0.584
+   "curve": 0.584,
+   "wind_speed_100m": 7.85,
+   "wind_direction_100m": 61.0
   },
   {
    "time": "2026-02-12T08:00",
@@ -12783,7 +15103,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2633,
    "p90": 0.8609,
    "actual": null,
-   "curve": 0.5623
+   "curve": 0.5623,
+   "wind_speed_100m": 7.67,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-12T09:00",
@@ -12794,7 +15116,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2437,
    "p90": 0.9114,
    "actual": null,
-   "curve": 0.5162
+   "curve": 0.5162,
+   "wind_speed_100m": 7.23,
+   "wind_direction_100m": 54.0
   },
   {
    "time": "2026-02-12T10:00",
@@ -12805,7 +15129,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2686,
    "p90": 0.8482,
    "actual": null,
-   "curve": 0.3873
+   "curve": 0.3873,
+   "wind_speed_100m": 6.57,
+   "wind_direction_100m": 63.0
   },
   {
    "time": "2026-02-12T11:00",
@@ -12816,7 +15142,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2441,
    "p90": 0.7519,
    "actual": null,
-   "curve": 0.2702
+   "curve": 0.2702,
+   "wind_speed_100m": 5.87,
+   "wind_direction_100m": 57.0
   },
   {
    "time": "2026-02-12T12:00",
@@ -12827,7 +15155,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2228,
    "p90": 0.6647,
    "actual": null,
-   "curve": 0.033
+   "curve": 0.033,
+   "wind_speed_100m": 2.55,
+   "wind_direction_100m": 356.0
   },
   {
    "time": "2026-02-12T13:00",
@@ -12838,7 +15168,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1302,
    "p90": 0.6107,
    "actual": null,
-   "curve": 0.2325
+   "curve": 0.2325,
+   "wind_speed_100m": 5.43,
+   "wind_direction_100m": 277.0
   },
   {
    "time": "2026-02-12T14:00",
@@ -12849,7 +15181,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3745,
    "p90": 0.9026,
    "actual": null,
-   "curve": 0.68
+   "curve": 0.68,
+   "wind_speed_100m": 8.62,
+   "wind_direction_100m": 262.0
   },
   {
    "time": "2026-02-12T15:00",
@@ -12860,7 +15194,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2922,
    "p90": 0.7532,
    "actual": null,
-   "curve": 0.5532
+   "curve": 0.5532,
+   "wind_speed_100m": 7.51,
+   "wind_direction_100m": 255.0
   },
   {
    "time": "2026-02-12T16:00",
@@ -12871,7 +15207,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1865,
    "p90": 0.6757,
    "actual": null,
-   "curve": 0.3641
+   "curve": 0.3641,
+   "wind_speed_100m": 6.36,
+   "wind_direction_100m": 241.0
   },
   {
    "time": "2026-02-12T17:00",
@@ -12882,7 +15220,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.045,
    "p90": 0.5544,
    "actual": null,
-   "curve": 0.221
+   "curve": 0.221,
+   "wind_speed_100m": 5.26,
+   "wind_direction_100m": 241.0
   },
   {
    "time": "2026-02-12T18:00",
@@ -12893,7 +15233,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2036,
    "actual": null,
-   "curve": 0.0206
+   "curve": 0.0206,
+   "wind_speed_100m": 2.17,
+   "wind_direction_100m": 252.0
   },
   {
    "time": "2026-02-12T19:00",
@@ -12904,7 +15246,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.1267,
    "actual": null,
-   "curve": 0.0094
+   "curve": 0.0094,
+   "wind_speed_100m": 1.33,
+   "wind_direction_100m": 343.0
   },
   {
    "time": "2026-02-12T20:00",
@@ -12915,7 +15259,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2113,
    "actual": null,
-   "curve": 0.0083
+   "curve": 0.0083,
+   "wind_speed_100m": 1.23,
+   "wind_direction_100m": 29.0
   },
   {
    "time": "2026-02-12T21:00",
@@ -12926,7 +15272,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2903,
    "actual": null,
-   "curve": 0.0079
+   "curve": 0.0079,
+   "wind_speed_100m": 0.71,
+   "wind_direction_100m": 326.0
   },
   {
    "time": "2026-02-12T22:00",
@@ -12937,7 +15285,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.0919,
    "actual": null,
-   "curve": 0.0083
+   "curve": 0.0083,
+   "wind_speed_100m": 0.89,
+   "wind_direction_100m": 264.0
   },
   {
    "time": "2026-02-12T23:00",
@@ -12948,7 +15298,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.0359,
    "actual": null,
-   "curve": 0.007
+   "curve": 0.007,
+   "wind_speed_100m": 0.62,
+   "wind_direction_100m": 252.0
   },
   {
    "time": "2026-02-13T00:00",
@@ -12959,7 +15311,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2671,
    "actual": null,
-   "curve": 0.0917
+   "curve": 0.0917,
+   "wind_speed_100m": 3.75,
+   "wind_direction_100m": 250.0
   },
   {
    "time": "2026-02-13T01:00",
@@ -12970,7 +15324,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2058,
    "actual": null,
-   "curve": 0.0511
+   "curve": 0.0511,
+   "wind_speed_100m": 3.26,
+   "wind_direction_100m": 249.0
   },
   {
    "time": "2026-02-13T02:00",
@@ -12981,7 +15337,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2207,
    "actual": null,
-   "curve": 0.0483
+   "curve": 0.0483,
+   "wind_speed_100m": 3.16,
+   "wind_direction_100m": 254.0
   },
   {
    "time": "2026-02-13T03:00",
@@ -12992,7 +15350,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2474,
    "actual": null,
-   "curve": 0.0405
+   "curve": 0.0405,
+   "wind_speed_100m": 2.77,
+   "wind_direction_100m": 262.0
   },
   {
    "time": "2026-02-13T04:00",
@@ -13003,7 +15363,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2017,
    "actual": null,
-   "curve": 0.0439
+   "curve": 0.0439,
+   "wind_speed_100m": 2.94,
+   "wind_direction_100m": 268.0
   },
   {
    "time": "2026-02-13T05:00",
@@ -13014,7 +15376,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.1876,
    "actual": null,
-   "curve": 0.0308
+   "curve": 0.0308,
+   "wind_speed_100m": 1.88,
+   "wind_direction_100m": 279.0
   },
   {
    "time": "2026-02-13T06:00",
@@ -13025,7 +15389,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.1561,
    "actual": null,
-   "curve": 0.0183
+   "curve": 0.0183,
+   "wind_speed_100m": 0.98,
+   "wind_direction_100m": 307.0
   },
   {
    "time": "2026-02-13T07:00",
@@ -13036,7 +15402,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.0582,
    "actual": null,
-   "curve": 0.0183
+   "curve": 0.0183,
+   "wind_speed_100m": 1.21,
+   "wind_direction_100m": 346.0
   },
   {
    "time": "2026-02-13T08:00",
@@ -13047,7 +15415,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.1782,
    "actual": null,
-   "curve": 0.0183
+   "curve": 0.0183,
+   "wind_speed_100m": 1.0,
+   "wind_direction_100m": 349.0
   },
   {
    "time": "2026-02-13T09:00",
@@ -13058,7 +15428,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.1528,
    "actual": null,
-   "curve": 0.0183
+   "curve": 0.0183,
+   "wind_speed_100m": 0.93,
+   "wind_direction_100m": 18.0
   },
   {
    "time": "2026-02-13T10:00",
@@ -13069,7 +15441,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2663,
    "actual": null,
-   "curve": 0.0183
+   "curve": 0.0183,
+   "wind_speed_100m": 1.2,
+   "wind_direction_100m": 35.0
   },
   {
    "time": "2026-02-13T11:00",
@@ -13080,7 +15454,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.1904,
    "actual": null,
-   "curve": 0.0183
+   "curve": 0.0183,
+   "wind_speed_100m": 1.19,
+   "wind_direction_100m": 9.0
   },
   {
    "time": "2026-02-13T12:00",
@@ -13091,7 +15467,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0013,
    "p90": 0.3347,
    "actual": null,
-   "curve": 0.0183
+   "curve": 0.0183,
+   "wind_speed_100m": 0.9,
+   "wind_direction_100m": 319.0
   },
   {
    "time": "2026-02-13T13:00",
@@ -13102,7 +15480,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0036,
    "p90": 0.3928,
    "actual": null,
-   "curve": 0.0167
+   "curve": 0.0167,
+   "wind_speed_100m": 0.63,
+   "wind_direction_100m": 51.0
   },
   {
    "time": "2026-02-13T14:00",
@@ -13113,7 +15493,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0157,
    "p90": 0.6563,
    "actual": null,
-   "curve": 0.0183
+   "curve": 0.0183,
+   "wind_speed_100m": 0.88,
+   "wind_direction_100m": 27.0
   },
   {
    "time": "2026-02-13T15:00",
@@ -13124,7 +15506,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0252,
    "p90": 0.5431,
    "actual": null,
-   "curve": 0.0183
+   "curve": 0.0183,
+   "wind_speed_100m": 0.96,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-13T16:00",
@@ -13135,7 +15519,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0661,
    "p90": 0.5789,
    "actual": null,
-   "curve": 0.0402
+   "curve": 0.0402,
+   "wind_speed_100m": 2.76,
+   "wind_direction_100m": 73.0
   },
   {
    "time": "2026-02-13T17:00",
@@ -13146,7 +15532,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1538,
    "p90": 0.6597,
    "actual": null,
-   "curve": 0.1705
+   "curve": 0.1705,
+   "wind_speed_100m": 4.91,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-13T18:00",
@@ -13157,7 +15545,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3797,
    "p90": 0.9146,
    "actual": null,
-   "curve": 0.5463
+   "curve": 0.5463,
+   "wind_speed_100m": 7.55,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-13T19:00",
@@ -13168,7 +15558,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4418,
    "p90": 0.9626,
    "actual": null,
-   "curve": 0.6906
+   "curve": 0.6906,
+   "wind_speed_100m": 8.85,
+   "wind_direction_100m": 64.0
   },
   {
    "time": "2026-02-13T20:00",
@@ -13179,7 +15571,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6662,
    "p90": 0.9802,
    "actual": null,
-   "curve": 0.8043
+   "curve": 0.8043,
+   "wind_speed_100m": 9.52,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-13T21:00",
@@ -13190,7 +15584,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6915,
    "p90": 0.9822,
    "actual": null,
-   "curve": 0.7856
+   "curve": 0.7856,
+   "wind_speed_100m": 9.39,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-13T22:00",
@@ -13201,7 +15597,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6866,
    "p90": 0.9853,
    "actual": null,
-   "curve": 0.8418
+   "curve": 0.8418,
+   "wind_speed_100m": 9.81,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-13T23:00",
@@ -13212,7 +15610,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6723,
    "p90": 0.9697,
    "actual": null,
-   "curve": 0.7372
+   "curve": 0.7372,
+   "wind_speed_100m": 9.1,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-13T00:00",
@@ -13223,7 +15623,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.1201,
    "actual": null,
-   "curve": 0.0137
+   "curve": 0.0137,
+   "wind_speed_100m": 1.62,
+   "wind_direction_100m": 335.0
   },
   {
    "time": "2026-02-13T01:00",
@@ -13234,7 +15636,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.1314,
    "actual": null,
-   "curve": 0.01
+   "curve": 0.01,
+   "wind_speed_100m": 0.84,
+   "wind_direction_100m": 324.0
   },
   {
    "time": "2026-02-13T02:00",
@@ -13245,7 +15649,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.1911,
    "actual": null,
-   "curve": 0.01
+   "curve": 0.01,
+   "wind_speed_100m": 1.18,
+   "wind_direction_100m": 265.0
   },
   {
    "time": "2026-02-13T03:00",
@@ -13256,7 +15662,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.0605,
    "actual": null,
-   "curve": 0.0224
+   "curve": 0.0224,
+   "wind_speed_100m": 2.24,
+   "wind_direction_100m": 247.0
   },
   {
    "time": "2026-02-13T04:00",
@@ -13267,7 +15675,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.075,
    "actual": null,
-   "curve": 0.0452
+   "curve": 0.0452,
+   "wind_speed_100m": 2.81,
+   "wind_direction_100m": 245.0
   },
   {
    "time": "2026-02-13T05:00",
@@ -13278,7 +15688,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2887,
    "actual": null,
-   "curve": 0.2125
+   "curve": 0.2125,
+   "wind_speed_100m": 5.12,
+   "wind_direction_100m": 265.0
   },
   {
    "time": "2026-02-13T06:00",
@@ -13289,7 +15701,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.1705,
    "actual": null,
-   "curve": 0.1238
+   "curve": 0.1238,
+   "wind_speed_100m": 4.22,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-13T07:00",
@@ -13300,7 +15714,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.1265,
    "actual": null,
-   "curve": 0.0683
+   "curve": 0.0683,
+   "wind_speed_100m": 3.38,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-13T08:00",
@@ -13311,7 +15727,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.0797,
    "actual": null,
-   "curve": 0.0297
+   "curve": 0.0297,
+   "wind_speed_100m": 2.42,
+   "wind_direction_100m": 249.0
   },
   {
    "time": "2026-02-13T09:00",
@@ -13322,7 +15740,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.0437,
    "actual": null,
-   "curve": 0.0125
+   "curve": 0.0125,
+   "wind_speed_100m": 1.5,
+   "wind_direction_100m": 281.0
   },
   {
    "time": "2026-02-13T10:00",
@@ -13333,7 +15753,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.0303,
    "actual": null,
-   "curve": 0.01
+   "curve": 0.01,
+   "wind_speed_100m": 1.08,
+   "wind_direction_100m": 355.0
   },
   {
    "time": "2026-02-13T11:00",
@@ -13344,7 +15766,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2119,
    "actual": null,
-   "curve": 0.01
+   "curve": 0.01,
+   "wind_speed_100m": 1.18,
+   "wind_direction_100m": 24.0
   },
   {
    "time": "2026-02-13T12:00",
@@ -13355,7 +15779,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2155,
    "actual": null,
-   "curve": 0.01
+   "curve": 0.01,
+   "wind_speed_100m": 1.21,
+   "wind_direction_100m": 104.0
   },
   {
    "time": "2026-02-13T13:00",
@@ -13366,7 +15792,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2448,
    "actual": null,
-   "curve": 0.0122
+   "curve": 0.0122,
+   "wind_speed_100m": 1.47,
+   "wind_direction_100m": 94.0
   },
   {
    "time": "2026-02-13T14:00",
@@ -13377,7 +15805,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.3839,
    "actual": null,
-   "curve": 0.0295
+   "curve": 0.0295,
+   "wind_speed_100m": 2.41,
+   "wind_direction_100m": 63.0
   },
   {
    "time": "2026-02-13T15:00",
@@ -13388,7 +15818,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0247,
    "p90": 0.587,
    "actual": null,
-   "curve": 0.1932
+   "curve": 0.1932,
+   "wind_speed_100m": 4.99,
+   "wind_direction_100m": 74.0
   },
   {
    "time": "2026-02-13T16:00",
@@ -13399,7 +15831,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3112,
    "p90": 0.8704,
    "actual": null,
-   "curve": 0.2953
+   "curve": 0.2953,
+   "wind_speed_100m": 5.85,
+   "wind_direction_100m": 59.0
   },
   {
    "time": "2026-02-13T17:00",
@@ -13410,7 +15844,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5556,
    "p90": 0.9903,
    "actual": null,
-   "curve": 0.5136
+   "curve": 0.5136,
+   "wind_speed_100m": 7.1,
+   "wind_direction_100m": 64.0
   },
   {
    "time": "2026-02-13T18:00",
@@ -13421,7 +15857,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5805,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.5526
+   "curve": 0.5526,
+   "wind_speed_100m": 7.33,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-13T19:00",
@@ -13432,7 +15870,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6197,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.5958
+   "curve": 0.5958,
+   "wind_speed_100m": 7.8,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-13T20:00",
@@ -13443,7 +15883,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7567,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.6488
+   "curve": 0.6488,
+   "wind_speed_100m": 8.07,
+   "wind_direction_100m": 80.0
   },
   {
    "time": "2026-02-13T21:00",
@@ -13454,7 +15896,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7968,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.685
+   "curve": 0.685,
+   "wind_speed_100m": 8.31,
+   "wind_direction_100m": 73.0
   },
   {
    "time": "2026-02-13T22:00",
@@ -13465,7 +15909,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7688,
    "p90": 0.9942,
    "actual": null,
-   "curve": 0.8533
+   "curve": 0.8533,
+   "wind_speed_100m": 9.65,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-13T23:00",
@@ -13476,7 +15922,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8188,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8423
+   "curve": 0.8423,
+   "wind_speed_100m": 9.23,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-14T00:00",
@@ -13487,7 +15935,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2574,
    "p90": 0.9889,
    "actual": null,
-   "curve": 0.7423
+   "curve": 0.7423,
+   "wind_speed_100m": 9.08,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-14T01:00",
@@ -13498,7 +15948,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.382,
    "p90": 0.9681,
    "actual": null,
-   "curve": 0.7095
+   "curve": 0.7095,
+   "wind_speed_100m": 8.86,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-14T02:00",
@@ -13509,7 +15961,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3002,
    "p90": 0.9128,
    "actual": null,
-   "curve": 0.6119
+   "curve": 0.6119,
+   "wind_speed_100m": 8.13,
+   "wind_direction_100m": 77.0
   },
   {
    "time": "2026-02-14T03:00",
@@ -13520,7 +15974,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2628,
    "p90": 0.7798,
    "actual": null,
-   "curve": 0.485
+   "curve": 0.485,
+   "wind_speed_100m": 7.08,
+   "wind_direction_100m": 76.0
   },
   {
    "time": "2026-02-14T04:00",
@@ -13531,7 +15987,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2258,
    "p90": 0.724,
    "actual": null,
-   "curve": 0.3537
+   "curve": 0.3537,
+   "wind_speed_100m": 6.45,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-14T05:00",
@@ -13542,7 +16000,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2368,
    "p90": 0.8737,
    "actual": null,
-   "curve": 0.4516
+   "curve": 0.4516,
+   "wind_speed_100m": 6.86,
+   "wind_direction_100m": 59.0
   },
   {
    "time": "2026-02-14T06:00",
@@ -13553,7 +16013,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2854,
    "p90": 0.8449,
    "actual": null,
-   "curve": 0.7387
+   "curve": 0.7387,
+   "wind_speed_100m": 9.08,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-14T07:00",
@@ -13564,7 +16026,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2972,
    "p90": 0.9179,
    "actual": null,
-   "curve": 0.6061
+   "curve": 0.6061,
+   "wind_speed_100m": 8.06,
+   "wind_direction_100m": 64.0
   },
   {
    "time": "2026-02-14T08:00",
@@ -13575,7 +16039,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3533,
    "p90": 0.9195,
    "actual": null,
-   "curve": 0.5163
+   "curve": 0.5163,
+   "wind_speed_100m": 7.33,
+   "wind_direction_100m": 60.0
   },
   {
    "time": "2026-02-14T09:00",
@@ -13586,7 +16052,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2942,
    "p90": 0.7934,
    "actual": null,
-   "curve": 0.2391
+   "curve": 0.2391,
+   "wind_speed_100m": 5.52,
+   "wind_direction_100m": 63.0
   },
   {
    "time": "2026-02-14T10:00",
@@ -13597,7 +16065,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2327,
    "p90": 0.895,
    "actual": null,
-   "curve": 0.016
+   "curve": 0.016,
+   "wind_speed_100m": 0.66,
+   "wind_direction_100m": 63.0
   },
   {
    "time": "2026-02-14T11:00",
@@ -13608,7 +16078,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3276,
    "p90": 0.7538,
    "actual": null,
-   "curve": 0.3314
+   "curve": 0.3314,
+   "wind_speed_100m": 6.38,
+   "wind_direction_100m": 266.0
   },
   {
    "time": "2026-02-14T12:00",
@@ -13619,7 +16091,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3278,
    "p90": 0.8467,
    "actual": null,
-   "curve": 0.8612
+   "curve": 0.8612,
+   "wind_speed_100m": 10.02,
+   "wind_direction_100m": 261.0
   },
   {
    "time": "2026-02-14T13:00",
@@ -13630,7 +16104,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2609,
    "p90": 0.8532,
    "actual": null,
-   "curve": 0.8017
+   "curve": 0.8017,
+   "wind_speed_100m": 9.49,
+   "wind_direction_100m": 254.0
   },
   {
    "time": "2026-02-14T14:00",
@@ -13641,7 +16117,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.357,
    "p90": 0.8397,
    "actual": null,
-   "curve": 0.5861
+   "curve": 0.5861,
+   "wind_speed_100m": 7.72,
+   "wind_direction_100m": 250.0
   },
   {
    "time": "2026-02-14T15:00",
@@ -13652,7 +16130,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1679,
    "p90": 0.6007,
    "actual": null,
-   "curve": 0.126
+   "curve": 0.126,
+   "wind_speed_100m": 4.44,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-14T16:00",
@@ -13663,7 +16143,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.186,
    "p90": 0.4669,
    "actual": null,
-   "curve": 0.0314
+   "curve": 0.0314,
+   "wind_speed_100m": 2.07,
+   "wind_direction_100m": 211.0
   },
   {
    "time": "2026-02-14T17:00",
@@ -13674,7 +16156,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1392,
    "p90": 0.4856,
    "actual": null,
-   "curve": 0.0295
+   "curve": 0.0295,
+   "wind_speed_100m": 1.69,
+   "wind_direction_100m": 216.0
   },
   {
    "time": "2026-02-14T18:00",
@@ -13685,7 +16169,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1156,
    "p90": 0.5888,
    "actual": null,
-   "curve": 0.2272
+   "curve": 0.2272,
+   "wind_speed_100m": 5.37,
+   "wind_direction_100m": 249.0
   },
   {
    "time": "2026-02-14T19:00",
@@ -13696,7 +16182,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0958,
    "p90": 0.3898,
    "actual": null,
-   "curve": 0.1048
+   "curve": 0.1048,
+   "wind_speed_100m": 4.24,
+   "wind_direction_100m": 251.0
   },
   {
    "time": "2026-02-14T20:00",
@@ -13707,7 +16195,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0549,
    "p90": 0.3372,
    "actual": null,
-   "curve": 0.0473
+   "curve": 0.0473,
+   "wind_speed_100m": 2.92,
+   "wind_direction_100m": 256.0
   },
   {
    "time": "2026-02-14T21:00",
@@ -13718,7 +16208,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.4539,
    "actual": null,
-   "curve": 0.0313
+   "curve": 0.0313,
+   "wind_speed_100m": 2.02,
+   "wind_direction_100m": 284.0
   },
   {
    "time": "2026-02-14T22:00",
@@ -13729,7 +16221,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.3418,
    "actual": null,
-   "curve": 0.0216
+   "curve": 0.0216,
+   "wind_speed_100m": 1.32,
+   "wind_direction_100m": 312.0
   },
   {
    "time": "2026-02-14T23:00",
@@ -13740,7 +16234,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2533,
    "actual": null,
-   "curve": 0.0156
+   "curve": 0.0156,
+   "wind_speed_100m": 0.59,
+   "wind_direction_100m": 360.0
   },
   {
    "time": "2026-02-13T00:00",
@@ -13751,7 +16247,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.1252,
    "actual": null,
-   "curve": 0.0133
+   "curve": 0.0133,
+   "wind_speed_100m": 1.62,
+   "wind_direction_100m": 335.0
   },
   {
    "time": "2026-02-13T01:00",
@@ -13762,7 +16260,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.1353,
    "actual": null,
-   "curve": 0.0083
+   "curve": 0.0083,
+   "wind_speed_100m": 0.84,
+   "wind_direction_100m": 324.0
   },
   {
    "time": "2026-02-13T02:00",
@@ -13773,7 +16273,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.195,
    "actual": null,
-   "curve": 0.0083
+   "curve": 0.0083,
+   "wind_speed_100m": 1.18,
+   "wind_direction_100m": 265.0
   },
   {
    "time": "2026-02-13T03:00",
@@ -13784,7 +16286,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.0652,
    "actual": null,
-   "curve": 0.0215
+   "curve": 0.0215,
+   "wind_speed_100m": 2.24,
+   "wind_direction_100m": 247.0
   },
   {
    "time": "2026-02-13T04:00",
@@ -13795,7 +16299,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.0785,
    "actual": null,
-   "curve": 0.0431
+   "curve": 0.0431,
+   "wind_speed_100m": 2.81,
+   "wind_direction_100m": 245.0
   },
   {
    "time": "2026-02-13T05:00",
@@ -13806,7 +16312,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2833,
    "actual": null,
-   "curve": 0.2015
+   "curve": 0.2015,
+   "wind_speed_100m": 5.12,
+   "wind_direction_100m": 265.0
   },
   {
    "time": "2026-02-13T06:00",
@@ -13817,7 +16325,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.163,
    "actual": null,
-   "curve": 0.1108
+   "curve": 0.1108,
+   "wind_speed_100m": 4.22,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-13T07:00",
@@ -13828,7 +16338,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.1266,
    "actual": null,
-   "curve": 0.0629
+   "curve": 0.0629,
+   "wind_speed_100m": 3.38,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-13T08:00",
@@ -13839,7 +16351,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.0842,
    "actual": null,
-   "curve": 0.0286
+   "curve": 0.0286,
+   "wind_speed_100m": 2.42,
+   "wind_direction_100m": 249.0
   },
   {
    "time": "2026-02-13T09:00",
@@ -13850,7 +16364,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.0505,
    "actual": null,
-   "curve": 0.0117
+   "curve": 0.0117,
+   "wind_speed_100m": 1.5,
+   "wind_direction_100m": 281.0
   },
   {
    "time": "2026-02-13T10:00",
@@ -13861,7 +16377,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.0359,
    "actual": null,
-   "curve": 0.0083
+   "curve": 0.0083,
+   "wind_speed_100m": 1.08,
+   "wind_direction_100m": 355.0
   },
   {
    "time": "2026-02-13T11:00",
@@ -13872,7 +16390,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2163,
    "actual": null,
-   "curve": 0.0083
+   "curve": 0.0083,
+   "wind_speed_100m": 1.18,
+   "wind_direction_100m": 24.0
   },
   {
    "time": "2026-02-13T12:00",
@@ -13883,7 +16403,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2194,
    "actual": null,
-   "curve": 0.0083
+   "curve": 0.0083,
+   "wind_speed_100m": 1.21,
+   "wind_direction_100m": 104.0
   },
   {
    "time": "2026-02-13T13:00",
@@ -13894,7 +16416,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2494,
    "actual": null,
-   "curve": 0.0113
+   "curve": 0.0113,
+   "wind_speed_100m": 1.47,
+   "wind_direction_100m": 94.0
   },
   {
    "time": "2026-02-13T14:00",
@@ -13905,7 +16429,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.3884,
    "actual": null,
-   "curve": 0.0284
+   "curve": 0.0284,
+   "wind_speed_100m": 2.41,
+   "wind_direction_100m": 63.0
   },
   {
    "time": "2026-02-13T15:00",
@@ -13916,7 +16442,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0168,
    "p90": 0.5829,
    "actual": null,
-   "curve": 0.1836
+   "curve": 0.1836,
+   "wind_speed_100m": 4.99,
+   "wind_direction_100m": 74.0
   },
   {
    "time": "2026-02-13T16:00",
@@ -13927,7 +16455,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.304,
    "p90": 0.8555,
    "actual": null,
-   "curve": 0.2775
+   "curve": 0.2775,
+   "wind_speed_100m": 5.85,
+   "wind_direction_100m": 59.0
   },
   {
    "time": "2026-02-13T17:00",
@@ -13938,7 +16468,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5677,
    "p90": 0.9824,
    "actual": null,
-   "curve": 0.5009
+   "curve": 0.5009,
+   "wind_speed_100m": 7.1,
+   "wind_direction_100m": 64.0
   },
   {
    "time": "2026-02-13T18:00",
@@ -13949,7 +16481,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5706,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.5401
+   "curve": 0.5401,
+   "wind_speed_100m": 7.33,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-13T19:00",
@@ -13960,7 +16494,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6071,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.584
+   "curve": 0.584,
+   "wind_speed_100m": 7.8,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-13T20:00",
@@ -13971,7 +16507,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7557,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.6411
+   "curve": 0.6411,
+   "wind_speed_100m": 8.07,
+   "wind_direction_100m": 80.0
   },
   {
    "time": "2026-02-13T21:00",
@@ -13982,7 +16520,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8014,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.68
+   "curve": 0.68,
+   "wind_speed_100m": 8.31,
+   "wind_direction_100m": 73.0
   },
   {
    "time": "2026-02-13T22:00",
@@ -13993,7 +16533,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7667,
    "p90": 0.9882,
    "actual": null,
-   "curve": 0.8517
+   "curve": 0.8517,
+   "wind_speed_100m": 9.65,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-13T23:00",
@@ -14004,7 +16546,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8118,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8405
+   "curve": 0.8405,
+   "wind_speed_100m": 9.23,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-14T00:00",
@@ -14015,7 +16559,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2783,
    "p90": 0.9806,
    "actual": null,
-   "curve": 0.7333
+   "curve": 0.7333,
+   "wind_speed_100m": 9.08,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-14T01:00",
@@ -14026,7 +16572,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.376,
    "p90": 0.9529,
    "actual": null,
-   "curve": 0.6928
+   "curve": 0.6928,
+   "wind_speed_100m": 8.86,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-14T02:00",
@@ -14037,7 +16585,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3091,
    "p90": 0.902,
    "actual": null,
-   "curve": 0.6196
+   "curve": 0.6196,
+   "wind_speed_100m": 8.13,
+   "wind_direction_100m": 77.0
   },
   {
    "time": "2026-02-14T03:00",
@@ -14048,7 +16598,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2497,
    "p90": 0.7809,
    "actual": null,
-   "curve": 0.4708
+   "curve": 0.4708,
+   "wind_speed_100m": 7.08,
+   "wind_direction_100m": 76.0
   },
   {
    "time": "2026-02-14T04:00",
@@ -14059,7 +16611,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2204,
    "p90": 0.72,
    "actual": null,
-   "curve": 0.3458
+   "curve": 0.3458,
+   "wind_speed_100m": 6.45,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-14T05:00",
@@ -14070,7 +16624,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2274,
    "p90": 0.8618,
    "actual": null,
-   "curve": 0.4362
+   "curve": 0.4362,
+   "wind_speed_100m": 6.86,
+   "wind_direction_100m": 59.0
   },
   {
    "time": "2026-02-14T06:00",
@@ -14081,7 +16637,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.294,
    "p90": 0.8579,
    "actual": null,
-   "curve": 0.7289
+   "curve": 0.7289,
+   "wind_speed_100m": 9.08,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-14T07:00",
@@ -14092,7 +16650,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3101,
    "p90": 0.9138,
    "actual": null,
-   "curve": 0.6088
+   "curve": 0.6088,
+   "wind_speed_100m": 8.06,
+   "wind_direction_100m": 64.0
   },
   {
    "time": "2026-02-14T08:00",
@@ -14103,7 +16663,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3632,
    "p90": 0.9378,
    "actual": null,
-   "curve": 0.5032
+   "curve": 0.5032,
+   "wind_speed_100m": 7.33,
+   "wind_direction_100m": 60.0
   },
   {
    "time": "2026-02-14T09:00",
@@ -14114,7 +16676,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3004,
    "p90": 0.7891,
    "actual": null,
-   "curve": 0.231
+   "curve": 0.231,
+   "wind_speed_100m": 5.52,
+   "wind_direction_100m": 63.0
   },
   {
    "time": "2026-02-14T10:00",
@@ -14125,7 +16689,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2349,
    "p90": 0.8748,
    "actual": null,
-   "curve": 0.0171
+   "curve": 0.0171,
+   "wind_speed_100m": 0.66,
+   "wind_direction_100m": 63.0
   },
   {
    "time": "2026-02-14T11:00",
@@ -14136,7 +16702,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3601,
    "p90": 0.7518,
    "actual": null,
-   "curve": 0.3256
+   "curve": 0.3256,
+   "wind_speed_100m": 6.38,
+   "wind_direction_100m": 266.0
   },
   {
    "time": "2026-02-14T12:00",
@@ -14147,7 +16715,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3186,
    "p90": 0.8891,
    "actual": null,
-   "curve": 0.8508
+   "curve": 0.8508,
+   "wind_speed_100m": 10.02,
+   "wind_direction_100m": 261.0
   },
   {
    "time": "2026-02-14T13:00",
@@ -14158,7 +16728,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2675,
    "p90": 0.8803,
    "actual": null,
-   "curve": 0.8011
+   "curve": 0.8011,
+   "wind_speed_100m": 9.49,
+   "wind_direction_100m": 254.0
   },
   {
    "time": "2026-02-14T14:00",
@@ -14169,7 +16741,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3548,
    "p90": 0.8325,
    "actual": null,
-   "curve": 0.5759
+   "curve": 0.5759,
+   "wind_speed_100m": 7.72,
+   "wind_direction_100m": 250.0
   },
   {
    "time": "2026-02-14T15:00",
@@ -14180,7 +16754,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1736,
    "p90": 0.5999,
    "actual": null,
-   "curve": 0.1214
+   "curve": 0.1214,
+   "wind_speed_100m": 4.44,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-14T16:00",
@@ -14191,7 +16767,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1901,
    "p90": 0.4702,
    "actual": null,
-   "curve": 0.0308
+   "curve": 0.0308,
+   "wind_speed_100m": 2.07,
+   "wind_direction_100m": 211.0
   },
   {
    "time": "2026-02-14T17:00",
@@ -14202,7 +16780,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1436,
    "p90": 0.4892,
    "actual": null,
-   "curve": 0.0293
+   "curve": 0.0293,
+   "wind_speed_100m": 1.69,
+   "wind_direction_100m": 216.0
   },
   {
    "time": "2026-02-14T18:00",
@@ -14213,7 +16793,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.109,
    "p90": 0.5831,
    "actual": null,
-   "curve": 0.2177
+   "curve": 0.2177,
+   "wind_speed_100m": 5.37,
+   "wind_direction_100m": 249.0
   },
   {
    "time": "2026-02-14T19:00",
@@ -14224,7 +16806,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0994,
    "p90": 0.3902,
    "actual": null,
-   "curve": 0.1014
+   "curve": 0.1014,
+   "wind_speed_100m": 4.24,
+   "wind_direction_100m": 251.0
   },
   {
    "time": "2026-02-14T20:00",
@@ -14235,7 +16819,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0682,
    "p90": 0.3372,
    "actual": null,
-   "curve": 0.0434
+   "curve": 0.0434,
+   "wind_speed_100m": 2.92,
+   "wind_direction_100m": 256.0
   },
   {
    "time": "2026-02-14T21:00",
@@ -14246,7 +16832,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0035,
    "p90": 0.4573,
    "actual": null,
-   "curve": 0.0308
+   "curve": 0.0308,
+   "wind_speed_100m": 2.02,
+   "wind_direction_100m": 284.0
   },
   {
    "time": "2026-02-14T22:00",
@@ -14257,7 +16845,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.3428,
    "actual": null,
-   "curve": 0.0201
+   "curve": 0.0201,
+   "wind_speed_100m": 1.32,
+   "wind_direction_100m": 312.0
   },
   {
    "time": "2026-02-14T23:00",
@@ -14268,7 +16858,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2578,
    "actual": null,
-   "curve": 0.0162
+   "curve": 0.0162,
+   "wind_speed_100m": 0.59,
+   "wind_direction_100m": 360.0
   },
   {
    "time": "2026-02-14T00:00",
@@ -14279,7 +16871,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0878,
    "p90": 0.8719,
    "actual": null,
-   "curve": 0.1997
+   "curve": 0.1997,
+   "wind_speed_100m": 5.05,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-14T01:00",
@@ -14290,7 +16884,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0891,
    "p90": 0.7465,
    "actual": null,
-   "curve": 0.1983
+   "curve": 0.1983,
+   "wind_speed_100m": 5.04,
+   "wind_direction_100m": 77.0
   },
   {
    "time": "2026-02-14T02:00",
@@ -14301,7 +16897,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0589,
    "p90": 0.5801,
    "actual": null,
-   "curve": 0.2433
+   "curve": 0.2433,
+   "wind_speed_100m": 5.38,
+   "wind_direction_100m": 80.0
   },
   {
    "time": "2026-02-14T03:00",
@@ -14312,7 +16910,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0405,
    "p90": 0.527,
    "actual": null,
-   "curve": 0.2059
+   "curve": 0.2059,
+   "wind_speed_100m": 5.09,
+   "wind_direction_100m": 74.0
   },
   {
    "time": "2026-02-14T04:00",
@@ -14323,7 +16923,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1207,
    "p90": 0.3214,
    "actual": null,
-   "curve": 0.0738
+   "curve": 0.0738,
+   "wind_speed_100m": 3.47,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-14T05:00",
@@ -14334,7 +16936,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1622,
    "p90": 0.5235,
    "actual": null,
-   "curve": 0.01
+   "curve": 0.01,
+   "wind_speed_100m": 1.06,
+   "wind_direction_100m": 34.0
   },
   {
    "time": "2026-02-14T06:00",
@@ -14345,7 +16949,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.024,
    "p90": 0.6439,
    "actual": null,
-   "curve": 0.2618
+   "curve": 0.2618,
+   "wind_speed_100m": 5.61,
+   "wind_direction_100m": 243.0
   },
   {
    "time": "2026-02-14T07:00",
@@ -14356,7 +16962,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0009,
    "p90": 0.5091,
    "actual": null,
-   "curve": 0.1294
+   "curve": 0.1294,
+   "wind_speed_100m": 4.34,
+   "wind_direction_100m": 252.0
   },
   {
    "time": "2026-02-14T08:00",
@@ -14367,7 +16975,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2552,
    "actual": null,
-   "curve": 0.0125
+   "curve": 0.0125,
+   "wind_speed_100m": 1.5,
+   "wind_direction_100m": 212.0
   },
   {
    "time": "2026-02-14T09:00",
@@ -14378,7 +16988,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2014,
    "actual": null,
-   "curve": 0.0164
+   "curve": 0.0164,
+   "wind_speed_100m": 1.85,
+   "wind_direction_100m": 148.0
   },
   {
    "time": "2026-02-14T10:00",
@@ -14389,7 +17001,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.1345,
    "actual": null,
-   "curve": 0.0117
+   "curve": 0.0117,
+   "wind_speed_100m": 1.43,
+   "wind_direction_100m": 106.0
   },
   {
    "time": "2026-02-14T11:00",
@@ -14400,7 +17014,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.1793,
    "actual": null,
-   "curve": 0.0108
+   "curve": 0.0108,
+   "wind_speed_100m": 1.33,
+   "wind_direction_100m": 73.0
   },
   {
    "time": "2026-02-14T12:00",
@@ -14411,7 +17027,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0056,
    "p90": 0.2371,
    "actual": null,
-   "curve": 0.056
+   "curve": 0.056,
+   "wind_speed_100m": 3.18,
+   "wind_direction_100m": 236.0
   },
   {
    "time": "2026-02-14T13:00",
@@ -14422,7 +17040,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0097,
    "p90": 0.2155,
    "actual": null,
-   "curve": 0.0399
+   "curve": 0.0399,
+   "wind_speed_100m": 2.67,
+   "wind_direction_100m": 253.0
   },
   {
    "time": "2026-02-14T14:00",
@@ -14433,7 +17053,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.016,
    "p90": 0.2848,
    "actual": null,
-   "curve": 0.0436
+   "curve": 0.0436,
+   "wind_speed_100m": 2.76,
+   "wind_direction_100m": 243.0
   },
   {
    "time": "2026-02-14T15:00",
@@ -14444,7 +17066,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0702,
    "p90": 0.2365,
    "actual": null,
-   "curve": 0.0516
+   "curve": 0.0516,
+   "wind_speed_100m": 3.03,
+   "wind_direction_100m": 241.0
   },
   {
    "time": "2026-02-14T16:00",
@@ -14455,7 +17079,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0688,
    "p90": 0.2876,
    "actual": null,
-   "curve": 0.0519
+   "curve": 0.0519,
+   "wind_speed_100m": 3.04,
+   "wind_direction_100m": 255.0
   },
   {
    "time": "2026-02-14T17:00",
@@ -14466,7 +17092,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1199,
    "p90": 0.3462,
    "actual": null,
-   "curve": 0.0836
+   "curve": 0.0836,
+   "wind_speed_100m": 3.6,
+   "wind_direction_100m": 241.0
   },
   {
    "time": "2026-02-14T18:00",
@@ -14477,7 +17105,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0926,
    "p90": 0.497,
    "actual": null,
-   "curve": 0.2036
+   "curve": 0.2036,
+   "wind_speed_100m": 5.07,
+   "wind_direction_100m": 260.0
   },
   {
    "time": "2026-02-14T19:00",
@@ -14488,7 +17118,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0305,
    "p90": 0.2851,
    "actual": null,
-   "curve": 0.1177
+   "curve": 0.1177,
+   "wind_speed_100m": 4.13,
+   "wind_direction_100m": 265.0
   },
   {
    "time": "2026-02-14T20:00",
@@ -14499,7 +17131,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2802,
    "actual": null,
-   "curve": 0.0187
+   "curve": 0.0187,
+   "wind_speed_100m": 2.0,
+   "wind_direction_100m": 281.0
   },
   {
    "time": "2026-02-14T21:00",
@@ -14510,7 +17144,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.1456,
    "actual": null,
-   "curve": 0.0111
+   "curve": 0.0111,
+   "wind_speed_100m": 1.36,
+   "wind_direction_100m": 240.0
   },
   {
    "time": "2026-02-14T22:00",
@@ -14521,7 +17157,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2462,
    "actual": null,
-   "curve": 0.0103
+   "curve": 0.0103,
+   "wind_speed_100m": 1.28,
+   "wind_direction_100m": 184.0
   },
   {
    "time": "2026-02-14T23:00",
@@ -14532,7 +17170,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.274,
    "actual": null,
-   "curve": 0.0065
+   "curve": 0.0065,
+   "wind_speed_100m": 0.49,
+   "wind_direction_100m": 127.0
   },
   {
    "time": "2026-02-15T00:00",
@@ -14543,7 +17183,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.4767,
    "actual": null,
-   "curve": 0.0356
+   "curve": 0.0356,
+   "wind_speed_100m": 2.42,
+   "wind_direction_100m": 58.0
   },
   {
    "time": "2026-02-15T01:00",
@@ -14554,7 +17196,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.023,
    "p90": 0.4599,
    "actual": null,
-   "curve": 0.0966
+   "curve": 0.0966,
+   "wind_speed_100m": 3.75,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-15T02:00",
@@ -14565,7 +17209,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0661,
    "p90": 0.5859,
    "actual": null,
-   "curve": 0.243
+   "curve": 0.243,
+   "wind_speed_100m": 5.52,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-15T03:00",
@@ -14576,7 +17222,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1808,
    "p90": 0.8419,
    "actual": null,
-   "curve": 0.5639
+   "curve": 0.5639,
+   "wind_speed_100m": 7.59,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-15T04:00",
@@ -14587,7 +17235,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4655,
    "p90": 0.9516,
    "actual": null,
-   "curve": 0.7848
+   "curve": 0.7848,
+   "wind_speed_100m": 9.39,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-15T05:00",
@@ -14598,7 +17248,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7739,
    "p90": 0.9832,
    "actual": null,
-   "curve": 0.891
+   "curve": 0.891,
+   "wind_speed_100m": 10.88,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-15T06:00",
@@ -14609,7 +17261,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6977,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8843
+   "curve": 0.8843,
+   "wind_speed_100m": 10.52,
+   "wind_direction_100m": 63.0
   },
   {
    "time": "2026-02-15T07:00",
@@ -14620,7 +17274,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7309,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8601
+   "curve": 0.8601,
+   "wind_speed_100m": 10.06,
+   "wind_direction_100m": 59.0
   },
   {
    "time": "2026-02-15T08:00",
@@ -14631,7 +17287,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7687,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8827
+   "curve": 0.8827,
+   "wind_speed_100m": 10.35,
+   "wind_direction_100m": 61.0
   },
   {
    "time": "2026-02-15T09:00",
@@ -14642,7 +17300,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7803,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8833
+   "curve": 0.8833,
+   "wind_speed_100m": 10.43,
+   "wind_direction_100m": 63.0
   },
   {
    "time": "2026-02-15T10:00",
@@ -14653,7 +17313,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7981,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8791
+   "curve": 0.8791,
+   "wind_speed_100m": 10.3,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-15T11:00",
@@ -14664,7 +17326,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7982,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8748
+   "curve": 0.8748,
+   "wind_speed_100m": 10.25,
+   "wind_direction_100m": 63.0
   },
   {
    "time": "2026-02-15T12:00",
@@ -14675,7 +17339,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8393,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9355
+   "curve": 0.9355,
+   "wind_speed_100m": 11.68,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-15T13:00",
@@ -14686,7 +17352,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8969,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9472
+   "curve": 0.9472,
+   "wind_speed_100m": 11.88,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-15T14:00",
@@ -14697,7 +17365,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9172,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9674
+   "curve": 0.9674,
+   "wind_speed_100m": 12.28,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-15T15:00",
@@ -14708,7 +17378,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9296,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9732
+   "curve": 0.9732,
+   "wind_speed_100m": 12.48,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-15T16:00",
@@ -14719,7 +17391,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9122,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9685
+   "curve": 0.9685,
+   "wind_speed_100m": 12.3,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-15T17:00",
@@ -14730,7 +17404,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8984,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9433
+   "curve": 0.9433,
+   "wind_speed_100m": 11.8,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-15T18:00",
@@ -14741,7 +17417,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8975,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9163
+   "curve": 0.9163,
+   "wind_speed_100m": 11.31,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-15T19:00",
@@ -14752,7 +17430,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8995,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8864
+   "curve": 0.8864,
+   "wind_speed_100m": 10.78,
+   "wind_direction_100m": 73.0
   },
   {
    "time": "2026-02-15T20:00",
@@ -14763,7 +17443,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.867,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8828
+   "curve": 0.8828,
+   "wind_speed_100m": 10.35,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-15T21:00",
@@ -14774,7 +17456,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8351,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.853
+   "curve": 0.853,
+   "wind_speed_100m": 9.98,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-15T22:00",
@@ -14785,7 +17469,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8049,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.7223
+   "curve": 0.7223,
+   "wind_speed_100m": 8.99,
+   "wind_direction_100m": 74.0
   },
   {
    "time": "2026-02-15T23:00",
@@ -14796,7 +17482,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5799,
    "p90": 0.9694,
    "actual": null,
-   "curve": 0.43
+   "curve": 0.43,
+   "wind_speed_100m": 6.76,
+   "wind_direction_100m": 73.0
   },
   {
    "time": "2026-02-14T00:00",
@@ -14807,7 +17495,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0789,
    "p90": 0.8687,
    "actual": null,
-   "curve": 0.1896
+   "curve": 0.1896,
+   "wind_speed_100m": 5.05,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-14T01:00",
@@ -14818,7 +17508,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0803,
    "p90": 0.7434,
    "actual": null,
-   "curve": 0.1883
+   "curve": 0.1883,
+   "wind_speed_100m": 5.04,
+   "wind_direction_100m": 77.0
   },
   {
    "time": "2026-02-14T02:00",
@@ -14829,7 +17521,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0433,
    "p90": 0.5721,
    "actual": null,
-   "curve": 0.2298
+   "curve": 0.2298,
+   "wind_speed_100m": 5.38,
+   "wind_direction_100m": 80.0
   },
   {
    "time": "2026-02-14T03:00",
@@ -14840,7 +17534,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0311,
    "p90": 0.5221,
    "actual": null,
-   "curve": 0.1953
+   "curve": 0.1953,
+   "wind_speed_100m": 5.09,
+   "wind_direction_100m": 74.0
   },
   {
    "time": "2026-02-14T04:00",
@@ -14851,7 +17547,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1173,
    "p90": 0.3212,
    "actual": null,
-   "curve": 0.0681
+   "curve": 0.0681,
+   "wind_speed_100m": 3.47,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-14T05:00",
@@ -14862,7 +17560,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1664,
    "p90": 0.5274,
    "actual": null,
-   "curve": 0.0083
+   "curve": 0.0083,
+   "wind_speed_100m": 1.06,
+   "wind_direction_100m": 34.0
   },
   {
    "time": "2026-02-14T06:00",
@@ -14873,7 +17573,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0349,
    "p90": 0.634,
    "actual": null,
-   "curve": 0.2463
+   "curve": 0.2463,
+   "wind_speed_100m": 5.61,
+   "wind_direction_100m": 243.0
   },
   {
    "time": "2026-02-14T07:00",
@@ -14884,7 +17586,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0227,
    "p90": 0.5024,
    "actual": null,
-   "curve": 0.1172
+   "curve": 0.1172,
+   "wind_speed_100m": 4.34,
+   "wind_direction_100m": 252.0
   },
   {
    "time": "2026-02-14T08:00",
@@ -14895,7 +17599,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2782,
    "actual": null,
-   "curve": 0.0116
+   "curve": 0.0116,
+   "wind_speed_100m": 1.5,
+   "wind_direction_100m": 212.0
   },
   {
    "time": "2026-02-14T09:00",
@@ -14906,7 +17612,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2068,
    "actual": null,
-   "curve": 0.0162
+   "curve": 0.0162,
+   "wind_speed_100m": 1.85,
+   "wind_direction_100m": 148.0
   },
   {
    "time": "2026-02-14T10:00",
@@ -14917,7 +17625,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.139,
    "actual": null,
-   "curve": 0.0106
+   "curve": 0.0106,
+   "wind_speed_100m": 1.43,
+   "wind_direction_100m": 106.0
   },
   {
    "time": "2026-02-14T11:00",
@@ -14928,7 +17638,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.1835,
    "actual": null,
-   "curve": 0.0093
+   "curve": 0.0093,
+   "wind_speed_100m": 1.33,
+   "wind_direction_100m": 73.0
   },
   {
    "time": "2026-02-14T12:00",
@@ -14939,7 +17651,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0136,
    "p90": 0.2381,
    "actual": null,
-   "curve": 0.0516
+   "curve": 0.0516,
+   "wind_speed_100m": 3.18,
+   "wind_direction_100m": 236.0
   },
   {
    "time": "2026-02-14T13:00",
@@ -14950,7 +17664,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0139,
    "p90": 0.2195,
    "actual": null,
-   "curve": 0.0383
+   "curve": 0.0383,
+   "wind_speed_100m": 2.67,
+   "wind_direction_100m": 253.0
   },
   {
    "time": "2026-02-14T14:00",
@@ -14961,7 +17677,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0191,
    "p90": 0.2887,
    "actual": null,
-   "curve": 0.0418
+   "curve": 0.0418,
+   "wind_speed_100m": 2.76,
+   "wind_direction_100m": 243.0
   },
   {
    "time": "2026-02-14T15:00",
@@ -14972,7 +17690,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0723,
    "p90": 0.2386,
    "actual": null,
-   "curve": 0.0481
+   "curve": 0.0481,
+   "wind_speed_100m": 3.03,
+   "wind_direction_100m": 241.0
   },
   {
    "time": "2026-02-14T16:00",
@@ -14983,7 +17703,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0708,
    "p90": 0.2896,
    "actual": null,
-   "curve": 0.0483
+   "curve": 0.0483,
+   "wind_speed_100m": 3.04,
+   "wind_direction_100m": 255.0
   },
   {
    "time": "2026-02-14T17:00",
@@ -14994,7 +17716,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1197,
    "p90": 0.3456,
    "actual": null,
-   "curve": 0.0774
+   "curve": 0.0774,
+   "wind_speed_100m": 3.6,
+   "wind_direction_100m": 241.0
   },
   {
    "time": "2026-02-14T18:00",
@@ -15005,7 +17729,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0869,
    "p90": 0.4922,
    "actual": null,
-   "curve": 0.1932
+   "curve": 0.1932,
+   "wind_speed_100m": 5.07,
+   "wind_direction_100m": 260.0
   },
   {
    "time": "2026-02-14T19:00",
@@ -15016,7 +17742,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0384,
    "p90": 0.2789,
    "actual": null,
-   "curve": 0.106
+   "curve": 0.106,
+   "wind_speed_100m": 4.13,
+   "wind_direction_100m": 265.0
   },
   {
    "time": "2026-02-14T20:00",
@@ -15027,7 +17755,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2853,
    "actual": null,
-   "curve": 0.0183
+   "curve": 0.0183,
+   "wind_speed_100m": 2.0,
+   "wind_direction_100m": 281.0
   },
   {
    "time": "2026-02-14T21:00",
@@ -15038,7 +17768,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.1498,
    "actual": null,
-   "curve": 0.0098
+   "curve": 0.0098,
+   "wind_speed_100m": 1.36,
+   "wind_direction_100m": 240.0
   },
   {
    "time": "2026-02-14T22:00",
@@ -15049,7 +17781,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2502,
    "actual": null,
-   "curve": 0.0087
+   "curve": 0.0087,
+   "wind_speed_100m": 1.28,
+   "wind_direction_100m": 184.0
   },
   {
    "time": "2026-02-14T23:00",
@@ -15060,7 +17794,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2787,
    "actual": null,
-   "curve": 0.0057
+   "curve": 0.0057,
+   "wind_speed_100m": 0.49,
+   "wind_direction_100m": 127.0
   },
   {
    "time": "2026-02-15T00:00",
@@ -15071,7 +17807,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.4788,
    "actual": null,
-   "curve": 0.0339
+   "curve": 0.0339,
+   "wind_speed_100m": 2.42,
+   "wind_direction_100m": 58.0
   },
   {
    "time": "2026-02-15T01:00",
@@ -15082,7 +17820,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0192,
    "p90": 0.4587,
    "actual": null,
-   "curve": 0.0916
+   "curve": 0.0916,
+   "wind_speed_100m": 3.75,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-15T02:00",
@@ -15093,7 +17833,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0596,
    "p90": 0.582,
    "actual": null,
-   "curve": 0.2352
+   "curve": 0.2352,
+   "wind_speed_100m": 5.52,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-15T03:00",
@@ -15104,7 +17846,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1715,
    "p90": 0.8349,
    "actual": null,
-   "curve": 0.5528
+   "curve": 0.5528,
+   "wind_speed_100m": 7.59,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-15T04:00",
@@ -15115,7 +17859,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4732,
    "p90": 0.9649,
    "actual": null,
-   "curve": 0.7832
+   "curve": 0.7832,
+   "wind_speed_100m": 9.39,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-15T05:00",
@@ -15126,7 +17872,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7663,
    "p90": 0.9851,
    "actual": null,
-   "curve": 0.896
+   "curve": 0.896,
+   "wind_speed_100m": 10.88,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-15T06:00",
@@ -15137,7 +17885,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6683,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8744
+   "curve": 0.8744,
+   "wind_speed_100m": 10.52,
+   "wind_direction_100m": 63.0
   },
   {
    "time": "2026-02-15T07:00",
@@ -15148,7 +17898,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7178,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8503
+   "curve": 0.8503,
+   "wind_speed_100m": 10.06,
+   "wind_direction_100m": 59.0
   },
   {
    "time": "2026-02-15T08:00",
@@ -15159,7 +17911,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7559,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8623
+   "curve": 0.8623,
+   "wind_speed_100m": 10.35,
+   "wind_direction_100m": 61.0
   },
   {
    "time": "2026-02-15T09:00",
@@ -15170,7 +17924,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7703,
    "p90": 0.9986,
    "actual": null,
-   "curve": 0.8667
+   "curve": 0.8667,
+   "wind_speed_100m": 10.43,
+   "wind_direction_100m": 63.0
   },
   {
    "time": "2026-02-15T10:00",
@@ -15181,7 +17937,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7895,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8592
+   "curve": 0.8592,
+   "wind_speed_100m": 10.3,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-15T11:00",
@@ -15192,7 +17950,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7919,
    "p90": 0.9986,
    "actual": null,
-   "curve": 0.8572
+   "curve": 0.8572,
+   "wind_speed_100m": 10.25,
+   "wind_direction_100m": 63.0
   },
   {
    "time": "2026-02-15T12:00",
@@ -15203,7 +17963,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8441,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9305
+   "curve": 0.9305,
+   "wind_speed_100m": 11.68,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-15T13:00",
@@ -15214,7 +17976,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8837,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9364
+   "curve": 0.9364,
+   "wind_speed_100m": 11.88,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-15T14:00",
@@ -15225,7 +17989,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8965,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9492
+   "curve": 0.9492,
+   "wind_speed_100m": 12.28,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-15T15:00",
@@ -15236,7 +18002,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.913,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9555
+   "curve": 0.9555,
+   "wind_speed_100m": 12.48,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-15T16:00",
@@ -15247,7 +18015,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9183,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9499
+   "curve": 0.9499,
+   "wind_speed_100m": 12.3,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-15T17:00",
@@ -15258,7 +18028,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8895,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9342
+   "curve": 0.9342,
+   "wind_speed_100m": 11.8,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-15T18:00",
@@ -15269,7 +18041,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.896,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9213
+   "curve": 0.9213,
+   "wind_speed_100m": 11.31,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-15T19:00",
@@ -15280,7 +18054,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8992,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8894
+   "curve": 0.8894,
+   "wind_speed_100m": 10.78,
+   "wind_direction_100m": 73.0
   },
   {
    "time": "2026-02-15T20:00",
@@ -15291,7 +18067,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8461,
    "p90": 0.9942,
    "actual": null,
-   "curve": 0.863
+   "curve": 0.863,
+   "wind_speed_100m": 10.35,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-15T21:00",
@@ -15302,7 +18080,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8297,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8469
+   "curve": 0.8469,
+   "wind_speed_100m": 9.98,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-15T22:00",
@@ -15313,7 +18093,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7879,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.7087
+   "curve": 0.7087,
+   "wind_speed_100m": 8.99,
+   "wind_direction_100m": 74.0
   },
   {
    "time": "2026-02-15T23:00",
@@ -15324,7 +18106,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5587,
    "p90": 0.9562,
    "actual": null,
-   "curve": 0.415
+   "curve": 0.415,
+   "wind_speed_100m": 6.76,
+   "wind_direction_100m": 73.0
   },
   {
    "time": "2026-02-15T00:00",
@@ -15335,7 +18119,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.461,
    "actual": null,
-   "curve": 0.0405
+   "curve": 0.0405,
+   "wind_speed_100m": 2.68,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-15T01:00",
@@ -15346,7 +18132,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0359,
    "p90": 0.5194,
    "actual": null,
-   "curve": 0.128
+   "curve": 0.128,
+   "wind_speed_100m": 4.3,
+   "wind_direction_100m": 60.0
   },
   {
    "time": "2026-02-15T02:00",
@@ -15357,7 +18145,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0739,
    "p90": 0.7014,
    "actual": null,
-   "curve": 0.2823
+   "curve": 0.2823,
+   "wind_speed_100m": 5.79,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-15T03:00",
@@ -15368,7 +18158,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3847,
    "p90": 0.9646,
    "actual": null,
-   "curve": 0.525
+   "curve": 0.525,
+   "wind_speed_100m": 7.16,
+   "wind_direction_100m": 73.0
   },
   {
    "time": "2026-02-15T04:00",
@@ -15379,7 +18171,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6555,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.685
+   "curve": 0.685,
+   "wind_speed_100m": 8.41,
+   "wind_direction_100m": 75.0
   },
   {
    "time": "2026-02-15T05:00",
@@ -15390,7 +18184,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8454,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8533
+   "curve": 0.8533,
+   "wind_speed_100m": 9.56,
+   "wind_direction_100m": 75.0
   },
   {
    "time": "2026-02-15T06:00",
@@ -15401,7 +18197,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8352,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9249
+   "curve": 0.9249,
+   "wind_speed_100m": 12.01,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-15T07:00",
@@ -15412,7 +18210,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8152,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9204
+   "curve": 0.9204,
+   "wind_speed_100m": 11.84,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-15T08:00",
@@ -15423,7 +18223,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7881,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9147
+   "curve": 0.9147,
+   "wind_speed_100m": 11.52,
+   "wind_direction_100m": 64.0
   },
   {
    "time": "2026-02-15T09:00",
@@ -15434,7 +18236,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8487,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9116
+   "curve": 0.9116,
+   "wind_speed_100m": 11.32,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-15T10:00",
@@ -15445,7 +18249,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8014,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9111
+   "curve": 0.9111,
+   "wind_speed_100m": 11.18,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-15T11:00",
@@ -15456,7 +18262,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7634,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9132
+   "curve": 0.9132,
+   "wind_speed_100m": 11.44,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-15T12:00",
@@ -15467,7 +18275,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9033,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9215
+   "curve": 0.9215,
+   "wind_speed_100m": 11.9,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-15T13:00",
@@ -15478,7 +18288,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9122,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9252
+   "curve": 0.9252,
+   "wind_speed_100m": 12.05,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-15T14:00",
@@ -15489,7 +18301,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9122,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9297
+   "curve": 0.9297,
+   "wind_speed_100m": 12.24,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-15T15:00",
@@ -15500,7 +18314,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9304,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9283
+   "curve": 0.9283,
+   "wind_speed_100m": 12.18,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-15T16:00",
@@ -15511,7 +18327,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9057,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9114
+   "curve": 0.9114,
+   "wind_speed_100m": 11.25,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-15T17:00",
@@ -15522,7 +18340,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8625,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8903
+   "curve": 0.8903,
+   "wind_speed_100m": 10.14,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-15T18:00",
@@ -15533,7 +18353,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7485,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.6355
+   "curve": 0.6355,
+   "wind_speed_100m": 8.04,
+   "wind_direction_100m": 81.0
   },
   {
    "time": "2026-02-15T19:00",
@@ -15544,7 +18366,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6176,
    "p90": 0.9912,
    "actual": null,
-   "curve": 0.3712
+   "curve": 0.3712,
+   "wind_speed_100m": 6.28,
+   "wind_direction_100m": 79.0
   },
   {
    "time": "2026-02-15T20:00",
@@ -15555,7 +18379,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6224,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.4266
+   "curve": 0.4266,
+   "wind_speed_100m": 6.73,
+   "wind_direction_100m": 77.0
   },
   {
    "time": "2026-02-15T21:00",
@@ -15566,7 +18392,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6963,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.5034
+   "curve": 0.5034,
+   "wind_speed_100m": 7.1,
+   "wind_direction_100m": 84.0
   },
   {
    "time": "2026-02-15T22:00",
@@ -15577,7 +18405,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7573,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.5365
+   "curve": 0.5365,
+   "wind_speed_100m": 7.25,
+   "wind_direction_100m": 89.0
   },
   {
    "time": "2026-02-15T23:00",
@@ -15588,7 +18418,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7734,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.6431
+   "curve": 0.6431,
+   "wind_speed_100m": 8.09,
+   "wind_direction_100m": 97.0
   },
   {
    "time": "2026-02-16T00:00",
@@ -15599,7 +18431,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.783,
    "p90": 0.987,
    "actual": null,
-   "curve": 0.7631
+   "curve": 0.7631,
+   "wind_speed_100m": 9.27,
+   "wind_direction_100m": 77.0
   },
   {
    "time": "2026-02-16T01:00",
@@ -15610,7 +18444,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.558,
    "p90": 0.9789,
    "actual": null,
-   "curve": 0.515
+   "curve": 0.515,
+   "wind_speed_100m": 7.32,
+   "wind_direction_100m": 74.0
   },
   {
    "time": "2026-02-16T02:00",
@@ -15621,7 +18457,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4666,
    "p90": 0.9404,
    "actual": null,
-   "curve": 0.5425
+   "curve": 0.5425,
+   "wind_speed_100m": 7.49,
+   "wind_direction_100m": 63.0
   },
   {
    "time": "2026-02-16T03:00",
@@ -15632,7 +18470,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5966,
    "p90": 0.9786,
    "actual": null,
-   "curve": 0.5063
+   "curve": 0.5063,
+   "wind_speed_100m": 7.26,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-16T04:00",
@@ -15643,7 +18483,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7432,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.7818
+   "curve": 0.7818,
+   "wind_speed_100m": 9.41,
+   "wind_direction_100m": 89.0
   },
   {
    "time": "2026-02-16T05:00",
@@ -15654,7 +18496,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7324,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.6952
+   "curve": 0.6952,
+   "wind_speed_100m": 8.83,
+   "wind_direction_100m": 81.0
   },
   {
    "time": "2026-02-16T06:00",
@@ -15665,7 +18509,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6747,
    "p90": 0.9953,
    "actual": null,
-   "curve": 0.7147
+   "curve": 0.7147,
+   "wind_speed_100m": 8.98,
+   "wind_direction_100m": 63.0
   },
   {
    "time": "2026-02-16T07:00",
@@ -15676,7 +18522,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7001,
    "p90": 0.9826,
    "actual": null,
-   "curve": 0.6882
+   "curve": 0.6882,
+   "wind_speed_100m": 8.81,
+   "wind_direction_100m": 64.0
   },
   {
    "time": "2026-02-16T08:00",
@@ -15687,7 +18535,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7592,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.7067
+   "curve": 0.7067,
+   "wind_speed_100m": 8.94,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-16T09:00",
@@ -15698,7 +18548,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6795,
    "p90": 0.9883,
    "actual": null,
-   "curve": 0.6601
+   "curve": 0.6601,
+   "wind_speed_100m": 8.63,
+   "wind_direction_100m": 62.0
   },
   {
    "time": "2026-02-16T10:00",
@@ -15709,7 +18561,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7095,
    "p90": 0.9892,
    "actual": null,
-   "curve": 0.6798
+   "curve": 0.6798,
+   "wind_speed_100m": 8.76,
+   "wind_direction_100m": 63.0
   },
   {
    "time": "2026-02-16T11:00",
@@ -15720,7 +18574,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.821,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.707
+   "curve": 0.707,
+   "wind_speed_100m": 8.94,
+   "wind_direction_100m": 63.0
   },
   {
    "time": "2026-02-16T12:00",
@@ -15731,7 +18587,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7227,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8497
+   "curve": 0.8497,
+   "wind_speed_100m": 9.96,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-16T13:00",
@@ -15742,7 +18600,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8203,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8587
+   "curve": 0.8587,
+   "wind_speed_100m": 10.05,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-16T14:00",
@@ -15753,7 +18613,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7771,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.7999
+   "curve": 0.7999,
+   "wind_speed_100m": 9.53,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-16T15:00",
@@ -15764,7 +18626,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7537,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.799
+   "curve": 0.799,
+   "wind_speed_100m": 9.52,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-16T16:00",
@@ -15775,7 +18639,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7102,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8226
+   "curve": 0.8226,
+   "wind_speed_100m": 9.69,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-16T17:00",
@@ -15786,7 +18652,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7765,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8704
+   "curve": 0.8704,
+   "wind_speed_100m": 10.17,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-16T18:00",
@@ -15797,7 +18665,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7145,
    "p90": 0.9806,
    "actual": null,
-   "curve": 0.8114
+   "curve": 0.8114,
+   "wind_speed_100m": 9.61,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-16T19:00",
@@ -15808,7 +18678,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7893,
    "p90": 0.9999,
    "actual": null,
-   "curve": 0.849
+   "curve": 0.849,
+   "wind_speed_100m": 9.93,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-16T20:00",
@@ -15819,7 +18691,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6551,
    "p90": 0.9996,
    "actual": null,
-   "curve": 0.8236
+   "curve": 0.8236,
+   "wind_speed_100m": 9.7,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-16T21:00",
@@ -15830,7 +18704,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.653,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8401
+   "curve": 0.8401,
+   "wind_speed_100m": 9.83,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-16T22:00",
@@ -15841,7 +18717,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6353,
    "p90": 0.9936,
    "actual": null,
-   "curve": 0.8219
+   "curve": 0.8219,
+   "wind_speed_100m": 9.69,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-16T23:00",
@@ -15852,7 +18730,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5938,
    "p90": 0.9507,
    "actual": null,
-   "curve": 0.7672
+   "curve": 0.7672,
+   "wind_speed_100m": 9.29,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-15T00:00",
@@ -15863,7 +18743,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.465,
    "actual": null,
-   "curve": 0.039
+   "curve": 0.039,
+   "wind_speed_100m": 2.68,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-15T01:00",
@@ -15874,7 +18756,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0279,
    "p90": 0.5355,
    "actual": null,
-   "curve": 0.1154
+   "curve": 0.1154,
+   "wind_speed_100m": 4.3,
+   "wind_direction_100m": 60.0
   },
   {
    "time": "2026-02-15T02:00",
@@ -15885,7 +18769,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0579,
    "p90": 0.6899,
    "actual": null,
-   "curve": 0.2652
+   "curve": 0.2652,
+   "wind_speed_100m": 5.79,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-15T03:00",
@@ -15896,7 +18782,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3838,
    "p90": 0.9814,
    "actual": null,
-   "curve": 0.5123
+   "curve": 0.5123,
+   "wind_speed_100m": 7.16,
+   "wind_direction_100m": 73.0
   },
   {
    "time": "2026-02-15T04:00",
@@ -15907,7 +18795,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6453,
    "p90": 0.9997,
    "actual": null,
-   "curve": 0.68
+   "curve": 0.68,
+   "wind_speed_100m": 8.41,
+   "wind_direction_100m": 75.0
   },
   {
    "time": "2026-02-15T05:00",
@@ -15918,7 +18808,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8386,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8517
+   "curve": 0.8517,
+   "wind_speed_100m": 9.56,
+   "wind_direction_100m": 75.0
   },
   {
    "time": "2026-02-15T06:00",
@@ -15929,7 +18821,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8433,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.93
+   "curve": 0.93,
+   "wind_speed_100m": 12.01,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-15T07:00",
@@ -15940,7 +18834,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8247,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.93
+   "curve": 0.93,
+   "wind_speed_100m": 11.84,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-15T08:00",
@@ -15951,7 +18847,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8025,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9268
+   "curve": 0.9268,
+   "wind_speed_100m": 11.52,
+   "wind_direction_100m": 64.0
   },
   {
    "time": "2026-02-15T09:00",
@@ -15962,7 +18860,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8501,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9232
+   "curve": 0.9232,
+   "wind_speed_100m": 11.32,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-15T10:00",
@@ -15973,7 +18873,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7922,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9122
+   "curve": 0.9122,
+   "wind_speed_100m": 11.18,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-15T11:00",
@@ -15984,7 +18886,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.772,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9259
+   "curve": 0.9259,
+   "wind_speed_100m": 11.44,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-15T12:00",
@@ -15995,7 +18899,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9114,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.93
+   "curve": 0.93,
+   "wind_speed_100m": 11.9,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-15T13:00",
@@ -16006,7 +18912,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9183,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.93
+   "curve": 0.93,
+   "wind_speed_100m": 12.05,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-15T14:00",
@@ -16017,7 +18925,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9183,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.93
+   "curve": 0.93,
+   "wind_speed_100m": 12.24,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-15T15:00",
@@ -16028,7 +18938,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.928,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.93
+   "curve": 0.93,
+   "wind_speed_100m": 12.18,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-15T16:00",
@@ -16039,7 +18951,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9056,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9196
+   "curve": 0.9196,
+   "wind_speed_100m": 11.25,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-15T17:00",
@@ -16050,7 +18964,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8565,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8745
+   "curve": 0.8745,
+   "wind_speed_100m": 10.14,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-15T18:00",
@@ -16061,7 +18977,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7321,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.6268
+   "curve": 0.6268,
+   "wind_speed_100m": 8.04,
+   "wind_direction_100m": 81.0
   },
   {
    "time": "2026-02-15T19:00",
@@ -16072,7 +18990,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.591,
    "p90": 0.9791,
    "actual": null,
-   "curve": 0.3495
+   "curve": 0.3495,
+   "wind_speed_100m": 6.28,
+   "wind_direction_100m": 79.0
   },
   {
    "time": "2026-02-15T20:00",
@@ -16083,7 +19003,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6031,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.4123
+   "curve": 0.4123,
+   "wind_speed_100m": 6.73,
+   "wind_direction_100m": 77.0
   },
   {
    "time": "2026-02-15T21:00",
@@ -16094,7 +19016,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6984,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.4906
+   "curve": 0.4906,
+   "wind_speed_100m": 7.1,
+   "wind_direction_100m": 84.0
   },
   {
    "time": "2026-02-15T22:00",
@@ -16105,7 +19029,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7473,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.5239
+   "curve": 0.5239,
+   "wind_speed_100m": 7.25,
+   "wind_direction_100m": 89.0
   },
   {
    "time": "2026-02-15T23:00",
@@ -16116,7 +19042,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7715,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.635
+   "curve": 0.635,
+   "wind_speed_100m": 8.09,
+   "wind_direction_100m": 97.0
   },
   {
    "time": "2026-02-16T00:00",
@@ -16127,7 +19055,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7785,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.759
+   "curve": 0.759,
+   "wind_speed_100m": 9.27,
+   "wind_direction_100m": 77.0
   },
   {
    "time": "2026-02-16T01:00",
@@ -16138,7 +19068,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5414,
    "p90": 0.979,
    "actual": null,
-   "curve": 0.5018
+   "curve": 0.5018,
+   "wind_speed_100m": 7.32,
+   "wind_direction_100m": 74.0
   },
   {
    "time": "2026-02-16T02:00",
@@ -16149,7 +19081,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4558,
    "p90": 0.9458,
    "actual": null,
-   "curve": 0.5304
+   "curve": 0.5304,
+   "wind_speed_100m": 7.49,
+   "wind_direction_100m": 63.0
   },
   {
    "time": "2026-02-16T03:00",
@@ -16160,7 +19094,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5868,
    "p90": 0.9672,
    "actual": null,
-   "curve": 0.4928
+   "curve": 0.4928,
+   "wind_speed_100m": 7.26,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-16T04:00",
@@ -16171,7 +19107,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.747,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.7801
+   "curve": 0.7801,
+   "wind_speed_100m": 9.41,
+   "wind_direction_100m": 89.0
   },
   {
    "time": "2026-02-16T05:00",
@@ -16182,7 +19120,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.726,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.6752
+   "curve": 0.6752,
+   "wind_speed_100m": 8.83,
+   "wind_direction_100m": 81.0
   },
   {
    "time": "2026-02-16T06:00",
@@ -16193,7 +19133,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6707,
    "p90": 0.981,
    "actual": null,
-   "curve": 0.6993
+   "curve": 0.6993,
+   "wind_speed_100m": 8.98,
+   "wind_direction_100m": 63.0
   },
   {
    "time": "2026-02-16T07:00",
@@ -16204,7 +19146,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6996,
    "p90": 0.9814,
    "actual": null,
-   "curve": 0.6712
+   "curve": 0.6712,
+   "wind_speed_100m": 8.81,
+   "wind_direction_100m": 64.0
   },
   {
    "time": "2026-02-16T08:00",
@@ -16215,7 +19159,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7522,
    "p90": 0.9853,
    "actual": null,
-   "curve": 0.6895
+   "curve": 0.6895,
+   "wind_speed_100m": 8.94,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-16T09:00",
@@ -16226,7 +19172,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6854,
    "p90": 0.9865,
    "actual": null,
-   "curve": 0.6558
+   "curve": 0.6558,
+   "wind_speed_100m": 8.63,
+   "wind_direction_100m": 62.0
   },
   {
    "time": "2026-02-16T10:00",
@@ -16237,7 +19185,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7052,
    "p90": 0.9901,
    "actual": null,
-   "curve": 0.6666
+   "curve": 0.6666,
+   "wind_speed_100m": 8.76,
+   "wind_direction_100m": 63.0
   },
   {
    "time": "2026-02-16T11:00",
@@ -16248,7 +19198,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8114,
    "p90": 0.9895,
    "actual": null,
-   "curve": 0.6898
+   "curve": 0.6898,
+   "wind_speed_100m": 8.94,
+   "wind_direction_100m": 63.0
   },
   {
    "time": "2026-02-16T12:00",
@@ -16259,7 +19211,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7251,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8454
+   "curve": 0.8454,
+   "wind_speed_100m": 9.96,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-16T13:00",
@@ -16270,7 +19224,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8147,
    "p90": 0.9999,
    "actual": null,
-   "curve": 0.8496
+   "curve": 0.8496,
+   "wind_speed_100m": 10.05,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-16T14:00",
@@ -16281,7 +19237,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.78,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.7992
+   "curve": 0.7992,
+   "wind_speed_100m": 9.53,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-16T15:00",
@@ -16292,7 +19250,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7692,
    "p90": 0.9945,
    "actual": null,
-   "curve": 0.7983
+   "curve": 0.7983,
+   "wind_speed_100m": 9.52,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-16T16:00",
@@ -16303,7 +19263,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7073,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8233
+   "curve": 0.8233,
+   "wind_speed_100m": 9.69,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-16T17:00",
@@ -16314,7 +19276,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7581,
    "p90": 0.9938,
    "actual": null,
-   "curve": 0.8551
+   "curve": 0.8551,
+   "wind_speed_100m": 10.17,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-16T18:00",
@@ -16325,7 +19289,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7111,
    "p90": 0.9707,
    "actual": null,
-   "curve": 0.8114
+   "curve": 0.8114,
+   "wind_speed_100m": 9.61,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-16T19:00",
@@ -16336,7 +19302,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7791,
    "p90": 0.9848,
    "actual": null,
-   "curve": 0.845
+   "curve": 0.845,
+   "wind_speed_100m": 9.93,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-16T20:00",
@@ -16347,7 +19315,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6497,
    "p90": 0.9927,
    "actual": null,
-   "curve": 0.8243
+   "curve": 0.8243,
+   "wind_speed_100m": 9.7,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-16T21:00",
@@ -16358,7 +19328,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6475,
    "p90": 0.9989,
    "actual": null,
-   "curve": 0.8408
+   "curve": 0.8408,
+   "wind_speed_100m": 9.83,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-16T22:00",
@@ -16369,7 +19341,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6297,
    "p90": 0.9896,
    "actual": null,
-   "curve": 0.8225
+   "curve": 0.8225,
+   "wind_speed_100m": 9.69,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-16T23:00",
@@ -16380,7 +19354,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5844,
    "p90": 0.9453,
    "actual": null,
-   "curve": 0.7641
+   "curve": 0.7641,
+   "wind_speed_100m": 9.29,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-16T00:00",
@@ -16391,7 +19367,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8946,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9062
+   "curve": 0.9062,
+   "wind_speed_100m": 10.28,
+   "wind_direction_100m": 82.0
   },
   {
    "time": "2026-02-16T01:00",
@@ -16402,7 +19380,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8348,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9106
+   "curve": 0.9106,
+   "wind_speed_100m": 10.99,
+   "wind_direction_100m": 86.0
   },
   {
    "time": "2026-02-16T02:00",
@@ -16413,7 +19393,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7642,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8763
+   "curve": 0.8763,
+   "wind_speed_100m": 10.02,
+   "wind_direction_100m": 81.0
   },
   {
    "time": "2026-02-16T03:00",
@@ -16424,7 +19406,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.626,
    "p90": 0.986,
    "actual": null,
-   "curve": 0.685
+   "curve": 0.685,
+   "wind_speed_100m": 8.81,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-16T04:00",
@@ -16435,7 +19419,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6198,
    "p90": 0.979,
    "actual": null,
-   "curve": 0.685
+   "curve": 0.685,
+   "wind_speed_100m": 8.79,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-16T05:00",
@@ -16446,7 +19432,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7222,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.7175
+   "curve": 0.7175,
+   "wind_speed_100m": 8.92,
+   "wind_direction_100m": 73.0
   },
   {
    "time": "2026-02-16T06:00",
@@ -16457,7 +19445,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.649,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9045
+   "curve": 0.9045,
+   "wind_speed_100m": 10.31,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-16T07:00",
@@ -16468,7 +19458,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6282,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8533
+   "curve": 0.8533,
+   "wind_speed_100m": 9.43,
+   "wind_direction_100m": 61.0
   },
   {
    "time": "2026-02-16T08:00",
@@ -16479,7 +19471,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6614,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.7916
+   "curve": 0.7916,
+   "wind_speed_100m": 9.18,
+   "wind_direction_100m": 60.0
   },
   {
    "time": "2026-02-16T09:00",
@@ -16490,7 +19484,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7435,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.7147
+   "curve": 0.7147,
+   "wind_speed_100m": 8.95,
+   "wind_direction_100m": 61.0
   },
   {
    "time": "2026-02-16T10:00",
@@ -16501,7 +19497,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7748,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.7115
+   "curve": 0.7115,
+   "wind_speed_100m": 8.94,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-16T11:00",
@@ -16512,7 +19510,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6048,
    "p90": 0.9957,
    "actual": null,
-   "curve": 0.8465
+   "curve": 0.8465,
+   "wind_speed_100m": 9.34,
+   "wind_direction_100m": 62.0
   },
   {
    "time": "2026-02-16T12:00",
@@ -16523,7 +19523,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6576,
    "p90": 0.9985,
    "actual": null,
-   "curve": 0.7873
+   "curve": 0.7873,
+   "wind_speed_100m": 9.16,
+   "wind_direction_100m": 64.0
   },
   {
    "time": "2026-02-16T13:00",
@@ -16534,7 +19536,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6595,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8533
+   "curve": 0.8533,
+   "wind_speed_100m": 9.46,
+   "wind_direction_100m": 64.0
   },
   {
    "time": "2026-02-16T14:00",
@@ -16545,7 +19549,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7047,
    "p90": 0.9999,
    "actual": null,
-   "curve": 0.8515
+   "curve": 0.8515,
+   "wind_speed_100m": 9.33,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-16T15:00",
@@ -16556,7 +19562,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.725,
    "p90": 0.9761,
    "actual": null,
-   "curve": 0.8533
+   "curve": 0.8533,
+   "wind_speed_100m": 9.69,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-16T16:00",
@@ -16567,7 +19575,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7578,
    "p90": 0.9746,
    "actual": null,
-   "curve": 0.8533
+   "curve": 0.8533,
+   "wind_speed_100m": 9.65,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-16T17:00",
@@ -16578,7 +19588,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7369,
    "p90": 0.9931,
    "actual": null,
-   "curve": 0.8626
+   "curve": 0.8626,
+   "wind_speed_100m": 9.91,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-16T18:00",
@@ -16589,7 +19601,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7563,
    "p90": 0.9978,
    "actual": null,
-   "curve": 0.8533
+   "curve": 0.8533,
+   "wind_speed_100m": 9.39,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-16T19:00",
@@ -16600,7 +19614,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7411,
    "p90": 0.999,
    "actual": null,
-   "curve": 0.8533
+   "curve": 0.8533,
+   "wind_speed_100m": 9.39,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-16T20:00",
@@ -16611,7 +19627,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7245,
    "p90": 0.9846,
    "actual": null,
-   "curve": 0.8533
+   "curve": 0.8533,
+   "wind_speed_100m": 9.52,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-16T21:00",
@@ -16622,7 +19640,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7223,
    "p90": 0.9508,
    "actual": null,
-   "curve": 0.8533
+   "curve": 0.8533,
+   "wind_speed_100m": 9.43,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-16T22:00",
@@ -16633,7 +19653,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5864,
    "p90": 0.9526,
    "actual": null,
-   "curve": 0.8162
+   "curve": 0.8162,
+   "wind_speed_100m": 9.2,
+   "wind_direction_100m": 63.0
   },
   {
    "time": "2026-02-16T23:00",
@@ -16644,7 +19666,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4865,
    "p90": 0.8786,
    "actual": null,
-   "curve": 0.685
+   "curve": 0.685,
+   "wind_speed_100m": 8.54,
+   "wind_direction_100m": 63.0
   },
   {
    "time": "2026-02-17T00:00",
@@ -16655,7 +19679,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2203,
    "p90": 0.4764,
    "actual": null,
-   "curve": 0.1012
+   "curve": 0.1012,
+   "wind_speed_100m": 4.05,
+   "wind_direction_100m": 58.0
   },
   {
    "time": "2026-02-17T01:00",
@@ -16666,7 +19692,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0799,
    "p90": 0.429,
    "actual": null,
-   "curve": 0.0898
+   "curve": 0.0898,
+   "wind_speed_100m": 3.69,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-17T02:00",
@@ -16677,7 +19705,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1143,
    "p90": 0.4976,
    "actual": null,
-   "curve": 0.0991
+   "curve": 0.0991,
+   "wind_speed_100m": 3.92,
+   "wind_direction_100m": 87.0
   },
   {
    "time": "2026-02-17T03:00",
@@ -16688,7 +19718,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.148,
    "p90": 0.4937,
    "actual": null,
-   "curve": 0.0975
+   "curve": 0.0975,
+   "wind_speed_100m": 3.82,
+   "wind_direction_100m": 89.0
   },
   {
    "time": "2026-02-17T04:00",
@@ -16699,7 +19731,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.121,
    "p90": 0.5439,
    "actual": null,
-   "curve": 0.1224
+   "curve": 0.1224,
+   "wind_speed_100m": 4.43,
+   "wind_direction_100m": 85.0
   },
   {
    "time": "2026-02-17T05:00",
@@ -16710,7 +19744,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1418,
    "p90": 0.6649,
    "actual": null,
-   "curve": 0.1569
+   "curve": 0.1569,
+   "wind_speed_100m": 4.74,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-17T06:00",
@@ -16721,7 +19757,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3118,
    "p90": 0.8667,
    "actual": null,
-   "curve": 0.4428
+   "curve": 0.4428,
+   "wind_speed_100m": 6.84,
+   "wind_direction_100m": 63.0
   },
   {
    "time": "2026-02-17T07:00",
@@ -16732,7 +19770,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4411,
    "p90": 0.9468,
    "actual": null,
-   "curve": 0.5446
+   "curve": 0.5446,
+   "wind_speed_100m": 7.54,
+   "wind_direction_100m": 62.0
   },
   {
    "time": "2026-02-17T08:00",
@@ -16743,7 +19783,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4152,
    "p90": 0.9525,
    "actual": null,
-   "curve": 0.6085
+   "curve": 0.6085,
+   "wind_speed_100m": 8.16,
+   "wind_direction_100m": 61.0
   },
   {
    "time": "2026-02-17T09:00",
@@ -16754,7 +19796,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4527,
    "p90": 0.966,
    "actual": null,
-   "curve": 0.6528
+   "curve": 0.6528,
+   "wind_speed_100m": 8.59,
+   "wind_direction_100m": 61.0
   },
   {
    "time": "2026-02-17T10:00",
@@ -16765,7 +19809,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4729,
    "p90": 0.945,
    "actual": null,
-   "curve": 0.6854
+   "curve": 0.6854,
+   "wind_speed_100m": 8.81,
+   "wind_direction_100m": 63.0
   },
   {
    "time": "2026-02-17T11:00",
@@ -16776,7 +19822,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.42,
    "p90": 0.9659,
    "actual": null,
-   "curve": 0.6334
+   "curve": 0.6334,
+   "wind_speed_100m": 8.46,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-17T12:00",
@@ -16787,7 +19835,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5477,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.4665
+   "curve": 0.4665,
+   "wind_speed_100m": 7.01,
+   "wind_direction_100m": 63.0
   },
   {
    "time": "2026-02-17T13:00",
@@ -16798,7 +19848,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5863,
    "p90": 0.9875,
    "actual": null,
-   "curve": 0.5961
+   "curve": 0.5961,
+   "wind_speed_100m": 7.9,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-17T14:00",
@@ -16809,7 +19861,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6217,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.6445
+   "curve": 0.6445,
+   "wind_speed_100m": 8.48,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-17T15:00",
@@ -16820,7 +19874,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7039,
    "p90": 0.9944,
    "actual": null,
-   "curve": 0.7486
+   "curve": 0.7486,
+   "wind_speed_100m": 9.17,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-17T16:00",
@@ -16831,7 +19887,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7339,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.7959
+   "curve": 0.7959,
+   "wind_speed_100m": 9.5,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-17T17:00",
@@ -16842,7 +19900,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7859,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8018
+   "curve": 0.8018,
+   "wind_speed_100m": 9.54,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-17T18:00",
@@ -16853,7 +19913,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6773,
    "p90": 0.9526,
    "actual": null,
-   "curve": 0.7212
+   "curve": 0.7212,
+   "wind_speed_100m": 8.97,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-17T19:00",
@@ -16864,7 +19926,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7099,
    "p90": 0.9745,
    "actual": null,
-   "curve": 0.7468
+   "curve": 0.7468,
+   "wind_speed_100m": 9.14,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-17T20:00",
@@ -16875,7 +19939,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6776,
    "p90": 0.9941,
    "actual": null,
-   "curve": 0.8102
+   "curve": 0.8102,
+   "wind_speed_100m": 9.59,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-17T21:00",
@@ -16886,7 +19952,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6991,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8845
+   "curve": 0.8845,
+   "wind_speed_100m": 10.54,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-17T22:00",
@@ -16897,7 +19965,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7466,
    "p90": 0.9959,
    "actual": null,
-   "curve": 0.8882
+   "curve": 0.8882,
+   "wind_speed_100m": 10.83,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-17T23:00",
@@ -16908,7 +19978,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7676,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9054
+   "curve": 0.9054,
+   "wind_speed_100m": 11.12,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-16T00:00",
@@ -16919,7 +19991,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8709,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8843
+   "curve": 0.8843,
+   "wind_speed_100m": 10.28,
+   "wind_direction_100m": 82.0
   },
   {
    "time": "2026-02-16T01:00",
@@ -16930,7 +20004,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8244,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8994
+   "curve": 0.8994,
+   "wind_speed_100m": 10.99,
+   "wind_direction_100m": 86.0
   },
   {
    "time": "2026-02-16T02:00",
@@ -16941,7 +20017,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7486,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8659
+   "curve": 0.8659,
+   "wind_speed_100m": 10.02,
+   "wind_direction_100m": 81.0
   },
   {
    "time": "2026-02-16T03:00",
@@ -16952,7 +20030,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6213,
    "p90": 0.9837,
    "actual": null,
-   "curve": 0.68
+   "curve": 0.68,
+   "wind_speed_100m": 8.81,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-16T04:00",
@@ -16963,7 +20043,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6151,
    "p90": 0.9771,
    "actual": null,
-   "curve": 0.68
+   "curve": 0.68,
+   "wind_speed_100m": 8.79,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-16T05:00",
@@ -16974,7 +20056,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7258,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.7132
+   "curve": 0.7132,
+   "wind_speed_100m": 8.92,
+   "wind_direction_100m": 73.0
   },
   {
    "time": "2026-02-16T06:00",
@@ -16985,7 +20069,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6544,
    "p90": 0.9953,
    "actual": null,
-   "curve": 0.8833
+   "curve": 0.8833,
+   "wind_speed_100m": 10.31,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-16T07:00",
@@ -16996,7 +20082,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6368,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8517
+   "curve": 0.8517,
+   "wind_speed_100m": 9.43,
+   "wind_direction_100m": 61.0
   },
   {
    "time": "2026-02-16T08:00",
@@ -17007,7 +20095,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6674,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.7887
+   "curve": 0.7887,
+   "wind_speed_100m": 9.18,
+   "wind_direction_100m": 60.0
   },
   {
    "time": "2026-02-16T09:00",
@@ -17018,7 +20108,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7479,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.7103
+   "curve": 0.7103,
+   "wind_speed_100m": 8.95,
+   "wind_direction_100m": 61.0
   },
   {
    "time": "2026-02-16T10:00",
@@ -17029,7 +20121,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7793,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.707
+   "curve": 0.707,
+   "wind_speed_100m": 8.94,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-16T11:00",
@@ -17040,7 +20134,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6106,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8447
+   "curve": 0.8447,
+   "wind_speed_100m": 9.34,
+   "wind_direction_100m": 62.0
   },
   {
    "time": "2026-02-16T12:00",
@@ -17051,7 +20147,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.666,
    "p90": 0.9968,
    "actual": null,
-   "curve": 0.7843
+   "curve": 0.7843,
+   "wind_speed_100m": 9.16,
+   "wind_direction_100m": 64.0
   },
   {
    "time": "2026-02-16T13:00",
@@ -17062,7 +20160,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6694,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8517
+   "curve": 0.8517,
+   "wind_speed_100m": 9.46,
+   "wind_direction_100m": 64.0
   },
   {
    "time": "2026-02-16T14:00",
@@ -17073,7 +20173,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7043,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8498
+   "curve": 0.8498,
+   "wind_speed_100m": 9.33,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-16T15:00",
@@ -17084,7 +20186,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7078,
    "p90": 0.9959,
    "actual": null,
-   "curve": 0.8517
+   "curve": 0.8517,
+   "wind_speed_100m": 9.69,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-16T16:00",
@@ -17095,7 +20199,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7507,
    "p90": 0.9944,
    "actual": null,
-   "curve": 0.8517
+   "curve": 0.8517,
+   "wind_speed_100m": 9.65,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-16T17:00",
@@ -17106,7 +20212,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7309,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8574
+   "curve": 0.8574,
+   "wind_speed_100m": 9.91,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-16T18:00",
@@ -17117,7 +20225,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7495,
    "p90": 0.9939,
    "actual": null,
-   "curve": 0.8517
+   "curve": 0.8517,
+   "wind_speed_100m": 9.39,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-16T19:00",
@@ -17128,7 +20238,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7343,
    "p90": 0.9953,
    "actual": null,
-   "curve": 0.8517
+   "curve": 0.8517,
+   "wind_speed_100m": 9.39,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-16T20:00",
@@ -17139,7 +20251,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7178,
    "p90": 0.985,
    "actual": null,
-   "curve": 0.8517
+   "curve": 0.8517,
+   "wind_speed_100m": 9.52,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-16T21:00",
@@ -17150,7 +20264,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7156,
    "p90": 0.9573,
    "actual": null,
-   "curve": 0.8517
+   "curve": 0.8517,
+   "wind_speed_100m": 9.43,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-16T22:00",
@@ -17161,7 +20277,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5778,
    "p90": 0.9569,
    "actual": null,
-   "curve": 0.8138
+   "curve": 0.8138,
+   "wind_speed_100m": 9.2,
+   "wind_direction_100m": 63.0
   },
   {
    "time": "2026-02-16T23:00",
@@ -17172,7 +20290,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4765,
    "p90": 0.8765,
    "actual": null,
-   "curve": 0.68
+   "curve": 0.68,
+   "wind_speed_100m": 8.54,
+   "wind_direction_100m": 63.0
   },
   {
    "time": "2026-02-17T00:00",
@@ -17183,7 +20303,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2198,
    "p90": 0.4761,
    "actual": null,
-   "curve": 0.0971
+   "curve": 0.0971,
+   "wind_speed_100m": 4.05,
+   "wind_direction_100m": 58.0
   },
   {
    "time": "2026-02-17T01:00",
@@ -17194,7 +20316,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0761,
    "p90": 0.4278,
    "actual": null,
-   "curve": 0.0848
+   "curve": 0.0848,
+   "wind_speed_100m": 3.69,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-17T02:00",
@@ -17205,7 +20329,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1115,
    "p90": 0.4969,
    "actual": null,
-   "curve": 0.0946
+   "curve": 0.0946,
+   "wind_speed_100m": 3.92,
+   "wind_direction_100m": 87.0
   },
   {
    "time": "2026-02-17T03:00",
@@ -17216,7 +20342,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1443,
    "p90": 0.4927,
    "actual": null,
-   "curve": 0.0926
+   "curve": 0.0926,
+   "wind_speed_100m": 3.82,
+   "wind_direction_100m": 89.0
   },
   {
    "time": "2026-02-17T04:00",
@@ -17227,7 +20355,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1178,
    "p90": 0.5434,
    "actual": null,
-   "curve": 0.118
+   "curve": 0.118,
+   "wind_speed_100m": 4.43,
+   "wind_direction_100m": 85.0
   },
   {
    "time": "2026-02-17T05:00",
@@ -17238,7 +20368,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1452,
    "p90": 0.6623,
    "actual": null,
-   "curve": 0.1505
+   "curve": 0.1505,
+   "wind_speed_100m": 4.74,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-17T06:00",
@@ -17249,7 +20381,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3088,
    "p90": 0.8545,
    "actual": null,
-   "curve": 0.4271
+   "curve": 0.4271,
+   "wind_speed_100m": 6.84,
+   "wind_direction_100m": 63.0
   },
   {
    "time": "2026-02-17T07:00",
@@ -17260,7 +20394,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.441,
    "p90": 0.9396,
    "actual": null,
-   "curve": 0.5326
+   "curve": 0.5326,
+   "wind_speed_100m": 7.54,
+   "wind_direction_100m": 62.0
   },
   {
    "time": "2026-02-17T08:00",
@@ -17271,7 +20407,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4302,
    "p90": 0.9609,
    "actual": null,
-   "curve": 0.6133
+   "curve": 0.6133,
+   "wind_speed_100m": 8.16,
+   "wind_direction_100m": 61.0
   },
   {
    "time": "2026-02-17T09:00",
@@ -17282,7 +20420,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.462,
    "p90": 0.9686,
    "actual": null,
-   "curve": 0.6518
+   "curve": 0.6518,
+   "wind_speed_100m": 8.59,
+   "wind_direction_100m": 61.0
   },
   {
    "time": "2026-02-17T10:00",
@@ -17293,7 +20433,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4882,
    "p90": 0.964,
    "actual": null,
-   "curve": 0.6697
+   "curve": 0.6697,
+   "wind_speed_100m": 8.81,
+   "wind_direction_100m": 63.0
   },
   {
    "time": "2026-02-17T11:00",
@@ -17304,7 +20446,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4368,
    "p90": 0.9684,
    "actual": null,
-   "curve": 0.6412
+   "curve": 0.6412,
+   "wind_speed_100m": 8.46,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-17T12:00",
@@ -17315,7 +20459,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5442,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.4516
+   "curve": 0.4516,
+   "wind_speed_100m": 7.01,
+   "wind_direction_100m": 63.0
   },
   {
    "time": "2026-02-17T13:00",
@@ -17326,7 +20472,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5896,
    "p90": 0.9836,
    "actual": null,
-   "curve": 0.59
+   "curve": 0.59,
+   "wind_speed_100m": 7.9,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-17T14:00",
@@ -17337,7 +20485,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6256,
    "p90": 0.992,
    "actual": null,
-   "curve": 0.6472
+   "curve": 0.6472,
+   "wind_speed_100m": 8.48,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-17T15:00",
@@ -17348,7 +20498,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6962,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.7411
+   "curve": 0.7411,
+   "wind_speed_100m": 9.17,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-17T16:00",
@@ -17359,7 +20511,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7329,
    "p90": 0.9958,
    "actual": null,
-   "curve": 0.795
+   "curve": 0.795,
+   "wind_speed_100m": 9.5,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-17T17:00",
@@ -17370,7 +20524,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7852,
    "p90": 0.9926,
    "actual": null,
-   "curve": 0.8013
+   "curve": 0.8013,
+   "wind_speed_100m": 9.54,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-17T18:00",
@@ -17381,7 +20537,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.664,
    "p90": 0.9512,
    "actual": null,
-   "curve": 0.7073
+   "curve": 0.7073,
+   "wind_speed_100m": 8.97,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-17T19:00",
@@ -17392,7 +20550,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7019,
    "p90": 0.9779,
    "actual": null,
-   "curve": 0.7389
+   "curve": 0.7389,
+   "wind_speed_100m": 9.14,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-17T20:00",
@@ -17403,7 +20563,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6774,
    "p90": 0.9868,
    "actual": null,
-   "curve": 0.8102
+   "curve": 0.8102,
+   "wind_speed_100m": 9.59,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-17T21:00",
@@ -17414,7 +20576,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.684,
    "p90": 0.9983,
    "actual": null,
-   "curve": 0.8756
+   "curve": 0.8756,
+   "wind_speed_100m": 10.54,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-17T22:00",
@@ -17425,7 +20589,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7454,
    "p90": 0.9972,
    "actual": null,
-   "curve": 0.8932
+   "curve": 0.8932,
+   "wind_speed_100m": 10.83,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-17T23:00",
@@ -17436,7 +20602,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7614,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9104
+   "curve": 0.9104,
+   "wind_speed_100m": 11.12,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-17T00:00",
@@ -17447,7 +20615,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2869,
    "p90": 0.6972,
    "actual": null,
-   "curve": 0.5739
+   "curve": 0.5739,
+   "wind_speed_100m": 7.64,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-17T01:00",
@@ -17458,7 +20628,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2947,
    "p90": 0.7136,
    "actual": null,
-   "curve": 0.4193
+   "curve": 0.4193,
+   "wind_speed_100m": 6.67,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-17T02:00",
@@ -17469,7 +20641,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2429,
    "p90": 0.5974,
    "actual": null,
-   "curve": 0.2409
+   "curve": 0.2409,
+   "wind_speed_100m": 5.37,
+   "wind_direction_100m": 75.0
   },
   {
    "time": "2026-02-17T03:00",
@@ -17480,7 +20654,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2732,
    "p90": 0.5049,
    "actual": null,
-   "curve": 0.1281
+   "curve": 0.1281,
+   "wind_speed_100m": 4.33,
+   "wind_direction_100m": 85.0
   },
   {
    "time": "2026-02-17T04:00",
@@ -17491,7 +20667,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1626,
    "p90": 0.3908,
    "actual": null,
-   "curve": 0.0559
+   "curve": 0.0559,
+   "wind_speed_100m": 3.19,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-17T05:00",
@@ -17502,7 +20680,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1535,
    "p90": 0.5063,
    "actual": null,
-   "curve": 0.0412
+   "curve": 0.0412,
+   "wind_speed_100m": 2.72,
+   "wind_direction_100m": 64.0
   },
   {
    "time": "2026-02-17T06:00",
@@ -17513,7 +20693,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1127,
    "p90": 0.4976,
    "actual": null,
-   "curve": 0.0111
+   "curve": 0.0111,
+   "wind_speed_100m": 1.38,
+   "wind_direction_100m": 86.0
   },
   {
    "time": "2026-02-17T07:00",
@@ -17524,7 +20706,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1138,
    "p90": 0.4656,
    "actual": null,
-   "curve": 0.0154
+   "curve": 0.0154,
+   "wind_speed_100m": 1.8,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-17T08:00",
@@ -17535,7 +20719,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1336,
    "p90": 0.5357,
    "actual": null,
-   "curve": 0.0241
+   "curve": 0.0241,
+   "wind_speed_100m": 2.32,
+   "wind_direction_100m": 62.0
   },
   {
    "time": "2026-02-17T09:00",
@@ -17546,7 +20732,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1598,
    "p90": 0.5641,
    "actual": null,
-   "curve": 0.0351
+   "curve": 0.0351,
+   "wind_speed_100m": 2.59,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-17T10:00",
@@ -17557,7 +20745,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1811,
    "p90": 0.5864,
    "actual": null,
-   "curve": 0.0396
+   "curve": 0.0396,
+   "wind_speed_100m": 2.7,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-17T11:00",
@@ -17568,7 +20758,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1761,
    "p90": 0.6776,
    "actual": null,
-   "curve": 0.0451
+   "curve": 0.0451,
+   "wind_speed_100m": 2.85,
+   "wind_direction_100m": 63.0
   },
   {
    "time": "2026-02-17T12:00",
@@ -17579,7 +20771,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6207,
    "p90": 0.9923,
    "actual": null,
-   "curve": 0.38
+   "curve": 0.38,
+   "wind_speed_100m": 6.4,
+   "wind_direction_100m": 61.0
   },
   {
    "time": "2026-02-17T13:00",
@@ -17590,7 +20784,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5608,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.3806
+   "curve": 0.3806,
+   "wind_speed_100m": 6.39,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-17T14:00",
@@ -17601,7 +20797,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5356,
    "p90": 0.9961,
    "actual": null,
-   "curve": 0.3516
+   "curve": 0.3516,
+   "wind_speed_100m": 6.2,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-17T15:00",
@@ -17612,7 +20810,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7235,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.4225
+   "curve": 0.4225,
+   "wind_speed_100m": 6.71,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-17T16:00",
@@ -17623,7 +20823,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7503,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.5335
+   "curve": 0.5335,
+   "wind_speed_100m": 7.24,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-17T17:00",
@@ -17634,7 +20836,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6354,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.5649
+   "curve": 0.5649,
+   "wind_speed_100m": 7.53,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-17T18:00",
@@ -17645,7 +20849,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6597,
    "p90": 0.9612,
    "actual": null,
-   "curve": 0.7176
+   "curve": 0.7176,
+   "wind_speed_100m": 8.9,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-17T19:00",
@@ -17656,7 +20862,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7284,
    "p90": 0.9937,
    "actual": null,
-   "curve": 0.91
+   "curve": 0.91,
+   "wind_speed_100m": 10.52,
+   "wind_direction_100m": 63.0
   },
   {
    "time": "2026-02-17T20:00",
@@ -17667,7 +20875,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7976,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.91
+   "curve": 0.91,
+   "wind_speed_100m": 10.32,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-17T21:00",
@@ -17678,7 +20888,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7104,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8967
+   "curve": 0.8967,
+   "wind_speed_100m": 10.19,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-17T22:00",
@@ -17689,7 +20901,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8799,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9026
+   "curve": 0.9026,
+   "wind_speed_100m": 10.24,
+   "wind_direction_100m": 77.0
   },
   {
    "time": "2026-02-17T23:00",
@@ -17700,7 +20914,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8605,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.91
+   "curve": 0.91,
+   "wind_speed_100m": 10.69,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-18T00:00",
@@ -17711,7 +20927,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.77,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9061
+   "curve": 0.9061,
+   "wind_speed_100m": 11.13,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-18T01:00",
@@ -17722,7 +20940,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8102,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.926
+   "curve": 0.926,
+   "wind_speed_100m": 11.47,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-18T02:00",
@@ -17733,7 +20953,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8302,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9008
+   "curve": 0.9008,
+   "wind_speed_100m": 11.04,
+   "wind_direction_100m": 73.0
   },
   {
    "time": "2026-02-18T03:00",
@@ -17744,7 +20966,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8826,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9704
+   "curve": 0.9704,
+   "wind_speed_100m": 12.35,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-18T04:00",
@@ -17755,7 +20979,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8532,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9817
+   "curve": 0.9817,
+   "wind_speed_100m": 13.48,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-18T05:00",
@@ -17766,7 +20992,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7272,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.938
+   "curve": 0.938,
+   "wind_speed_100m": 11.77,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-18T06:00",
@@ -17777,7 +21005,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7934,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9729
+   "curve": 0.9729,
+   "wind_speed_100m": 12.58,
+   "wind_direction_100m": 63.0
   },
   {
    "time": "2026-02-18T07:00",
@@ -17788,7 +21018,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8879,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9817
+   "curve": 0.9817,
+   "wind_speed_100m": 13.54,
+   "wind_direction_100m": 64.0
   },
   {
    "time": "2026-02-18T08:00",
@@ -17799,7 +21031,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8923,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9817
+   "curve": 0.9817,
+   "wind_speed_100m": 13.54,
+   "wind_direction_100m": 64.0
   },
   {
    "time": "2026-02-18T09:00",
@@ -17810,7 +21044,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9525,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9745
+   "curve": 0.9745,
+   "wind_speed_100m": 12.7,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-18T10:00",
@@ -17821,7 +21057,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8877,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9128
+   "curve": 0.9128,
+   "wind_speed_100m": 11.41,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-18T11:00",
@@ -17832,7 +21070,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7864,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8848
+   "curve": 0.8848,
+   "wind_speed_100m": 10.73,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-18T12:00",
@@ -17843,7 +21083,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8264,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8845
+   "curve": 0.8845,
+   "wind_speed_100m": 10.68,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-18T13:00",
@@ -17854,7 +21096,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7328,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8828
+   "curve": 0.8828,
+   "wind_speed_100m": 10.45,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-18T14:00",
@@ -17865,7 +21109,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7199,
    "p90": 0.9888,
    "actual": null,
-   "curve": 0.7545
+   "curve": 0.7545,
+   "wind_speed_100m": 9.27,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-18T15:00",
@@ -17876,7 +21122,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6978,
    "p90": 0.9602,
    "actual": null,
-   "curve": 0.6778
+   "curve": 0.6778,
+   "wind_speed_100m": 8.74,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-18T16:00",
@@ -17887,7 +21135,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6583,
    "p90": 0.9781,
    "actual": null,
-   "curve": 0.6174
+   "curve": 0.6174,
+   "wind_speed_100m": 8.31,
+   "wind_direction_100m": 73.0
   },
   {
    "time": "2026-02-18T17:00",
@@ -17898,7 +21148,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7277,
    "p90": 0.9588,
    "actual": null,
-   "curve": 0.6842
+   "curve": 0.6842,
+   "wind_speed_100m": 8.77,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-18T18:00",
@@ -17909,7 +21161,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7268,
    "p90": 0.9593,
    "actual": null,
-   "curve": 0.7485
+   "curve": 0.7485,
+   "wind_speed_100m": 9.2,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-18T19:00",
@@ -17920,7 +21174,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7096,
    "p90": 0.9589,
    "actual": null,
-   "curve": 0.731
+   "curve": 0.731,
+   "wind_speed_100m": 9.08,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-18T20:00",
@@ -17931,7 +21187,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.714,
    "p90": 0.981,
    "actual": null,
-   "curve": 0.7626
+   "curve": 0.7626,
+   "wind_speed_100m": 9.29,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-18T21:00",
@@ -17942,7 +21200,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6915,
    "p90": 0.9589,
    "actual": null,
-   "curve": 0.7639
+   "curve": 0.7639,
+   "wind_speed_100m": 9.3,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-18T22:00",
@@ -17953,7 +21213,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7151,
    "p90": 0.9747,
    "actual": null,
-   "curve": 0.6826
+   "curve": 0.6826,
+   "wind_speed_100m": 8.75,
+   "wind_direction_100m": 74.0
   },
   {
    "time": "2026-02-18T23:00",
@@ -17964,7 +21226,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5789,
    "p90": 0.9472,
    "actual": null,
-   "curve": 0.6316
+   "curve": 0.6316,
+   "wind_speed_100m": 8.41,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-17T00:00",
@@ -17975,7 +21239,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2762,
    "p90": 0.6978,
    "actual": null,
-   "curve": 0.5614
+   "curve": 0.5614,
+   "wind_speed_100m": 7.64,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-17T01:00",
@@ -17986,7 +21252,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2806,
    "p90": 0.7036,
    "actual": null,
-   "curve": 0.4041
+   "curve": 0.4041,
+   "wind_speed_100m": 6.67,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-17T02:00",
@@ -17997,7 +21265,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2307,
    "p90": 0.5897,
    "actual": null,
-   "curve": 0.2276
+   "curve": 0.2276,
+   "wind_speed_100m": 5.37,
+   "wind_direction_100m": 75.0
   },
   {
    "time": "2026-02-17T03:00",
@@ -18008,7 +21278,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2618,
    "p90": 0.4979,
    "actual": null,
-   "curve": 0.1155
+   "curve": 0.1155,
+   "wind_speed_100m": 4.33,
+   "wind_direction_100m": 85.0
   },
   {
    "time": "2026-02-17T04:00",
@@ -18019,7 +21291,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1698,
    "p90": 0.3919,
    "actual": null,
-   "curve": 0.0515
+   "curve": 0.0515,
+   "wind_speed_100m": 3.19,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-17T05:00",
@@ -18030,7 +21304,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1531,
    "p90": 0.5103,
    "actual": null,
-   "curve": 0.0396
+   "curve": 0.0396,
+   "wind_speed_100m": 2.72,
+   "wind_direction_100m": 64.0
   },
   {
    "time": "2026-02-17T06:00",
@@ -18041,7 +21317,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1166,
    "p90": 0.5098,
    "actual": null,
-   "curve": 0.0099
+   "curve": 0.0099,
+   "wind_speed_100m": 1.38,
+   "wind_direction_100m": 86.0
   },
   {
    "time": "2026-02-17T07:00",
@@ -18052,7 +21330,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1196,
    "p90": 0.4711,
    "actual": null,
-   "curve": 0.0154
+   "curve": 0.0154,
+   "wind_speed_100m": 1.8,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-17T08:00",
@@ -18063,7 +21343,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1386,
    "p90": 0.5404,
    "actual": null,
-   "curve": 0.0232
+   "curve": 0.0232,
+   "wind_speed_100m": 2.32,
+   "wind_direction_100m": 62.0
   },
   {
    "time": "2026-02-17T09:00",
@@ -18074,7 +21356,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1643,
    "p90": 0.5684,
    "actual": null,
-   "curve": 0.0338
+   "curve": 0.0338,
+   "wind_speed_100m": 2.59,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-17T10:00",
@@ -18085,7 +21369,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1855,
    "p90": 0.5905,
    "actual": null,
-   "curve": 0.0381
+   "curve": 0.0381,
+   "wind_speed_100m": 2.7,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-17T11:00",
@@ -18096,7 +21382,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1799,
    "p90": 0.6811,
    "actual": null,
-   "curve": 0.0431
+   "curve": 0.0431,
+   "wind_speed_100m": 2.85,
+   "wind_direction_100m": 63.0
   },
   {
    "time": "2026-02-17T12:00",
@@ -18107,7 +21395,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.61,
    "p90": 0.9785,
    "actual": null,
-   "curve": 0.3595
+   "curve": 0.3595,
+   "wind_speed_100m": 6.4,
+   "wind_direction_100m": 61.0
   },
   {
    "time": "2026-02-17T13:00",
@@ -18118,7 +21408,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5498,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.3602
+   "curve": 0.3602,
+   "wind_speed_100m": 6.39,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-17T14:00",
@@ -18129,7 +21421,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5161,
    "p90": 0.981,
    "actual": null,
-   "curve": 0.3309
+   "curve": 0.3309,
+   "wind_speed_100m": 6.2,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-17T15:00",
@@ -18140,7 +21434,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7099,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.4077
+   "curve": 0.4077,
+   "wind_speed_100m": 6.71,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-17T16:00",
@@ -18151,7 +21447,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7354,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.5209
+   "curve": 0.5209,
+   "wind_speed_100m": 7.24,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-17T17:00",
@@ -18162,7 +21460,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6241,
    "p90": 0.9985,
    "actual": null,
-   "curve": 0.5524
+   "curve": 0.5524,
+   "wind_speed_100m": 7.53,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-17T18:00",
@@ -18173,7 +21473,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6531,
    "p90": 0.9703,
    "actual": null,
-   "curve": 0.7133
+   "curve": 0.7133,
+   "wind_speed_100m": 8.9,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-17T19:00",
@@ -18184,7 +21486,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7158,
    "p90": 0.9798,
    "actual": null,
-   "curve": 0.8867
+   "curve": 0.8867,
+   "wind_speed_100m": 10.52,
+   "wind_direction_100m": 63.0
   },
   {
    "time": "2026-02-17T20:00",
@@ -18195,7 +21499,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7766,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8867
+   "curve": 0.8867,
+   "wind_speed_100m": 10.32,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-17T21:00",
@@ -18206,7 +21512,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7059,
    "p90": 0.9967,
    "actual": null,
-   "curve": 0.8784
+   "curve": 0.8784,
+   "wind_speed_100m": 10.19,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-17T22:00",
@@ -18217,7 +21525,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8732,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8821
+   "curve": 0.8821,
+   "wind_speed_100m": 10.24,
+   "wind_direction_100m": 77.0
   },
   {
    "time": "2026-02-17T23:00",
@@ -18228,7 +21538,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8479,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8867
+   "curve": 0.8867,
+   "wind_speed_100m": 10.69,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-18T00:00",
@@ -18239,7 +21551,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7688,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9111
+   "curve": 0.9111,
+   "wind_speed_100m": 11.13,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-18T01:00",
@@ -18250,7 +21564,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8037,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.926
+   "curve": 0.926,
+   "wind_speed_100m": 11.47,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-18T02:00",
@@ -18261,7 +21577,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.824,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9058
+   "curve": 0.9058,
+   "wind_speed_100m": 11.04,
+   "wind_direction_100m": 73.0
   },
   {
    "time": "2026-02-18T03:00",
@@ -18272,7 +21590,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8667,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9514
+   "curve": 0.9514,
+   "wind_speed_100m": 12.35,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-18T04:00",
@@ -18283,7 +21603,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8437,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9667
+   "curve": 0.9667,
+   "wind_speed_100m": 13.48,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-18T05:00",
@@ -18294,7 +21616,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7274,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9317
+   "curve": 0.9317,
+   "wind_speed_100m": 11.77,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-18T06:00",
@@ -18305,7 +21629,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7825,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9551
+   "curve": 0.9551,
+   "wind_speed_100m": 12.58,
+   "wind_direction_100m": 63.0
   },
   {
    "time": "2026-02-18T07:00",
@@ -18316,7 +21642,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8731,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9667
+   "curve": 0.9667,
+   "wind_speed_100m": 13.54,
+   "wind_direction_100m": 64.0
   },
   {
    "time": "2026-02-18T08:00",
@@ -18327,7 +21655,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8776,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9667
+   "curve": 0.9667,
+   "wind_speed_100m": 13.54,
+   "wind_direction_100m": 64.0
   },
   {
    "time": "2026-02-18T09:00",
@@ -18338,7 +21668,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9345,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9573
+   "curve": 0.9573,
+   "wind_speed_100m": 12.7,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-18T10:00",
@@ -18349,7 +21681,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8842,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9178
+   "curve": 0.9178,
+   "wind_speed_100m": 11.41,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-18T11:00",
@@ -18360,7 +21694,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7858,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8775
+   "curve": 0.8775,
+   "wind_speed_100m": 10.73,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-18T12:00",
@@ -18371,7 +21707,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8242,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8757
+   "curve": 0.8757,
+   "wind_speed_100m": 10.68,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-18T13:00",
@@ -18382,7 +21720,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7132,
    "p90": 0.989,
    "actual": null,
-   "curve": 0.8634
+   "curve": 0.8634,
+   "wind_speed_100m": 10.45,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-18T14:00",
@@ -18393,7 +21733,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7146,
    "p90": 0.9808,
    "actual": null,
-   "curve": 0.7484
+   "curve": 0.7484,
+   "wind_speed_100m": 9.27,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-18T15:00",
@@ -18404,7 +21746,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6855,
    "p90": 0.9491,
    "actual": null,
-   "curve": 0.6655
+   "curve": 0.6655,
+   "wind_speed_100m": 8.74,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-18T16:00",
@@ -18415,7 +21759,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6544,
    "p90": 0.9746,
    "actual": null,
-   "curve": 0.6301
+   "curve": 0.6301,
+   "wind_speed_100m": 8.31,
+   "wind_direction_100m": 73.0
   },
   {
    "time": "2026-02-18T17:00",
@@ -18426,7 +21772,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.695,
    "p90": 0.9578,
    "actual": null,
-   "curve": 0.6691
+   "curve": 0.6691,
+   "wind_speed_100m": 8.77,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-18T18:00",
@@ -18437,7 +21785,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7158,
    "p90": 0.9654,
    "actual": null,
-   "curve": 0.7409
+   "curve": 0.7409,
+   "wind_speed_100m": 9.2,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-18T19:00",
@@ -18448,7 +21798,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.709,
    "p90": 0.9603,
    "actual": null,
-   "curve": 0.7194
+   "curve": 0.7194,
+   "wind_speed_100m": 9.08,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-18T20:00",
@@ -18459,7 +21811,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7065,
    "p90": 0.9762,
    "actual": null,
-   "curve": 0.7584
+   "curve": 0.7584,
+   "wind_speed_100m": 9.29,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-18T21:00",
@@ -18470,7 +21824,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6873,
    "p90": 0.9751,
    "actual": null,
-   "curve": 0.76
+   "curve": 0.76,
+   "wind_speed_100m": 9.3,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-18T22:00",
@@ -18481,7 +21837,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6974,
    "p90": 0.9728,
    "actual": null,
-   "curve": 0.6682
+   "curve": 0.6682,
+   "wind_speed_100m": 8.75,
+   "wind_direction_100m": 74.0
   },
   {
    "time": "2026-02-18T23:00",
@@ -18492,7 +21850,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5841,
    "p90": 0.942,
    "actual": null,
-   "curve": 0.6402
+   "curve": 0.6402,
+   "wind_speed_100m": 8.41,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-18T00:00",
@@ -18503,7 +21863,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8174,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9141
+   "curve": 0.9141,
+   "wind_speed_100m": 11.46,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-18T01:00",
@@ -18514,7 +21876,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8176,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9654
+   "curve": 0.9654,
+   "wind_speed_100m": 12.96,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-18T02:00",
@@ -18525,7 +21889,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8699,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9869
+   "curve": 0.9869,
+   "wind_speed_100m": 14.12,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-18T03:00",
@@ -18536,7 +21902,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9428,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9805
+   "curve": 0.9805,
+   "wind_speed_100m": 13.39,
+   "wind_direction_100m": 73.0
   },
   {
    "time": "2026-02-18T04:00",
@@ -18547,7 +21915,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9445,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9634
+   "curve": 0.9634,
+   "wind_speed_100m": 12.96,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-18T05:00",
@@ -18558,7 +21928,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7503,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9307
+   "curve": 0.9307,
+   "wind_speed_100m": 12.36,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-18T06:00",
@@ -18569,7 +21941,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8307,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9272
+   "curve": 0.9272,
+   "wind_speed_100m": 12.23,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-18T07:00",
@@ -18580,7 +21954,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.843,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9278
+   "curve": 0.9278,
+   "wind_speed_100m": 12.28,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-18T08:00",
@@ -18591,7 +21967,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9122,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9164
+   "curve": 0.9164,
+   "wind_speed_100m": 11.74,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-18T09:00",
@@ -18602,7 +21980,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8562,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9179
+   "curve": 0.9179,
+   "wind_speed_100m": 11.84,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-18T10:00",
@@ -18613,7 +21993,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8073,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9219
+   "curve": 0.9219,
+   "wind_speed_100m": 12.05,
+   "wind_direction_100m": 64.0
   },
   {
    "time": "2026-02-18T11:00",
@@ -18624,7 +22006,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7727,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9137
+   "curve": 0.9137,
+   "wind_speed_100m": 11.57,
+   "wind_direction_100m": 64.0
   },
   {
    "time": "2026-02-18T12:00",
@@ -18635,7 +22019,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.797,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8882
+   "curve": 0.8882,
+   "wind_speed_100m": 10.21,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-18T13:00",
@@ -18646,7 +22032,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7522,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8265
+   "curve": 0.8265,
+   "wind_speed_100m": 9.29,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-18T14:00",
@@ -18657,7 +22045,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6043,
    "p90": 0.9808,
    "actual": null,
-   "curve": 0.685
+   "curve": 0.685,
+   "wind_speed_100m": 8.7,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-18T15:00",
@@ -18668,7 +22058,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7065,
    "p90": 0.9657,
    "actual": null,
-   "curve": 0.685
+   "curve": 0.685,
+   "wind_speed_100m": 8.59,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-18T16:00",
@@ -18679,7 +22071,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7118,
    "p90": 0.9683,
    "actual": null,
-   "curve": 0.685
+   "curve": 0.685,
+   "wind_speed_100m": 8.59,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-18T17:00",
@@ -18690,7 +22084,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8111,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8263
+   "curve": 0.8263,
+   "wind_speed_100m": 9.26,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-18T18:00",
@@ -18701,7 +22097,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7146,
    "p90": 0.9671,
    "actual": null,
-   "curve": 0.8675
+   "curve": 0.8675,
+   "wind_speed_100m": 9.97,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-18T19:00",
@@ -18712,7 +22110,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7864,
    "p90": 0.9944,
    "actual": null,
-   "curve": 0.9102
+   "curve": 0.9102,
+   "wind_speed_100m": 10.92,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-18T20:00",
@@ -18723,7 +22123,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8105,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9103
+   "curve": 0.9103,
+   "wind_speed_100m": 10.94,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-18T21:00",
@@ -18734,7 +22136,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8002,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9104
+   "curve": 0.9104,
+   "wind_speed_100m": 10.97,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-18T22:00",
@@ -18745,7 +22149,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8328,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9111
+   "curve": 0.9111,
+   "wind_speed_100m": 11.18,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-18T23:00",
@@ -18756,7 +22162,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8782,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.911
+   "curve": 0.911,
+   "wind_speed_100m": 11.15,
+   "wind_direction_100m": 75.0
   },
   {
    "time": "2026-02-19T00:00",
@@ -18767,7 +22175,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7008,
    "p90": 0.9715,
    "actual": null,
-   "curve": 0.8103
+   "curve": 0.8103,
+   "wind_speed_100m": 9.64,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-19T01:00",
@@ -18778,7 +22188,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7004,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.7892
+   "curve": 0.7892,
+   "wind_speed_100m": 9.48,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-19T02:00",
@@ -18789,7 +22201,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6757,
    "p90": 0.9848,
    "actual": null,
-   "curve": 0.8245
+   "curve": 0.8245,
+   "wind_speed_100m": 9.74,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-19T03:00",
@@ -18800,7 +22214,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7425,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.7918
+   "curve": 0.7918,
+   "wind_speed_100m": 9.51,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-19T04:00",
@@ -18811,7 +22227,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6172,
    "p90": 0.9972,
    "actual": null,
-   "curve": 0.7872
+   "curve": 0.7872,
+   "wind_speed_100m": 9.51,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-19T05:00",
@@ -18822,7 +22240,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6369,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.6865
+   "curve": 0.6865,
+   "wind_speed_100m": 8.84,
+   "wind_direction_100m": 75.0
   },
   {
    "time": "2026-02-19T06:00",
@@ -18833,7 +22253,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4493,
    "p90": 0.9839,
    "actual": null,
-   "curve": 0.2817
+   "curve": 0.2817,
+   "wind_speed_100m": 6.05,
+   "wind_direction_100m": 61.0
   },
   {
    "time": "2026-02-19T07:00",
@@ -18844,7 +22266,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4494,
    "p90": 0.8492,
    "actual": null,
-   "curve": 0.1851
+   "curve": 0.1851,
+   "wind_speed_100m": 5.06,
+   "wind_direction_100m": 58.0
   },
   {
    "time": "2026-02-19T08:00",
@@ -18855,7 +22279,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2918,
    "p90": 0.7636,
    "actual": null,
-   "curve": 0.1353
+   "curve": 0.1353,
+   "wind_speed_100m": 4.61,
+   "wind_direction_100m": 78.0
   },
   {
    "time": "2026-02-19T09:00",
@@ -18866,7 +22292,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1602,
    "p90": 0.6345,
    "actual": null,
-   "curve": 0.102
+   "curve": 0.102,
+   "wind_speed_100m": 4.16,
+   "wind_direction_100m": 75.0
   },
   {
    "time": "2026-02-19T10:00",
@@ -18877,7 +22305,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1916,
    "p90": 0.6632,
    "actual": null,
-   "curve": 0.1
+   "curve": 0.1,
+   "wind_speed_100m": 4.04,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-19T11:00",
@@ -18888,7 +22318,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2028,
    "p90": 0.6115,
    "actual": null,
-   "curve": 0.0866
+   "curve": 0.0866,
+   "wind_speed_100m": 3.71,
+   "wind_direction_100m": 78.0
   },
   {
    "time": "2026-02-19T12:00",
@@ -18899,7 +22331,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2175,
    "p90": 0.5732,
    "actual": null,
-   "curve": 0.0881
+   "curve": 0.0881,
+   "wind_speed_100m": 3.72,
+   "wind_direction_100m": 88.0
   },
   {
    "time": "2026-02-19T13:00",
@@ -18910,7 +22344,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1802,
    "p90": 0.5293,
    "actual": null,
-   "curve": 0.0523
+   "curve": 0.0523,
+   "wind_speed_100m": 3.19,
+   "wind_direction_100m": 108.0
   },
   {
    "time": "2026-02-19T14:00",
@@ -18921,7 +22357,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2374,
    "p90": 0.5686,
    "actual": null,
-   "curve": 0.0209
+   "curve": 0.0209,
+   "wind_speed_100m": 1.31,
+   "wind_direction_100m": 77.0
   },
   {
    "time": "2026-02-19T15:00",
@@ -18932,7 +22370,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0823,
    "p90": 0.4404,
    "actual": null,
-   "curve": 0.0176
+   "curve": 0.0176,
+   "wind_speed_100m": 0.9,
+   "wind_direction_100m": 13.0
   },
   {
    "time": "2026-02-19T16:00",
@@ -18943,7 +22383,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0346,
    "p90": 0.417,
    "actual": null,
-   "curve": 0.0229
+   "curve": 0.0229,
+   "wind_speed_100m": 1.4,
+   "wind_direction_100m": 245.0
   },
   {
    "time": "2026-02-19T17:00",
@@ -18954,7 +22396,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.155,
    "p90": 0.5501,
    "actual": null,
-   "curve": 0.0979
+   "curve": 0.0979,
+   "wind_speed_100m": 3.87,
+   "wind_direction_100m": 261.0
   },
   {
    "time": "2026-02-19T18:00",
@@ -18965,7 +22409,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1802,
    "p90": 0.5177,
    "actual": null,
-   "curve": 0.1023
+   "curve": 0.1023,
+   "wind_speed_100m": 4.13,
+   "wind_direction_100m": 274.0
   },
   {
    "time": "2026-02-19T19:00",
@@ -18976,7 +22422,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2476,
    "p90": 0.8473,
    "actual": null,
-   "curve": 0.4145
+   "curve": 0.4145,
+   "wind_speed_100m": 6.73,
+   "wind_direction_100m": 257.0
   },
   {
    "time": "2026-02-19T20:00",
@@ -18987,7 +22435,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4093,
    "p90": 0.9373,
    "actual": null,
-   "curve": 0.6455
+   "curve": 0.6455,
+   "wind_speed_100m": 8.52,
+   "wind_direction_100m": 247.0
   },
   {
    "time": "2026-02-19T21:00",
@@ -18998,7 +22448,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3372,
    "p90": 0.8106,
    "actual": null,
-   "curve": 0.8225
+   "curve": 0.8225,
+   "wind_speed_100m": 9.75,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-19T22:00",
@@ -19009,7 +22461,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3384,
    "p90": 0.8499,
    "actual": null,
-   "curve": 0.8839
+   "curve": 0.8839,
+   "wind_speed_100m": 10.55,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-19T23:00",
@@ -19020,7 +22474,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3224,
    "p90": 0.9189,
    "actual": null,
-   "curve": 0.907
+   "curve": 0.907,
+   "wind_speed_100m": 11.22,
+   "wind_direction_100m": 251.0
   },
   {
    "time": "2026-02-18T00:00",
@@ -19031,7 +22487,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8257,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9265
+   "curve": 0.9265,
+   "wind_speed_100m": 11.46,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-18T01:00",
@@ -19042,7 +22500,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.952
+   "curve": 0.952,
+   "wind_speed_100m": 12.96,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-18T02:00",
@@ -19053,7 +22513,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8529,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 14.12,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-18T03:00",
@@ -19064,7 +22526,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9301,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9685
+   "curve": 0.9685,
+   "wind_speed_100m": 13.39,
+   "wind_direction_100m": 73.0
   },
   {
    "time": "2026-02-18T04:00",
@@ -19075,7 +22539,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9265,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9496
+   "curve": 0.9496,
+   "wind_speed_100m": 12.96,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-18T05:00",
@@ -19086,7 +22552,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7562,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.93
+   "curve": 0.93,
+   "wind_speed_100m": 12.36,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-18T06:00",
@@ -19097,7 +22565,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8295,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.93
+   "curve": 0.93,
+   "wind_speed_100m": 12.23,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-18T07:00",
@@ -19108,7 +22578,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8518,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.93
+   "curve": 0.93,
+   "wind_speed_100m": 12.28,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-18T08:00",
@@ -19119,7 +22591,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9183,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9279
+   "curve": 0.9279,
+   "wind_speed_100m": 11.74,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-18T09:00",
@@ -19130,7 +22604,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8611,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9287
+   "curve": 0.9287,
+   "wind_speed_100m": 11.84,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-18T10:00",
@@ -19141,7 +22617,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8137,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.93
+   "curve": 0.93,
+   "wind_speed_100m": 12.05,
+   "wind_direction_100m": 64.0
   },
   {
    "time": "2026-02-18T11:00",
@@ -19152,7 +22630,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7918,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9262
+   "curve": 0.9262,
+   "wind_speed_100m": 11.57,
+   "wind_direction_100m": 64.0
   },
   {
    "time": "2026-02-18T12:00",
@@ -19163,7 +22643,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7986,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8732
+   "curve": 0.8732,
+   "wind_speed_100m": 10.21,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-18T13:00",
@@ -19174,7 +22656,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7498,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8243
+   "curve": 0.8243,
+   "wind_speed_100m": 9.29,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-18T14:00",
@@ -19185,7 +22669,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5942,
    "p90": 0.9776,
    "actual": null,
-   "curve": 0.68
+   "curve": 0.68,
+   "wind_speed_100m": 8.7,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-18T15:00",
@@ -19196,7 +22682,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6909,
    "p90": 0.964,
    "actual": null,
-   "curve": 0.68
+   "curve": 0.68,
+   "wind_speed_100m": 8.59,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-18T16:00",
@@ -19207,7 +22695,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6892,
    "p90": 0.9665,
    "actual": null,
-   "curve": 0.68
+   "curve": 0.68,
+   "wind_speed_100m": 8.59,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-18T17:00",
@@ -19218,7 +22708,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8038,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8241
+   "curve": 0.8241,
+   "wind_speed_100m": 9.26,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-18T18:00",
@@ -19229,7 +22721,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7024,
    "p90": 0.9622,
    "actual": null,
-   "curve": 0.8604
+   "curve": 0.8604,
+   "wind_speed_100m": 9.97,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-18T19:00",
@@ -19240,7 +22734,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.774,
    "p90": 0.9848,
    "actual": null,
-   "curve": 0.8914
+   "curve": 0.8914,
+   "wind_speed_100m": 10.92,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-18T20:00",
@@ -19251,7 +22747,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7913,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8927
+   "curve": 0.8927,
+   "wind_speed_100m": 10.94,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-18T21:00",
@@ -19262,7 +22760,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.783,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8949
+   "curve": 0.8949,
+   "wind_speed_100m": 10.97,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-18T22:00",
@@ -19273,7 +22773,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8264,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.911
+   "curve": 0.911,
+   "wind_speed_100m": 11.18,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-18T23:00",
@@ -19284,7 +22786,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8697,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9087
+   "curve": 0.9087,
+   "wind_speed_100m": 11.15,
+   "wind_direction_100m": 75.0
   },
   {
    "time": "2026-02-19T00:00",
@@ -19295,7 +22799,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7006,
    "p90": 0.9679,
    "actual": null,
-   "curve": 0.8103
+   "curve": 0.8103,
+   "wind_speed_100m": 9.64,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-19T01:00",
@@ -19306,7 +22812,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6989,
    "p90": 0.9954,
    "actual": null,
-   "curve": 0.7879
+   "curve": 0.7879,
+   "wind_speed_100m": 9.48,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-19T02:00",
@@ -19317,7 +22825,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6703,
    "p90": 0.9819,
    "actual": null,
-   "curve": 0.8253
+   "curve": 0.8253,
+   "wind_speed_100m": 9.74,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-19T03:00",
@@ -19328,7 +22838,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7351,
    "p90": 0.9938,
    "actual": null,
-   "curve": 0.7906
+   "curve": 0.7906,
+   "wind_speed_100m": 9.51,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-19T04:00",
@@ -19339,7 +22851,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6193,
    "p90": 0.9974,
    "actual": null,
-   "curve": 0.7857
+   "curve": 0.7857,
+   "wind_speed_100m": 9.51,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-19T05:00",
@@ -19350,7 +22864,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6345,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.6703
+   "curve": 0.6703,
+   "wind_speed_100m": 8.84,
+   "wind_direction_100m": 75.0
   },
   {
    "time": "2026-02-19T06:00",
@@ -19361,7 +22877,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4544,
    "p90": 0.983,
    "actual": null,
-   "curve": 0.2773
+   "curve": 0.2773,
+   "wind_speed_100m": 6.05,
+   "wind_direction_100m": 61.0
   },
   {
    "time": "2026-02-19T07:00",
@@ -19372,7 +22890,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4473,
    "p90": 0.8495,
    "actual": null,
-   "curve": 0.1767
+   "curve": 0.1767,
+   "wind_speed_100m": 5.06,
+   "wind_direction_100m": 58.0
   },
   {
    "time": "2026-02-19T08:00",
@@ -19383,7 +22903,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.301,
    "p90": 0.7623,
    "actual": null,
-   "curve": 0.1302
+   "curve": 0.1302,
+   "wind_speed_100m": 4.61,
+   "wind_direction_100m": 78.0
   },
   {
    "time": "2026-02-19T09:00",
@@ -19394,7 +22916,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1629,
    "p90": 0.6344,
    "actual": null,
-   "curve": 0.0981
+   "curve": 0.0981,
+   "wind_speed_100m": 4.16,
+   "wind_direction_100m": 75.0
   },
   {
    "time": "2026-02-19T10:00",
@@ -19405,7 +22929,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.192,
    "p90": 0.6627,
    "actual": null,
-   "curve": 0.0957
+   "curve": 0.0957,
+   "wind_speed_100m": 4.04,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-19T11:00",
@@ -19416,7 +22942,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2037,
    "p90": 0.6103,
    "actual": null,
-   "curve": 0.0816
+   "curve": 0.0816,
+   "wind_speed_100m": 3.71,
+   "wind_direction_100m": 78.0
   },
   {
    "time": "2026-02-19T12:00",
@@ -19427,7 +22955,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2142,
    "p90": 0.5721,
    "actual": null,
-   "curve": 0.0831
+   "curve": 0.0831,
+   "wind_speed_100m": 3.72,
+   "wind_direction_100m": 88.0
   },
   {
    "time": "2026-02-19T13:00",
@@ -19438,7 +22968,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1786,
    "p90": 0.5467,
    "actual": null,
-   "curve": 0.0477
+   "curve": 0.0477,
+   "wind_speed_100m": 3.19,
+   "wind_direction_100m": 108.0
   },
   {
    "time": "2026-02-19T14:00",
@@ -19449,7 +22981,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.237,
    "p90": 0.565,
    "actual": null,
-   "curve": 0.0193
+   "curve": 0.0193,
+   "wind_speed_100m": 1.31,
+   "wind_direction_100m": 77.0
   },
   {
    "time": "2026-02-19T15:00",
@@ -19460,7 +22994,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0953,
    "p90": 0.4449,
    "actual": null,
-   "curve": 0.0183
+   "curve": 0.0183,
+   "wind_speed_100m": 0.9,
+   "wind_direction_100m": 13.0
   },
   {
    "time": "2026-02-19T16:00",
@@ -19471,7 +23007,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0392,
    "p90": 0.4196,
    "actual": null,
-   "curve": 0.0217
+   "curve": 0.0217,
+   "wind_speed_100m": 1.4,
+   "wind_direction_100m": 245.0
   },
   {
    "time": "2026-02-19T17:00",
@@ -19482,7 +23020,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.156,
    "p90": 0.5492,
    "actual": null,
-   "curve": 0.0932
+   "curve": 0.0932,
+   "wind_speed_100m": 3.87,
+   "wind_direction_100m": 261.0
   },
   {
    "time": "2026-02-19T18:00",
@@ -19493,7 +23033,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1802,
    "p90": 0.5176,
    "actual": null,
-   "curve": 0.0984
+   "curve": 0.0984,
+   "wind_speed_100m": 4.13,
+   "wind_direction_100m": 274.0
   },
   {
    "time": "2026-02-19T19:00",
@@ -19504,7 +23046,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2386,
    "p90": 0.8376,
    "actual": null,
-   "curve": 0.401
+   "curve": 0.401,
+   "wind_speed_100m": 6.73,
+   "wind_direction_100m": 257.0
   },
   {
    "time": "2026-02-19T20:00",
@@ -19515,7 +23059,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4176,
    "p90": 0.9381,
    "actual": null,
-   "curve": 0.6478
+   "curve": 0.6478,
+   "wind_speed_100m": 8.52,
+   "wind_direction_100m": 247.0
   },
   {
    "time": "2026-02-19T21:00",
@@ -19526,7 +23072,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3467,
    "p90": 0.842,
    "actual": null,
-   "curve": 0.8232
+   "curve": 0.8232,
+   "wind_speed_100m": 9.75,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-19T22:00",
@@ -19537,7 +23085,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3232,
    "p90": 0.8753,
    "actual": null,
-   "curve": 0.8714
+   "curve": 0.8714,
+   "wind_speed_100m": 10.55,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-19T23:00",
@@ -19548,7 +23098,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3248,
    "p90": 0.9312,
    "actual": null,
-   "curve": 0.912
+   "curve": 0.912,
+   "wind_speed_100m": 11.22,
+   "wind_direction_100m": 251.0
   },
   {
    "time": "2026-02-19T00:00",
@@ -19559,7 +23111,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5567,
    "p90": 0.9681,
    "actual": null,
-   "curve": 0.8546
+   "curve": 0.8546,
+   "wind_speed_100m": 9.86,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-19T01:00",
@@ -19570,7 +23124,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5603,
    "p90": 0.9159,
    "actual": null,
-   "curve": 0.685
+   "curve": 0.685,
+   "wind_speed_100m": 8.77,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-19T02:00",
@@ -19581,7 +23137,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3871,
    "p90": 0.8533,
    "actual": null,
-   "curve": 0.5654
+   "curve": 0.5654,
+   "wind_speed_100m": 7.56,
+   "wind_direction_100m": 77.0
   },
   {
    "time": "2026-02-19T03:00",
@@ -19592,7 +23150,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.401,
    "p90": 0.8004,
    "actual": null,
-   "curve": 0.3852
+   "curve": 0.3852,
+   "wind_speed_100m": 6.42,
+   "wind_direction_100m": 78.0
   },
   {
    "time": "2026-02-19T04:00",
@@ -19603,7 +23163,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3183,
    "p90": 0.8505,
    "actual": null,
-   "curve": 0.3107
+   "curve": 0.3107,
+   "wind_speed_100m": 6.01,
+   "wind_direction_100m": 78.0
   },
   {
    "time": "2026-02-19T05:00",
@@ -19614,7 +23176,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4539,
    "p90": 0.9419,
    "actual": null,
-   "curve": 0.3679
+   "curve": 0.3679,
+   "wind_speed_100m": 6.32,
+   "wind_direction_100m": 77.0
   },
   {
    "time": "2026-02-19T06:00",
@@ -19625,7 +23189,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.355,
    "p90": 0.7756,
    "actual": null,
-   "curve": 0.1629
+   "curve": 0.1629,
+   "wind_speed_100m": 4.9,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-19T07:00",
@@ -19636,7 +23202,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2891,
    "p90": 0.8549,
    "actual": null,
-   "curve": 0.2357
+   "curve": 0.2357,
+   "wind_speed_100m": 5.38,
+   "wind_direction_100m": 57.0
   },
   {
    "time": "2026-02-19T08:00",
@@ -19647,7 +23215,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3071,
    "p90": 0.8243,
    "actual": null,
-   "curve": 0.2555
+   "curve": 0.2555,
+   "wind_speed_100m": 5.64,
+   "wind_direction_100m": 73.0
   },
   {
    "time": "2026-02-19T09:00",
@@ -19658,7 +23228,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2716,
    "p90": 0.6884,
    "actual": null,
-   "curve": 0.2044
+   "curve": 0.2044,
+   "wind_speed_100m": 5.18,
+   "wind_direction_100m": 75.0
   },
   {
    "time": "2026-02-19T10:00",
@@ -19669,7 +23241,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2922,
    "p90": 0.636,
    "actual": null,
-   "curve": 0.1457
+   "curve": 0.1457,
+   "wind_speed_100m": 4.74,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-19T11:00",
@@ -19680,7 +23254,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2952,
    "p90": 0.7084,
    "actual": null,
-   "curve": 0.188
+   "curve": 0.188,
+   "wind_speed_100m": 5.08,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-19T12:00",
@@ -19691,7 +23267,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2334,
    "p90": 0.5735,
    "actual": null,
-   "curve": 0.1359
+   "curve": 0.1359,
+   "wind_speed_100m": 4.54,
+   "wind_direction_100m": 83.0
   },
   {
    "time": "2026-02-19T13:00",
@@ -19702,7 +23280,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1918,
    "p90": 0.4283,
    "actual": null,
-   "curve": 0.0775
+   "curve": 0.0775,
+   "wind_speed_100m": 3.57,
+   "wind_direction_100m": 106.0
   },
   {
    "time": "2026-02-19T14:00",
@@ -19713,7 +23293,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1837,
    "p90": 0.4304,
    "actual": null,
-   "curve": 0.0102
+   "curve": 0.0102,
+   "wind_speed_100m": 1.29,
+   "wind_direction_100m": 81.0
   },
   {
    "time": "2026-02-19T15:00",
@@ -19724,7 +23306,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1234,
    "p90": 0.5695,
    "actual": null,
-   "curve": 0.0033
+   "curve": 0.0033,
+   "wind_speed_100m": 0.22,
+   "wind_direction_100m": 27.0
   },
   {
    "time": "2026-02-19T16:00",
@@ -19735,7 +23319,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0676,
    "p90": 0.1959,
    "actual": null,
-   "curve": 0.0169
+   "curve": 0.0169,
+   "wind_speed_100m": 1.9,
+   "wind_direction_100m": 282.0
   },
   {
    "time": "2026-02-19T17:00",
@@ -19746,7 +23332,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1934,
    "p90": 0.6026,
    "actual": null,
-   "curve": 0.2339
+   "curve": 0.2339,
+   "wind_speed_100m": 5.32,
+   "wind_direction_100m": 264.0
   },
   {
    "time": "2026-02-19T18:00",
@@ -19757,7 +23345,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2539,
    "p90": 0.7031,
    "actual": null,
-   "curve": 0.3533
+   "curve": 0.3533,
+   "wind_speed_100m": 6.23,
+   "wind_direction_100m": 262.0
   },
   {
    "time": "2026-02-19T19:00",
@@ -19768,7 +23358,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3638,
    "p90": 0.9351,
    "actual": null,
-   "curve": 0.577
+   "curve": 0.577,
+   "wind_speed_100m": 7.73,
+   "wind_direction_100m": 258.0
   },
   {
    "time": "2026-02-19T20:00",
@@ -19779,7 +23371,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4345,
    "p90": 0.8909,
    "actual": null,
-   "curve": 0.5744
+   "curve": 0.5744,
+   "wind_speed_100m": 7.7,
+   "wind_direction_100m": 255.0
   },
   {
    "time": "2026-02-19T21:00",
@@ -19790,7 +23384,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3874,
    "p90": 0.9356,
    "actual": null,
-   "curve": 0.5838
+   "curve": 0.5838,
+   "wind_speed_100m": 7.82,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-19T22:00",
@@ -19801,7 +23397,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4542,
    "p90": 0.9364,
    "actual": null,
-   "curve": 0.5728
+   "curve": 0.5728,
+   "wind_speed_100m": 7.68,
+   "wind_direction_100m": 247.0
   },
   {
    "time": "2026-02-19T23:00",
@@ -19812,7 +23410,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4283,
    "p90": 0.8884,
    "actual": null,
-   "curve": 0.4757
+   "curve": 0.4757,
+   "wind_speed_100m": 7.02,
+   "wind_direction_100m": 247.0
   },
   {
    "time": "2026-02-20T00:00",
@@ -19823,7 +23423,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4273,
    "p90": 0.8558,
    "actual": null,
-   "curve": 0.776
+   "curve": 0.776,
+   "wind_speed_100m": 9.39,
+   "wind_direction_100m": 247.0
   },
   {
    "time": "2026-02-20T01:00",
@@ -19834,7 +23436,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.501,
    "p90": 0.8105,
    "actual": null,
-   "curve": 0.8562
+   "curve": 0.8562,
+   "wind_speed_100m": 10.05,
+   "wind_direction_100m": 246.0
   },
   {
    "time": "2026-02-20T02:00",
@@ -19845,7 +23449,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.393,
    "p90": 0.8232,
    "actual": null,
-   "curve": 0.848
+   "curve": 0.848,
+   "wind_speed_100m": 9.95,
+   "wind_direction_100m": 251.0
   },
   {
    "time": "2026-02-20T03:00",
@@ -19856,7 +23462,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3253,
    "p90": 0.8168,
    "actual": null,
-   "curve": 0.7762
+   "curve": 0.7762,
+   "wind_speed_100m": 9.39,
+   "wind_direction_100m": 247.0
   },
   {
    "time": "2026-02-20T04:00",
@@ -19867,7 +23475,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3113,
    "p90": 0.8899,
    "actual": null,
-   "curve": 0.6309
+   "curve": 0.6309,
+   "wind_speed_100m": 8.43,
+   "wind_direction_100m": 239.0
   },
   {
    "time": "2026-02-20T05:00",
@@ -19878,7 +23488,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1852,
    "p90": 0.8271,
    "actual": null,
-   "curve": 0.2626
+   "curve": 0.2626,
+   "wind_speed_100m": 5.79,
+   "wind_direction_100m": 236.0
   },
   {
    "time": "2026-02-20T06:00",
@@ -19889,7 +23501,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1455,
    "p90": 0.6617,
    "actual": null,
-   "curve": 0.2317
+   "curve": 0.2317,
+   "wind_speed_100m": 5.49,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-20T07:00",
@@ -19900,7 +23514,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0909,
    "p90": 0.4912,
    "actual": null,
-   "curve": 0.1383
+   "curve": 0.1383,
+   "wind_speed_100m": 4.62,
+   "wind_direction_100m": 253.0
   },
   {
    "time": "2026-02-20T08:00",
@@ -19911,7 +23527,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0484,
    "p90": 0.413,
    "actual": null,
-   "curve": 0.1018
+   "curve": 0.1018,
+   "wind_speed_100m": 4.13,
+   "wind_direction_100m": 256.0
   },
   {
    "time": "2026-02-20T09:00",
@@ -19922,7 +23540,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0614,
    "p90": 0.3628,
    "actual": null,
-   "curve": 0.0971
+   "curve": 0.0971,
+   "wind_speed_100m": 3.85,
+   "wind_direction_100m": 263.0
   },
   {
    "time": "2026-02-20T10:00",
@@ -19933,7 +23553,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0475,
    "p90": 0.3431,
    "actual": null,
-   "curve": 0.0728
+   "curve": 0.0728,
+   "wind_speed_100m": 3.53,
+   "wind_direction_100m": 272.0
   },
   {
    "time": "2026-02-20T11:00",
@@ -19944,7 +23566,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0423,
    "p90": 0.2758,
    "actual": null,
-   "curve": 0.0479
+   "curve": 0.0479,
+   "wind_speed_100m": 3.0,
+   "wind_direction_100m": 281.0
   },
   {
    "time": "2026-02-20T12:00",
@@ -19955,7 +23579,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1346,
    "p90": 0.4006,
    "actual": null,
-   "curve": 0.0265
+   "curve": 0.0265,
+   "wind_speed_100m": 1.58,
+   "wind_direction_100m": 338.0
   },
   {
    "time": "2026-02-20T13:00",
@@ -19966,7 +23592,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2831,
    "p90": 0.7905,
    "actual": null,
-   "curve": 0.0183
+   "curve": 0.0183,
+   "wind_speed_100m": 1.01,
+   "wind_direction_100m": 29.0
   },
   {
    "time": "2026-02-20T14:00",
@@ -19977,7 +23605,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4116,
    "p90": 0.6225,
    "actual": null,
-   "curve": 0.031
+   "curve": 0.031,
+   "wind_speed_100m": 1.88,
+   "wind_direction_100m": 62.0
   },
   {
    "time": "2026-02-20T15:00",
@@ -19988,7 +23618,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6254,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.0866
+   "curve": 0.0866,
+   "wind_speed_100m": 3.68,
+   "wind_direction_100m": 61.0
   },
   {
    "time": "2026-02-20T16:00",
@@ -19999,7 +23631,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6953,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.4282
+   "curve": 0.4282,
+   "wind_speed_100m": 6.79,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-20T17:00",
@@ -20010,7 +23644,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6084,
    "p90": 0.9877,
    "actual": null,
-   "curve": 0.6316
+   "curve": 0.6316,
+   "wind_speed_100m": 8.43,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-20T18:00",
@@ -20021,7 +23657,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5685,
    "p90": 0.8924,
    "actual": null,
-   "curve": 0.5329
+   "curve": 0.5329,
+   "wind_speed_100m": 7.46,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-20T19:00",
@@ -20032,7 +23670,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6071,
    "p90": 0.9178,
    "actual": null,
-   "curve": 0.671
+   "curve": 0.671,
+   "wind_speed_100m": 8.68,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-20T20:00",
@@ -20043,7 +23683,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6442,
    "p90": 0.926,
    "actual": null,
-   "curve": 0.7293
+   "curve": 0.7293,
+   "wind_speed_100m": 9.07,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-20T21:00",
@@ -20054,7 +23696,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.609,
    "p90": 0.8964,
    "actual": null,
-   "curve": 0.7487
+   "curve": 0.7487,
+   "wind_speed_100m": 9.2,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-20T22:00",
@@ -20065,7 +23709,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6623,
    "p90": 0.8898,
    "actual": null,
-   "curve": 0.7663
+   "curve": 0.7663,
+   "wind_speed_100m": 9.32,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-20T23:00",
@@ -20076,7 +23722,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6312,
    "p90": 0.9319,
    "actual": null,
-   "curve": 0.7513
+   "curve": 0.7513,
+   "wind_speed_100m": 9.22,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-19T00:00",
@@ -20087,7 +23735,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5483,
    "p90": 0.9673,
    "actual": null,
-   "curve": 0.8525
+   "curve": 0.8525,
+   "wind_speed_100m": 9.86,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-19T01:00",
@@ -20098,7 +23748,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5414,
    "p90": 0.9152,
    "actual": null,
-   "curve": 0.68
+   "curve": 0.68,
+   "wind_speed_100m": 8.77,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-19T02:00",
@@ -20109,7 +23761,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3764,
    "p90": 0.8445,
    "actual": null,
-   "curve": 0.5529
+   "curve": 0.5529,
+   "wind_speed_100m": 7.56,
+   "wind_direction_100m": 77.0
   },
   {
    "time": "2026-02-19T03:00",
@@ -20120,7 +23774,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3824,
    "p90": 0.7919,
    "actual": null,
-   "curve": 0.3654
+   "curve": 0.3654,
+   "wind_speed_100m": 6.42,
+   "wind_direction_100m": 78.0
   },
   {
    "time": "2026-02-19T04:00",
@@ -20131,7 +23787,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3219,
    "p90": 0.8375,
    "actual": null,
-   "curve": 0.2921
+   "curve": 0.2921,
+   "wind_speed_100m": 6.01,
+   "wind_direction_100m": 78.0
   },
   {
    "time": "2026-02-19T05:00",
@@ -20142,7 +23800,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4443,
    "p90": 0.9272,
    "actual": null,
-   "curve": 0.3465
+   "curve": 0.3465,
+   "wind_speed_100m": 6.32,
+   "wind_direction_100m": 77.0
   },
   {
    "time": "2026-02-19T06:00",
@@ -20153,7 +23813,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3582,
    "p90": 0.7872,
    "actual": null,
-   "curve": 0.1555
+   "curve": 0.1555,
+   "wind_speed_100m": 4.9,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-19T07:00",
@@ -20164,7 +23826,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2826,
    "p90": 0.8477,
    "actual": null,
-   "curve": 0.2229
+   "curve": 0.2229,
+   "wind_speed_100m": 5.38,
+   "wind_direction_100m": 57.0
   },
   {
    "time": "2026-02-19T08:00",
@@ -20175,7 +23839,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.303,
    "p90": 0.815,
    "actual": null,
-   "curve": 0.2407
+   "curve": 0.2407,
+   "wind_speed_100m": 5.64,
+   "wind_direction_100m": 73.0
   },
   {
    "time": "2026-02-19T09:00",
@@ -20186,7 +23852,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2718,
    "p90": 0.6835,
    "actual": null,
-   "curve": 0.1939
+   "curve": 0.1939,
+   "wind_speed_100m": 5.18,
+   "wind_direction_100m": 75.0
   },
   {
    "time": "2026-02-19T10:00",
@@ -20197,7 +23865,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2948,
    "p90": 0.6334,
    "actual": null,
-   "curve": 0.1376
+   "curve": 0.1376,
+   "wind_speed_100m": 4.74,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-19T11:00",
@@ -20208,7 +23878,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2954,
    "p90": 0.6685,
    "actual": null,
-   "curve": 0.1787
+   "curve": 0.1787,
+   "wind_speed_100m": 5.08,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-19T12:00",
@@ -20219,7 +23891,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2278,
    "p90": 0.5685,
    "actual": null,
-   "curve": 0.1253
+   "curve": 0.1253,
+   "wind_speed_100m": 4.54,
+   "wind_direction_100m": 83.0
   },
   {
    "time": "2026-02-19T13:00",
@@ -20230,7 +23904,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.187,
    "p90": 0.428,
    "actual": null,
-   "curve": 0.0716
+   "curve": 0.0716,
+   "wind_speed_100m": 3.57,
+   "wind_direction_100m": 106.0
   },
   {
    "time": "2026-02-19T14:00",
@@ -20241,7 +23917,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1832,
    "p90": 0.4344,
    "actual": null,
-   "curve": 0.0086
+   "curve": 0.0086,
+   "wind_speed_100m": 1.29,
+   "wind_direction_100m": 81.0
   },
   {
    "time": "2026-02-19T15:00",
@@ -20252,7 +23930,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1292,
    "p90": 0.575,
    "actual": null,
-   "curve": 0.0033
+   "curve": 0.0033,
+   "wind_speed_100m": 0.22,
+   "wind_direction_100m": 27.0
   },
   {
    "time": "2026-02-19T16:00",
@@ -20263,7 +23943,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0733,
    "p90": 0.2012,
    "actual": null,
-   "curve": 0.0167
+   "curve": 0.0167,
+   "wind_speed_100m": 1.9,
+   "wind_direction_100m": 282.0
   },
   {
    "time": "2026-02-19T17:00",
@@ -20274,7 +23956,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1866,
    "p90": 0.5956,
    "actual": null,
-   "curve": 0.2214
+   "curve": 0.2214,
+   "wind_speed_100m": 5.32,
+   "wind_direction_100m": 264.0
   },
   {
    "time": "2026-02-19T18:00",
@@ -20285,7 +23969,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2378,
    "p90": 0.6879,
    "actual": null,
-   "curve": 0.3326
+   "curve": 0.3326,
+   "wind_speed_100m": 6.23,
+   "wind_direction_100m": 262.0
   },
   {
    "time": "2026-02-19T19:00",
@@ -20296,7 +23982,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3545,
    "p90": 0.9291,
    "actual": null,
-   "curve": 0.5645
+   "curve": 0.5645,
+   "wind_speed_100m": 7.73,
+   "wind_direction_100m": 258.0
   },
   {
    "time": "2026-02-19T20:00",
@@ -20307,7 +23995,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4258,
    "p90": 0.8846,
    "actual": null,
-   "curve": 0.5619
+   "curve": 0.5619,
+   "wind_speed_100m": 7.7,
+   "wind_direction_100m": 255.0
   },
   {
    "time": "2026-02-19T21:00",
@@ -20318,7 +24008,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.376,
    "p90": 0.9282,
    "actual": null,
-   "curve": 0.5713
+   "curve": 0.5713,
+   "wind_speed_100m": 7.82,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-19T22:00",
@@ -20329,7 +24021,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4455,
    "p90": 0.9301,
    "actual": null,
-   "curve": 0.5603
+   "curve": 0.5603,
+   "wind_speed_100m": 7.68,
+   "wind_direction_100m": 247.0
   },
   {
    "time": "2026-02-19T23:00",
@@ -20340,7 +24034,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4232,
    "p90": 0.8806,
    "actual": null,
-   "curve": 0.4627
+   "curve": 0.4627,
+   "wind_speed_100m": 7.02,
+   "wind_direction_100m": 247.0
   },
   {
    "time": "2026-02-20T00:00",
@@ -20351,7 +24047,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4225,
    "p90": 0.8702,
    "actual": null,
-   "curve": 0.7738
+   "curve": 0.7738,
+   "wind_speed_100m": 9.39,
+   "wind_direction_100m": 247.0
   },
   {
    "time": "2026-02-20T01:00",
@@ -20362,7 +24060,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4899,
    "p90": 0.8524,
    "actual": null,
-   "curve": 0.8484
+   "curve": 0.8484,
+   "wind_speed_100m": 10.05,
+   "wind_direction_100m": 246.0
   },
   {
    "time": "2026-02-20T02:00",
@@ -20373,7 +24073,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3869,
    "p90": 0.8591,
    "actual": null,
-   "curve": 0.8446
+   "curve": 0.8446,
+   "wind_speed_100m": 9.95,
+   "wind_direction_100m": 251.0
   },
   {
    "time": "2026-02-20T03:00",
@@ -20384,7 +24086,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3205,
    "p90": 0.8312,
    "actual": null,
-   "curve": 0.7741
+   "curve": 0.7741,
+   "wind_speed_100m": 9.39,
+   "wind_direction_100m": 247.0
   },
   {
    "time": "2026-02-20T04:00",
@@ -20395,7 +24099,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3267,
    "p90": 0.8934,
    "actual": null,
-   "curve": 0.6398
+   "curve": 0.6398,
+   "wind_speed_100m": 8.43,
+   "wind_direction_100m": 239.0
   },
   {
    "time": "2026-02-20T05:00",
@@ -20406,7 +24112,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1867,
    "p90": 0.8255,
    "actual": null,
-   "curve": 0.2571
+   "curve": 0.2571,
+   "wind_speed_100m": 5.79,
+   "wind_direction_100m": 236.0
   },
   {
    "time": "2026-02-20T06:00",
@@ -20417,7 +24125,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1437,
    "p90": 0.6565,
    "actual": null,
-   "curve": 0.2227
+   "curve": 0.2227,
+   "wind_speed_100m": 5.49,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-20T07:00",
@@ -20428,7 +24138,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0928,
    "p90": 0.4897,
    "actual": null,
-   "curve": 0.133
+   "curve": 0.133,
+   "wind_speed_100m": 4.62,
+   "wind_direction_100m": 253.0
   },
   {
    "time": "2026-02-20T08:00",
@@ -20439,7 +24151,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0515,
    "p90": 0.4128,
    "actual": null,
-   "curve": 0.0978
+   "curve": 0.0978,
+   "wind_speed_100m": 4.13,
+   "wind_direction_100m": 256.0
   },
   {
    "time": "2026-02-20T09:00",
@@ -20450,7 +24164,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0624,
    "p90": 0.3617,
    "actual": null,
-   "curve": 0.0922
+   "curve": 0.0922,
+   "wind_speed_100m": 3.85,
+   "wind_direction_100m": 263.0
   },
   {
    "time": "2026-02-20T10:00",
@@ -20461,7 +24177,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0484,
    "p90": 0.342,
    "actual": null,
-   "curve": 0.0678
+   "curve": 0.0678,
+   "wind_speed_100m": 3.53,
+   "wind_direction_100m": 272.0
   },
   {
    "time": "2026-02-20T11:00",
@@ -20472,7 +24190,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0458,
    "p90": 0.2756,
    "actual": null,
-   "curve": 0.0439
+   "curve": 0.0439,
+   "wind_speed_100m": 3.0,
+   "wind_direction_100m": 281.0
   },
   {
    "time": "2026-02-20T12:00",
@@ -20483,7 +24203,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1398,
    "p90": 0.4038,
    "actual": null,
-   "curve": 0.0259
+   "curve": 0.0259,
+   "wind_speed_100m": 1.58,
+   "wind_direction_100m": 338.0
   },
   {
    "time": "2026-02-20T13:00",
@@ -20494,7 +24216,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2926,
    "p90": 0.7944,
    "actual": null,
-   "curve": 0.0183
+   "curve": 0.0183,
+   "wind_speed_100m": 1.01,
+   "wind_direction_100m": 29.0
   },
   {
    "time": "2026-02-20T14:00",
@@ -20505,7 +24229,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4126,
    "p90": 0.6275,
    "actual": null,
-   "curve": 0.0308
+   "curve": 0.0308,
+   "wind_speed_100m": 1.88,
+   "wind_direction_100m": 62.0
   },
   {
    "time": "2026-02-20T15:00",
@@ -20516,7 +24242,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6117,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.0816
+   "curve": 0.0816,
+   "wind_speed_100m": 3.68,
+   "wind_direction_100m": 61.0
   },
   {
    "time": "2026-02-20T16:00",
@@ -20527,7 +24255,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6782,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.4134
+   "curve": 0.4134,
+   "wind_speed_100m": 6.79,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-20T17:00",
@@ -20538,7 +24268,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6135,
    "p90": 0.982,
    "actual": null,
-   "curve": 0.6402
+   "curve": 0.6402,
+   "wind_speed_100m": 8.43,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-20T18:00",
@@ -20549,7 +24281,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5572,
    "p90": 0.8847,
    "actual": null,
-   "curve": 0.5205
+   "curve": 0.5205,
+   "wind_speed_100m": 7.46,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-20T19:00",
@@ -20560,7 +24294,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5991,
    "p90": 0.9096,
    "actual": null,
-   "curve": 0.6618
+   "curve": 0.6618,
+   "wind_speed_100m": 8.68,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-20T20:00",
@@ -20571,7 +24307,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6288,
    "p90": 0.9156,
    "actual": null,
-   "curve": 0.7173
+   "curve": 0.7173,
+   "wind_speed_100m": 9.07,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-20T21:00",
@@ -20582,7 +24320,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5982,
    "p90": 0.8833,
    "actual": null,
-   "curve": 0.7412
+   "curve": 0.7412,
+   "wind_speed_100m": 9.2,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-20T22:00",
@@ -20593,7 +24333,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6527,
    "p90": 0.9016,
    "actual": null,
-   "curve": 0.7629
+   "curve": 0.7629,
+   "wind_speed_100m": 9.32,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-20T23:00",
@@ -20604,7 +24346,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6181,
    "p90": 0.9373,
    "actual": null,
-   "curve": 0.7444
+   "curve": 0.7444,
+   "wind_speed_100m": 9.22,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-20T00:00",
@@ -20615,7 +24359,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4605,
    "p90": 0.967,
    "actual": null,
-   "curve": 0.5772
+   "curve": 0.5772,
+   "wind_speed_100m": 7.73,
+   "wind_direction_100m": 255.0
   },
   {
    "time": "2026-02-20T01:00",
@@ -20626,7 +24372,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5614,
    "p90": 0.9892,
    "actual": null,
-   "curve": 0.685
+   "curve": 0.685,
+   "wind_speed_100m": 8.52,
+   "wind_direction_100m": 253.0
   },
   {
    "time": "2026-02-20T02:00",
@@ -20637,7 +24385,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5622,
    "p90": 0.9747,
    "actual": null,
-   "curve": 0.8533
+   "curve": 0.8533,
+   "wind_speed_100m": 9.43,
+   "wind_direction_100m": 246.0
   },
   {
    "time": "2026-02-20T03:00",
@@ -20648,7 +24398,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5869,
    "p90": 0.9902,
    "actual": null,
-   "curve": 0.8185
+   "curve": 0.8185,
+   "wind_speed_100m": 9.25,
+   "wind_direction_100m": 242.0
   },
   {
    "time": "2026-02-20T04:00",
@@ -20659,7 +24411,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4418,
    "p90": 0.9818,
    "actual": null,
-   "curve": 0.685
+   "curve": 0.685,
+   "wind_speed_100m": 8.37,
+   "wind_direction_100m": 243.0
   },
   {
    "time": "2026-02-20T05:00",
@@ -20670,7 +24424,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.287,
    "p90": 0.7203,
    "actual": null,
-   "curve": 0.3073
+   "curve": 0.3073,
+   "wind_speed_100m": 6.01,
+   "wind_direction_100m": 246.0
   },
   {
    "time": "2026-02-20T06:00",
@@ -20681,7 +24437,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2288,
    "p90": 0.7989,
    "actual": null,
-   "curve": 0.3423
+   "curve": 0.3423,
+   "wind_speed_100m": 6.19,
+   "wind_direction_100m": 247.0
   },
   {
    "time": "2026-02-20T07:00",
@@ -20692,7 +24450,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2492,
    "p90": 0.6989,
    "actual": null,
-   "curve": 0.2819
+   "curve": 0.2819,
+   "wind_speed_100m": 5.89,
+   "wind_direction_100m": 249.0
   },
   {
    "time": "2026-02-20T08:00",
@@ -20703,7 +24463,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.21,
    "p90": 0.6724,
    "actual": null,
-   "curve": 0.2234
+   "curve": 0.2234,
+   "wind_speed_100m": 5.28,
+   "wind_direction_100m": 259.0
   },
   {
    "time": "2026-02-20T09:00",
@@ -20714,7 +24476,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1675,
    "p90": 0.6202,
    "actual": null,
-   "curve": 0.1893
+   "curve": 0.1893,
+   "wind_speed_100m": 5.07,
+   "wind_direction_100m": 260.0
   },
   {
    "time": "2026-02-20T10:00",
@@ -20725,7 +24489,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1291,
    "p90": 0.5018,
    "actual": null,
-   "curve": 0.1844
+   "curve": 0.1844,
+   "wind_speed_100m": 5.04,
+   "wind_direction_100m": 257.0
   },
   {
    "time": "2026-02-20T11:00",
@@ -20736,7 +24502,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.098,
    "p90": 0.462,
    "actual": null,
-   "curve": 0.1816
+   "curve": 0.1816,
+   "wind_speed_100m": 5.02,
+   "wind_direction_100m": 258.0
   },
   {
    "time": "2026-02-20T12:00",
@@ -20747,7 +24515,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1246,
    "p90": 0.4388,
    "actual": null,
-   "curve": 0.1501
+   "curve": 0.1501,
+   "wind_speed_100m": 4.8,
+   "wind_direction_100m": 271.0
   },
   {
    "time": "2026-02-20T13:00",
@@ -20758,7 +24528,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1781,
    "p90": 0.4841,
    "actual": null,
-   "curve": 0.1307
+   "curve": 0.1307,
+   "wind_speed_100m": 4.42,
+   "wind_direction_100m": 274.0
   },
   {
    "time": "2026-02-20T14:00",
@@ -20769,7 +24541,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1468,
    "p90": 0.4812,
    "actual": null,
-   "curve": 0.0565
+   "curve": 0.0565,
+   "wind_speed_100m": 3.23,
+   "wind_direction_100m": 272.0
   },
   {
    "time": "2026-02-20T15:00",
@@ -20780,7 +24554,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1725,
    "p90": 0.7174,
    "actual": null,
-   "curve": 0.015
+   "curve": 0.015,
+   "wind_speed_100m": 1.77,
+   "wind_direction_100m": 267.0
   },
   {
    "time": "2026-02-20T16:00",
@@ -20791,7 +24567,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.6635,
    "actual": null,
-   "curve": 0.01
+   "curve": 0.01,
+   "wind_speed_100m": 0.89,
+   "wind_direction_100m": 6.0
   },
   {
    "time": "2026-02-20T17:00",
@@ -20802,7 +24580,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6657,
    "p90": 0.9179,
    "actual": null,
-   "curve": 0.0322
+   "curve": 0.0322,
+   "wind_speed_100m": 2.51,
+   "wind_direction_100m": 51.0
   },
   {
    "time": "2026-02-20T18:00",
@@ -20813,7 +24593,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5769,
    "p90": 0.9351,
    "actual": null,
-   "curve": 0.4032
+   "curve": 0.4032,
+   "wind_speed_100m": 6.57,
+   "wind_direction_100m": 63.0
   },
   {
    "time": "2026-02-20T19:00",
@@ -20824,7 +24606,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6631,
    "p90": 0.9242,
    "actual": null,
-   "curve": 0.4049
+   "curve": 0.4049,
+   "wind_speed_100m": 6.58,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-20T20:00",
@@ -20835,7 +24619,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6137,
    "p90": 0.9361,
    "actual": null,
-   "curve": 0.4536
+   "curve": 0.4536,
+   "wind_speed_100m": 6.9,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-20T21:00",
@@ -20846,7 +24632,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5624,
    "p90": 0.929,
    "actual": null,
-   "curve": 0.4043
+   "curve": 0.4043,
+   "wind_speed_100m": 6.57,
+   "wind_direction_100m": 63.0
   },
   {
    "time": "2026-02-20T22:00",
@@ -20857,7 +24645,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6628,
    "p90": 0.9349,
    "actual": null,
-   "curve": 0.3969
+   "curve": 0.3969,
+   "wind_speed_100m": 6.51,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-20T23:00",
@@ -20868,7 +24658,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6488,
    "p90": 0.9345,
    "actual": null,
-   "curve": 0.5006
+   "curve": 0.5006,
+   "wind_speed_100m": 7.11,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-21T00:00",
@@ -20879,7 +24671,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6172,
    "p90": 0.9906,
    "actual": null,
-   "curve": 0.8093
+   "curve": 0.8093,
+   "wind_speed_100m": 9.64,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-21T01:00",
@@ -20890,7 +24684,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4932,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.7607
+   "curve": 0.7607,
+   "wind_speed_100m": 9.29,
+   "wind_direction_100m": 62.0
   },
   {
    "time": "2026-02-21T02:00",
@@ -20901,7 +24697,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1978,
    "p90": 0.9317,
    "actual": null,
-   "curve": 0.6123
+   "curve": 0.6123,
+   "wind_speed_100m": 8.21,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-21T03:00",
@@ -20912,7 +24710,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3718,
    "p90": 0.9326,
    "actual": null,
-   "curve": 0.4704
+   "curve": 0.4704,
+   "wind_speed_100m": 7.04,
+   "wind_direction_100m": 74.0
   },
   {
    "time": "2026-02-21T04:00",
@@ -20923,7 +24723,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2123,
    "p90": 0.6773,
    "actual": null,
-   "curve": 0.1886
+   "curve": 0.1886,
+   "wind_speed_100m": 5.06,
+   "wind_direction_100m": 58.0
   },
   {
    "time": "2026-02-21T05:00",
@@ -20934,7 +24736,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4052,
    "p90": 0.8421,
    "actual": null,
-   "curve": 0.7857
+   "curve": 0.7857,
+   "wind_speed_100m": 9.48,
+   "wind_direction_100m": 252.0
   },
   {
    "time": "2026-02-21T06:00",
@@ -20945,7 +24749,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5261,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9809
+   "curve": 0.9809,
+   "wind_speed_100m": 12.97,
+   "wind_direction_100m": 259.0
   },
   {
    "time": "2026-02-21T07:00",
@@ -20956,7 +24762,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6525,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9883
+   "curve": 0.9883,
+   "wind_speed_100m": 14.48,
+   "wind_direction_100m": 254.0
   },
   {
    "time": "2026-02-21T08:00",
@@ -20967,7 +24775,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6215,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9811
+   "curve": 0.9811,
+   "wind_speed_100m": 13.04,
+   "wind_direction_100m": 267.0
   },
   {
    "time": "2026-02-21T09:00",
@@ -20978,7 +24788,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6986,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8853
+   "curve": 0.8853,
+   "wind_speed_100m": 10.7,
+   "wind_direction_100m": 274.0
   },
   {
    "time": "2026-02-21T10:00",
@@ -20989,7 +24801,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6241,
    "p90": 0.9845,
    "actual": null,
-   "curve": 0.5948
+   "curve": 0.5948,
+   "wind_speed_100m": 7.89,
+   "wind_direction_100m": 276.0
   },
   {
    "time": "2026-02-21T11:00",
@@ -21000,7 +24814,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5483,
    "p90": 0.9662,
    "actual": null,
-   "curve": 0.4256
+   "curve": 0.4256,
+   "wind_speed_100m": 6.77,
+   "wind_direction_100m": 280.0
   },
   {
    "time": "2026-02-21T12:00",
@@ -21011,7 +24827,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4281,
    "p90": 0.8161,
    "actual": null,
-   "curve": 0.1533
+   "curve": 0.1533,
+   "wind_speed_100m": 4.72,
+   "wind_direction_100m": 275.0
   },
   {
    "time": "2026-02-21T13:00",
@@ -21022,7 +24840,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3638,
    "p90": 0.8369,
    "actual": null,
-   "curve": 0.0906
+   "curve": 0.0906,
+   "wind_speed_100m": 3.71,
+   "wind_direction_100m": 258.0
   },
   {
    "time": "2026-02-21T14:00",
@@ -21033,7 +24853,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3899,
    "p90": 0.9136,
    "actual": null,
-   "curve": 0.2781
+   "curve": 0.2781,
+   "wind_speed_100m": 5.95,
+   "wind_direction_100m": 250.0
   },
   {
    "time": "2026-02-21T15:00",
@@ -21044,7 +24866,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5319,
    "p90": 0.9693,
    "actual": null,
-   "curve": 0.856
+   "curve": 0.856,
+   "wind_speed_100m": 10.03,
+   "wind_direction_100m": 258.0
   },
   {
    "time": "2026-02-21T16:00",
@@ -21055,7 +24879,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4859,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 16.47,
+   "wind_direction_100m": 268.0
   },
   {
    "time": "2026-02-21T17:00",
@@ -21066,7 +24892,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7037,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9815
+   "curve": 0.9815,
+   "wind_speed_100m": 13.25,
+   "wind_direction_100m": 267.0
   },
   {
    "time": "2026-02-21T18:00",
@@ -21077,7 +24905,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.621,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9647
+   "curve": 0.9647,
+   "wind_speed_100m": 12.21,
+   "wind_direction_100m": 261.0
   },
   {
    "time": "2026-02-21T19:00",
@@ -21088,7 +24918,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.656,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9586
+   "curve": 0.9586,
+   "wind_speed_100m": 12.07,
+   "wind_direction_100m": 255.0
   },
   {
    "time": "2026-02-21T20:00",
@@ -21099,7 +24931,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4336,
    "p90": 0.9654,
    "actual": null,
-   "curve": 0.9088
+   "curve": 0.9088,
+   "wind_speed_100m": 11.15,
+   "wind_direction_100m": 255.0
   },
   {
    "time": "2026-02-21T21:00",
@@ -21110,7 +24944,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3392,
    "p90": 0.8475,
    "actual": null,
-   "curve": 0.7639
+   "curve": 0.7639,
+   "wind_speed_100m": 9.23,
+   "wind_direction_100m": 253.0
   },
   {
    "time": "2026-02-21T22:00",
@@ -21121,7 +24957,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1849,
    "p90": 0.7759,
    "actual": null,
-   "curve": 0.5478
+   "curve": 0.5478,
+   "wind_speed_100m": 7.49,
+   "wind_direction_100m": 244.0
   },
   {
    "time": "2026-02-21T23:00",
@@ -21132,7 +24970,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1893,
    "p90": 0.7017,
    "actual": null,
-   "curve": 0.2744
+   "curve": 0.2744,
+   "wind_speed_100m": 5.86,
+   "wind_direction_100m": 232.0
   },
   {
    "time": "2026-02-20T00:00",
@@ -21143,7 +24983,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4394,
    "p90": 0.9595,
    "actual": null,
-   "curve": 0.5647
+   "curve": 0.5647,
+   "wind_speed_100m": 7.73,
+   "wind_direction_100m": 255.0
   },
   {
    "time": "2026-02-20T01:00",
@@ -21154,7 +24996,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5584,
    "p90": 0.9882,
    "actual": null,
-   "curve": 0.68
+   "curve": 0.68,
+   "wind_speed_100m": 8.52,
+   "wind_direction_100m": 253.0
   },
   {
    "time": "2026-02-20T02:00",
@@ -21165,7 +25009,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5464,
    "p90": 0.9839,
    "actual": null,
-   "curve": 0.8517
+   "curve": 0.8517,
+   "wind_speed_100m": 9.43,
+   "wind_direction_100m": 246.0
   },
   {
    "time": "2026-02-20T03:00",
@@ -21176,7 +25022,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5948,
    "p90": 0.9986,
    "actual": null,
-   "curve": 0.8161
+   "curve": 0.8161,
+   "wind_speed_100m": 9.25,
+   "wind_direction_100m": 242.0
   },
   {
    "time": "2026-02-20T04:00",
@@ -21187,7 +25035,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4543,
    "p90": 0.9815,
    "actual": null,
-   "curve": 0.68
+   "curve": 0.68,
+   "wind_speed_100m": 8.37,
+   "wind_direction_100m": 243.0
   },
   {
    "time": "2026-02-20T05:00",
@@ -21198,7 +25048,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3239,
    "p90": 0.7734,
    "actual": null,
-   "curve": 0.2889
+   "curve": 0.2889,
+   "wind_speed_100m": 6.01,
+   "wind_direction_100m": 246.0
   },
   {
    "time": "2026-02-20T06:00",
@@ -21209,7 +25061,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2466,
    "p90": 0.7891,
    "actual": null,
-   "curve": 0.3221
+   "curve": 0.3221,
+   "wind_speed_100m": 6.19,
+   "wind_direction_100m": 247.0
   },
   {
    "time": "2026-02-20T07:00",
@@ -21220,7 +25074,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2393,
    "p90": 0.6873,
    "actual": null,
-   "curve": 0.2648
+   "curve": 0.2648,
+   "wind_speed_100m": 5.89,
+   "wind_direction_100m": 249.0
   },
   {
    "time": "2026-02-20T08:00",
@@ -21231,7 +25087,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2075,
    "p90": 0.6661,
    "actual": null,
-   "curve": 0.2116
+   "curve": 0.2116,
+   "wind_speed_100m": 5.28,
+   "wind_direction_100m": 259.0
   },
   {
    "time": "2026-02-20T09:00",
@@ -21242,7 +25100,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1654,
    "p90": 0.6164,
    "actual": null,
-   "curve": 0.18
+   "curve": 0.18,
+   "wind_speed_100m": 5.07,
+   "wind_direction_100m": 260.0
   },
   {
    "time": "2026-02-20T10:00",
@@ -21253,7 +25113,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1274,
    "p90": 0.4984,
    "actual": null,
-   "curve": 0.1754
+   "curve": 0.1754,
+   "wind_speed_100m": 5.04,
+   "wind_direction_100m": 257.0
   },
   {
    "time": "2026-02-20T11:00",
@@ -21264,7 +25126,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0927,
    "p90": 0.4587,
    "actual": null,
-   "curve": 0.1728
+   "curve": 0.1728,
+   "wind_speed_100m": 5.02,
+   "wind_direction_100m": 258.0
   },
   {
    "time": "2026-02-20T12:00",
@@ -21275,7 +25139,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1275,
    "p90": 0.4373,
    "actual": null,
-   "curve": 0.143
+   "curve": 0.143,
+   "wind_speed_100m": 4.8,
+   "wind_direction_100m": 271.0
   },
   {
    "time": "2026-02-20T13:00",
@@ -21286,7 +25152,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1824,
    "p90": 0.4777,
    "actual": null,
-   "curve": 0.1188
+   "curve": 0.1188,
+   "wind_speed_100m": 4.42,
+   "wind_direction_100m": 274.0
   },
   {
    "time": "2026-02-20T14:00",
@@ -21297,7 +25165,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1572,
    "p90": 0.4822,
    "actual": null,
-   "curve": 0.0519
+   "curve": 0.0519,
+   "wind_speed_100m": 3.23,
+   "wind_direction_100m": 272.0
   },
   {
    "time": "2026-02-20T15:00",
@@ -21308,7 +25178,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1783,
    "p90": 0.7229,
    "actual": null,
-   "curve": 0.015
+   "curve": 0.015,
+   "wind_speed_100m": 1.77,
+   "wind_direction_100m": 267.0
   },
   {
    "time": "2026-02-20T16:00",
@@ -21319,7 +25191,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.668,
    "actual": null,
-   "curve": 0.0083
+   "curve": 0.0083,
+   "wind_speed_100m": 0.89,
+   "wind_direction_100m": 6.0
   },
   {
    "time": "2026-02-20T17:00",
@@ -21330,7 +25204,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6559,
    "p90": 0.9219,
    "actual": null,
-   "curve": 0.031
+   "curve": 0.031,
+   "wind_speed_100m": 2.51,
+   "wind_direction_100m": 51.0
   },
   {
    "time": "2026-02-20T18:00",
@@ -21341,7 +25217,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5606,
    "p90": 0.9326,
    "actual": null,
-   "curve": 0.3858
+   "curve": 0.3858,
+   "wind_speed_100m": 6.57,
+   "wind_direction_100m": 63.0
   },
   {
    "time": "2026-02-20T19:00",
@@ -21352,7 +25230,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.647,
    "p90": 0.9322,
    "actual": null,
-   "curve": 0.3877
+   "curve": 0.3877,
+   "wind_speed_100m": 6.58,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-20T20:00",
@@ -21363,7 +25243,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6016,
    "p90": 0.94,
    "actual": null,
-   "curve": 0.4404
+   "curve": 0.4404,
+   "wind_speed_100m": 6.9,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-20T21:00",
@@ -21374,7 +25256,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5463,
    "p90": 0.9361,
    "actual": null,
-   "curve": 0.387
+   "curve": 0.387,
+   "wind_speed_100m": 6.57,
+   "wind_direction_100m": 63.0
   },
   {
    "time": "2026-02-20T22:00",
@@ -21385,7 +25269,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6457,
    "p90": 0.9334,
    "actual": null,
-   "curve": 0.3787
+   "curve": 0.3787,
+   "wind_speed_100m": 6.51,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-20T23:00",
@@ -21396,7 +25282,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.642,
    "p90": 0.9317,
    "actual": null,
-   "curve": 0.4878
+   "curve": 0.4878,
+   "wind_speed_100m": 7.11,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-21T00:00",
@@ -21407,7 +25295,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6109,
    "p90": 0.9836,
    "actual": null,
-   "curve": 0.8092
+   "curve": 0.8092,
+   "wind_speed_100m": 9.64,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-21T01:00",
@@ -21418,7 +25308,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4848,
    "p90": 0.9932,
    "actual": null,
-   "curve": 0.7561
+   "curve": 0.7561,
+   "wind_speed_100m": 9.29,
+   "wind_direction_100m": 62.0
   },
   {
    "time": "2026-02-21T02:00",
@@ -21429,7 +25321,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2071,
    "p90": 0.9427,
    "actual": null,
-   "curve": 0.6204
+   "curve": 0.6204,
+   "wind_speed_100m": 8.21,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-21T03:00",
@@ -21440,7 +25334,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.359,
    "p90": 0.9308,
    "actual": null,
-   "curve": 0.4556
+   "curve": 0.4556,
+   "wind_speed_100m": 7.04,
+   "wind_direction_100m": 74.0
   },
   {
    "time": "2026-02-21T04:00",
@@ -21451,7 +25347,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1949,
    "p90": 0.6724,
    "actual": null,
-   "curve": 0.1798
+   "curve": 0.1798,
+   "wind_speed_100m": 5.06,
+   "wind_direction_100m": 58.0
   },
   {
    "time": "2026-02-21T05:00",
@@ -21462,7 +25360,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4142,
    "p90": 0.874,
    "actual": null,
-   "curve": 0.7841
+   "curve": 0.7841,
+   "wind_speed_100m": 9.48,
+   "wind_direction_100m": 252.0
   },
   {
    "time": "2026-02-21T06:00",
@@ -21473,7 +25373,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5213,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9667
+   "curve": 0.9667,
+   "wind_speed_100m": 12.97,
+   "wind_direction_100m": 259.0
   },
   {
    "time": "2026-02-21T07:00",
@@ -21484,7 +25386,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6522,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 14.48,
+   "wind_direction_100m": 254.0
   },
   {
    "time": "2026-02-21T08:00",
@@ -21495,7 +25399,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6232,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9667
+   "curve": 0.9667,
+   "wind_speed_100m": 13.04,
+   "wind_direction_100m": 267.0
   },
   {
    "time": "2026-02-21T09:00",
@@ -21506,7 +25412,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7067,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8817
+   "curve": 0.8817,
+   "wind_speed_100m": 10.7,
+   "wind_direction_100m": 274.0
   },
   {
    "time": "2026-02-21T10:00",
@@ -21517,7 +25425,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6246,
    "p90": 0.9757,
    "actual": null,
-   "curve": 0.5875
+   "curve": 0.5875,
+   "wind_speed_100m": 7.89,
+   "wind_direction_100m": 276.0
   },
   {
    "time": "2026-02-21T11:00",
@@ -21528,7 +25438,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5438,
    "p90": 0.9541,
    "actual": null,
-   "curve": 0.411
+   "curve": 0.411,
+   "wind_speed_100m": 6.77,
+   "wind_direction_100m": 280.0
   },
   {
    "time": "2026-02-21T12:00",
@@ -21539,7 +25451,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.442,
    "p90": 0.8117,
    "actual": null,
-   "curve": 0.1471
+   "curve": 0.1471,
+   "wind_speed_100m": 4.72,
+   "wind_direction_100m": 275.0
   },
   {
    "time": "2026-02-21T13:00",
@@ -21550,7 +25464,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3651,
    "p90": 0.8357,
    "actual": null,
-   "curve": 0.0856
+   "curve": 0.0856,
+   "wind_speed_100m": 3.71,
+   "wind_direction_100m": 258.0
   },
   {
    "time": "2026-02-21T14:00",
@@ -21561,7 +25477,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3915,
    "p90": 0.9129,
    "actual": null,
-   "curve": 0.2736
+   "curve": 0.2736,
+   "wind_speed_100m": 5.95,
+   "wind_direction_100m": 250.0
   },
   {
    "time": "2026-02-21T15:00",
@@ -21572,7 +25490,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5485,
    "p90": 0.9751,
    "actual": null,
-   "curve": 0.8483
+   "curve": 0.8483,
+   "wind_speed_100m": 10.03,
+   "wind_direction_100m": 258.0
   },
   {
    "time": "2026-02-21T16:00",
@@ -21583,7 +25503,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4914,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 16.47,
+   "wind_direction_100m": 268.0
   },
   {
    "time": "2026-02-21T17:00",
@@ -21594,7 +25516,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6892,
    "p90": 0.9979,
    "actual": null,
-   "curve": 0.9667
+   "curve": 0.9667,
+   "wind_speed_100m": 13.25,
+   "wind_direction_100m": 267.0
   },
   {
    "time": "2026-02-21T18:00",
@@ -21605,7 +25529,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6127,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9475
+   "curve": 0.9475,
+   "wind_speed_100m": 12.21,
+   "wind_direction_100m": 261.0
   },
   {
    "time": "2026-02-21T19:00",
@@ -21616,7 +25542,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.65,
    "p90": 0.9997,
    "actual": null,
-   "curve": 0.9436
+   "curve": 0.9436,
+   "wind_speed_100m": 12.07,
+   "wind_direction_100m": 255.0
   },
   {
    "time": "2026-02-21T20:00",
@@ -21627,7 +25555,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4475,
    "p90": 0.9731,
    "actual": null,
-   "curve": 0.9138
+   "curve": 0.9138,
+   "wind_speed_100m": 11.15,
+   "wind_direction_100m": 255.0
   },
   {
    "time": "2026-02-21T21:00",
@@ -21638,7 +25568,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3442,
    "p90": 0.8732,
    "actual": null,
-   "curve": 0.7599
+   "curve": 0.7599,
+   "wind_speed_100m": 9.23,
+   "wind_direction_100m": 253.0
   },
   {
    "time": "2026-02-21T22:00",
@@ -21649,7 +25581,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.18,
    "p90": 0.7685,
    "actual": null,
-   "curve": 0.536
+   "curve": 0.536,
+   "wind_speed_100m": 7.49,
+   "wind_direction_100m": 244.0
   },
   {
    "time": "2026-02-21T23:00",
@@ -21660,7 +25594,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1924,
    "p90": 0.7008,
    "actual": null,
-   "curve": 0.2697
+   "curve": 0.2697,
+   "wind_speed_100m": 5.86,
+   "wind_direction_100m": 232.0
   },
   {
    "time": "2026-02-21T00:00",
@@ -21671,7 +25607,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4958,
    "p90": 0.9452,
    "actual": null,
-   "curve": 0.685
+   "curve": 0.685,
+   "wind_speed_100m": 8.33,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-21T01:00",
@@ -21682,7 +25620,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4769,
    "p90": 0.9718,
    "actual": null,
-   "curve": 0.5904
+   "curve": 0.5904,
+   "wind_speed_100m": 7.84,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-21T02:00",
@@ -21693,7 +25633,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3624,
    "p90": 0.9286,
    "actual": null,
-   "curve": 0.5711
+   "curve": 0.5711,
+   "wind_speed_100m": 7.63,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-21T03:00",
@@ -21704,7 +25646,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3318,
    "p90": 0.8955,
    "actual": null,
-   "curve": 0.6457
+   "curve": 0.6457,
+   "wind_speed_100m": 8.13,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-21T04:00",
@@ -21715,7 +25659,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.411,
    "p90": 0.9474,
    "actual": null,
-   "curve": 0.551
+   "curve": 0.551,
+   "wind_speed_100m": 7.41,
+   "wind_direction_100m": 64.0
   },
   {
    "time": "2026-02-21T05:00",
@@ -21726,7 +25672,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2437,
    "p90": 0.785,
    "actual": null,
-   "curve": 0.0135
+   "curve": 0.0135,
+   "wind_speed_100m": 1.62,
+   "wind_direction_100m": 25.0
   },
   {
    "time": "2026-02-21T06:00",
@@ -21737,7 +25685,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5006,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9856
+   "curve": 0.9856,
+   "wind_speed_100m": 14.01,
+   "wind_direction_100m": 260.0
   },
   {
    "time": "2026-02-21T07:00",
@@ -21748,7 +25698,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6583,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.99
+   "curve": 0.99,
+   "wind_speed_100m": 15.79,
+   "wind_direction_100m": 254.0
   },
   {
    "time": "2026-02-21T08:00",
@@ -21759,7 +25711,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7585,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9883
+   "curve": 0.9883,
+   "wind_speed_100m": 14.5,
+   "wind_direction_100m": 270.0
   },
   {
    "time": "2026-02-21T09:00",
@@ -21770,7 +25724,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.813,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9856
+   "curve": 0.9856,
+   "wind_speed_100m": 14.0,
+   "wind_direction_100m": 288.0
   },
   {
    "time": "2026-02-21T10:00",
@@ -21781,7 +25737,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7281,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9234
+   "curve": 0.9234,
+   "wind_speed_100m": 12.03,
+   "wind_direction_100m": 293.0
   },
   {
    "time": "2026-02-21T11:00",
@@ -21792,7 +25750,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6918,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.912
+   "curve": 0.912,
+   "wind_speed_100m": 11.39,
+   "wind_direction_100m": 297.0
   },
   {
    "time": "2026-02-21T12:00",
@@ -21803,7 +25763,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7082,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9284
+   "curve": 0.9284,
+   "wind_speed_100m": 12.22,
+   "wind_direction_100m": 296.0
   },
   {
    "time": "2026-02-21T13:00",
@@ -21814,7 +25776,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6358,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9106
+   "curve": 0.9106,
+   "wind_speed_100m": 11.0,
+   "wind_direction_100m": 297.0
   },
   {
    "time": "2026-02-21T14:00",
@@ -21825,7 +25789,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4971,
    "p90": 0.9849,
    "actual": null,
-   "curve": 0.685
+   "curve": 0.685,
+   "wind_speed_100m": 8.43,
+   "wind_direction_100m": 293.0
   },
   {
    "time": "2026-02-21T15:00",
@@ -21836,7 +25802,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4836,
    "p90": 0.8232,
    "actual": null,
-   "curve": 0.3849
+   "curve": 0.3849,
+   "wind_speed_100m": 6.39,
+   "wind_direction_100m": 285.0
   },
   {
    "time": "2026-02-21T16:00",
@@ -21847,7 +25815,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1817,
    "p90": 0.6463,
    "actual": null,
-   "curve": 0.1441
+   "curve": 0.1441,
+   "wind_speed_100m": 4.63,
+   "wind_direction_100m": 264.0
   },
   {
    "time": "2026-02-21T17:00",
@@ -21858,7 +25828,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1295,
    "p90": 0.538,
    "actual": null,
-   "curve": 0.1244
+   "curve": 0.1244,
+   "wind_speed_100m": 4.26,
+   "wind_direction_100m": 247.0
   },
   {
    "time": "2026-02-21T18:00",
@@ -21869,7 +25841,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0922,
    "p90": 0.432,
    "actual": null,
-   "curve": 0.0897
+   "curve": 0.0897,
+   "wind_speed_100m": 3.7,
+   "wind_direction_100m": 233.0
   },
   {
    "time": "2026-02-21T19:00",
@@ -21880,7 +25854,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1211,
    "p90": 0.421,
    "actual": null,
-   "curve": 0.114
+   "curve": 0.114,
+   "wind_speed_100m": 4.09,
+   "wind_direction_100m": 249.0
   },
   {
    "time": "2026-02-21T20:00",
@@ -21891,7 +25867,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0801,
    "p90": 0.3351,
    "actual": null,
-   "curve": 0.092
+   "curve": 0.092,
+   "wind_speed_100m": 3.73,
+   "wind_direction_100m": 256.0
   },
   {
    "time": "2026-02-21T21:00",
@@ -21902,7 +25880,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.038,
    "p90": 0.3181,
    "actual": null,
-   "curve": 0.0803
+   "curve": 0.0803,
+   "wind_speed_100m": 3.57,
+   "wind_direction_100m": 249.0
   },
   {
    "time": "2026-02-21T22:00",
@@ -21913,7 +25893,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0043,
    "p90": 0.283,
    "actual": null,
-   "curve": 0.0509
+   "curve": 0.0509,
+   "wind_speed_100m": 3.02,
+   "wind_direction_100m": 245.0
   },
   {
    "time": "2026-02-21T23:00",
@@ -21924,7 +25906,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.262,
    "actual": null,
-   "curve": 0.0344
+   "curve": 0.0344,
+   "wind_speed_100m": 2.55,
+   "wind_direction_100m": 247.0
   },
   {
    "time": "2026-02-22T00:00",
@@ -21935,7 +25919,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0942,
    "p90": 0.4203,
    "actual": null,
-   "curve": 0.2456
+   "curve": 0.2456,
+   "wind_speed_100m": 5.56,
+   "wind_direction_100m": 229.0
   },
   {
    "time": "2026-02-22T01:00",
@@ -21946,7 +25932,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0279,
    "p90": 0.3246,
    "actual": null,
-   "curve": 0.0908
+   "curve": 0.0908,
+   "wind_speed_100m": 3.69,
+   "wind_direction_100m": 230.0
   },
   {
    "time": "2026-02-22T02:00",
@@ -21957,7 +25945,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2179,
    "actual": null,
-   "curve": 0.0355
+   "curve": 0.0355,
+   "wind_speed_100m": 2.42,
+   "wind_direction_100m": 238.0
   },
   {
    "time": "2026-02-22T03:00",
@@ -21968,7 +25958,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2418,
    "actual": null,
-   "curve": 0.019
+   "curve": 0.019,
+   "wind_speed_100m": 1.1,
+   "wind_direction_100m": 260.0
   },
   {
    "time": "2026-02-22T04:00",
@@ -21979,7 +25971,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2825,
    "actual": null,
-   "curve": 0.017
+   "curve": 0.017,
+   "wind_speed_100m": 0.81,
+   "wind_direction_100m": 14.0
   },
   {
    "time": "2026-02-22T05:00",
@@ -21990,7 +25984,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1104,
    "p90": 0.7379,
    "actual": null,
-   "curve": 0.0312
+   "curve": 0.0312,
+   "wind_speed_100m": 1.96,
+   "wind_direction_100m": 37.0
   },
   {
    "time": "2026-02-22T06:00",
@@ -22001,7 +25997,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3268,
    "p90": 0.847,
    "actual": null,
-   "curve": 0.297
+   "curve": 0.297,
+   "wind_speed_100m": 6.22,
+   "wind_direction_100m": 62.0
   },
   {
    "time": "2026-02-22T07:00",
@@ -22012,7 +26010,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5024,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.6131
+   "curve": 0.6131,
+   "wind_speed_100m": 8.25,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-22T08:00",
@@ -22023,7 +26023,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7474,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.6881
+   "curve": 0.6881,
+   "wind_speed_100m": 8.83,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-22T09:00",
@@ -22034,7 +26036,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8381,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.7141
+   "curve": 0.7141,
+   "wind_speed_100m": 9.01,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-22T10:00",
@@ -22045,7 +26049,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8927,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.6783
+   "curve": 0.6783,
+   "wind_speed_100m": 8.77,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-22T11:00",
@@ -22056,7 +26062,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7934,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.6351
+   "curve": 0.6351,
+   "wind_speed_100m": 8.48,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-22T12:00",
@@ -22067,7 +26075,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7303,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.7816
+   "curve": 0.7816,
+   "wind_speed_100m": 9.46,
+   "wind_direction_100m": 64.0
   },
   {
    "time": "2026-02-22T13:00",
@@ -22078,7 +26088,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.678,
    "p90": 0.9978,
    "actual": null,
-   "curve": 0.7483
+   "curve": 0.7483,
+   "wind_speed_100m": 9.21,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-22T14:00",
@@ -22089,7 +26101,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5834,
    "p90": 0.9959,
    "actual": null,
-   "curve": 0.5859
+   "curve": 0.5859,
+   "wind_speed_100m": 7.79,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-22T15:00",
@@ -22100,7 +26114,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5148,
    "p90": 0.9484,
    "actual": null,
-   "curve": 0.458
+   "curve": 0.458,
+   "wind_speed_100m": 6.94,
+   "wind_direction_100m": 59.0
   },
   {
    "time": "2026-02-22T16:00",
@@ -22111,7 +26127,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4038,
    "p90": 0.8807,
    "actual": null,
-   "curve": 0.3662
+   "curve": 0.3662,
+   "wind_speed_100m": 6.53,
+   "wind_direction_100m": 64.0
   },
   {
    "time": "2026-02-22T17:00",
@@ -22122,7 +26140,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.302,
    "p90": 0.7707,
    "actual": null,
-   "curve": 0.2703
+   "curve": 0.2703,
+   "wind_speed_100m": 5.84,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-22T18:00",
@@ -22133,7 +26153,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5864,
    "p90": 0.9571,
    "actual": null,
-   "curve": 0.903
+   "curve": 0.903,
+   "wind_speed_100m": 11.13,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-22T19:00",
@@ -22144,7 +26166,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4714,
    "p90": 0.9119,
    "actual": null,
-   "curve": 0.8865
+   "curve": 0.8865,
+   "wind_speed_100m": 10.83,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-22T20:00",
@@ -22155,7 +26179,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3526,
    "p90": 0.8183,
    "actual": null,
-   "curve": 0.7319
+   "curve": 0.7319,
+   "wind_speed_100m": 9.08,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-22T21:00",
@@ -22166,7 +26192,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2472,
    "p90": 0.6825,
    "actual": null,
-   "curve": 0.3913
+   "curve": 0.3913,
+   "wind_speed_100m": 6.63,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-22T22:00",
@@ -22177,7 +26205,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2364,
    "p90": 0.5577,
    "actual": null,
-   "curve": 0.1029
+   "curve": 0.1029,
+   "wind_speed_100m": 4.16,
+   "wind_direction_100m": 75.0
   },
   {
    "time": "2026-02-22T23:00",
@@ -22188,7 +26218,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1316,
    "p90": 0.6394,
    "actual": null,
-   "curve": 0.0311
+   "curve": 0.0311,
+   "wind_speed_100m": 1.95,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-21T00:00",
@@ -22199,7 +26231,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4815,
    "p90": 0.9444,
    "actual": null,
-   "curve": 0.68
+   "curve": 0.68,
+   "wind_speed_100m": 8.33,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-21T01:00",
@@ -22210,7 +26244,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4596,
    "p90": 0.9632,
    "actual": null,
-   "curve": 0.5783
+   "curve": 0.5783,
+   "wind_speed_100m": 7.84,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-21T02:00",
@@ -22221,7 +26257,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3517,
    "p90": 0.9208,
    "actual": null,
-   "curve": 0.5586
+   "curve": 0.5586,
+   "wind_speed_100m": 7.63,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-21T03:00",
@@ -22232,7 +26270,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.325,
    "p90": 0.8914,
    "actual": null,
-   "curve": 0.6377
+   "curve": 0.6377,
+   "wind_speed_100m": 8.13,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-21T04:00",
@@ -22243,7 +26283,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3996,
    "p90": 0.9402,
    "actual": null,
-   "curve": 0.5385
+   "curve": 0.5385,
+   "wind_speed_100m": 7.41,
+   "wind_direction_100m": 64.0
   },
   {
    "time": "2026-02-21T05:00",
@@ -22254,7 +26296,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2608,
    "p90": 0.7924,
    "actual": null,
-   "curve": 0.013
+   "curve": 0.013,
+   "wind_speed_100m": 1.62,
+   "wind_direction_100m": 25.0
   },
   {
    "time": "2026-02-21T06:00",
@@ -22265,7 +26309,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5045,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 14.01,
+   "wind_direction_100m": 260.0
   },
   {
    "time": "2026-02-21T07:00",
@@ -22276,7 +26322,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6942,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 15.79,
+   "wind_direction_100m": 254.0
   },
   {
    "time": "2026-02-21T08:00",
@@ -22287,7 +26335,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7839,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 14.5,
+   "wind_direction_100m": 270.0
   },
   {
    "time": "2026-02-21T09:00",
@@ -22298,7 +26348,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8072,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 14.0,
+   "wind_direction_100m": 288.0
   },
   {
    "time": "2026-02-21T10:00",
@@ -22309,7 +26361,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7307,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.93
+   "curve": 0.93,
+   "wind_speed_100m": 12.03,
+   "wind_direction_100m": 293.0
   },
   {
    "time": "2026-02-21T11:00",
@@ -22320,7 +26374,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7096,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9252
+   "curve": 0.9252,
+   "wind_speed_100m": 11.39,
+   "wind_direction_100m": 297.0
   },
   {
    "time": "2026-02-21T12:00",
@@ -22331,7 +26387,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7166,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.93
+   "curve": 0.93,
+   "wind_speed_100m": 12.22,
+   "wind_direction_100m": 296.0
   },
   {
    "time": "2026-02-21T13:00",
@@ -22342,7 +26400,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6408,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8995
+   "curve": 0.8995,
+   "wind_speed_100m": 11.0,
+   "wind_direction_100m": 297.0
   },
   {
    "time": "2026-02-21T14:00",
@@ -22353,7 +26413,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4969,
    "p90": 0.9838,
    "actual": null,
-   "curve": 0.68
+   "curve": 0.68,
+   "wind_speed_100m": 8.43,
+   "wind_direction_100m": 293.0
   },
   {
    "time": "2026-02-21T15:00",
@@ -22364,7 +26426,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5044,
    "p90": 0.8088,
    "actual": null,
-   "curve": 0.365
+   "curve": 0.365,
+   "wind_speed_100m": 6.39,
+   "wind_direction_100m": 285.0
   },
   {
    "time": "2026-02-21T16:00",
@@ -22375,7 +26439,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1815,
    "p90": 0.6433,
    "actual": null,
-   "curve": 0.1356
+   "curve": 0.1356,
+   "wind_speed_100m": 4.63,
+   "wind_direction_100m": 264.0
   },
   {
    "time": "2026-02-21T17:00",
@@ -22386,7 +26452,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1492,
    "p90": 0.5303,
    "actual": null,
-   "curve": 0.1112
+   "curve": 0.1112,
+   "wind_speed_100m": 4.26,
+   "wind_direction_100m": 247.0
   },
   {
    "time": "2026-02-21T18:00",
@@ -22397,7 +26465,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0915,
    "p90": 0.4312,
    "actual": null,
-   "curve": 0.0833
+   "curve": 0.0833,
+   "wind_speed_100m": 3.7,
+   "wind_direction_100m": 233.0
   },
   {
    "time": "2026-02-21T19:00",
@@ -22408,7 +26478,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.131,
    "p90": 0.4157,
    "actual": null,
-   "curve": 0.1031
+   "curve": 0.1031,
+   "wind_speed_100m": 4.09,
+   "wind_direction_100m": 249.0
   },
   {
    "time": "2026-02-21T20:00",
@@ -22419,7 +26491,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0782,
    "p90": 0.3342,
    "actual": null,
-   "curve": 0.0854
+   "curve": 0.0854,
+   "wind_speed_100m": 3.73,
+   "wind_direction_100m": 256.0
   },
   {
    "time": "2026-02-21T21:00",
@@ -22430,7 +26504,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0378,
    "p90": 0.3177,
    "actual": null,
-   "curve": 0.0743
+   "curve": 0.0743,
+   "wind_speed_100m": 3.57,
+   "wind_direction_100m": 249.0
   },
   {
    "time": "2026-02-21T22:00",
@@ -22441,7 +26517,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0077,
    "p90": 0.2852,
    "actual": null,
-   "curve": 0.0476
+   "curve": 0.0476,
+   "wind_speed_100m": 3.02,
+   "wind_direction_100m": 245.0
   },
   {
    "time": "2026-02-21T23:00",
@@ -22452,7 +26530,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2662,
    "actual": null,
-   "curve": 0.0331
+   "curve": 0.0331,
+   "wind_speed_100m": 2.55,
+   "wind_direction_100m": 247.0
   },
   {
    "time": "2026-02-22T00:00",
@@ -22463,7 +26543,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0926,
    "p90": 0.4167,
    "actual": null,
-   "curve": 0.2382
+   "curve": 0.2382,
+   "wind_speed_100m": 5.56,
+   "wind_direction_100m": 229.0
   },
   {
    "time": "2026-02-22T01:00",
@@ -22474,7 +26556,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0275,
    "p90": 0.3235,
    "actual": null,
-   "curve": 0.0858
+   "curve": 0.0858,
+   "wind_speed_100m": 3.69,
+   "wind_direction_100m": 230.0
   },
   {
    "time": "2026-02-22T02:00",
@@ -22485,7 +26569,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.22,
    "actual": null,
-   "curve": 0.0338
+   "curve": 0.0338,
+   "wind_speed_100m": 2.42,
+   "wind_direction_100m": 238.0
   },
   {
    "time": "2026-02-22T03:00",
@@ -22496,7 +26582,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.245,
    "actual": null,
-   "curve": 0.0183
+   "curve": 0.0183,
+   "wind_speed_100m": 1.1,
+   "wind_direction_100m": 260.0
   },
   {
    "time": "2026-02-22T04:00",
@@ -22507,7 +26595,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2877,
    "actual": null,
-   "curve": 0.0183
+   "curve": 0.0183,
+   "wind_speed_100m": 0.81,
+   "wind_direction_100m": 14.0
   },
   {
    "time": "2026-02-22T05:00",
@@ -22518,7 +26608,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.116,
    "p90": 0.7415,
    "actual": null,
-   "curve": 0.0308
+   "curve": 0.0308,
+   "wind_speed_100m": 1.96,
+   "wind_direction_100m": 37.0
   },
   {
    "time": "2026-02-22T06:00",
@@ -22529,7 +26621,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3431,
    "p90": 0.8621,
    "actual": null,
-   "curve": 0.2933
+   "curve": 0.2933,
+   "wind_speed_100m": 6.22,
+   "wind_direction_100m": 62.0
   },
   {
    "time": "2026-02-22T07:00",
@@ -22540,7 +26634,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5214,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.6219
+   "curve": 0.6219,
+   "wind_speed_100m": 8.25,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-22T08:00",
@@ -22551,7 +26647,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7526,
    "p90": 0.9976,
    "actual": null,
-   "curve": 0.6712
+   "curve": 0.6712,
+   "wind_speed_100m": 8.83,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-22T09:00",
@@ -22562,7 +26660,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8302,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.6986
+   "curve": 0.6986,
+   "wind_speed_100m": 9.01,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-22T10:00",
@@ -22573,7 +26673,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8878,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.6658
+   "curve": 0.6658,
+   "wind_speed_100m": 8.77,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-22T11:00",
@@ -22584,7 +26686,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8068,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.6421
+   "curve": 0.6421,
+   "wind_speed_100m": 8.48,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-22T12:00",
@@ -22595,7 +26699,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7373,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.7798
+   "curve": 0.7798,
+   "wind_speed_100m": 9.46,
+   "wind_direction_100m": 64.0
   },
   {
    "time": "2026-02-22T13:00",
@@ -22606,7 +26712,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.673,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.7407
+   "curve": 0.7407,
+   "wind_speed_100m": 9.21,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-22T14:00",
@@ -22617,7 +26725,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5698,
    "p90": 0.9872,
    "actual": null,
-   "curve": 0.5757
+   "curve": 0.5757,
+   "wind_speed_100m": 7.79,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-22T15:00",
@@ -22628,7 +26738,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.491,
    "p90": 0.9499,
    "actual": null,
-   "curve": 0.4428
+   "curve": 0.4428,
+   "wind_speed_100m": 6.94,
+   "wind_direction_100m": 59.0
   },
   {
    "time": "2026-02-22T16:00",
@@ -22639,7 +26751,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.396,
    "p90": 0.8751,
    "actual": null,
-   "curve": 0.3572
+   "curve": 0.3572,
+   "wind_speed_100m": 6.53,
+   "wind_direction_100m": 64.0
   },
   {
    "time": "2026-02-22T17:00",
@@ -22650,7 +26764,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2983,
    "p90": 0.7697,
    "actual": null,
-   "curve": 0.2654
+   "curve": 0.2654,
+   "wind_speed_100m": 5.84,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-22T18:00",
@@ -22661,7 +26777,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5945,
    "p90": 0.955,
    "actual": null,
-   "curve": 0.908
+   "curve": 0.908,
+   "wind_speed_100m": 11.13,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-22T19:00",
@@ -22672,7 +26790,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4762,
    "p90": 0.9221,
    "actual": null,
-   "curve": 0.8901
+   "curve": 0.8901,
+   "wind_speed_100m": 10.83,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-22T20:00",
@@ -22683,7 +26803,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3703,
    "p90": 0.8334,
    "actual": null,
-   "curve": 0.7205
+   "curve": 0.7205,
+   "wind_speed_100m": 9.08,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-22T21:00",
@@ -22694,7 +26816,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.237,
    "p90": 0.6749,
    "actual": null,
-   "curve": 0.3799
+   "curve": 0.3799,
+   "wind_speed_100m": 6.63,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-22T22:00",
@@ -22705,7 +26829,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2319,
    "p90": 0.5578,
    "actual": null,
-   "curve": 0.0992
+   "curve": 0.0992,
+   "wind_speed_100m": 4.16,
+   "wind_direction_100m": 75.0
   },
   {
    "time": "2026-02-22T23:00",
@@ -22716,7 +26842,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1448,
    "p90": 0.6429,
    "actual": null,
-   "curve": 0.0308
+   "curve": 0.0308,
+   "wind_speed_100m": 1.95,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-22T00:00",
@@ -22727,7 +26855,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.0524,
    "actual": null,
-   "curve": 0.0041
+   "curve": 0.0041,
+   "wind_speed_100m": 0.31,
+   "wind_direction_100m": 252.0
   },
   {
    "time": "2026-02-22T01:00",
@@ -22738,7 +26868,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0169,
    "p90": 0.2661,
    "actual": null,
-   "curve": 0.0114
+   "curve": 0.0114,
+   "wind_speed_100m": 1.4,
+   "wind_direction_100m": 78.0
   },
   {
    "time": "2026-02-22T02:00",
@@ -22749,7 +26881,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0333,
    "p90": 0.3744,
    "actual": null,
-   "curve": 0.0353
+   "curve": 0.0353,
+   "wind_speed_100m": 2.57,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-22T03:00",
@@ -22760,7 +26894,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.123,
    "p90": 0.506,
    "actual": null,
-   "curve": 0.0804
+   "curve": 0.0804,
+   "wind_speed_100m": 3.57,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-22T04:00",
@@ -22771,7 +26907,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1909,
    "p90": 0.7554,
    "actual": null,
-   "curve": 0.1285
+   "curve": 0.1285,
+   "wind_speed_100m": 4.35,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-22T05:00",
@@ -22782,7 +26920,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6807,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.1229
+   "curve": 0.1229,
+   "wind_speed_100m": 4.26,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-22T06:00",
@@ -22793,7 +26933,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8342,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8533
+   "curve": 0.8533,
+   "wind_speed_100m": 9.39,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-22T07:00",
@@ -22804,7 +26946,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9138,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.91
+   "curve": 0.91,
+   "wind_speed_100m": 10.46,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-22T08:00",
@@ -22815,7 +26959,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8542,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.91
+   "curve": 0.91,
+   "wind_speed_100m": 10.41,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-22T09:00",
@@ -22826,7 +26972,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8619,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8533
+   "curve": 0.8533,
+   "wind_speed_100m": 9.86,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-22T10:00",
@@ -22837,7 +26985,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8905,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.7533
+   "curve": 0.7533,
+   "wind_speed_100m": 9.08,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-22T11:00",
@@ -22848,7 +26998,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8932,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.685
+   "curve": 0.685,
+   "wind_speed_100m": 8.4,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-22T12:00",
@@ -22859,7 +27011,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7581,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.569
+   "curve": 0.569,
+   "wind_speed_100m": 7.64,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-22T13:00",
@@ -22870,7 +27024,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6102,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.429
+   "curve": 0.429,
+   "wind_speed_100m": 6.79,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-22T14:00",
@@ -22881,7 +27037,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5046,
    "p90": 0.7976,
    "actual": null,
-   "curve": 0.2508
+   "curve": 0.2508,
+   "wind_speed_100m": 5.52,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-22T15:00",
@@ -22892,7 +27050,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4665,
    "p90": 0.7224,
    "actual": null,
-   "curve": 0.1332
+   "curve": 0.1332,
+   "wind_speed_100m": 4.44,
+   "wind_direction_100m": 59.0
   },
   {
    "time": "2026-02-22T16:00",
@@ -22903,7 +27063,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1729,
    "p90": 0.5713,
    "actual": null,
-   "curve": 0.0999
+   "curve": 0.0999,
+   "wind_speed_100m": 3.86,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-22T17:00",
@@ -22914,7 +27076,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0943,
    "p90": 0.5706,
    "actual": null,
-   "curve": 0.0314
+   "curve": 0.0314,
+   "wind_speed_100m": 2.48,
+   "wind_direction_100m": 81.0
   },
   {
    "time": "2026-02-22T18:00",
@@ -22925,7 +27089,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.038,
    "p90": 0.468,
    "actual": null,
-   "curve": 0.0384
+   "curve": 0.0384,
+   "wind_speed_100m": 2.65,
+   "wind_direction_100m": 90.0
   },
   {
    "time": "2026-02-22T19:00",
@@ -22936,7 +27102,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0689,
    "p90": 0.2901,
    "actual": null,
-   "curve": 0.0458
+   "curve": 0.0458,
+   "wind_speed_100m": 2.85,
+   "wind_direction_100m": 117.0
   },
   {
    "time": "2026-02-22T20:00",
@@ -22947,7 +27115,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0176,
    "p90": 0.2127,
    "actual": null,
-   "curve": 0.0269
+   "curve": 0.0269,
+   "wind_speed_100m": 2.37,
+   "wind_direction_100m": 114.0
   },
   {
    "time": "2026-02-22T21:00",
@@ -22958,7 +27128,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2607,
    "actual": null,
-   "curve": 0.0131
+   "curve": 0.0131,
+   "wind_speed_100m": 1.57,
+   "wind_direction_100m": 86.0
   },
   {
    "time": "2026-02-22T22:00",
@@ -22969,7 +27141,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0267,
    "p90": 0.3791,
    "actual": null,
-   "curve": 0.0133
+   "curve": 0.0133,
+   "wind_speed_100m": 1.59,
+   "wind_direction_100m": 43.0
   },
   {
    "time": "2026-02-22T23:00",
@@ -22980,7 +27154,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.1905,
    "actual": null,
-   "curve": 0.007
+   "curve": 0.007,
+   "wind_speed_100m": 0.53,
+   "wind_direction_100m": 112.0
   },
   {
    "time": "2026-02-23T00:00",
@@ -22991,7 +27167,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.1563,
    "actual": null,
-   "curve": 0.0314
+   "curve": 0.0314,
+   "wind_speed_100m": 2.11,
+   "wind_direction_100m": 167.0
   },
   {
    "time": "2026-02-23T01:00",
@@ -23002,7 +27180,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2691,
    "actual": null,
-   "curve": 0.0309
+   "curve": 0.0309,
+   "wind_speed_100m": 1.81,
+   "wind_direction_100m": 193.0
   },
   {
    "time": "2026-02-23T02:00",
@@ -23013,7 +27193,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2536,
    "actual": null,
-   "curve": 0.0164
+   "curve": 0.0164,
+   "wind_speed_100m": 0.71,
+   "wind_direction_100m": 254.0
   },
   {
    "time": "2026-02-23T03:00",
@@ -23024,7 +27206,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.162,
    "actual": null,
-   "curve": 0.0137
+   "curve": 0.0137,
+   "wind_speed_100m": 0.31,
+   "wind_direction_100m": 288.0
   },
   {
    "time": "2026-02-23T04:00",
@@ -23035,7 +27219,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.019,
    "p90": 0.3303,
    "actual": null,
-   "curve": 0.0156
+   "curve": 0.0156,
+   "wind_speed_100m": 0.6,
+   "wind_direction_100m": 261.0
   },
   {
    "time": "2026-02-23T05:00",
@@ -23046,7 +27232,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0358,
    "p90": 0.387,
    "actual": null,
-   "curve": 0.0268
+   "curve": 0.0268,
+   "wind_speed_100m": 1.58,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-23T06:00",
@@ -23057,7 +27245,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0522,
    "p90": 0.3592,
    "actual": null,
-   "curve": 0.0188
+   "curve": 0.0188,
+   "wind_speed_100m": 1.08,
+   "wind_direction_100m": 275.0
   },
   {
    "time": "2026-02-23T07:00",
@@ -23068,7 +27258,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1284,
    "p90": 0.5106,
    "actual": null,
-   "curve": 0.0314
+   "curve": 0.0314,
+   "wind_speed_100m": 2.11,
+   "wind_direction_100m": 292.0
   },
   {
    "time": "2026-02-23T08:00",
@@ -23079,7 +27271,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1987,
    "p90": 0.5769,
    "actual": null,
-   "curve": 0.0718
+   "curve": 0.0718,
+   "wind_speed_100m": 3.5,
+   "wind_direction_100m": 281.0
   },
   {
    "time": "2026-02-23T09:00",
@@ -23090,7 +27284,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3521,
    "p90": 0.7711,
    "actual": null,
-   "curve": 0.141
+   "curve": 0.141,
+   "wind_speed_100m": 4.63,
+   "wind_direction_100m": 257.0
   },
   {
    "time": "2026-02-23T10:00",
@@ -23101,7 +27297,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4949,
    "p90": 0.9019,
    "actual": null,
-   "curve": 0.1899
+   "curve": 0.1899,
+   "wind_speed_100m": 5.08,
+   "wind_direction_100m": 242.0
   },
   {
    "time": "2026-02-23T11:00",
@@ -23112,7 +27310,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4456,
    "p90": 0.8952,
    "actual": null,
-   "curve": 0.4807
+   "curve": 0.4807,
+   "wind_speed_100m": 7.13,
+   "wind_direction_100m": 249.0
   },
   {
    "time": "2026-02-23T12:00",
@@ -23123,7 +27323,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6155,
    "p90": 0.9902,
    "actual": null,
-   "curve": 0.8828
+   "curve": 0.8828,
+   "wind_speed_100m": 10.4,
+   "wind_direction_100m": 273.0
   },
   {
    "time": "2026-02-23T13:00",
@@ -23134,7 +27336,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6955,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9488
+   "curve": 0.9488,
+   "wind_speed_100m": 11.94,
+   "wind_direction_100m": 280.0
   },
   {
    "time": "2026-02-23T14:00",
@@ -23145,7 +27349,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7011,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9417
+   "curve": 0.9417,
+   "wind_speed_100m": 11.78,
+   "wind_direction_100m": 266.0
   },
   {
    "time": "2026-02-23T15:00",
@@ -23156,7 +27362,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7406,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9809
+   "curve": 0.9809,
+   "wind_speed_100m": 12.83,
+   "wind_direction_100m": 256.0
   },
   {
    "time": "2026-02-23T16:00",
@@ -23167,7 +27375,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.791,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9817
+   "curve": 0.9817,
+   "wind_speed_100m": 13.61,
+   "wind_direction_100m": 253.0
   },
   {
    "time": "2026-02-23T17:00",
@@ -23178,7 +27388,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7299,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9883
+   "curve": 0.9883,
+   "wind_speed_100m": 14.47,
+   "wind_direction_100m": 250.0
   },
   {
    "time": "2026-02-23T18:00",
@@ -23189,7 +27401,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7892,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9856
+   "curve": 0.9856,
+   "wind_speed_100m": 14.05,
+   "wind_direction_100m": 249.0
   },
   {
    "time": "2026-02-23T19:00",
@@ -23200,7 +27414,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8493,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9836
+   "curve": 0.9836,
+   "wind_speed_100m": 13.88,
+   "wind_direction_100m": 251.0
   },
   {
    "time": "2026-02-23T20:00",
@@ -23211,7 +27427,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8777,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9799
+   "curve": 0.9799,
+   "wind_speed_100m": 12.68,
+   "wind_direction_100m": 253.0
   },
   {
    "time": "2026-02-23T21:00",
@@ -23222,7 +27440,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8757,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9637
+   "curve": 0.9637,
+   "wind_speed_100m": 12.09,
+   "wind_direction_100m": 253.0
   },
   {
    "time": "2026-02-23T22:00",
@@ -23233,7 +27453,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7557,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9728
+   "curve": 0.9728,
+   "wind_speed_100m": 12.34,
+   "wind_direction_100m": 247.0
   },
   {
    "time": "2026-02-23T23:00",
@@ -23244,7 +27466,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8656,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9812
+   "curve": 0.9812,
+   "wind_speed_100m": 12.93,
+   "wind_direction_100m": 243.0
   },
   {
    "time": "2026-02-22T00:00",
@@ -23255,7 +27479,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.0578,
    "actual": null,
-   "curve": 0.0039
+   "curve": 0.0039,
+   "wind_speed_100m": 0.31,
+   "wind_direction_100m": 252.0
   },
   {
    "time": "2026-02-22T01:00",
@@ -23266,7 +27492,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0215,
    "p90": 0.2705,
    "actual": null,
-   "curve": 0.0102
+   "curve": 0.0102,
+   "wind_speed_100m": 1.4,
+   "wind_direction_100m": 78.0
   },
   {
    "time": "2026-02-22T02:00",
@@ -23277,7 +27505,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0331,
    "p90": 0.3787,
    "actual": null,
-   "curve": 0.034
+   "curve": 0.034,
+   "wind_speed_100m": 2.57,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-22T03:00",
@@ -23288,7 +27518,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1181,
    "p90": 0.5056,
    "actual": null,
-   "curve": 0.0744
+   "curve": 0.0744,
+   "wind_speed_100m": 3.57,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-22T04:00",
@@ -23299,7 +27531,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1842,
    "p90": 0.7495,
    "actual": null,
-   "curve": 0.116
+   "curve": 0.116,
+   "wind_speed_100m": 4.35,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-22T05:00",
@@ -23310,7 +27544,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6785,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.1101
+   "curve": 0.1101,
+   "wind_speed_100m": 4.26,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-22T06:00",
@@ -23321,7 +27557,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8261,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8517
+   "curve": 0.8517,
+   "wind_speed_100m": 9.39,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-22T07:00",
@@ -23332,7 +27570,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.892,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8867
+   "curve": 0.8867,
+   "wind_speed_100m": 10.46,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-22T08:00",
@@ -23343,7 +27583,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8339,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8867
+   "curve": 0.8867,
+   "wind_speed_100m": 10.41,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-22T09:00",
@@ -23354,7 +27596,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8644,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8517
+   "curve": 0.8517,
+   "wind_speed_100m": 9.86,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-22T10:00",
@@ -23365,7 +27609,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8945,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.7496
+   "curve": 0.7496,
+   "wind_speed_100m": 9.08,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-22T11:00",
@@ -23376,7 +27622,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9065,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.68
+   "curve": 0.68,
+   "wind_speed_100m": 8.4,
+   "wind_direction_100m": 71.0
   },
   {
    "time": "2026-02-22T12:00",
@@ -23387,7 +27635,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7529,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.5565
+   "curve": 0.5565,
+   "wind_speed_100m": 7.64,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-22T13:00",
@@ -23398,7 +27648,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5975,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.4151
+   "curve": 0.4151,
+   "wind_speed_100m": 6.79,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-22T14:00",
@@ -23409,7 +27661,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4915,
    "p90": 0.7902,
    "actual": null,
-   "curve": 0.2365
+   "curve": 0.2365,
+   "wind_speed_100m": 5.52,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-22T15:00",
@@ -23420,7 +27674,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4584,
    "p90": 0.7166,
    "actual": null,
-   "curve": 0.1219
+   "curve": 0.1219,
+   "wind_speed_100m": 4.44,
+   "wind_direction_100m": 59.0
   },
   {
    "time": "2026-02-22T16:00",
@@ -23431,7 +27687,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1663,
    "p90": 0.5691,
    "actual": null,
-   "curve": 0.0921
+   "curve": 0.0921,
+   "wind_speed_100m": 3.86,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-22T17:00",
@@ -23442,7 +27700,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0989,
    "p90": 0.5738,
    "actual": null,
-   "curve": 0.0302
+   "curve": 0.0302,
+   "wind_speed_100m": 2.48,
+   "wind_direction_100m": 81.0
   },
   {
    "time": "2026-02-22T18:00",
@@ -23453,7 +27713,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0417,
    "p90": 0.4721,
    "actual": null,
-   "curve": 0.037
+   "curve": 0.037,
+   "wind_speed_100m": 2.65,
+   "wind_direction_100m": 90.0
   },
   {
    "time": "2026-02-22T19:00",
@@ -23464,7 +27726,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0718,
    "p90": 0.2935,
    "actual": null,
-   "curve": 0.0436
+   "curve": 0.0436,
+   "wind_speed_100m": 2.85,
+   "wind_direction_100m": 117.0
   },
   {
    "time": "2026-02-22T20:00",
@@ -23475,7 +27739,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0224,
    "p90": 0.2173,
    "actual": null,
-   "curve": 0.0259
+   "curve": 0.0259,
+   "wind_speed_100m": 2.37,
+   "wind_direction_100m": 114.0
   },
   {
    "time": "2026-02-22T21:00",
@@ -23486,7 +27752,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2656,
    "actual": null,
-   "curve": 0.0125
+   "curve": 0.0125,
+   "wind_speed_100m": 1.57,
+   "wind_direction_100m": 86.0
   },
   {
    "time": "2026-02-22T22:00",
@@ -23497,7 +27765,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.032,
    "p90": 0.3864,
    "actual": null,
-   "curve": 0.0127
+   "curve": 0.0127,
+   "wind_speed_100m": 1.59,
+   "wind_direction_100m": 43.0
   },
   {
    "time": "2026-02-22T23:00",
@@ -23508,7 +27778,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.1952,
    "actual": null,
-   "curve": 0.0061
+   "curve": 0.0061,
+   "wind_speed_100m": 0.53,
+   "wind_direction_100m": 112.0
   },
   {
    "time": "2026-02-23T00:00",
@@ -23519,7 +27791,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.1596,
    "actual": null,
-   "curve": 0.0308
+   "curve": 0.0308,
+   "wind_speed_100m": 2.11,
+   "wind_direction_100m": 167.0
   },
   {
    "time": "2026-02-23T01:00",
@@ -23530,7 +27804,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2728,
    "actual": null,
-   "curve": 0.0308
+   "curve": 0.0308,
+   "wind_speed_100m": 1.81,
+   "wind_direction_100m": 193.0
   },
   {
    "time": "2026-02-23T02:00",
@@ -23541,7 +27817,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2588,
    "actual": null,
-   "curve": 0.0177
+   "curve": 0.0177,
+   "wind_speed_100m": 0.71,
+   "wind_direction_100m": 254.0
   },
   {
    "time": "2026-02-23T03:00",
@@ -23552,7 +27830,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.1709,
    "actual": null,
-   "curve": 0.0124
+   "curve": 0.0124,
+   "wind_speed_100m": 0.31,
+   "wind_direction_100m": 288.0
   },
   {
    "time": "2026-02-23T04:00",
@@ -23563,7 +27843,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0255,
    "p90": 0.3348,
    "actual": null,
-   "curve": 0.0163
+   "curve": 0.0163,
+   "wind_speed_100m": 0.6,
+   "wind_direction_100m": 261.0
   },
   {
    "time": "2026-02-23T05:00",
@@ -23574,7 +27856,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0411,
    "p90": 0.3902,
    "actual": null,
-   "curve": 0.0261
+   "curve": 0.0261,
+   "wind_speed_100m": 1.58,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-23T06:00",
@@ -23585,7 +27869,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0577,
    "p90": 0.3626,
    "actual": null,
-   "curve": 0.0183
+   "curve": 0.0183,
+   "wind_speed_100m": 1.08,
+   "wind_direction_100m": 275.0
   },
   {
    "time": "2026-02-23T07:00",
@@ -23596,7 +27882,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1338,
    "p90": 0.5139,
    "actual": null,
-   "curve": 0.0308
+   "curve": 0.0308,
+   "wind_speed_100m": 2.11,
+   "wind_direction_100m": 292.0
   },
   {
    "time": "2026-02-23T08:00",
@@ -23607,7 +27895,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2017,
    "p90": 0.5758,
    "actual": null,
-   "curve": 0.0668
+   "curve": 0.0668,
+   "wind_speed_100m": 3.5,
+   "wind_direction_100m": 281.0
   },
   {
    "time": "2026-02-23T09:00",
@@ -23618,7 +27908,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3533,
    "p90": 0.7709,
    "actual": null,
-   "curve": 0.1356
+   "curve": 0.1356,
+   "wind_speed_100m": 4.63,
+   "wind_direction_100m": 257.0
   },
   {
    "time": "2026-02-23T10:00",
@@ -23629,7 +27921,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4933,
    "p90": 0.9064,
    "actual": null,
-   "curve": 0.1811
+   "curve": 0.1811,
+   "wind_speed_100m": 5.08,
+   "wind_direction_100m": 242.0
   },
   {
    "time": "2026-02-23T11:00",
@@ -23640,7 +27934,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4456,
    "p90": 0.9237,
    "actual": null,
-   "curve": 0.4663
+   "curve": 0.4663,
+   "wind_speed_100m": 7.13,
+   "wind_direction_100m": 249.0
   },
   {
    "time": "2026-02-23T12:00",
@@ -23651,7 +27947,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5873,
    "p90": 0.9742,
    "actual": null,
-   "curve": 0.8632
+   "curve": 0.8632,
+   "wind_speed_100m": 10.4,
+   "wind_direction_100m": 273.0
   },
   {
    "time": "2026-02-23T13:00",
@@ -23662,7 +27960,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.703,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9374
+   "curve": 0.9374,
+   "wind_speed_100m": 11.94,
+   "wind_direction_100m": 280.0
   },
   {
    "time": "2026-02-23T14:00",
@@ -23673,7 +27973,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7018,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9334
+   "curve": 0.9334,
+   "wind_speed_100m": 11.78,
+   "wind_direction_100m": 266.0
   },
   {
    "time": "2026-02-23T15:00",
@@ -23684,7 +27986,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7398,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9667
+   "curve": 0.9667,
+   "wind_speed_100m": 12.83,
+   "wind_direction_100m": 256.0
   },
   {
    "time": "2026-02-23T16:00",
@@ -23695,7 +27999,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7894,
    "p90": 0.9986,
    "actual": null,
-   "curve": 0.9667
+   "curve": 0.9667,
+   "wind_speed_100m": 13.61,
+   "wind_direction_100m": 253.0
   },
   {
    "time": "2026-02-23T17:00",
@@ -23706,7 +28012,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7363,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 14.47,
+   "wind_direction_100m": 250.0
   },
   {
    "time": "2026-02-23T18:00",
@@ -23717,7 +28025,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7751,
    "p90": 0.9979,
    "actual": null,
-   "curve": 0.9686
+   "curve": 0.9686,
+   "wind_speed_100m": 14.05,
+   "wind_direction_100m": 249.0
   },
   {
    "time": "2026-02-23T19:00",
@@ -23728,7 +28038,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8252,
    "p90": 0.9986,
    "actual": null,
-   "curve": 0.9676
+   "curve": 0.9676,
+   "wind_speed_100m": 13.88,
+   "wind_direction_100m": 251.0
   },
   {
    "time": "2026-02-23T20:00",
@@ -23739,7 +28051,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8633,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9653
+   "curve": 0.9653,
+   "wind_speed_100m": 12.68,
+   "wind_direction_100m": 253.0
   },
   {
    "time": "2026-02-23T21:00",
@@ -23750,7 +28064,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8657,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9469
+   "curve": 0.9469,
+   "wind_speed_100m": 12.09,
+   "wind_direction_100m": 253.0
   },
   {
    "time": "2026-02-23T22:00",
@@ -23761,7 +28077,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7314,
    "p90": 0.9987,
    "actual": null,
-   "curve": 0.9549
+   "curve": 0.9549,
+   "wind_speed_100m": 12.34,
+   "wind_direction_100m": 247.0
   },
   {
    "time": "2026-02-23T23:00",
@@ -23772,7 +28090,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8401,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9667
+   "curve": 0.9667,
+   "wind_speed_100m": 12.93,
+   "wind_direction_100m": 243.0
   },
   {
    "time": "2026-02-23T00:00",
@@ -23783,7 +28103,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.1689,
    "actual": null,
-   "curve": 0.01
+   "curve": 0.01,
+   "wind_speed_100m": 1.12,
+   "wind_direction_100m": 218.0
   },
   {
    "time": "2026-02-23T01:00",
@@ -23794,7 +28116,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.1121,
    "actual": null,
-   "curve": 0.029
+   "curve": 0.029,
+   "wind_speed_100m": 2.42,
+   "wind_direction_100m": 249.0
   },
   {
    "time": "2026-02-23T02:00",
@@ -23805,7 +28129,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2575,
    "actual": null,
-   "curve": 0.0591
+   "curve": 0.0591,
+   "wind_speed_100m": 3.28,
+   "wind_direction_100m": 253.0
   },
   {
    "time": "2026-02-23T03:00",
@@ -23816,7 +28142,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0221,
    "p90": 0.3202,
    "actual": null,
-   "curve": 0.1065
+   "curve": 0.1065,
+   "wind_speed_100m": 3.97,
+   "wind_direction_100m": 254.0
   },
   {
    "time": "2026-02-23T04:00",
@@ -23827,7 +28155,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0466,
    "p90": 0.3627,
    "actual": null,
-   "curve": 0.1616
+   "curve": 0.1616,
+   "wind_speed_100m": 4.86,
+   "wind_direction_100m": 251.0
   },
   {
    "time": "2026-02-23T05:00",
@@ -23838,7 +28168,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0865,
    "p90": 0.4129,
    "actual": null,
-   "curve": 0.1717
+   "curve": 0.1717,
+   "wind_speed_100m": 4.93,
+   "wind_direction_100m": 249.0
   },
   {
    "time": "2026-02-23T06:00",
@@ -23849,7 +28181,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0645,
    "p90": 0.3605,
    "actual": null,
-   "curve": 0.0458
+   "curve": 0.0458,
+   "wind_speed_100m": 2.87,
+   "wind_direction_100m": 262.0
   },
   {
    "time": "2026-02-23T07:00",
@@ -23860,7 +28194,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.155,
    "p90": 0.5764,
    "actual": null,
-   "curve": 0.1457
+   "curve": 0.1457,
+   "wind_speed_100m": 4.7,
+   "wind_direction_100m": 269.0
   },
   {
    "time": "2026-02-23T08:00",
@@ -23871,7 +28207,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3255,
    "p90": 0.8272,
    "actual": null,
-   "curve": 0.5295
+   "curve": 0.5295,
+   "wind_speed_100m": 7.27,
+   "wind_direction_100m": 265.0
   },
   {
    "time": "2026-02-23T09:00",
@@ -23882,7 +28220,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4168,
    "p90": 0.9288,
    "actual": null,
-   "curve": 0.6323
+   "curve": 0.6323,
+   "wind_speed_100m": 8.09,
+   "wind_direction_100m": 259.0
   },
   {
    "time": "2026-02-23T10:00",
@@ -23893,7 +28233,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4969,
    "p90": 0.9356,
    "actual": null,
-   "curve": 0.685
+   "curve": 0.685,
+   "wind_speed_100m": 8.68,
+   "wind_direction_100m": 254.0
   },
   {
    "time": "2026-02-23T11:00",
@@ -23904,7 +28246,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.544,
    "p90": 0.9878,
    "actual": null,
-   "curve": 0.8533
+   "curve": 0.8533,
+   "wind_speed_100m": 9.72,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-23T12:00",
@@ -23915,7 +28259,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6177,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9092
+   "curve": 0.9092,
+   "wind_speed_100m": 10.34,
+   "wind_direction_100m": 244.0
   },
   {
    "time": "2026-02-23T13:00",
@@ -23926,7 +28272,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6719,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9181
+   "curve": 0.9181,
+   "wind_speed_100m": 11.73,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-23T14:00",
@@ -23937,7 +28285,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7031,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9258
+   "curve": 0.9258,
+   "wind_speed_100m": 12.09,
+   "wind_direction_100m": 250.0
   },
   {
    "time": "2026-02-23T15:00",
@@ -23948,7 +28298,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7309,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9114
+   "curve": 0.9114,
+   "wind_speed_100m": 11.26,
+   "wind_direction_100m": 257.0
   },
   {
    "time": "2026-02-23T16:00",
@@ -23959,7 +28311,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6859,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.91
+   "curve": 0.91,
+   "wind_speed_100m": 10.38,
+   "wind_direction_100m": 259.0
   },
   {
    "time": "2026-02-23T17:00",
@@ -23970,7 +28324,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7235,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.91
+   "curve": 0.91,
+   "wind_speed_100m": 10.36,
+   "wind_direction_100m": 255.0
   },
   {
    "time": "2026-02-23T18:00",
@@ -23981,7 +28337,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7299,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9141
+   "curve": 0.9141,
+   "wind_speed_100m": 11.45,
+   "wind_direction_100m": 260.0
   },
   {
    "time": "2026-02-23T19:00",
@@ -23992,7 +28350,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7827,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9159
+   "curve": 0.9159,
+   "wind_speed_100m": 11.53,
+   "wind_direction_100m": 254.0
   },
   {
    "time": "2026-02-23T20:00",
@@ -24003,7 +28363,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7494,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9527
+   "curve": 0.9527,
+   "wind_speed_100m": 12.62,
+   "wind_direction_100m": 245.0
   },
   {
    "time": "2026-02-23T21:00",
@@ -24014,7 +28376,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8534,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9624
+   "curve": 0.9624,
+   "wind_speed_100m": 12.8,
+   "wind_direction_100m": 245.0
   },
   {
    "time": "2026-02-23T22:00",
@@ -24025,7 +28389,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8673,
    "p90": 0.9984,
    "actual": null,
-   "curve": 0.9488
+   "curve": 0.9488,
+   "wind_speed_100m": 12.53,
+   "wind_direction_100m": 243.0
   },
   {
    "time": "2026-02-23T23:00",
@@ -24036,7 +28402,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8188,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9267
+   "curve": 0.9267,
+   "wind_speed_100m": 12.01,
+   "wind_direction_100m": 243.0
   },
   {
    "time": "2026-02-24T00:00",
@@ -24047,7 +28415,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6259,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8946
+   "curve": 0.8946,
+   "wind_speed_100m": 10.85,
+   "wind_direction_100m": 239.0
   },
   {
    "time": "2026-02-24T01:00",
@@ -24058,7 +28428,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6625,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8864
+   "curve": 0.8864,
+   "wind_speed_100m": 10.68,
+   "wind_direction_100m": 237.0
   },
   {
    "time": "2026-02-24T02:00",
@@ -24069,7 +28441,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.65,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8842
+   "curve": 0.8842,
+   "wind_speed_100m": 10.42,
+   "wind_direction_100m": 239.0
   },
   {
    "time": "2026-02-24T03:00",
@@ -24080,7 +28454,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6193,
    "p90": 0.9888,
    "actual": null,
-   "curve": 0.8736
+   "curve": 0.8736,
+   "wind_speed_100m": 10.12,
+   "wind_direction_100m": 243.0
   },
   {
    "time": "2026-02-24T04:00",
@@ -24091,7 +28467,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5797,
    "p90": 0.9487,
    "actual": null,
-   "curve": 0.8671
+   "curve": 0.8671,
+   "wind_speed_100m": 10.05,
+   "wind_direction_100m": 249.0
   },
   {
    "time": "2026-02-24T05:00",
@@ -24102,7 +28480,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5252,
    "p90": 0.9724,
    "actual": null,
-   "curve": 0.8838
+   "curve": 0.8838,
+   "wind_speed_100m": 10.38,
+   "wind_direction_100m": 251.0
   },
   {
    "time": "2026-02-24T06:00",
@@ -24113,7 +28493,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4614,
    "p90": 0.9755,
    "actual": null,
-   "curve": 0.9401
+   "curve": 0.9401,
+   "wind_speed_100m": 11.63,
+   "wind_direction_100m": 249.0
   },
   {
    "time": "2026-02-24T07:00",
@@ -24124,7 +28506,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5667,
    "p90": 0.9982,
    "actual": null,
-   "curve": 0.9342
+   "curve": 0.9342,
+   "wind_speed_100m": 11.53,
+   "wind_direction_100m": 245.0
   },
   {
    "time": "2026-02-24T08:00",
@@ -24135,7 +28519,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5413,
    "p90": 0.9866,
    "actual": null,
-   "curve": 0.9413
+   "curve": 0.9413,
+   "wind_speed_100m": 11.66,
+   "wind_direction_100m": 244.0
   },
   {
    "time": "2026-02-24T09:00",
@@ -24146,7 +28532,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6214,
    "p90": 0.9984,
    "actual": null,
-   "curve": 0.95
+   "curve": 0.95,
+   "wind_speed_100m": 11.83,
+   "wind_direction_100m": 243.0
   },
   {
    "time": "2026-02-24T10:00",
@@ -24157,7 +28545,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.567,
    "p90": 0.9957,
    "actual": null,
-   "curve": 0.959
+   "curve": 0.959,
+   "wind_speed_100m": 12.01,
+   "wind_direction_100m": 245.0
   },
   {
    "time": "2026-02-24T11:00",
@@ -24168,7 +28558,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.453,
    "p90": 0.9928,
    "actual": null,
-   "curve": 0.9359
+   "curve": 0.9359,
+   "wind_speed_100m": 11.57,
+   "wind_direction_100m": 244.0
   },
   {
    "time": "2026-02-24T12:00",
@@ -24179,7 +28571,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3822,
    "p90": 0.9641,
    "actual": null,
-   "curve": 0.7527
+   "curve": 0.7527,
+   "wind_speed_100m": 9.13,
+   "wind_direction_100m": 240.0
   },
   {
    "time": "2026-02-24T13:00",
@@ -24190,7 +28584,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3778,
    "p90": 0.9039,
    "actual": null,
-   "curve": 0.6779
+   "curve": 0.6779,
+   "wind_speed_100m": 8.63,
+   "wind_direction_100m": 242.0
   },
   {
    "time": "2026-02-24T14:00",
@@ -24201,7 +28597,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4501,
    "p90": 0.8682,
    "actual": null,
-   "curve": 0.6251
+   "curve": 0.6251,
+   "wind_speed_100m": 8.28,
+   "wind_direction_100m": 243.0
   },
   {
    "time": "2026-02-24T15:00",
@@ -24212,7 +28610,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.287,
    "p90": 0.818,
    "actual": null,
-   "curve": 0.5721
+   "curve": 0.5721,
+   "wind_speed_100m": 7.62,
+   "wind_direction_100m": 244.0
   },
   {
    "time": "2026-02-24T16:00",
@@ -24223,7 +28623,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2436,
    "p90": 0.6989,
    "actual": null,
-   "curve": 0.4662
+   "curve": 0.4662,
+   "wind_speed_100m": 6.93,
+   "wind_direction_100m": 245.0
   },
   {
    "time": "2026-02-24T17:00",
@@ -24234,7 +28636,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1288,
    "p90": 0.5894,
    "actual": null,
-   "curve": 0.2809
+   "curve": 0.2809,
+   "wind_speed_100m": 5.93,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-24T18:00",
@@ -24245,7 +28649,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1121,
    "p90": 0.4974,
    "actual": null,
-   "curve": 0.0629
+   "curve": 0.0629,
+   "wind_speed_100m": 3.34,
+   "wind_direction_100m": 267.0
   },
   {
    "time": "2026-02-24T19:00",
@@ -24256,7 +28662,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.3981,
    "actual": null,
-   "curve": 0.03
+   "curve": 0.03,
+   "wind_speed_100m": 1.71,
+   "wind_direction_100m": 301.0
   },
   {
    "time": "2026-02-24T20:00",
@@ -24267,7 +28675,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2508,
    "actual": null,
-   "curve": 0.0191
+   "curve": 0.0191,
+   "wind_speed_100m": 1.12,
+   "wind_direction_100m": 38.0
   },
   {
    "time": "2026-02-24T21:00",
@@ -24278,7 +28688,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.277,
    "actual": null,
-   "curve": 0.0449
+   "curve": 0.0449,
+   "wind_speed_100m": 2.81,
+   "wind_direction_100m": 61.0
   },
   {
    "time": "2026-02-24T22:00",
@@ -24289,7 +28701,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0138,
    "p90": 0.4063,
    "actual": null,
-   "curve": 0.1008
+   "curve": 0.1008,
+   "wind_speed_100m": 3.99,
+   "wind_direction_100m": 62.0
   },
   {
    "time": "2026-02-24T23:00",
@@ -24300,7 +28714,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0867,
    "p90": 0.5044,
    "actual": null,
-   "curve": 0.1118
+   "curve": 0.1118,
+   "wind_speed_100m": 4.3,
+   "wind_direction_100m": 60.0
   },
   {
    "time": "2026-02-23T00:00",
@@ -24311,7 +28727,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.1728,
    "actual": null,
-   "curve": 0.0083
+   "curve": 0.0083,
+   "wind_speed_100m": 1.12,
+   "wind_direction_100m": 218.0
   },
   {
    "time": "2026-02-23T01:00",
@@ -24322,7 +28740,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.1166,
    "actual": null,
-   "curve": 0.0279
+   "curve": 0.0279,
+   "wind_speed_100m": 2.42,
+   "wind_direction_100m": 249.0
   },
   {
    "time": "2026-02-23T02:00",
@@ -24333,7 +28753,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0046,
    "p90": 0.258,
    "actual": null,
-   "curve": 0.0541
+   "curve": 0.0541,
+   "wind_speed_100m": 3.28,
+   "wind_direction_100m": 253.0
   },
   {
    "time": "2026-02-23T03:00",
@@ -24344,7 +28766,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0192,
    "p90": 0.3165,
    "actual": null,
-   "curve": 0.0973
+   "curve": 0.0973,
+   "wind_speed_100m": 3.97,
+   "wind_direction_100m": 254.0
   },
   {
    "time": "2026-02-23T04:00",
@@ -24355,7 +28779,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0511,
    "p90": 0.3608,
    "actual": null,
-   "curve": 0.1542
+   "curve": 0.1542,
+   "wind_speed_100m": 4.86,
+   "wind_direction_100m": 251.0
   },
   {
    "time": "2026-02-23T05:00",
@@ -24366,7 +28792,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.085,
    "p90": 0.4104,
    "actual": null,
-   "curve": 0.1636
+   "curve": 0.1636,
+   "wind_speed_100m": 4.93,
+   "wind_direction_100m": 249.0
   },
   {
    "time": "2026-02-23T06:00",
@@ -24377,7 +28805,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0702,
    "p90": 0.3638,
    "actual": null,
-   "curve": 0.0436
+   "curve": 0.0436,
+   "wind_speed_100m": 2.87,
+   "wind_direction_100m": 262.0
   },
   {
    "time": "2026-02-23T07:00",
@@ -24388,7 +28818,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.159,
    "p90": 0.5738,
    "actual": null,
-   "curve": 0.1376
+   "curve": 0.1376,
+   "wind_speed_100m": 4.7,
+   "wind_direction_100m": 269.0
   },
   {
    "time": "2026-02-23T08:00",
@@ -24399,7 +28831,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3209,
    "p90": 0.8334,
    "actual": null,
-   "curve": 0.5169
+   "curve": 0.5169,
+   "wind_speed_100m": 7.27,
+   "wind_direction_100m": 265.0
   },
   {
    "time": "2026-02-23T09:00",
@@ -24410,7 +28844,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4151,
    "p90": 0.9375,
    "actual": null,
-   "curve": 0.6233
+   "curve": 0.6233,
+   "wind_speed_100m": 8.09,
+   "wind_direction_100m": 259.0
   },
   {
    "time": "2026-02-23T10:00",
@@ -24421,7 +28857,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5041,
    "p90": 0.9347,
    "actual": null,
-   "curve": 0.68
+   "curve": 0.68,
+   "wind_speed_100m": 8.68,
+   "wind_direction_100m": 254.0
   },
   {
    "time": "2026-02-23T11:00",
@@ -24432,7 +28870,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5516,
    "p90": 0.9882,
    "actual": null,
-   "curve": 0.8517
+   "curve": 0.8517,
+   "wind_speed_100m": 9.72,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-23T12:00",
@@ -24443,7 +28883,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6211,
    "p90": 0.9919,
    "actual": null,
-   "curve": 0.8862
+   "curve": 0.8862,
+   "wind_speed_100m": 10.34,
+   "wind_direction_100m": 244.0
   },
   {
    "time": "2026-02-23T13:00",
@@ -24454,7 +28896,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6753,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9288
+   "curve": 0.9288,
+   "wind_speed_100m": 11.73,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-23T14:00",
@@ -24465,7 +28909,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7016,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.93
+   "curve": 0.93,
+   "wind_speed_100m": 12.09,
+   "wind_direction_100m": 250.0
   },
   {
    "time": "2026-02-23T15:00",
@@ -24476,7 +28922,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7463,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.92
+   "curve": 0.92,
+   "wind_speed_100m": 11.26,
+   "wind_direction_100m": 257.0
   },
   {
    "time": "2026-02-23T16:00",
@@ -24487,7 +28935,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6832,
    "p90": 0.9997,
    "actual": null,
-   "curve": 0.8867
+   "curve": 0.8867,
+   "wind_speed_100m": 10.38,
+   "wind_direction_100m": 259.0
   },
   {
    "time": "2026-02-23T17:00",
@@ -24498,7 +28948,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7302,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8867
+   "curve": 0.8867,
+   "wind_speed_100m": 10.36,
+   "wind_direction_100m": 255.0
   },
   {
    "time": "2026-02-23T18:00",
@@ -24509,7 +28961,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7533,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9265
+   "curve": 0.9265,
+   "wind_speed_100m": 11.45,
+   "wind_direction_100m": 260.0
   },
   {
    "time": "2026-02-23T19:00",
@@ -24520,7 +28974,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7988,
    "p90": 0.9998,
    "actual": null,
-   "curve": 0.9275
+   "curve": 0.9275,
+   "wind_speed_100m": 11.53,
+   "wind_direction_100m": 254.0
   },
   {
    "time": "2026-02-23T20:00",
@@ -24531,7 +28987,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7447,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9417
+   "curve": 0.9417,
+   "wind_speed_100m": 12.62,
+   "wind_direction_100m": 245.0
   },
   {
    "time": "2026-02-23T21:00",
@@ -24542,7 +29000,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8463,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9486
+   "curve": 0.9486,
+   "wind_speed_100m": 12.8,
+   "wind_direction_100m": 245.0
   },
   {
    "time": "2026-02-23T22:00",
@@ -24553,7 +29013,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8643,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9396
+   "curve": 0.9396,
+   "wind_speed_100m": 12.53,
+   "wind_direction_100m": 243.0
   },
   {
    "time": "2026-02-23T23:00",
@@ -24564,7 +29026,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8279,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.93
+   "curve": 0.93,
+   "wind_speed_100m": 12.01,
+   "wind_direction_100m": 243.0
   },
   {
    "time": "2026-02-24T00:00",
@@ -24575,7 +29039,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6245,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8996
+   "curve": 0.8996,
+   "wind_speed_100m": 10.85,
+   "wind_direction_100m": 239.0
   },
   {
    "time": "2026-02-24T01:00",
@@ -24586,7 +29052,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6601,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8894
+   "curve": 0.8894,
+   "wind_speed_100m": 10.68,
+   "wind_direction_100m": 237.0
   },
   {
    "time": "2026-02-24T02:00",
@@ -24597,7 +29065,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6358,
    "p90": 0.9933,
    "actual": null,
-   "curve": 0.8733
+   "curve": 0.8733,
+   "wind_speed_100m": 10.42,
+   "wind_direction_100m": 239.0
   },
   {
    "time": "2026-02-24T03:00",
@@ -24608,7 +29078,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6129,
    "p90": 0.968,
    "actual": null,
-   "curve": 0.8566
+   "curve": 0.8566,
+   "wind_speed_100m": 10.12,
+   "wind_direction_100m": 243.0
   },
   {
    "time": "2026-02-24T04:00",
@@ -24619,7 +29091,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5694,
    "p90": 0.9362,
    "actual": null,
-   "curve": 0.8536
+   "curve": 0.8536,
+   "wind_speed_100m": 10.05,
+   "wind_direction_100m": 249.0
   },
   {
    "time": "2026-02-24T05:00",
@@ -24630,7 +29104,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5196,
    "p90": 0.9681,
    "actual": null,
-   "curve": 0.8704
+   "curve": 0.8704,
+   "wind_speed_100m": 10.38,
+   "wind_direction_100m": 251.0
   },
   {
    "time": "2026-02-24T06:00",
@@ -24641,7 +29117,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4618,
    "p90": 0.964,
    "actual": null,
-   "curve": 0.9327
+   "curve": 0.9327,
+   "wind_speed_100m": 11.63,
+   "wind_direction_100m": 249.0
   },
   {
    "time": "2026-02-24T07:00",
@@ -24652,7 +29130,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5702,
    "p90": 0.9845,
    "actual": null,
-   "curve": 0.9299
+   "curve": 0.9299,
+   "wind_speed_100m": 11.53,
+   "wind_direction_100m": 245.0
   },
   {
    "time": "2026-02-24T08:00",
@@ -24663,7 +29143,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5411,
    "p90": 0.9753,
    "actual": null,
-   "curve": 0.9333
+   "curve": 0.9333,
+   "wind_speed_100m": 11.66,
+   "wind_direction_100m": 244.0
   },
   {
    "time": "2026-02-24T09:00",
@@ -24674,7 +29156,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6143,
    "p90": 0.9915,
    "actual": null,
-   "curve": 0.9382
+   "curve": 0.9382,
+   "wind_speed_100m": 11.83,
+   "wind_direction_100m": 243.0
   },
   {
    "time": "2026-02-24T10:00",
@@ -24685,7 +29169,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5597,
    "p90": 0.9901,
    "actual": null,
-   "curve": 0.9439
+   "curve": 0.9439,
+   "wind_speed_100m": 12.01,
+   "wind_direction_100m": 245.0
   },
   {
    "time": "2026-02-24T11:00",
@@ -24696,7 +29182,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4567,
    "p90": 0.9771,
    "actual": null,
-   "curve": 0.9307
+   "curve": 0.9307,
+   "wind_speed_100m": 11.57,
+   "wind_direction_100m": 244.0
   },
   {
    "time": "2026-02-24T12:00",
@@ -24707,7 +29195,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3846,
    "p90": 0.9666,
    "actual": null,
-   "curve": 0.7462
+   "curve": 0.7462,
+   "wind_speed_100m": 9.13,
+   "wind_direction_100m": 240.0
   },
   {
    "time": "2026-02-24T13:00",
@@ -24718,7 +29208,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3744,
    "p90": 0.8934,
    "actual": null,
-   "curve": 0.6656
+   "curve": 0.6656,
+   "wind_speed_100m": 8.63,
+   "wind_direction_100m": 242.0
   },
   {
    "time": "2026-02-24T14:00",
@@ -24729,7 +29221,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4548,
    "p90": 0.8606,
    "actual": null,
-   "curve": 0.6366
+   "curve": 0.6366,
+   "wind_speed_100m": 8.28,
+   "wind_direction_100m": 243.0
   },
   {
    "time": "2026-02-24T15:00",
@@ -24740,7 +29234,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2837,
    "p90": 0.8117,
    "actual": null,
-   "curve": 0.5612
+   "curve": 0.5612,
+   "wind_speed_100m": 7.62,
+   "wind_direction_100m": 244.0
   },
   {
    "time": "2026-02-24T16:00",
@@ -24751,7 +29247,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2356,
    "p90": 0.6879,
    "actual": null,
-   "curve": 0.4513
+   "curve": 0.4513,
+   "wind_speed_100m": 6.93,
+   "wind_direction_100m": 245.0
   },
   {
    "time": "2026-02-24T17:00",
@@ -24762,7 +29260,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1307,
    "p90": 0.5889,
    "actual": null,
-   "curve": 0.2765
+   "curve": 0.2765,
+   "wind_speed_100m": 5.93,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-24T18:00",
@@ -24773,7 +29273,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1137,
    "p90": 0.4962,
    "actual": null,
-   "curve": 0.0579
+   "curve": 0.0579,
+   "wind_speed_100m": 3.34,
+   "wind_direction_100m": 267.0
   },
   {
    "time": "2026-02-24T19:00",
@@ -24784,7 +29286,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.4019,
    "actual": null,
-   "curve": 0.0299
+   "curve": 0.0299,
+   "wind_speed_100m": 1.71,
+   "wind_direction_100m": 301.0
   },
   {
    "time": "2026-02-24T20:00",
@@ -24795,7 +29299,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2539,
    "actual": null,
-   "curve": 0.0183
+   "curve": 0.0183,
+   "wind_speed_100m": 1.12,
+   "wind_direction_100m": 38.0
   },
   {
    "time": "2026-02-24T21:00",
@@ -24806,7 +29312,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2773,
    "actual": null,
-   "curve": 0.0413
+   "curve": 0.0413,
+   "wind_speed_100m": 2.81,
+   "wind_direction_100m": 61.0
   },
   {
    "time": "2026-02-24T22:00",
@@ -24817,7 +29325,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0114,
    "p90": 0.4059,
    "actual": null,
-   "curve": 0.0967
+   "curve": 0.0967,
+   "wind_speed_100m": 3.99,
+   "wind_direction_100m": 62.0
   },
   {
    "time": "2026-02-24T23:00",
@@ -24828,7 +29338,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0993,
    "p90": 0.5045,
    "actual": null,
-   "curve": 0.1081
+   "curve": 0.1081,
+   "wind_speed_100m": 4.3,
+   "wind_direction_100m": 60.0
   },
   {
    "time": "2026-02-24T00:00",
@@ -24839,7 +29351,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6083,
    "p90": 0.9723,
    "actual": null,
-   "curve": 0.7443
+   "curve": 0.7443,
+   "wind_speed_100m": 8.91,
+   "wind_direction_100m": 240.0
   },
   {
    "time": "2026-02-24T01:00",
@@ -24850,7 +29364,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6398,
    "p90": 0.9619,
    "actual": null,
-   "curve": 0.685
+   "curve": 0.685,
+   "wind_speed_100m": 8.62,
+   "wind_direction_100m": 238.0
   },
   {
    "time": "2026-02-24T02:00",
@@ -24861,7 +29377,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.578,
    "p90": 0.9481,
    "actual": null,
-   "curve": 0.682
+   "curve": 0.682,
+   "wind_speed_100m": 8.22,
+   "wind_direction_100m": 239.0
   },
   {
    "time": "2026-02-24T03:00",
@@ -24872,7 +29390,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6541,
    "p90": 0.9277,
    "actual": null,
-   "curve": 0.6421
+   "curve": 0.6421,
+   "wind_speed_100m": 8.02,
+   "wind_direction_100m": 242.0
   },
   {
    "time": "2026-02-24T04:00",
@@ -24883,7 +29403,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5733,
    "p90": 0.8889,
    "actual": null,
-   "curve": 0.6517
+   "curve": 0.6517,
+   "wind_speed_100m": 8.07,
+   "wind_direction_100m": 246.0
   },
   {
    "time": "2026-02-24T05:00",
@@ -24894,7 +29416,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4449,
    "p90": 0.8823,
    "actual": null,
-   "curve": 0.719
+   "curve": 0.719,
+   "wind_speed_100m": 8.84,
+   "wind_direction_100m": 249.0
   },
   {
    "time": "2026-02-24T06:00",
@@ -24905,7 +29429,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4437,
    "p90": 0.9633,
    "actual": null,
-   "curve": 0.8533
+   "curve": 0.8533,
+   "wind_speed_100m": 9.67,
+   "wind_direction_100m": 250.0
   },
   {
    "time": "2026-02-24T07:00",
@@ -24916,7 +29442,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4827,
    "p90": 0.9706,
    "actual": null,
-   "curve": 0.91
+   "curve": 0.91,
+   "wind_speed_100m": 10.38,
+   "wind_direction_100m": 251.0
   },
   {
    "time": "2026-02-24T08:00",
@@ -24927,7 +29455,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4602,
    "p90": 0.9603,
    "actual": null,
-   "curve": 0.91
+   "curve": 0.91,
+   "wind_speed_100m": 10.48,
+   "wind_direction_100m": 249.0
   },
   {
    "time": "2026-02-24T09:00",
@@ -24938,7 +29468,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3539,
    "p90": 0.9631,
    "actual": null,
-   "curve": 0.9042
+   "curve": 0.9042,
+   "wind_speed_100m": 10.19,
+   "wind_direction_100m": 247.0
   },
   {
    "time": "2026-02-24T10:00",
@@ -24949,7 +29481,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4519,
    "p90": 0.9703,
    "actual": null,
-   "curve": 0.8963
+   "curve": 0.8963,
+   "wind_speed_100m": 10.12,
+   "wind_direction_100m": 244.0
   },
   {
    "time": "2026-02-24T11:00",
@@ -24960,7 +29494,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4877,
    "p90": 0.9608,
    "actual": null,
-   "curve": 0.8828
+   "curve": 0.8828,
+   "wind_speed_100m": 10.0,
+   "wind_direction_100m": 241.0
   },
   {
    "time": "2026-02-24T12:00",
@@ -24971,7 +29507,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3188,
    "p90": 0.8597,
    "actual": null,
-   "curve": 0.6398
+   "curve": 0.6398,
+   "wind_speed_100m": 8.02,
+   "wind_direction_100m": 242.0
   },
   {
    "time": "2026-02-24T13:00",
@@ -24982,7 +29520,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.35,
    "p90": 0.9025,
    "actual": null,
-   "curve": 0.6721
+   "curve": 0.6721,
+   "wind_speed_100m": 8.18,
+   "wind_direction_100m": 236.0
   },
   {
    "time": "2026-02-24T14:00",
@@ -24993,7 +29533,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4295,
    "p90": 0.8698,
    "actual": null,
-   "curve": 0.5527
+   "curve": 0.5527,
+   "wind_speed_100m": 7.33,
+   "wind_direction_100m": 232.0
   },
   {
    "time": "2026-02-24T15:00",
@@ -25004,7 +29546,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2683,
    "p90": 0.759,
    "actual": null,
-   "curve": 0.3508
+   "curve": 0.3508,
+   "wind_speed_100m": 6.14,
+   "wind_direction_100m": 236.0
   },
   {
    "time": "2026-02-24T16:00",
@@ -25015,7 +29559,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0961,
    "p90": 0.6036,
    "actual": null,
-   "curve": 0.2289
+   "curve": 0.2289,
+   "wind_speed_100m": 5.22,
+   "wind_direction_100m": 242.0
   },
   {
    "time": "2026-02-24T17:00",
@@ -25026,7 +29572,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.027,
    "p90": 0.4332,
    "actual": null,
-   "curve": 0.1417
+   "curve": 0.1417,
+   "wind_speed_100m": 4.56,
+   "wind_direction_100m": 255.0
   },
   {
    "time": "2026-02-24T18:00",
@@ -25037,7 +29585,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.1987,
    "actual": null,
-   "curve": 0.0165
+   "curve": 0.0165,
+   "wind_speed_100m": 1.85,
+   "wind_direction_100m": 238.0
   },
   {
    "time": "2026-02-24T19:00",
@@ -25048,7 +29598,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0088,
    "p90": 0.2336,
    "actual": null,
-   "curve": 0.0083
+   "curve": 0.0083,
+   "wind_speed_100m": 0.62,
+   "wind_direction_100m": 252.0
   },
   {
    "time": "2026-02-24T20:00",
@@ -25059,7 +29611,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.1932,
    "actual": null,
-   "curve": 0.01
+   "curve": 0.01,
+   "wind_speed_100m": 0.81,
+   "wind_direction_100m": 14.0
   },
   {
    "time": "2026-02-24T21:00",
@@ -25070,7 +29624,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.1634,
    "actual": null,
-   "curve": 0.0182
+   "curve": 0.0182,
+   "wind_speed_100m": 1.96,
+   "wind_direction_100m": 53.0
   },
   {
    "time": "2026-02-24T22:00",
@@ -25081,7 +29637,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.1462,
    "actual": null,
-   "curve": 0.033
+   "curve": 0.033,
+   "wind_speed_100m": 2.5,
+   "wind_direction_100m": 64.0
   },
   {
    "time": "2026-02-24T23:00",
@@ -25092,7 +29650,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2183,
    "actual": null,
-   "curve": 0.0384
+   "curve": 0.0384,
+   "wind_speed_100m": 2.63,
+   "wind_direction_100m": 63.0
   },
   {
    "time": "2026-02-25T00:00",
@@ -25103,7 +29663,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.4284,
    "actual": null,
-   "curve": 0.0317
+   "curve": 0.0317,
+   "wind_speed_100m": 2.24,
+   "wind_direction_100m": 61.0
   },
   {
    "time": "2026-02-25T01:00",
@@ -25114,7 +29676,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.4273,
    "actual": null,
-   "curve": 0.0383
+   "curve": 0.0383,
+   "wind_speed_100m": 2.53,
+   "wind_direction_100m": 54.0
   },
   {
    "time": "2026-02-25T02:00",
@@ -25125,7 +29689,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.4315,
    "actual": null,
-   "curve": 0.0814
+   "curve": 0.0814,
+   "wind_speed_100m": 3.56,
+   "wind_direction_100m": 58.0
   },
   {
    "time": "2026-02-25T03:00",
@@ -25136,7 +29702,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1584,
    "p90": 0.7906,
    "actual": null,
-   "curve": 0.2133
+   "curve": 0.2133,
+   "wind_speed_100m": 5.22,
+   "wind_direction_100m": 62.0
   },
   {
    "time": "2026-02-25T04:00",
@@ -25147,7 +29715,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.238,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.2485
+   "curve": 0.2485,
+   "wind_speed_100m": 5.57,
+   "wind_direction_100m": 56.0
   },
   {
    "time": "2026-02-25T05:00",
@@ -25158,7 +29728,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2643,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.2184
+   "curve": 0.2184,
+   "wind_speed_100m": 5.28,
+   "wind_direction_100m": 59.0
   },
   {
    "time": "2026-02-25T06:00",
@@ -25169,7 +29741,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5904,
    "p90": 0.9851,
    "actual": null,
-   "curve": 0.4704
+   "curve": 0.4704,
+   "wind_speed_100m": 6.98,
+   "wind_direction_100m": 61.0
   },
   {
    "time": "2026-02-25T07:00",
@@ -25180,7 +29754,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7426,
    "p90": 0.9797,
    "actual": null,
-   "curve": 0.4965
+   "curve": 0.4965,
+   "wind_speed_100m": 7.17,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-25T08:00",
@@ -25191,7 +29767,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6872,
    "p90": 0.9992,
    "actual": null,
-   "curve": 0.3592
+   "curve": 0.3592,
+   "wind_speed_100m": 6.48,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-25T09:00",
@@ -25202,7 +29780,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6085,
    "p90": 0.9148,
    "actual": null,
-   "curve": 0.3011
+   "curve": 0.3011,
+   "wind_speed_100m": 6.23,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-25T10:00",
@@ -25213,7 +29793,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3584,
    "p90": 0.7964,
    "actual": null,
-   "curve": 0.2473
+   "curve": 0.2473,
+   "wind_speed_100m": 5.59,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-25T11:00",
@@ -25224,7 +29806,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3376,
    "p90": 0.7883,
    "actual": null,
-   "curve": 0.2462
+   "curve": 0.2462,
+   "wind_speed_100m": 5.58,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-25T12:00",
@@ -25235,7 +29819,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2281,
    "p90": 0.6884,
    "actual": null,
-   "curve": 0.149
+   "curve": 0.149,
+   "wind_speed_100m": 4.66,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-25T13:00",
@@ -25246,7 +29832,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3466,
    "p90": 0.8584,
    "actual": null,
-   "curve": 0.2891
+   "curve": 0.2891,
+   "wind_speed_100m": 6.07,
+   "wind_direction_100m": 59.0
   },
   {
    "time": "2026-02-25T14:00",
@@ -25257,7 +29845,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2117,
    "p90": 0.6838,
    "actual": null,
-   "curve": 0.2553
+   "curve": 0.2553,
+   "wind_speed_100m": 5.66,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-25T15:00",
@@ -25268,7 +29858,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3515,
    "p90": 0.7798,
    "actual": null,
-   "curve": 0.3691
+   "curve": 0.3691,
+   "wind_speed_100m": 6.51,
+   "wind_direction_100m": 74.0
   },
   {
    "time": "2026-02-25T16:00",
@@ -25279,7 +29871,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7148,
    "p90": 0.9934,
    "actual": null,
-   "curve": 0.8839
+   "curve": 0.8839,
+   "wind_speed_100m": 10.46,
+   "wind_direction_100m": 75.0
   },
   {
    "time": "2026-02-25T17:00",
@@ -25290,7 +29884,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8246,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9817
+   "curve": 0.9817,
+   "wind_speed_100m": 13.42,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-25T18:00",
@@ -25301,7 +29897,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8148,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.94
+   "curve": 0.94,
+   "wind_speed_100m": 11.71,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-25T19:00",
@@ -25312,7 +29910,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8419,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9815
+   "curve": 0.9815,
+   "wind_speed_100m": 13.19,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-25T20:00",
@@ -25323,7 +29923,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8867,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9816
+   "curve": 0.9816,
+   "wind_speed_100m": 13.25,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-25T21:00",
@@ -25334,7 +29936,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9582,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9817
+   "curve": 0.9817,
+   "wind_speed_100m": 13.69,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-25T22:00",
@@ -25345,7 +29949,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9705,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9883
+   "curve": 0.9883,
+   "wind_speed_100m": 14.38,
+   "wind_direction_100m": 75.0
   },
   {
    "time": "2026-02-25T23:00",
@@ -25356,7 +29962,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9705,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9817
+   "curve": 0.9817,
+   "wind_speed_100m": 13.57,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-24T00:00",
@@ -25367,7 +29975,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6122,
    "p90": 0.9703,
    "actual": null,
-   "curve": 0.7404
+   "curve": 0.7404,
+   "wind_speed_100m": 8.91,
+   "wind_direction_100m": 240.0
   },
   {
    "time": "2026-02-24T01:00",
@@ -25378,7 +29988,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6505,
    "p90": 0.9585,
    "actual": null,
-   "curve": 0.68
+   "curve": 0.68,
+   "wind_speed_100m": 8.62,
+   "wind_direction_100m": 238.0
   },
   {
    "time": "2026-02-24T02:00",
@@ -25389,7 +30001,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5885,
    "p90": 0.9578,
    "actual": null,
-   "curve": 0.6768
+   "curve": 0.6768,
+   "wind_speed_100m": 8.22,
+   "wind_direction_100m": 239.0
   },
   {
    "time": "2026-02-24T03:00",
@@ -25400,7 +30014,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6537,
    "p90": 0.922,
    "actual": null,
-   "curve": 0.6339
+   "curve": 0.6339,
+   "wind_speed_100m": 8.02,
+   "wind_direction_100m": 242.0
   },
   {
    "time": "2026-02-24T04:00",
@@ -25411,7 +30027,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5736,
    "p90": 0.8989,
    "actual": null,
-   "curve": 0.6442
+   "curve": 0.6442,
+   "wind_speed_100m": 8.07,
+   "wind_direction_100m": 246.0
   },
   {
    "time": "2026-02-24T05:00",
@@ -25422,7 +30040,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4483,
    "p90": 0.8938,
    "actual": null,
-   "curve": 0.7146
+   "curve": 0.7146,
+   "wind_speed_100m": 8.84,
+   "wind_direction_100m": 249.0
   },
   {
    "time": "2026-02-24T06:00",
@@ -25433,7 +30053,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4458,
    "p90": 0.9694,
    "actual": null,
-   "curve": 0.8517
+   "curve": 0.8517,
+   "wind_speed_100m": 9.67,
+   "wind_direction_100m": 250.0
   },
   {
    "time": "2026-02-24T07:00",
@@ -25444,7 +30066,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4699,
    "p90": 0.968,
    "actual": null,
-   "curve": 0.8867
+   "curve": 0.8867,
+   "wind_speed_100m": 10.38,
+   "wind_direction_100m": 251.0
   },
   {
    "time": "2026-02-24T08:00",
@@ -25455,7 +30079,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4442,
    "p90": 0.9564,
    "actual": null,
-   "curve": 0.8867
+   "curve": 0.8867,
+   "wind_speed_100m": 10.48,
+   "wind_direction_100m": 249.0
   },
   {
    "time": "2026-02-24T09:00",
@@ -25466,7 +30092,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3405,
    "p90": 0.9668,
    "actual": null,
-   "curve": 0.8831
+   "curve": 0.8831,
+   "wind_speed_100m": 10.19,
+   "wind_direction_100m": 247.0
   },
   {
    "time": "2026-02-24T10:00",
@@ -25477,7 +30105,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4416,
    "p90": 0.9816,
    "actual": null,
-   "curve": 0.8782
+   "curve": 0.8782,
+   "wind_speed_100m": 10.12,
+   "wind_direction_100m": 244.0
   },
   {
    "time": "2026-02-24T11:00",
@@ -25488,7 +30118,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4825,
    "p90": 0.9704,
    "actual": null,
-   "curve": 0.8698
+   "curve": 0.8698,
+   "wind_speed_100m": 10.0,
+   "wind_direction_100m": 241.0
   },
   {
    "time": "2026-02-24T12:00",
@@ -25499,7 +30131,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3194,
    "p90": 0.8647,
    "actual": null,
-   "curve": 0.6313
+   "curve": 0.6313,
+   "wind_speed_100m": 8.02,
+   "wind_direction_100m": 242.0
   },
   {
    "time": "2026-02-24T13:00",
@@ -25510,7 +30144,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3529,
    "p90": 0.9018,
    "actual": null,
-   "curve": 0.6661
+   "curve": 0.6661,
+   "wind_speed_100m": 8.18,
+   "wind_direction_100m": 236.0
   },
   {
    "time": "2026-02-24T14:00",
@@ -25521,7 +30157,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4259,
    "p90": 0.8659,
    "actual": null,
-   "curve": 0.5402
+   "curve": 0.5402,
+   "wind_speed_100m": 7.33,
+   "wind_direction_100m": 232.0
   },
   {
    "time": "2026-02-24T15:00",
@@ -25532,7 +30170,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.256,
    "p90": 0.7439,
    "actual": null,
-   "curve": 0.3302
+   "curve": 0.3302,
+   "wind_speed_100m": 6.14,
+   "wind_direction_100m": 236.0
   },
   {
    "time": "2026-02-24T16:00",
@@ -25543,7 +30183,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0915,
    "p90": 0.597,
    "actual": null,
-   "curve": 0.2167
+   "curve": 0.2167,
+   "wind_speed_100m": 5.22,
+   "wind_direction_100m": 242.0
   },
   {
    "time": "2026-02-24T17:00",
@@ -25554,7 +30196,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0224,
    "p90": 0.4296,
    "actual": null,
-   "curve": 0.1325
+   "curve": 0.1325,
+   "wind_speed_100m": 4.56,
+   "wind_direction_100m": 255.0
   },
   {
    "time": "2026-02-24T18:00",
@@ -25565,7 +30209,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2041,
    "actual": null,
-   "curve": 0.0164
+   "curve": 0.0164,
+   "wind_speed_100m": 1.85,
+   "wind_direction_100m": 238.0
   },
   {
    "time": "2026-02-24T19:00",
@@ -25576,7 +30222,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0133,
    "p90": 0.3224,
    "actual": null,
-   "curve": 0.007
+   "curve": 0.007,
+   "wind_speed_100m": 0.62,
+   "wind_direction_100m": 252.0
   },
   {
    "time": "2026-02-24T20:00",
@@ -25587,7 +30235,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.1977,
    "actual": null,
-   "curve": 0.0083
+   "curve": 0.0083,
+   "wind_speed_100m": 0.81,
+   "wind_direction_100m": 14.0
   },
   {
    "time": "2026-02-24T21:00",
@@ -25598,7 +30248,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.1686,
    "actual": null,
-   "curve": 0.0178
+   "curve": 0.0178,
+   "wind_speed_100m": 1.96,
+   "wind_direction_100m": 53.0
   },
   {
    "time": "2026-02-24T22:00",
@@ -25609,7 +30261,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.1505,
    "actual": null,
-   "curve": 0.0317
+   "curve": 0.0317,
+   "wind_speed_100m": 2.5,
+   "wind_direction_100m": 64.0
   },
   {
    "time": "2026-02-24T23:00",
@@ -25620,7 +30274,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2224,
    "actual": null,
-   "curve": 0.0369
+   "curve": 0.0369,
+   "wind_speed_100m": 2.63,
+   "wind_direction_100m": 63.0
   },
   {
    "time": "2026-02-25T00:00",
@@ -25631,7 +30287,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.4222,
    "actual": null,
-   "curve": 0.0308
+   "curve": 0.0308,
+   "wind_speed_100m": 2.24,
+   "wind_direction_100m": 61.0
   },
   {
    "time": "2026-02-25T01:00",
@@ -25642,7 +30300,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.4289,
    "actual": null,
-   "curve": 0.0361
+   "curve": 0.0361,
+   "wind_speed_100m": 2.53,
+   "wind_direction_100m": 54.0
   },
   {
    "time": "2026-02-25T02:00",
@@ -25653,7 +30313,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.4304,
    "actual": null,
-   "curve": 0.0764
+   "curve": 0.0764,
+   "wind_speed_100m": 3.56,
+   "wind_direction_100m": 58.0
   },
   {
    "time": "2026-02-25T03:00",
@@ -25664,7 +30326,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1499,
    "p90": 0.7851,
    "actual": null,
-   "curve": 0.2026
+   "curve": 0.2026,
+   "wind_speed_100m": 5.22,
+   "wind_direction_100m": 62.0
   },
   {
    "time": "2026-02-25T04:00",
@@ -25675,7 +30339,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2272,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.2414
+   "curve": 0.2414,
+   "wind_speed_100m": 5.57,
+   "wind_direction_100m": 56.0
   },
   {
    "time": "2026-02-25T05:00",
@@ -25686,7 +30352,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2646,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.2079
+   "curve": 0.2079,
+   "wind_speed_100m": 5.28,
+   "wind_direction_100m": 59.0
   },
   {
    "time": "2026-02-25T06:00",
@@ -25697,7 +30365,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5905,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.4557
+   "curve": 0.4557,
+   "wind_speed_100m": 6.98,
+   "wind_direction_100m": 61.0
   },
   {
    "time": "2026-02-25T07:00",
@@ -25708,7 +30378,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7403,
    "p90": 0.9803,
    "actual": null,
-   "curve": 0.4827
+   "curve": 0.4827,
+   "wind_speed_100m": 7.17,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-25T08:00",
@@ -25719,7 +30391,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6904,
    "p90": 0.9944,
    "actual": null,
-   "curve": 0.3508
+   "curve": 0.3508,
+   "wind_speed_100m": 6.48,
+   "wind_direction_100m": 70.0
   },
   {
    "time": "2026-02-25T09:00",
@@ -25730,7 +30404,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6177,
    "p90": 0.9151,
    "actual": null,
-   "curve": 0.2976
+   "curve": 0.2976,
+   "wind_speed_100m": 6.23,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-25T10:00",
@@ -25741,7 +30417,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3618,
    "p90": 0.793,
    "actual": null,
-   "curve": 0.24
+   "curve": 0.24,
+   "wind_speed_100m": 5.59,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-25T11:00",
@@ -25752,7 +30430,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3409,
    "p90": 0.7848,
    "actual": null,
-   "curve": 0.2389
+   "curve": 0.2389,
+   "wind_speed_100m": 5.58,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-25T12:00",
@@ -25763,7 +30443,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.234,
    "p90": 0.6863,
    "actual": null,
-   "curve": 0.143
+   "curve": 0.143,
+   "wind_speed_100m": 4.66,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-25T13:00",
@@ -25774,7 +30456,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3472,
    "p90": 0.8582,
    "actual": null,
-   "curve": 0.285
+   "curve": 0.285,
+   "wind_speed_100m": 6.07,
+   "wind_direction_100m": 59.0
   },
   {
    "time": "2026-02-25T14:00",
@@ -25785,7 +30469,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2065,
    "p90": 0.6814,
    "actual": null,
-   "curve": 0.249
+   "curve": 0.249,
+   "wind_speed_100m": 5.66,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-25T15:00",
@@ -25796,7 +30482,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3434,
    "p90": 0.7743,
    "actual": null,
-   "curve": 0.3598
+   "curve": 0.3598,
+   "wind_speed_100m": 6.51,
+   "wind_direction_100m": 74.0
   },
   {
    "time": "2026-02-25T16:00",
@@ -25807,7 +30495,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7116,
    "p90": 0.9961,
    "actual": null,
-   "curve": 0.8714
+   "curve": 0.8714,
+   "wind_speed_100m": 10.46,
+   "wind_direction_100m": 75.0
   },
   {
    "time": "2026-02-25T17:00",
@@ -25818,7 +30508,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8106,
    "p90": 0.9959,
    "actual": null,
-   "curve": 0.9667
+   "curve": 0.9667,
+   "wind_speed_100m": 13.42,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-25T18:00",
@@ -25829,7 +30521,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8047,
    "p90": 0.9958,
    "actual": null,
-   "curve": 0.9326
+   "curve": 0.9326,
+   "wind_speed_100m": 11.71,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-25T19:00",
@@ -25840,7 +30534,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8279,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9667
+   "curve": 0.9667,
+   "wind_speed_100m": 13.19,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-25T20:00",
@@ -25851,7 +30547,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8601,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9667
+   "curve": 0.9667,
+   "wind_speed_100m": 13.25,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-25T21:00",
@@ -25862,7 +30560,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9318,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9667
+   "curve": 0.9667,
+   "wind_speed_100m": 13.69,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-25T22:00",
@@ -25873,7 +30573,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9667,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.97
+   "curve": 0.97,
+   "wind_speed_100m": 14.38,
+   "wind_direction_100m": 75.0
   },
   {
    "time": "2026-02-25T23:00",
@@ -25884,7 +30586,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9667,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9667
+   "curve": 0.9667,
+   "wind_speed_100m": 13.57,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-25T00:00",
@@ -25895,7 +30599,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2863,
    "actual": null,
-   "curve": 0.0383
+   "curve": 0.0383,
+   "wind_speed_100m": 2.63,
+   "wind_direction_100m": 63.0
   },
   {
    "time": "2026-02-25T01:00",
@@ -25906,7 +30612,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2571,
    "actual": null,
-   "curve": 0.0541
+   "curve": 0.0541,
+   "wind_speed_100m": 3.11,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-25T02:00",
@@ -25917,7 +30625,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0244,
    "p90": 0.3184,
    "actual": null,
-   "curve": 0.0801
+   "curve": 0.0801,
+   "wind_speed_100m": 3.55,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-25T03:00",
@@ -25928,7 +30638,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0663,
    "p90": 0.4052,
    "actual": null,
-   "curve": 0.0995
+   "curve": 0.0995,
+   "wind_speed_100m": 3.83,
+   "wind_direction_100m": 58.0
   },
   {
    "time": "2026-02-25T04:00",
@@ -25939,7 +30651,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0196,
    "p90": 0.4545,
    "actual": null,
-   "curve": 0.0964
+   "curve": 0.0964,
+   "wind_speed_100m": 3.78,
+   "wind_direction_100m": 59.0
   },
   {
    "time": "2026-02-25T05:00",
@@ -25950,7 +30664,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.334,
    "actual": null,
-   "curve": 0.0473
+   "curve": 0.0473,
+   "wind_speed_100m": 2.89,
+   "wind_direction_100m": 62.0
   },
   {
    "time": "2026-02-25T06:00",
@@ -25961,7 +30677,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2606,
    "actual": null,
-   "curve": 0.0142
+   "curve": 0.0142,
+   "wind_speed_100m": 1.67,
+   "wind_direction_100m": 40.0
   },
   {
    "time": "2026-02-25T07:00",
@@ -25972,7 +30690,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.1897,
    "actual": null,
-   "curve": 0.0167
+   "curve": 0.0167,
+   "wind_speed_100m": 1.87,
+   "wind_direction_100m": 47.0
   },
   {
    "time": "2026-02-25T08:00",
@@ -25983,7 +30703,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.176,
    "actual": null,
-   "curve": 0.0129
+   "curve": 0.0129,
+   "wind_speed_100m": 1.55,
+   "wind_direction_100m": 55.0
   },
   {
    "time": "2026-02-25T09:00",
@@ -25994,7 +30716,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2248,
    "actual": null,
-   "curve": 0.0046
+   "curve": 0.0046,
+   "wind_speed_100m": 0.35,
+   "wind_direction_100m": 34.0
   },
   {
    "time": "2026-02-25T10:00",
@@ -26005,7 +30729,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.0413,
    "actual": null,
-   "curve": 0.008
+   "curve": 0.008,
+   "wind_speed_100m": 0.6,
+   "wind_direction_100m": 279.0
   },
   {
    "time": "2026-02-25T11:00",
@@ -26016,7 +30742,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.0844,
    "actual": null,
-   "curve": 0.0122
+   "curve": 0.0122,
+   "wind_speed_100m": 1.47,
+   "wind_direction_100m": 266.0
   },
   {
    "time": "2026-02-25T12:00",
@@ -26027,7 +30755,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2577,
    "actual": null,
-   "curve": 0.0065
+   "curve": 0.0065,
+   "wind_speed_100m": 0.49,
+   "wind_direction_100m": 127.0
   },
   {
    "time": "2026-02-25T13:00",
@@ -26038,7 +30768,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.001,
    "p90": 0.2488,
    "actual": null,
-   "curve": 0.0124
+   "curve": 0.0124,
+   "wind_speed_100m": 1.49,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-25T14:00",
@@ -26049,7 +30781,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0437,
    "p90": 0.3232,
    "actual": null,
-   "curve": 0.0102
+   "curve": 0.0102,
+   "wind_speed_100m": 1.27,
+   "wind_direction_100m": 23.0
   },
   {
    "time": "2026-02-25T15:00",
@@ -26060,7 +30794,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.127,
    "p90": 0.5606,
    "actual": null,
-   "curve": 0.0434
+   "curve": 0.0434,
+   "wind_speed_100m": 2.76,
+   "wind_direction_100m": 63.0
   },
   {
    "time": "2026-02-25T16:00",
@@ -26071,7 +30807,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0993,
    "p90": 0.5687,
    "actual": null,
-   "curve": 0.1219
+   "curve": 0.1219,
+   "wind_speed_100m": 4.21,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-25T17:00",
@@ -26082,7 +30820,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4152,
    "p90": 0.8551,
    "actual": null,
-   "curve": 0.3221
+   "curve": 0.3221,
+   "wind_speed_100m": 6.02,
+   "wind_direction_100m": 60.0
   },
   {
    "time": "2026-02-25T18:00",
@@ -26093,7 +30833,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6024,
    "p90": 0.9897,
    "actual": null,
-   "curve": 0.5535
+   "curve": 0.5535,
+   "wind_speed_100m": 7.37,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-25T19:00",
@@ -26104,7 +30846,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6151,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.685
+   "curve": 0.685,
+   "wind_speed_100m": 8.41,
+   "wind_direction_100m": 64.0
   },
   {
    "time": "2026-02-25T20:00",
@@ -26115,7 +30859,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7324,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.7402
+   "curve": 0.7402,
+   "wind_speed_100m": 8.95,
+   "wind_direction_100m": 61.0
   },
   {
    "time": "2026-02-25T21:00",
@@ -26126,7 +30872,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6096,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.685
+   "curve": 0.685,
+   "wind_speed_100m": 8.63,
+   "wind_direction_100m": 64.0
   },
   {
    "time": "2026-02-25T22:00",
@@ -26137,7 +30885,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9322,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9207
+   "curve": 0.9207,
+   "wind_speed_100m": 11.84,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-25T23:00",
@@ -26148,7 +30898,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9297,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9112
+   "curve": 0.9112,
+   "wind_speed_100m": 11.16,
+   "wind_direction_100m": 73.0
   },
   {
    "time": "2026-02-26T00:00",
@@ -26159,7 +30911,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8259,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9448
+   "curve": 0.9448,
+   "wind_speed_100m": 11.83,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-26T01:00",
@@ -26170,7 +30924,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6579,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8728
+   "curve": 0.8728,
+   "wind_speed_100m": 10.21,
+   "wind_direction_100m": 63.0
   },
   {
    "time": "2026-02-26T02:00",
@@ -26181,7 +30937,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.286,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.3981
+   "curve": 0.3981,
+   "wind_speed_100m": 6.64,
+   "wind_direction_100m": 53.0
   },
   {
    "time": "2026-02-26T03:00",
@@ -26192,7 +30950,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5324,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9808
+   "curve": 0.9808,
+   "wind_speed_100m": 12.8,
+   "wind_direction_100m": 261.0
   },
   {
    "time": "2026-02-26T04:00",
@@ -26203,7 +30963,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4198,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9817
+   "curve": 0.9817,
+   "wind_speed_100m": 13.48,
+   "wind_direction_100m": 257.0
   },
   {
    "time": "2026-02-26T05:00",
@@ -26214,7 +30976,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0378,
    "p90": 0.8182,
    "actual": null,
-   "curve": 0.5783
+   "curve": 0.5783,
+   "wind_speed_100m": 7.68,
+   "wind_direction_100m": 247.0
   },
   {
    "time": "2026-02-26T06:00",
@@ -26225,7 +30989,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0993,
    "p90": 0.8382,
    "actual": null,
-   "curve": 0.4449
+   "curve": 0.4449,
+   "wind_speed_100m": 6.8,
+   "wind_direction_100m": 258.0
   },
   {
    "time": "2026-02-26T07:00",
@@ -26236,7 +31002,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1428,
    "p90": 0.6729,
    "actual": null,
-   "curve": 0.1592
+   "curve": 0.1592,
+   "wind_speed_100m": 4.74,
+   "wind_direction_100m": 240.0
   },
   {
    "time": "2026-02-26T08:00",
@@ -26247,7 +31015,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0649,
    "p90": 0.6987,
    "actual": null,
-   "curve": 0.1136
+   "curve": 0.1136,
+   "wind_speed_100m": 4.34,
+   "wind_direction_100m": 245.0
   },
   {
    "time": "2026-02-26T09:00",
@@ -26258,7 +31028,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2757,
    "p90": 0.8463,
    "actual": null,
-   "curve": 0.2238
+   "curve": 0.2238,
+   "wind_speed_100m": 5.35,
+   "wind_direction_100m": 246.0
   },
   {
    "time": "2026-02-26T10:00",
@@ -26269,7 +31041,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4153,
    "p90": 0.9158,
    "actual": null,
-   "curve": 0.4987
+   "curve": 0.4987,
+   "wind_speed_100m": 7.19,
+   "wind_direction_100m": 253.0
   },
   {
    "time": "2026-02-26T11:00",
@@ -26280,7 +31054,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3992,
    "p90": 0.9066,
    "actual": null,
-   "curve": 0.5763
+   "curve": 0.5763,
+   "wind_speed_100m": 7.69,
+   "wind_direction_100m": 253.0
   },
   {
    "time": "2026-02-26T12:00",
@@ -26291,7 +31067,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.43,
    "p90": 0.9147,
    "actual": null,
-   "curve": 0.6181
+   "curve": 0.6181,
+   "wind_speed_100m": 8.27,
+   "wind_direction_100m": 265.0
   },
   {
    "time": "2026-02-26T13:00",
@@ -26302,7 +31080,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.515,
    "p90": 0.9844,
    "actual": null,
-   "curve": 0.6842
+   "curve": 0.6842,
+   "wind_speed_100m": 8.72,
+   "wind_direction_100m": 271.0
   },
   {
    "time": "2026-02-26T14:00",
@@ -26313,7 +31093,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.606,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.7169
+   "curve": 0.7169,
+   "wind_speed_100m": 8.94,
+   "wind_direction_100m": 279.0
   },
   {
    "time": "2026-02-26T15:00",
@@ -26324,7 +31106,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7362,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9356
+   "curve": 0.9356,
+   "wind_speed_100m": 11.64,
+   "wind_direction_100m": 285.0
   },
   {
    "time": "2026-02-26T16:00",
@@ -26335,7 +31119,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7959,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.935
+   "curve": 0.935,
+   "wind_speed_100m": 11.63,
+   "wind_direction_100m": 282.0
   },
   {
    "time": "2026-02-26T17:00",
@@ -26346,7 +31132,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7905,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9144
+   "curve": 0.9144,
+   "wind_speed_100m": 11.26,
+   "wind_direction_100m": 281.0
   },
   {
    "time": "2026-02-26T18:00",
@@ -26357,7 +31145,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7341,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8989
+   "curve": 0.8989,
+   "wind_speed_100m": 10.96,
+   "wind_direction_100m": 255.0
   },
   {
    "time": "2026-02-26T19:00",
@@ -26368,7 +31158,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7496,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9117
+   "curve": 0.9117,
+   "wind_speed_100m": 11.17,
+   "wind_direction_100m": 257.0
   },
   {
    "time": "2026-02-26T20:00",
@@ -26379,7 +31171,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7747,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9391
+   "curve": 0.9391,
+   "wind_speed_100m": 11.64,
+   "wind_direction_100m": 255.0
   },
   {
    "time": "2026-02-26T21:00",
@@ -26390,7 +31184,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.811,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9638
+   "curve": 0.9638,
+   "wind_speed_100m": 12.11,
+   "wind_direction_100m": 251.0
   },
   {
    "time": "2026-02-26T22:00",
@@ -26401,7 +31197,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7371,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9625
+   "curve": 0.9625,
+   "wind_speed_100m": 12.08,
+   "wind_direction_100m": 252.0
   },
   {
    "time": "2026-02-26T23:00",
@@ -26412,7 +31210,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6537,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9339
+   "curve": 0.9339,
+   "wind_speed_100m": 11.53,
+   "wind_direction_100m": 251.0
   },
   {
    "time": "2026-02-25T00:00",
@@ -26423,7 +31223,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2904,
    "actual": null,
-   "curve": 0.0369
+   "curve": 0.0369,
+   "wind_speed_100m": 2.63,
+   "wind_direction_100m": 63.0
   },
   {
    "time": "2026-02-25T01:00",
@@ -26434,7 +31236,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2586,
    "actual": null,
-   "curve": 0.05
+   "curve": 0.05,
+   "wind_speed_100m": 3.11,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-25T02:00",
@@ -26445,7 +31249,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0196,
    "p90": 0.318,
    "actual": null,
-   "curve": 0.0741
+   "curve": 0.0741,
+   "wind_speed_100m": 3.55,
+   "wind_direction_100m": 66.0
   },
   {
    "time": "2026-02-25T03:00",
@@ -26456,7 +31262,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0633,
    "p90": 0.403,
    "actual": null,
-   "curve": 0.0918
+   "curve": 0.0918,
+   "wind_speed_100m": 3.83,
+   "wind_direction_100m": 58.0
   },
   {
    "time": "2026-02-25T04:00",
@@ -26467,7 +31275,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0172,
    "p90": 0.4531,
    "actual": null,
-   "curve": 0.0894
+   "curve": 0.0894,
+   "wind_speed_100m": 3.78,
+   "wind_direction_100m": 59.0
   },
   {
    "time": "2026-02-25T05:00",
@@ -26478,7 +31288,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.337,
    "actual": null,
-   "curve": 0.0448
+   "curve": 0.0448,
+   "wind_speed_100m": 2.89,
+   "wind_direction_100m": 62.0
   },
   {
    "time": "2026-02-25T06:00",
@@ -26489,7 +31301,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2659,
    "actual": null,
-   "curve": 0.0139
+   "curve": 0.0139,
+   "wind_speed_100m": 1.67,
+   "wind_direction_100m": 40.0
   },
   {
    "time": "2026-02-25T07:00",
@@ -26500,7 +31314,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.195,
    "actual": null,
-   "curve": 0.0165
+   "curve": 0.0165,
+   "wind_speed_100m": 1.87,
+   "wind_direction_100m": 47.0
   },
   {
    "time": "2026-02-25T08:00",
@@ -26511,7 +31327,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.174,
    "actual": null,
-   "curve": 0.0123
+   "curve": 0.0123,
+   "wind_speed_100m": 1.55,
+   "wind_direction_100m": 55.0
   },
   {
    "time": "2026-02-25T09:00",
@@ -26522,7 +31340,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2301,
    "actual": null,
-   "curve": 0.0043
+   "curve": 0.0043,
+   "wind_speed_100m": 0.35,
+   "wind_direction_100m": 34.0
   },
   {
    "time": "2026-02-25T10:00",
@@ -26533,7 +31353,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.0499,
    "actual": null,
-   "curve": 0.0068
+   "curve": 0.0068,
+   "wind_speed_100m": 0.6,
+   "wind_direction_100m": 279.0
   },
   {
    "time": "2026-02-25T11:00",
@@ -26544,7 +31366,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.089,
    "actual": null,
-   "curve": 0.0112
+   "curve": 0.0112,
+   "wind_speed_100m": 1.47,
+   "wind_direction_100m": 266.0
   },
   {
    "time": "2026-02-25T12:00",
@@ -26555,7 +31379,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0,
    "p90": 0.2624,
    "actual": null,
-   "curve": 0.0057
+   "curve": 0.0057,
+   "wind_speed_100m": 0.49,
+   "wind_direction_100m": 127.0
   },
   {
    "time": "2026-02-25T13:00",
@@ -26566,7 +31392,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.006,
    "p90": 0.2534,
    "actual": null,
-   "curve": 0.0115
+   "curve": 0.0115,
+   "wind_speed_100m": 1.49,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-25T14:00",
@@ -26577,7 +31405,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.048,
    "p90": 0.3278,
    "actual": null,
-   "curve": 0.0086
+   "curve": 0.0086,
+   "wind_speed_100m": 1.27,
+   "wind_direction_100m": 23.0
   },
   {
    "time": "2026-02-25T15:00",
@@ -26588,7 +31418,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1262,
    "p90": 0.5644,
    "actual": null,
-   "curve": 0.0417
+   "curve": 0.0417,
+   "wind_speed_100m": 2.76,
+   "wind_direction_100m": 63.0
   },
   {
    "time": "2026-02-25T16:00",
@@ -26599,7 +31431,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0898,
    "p90": 0.5549,
    "actual": null,
-   "curve": 0.1093
+   "curve": 0.1093,
+   "wind_speed_100m": 4.21,
+   "wind_direction_100m": 65.0
   },
   {
    "time": "2026-02-25T17:00",
@@ -26610,7 +31444,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4007,
    "p90": 0.8415,
    "actual": null,
-   "curve": 0.303
+   "curve": 0.303,
+   "wind_speed_100m": 6.02,
+   "wind_direction_100m": 60.0
   },
   {
    "time": "2026-02-25T18:00",
@@ -26621,7 +31457,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5925,
    "p90": 0.9863,
    "actual": null,
-   "curve": 0.541
+   "curve": 0.541,
+   "wind_speed_100m": 7.37,
+   "wind_direction_100m": 67.0
   },
   {
    "time": "2026-02-25T19:00",
@@ -26632,7 +31470,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6085,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.68
+   "curve": 0.68,
+   "wind_speed_100m": 8.41,
+   "wind_direction_100m": 64.0
   },
   {
    "time": "2026-02-25T20:00",
@@ -26643,7 +31483,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7298,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.7363
+   "curve": 0.7363,
+   "wind_speed_100m": 8.95,
+   "wind_direction_100m": 61.0
   },
   {
    "time": "2026-02-25T21:00",
@@ -26654,7 +31496,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5907,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.68
+   "curve": 0.68,
+   "wind_speed_100m": 8.63,
+   "wind_direction_100m": 64.0
   },
   {
    "time": "2026-02-25T22:00",
@@ -26665,7 +31509,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9332,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.93
+   "curve": 0.93,
+   "wind_speed_100m": 11.84,
+   "wind_direction_100m": 72.0
   },
   {
    "time": "2026-02-25T23:00",
@@ -26676,7 +31522,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.9279,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9135
+   "curve": 0.9135,
+   "wind_speed_100m": 11.16,
+   "wind_direction_100m": 73.0
   },
   {
    "time": "2026-02-26T00:00",
@@ -26687,7 +31535,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8094,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9349
+   "curve": 0.9349,
+   "wind_speed_100m": 11.83,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-26T01:00",
@@ -26698,7 +31548,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6419,
    "p90": 0.9893,
    "actual": null,
-   "curve": 0.8563
+   "curve": 0.8563,
+   "wind_speed_100m": 10.21,
+   "wind_direction_100m": 63.0
   },
   {
    "time": "2026-02-26T02:00",
@@ -26709,7 +31561,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2747,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.3861
+   "curve": 0.3861,
+   "wind_speed_100m": 6.64,
+   "wind_direction_100m": 53.0
   },
   {
    "time": "2026-02-26T03:00",
@@ -26720,7 +31574,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5305,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9667
+   "curve": 0.9667,
+   "wind_speed_100m": 12.8,
+   "wind_direction_100m": 261.0
   },
   {
    "time": "2026-02-26T04:00",
@@ -26731,7 +31587,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4131,
    "p90": 0.9907,
    "actual": null,
-   "curve": 0.9667
+   "curve": 0.9667,
+   "wind_speed_100m": 13.48,
+   "wind_direction_100m": 257.0
   },
   {
    "time": "2026-02-26T05:00",
@@ -26742,7 +31600,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0151,
    "p90": 0.8101,
    "actual": null,
-   "curve": 0.5678
+   "curve": 0.5678,
+   "wind_speed_100m": 7.68,
+   "wind_direction_100m": 247.0
   },
   {
    "time": "2026-02-26T06:00",
@@ -26753,7 +31613,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0866,
    "p90": 0.8257,
    "actual": null,
-   "curve": 0.4293
+   "curve": 0.4293,
+   "wind_speed_100m": 6.8,
+   "wind_direction_100m": 258.0
   },
   {
    "time": "2026-02-26T07:00",
@@ -26764,7 +31626,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.146,
    "p90": 0.6702,
    "actual": null,
-   "curve": 0.1527
+   "curve": 0.1527,
+   "wind_speed_100m": 4.74,
+   "wind_direction_100m": 240.0
   },
   {
    "time": "2026-02-26T08:00",
@@ -26775,7 +31639,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0683,
    "p90": 0.6987,
    "actual": null,
-   "curve": 0.1097
+   "curve": 0.1097,
+   "wind_speed_100m": 4.34,
+   "wind_direction_100m": 245.0
   },
   {
    "time": "2026-02-26T09:00",
@@ -26786,7 +31652,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2882,
    "p90": 0.8416,
    "actual": null,
-   "curve": 0.2139
+   "curve": 0.2139,
+   "wind_speed_100m": 5.35,
+   "wind_direction_100m": 246.0
   },
   {
    "time": "2026-02-26T10:00",
@@ -26797,7 +31665,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4107,
    "p90": 0.9072,
    "actual": null,
-   "curve": 0.4849
+   "curve": 0.4849,
+   "wind_speed_100m": 7.19,
+   "wind_direction_100m": 253.0
   },
   {
    "time": "2026-02-26T11:00",
@@ -26808,7 +31678,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3975,
    "p90": 0.8989,
    "actual": null,
-   "curve": 0.5657
+   "curve": 0.5657,
+   "wind_speed_100m": 7.69,
+   "wind_direction_100m": 253.0
   },
   {
    "time": "2026-02-26T12:00",
@@ -26819,7 +31691,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4471,
    "p90": 0.9175,
    "actual": null,
-   "curve": 0.6313
+   "curve": 0.6313,
+   "wind_speed_100m": 8.27,
+   "wind_direction_100m": 265.0
   },
   {
    "time": "2026-02-26T13:00",
@@ -26830,7 +31704,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4977,
    "p90": 0.9839,
    "actual": null,
-   "curve": 0.6691
+   "curve": 0.6691,
+   "wind_speed_100m": 8.72,
+   "wind_direction_100m": 271.0
   },
   {
    "time": "2026-02-26T14:00",
@@ -26841,7 +31717,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5842,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.702
+   "curve": 0.702,
+   "wind_speed_100m": 8.94,
+   "wind_direction_100m": 279.0
   },
   {
    "time": "2026-02-26T15:00",
@@ -26852,7 +31730,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7225,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9306
+   "curve": 0.9306,
+   "wind_speed_100m": 11.64,
+   "wind_direction_100m": 285.0
   },
   {
    "time": "2026-02-26T16:00",
@@ -26863,7 +31743,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7981,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9303
+   "curve": 0.9303,
+   "wind_speed_100m": 11.63,
+   "wind_direction_100m": 282.0
   },
   {
    "time": "2026-02-26T17:00",
@@ -26874,7 +31756,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8025,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9194
+   "curve": 0.9194,
+   "wind_speed_100m": 11.26,
+   "wind_direction_100m": 281.0
   },
   {
    "time": "2026-02-26T18:00",
@@ -26885,7 +31769,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7459,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9039
+   "curve": 0.9039,
+   "wind_speed_100m": 10.96,
+   "wind_direction_100m": 255.0
   },
   {
    "time": "2026-02-26T19:00",
@@ -26896,7 +31782,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7614,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9167
+   "curve": 0.9167,
+   "wind_speed_100m": 11.17,
+   "wind_direction_100m": 257.0
   },
   {
    "time": "2026-02-26T20:00",
@@ -26907,7 +31795,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7746,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9322
+   "curve": 0.9322,
+   "wind_speed_100m": 11.64,
+   "wind_direction_100m": 255.0
   },
   {
    "time": "2026-02-26T21:00",
@@ -26918,7 +31808,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8009,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9469
+   "curve": 0.9469,
+   "wind_speed_100m": 12.11,
+   "wind_direction_100m": 251.0
   },
   {
    "time": "2026-02-26T22:00",
@@ -26929,7 +31821,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7222,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9461
+   "curve": 0.9461,
+   "wind_speed_100m": 12.08,
+   "wind_direction_100m": 252.0
   },
   {
    "time": "2026-02-26T23:00",
@@ -26940,7 +31834,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6532,
    "p90": 0.9978,
    "actual": null,
-   "curve": 0.9298
+   "curve": 0.9298,
+   "wind_speed_100m": 11.53,
+   "wind_direction_100m": 251.0
   },
   {
    "time": "2026-02-26T00:00",
@@ -26951,7 +31847,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8612,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9658
+   "curve": 0.9658,
+   "wind_speed_100m": 12.97,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-26T01:00",
@@ -26962,7 +31860,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7499,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9409
+   "curve": 0.9409,
+   "wind_speed_100m": 12.49,
+   "wind_direction_100m": 63.0
   },
   {
    "time": "2026-02-26T02:00",
@@ -26973,7 +31873,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6953,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9305
+   "curve": 0.9305,
+   "wind_speed_100m": 12.28,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-26T03:00",
@@ -26984,7 +31886,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2372,
    "p90": 0.9993,
    "actual": null,
-   "curve": 0.5777
+   "curve": 0.5777,
+   "wind_speed_100m": 7.7,
+   "wind_direction_100m": 59.0
   },
   {
    "time": "2026-02-26T04:00",
@@ -26995,7 +31899,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2026,
    "p90": 0.6948,
    "actual": null,
-   "curve": 0.0143
+   "curve": 0.0143,
+   "wind_speed_100m": 1.69,
+   "wind_direction_100m": 10.0
   },
   {
    "time": "2026-02-26T05:00",
@@ -27006,7 +31912,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3751,
    "p90": 0.8925,
    "actual": null,
-   "curve": 0.9655
+   "curve": 0.9655,
+   "wind_speed_100m": 12.93,
+   "wind_direction_100m": 260.0
   },
   {
    "time": "2026-02-26T06:00",
@@ -27017,7 +31925,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2073,
    "p90": 0.8841,
    "actual": null,
-   "curve": 0.9104
+   "curve": 0.9104,
+   "wind_speed_100m": 10.88,
+   "wind_direction_100m": 256.0
   },
   {
    "time": "2026-02-26T07:00",
@@ -27028,7 +31938,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2078,
    "p90": 0.9287,
    "actual": null,
-   "curve": 0.8305
+   "curve": 0.8305,
+   "wind_speed_100m": 9.21,
+   "wind_direction_100m": 246.0
   },
   {
    "time": "2026-02-26T08:00",
@@ -27039,7 +31951,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1874,
    "p90": 0.7741,
    "actual": null,
-   "curve": 0.6123
+   "curve": 0.6123,
+   "wind_speed_100m": 7.9,
+   "wind_direction_100m": 263.0
   },
   {
    "time": "2026-02-26T09:00",
@@ -27050,7 +31964,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1424,
    "p90": 0.7892,
    "actual": null,
-   "curve": 0.5558
+   "curve": 0.5558,
+   "wind_speed_100m": 7.39,
+   "wind_direction_100m": 264.0
   },
   {
    "time": "2026-02-26T10:00",
@@ -27061,7 +31977,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2554,
    "p90": 0.9138,
    "actual": null,
-   "curve": 0.8473
+   "curve": 0.8473,
+   "wind_speed_100m": 9.25,
+   "wind_direction_100m": 257.0
   },
   {
    "time": "2026-02-26T11:00",
@@ -27072,7 +31990,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4256,
    "p90": 0.9885,
    "actual": null,
-   "curve": 0.9114
+   "curve": 0.9114,
+   "wind_speed_100m": 11.18,
+   "wind_direction_100m": 267.0
   },
   {
    "time": "2026-02-26T12:00",
@@ -27083,7 +32003,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7365,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9776
+   "curve": 0.9776,
+   "wind_speed_100m": 13.23,
+   "wind_direction_100m": 272.0
   },
   {
    "time": "2026-02-26T13:00",
@@ -27094,7 +32016,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7437,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9809
+   "curve": 0.9809,
+   "wind_speed_100m": 13.39,
+   "wind_direction_100m": 279.0
   },
   {
    "time": "2026-02-26T14:00",
@@ -27105,7 +32029,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8195,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9296
+   "curve": 0.9296,
+   "wind_speed_100m": 12.21,
+   "wind_direction_100m": 276.0
   },
   {
    "time": "2026-02-26T15:00",
@@ -27116,7 +32042,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8702,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9129
+   "curve": 0.9129,
+   "wind_speed_100m": 11.37,
+   "wind_direction_100m": 272.0
   },
   {
    "time": "2026-02-26T16:00",
@@ -27127,7 +32055,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8417,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9104
+   "curve": 0.9104,
+   "wind_speed_100m": 10.9,
+   "wind_direction_100m": 266.0
   },
   {
    "time": "2026-02-26T17:00",
@@ -27138,7 +32068,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8236,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.91
+   "curve": 0.91,
+   "wind_speed_100m": 10.6,
+   "wind_direction_100m": 267.0
   },
   {
    "time": "2026-02-26T18:00",
@@ -27149,7 +32081,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7599,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8681
+   "curve": 0.8681,
+   "wind_speed_100m": 9.92,
+   "wind_direction_100m": 266.0
   },
   {
    "time": "2026-02-26T19:00",
@@ -27160,7 +32094,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7183,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8286
+   "curve": 0.8286,
+   "wind_speed_100m": 9.21,
+   "wind_direction_100m": 261.0
   },
   {
    "time": "2026-02-26T20:00",
@@ -27171,7 +32107,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6467,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.7515
+   "curve": 0.7515,
+   "wind_speed_100m": 8.98,
+   "wind_direction_100m": 263.0
   },
   {
    "time": "2026-02-26T21:00",
@@ -27182,7 +32120,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6433,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.685
+   "curve": 0.685,
+   "wind_speed_100m": 8.59,
+   "wind_direction_100m": 263.0
   },
   {
    "time": "2026-02-26T22:00",
@@ -27193,7 +32133,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5973,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.685
+   "curve": 0.685,
+   "wind_speed_100m": 8.72,
+   "wind_direction_100m": 268.0
   },
   {
    "time": "2026-02-26T23:00",
@@ -27204,7 +32146,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5615,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.7614
+   "curve": 0.7614,
+   "wind_speed_100m": 9.01,
+   "wind_direction_100m": 271.0
   },
   {
    "time": "2026-02-27T00:00",
@@ -27215,7 +32159,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3541,
    "p90": 0.9198,
    "actual": null,
-   "curve": 0.7347
+   "curve": 0.7347,
+   "wind_speed_100m": 9.02,
+   "wind_direction_100m": 249.0
   },
   {
    "time": "2026-02-27T01:00",
@@ -27226,7 +32172,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2618,
    "p90": 0.8985,
    "actual": null,
-   "curve": 0.6155
+   "curve": 0.6155,
+   "wind_speed_100m": 8.19,
+   "wind_direction_100m": 244.0
   },
   {
    "time": "2026-02-27T02:00",
@@ -27237,7 +32185,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2667,
    "p90": 0.8739,
    "actual": null,
-   "curve": 0.5968
+   "curve": 0.5968,
+   "wind_speed_100m": 7.85,
+   "wind_direction_100m": 241.0
   },
   {
    "time": "2026-02-27T03:00",
@@ -27248,7 +32198,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.196,
    "p90": 0.8565,
    "actual": null,
-   "curve": 0.5387
+   "curve": 0.5387,
+   "wind_speed_100m": 7.43,
+   "wind_direction_100m": 239.0
   },
   {
    "time": "2026-02-27T04:00",
@@ -27259,7 +32211,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0224,
    "p90": 0.6841,
    "actual": null,
-   "curve": 0.3027
+   "curve": 0.3027,
+   "wind_speed_100m": 6.23,
+   "wind_direction_100m": 240.0
   },
   {
    "time": "2026-02-27T05:00",
@@ -27270,7 +32224,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0337,
    "p90": 0.7533,
    "actual": null,
-   "curve": 0.2229
+   "curve": 0.2229,
+   "wind_speed_100m": 5.33,
+   "wind_direction_100m": 234.0
   },
   {
    "time": "2026-02-27T06:00",
@@ -27281,7 +32237,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0675,
    "p90": 0.6896,
    "actual": null,
-   "curve": 0.2331
+   "curve": 0.2331,
+   "wind_speed_100m": 5.43,
+   "wind_direction_100m": 242.0
   },
   {
    "time": "2026-02-27T07:00",
@@ -27292,7 +32250,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1211,
    "p90": 0.7415,
    "actual": null,
-   "curve": 0.2858
+   "curve": 0.2858,
+   "wind_speed_100m": 6.01,
+   "wind_direction_100m": 242.0
   },
   {
    "time": "2026-02-27T08:00",
@@ -27303,7 +32263,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2993,
    "p90": 0.9398,
    "actual": null,
-   "curve": 0.4825
+   "curve": 0.4825,
+   "wind_speed_100m": 7.06,
+   "wind_direction_100m": 241.0
   },
   {
    "time": "2026-02-27T09:00",
@@ -27314,7 +32276,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5031,
    "p90": 0.9594,
    "actual": null,
-   "curve": 0.618
+   "curve": 0.618,
+   "wind_speed_100m": 8.24,
+   "wind_direction_100m": 243.0
   },
   {
    "time": "2026-02-27T10:00",
@@ -27325,7 +32289,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5074,
    "p90": 0.9675,
    "actual": null,
-   "curve": 0.7688
+   "curve": 0.7688,
+   "wind_speed_100m": 9.25,
+   "wind_direction_100m": 246.0
   },
   {
    "time": "2026-02-27T11:00",
@@ -27336,7 +32302,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6369,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8759
+   "curve": 0.8759,
+   "wind_speed_100m": 10.17,
+   "wind_direction_100m": 249.0
   },
   {
    "time": "2026-02-27T12:00",
@@ -27347,7 +32315,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7601,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8676
+   "curve": 0.8676,
+   "wind_speed_100m": 10.07,
+   "wind_direction_100m": 252.0
   },
   {
    "time": "2026-02-27T13:00",
@@ -27358,7 +32328,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7302,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8854
+   "curve": 0.8854,
+   "wind_speed_100m": 10.57,
+   "wind_direction_100m": 251.0
   },
   {
    "time": "2026-02-27T14:00",
@@ -27369,7 +32341,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6655,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8848
+   "curve": 0.8848,
+   "wind_speed_100m": 10.5,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-27T15:00",
@@ -27380,7 +32354,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6813,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8839
+   "curve": 0.8839,
+   "wind_speed_100m": 10.38,
+   "wind_direction_100m": 244.0
   },
   {
    "time": "2026-02-27T16:00",
@@ -27391,7 +32367,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7566,
    "p90": 0.98,
    "actual": null,
-   "curve": 0.8234
+   "curve": 0.8234,
+   "wind_speed_100m": 9.6,
+   "wind_direction_100m": 241.0
   },
   {
    "time": "2026-02-27T17:00",
@@ -27402,7 +32380,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.741,
    "p90": 0.9539,
    "actual": null,
-   "curve": 0.7436
+   "curve": 0.7436,
+   "wind_speed_100m": 9.03,
+   "wind_direction_100m": 243.0
   },
   {
    "time": "2026-02-27T18:00",
@@ -27413,7 +32393,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6711,
    "p90": 0.9551,
    "actual": null,
-   "curve": 0.8247
+   "curve": 0.8247,
+   "wind_speed_100m": 9.6,
+   "wind_direction_100m": 245.0
   },
   {
    "time": "2026-02-27T19:00",
@@ -27424,7 +32406,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6684,
    "p90": 0.9337,
    "actual": null,
-   "curve": 0.859
+   "curve": 0.859,
+   "wind_speed_100m": 9.92,
+   "wind_direction_100m": 247.0
   },
   {
    "time": "2026-02-27T20:00",
@@ -27435,7 +32419,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7014,
    "p90": 0.9642,
    "actual": null,
-   "curve": 0.8851
+   "curve": 0.8851,
+   "wind_speed_100m": 10.48,
+   "wind_direction_100m": 249.0
   },
   {
    "time": "2026-02-27T21:00",
@@ -27446,7 +32432,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7508,
    "p90": 0.9797,
    "actual": null,
-   "curve": 0.8973
+   "curve": 0.8973,
+   "wind_speed_100m": 10.83,
+   "wind_direction_100m": 249.0
   },
   {
    "time": "2026-02-27T22:00",
@@ -27457,7 +32445,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7423,
    "p90": 0.9843,
    "actual": null,
-   "curve": 0.9301
+   "curve": 0.9301,
+   "wind_speed_100m": 11.37,
+   "wind_direction_100m": 247.0
   },
   {
    "time": "2026-02-27T23:00",
@@ -27468,7 +32458,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7929,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9517
+   "curve": 0.9517,
+   "wind_speed_100m": 11.75,
+   "wind_direction_100m": 245.0
   },
   {
    "time": "2026-02-26T00:00",
@@ -27479,7 +32471,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8436,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9523
+   "curve": 0.9523,
+   "wind_speed_100m": 12.97,
+   "wind_direction_100m": 68.0
   },
   {
    "time": "2026-02-26T01:00",
@@ -27490,7 +32484,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7508,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9352
+   "curve": 0.9352,
+   "wind_speed_100m": 12.49,
+   "wind_direction_100m": 63.0
   },
   {
    "time": "2026-02-26T02:00",
@@ -27501,7 +32497,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6954,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.93
+   "curve": 0.93,
+   "wind_speed_100m": 12.28,
+   "wind_direction_100m": 69.0
   },
   {
    "time": "2026-02-26T03:00",
@@ -27512,7 +32510,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2456,
    "p90": 0.9916,
    "actual": null,
-   "curve": 0.5652
+   "curve": 0.5652,
+   "wind_speed_100m": 7.7,
+   "wind_direction_100m": 59.0
   },
   {
    "time": "2026-02-26T04:00",
@@ -27523,7 +32523,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2373,
    "p90": 0.7001,
    "actual": null,
-   "curve": 0.014
+   "curve": 0.014,
+   "wind_speed_100m": 1.69,
+   "wind_direction_100m": 10.0
   },
   {
    "time": "2026-02-26T05:00",
@@ -27534,7 +32536,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3653,
    "p90": 0.896,
    "actual": null,
-   "curve": 0.952
+   "curve": 0.952,
+   "wind_speed_100m": 12.93,
+   "wind_direction_100m": 260.0
   },
   {
    "time": "2026-02-26T06:00",
@@ -27545,7 +32549,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2059,
    "p90": 0.8907,
    "actual": null,
-   "curve": 0.8948
+   "curve": 0.8948,
+   "wind_speed_100m": 10.88,
+   "wind_direction_100m": 256.0
   },
   {
    "time": "2026-02-26T07:00",
@@ -27556,7 +32562,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2574,
    "p90": 0.9385,
    "actual": null,
-   "curve": 0.8283
+   "curve": 0.8283,
+   "wind_speed_100m": 9.21,
+   "wind_direction_100m": 246.0
   },
   {
    "time": "2026-02-26T08:00",
@@ -27567,7 +32575,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1858,
    "p90": 0.7529,
    "actual": null,
-   "curve": 0.6018
+   "curve": 0.6018,
+   "wind_speed_100m": 7.9,
+   "wind_direction_100m": 263.0
   },
   {
    "time": "2026-02-26T09:00",
@@ -27578,7 +32588,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1388,
    "p90": 0.7816,
    "actual": null,
-   "curve": 0.5433
+   "curve": 0.5433,
+   "wind_speed_100m": 7.39,
+   "wind_direction_100m": 264.0
   },
   {
    "time": "2026-02-26T10:00",
@@ -27589,7 +32601,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2626,
    "p90": 0.9157,
    "actual": null,
-   "curve": 0.8455
+   "curve": 0.8455,
+   "wind_speed_100m": 9.25,
+   "wind_direction_100m": 257.0
   },
   {
    "time": "2026-02-26T11:00",
@@ -27600,7 +32614,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4391,
    "p90": 0.9928,
    "actual": null,
-   "curve": 0.9179
+   "curve": 0.9179,
+   "wind_speed_100m": 11.18,
+   "wind_direction_100m": 267.0
   },
   {
    "time": "2026-02-26T12:00",
@@ -27611,7 +32627,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7359,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9656
+   "curve": 0.9656,
+   "wind_speed_100m": 13.23,
+   "wind_direction_100m": 272.0
   },
   {
    "time": "2026-02-26T13:00",
@@ -27622,7 +32640,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7273,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9686
+   "curve": 0.9686,
+   "wind_speed_100m": 13.39,
+   "wind_direction_100m": 279.0
   },
   {
    "time": "2026-02-26T14:00",
@@ -27633,7 +32653,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8268,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.93
+   "curve": 0.93,
+   "wind_speed_100m": 12.21,
+   "wind_direction_100m": 276.0
   },
   {
    "time": "2026-02-26T15:00",
@@ -27644,7 +32666,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.89,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9258
+   "curve": 0.9258,
+   "wind_speed_100m": 11.37,
+   "wind_direction_100m": 272.0
   },
   {
    "time": "2026-02-26T16:00",
@@ -27655,7 +32679,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8485,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8953
+   "curve": 0.8953,
+   "wind_speed_100m": 10.9,
+   "wind_direction_100m": 266.0
   },
   {
    "time": "2026-02-26T17:00",
@@ -27666,7 +32692,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8179,
    "p90": 0.9933,
    "actual": null,
-   "curve": 0.8867
+   "curve": 0.8867,
+   "wind_speed_100m": 10.6,
+   "wind_direction_100m": 267.0
   },
   {
    "time": "2026-02-26T18:00",
@@ -27677,7 +32705,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7595,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8608
+   "curve": 0.8608,
+   "wind_speed_100m": 9.92,
+   "wind_direction_100m": 266.0
   },
   {
    "time": "2026-02-26T19:00",
@@ -27688,7 +32718,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7231,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8264
+   "curve": 0.8264,
+   "wind_speed_100m": 9.21,
+   "wind_direction_100m": 261.0
   },
   {
    "time": "2026-02-26T20:00",
@@ -27699,7 +32731,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6499,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.7478
+   "curve": 0.7478,
+   "wind_speed_100m": 8.98,
+   "wind_direction_100m": 263.0
   },
   {
    "time": "2026-02-26T21:00",
@@ -27710,7 +32744,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6513,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.68
+   "curve": 0.68,
+   "wind_speed_100m": 8.59,
+   "wind_direction_100m": 263.0
   },
   {
    "time": "2026-02-26T22:00",
@@ -27721,7 +32757,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5879,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.68
+   "curve": 0.68,
+   "wind_speed_100m": 8.72,
+   "wind_direction_100m": 268.0
   },
   {
    "time": "2026-02-26T23:00",
@@ -27732,7 +32770,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5494,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.7579
+   "curve": 0.7579,
+   "wind_speed_100m": 9.01,
+   "wind_direction_100m": 271.0
   },
   {
    "time": "2026-02-27T00:00",
@@ -27743,7 +32783,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3523,
    "p90": 0.9201,
    "actual": null,
-   "curve": 0.724
+   "curve": 0.724,
+   "wind_speed_100m": 9.02,
+   "wind_direction_100m": 249.0
   },
   {
    "time": "2026-02-27T01:00",
@@ -27754,7 +32796,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2817,
    "p90": 0.8844,
    "actual": null,
-   "curve": 0.6265
+   "curve": 0.6265,
+   "wind_speed_100m": 8.19,
+   "wind_direction_100m": 244.0
   },
   {
    "time": "2026-02-27T02:00",
@@ -27765,7 +32809,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2701,
    "p90": 0.8701,
    "actual": null,
-   "curve": 0.5913
+   "curve": 0.5913,
+   "wind_speed_100m": 7.85,
+   "wind_direction_100m": 241.0
   },
   {
    "time": "2026-02-27T03:00",
@@ -27776,7 +32822,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.193,
    "p90": 0.8716,
    "actual": null,
-   "curve": 0.5265
+   "curve": 0.5265,
+   "wind_speed_100m": 7.43,
+   "wind_direction_100m": 239.0
   },
   {
    "time": "2026-02-27T04:00",
@@ -27787,7 +32835,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.028,
    "p90": 0.7091,
    "actual": null,
-   "curve": 0.2992
+   "curve": 0.2992,
+   "wind_speed_100m": 6.23,
+   "wind_direction_100m": 240.0
   },
   {
    "time": "2026-02-27T05:00",
@@ -27798,7 +32848,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.043,
    "p90": 0.7471,
    "actual": null,
-   "curve": 0.2128
+   "curve": 0.2128,
+   "wind_speed_100m": 5.33,
+   "wind_direction_100m": 234.0
   },
   {
    "time": "2026-02-27T06:00",
@@ -27809,7 +32861,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.0659,
    "p90": 0.6846,
    "actual": null,
-   "curve": 0.2243
+   "curve": 0.2243,
+   "wind_speed_100m": 5.43,
+   "wind_direction_100m": 242.0
   },
   {
    "time": "2026-02-27T07:00",
@@ -27820,7 +32874,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1256,
    "p90": 0.7412,
    "actual": null,
-   "curve": 0.2816
+   "curve": 0.2816,
+   "wind_speed_100m": 6.01,
+   "wind_direction_100m": 242.0
   },
   {
    "time": "2026-02-27T08:00",
@@ -27831,7 +32887,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2961,
    "p90": 0.9669,
    "actual": null,
-   "curve": 0.4682
+   "curve": 0.4682,
+   "wind_speed_100m": 7.06,
+   "wind_direction_100m": 241.0
   },
   {
    "time": "2026-02-27T09:00",
@@ -27842,7 +32900,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.51,
    "p90": 0.9594,
    "actual": null,
-   "curve": 0.6311
+   "curve": 0.6311,
+   "wind_speed_100m": 8.24,
+   "wind_direction_100m": 243.0
   },
   {
    "time": "2026-02-27T10:00",
@@ -27853,7 +32913,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5013,
    "p90": 0.9631,
    "actual": null,
-   "curve": 0.7661
+   "curve": 0.7661,
+   "wind_speed_100m": 9.25,
+   "wind_direction_100m": 246.0
   },
   {
    "time": "2026-02-27T11:00",
@@ -27864,7 +32926,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6334,
    "p90": 0.9927,
    "actual": null,
-   "curve": 0.8577
+   "curve": 0.8577,
+   "wind_speed_100m": 10.17,
+   "wind_direction_100m": 249.0
   },
   {
    "time": "2026-02-27T12:00",
@@ -27875,7 +32939,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7542,
    "p90": 0.996,
    "actual": null,
-   "curve": 0.8538
+   "curve": 0.8538,
+   "wind_speed_100m": 10.07,
+   "wind_direction_100m": 252.0
   },
   {
    "time": "2026-02-27T13:00",
@@ -27886,7 +32952,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7283,
    "p90": 0.9998,
    "actual": null,
-   "curve": 0.8819
+   "curve": 0.8819,
+   "wind_speed_100m": 10.57,
+   "wind_direction_100m": 251.0
   },
   {
    "time": "2026-02-27T14:00",
@@ -27897,7 +32965,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6603,
    "p90": 0.9967,
    "actual": null,
-   "curve": 0.8781
+   "curve": 0.8781,
+   "wind_speed_100m": 10.5,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-27T15:00",
@@ -27908,7 +32978,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6577,
    "p90": 0.9953,
    "actual": null,
-   "curve": 0.8712
+   "curve": 0.8712,
+   "wind_speed_100m": 10.38,
+   "wind_direction_100m": 244.0
   },
   {
    "time": "2026-02-27T16:00",
@@ -27919,7 +32991,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7539,
    "p90": 0.9772,
    "actual": null,
-   "curve": 0.8241
+   "curve": 0.8241,
+   "wind_speed_100m": 9.6,
+   "wind_direction_100m": 241.0
   },
   {
    "time": "2026-02-27T17:00",
@@ -27930,7 +33004,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.729,
    "p90": 0.942,
    "actual": null,
-   "curve": 0.7349
+   "curve": 0.7349,
+   "wind_speed_100m": 9.03,
+   "wind_direction_100m": 243.0
   },
   {
    "time": "2026-02-27T18:00",
@@ -27941,7 +33017,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6797,
    "p90": 0.9695,
    "actual": null,
-   "curve": 0.8255
+   "curve": 0.8255,
+   "wind_speed_100m": 9.6,
+   "wind_direction_100m": 245.0
   },
   {
    "time": "2026-02-27T19:00",
@@ -27952,7 +33030,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6787,
    "p90": 0.9471,
    "actual": null,
-   "curve": 0.8497
+   "curve": 0.8497,
+   "wind_speed_100m": 9.92,
+   "wind_direction_100m": 247.0
   },
   {
    "time": "2026-02-27T20:00",
@@ -27963,7 +33043,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.708,
    "p90": 0.9659,
    "actual": null,
-   "curve": 0.88
+   "curve": 0.88,
+   "wind_speed_100m": 10.48,
+   "wind_direction_100m": 249.0
   },
   {
    "time": "2026-02-27T21:00",
@@ -27974,7 +33056,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7674,
    "p90": 0.9768,
    "actual": null,
-   "curve": 0.9023
+   "curve": 0.9023,
+   "wind_speed_100m": 10.83,
+   "wind_direction_100m": 249.0
   },
   {
    "time": "2026-02-27T22:00",
@@ -27985,7 +33069,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7491,
    "p90": 0.98,
    "actual": null,
-   "curve": 0.928
+   "curve": 0.928,
+   "wind_speed_100m": 11.37,
+   "wind_direction_100m": 247.0
   },
   {
    "time": "2026-02-27T23:00",
@@ -27996,7 +33082,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7847,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9392
+   "curve": 0.9392,
+   "wind_speed_100m": 11.75,
+   "wind_direction_100m": 245.0
   },
   {
    "time": "2026-02-27T00:00",
@@ -28007,7 +33095,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3909,
    "p90": 0.8713,
    "actual": null,
-   "curve": 0.5703
+   "curve": 0.5703,
+   "wind_speed_100m": 7.58,
+   "wind_direction_100m": 265.0
   },
   {
    "time": "2026-02-27T01:00",
@@ -28018,7 +33108,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2561,
    "p90": 0.7676,
    "actual": null,
-   "curve": 0.5166
+   "curve": 0.5166,
+   "wind_speed_100m": 7.14,
+   "wind_direction_100m": 261.0
   },
   {
    "time": "2026-02-27T02:00",
@@ -28029,7 +33121,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3048,
    "p90": 0.7791,
    "actual": null,
-   "curve": 0.5593
+   "curve": 0.5593,
+   "wind_speed_100m": 7.44,
+   "wind_direction_100m": 254.0
   },
   {
    "time": "2026-02-27T03:00",
@@ -28040,7 +33134,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2738,
    "p90": 0.7149,
    "actual": null,
-   "curve": 0.5271
+   "curve": 0.5271,
+   "wind_speed_100m": 7.19,
+   "wind_direction_100m": 250.0
   },
   {
    "time": "2026-02-27T04:00",
@@ -28051,7 +33147,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1398,
    "p90": 0.6702,
    "actual": null,
-   "curve": 0.4512
+   "curve": 0.4512,
+   "wind_speed_100m": 6.85,
+   "wind_direction_100m": 251.0
   },
   {
    "time": "2026-02-27T05:00",
@@ -28062,7 +33160,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.148,
    "p90": 0.6909,
    "actual": null,
-   "curve": 0.4148
+   "curve": 0.4148,
+   "wind_speed_100m": 6.62,
+   "wind_direction_100m": 245.0
   },
   {
    "time": "2026-02-27T06:00",
@@ -28073,7 +33173,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1941,
    "p90": 0.7437,
    "actual": null,
-   "curve": 0.3244
+   "curve": 0.3244,
+   "wind_speed_100m": 6.03,
+   "wind_direction_100m": 238.0
   },
   {
    "time": "2026-02-27T07:00",
@@ -28084,7 +33186,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2908,
    "p90": 0.7636,
    "actual": null,
-   "curve": 0.3455
+   "curve": 0.3455,
+   "wind_speed_100m": 6.14,
+   "wind_direction_100m": 241.0
   },
   {
    "time": "2026-02-27T08:00",
@@ -28095,7 +33199,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3672,
    "p90": 0.8302,
    "actual": null,
-   "curve": 0.5058
+   "curve": 0.5058,
+   "wind_speed_100m": 7.1,
+   "wind_direction_100m": 242.0
   },
   {
    "time": "2026-02-27T09:00",
@@ -28106,7 +33212,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3227,
    "p90": 0.877,
    "actual": null,
-   "curve": 0.6105
+   "curve": 0.6105,
+   "wind_speed_100m": 7.9,
+   "wind_direction_100m": 247.0
   },
   {
    "time": "2026-02-27T10:00",
@@ -28117,7 +33225,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3557,
    "p90": 0.9076,
    "actual": null,
-   "curve": 0.7155
+   "curve": 0.7155,
+   "wind_speed_100m": 8.86,
+   "wind_direction_100m": 247.0
   },
   {
    "time": "2026-02-27T11:00",
@@ -28128,7 +33238,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6272,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8533
+   "curve": 0.8533,
+   "wind_speed_100m": 9.64,
+   "wind_direction_100m": 245.0
   },
   {
    "time": "2026-02-27T12:00",
@@ -28139,7 +33251,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6018,
    "p90": 0.9756,
    "actual": null,
-   "curve": 0.685
+   "curve": 0.685,
+   "wind_speed_100m": 8.35,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-27T13:00",
@@ -28150,7 +33264,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5891,
    "p90": 0.9709,
    "actual": null,
-   "curve": 0.685
+   "curve": 0.685,
+   "wind_speed_100m": 8.52,
+   "wind_direction_100m": 247.0
   },
   {
    "time": "2026-02-27T14:00",
@@ -28161,7 +33277,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.627,
    "p90": 0.9684,
    "actual": null,
-   "curve": 0.685
+   "curve": 0.685,
+   "wind_speed_100m": 8.75,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-27T15:00",
@@ -28172,7 +33290,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7261,
    "p90": 0.9905,
    "actual": null,
-   "curve": 0.7514
+   "curve": 0.7514,
+   "wind_speed_100m": 8.94,
+   "wind_direction_100m": 245.0
   },
   {
    "time": "2026-02-27T16:00",
@@ -28183,7 +33303,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6235,
    "p90": 0.9645,
    "actual": null,
-   "curve": 0.8181
+   "curve": 0.8181,
+   "wind_speed_100m": 9.13,
+   "wind_direction_100m": 247.0
   },
   {
    "time": "2026-02-27T17:00",
@@ -28194,7 +33316,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6264,
    "p90": 0.9587,
    "actual": null,
-   "curve": 0.8533
+   "curve": 0.8533,
+   "wind_speed_100m": 9.5,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-27T18:00",
@@ -28205,7 +33329,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6576,
    "p90": 0.9232,
    "actual": null,
-   "curve": 0.685
+   "curve": 0.685,
+   "wind_speed_100m": 8.35,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-27T19:00",
@@ -28216,7 +33342,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5412,
    "p90": 0.9171,
    "actual": null,
-   "curve": 0.685
+   "curve": 0.685,
+   "wind_speed_100m": 8.44,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-27T20:00",
@@ -28227,7 +33355,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5327,
    "p90": 0.9322,
    "actual": null,
-   "curve": 0.7112
+   "curve": 0.7112,
+   "wind_speed_100m": 8.8,
+   "wind_direction_100m": 251.0
   },
   {
    "time": "2026-02-27T21:00",
@@ -28238,7 +33368,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6544,
    "p90": 0.974,
    "actual": null,
-   "curve": 0.8693
+   "curve": 0.8693,
+   "wind_speed_100m": 9.85,
+   "wind_direction_100m": 253.0
   },
   {
    "time": "2026-02-27T22:00",
@@ -28249,7 +33381,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.727,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.91
+   "curve": 0.91,
+   "wind_speed_100m": 10.61,
+   "wind_direction_100m": 245.0
   },
   {
    "time": "2026-02-27T23:00",
@@ -28260,7 +33394,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6939,
    "p90": 0.9942,
    "actual": null,
-   "curve": 0.91
+   "curve": 0.91,
+   "wind_speed_100m": 10.59,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-28T00:00",
@@ -28271,7 +33407,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7736,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9813
+   "curve": 0.9813,
+   "wind_speed_100m": 12.88,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-28T01:00",
@@ -28282,7 +33420,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7322,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9813
+   "curve": 0.9813,
+   "wind_speed_100m": 12.86,
+   "wind_direction_100m": 247.0
   },
   {
    "time": "2026-02-28T02:00",
@@ -28293,7 +33433,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6826,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9805
+   "curve": 0.9805,
+   "wind_speed_100m": 12.56,
+   "wind_direction_100m": 247.0
   },
   {
    "time": "2026-02-28T03:00",
@@ -28304,7 +33446,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.701,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9774
+   "curve": 0.9774,
+   "wind_speed_100m": 12.41,
+   "wind_direction_100m": 245.0
   },
   {
    "time": "2026-02-28T04:00",
@@ -28315,7 +33459,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7139,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9714
+   "curve": 0.9714,
+   "wind_speed_100m": 12.14,
+   "wind_direction_100m": 245.0
   },
   {
    "time": "2026-02-28T05:00",
@@ -28326,7 +33472,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7122,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9715
+   "curve": 0.9715,
+   "wind_speed_100m": 12.15,
+   "wind_direction_100m": 246.0
   },
   {
    "time": "2026-02-28T06:00",
@@ -28337,7 +33485,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6616,
    "p90": 0.9786,
    "actual": null,
-   "curve": 0.8461
+   "curve": 0.8461,
+   "wind_speed_100m": 9.74,
+   "wind_direction_100m": 246.0
   },
   {
    "time": "2026-02-28T07:00",
@@ -28348,7 +33498,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6593,
    "p90": 0.9866,
    "actual": null,
-   "curve": 0.8864
+   "curve": 0.8864,
+   "wind_speed_100m": 10.61,
+   "wind_direction_100m": 246.0
   },
   {
    "time": "2026-02-28T08:00",
@@ -28359,7 +33511,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6619,
    "p90": 0.9982,
    "actual": null,
-   "curve": 0.9
+   "curve": 0.9,
+   "wind_speed_100m": 10.86,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-28T09:00",
@@ -28370,7 +33524,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6603,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9189
+   "curve": 0.9189,
+   "wind_speed_100m": 11.17,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-28T10:00",
@@ -28381,7 +33537,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6997,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9137
+   "curve": 0.9137,
+   "wind_speed_100m": 11.08,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-28T11:00",
@@ -28392,7 +33550,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.683,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9152
+   "curve": 0.9152,
+   "wind_speed_100m": 11.1,
+   "wind_direction_100m": 247.0
   },
   {
    "time": "2026-02-28T12:00",
@@ -28403,7 +33563,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7965,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9451
+   "curve": 0.9451,
+   "wind_speed_100m": 11.61,
+   "wind_direction_100m": 242.0
   },
   {
    "time": "2026-02-28T13:00",
@@ -28414,7 +33576,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7616,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9234
+   "curve": 0.9234,
+   "wind_speed_100m": 11.23,
+   "wind_direction_100m": 241.0
   },
   {
    "time": "2026-02-28T14:00",
@@ -28425,7 +33589,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7133,
    "p90": 0.9576,
    "actual": null,
-   "curve": 0.8831
+   "curve": 0.8831,
+   "wind_speed_100m": 10.2,
+   "wind_direction_100m": 239.0
   },
   {
    "time": "2026-02-28T15:00",
@@ -28436,7 +33602,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7321,
    "p90": 0.9123,
    "actual": null,
-   "curve": 0.7683
+   "curve": 0.7683,
+   "wind_speed_100m": 9.13,
+   "wind_direction_100m": 240.0
   },
   {
    "time": "2026-02-28T16:00",
@@ -28447,7 +33615,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5771,
    "p90": 0.7957,
    "actual": null,
-   "curve": 0.6406
+   "curve": 0.6406,
+   "wind_speed_100m": 8.29,
+   "wind_direction_100m": 241.0
   },
   {
    "time": "2026-02-28T17:00",
@@ -28458,7 +33628,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4429,
    "p90": 0.6713,
    "actual": null,
-   "curve": 0.523
+   "curve": 0.523,
+   "wind_speed_100m": 7.23,
+   "wind_direction_100m": 242.0
   },
   {
    "time": "2026-02-28T18:00",
@@ -28469,7 +33641,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3097,
    "p90": 0.591,
    "actual": null,
-   "curve": 0.2437
+   "curve": 0.2437,
+   "wind_speed_100m": 5.44,
+   "wind_direction_100m": 247.0
   },
   {
    "time": "2026-02-28T19:00",
@@ -28480,7 +33654,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4492,
    "p90": 0.6656,
    "actual": null,
-   "curve": 0.1009
+   "curve": 0.1009,
+   "wind_speed_100m": 3.94,
+   "wind_direction_100m": 264.0
   },
   {
    "time": "2026-02-28T20:00",
@@ -28491,7 +33667,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2493,
    "p90": 0.5959,
    "actual": null,
-   "curve": 0.0492
+   "curve": 0.0492,
+   "wind_speed_100m": 2.95,
+   "wind_direction_100m": 285.0
   },
   {
    "time": "2026-02-28T21:00",
@@ -28502,7 +33680,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.294,
    "p90": 0.6492,
    "actual": null,
-   "curve": 0.0314
+   "curve": 0.0314,
+   "wind_speed_100m": 2.07,
+   "wind_direction_100m": 275.0
   },
   {
    "time": "2026-02-28T22:00",
@@ -28513,7 +33693,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2409,
    "p90": 0.4401,
    "actual": null,
-   "curve": 0.031
+   "curve": 0.031,
+   "wind_speed_100m": 1.8,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-28T23:00",
@@ -28524,7 +33706,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1284,
    "p90": 0.4958,
    "actual": null,
-   "curve": 0.0306
+   "curve": 0.0306,
+   "wind_speed_100m": 1.71,
+   "wind_direction_100m": 257.0
   },
   {
    "time": "2026-02-27T00:00",
@@ -28535,7 +33719,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3837,
    "p90": 0.8647,
    "actual": null,
-   "curve": 0.5578
+   "curve": 0.5578,
+   "wind_speed_100m": 7.58,
+   "wind_direction_100m": 265.0
   },
   {
    "time": "2026-02-27T01:00",
@@ -28546,7 +33732,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2442,
    "p90": 0.7627,
    "actual": null,
-   "curve": 0.5039
+   "curve": 0.5039,
+   "wind_speed_100m": 7.14,
+   "wind_direction_100m": 261.0
   },
   {
    "time": "2026-02-27T02:00",
@@ -28557,7 +33745,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2992,
    "p90": 0.7728,
    "actual": null,
-   "curve": 0.5468
+   "curve": 0.5468,
+   "wind_speed_100m": 7.44,
+   "wind_direction_100m": 254.0
   },
   {
    "time": "2026-02-27T03:00",
@@ -28568,7 +33758,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2681,
    "p90": 0.7296,
    "actual": null,
-   "curve": 0.5145
+   "curve": 0.5145,
+   "wind_speed_100m": 7.19,
+   "wind_direction_100m": 250.0
   },
   {
    "time": "2026-02-27T04:00",
@@ -28579,7 +33771,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1336,
    "p90": 0.6623,
    "actual": null,
-   "curve": 0.438
+   "curve": 0.438,
+   "wind_speed_100m": 6.85,
+   "wind_direction_100m": 251.0
   },
   {
    "time": "2026-02-27T05:00",
@@ -28590,7 +33784,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1493,
    "p90": 0.6803,
    "actual": null,
-   "curve": 0.399
+   "curve": 0.399,
+   "wind_speed_100m": 6.62,
+   "wind_direction_100m": 245.0
   },
   {
    "time": "2026-02-27T06:00",
@@ -28601,7 +33797,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1841,
    "p90": 0.7339,
    "actual": null,
-   "curve": 0.3052
+   "curve": 0.3052,
+   "wind_speed_100m": 6.03,
+   "wind_direction_100m": 238.0
   },
   {
    "time": "2026-02-27T07:00",
@@ -28612,7 +33810,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2795,
    "p90": 0.7489,
    "actual": null,
-   "curve": 0.3251
+   "curve": 0.3251,
+   "wind_speed_100m": 6.14,
+   "wind_direction_100m": 241.0
   },
   {
    "time": "2026-02-27T08:00",
@@ -28623,7 +33823,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3866,
    "p90": 0.8264,
    "actual": null,
-   "curve": 0.493
+   "curve": 0.493,
+   "wind_speed_100m": 7.1,
+   "wind_direction_100m": 242.0
   },
   {
    "time": "2026-02-27T09:00",
@@ -28634,7 +33836,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3199,
    "p90": 0.8736,
    "actual": null,
-   "curve": 0.5999
+   "curve": 0.5999,
+   "wind_speed_100m": 7.9,
+   "wind_direction_100m": 247.0
   },
   {
    "time": "2026-02-27T10:00",
@@ -28645,7 +33849,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3591,
    "p90": 0.9172,
    "actual": null,
-   "curve": 0.7111
+   "curve": 0.7111,
+   "wind_speed_100m": 8.86,
+   "wind_direction_100m": 247.0
   },
   {
    "time": "2026-02-27T11:00",
@@ -28656,7 +33862,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6083,
    "p90": 0.9985,
    "actual": null,
-   "curve": 0.8517
+   "curve": 0.8517,
+   "wind_speed_100m": 9.64,
+   "wind_direction_100m": 245.0
   },
   {
    "time": "2026-02-27T12:00",
@@ -28667,7 +33875,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6075,
    "p90": 0.9697,
    "actual": null,
-   "curve": 0.68
+   "curve": 0.68,
+   "wind_speed_100m": 8.35,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-27T13:00",
@@ -28678,7 +33888,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5948,
    "p90": 0.965,
    "actual": null,
-   "curve": 0.68
+   "curve": 0.68,
+   "wind_speed_100m": 8.52,
+   "wind_direction_100m": 247.0
   },
   {
    "time": "2026-02-27T14:00",
@@ -28689,7 +33901,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6328,
    "p90": 0.9631,
    "actual": null,
-   "curve": 0.68
+   "curve": 0.68,
+   "wind_speed_100m": 8.75,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-27T15:00",
@@ -28700,7 +33914,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7303,
    "p90": 0.9842,
    "actual": null,
-   "curve": 0.7478
+   "curve": 0.7478,
+   "wind_speed_100m": 8.94,
+   "wind_direction_100m": 245.0
   },
   {
    "time": "2026-02-27T16:00",
@@ -28711,7 +33927,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6236,
    "p90": 0.96,
    "actual": null,
-   "curve": 0.8157
+   "curve": 0.8157,
+   "wind_speed_100m": 9.13,
+   "wind_direction_100m": 247.0
   },
   {
    "time": "2026-02-27T17:00",
@@ -28722,7 +33940,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6182,
    "p90": 0.9765,
    "actual": null,
-   "curve": 0.8517
+   "curve": 0.8517,
+   "wind_speed_100m": 9.5,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-27T18:00",
@@ -28733,7 +33953,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6711,
    "p90": 0.9189,
    "actual": null,
-   "curve": 0.68
+   "curve": 0.68,
+   "wind_speed_100m": 8.35,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-27T19:00",
@@ -28744,7 +33966,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5349,
    "p90": 0.9134,
    "actual": null,
-   "curve": 0.68
+   "curve": 0.68,
+   "wind_speed_100m": 8.44,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-27T20:00",
@@ -28755,7 +33979,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5169,
    "p90": 0.9298,
    "actual": null,
-   "curve": 0.7067
+   "curve": 0.7067,
+   "wind_speed_100m": 8.8,
+   "wind_direction_100m": 251.0
   },
   {
    "time": "2026-02-27T21:00",
@@ -28766,7 +33992,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6346,
    "p90": 0.974,
    "actual": null,
-   "curve": 0.8615
+   "curve": 0.8615,
+   "wind_speed_100m": 9.85,
+   "wind_direction_100m": 253.0
   },
   {
    "time": "2026-02-27T22:00",
@@ -28777,7 +34005,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7285,
    "p90": 0.9914,
    "actual": null,
-   "curve": 0.8867
+   "curve": 0.8867,
+   "wind_speed_100m": 10.61,
+   "wind_direction_100m": 245.0
   },
   {
    "time": "2026-02-27T23:00",
@@ -28788,7 +34018,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6962,
    "p90": 0.9811,
    "actual": null,
-   "curve": 0.8867
+   "curve": 0.8867,
+   "wind_speed_100m": 10.59,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-28T00:00",
@@ -28799,7 +34031,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7702,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9667
+   "curve": 0.9667,
+   "wind_speed_100m": 12.88,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-28T01:00",
@@ -28810,7 +34044,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.72,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9667
+   "curve": 0.9667,
+   "wind_speed_100m": 12.86,
+   "wind_direction_100m": 247.0
   },
   {
    "time": "2026-02-28T02:00",
@@ -28821,7 +34057,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6729,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9662
+   "curve": 0.9662,
+   "wind_speed_100m": 12.56,
+   "wind_direction_100m": 247.0
   },
   {
    "time": "2026-02-28T03:00",
@@ -28832,7 +34070,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6972,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9616
+   "curve": 0.9616,
+   "wind_speed_100m": 12.41,
+   "wind_direction_100m": 245.0
   },
   {
    "time": "2026-02-28T04:00",
@@ -28843,7 +34083,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7074,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9529
+   "curve": 0.9529,
+   "wind_speed_100m": 12.14,
+   "wind_direction_100m": 245.0
   },
   {
    "time": "2026-02-28T05:00",
@@ -28854,7 +34096,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7057,
    "p90": 0.9993,
    "actual": null,
-   "curve": 0.953
+   "curve": 0.953,
+   "wind_speed_100m": 12.15,
+   "wind_direction_100m": 246.0
   },
   {
    "time": "2026-02-28T06:00",
@@ -28865,7 +34109,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6669,
    "p90": 0.9728,
    "actual": null,
-   "curve": 0.8437
+   "curve": 0.8437,
+   "wind_speed_100m": 9.74,
+   "wind_direction_100m": 246.0
   },
   {
    "time": "2026-02-28T07:00",
@@ -28876,7 +34122,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6626,
    "p90": 0.9844,
    "actual": null,
-   "curve": 0.8898
+   "curve": 0.8898,
+   "wind_speed_100m": 10.61,
+   "wind_direction_100m": 246.0
   },
   {
    "time": "2026-02-28T08:00",
@@ -28887,7 +34135,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6747,
    "p90": 0.9956,
    "actual": null,
-   "curve": 0.905
+   "curve": 0.905,
+   "wind_speed_100m": 10.86,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-28T09:00",
@@ -28898,7 +34148,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.672,
    "p90": 0.9959,
    "actual": null,
-   "curve": 0.9227
+   "curve": 0.9227,
+   "wind_speed_100m": 11.17,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-28T10:00",
@@ -28909,7 +34161,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7125,
    "p90": 0.9997,
    "actual": null,
-   "curve": 0.9187
+   "curve": 0.9187,
+   "wind_speed_100m": 11.08,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-28T11:00",
@@ -28920,7 +34174,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6958,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9202
+   "curve": 0.9202,
+   "wind_speed_100m": 11.1,
+   "wind_direction_100m": 247.0
   },
   {
    "time": "2026-02-28T12:00",
@@ -28931,7 +34187,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7905,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9351
+   "curve": 0.9351,
+   "wind_speed_100m": 11.61,
+   "wind_direction_100m": 242.0
   },
   {
    "time": "2026-02-28T13:00",
@@ -28942,7 +34200,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7719,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9248
+   "curve": 0.9248,
+   "wind_speed_100m": 11.23,
+   "wind_direction_100m": 241.0
   },
   {
    "time": "2026-02-28T14:00",
@@ -28953,7 +34213,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7024,
    "p90": 0.9649,
    "actual": null,
-   "curve": 0.8653
+   "curve": 0.8653,
+   "wind_speed_100m": 10.2,
+   "wind_direction_100m": 239.0
   },
   {
    "time": "2026-02-28T15:00",
@@ -28964,7 +34226,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7362,
    "p90": 0.9215,
    "actual": null,
-   "curve": 0.7654
+   "curve": 0.7654,
+   "wind_speed_100m": 9.13,
+   "wind_direction_100m": 240.0
   },
   {
    "time": "2026-02-28T16:00",
@@ -28975,7 +34239,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5818,
    "p90": 0.8024,
    "actual": null,
-   "curve": 0.6451
+   "curve": 0.6451,
+   "wind_speed_100m": 8.29,
+   "wind_direction_100m": 241.0
   },
   {
    "time": "2026-02-28T17:00",
@@ -28986,7 +34252,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4397,
    "p90": 0.7136,
    "actual": null,
-   "curve": 0.5102
+   "curve": 0.5102,
+   "wind_speed_100m": 7.23,
+   "wind_direction_100m": 242.0
   },
   {
    "time": "2026-02-28T18:00",
@@ -28997,7 +34265,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3153,
    "p90": 0.5872,
    "actual": null,
-   "curve": 0.236
+   "curve": 0.236,
+   "wind_speed_100m": 5.44,
+   "wind_direction_100m": 247.0
   },
   {
    "time": "2026-02-28T19:00",
@@ -29008,7 +34278,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4497,
    "p90": 0.6653,
    "actual": null,
-   "curve": 0.0968
+   "curve": 0.0968,
+   "wind_speed_100m": 3.94,
+   "wind_direction_100m": 264.0
   },
   {
    "time": "2026-02-28T20:00",
@@ -29019,7 +34291,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2586,
    "p90": 0.6138,
    "actual": null,
-   "curve": 0.045
+   "curve": 0.045,
+   "wind_speed_100m": 2.95,
+   "wind_direction_100m": 285.0
   },
   {
    "time": "2026-02-28T21:00",
@@ -29030,7 +34304,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2966,
    "p90": 0.6524,
    "actual": null,
-   "curve": 0.0308
+   "curve": 0.0308,
+   "wind_speed_100m": 2.07,
+   "wind_direction_100m": 275.0
   },
   {
    "time": "2026-02-28T22:00",
@@ -29041,7 +34317,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.2439,
    "p90": 0.4438,
    "actual": null,
-   "curve": 0.0308
+   "curve": 0.0308,
+   "wind_speed_100m": 1.8,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-28T23:00",
@@ -29052,7 +34330,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.1315,
    "p90": 0.4996,
    "actual": null,
-   "curve": 0.0306
+   "curve": 0.0306,
+   "wind_speed_100m": 1.71,
+   "wind_direction_100m": 257.0
   },
   {
    "time": "2026-02-28T00:00",
@@ -29063,7 +34343,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.6364,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9272
+   "curve": 0.9272,
+   "wind_speed_100m": 11.94,
+   "wind_direction_100m": 247.0
   },
   {
    "time": "2026-02-28T01:00",
@@ -29074,7 +34356,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7293,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.934
+   "curve": 0.934,
+   "wind_speed_100m": 12.16,
+   "wind_direction_100m": 247.0
   },
   {
    "time": "2026-02-28T02:00",
@@ -29085,7 +34369,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8089,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9817
+   "curve": 0.9817,
+   "wind_speed_100m": 13.26,
+   "wind_direction_100m": 247.0
   },
   {
    "time": "2026-02-28T03:00",
@@ -29096,7 +34382,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7893,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9844
+   "curve": 0.9844,
+   "wind_speed_100m": 13.52,
+   "wind_direction_100m": 247.0
   },
   {
    "time": "2026-02-28T04:00",
@@ -29107,7 +34395,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7904,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9833
+   "curve": 0.9833,
+   "wind_speed_100m": 13.41,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-28T05:00",
@@ -29118,7 +34408,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8063,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.982
+   "curve": 0.982,
+   "wind_speed_100m": 13.28,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-28T06:00",
@@ -29129,7 +34421,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7935,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9324
+   "curve": 0.9324,
+   "wind_speed_100m": 12.13,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-28T07:00",
@@ -29140,7 +34434,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.79,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9314
+   "curve": 0.9314,
+   "wind_speed_100m": 12.11,
+   "wind_direction_100m": 251.0
   },
   {
    "time": "2026-02-28T08:00",
@@ -29151,7 +34447,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7567,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9257
+   "curve": 0.9257,
+   "wind_speed_100m": 11.87,
+   "wind_direction_100m": 250.0
   },
   {
    "time": "2026-02-28T09:00",
@@ -29162,7 +34460,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7596,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9187
+   "curve": 0.9187,
+   "wind_speed_100m": 11.55,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-28T10:00",
@@ -29173,7 +34473,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7648,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9199
+   "curve": 0.9199,
+   "wind_speed_100m": 11.62,
+   "wind_direction_100m": 246.0
   },
   {
    "time": "2026-02-28T11:00",
@@ -29184,7 +34486,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7654,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9218
+   "curve": 0.9218,
+   "wind_speed_100m": 11.7,
+   "wind_direction_100m": 244.0
   },
   {
    "time": "2026-02-28T12:00",
@@ -29195,7 +34499,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8453,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8837
+   "curve": 0.8837,
+   "wind_speed_100m": 9.92,
+   "wind_direction_100m": 240.0
   },
   {
    "time": "2026-02-28T13:00",
@@ -29206,7 +34512,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7733,
    "p90": 0.9802,
    "actual": null,
-   "curve": 0.8591
+   "curve": 0.8591,
+   "wind_speed_100m": 9.7,
+   "wind_direction_100m": 240.0
   },
   {
    "time": "2026-02-28T14:00",
@@ -29217,7 +34525,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8235,
    "p90": 0.937,
    "actual": null,
-   "curve": 0.8134
+   "curve": 0.8134,
+   "wind_speed_100m": 9.04,
+   "wind_direction_100m": 240.0
   },
   {
    "time": "2026-02-28T15:00",
@@ -29228,7 +34538,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7438,
    "p90": 0.918,
    "actual": null,
-   "curve": 0.675
+   "curve": 0.675,
+   "wind_speed_100m": 8.12,
+   "wind_direction_100m": 240.0
   },
   {
    "time": "2026-02-28T16:00",
@@ -29239,7 +34551,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5237,
    "p90": 0.8559,
    "actual": null,
-   "curve": 0.5758
+   "curve": 0.5758,
+   "wind_speed_100m": 7.55,
+   "wind_direction_100m": 240.0
   },
   {
    "time": "2026-02-28T17:00",
@@ -29250,7 +34564,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.582,
    "p90": 0.8423,
    "actual": null,
-   "curve": 0.4875
+   "curve": 0.4875,
+   "wind_speed_100m": 6.92,
+   "wind_direction_100m": 243.0
   },
   {
    "time": "2026-02-28T18:00",
@@ -29261,7 +34577,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5474,
    "p90": 0.8073,
    "actual": null,
-   "curve": 0.5787
+   "curve": 0.5787,
+   "wind_speed_100m": 7.58,
+   "wind_direction_100m": 241.0
   },
   {
    "time": "2026-02-28T19:00",
@@ -29272,7 +34590,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5606,
    "p90": 0.7585,
    "actual": null,
-   "curve": 0.5578
+   "curve": 0.5578,
+   "wind_speed_100m": 7.32,
+   "wind_direction_100m": 244.0
   },
   {
    "time": "2026-02-28T20:00",
@@ -29283,7 +34603,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4936,
    "p90": 0.6979,
    "actual": null,
-   "curve": 0.4549
+   "curve": 0.4549,
+   "wind_speed_100m": 6.77,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-28T21:00",
@@ -29294,7 +34616,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4208,
    "p90": 0.7117,
    "actual": null,
-   "curve": 0.4203
+   "curve": 0.4203,
+   "wind_speed_100m": 6.57,
+   "wind_direction_100m": 250.0
   },
   {
    "time": "2026-02-28T22:00",
@@ -29305,7 +34629,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4003,
    "p90": 0.6891,
    "actual": null,
-   "curve": 0.413
+   "curve": 0.413,
+   "wind_speed_100m": 6.51,
+   "wind_direction_100m": 249.0
   },
   {
    "time": "2026-02-28T23:00",
@@ -29316,7 +34642,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3967,
    "p90": 0.6906,
    "actual": null,
-   "curve": 0.4093
+   "curve": 0.4093,
+   "wind_speed_100m": 6.48,
+   "wind_direction_100m": 250.0
   },
   {
    "time": "2026-02-28T00:00",
@@ -29327,7 +34655,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.646,
    "p90": 0.9967,
    "actual": null,
-   "curve": 0.93
+   "curve": 0.93,
+   "wind_speed_100m": 11.94,
+   "wind_direction_100m": 247.0
   },
   {
    "time": "2026-02-28T01:00",
@@ -29338,7 +34668,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7334,
    "p90": 0.9935,
    "actual": null,
-   "curve": 0.9313
+   "curve": 0.9313,
+   "wind_speed_100m": 12.16,
+   "wind_direction_100m": 247.0
   },
   {
    "time": "2026-02-28T02:00",
@@ -29349,7 +34681,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8094,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9689
+   "curve": 0.9689,
+   "wind_speed_100m": 13.26,
+   "wind_direction_100m": 247.0
   },
   {
    "time": "2026-02-28T03:00",
@@ -29360,7 +34694,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7903,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9698
+   "curve": 0.9698,
+   "wind_speed_100m": 13.52,
+   "wind_direction_100m": 247.0
   },
   {
    "time": "2026-02-28T04:00",
@@ -29371,7 +34707,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7855,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9694
+   "curve": 0.9694,
+   "wind_speed_100m": 13.41,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-28T05:00",
@@ -29382,7 +34720,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8023,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.969
+   "curve": 0.969,
+   "wind_speed_100m": 13.28,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-28T06:00",
@@ -29393,7 +34733,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7874,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9304
+   "curve": 0.9304,
+   "wind_speed_100m": 12.13,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-28T07:00",
@@ -29404,7 +34746,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7844,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.93
+   "curve": 0.93,
+   "wind_speed_100m": 12.11,
+   "wind_direction_100m": 251.0
   },
   {
    "time": "2026-02-28T08:00",
@@ -29415,7 +34759,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7613,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.93
+   "curve": 0.93,
+   "wind_speed_100m": 11.87,
+   "wind_direction_100m": 250.0
   },
   {
    "time": "2026-02-28T09:00",
@@ -29426,7 +34772,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7705,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9292
+   "curve": 0.9292,
+   "wind_speed_100m": 11.55,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-28T10:00",
@@ -29437,7 +34785,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7686,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.9299
+   "curve": 0.9299,
+   "wind_speed_100m": 11.62,
+   "wind_direction_100m": 246.0
   },
   {
    "time": "2026-02-28T11:00",
@@ -29448,7 +34798,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7713,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.93
+   "curve": 0.93,
+   "wind_speed_100m": 11.7,
+   "wind_direction_100m": 244.0
   },
   {
    "time": "2026-02-28T12:00",
@@ -29459,7 +34811,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8409,
    "p90": 1.0,
    "actual": null,
-   "curve": 0.8704
+   "curve": 0.8704,
+   "wind_speed_100m": 9.92,
+   "wind_direction_100m": 240.0
   },
   {
    "time": "2026-02-28T13:00",
@@ -29470,7 +34824,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.7763,
    "p90": 0.9964,
    "actual": null,
-   "curve": 0.8552
+   "curve": 0.8552,
+   "wind_speed_100m": 9.7,
+   "wind_direction_100m": 240.0
   },
   {
    "time": "2026-02-28T14:00",
@@ -29481,7 +34837,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.8279,
    "p90": 0.9527,
    "actual": null,
-   "curve": 0.8109
+   "curve": 0.8109,
+   "wind_speed_100m": 9.04,
+   "wind_direction_100m": 240.0
   },
   {
    "time": "2026-02-28T15:00",
@@ -29492,7 +34850,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.745,
    "p90": 0.9164,
    "actual": null,
-   "curve": 0.6693
+   "curve": 0.6693,
+   "wind_speed_100m": 8.12,
+   "wind_direction_100m": 240.0
   },
   {
    "time": "2026-02-28T16:00",
@@ -29503,7 +34863,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5188,
    "p90": 0.848,
    "actual": null,
-   "curve": 0.5633
+   "curve": 0.5633,
+   "wind_speed_100m": 7.55,
+   "wind_direction_100m": 240.0
   },
   {
    "time": "2026-02-28T17:00",
@@ -29514,7 +34876,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.576,
    "p90": 0.8649,
    "actual": null,
-   "curve": 0.4746
+   "curve": 0.4746,
+   "wind_speed_100m": 6.92,
+   "wind_direction_100m": 243.0
   },
   {
    "time": "2026-02-28T18:00",
@@ -29525,7 +34889,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5418,
    "p90": 0.7978,
    "actual": null,
-   "curve": 0.5662
+   "curve": 0.5662,
+   "wind_speed_100m": 7.58,
+   "wind_direction_100m": 241.0
   },
   {
    "time": "2026-02-28T19:00",
@@ -29536,7 +34902,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.5551,
    "p90": 0.7536,
    "actual": null,
-   "curve": 0.5453
+   "curve": 0.5453,
+   "wind_speed_100m": 7.32,
+   "wind_direction_100m": 244.0
   },
   {
    "time": "2026-02-28T20:00",
@@ -29547,7 +34915,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4874,
    "p90": 0.69,
    "actual": null,
-   "curve": 0.4417
+   "curve": 0.4417,
+   "wind_speed_100m": 6.77,
+   "wind_direction_100m": 248.0
   },
   {
    "time": "2026-02-28T21:00",
@@ -29558,7 +34928,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.4127,
    "p90": 0.7019,
    "actual": null,
-   "curve": 0.4052
+   "curve": 0.4052,
+   "wind_speed_100m": 6.57,
+   "wind_direction_100m": 250.0
   },
   {
    "time": "2026-02-28T22:00",
@@ -29569,7 +34941,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.395,
    "p90": 0.6783,
    "actual": null,
-   "curve": 0.3969
+   "curve": 0.3969,
+   "wind_speed_100m": 6.51,
+   "wind_direction_100m": 249.0
   },
   {
    "time": "2026-02-28T23:00",
@@ -29580,7 +34954,9 @@ window.DASHBOARD_DATA = {
    "p50": 0.3911,
    "p90": 0.6795,
    "actual": null,
-   "curve": 0.3927
+   "curve": 0.3927,
+   "wind_speed_100m": 6.48,
+   "wind_direction_100m": 250.0
   }
  ],
  "metrics": [
@@ -29699,15 +35075,15 @@ window.DASHBOARD_DATA = {
  ],
  "agent_log": [
   {
-   "ts": "2026-09-23T10:38:46+00:00",
+   "ts": "2026-09-23T11:39:02+00:00",
    "issue_time": "2026-01-30T00:00",
    "step": "collect",
    "status": "ok",
    "text": "архив прогнозов: 48 часов на 2026-01-31 — 2026-02-01, горизонты [24, 48] ч",
-   "duration_ms": 5
+   "duration_ms": 6
   },
   {
-   "ts": "2026-09-23T10:38:46+00:00",
+   "ts": "2026-09-23T11:39:02+00:00",
    "issue_time": "2026-01-30T00:00",
    "step": "prepare",
    "status": "ok",
@@ -29715,7 +35091,7 @@ window.DASHBOARD_DATA = {
    "duration_ms": 1
   },
   {
-   "ts": "2026-09-23T10:38:46+00:00",
+   "ts": "2026-09-23T11:39:02+00:00",
    "issue_time": "2026-01-30T00:00",
    "step": "decide",
    "status": "ok",
@@ -29723,87 +35099,87 @@ window.DASHBOARD_DATA = {
    "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T10:38:46+00:00",
+   "ts": "2026-09-23T11:39:02+00:00",
    "issue_time": "2026-01-30T00:00",
    "step": "forecast",
    "status": "ok",
    "text": "посчитано 96 строк, средняя мощность 0.44 от номинала, коридор P10–P90 шириной 0.50",
-   "duration_ms": 50
+   "duration_ms": 58
   },
   {
-   "ts": "2026-09-23T10:38:47+00:00",
+   "ts": "2026-09-23T11:39:02+00:00",
    "issue_time": "2026-01-30T00:00",
    "step": "reflect",
    "status": "ok",
    "text": "поправка за 14 сут до 29.01: T1 -0.095±0.011, сдвигаю медиану на -0.095; T2 -0.092±0.012, сдвигаю медиану на -0.092",
-   "duration_ms": 35
+   "duration_ms": 37
   },
   {
-   "ts": "2026-09-23T10:38:47+00:00",
+   "ts": "2026-09-23T11:39:02+00:00",
    "issue_time": "2026-01-30T00:00",
    "step": "verify",
    "status": "ok",
    "text": "проверка за 14 сут до 29.01: nRMSE 0.230, скилл к персистентности +0.63, чистая кривая дала 0.314",
-   "duration_ms": 65
+   "duration_ms": 67
   },
   {
-   "ts": "2026-09-23T10:38:50+00:00",
+   "ts": "2026-09-23T11:39:06+00:00",
    "issue_time": "2026-01-30T00:00",
    "step": "explain",
    "status": "ok",
-   "text": "За период 31.01 00:00–23:00 средняя выработка прогнозируется на уровне 0,51 номинала; почасовые значения — от 0 до 0,91. Прогноз переменный: 8 часов выше 0,8 и 7 часов ниже 0,1. Коридор P10–P90 шириной 0,36 указывает на разброс прогноза; риск ошибки особенно важен при резких изменениях выработки. Диспетчеру стоит следить за фактической мощностью и ветром, который прогнозируется в диапазоне 1,0–11,5 м/с; температура — от −3,9 до 7,4 °C.",
-   "duration_ms": 3769
+   "text": "На 31.01 прогнозируется средняя выработка 0,51 от номинала; по часам она меняется от 0 до 0,91, причём 8 часов выше 0,8 и 7 часов ниже 0,1. Ветер на высоте 100 м ожидается в диапазоне 1,0–11,5 м/с, температура — от −3,9 до 7,4 °C. Риск ошибки отражает ширина коридора P10–P90 — 0,36 от установленной мощности. Диспетчеру стоит следить за почасовой выработкой, особенно в часы с низким прогнозом и при переходах между низкими и высокими значениями.",
+   "duration_ms": 4507
   },
   {
-   "ts": "2026-09-23T10:38:50+00:00",
+   "ts": "2026-09-23T11:39:06+00:00",
    "issue_time": "2026-01-31T00:00",
    "step": "collect",
    "status": "ok",
    "text": "архив прогнозов: 48 часов на 2026-02-01 — 2026-02-02, горизонты [24, 48] ч",
-   "duration_ms": 4
+   "duration_ms": 3
   },
   {
-   "ts": "2026-09-23T10:38:50+00:00",
+   "ts": "2026-09-23T11:39:06+00:00",
    "issue_time": "2026-01-31T00:00",
    "step": "prepare",
    "status": "ok",
    "text": "ряд принят: 48 часов, ветер 1.8–12.0 м/с",
-   "duration_ms": 1
+   "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T10:38:50+00:00",
+   "ts": "2026-09-23T11:39:06+00:00",
    "issue_time": "2026-01-31T00:00",
    "step": "decide",
    "status": "ok",
    "text": "новый прогон: 48 часов ещё не прогнозировались на своём горизонте, на общих часах ветер сдвинулся на 1.2 м/с",
-   "duration_ms": 1
+   "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T10:38:50+00:00",
+   "ts": "2026-09-23T11:39:07+00:00",
    "issue_time": "2026-01-31T00:00",
    "step": "forecast",
    "status": "ok",
    "text": "посчитано 96 строк, средняя мощность 0.44 от номинала, коридор P10–P90 шириной 0.51",
-   "duration_ms": 40
+   "duration_ms": 37
   },
   {
-   "ts": "2026-09-23T10:38:50+00:00",
+   "ts": "2026-09-23T11:39:07+00:00",
    "issue_time": "2026-01-31T00:00",
    "step": "reflect",
    "status": "ok",
    "text": "поправка за 14 сут до 30.01: T1 -0.101±0.012, сдвигаю медиану на -0.101; T2 -0.097±0.012, сдвигаю медиану на -0.097",
-   "duration_ms": 29
+   "duration_ms": 32
   },
   {
-   "ts": "2026-09-23T10:38:50+00:00",
+   "ts": "2026-09-23T11:39:07+00:00",
    "issue_time": "2026-01-31T00:00",
    "step": "verify",
    "status": "ok",
    "text": "проверка за 14 сут до 30.01: nRMSE 0.241, скилл к персистентности +0.61, чистая кривая дала 0.308",
-   "duration_ms": 62
+   "duration_ms": 57
   },
   {
-   "ts": "2026-09-23T10:38:51+00:00",
+   "ts": "2026-09-23T11:39:07+00:00",
    "issue_time": "2026-02-01T00:00",
    "step": "collect",
    "status": "ok",
@@ -29811,7 +35187,7 @@ window.DASHBOARD_DATA = {
    "duration_ms": 3
   },
   {
-   "ts": "2026-09-23T10:38:51+00:00",
+   "ts": "2026-09-23T11:39:07+00:00",
    "issue_time": "2026-02-01T00:00",
    "step": "prepare",
    "status": "ok",
@@ -29819,15 +35195,15 @@ window.DASHBOARD_DATA = {
    "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T10:38:51+00:00",
+   "ts": "2026-09-23T11:39:07+00:00",
    "issue_time": "2026-02-01T00:00",
    "step": "decide",
    "status": "ok",
    "text": "новый прогон: 48 часов ещё не прогнозировались на своём горизонте, на общих часах ветер сдвинулся на 1.8 м/с",
-   "duration_ms": 1
+   "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T10:38:51+00:00",
+   "ts": "2026-09-23T11:39:07+00:00",
    "issue_time": "2026-02-01T00:00",
    "step": "forecast",
    "status": "ok",
@@ -29835,31 +35211,31 @@ window.DASHBOARD_DATA = {
    "duration_ms": 39
   },
   {
-   "ts": "2026-09-23T10:38:51+00:00",
+   "ts": "2026-09-23T11:39:07+00:00",
    "issue_time": "2026-02-01T00:00",
    "step": "reflect",
    "status": "ok",
    "text": "поправка за 14 сут до 31.01: T1 -0.088±0.012, сдвигаю медиану на -0.088; T2 -0.082±0.012, сдвигаю медиану на -0.082",
-   "duration_ms": 31
+   "duration_ms": 33
   },
   {
-   "ts": "2026-09-23T10:38:51+00:00",
+   "ts": "2026-09-23T11:39:07+00:00",
    "issue_time": "2026-02-01T00:00",
    "step": "verify",
    "status": "ok",
    "text": "проверка за 14 сут до 31.01: nRMSE 0.232, скилл к персистентности +0.61, чистая кривая дала 0.312",
-   "duration_ms": 61
+   "duration_ms": 59
   },
   {
-   "ts": "2026-09-23T10:38:51+00:00",
+   "ts": "2026-09-23T11:39:07+00:00",
    "issue_time": "2026-02-02T00:00",
    "step": "collect",
    "status": "ok",
    "text": "архив прогнозов: 48 часов на 2026-02-03 — 2026-02-04, горизонты [24, 48] ч",
-   "duration_ms": 4
+   "duration_ms": 3
   },
   {
-   "ts": "2026-09-23T10:38:51+00:00",
+   "ts": "2026-09-23T11:39:07+00:00",
    "issue_time": "2026-02-02T00:00",
    "step": "prepare",
    "status": "ok",
@@ -29867,39 +35243,39 @@ window.DASHBOARD_DATA = {
    "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T10:38:51+00:00",
+   "ts": "2026-09-23T11:39:07+00:00",
    "issue_time": "2026-02-02T00:00",
    "step": "decide",
    "status": "ok",
    "text": "новый прогон: 48 часов ещё не прогнозировались на своём горизонте, на общих часах ветер сдвинулся на 1.8 м/с",
-   "duration_ms": 1
+   "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T10:38:51+00:00",
+   "ts": "2026-09-23T11:39:07+00:00",
    "issue_time": "2026-02-02T00:00",
    "step": "forecast",
    "status": "ok",
    "text": "посчитано 96 строк, средняя мощность 0.45 от номинала, коридор P10–P90 шириной 0.59",
-   "duration_ms": 307
+   "duration_ms": 39
   },
   {
-   "ts": "2026-09-23T10:38:51+00:00",
+   "ts": "2026-09-23T11:39:07+00:00",
    "issue_time": "2026-02-02T00:00",
    "step": "reflect",
    "status": "ok",
    "text": "последний факт 31.01 (1 сут назад), поправка по 18.01–31.01 перенесена: T1 -0.088±0.012, сдвигаю медиану на -0.088; T2 -0.082±0.012, сдвигаю медиану на -0.082",
-   "duration_ms": 34
+   "duration_ms": 32
   },
   {
-   "ts": "2026-09-23T10:38:51+00:00",
+   "ts": "2026-09-23T11:39:07+00:00",
    "issue_time": "2026-02-02T00:00",
    "step": "verify",
    "status": "ok",
    "text": "последний факт 31.01 (1 сут назад), проверка по 18.01–31.01 перенесена: nRMSE 0.232, скилл к персистентности +0.61, чистая кривая дала 0.312",
-   "duration_ms": 66
+   "duration_ms": 60
   },
   {
-   "ts": "2026-09-23T10:38:51+00:00",
+   "ts": "2026-09-23T11:39:07+00:00",
    "issue_time": "2026-02-03T00:00",
    "step": "collect",
    "status": "ok",
@@ -29907,15 +35283,15 @@ window.DASHBOARD_DATA = {
    "duration_ms": 4
   },
   {
-   "ts": "2026-09-23T10:38:51+00:00",
+   "ts": "2026-09-23T11:39:07+00:00",
    "issue_time": "2026-02-03T00:00",
    "step": "prepare",
    "status": "ok",
    "text": "ряд принят: 48 часов, ветер 1.0–20.0 м/с",
-   "duration_ms": 0
+   "duration_ms": 1
   },
   {
-   "ts": "2026-09-23T10:38:51+00:00",
+   "ts": "2026-09-23T11:39:07+00:00",
    "issue_time": "2026-02-03T00:00",
    "step": "decide",
    "status": "ok",
@@ -29923,31 +35299,31 @@ window.DASHBOARD_DATA = {
    "duration_ms": 1
   },
   {
-   "ts": "2026-09-23T10:38:51+00:00",
+   "ts": "2026-09-23T11:39:07+00:00",
    "issue_time": "2026-02-03T00:00",
    "step": "forecast",
    "status": "ok",
    "text": "посчитано 96 строк, средняя мощность 0.71 от номинала, коридор P10–P90 шириной 0.35",
-   "duration_ms": 47
+   "duration_ms": 38
   },
   {
-   "ts": "2026-09-23T10:38:51+00:00",
+   "ts": "2026-09-23T11:39:07+00:00",
    "issue_time": "2026-02-03T00:00",
    "step": "reflect",
    "status": "ok",
    "text": "последний факт 31.01 (2 сут назад), поправка по 18.01–31.01 перенесена: T1 -0.088±0.012, сдвигаю медиану на -0.088; T2 -0.082±0.012, сдвигаю медиану на -0.082",
-   "duration_ms": 37
+   "duration_ms": 31
   },
   {
-   "ts": "2026-09-23T10:38:51+00:00",
+   "ts": "2026-09-23T11:39:07+00:00",
    "issue_time": "2026-02-03T00:00",
    "step": "verify",
    "status": "ok",
    "text": "последний факт 31.01 (2 сут назад), проверка по 18.01–31.01 перенесена: nRMSE 0.232, скилл к персистентности +0.61, чистая кривая дала 0.312",
-   "duration_ms": 64
+   "duration_ms": 58
   },
   {
-   "ts": "2026-09-23T10:38:51+00:00",
+   "ts": "2026-09-23T11:39:07+00:00",
    "issue_time": "2026-02-04T00:00",
    "step": "collect",
    "status": "ok",
@@ -29955,7 +35331,7 @@ window.DASHBOARD_DATA = {
    "duration_ms": 3
   },
   {
-   "ts": "2026-09-23T10:38:51+00:00",
+   "ts": "2026-09-23T11:39:07+00:00",
    "issue_time": "2026-02-04T00:00",
    "step": "prepare",
    "status": "ok",
@@ -29963,7 +35339,7 @@ window.DASHBOARD_DATA = {
    "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T10:38:51+00:00",
+   "ts": "2026-09-23T11:39:07+00:00",
    "issue_time": "2026-02-04T00:00",
    "step": "decide",
    "status": "ok",
@@ -29971,31 +35347,31 @@ window.DASHBOARD_DATA = {
    "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T10:38:51+00:00",
+   "ts": "2026-09-23T11:39:07+00:00",
    "issue_time": "2026-02-04T00:00",
    "step": "forecast",
    "status": "ok",
    "text": "посчитано 96 строк, средняя мощность 0.80 от номинала, коридор P10–P90 шириной 0.24",
-   "duration_ms": 41
+   "duration_ms": 36
   },
   {
-   "ts": "2026-09-23T10:38:51+00:00",
+   "ts": "2026-09-23T11:39:07+00:00",
    "issue_time": "2026-02-04T00:00",
    "step": "reflect",
    "status": "ok",
    "text": "последний факт 31.01 (3 сут назад), поправка по 18.01–31.01 перенесена: T1 -0.088±0.012, сдвигаю медиану на -0.088; T2 -0.082±0.012, сдвигаю медиану на -0.082",
-   "duration_ms": 29
+   "duration_ms": 32
   },
   {
-   "ts": "2026-09-23T10:38:51+00:00",
+   "ts": "2026-09-23T11:39:07+00:00",
    "issue_time": "2026-02-04T00:00",
    "step": "verify",
    "status": "ok",
    "text": "последний факт 31.01 (3 сут назад), проверка по 18.01–31.01 перенесена: nRMSE 0.232, скилл к персистентности +0.61, чистая кривая дала 0.312",
-   "duration_ms": 62
+   "duration_ms": 57
   },
   {
-   "ts": "2026-09-23T10:38:51+00:00",
+   "ts": "2026-09-23T11:39:07+00:00",
    "issue_time": "2026-02-05T00:00",
    "step": "collect",
    "status": "ok",
@@ -30003,79 +35379,79 @@ window.DASHBOARD_DATA = {
    "duration_ms": 4
   },
   {
-   "ts": "2026-09-23T10:38:51+00:00",
+   "ts": "2026-09-23T11:39:07+00:00",
    "issue_time": "2026-02-05T00:00",
    "step": "prepare",
    "status": "ok",
    "text": "ряд принят: 48 часов, ветер 1.2–17.6 м/с",
-   "duration_ms": 1
+   "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T10:38:51+00:00",
+   "ts": "2026-09-23T11:39:07+00:00",
    "issue_time": "2026-02-05T00:00",
    "step": "decide",
    "status": "ok",
    "text": "новый прогон: 48 часов ещё не прогнозировались на своём горизонте, на общих часах ветер сдвинулся на 1.3 м/с",
-   "duration_ms": 1
+   "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T10:38:51+00:00",
+   "ts": "2026-09-23T11:39:07+00:00",
    "issue_time": "2026-02-05T00:00",
    "step": "forecast",
    "status": "ok",
    "text": "посчитано 96 строк, средняя мощность 0.51 от номинала, коридор P10–P90 шириной 0.46",
-   "duration_ms": 47
+   "duration_ms": 38
   },
   {
-   "ts": "2026-09-23T10:38:51+00:00",
+   "ts": "2026-09-23T11:39:07+00:00",
    "issue_time": "2026-02-05T00:00",
    "step": "reflect",
    "status": "ok",
    "text": "последний факт 31.01 (4 сут назад), поправка по 18.01–31.01 перенесена: T1 -0.088±0.012, сдвигаю медиану на -0.088; T2 -0.082±0.012, сдвигаю медиану на -0.082",
-   "duration_ms": 33
+   "duration_ms": 32
   },
   {
-   "ts": "2026-09-23T10:38:52+00:00",
+   "ts": "2026-09-23T11:39:07+00:00",
    "issue_time": "2026-02-05T00:00",
    "step": "verify",
    "status": "ok",
    "text": "последний факт 31.01 (4 сут назад), проверка по 18.01–31.01 перенесена: nRMSE 0.232, скилл к персистентности +0.61, чистая кривая дала 0.312",
-   "duration_ms": 65
+   "duration_ms": 58
   },
   {
-   "ts": "2026-09-23T10:38:52+00:00",
+   "ts": "2026-09-23T11:39:07+00:00",
    "issue_time": "2026-02-06T00:00",
    "step": "collect",
    "status": "ok",
    "text": "архив прогнозов: 48 часов на 2026-02-07 — 2026-02-08, горизонты [24, 48] ч",
-   "duration_ms": 4
+   "duration_ms": 3
   },
   {
-   "ts": "2026-09-23T10:38:52+00:00",
+   "ts": "2026-09-23T11:39:07+00:00",
    "issue_time": "2026-02-06T00:00",
    "step": "prepare",
    "status": "ok",
    "text": "ряд принят: 48 часов, ветер 0.6–20.1 м/с",
-   "duration_ms": 1
+   "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T10:38:52+00:00",
+   "ts": "2026-09-23T11:39:07+00:00",
    "issue_time": "2026-02-06T00:00",
    "step": "decide",
    "status": "ok",
    "text": "новый прогон: 48 часов ещё не прогнозировались на своём горизонте, на общих часах ветер сдвинулся на 1.1 м/с",
-   "duration_ms": 1
+   "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T10:38:52+00:00",
+   "ts": "2026-09-23T11:39:07+00:00",
    "issue_time": "2026-02-06T00:00",
    "step": "forecast",
    "status": "ok",
    "text": "посчитано 96 строк, средняя мощность 0.55 от номинала, коридор P10–P90 шириной 0.41",
-   "duration_ms": 47
+   "duration_ms": 39
   },
   {
-   "ts": "2026-09-23T10:38:52+00:00",
+   "ts": "2026-09-23T11:39:07+00:00",
    "issue_time": "2026-02-06T00:00",
    "step": "reflect",
    "status": "ok",
@@ -30083,23 +35459,23 @@ window.DASHBOARD_DATA = {
    "duration_ms": 35
   },
   {
-   "ts": "2026-09-23T10:38:52+00:00",
+   "ts": "2026-09-23T11:39:07+00:00",
    "issue_time": "2026-02-06T00:00",
    "step": "verify",
    "status": "ok",
    "text": "последний факт 31.01 (5 сут назад), проверка по 18.01–31.01 перенесена: nRMSE 0.232, скилл к персистентности +0.61, чистая кривая дала 0.312",
-   "duration_ms": 63
+   "duration_ms": 58
   },
   {
-   "ts": "2026-09-23T10:38:55+00:00",
+   "ts": "2026-09-23T11:39:12+00:00",
    "issue_time": "2026-02-06T00:00",
    "step": "explain",
    "status": "ok",
-   "text": "За период 07.02 00:00–23:00 средняя выработка прогнозируется на уровне 0,35 номинала; по часам она может меняться от 0 до 0,82. Ожидаются 2 часа выше 0,8 и 5 часов ниже 0,1, при этом коридор P10–P90 составляет 0,51 — прогноз по отдельным часам заметно неопределён. Ветер на высоте 100 м прогнозируется в диапазоне 1,6–12,6 м/с, температура — от −1,0 до 5,1 °C. Диспетчеру стоит следить за фактической выработкой в часы низкой и высокой мощности и сопоставлять её с прогнозом.",
-   "duration_ms": 3593
+   "text": "На 07.02 прогнозируется средняя выработка 0,35 от номинала; по часам она может меняться от 0 до 0,82. Пять часов ожидаются ниже 0,1, а два — выше 0,8; ветер прогнозируется в диапазоне 1,6–12,6 м/с, температура — от −1,0 до 5,1 °C. Риск ошибки отражает ширина коридора P10–P90: 0,51 от установленной мощности. Диспетчеру стоит следить за почасовой выработкой, особенно в часы низкого и высокого прогноза, и учитывать широкий коридор неопределённости.",
+   "duration_ms": 4347
   },
   {
-   "ts": "2026-09-23T10:38:55+00:00",
+   "ts": "2026-09-23T11:39:12+00:00",
    "issue_time": "2026-02-07T00:00",
    "step": "collect",
    "status": "ok",
@@ -30107,7 +35483,7 @@ window.DASHBOARD_DATA = {
    "duration_ms": 4
   },
   {
-   "ts": "2026-09-23T10:38:55+00:00",
+   "ts": "2026-09-23T11:39:12+00:00",
    "issue_time": "2026-02-07T00:00",
    "step": "prepare",
    "status": "ok",
@@ -30115,7 +35491,7 @@ window.DASHBOARD_DATA = {
    "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T10:38:55+00:00",
+   "ts": "2026-09-23T11:39:12+00:00",
    "issue_time": "2026-02-07T00:00",
    "step": "decide",
    "status": "ok",
@@ -30123,79 +35499,79 @@ window.DASHBOARD_DATA = {
    "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T10:38:55+00:00",
+   "ts": "2026-09-23T11:39:12+00:00",
    "issue_time": "2026-02-07T00:00",
    "step": "forecast",
    "status": "ok",
    "text": "посчитано 96 строк, средняя мощность 0.70 от номинала, коридор P10–P90 шириной 0.32",
-   "duration_ms": 37
+   "duration_ms": 33
   },
   {
-   "ts": "2026-09-23T10:38:55+00:00",
+   "ts": "2026-09-23T11:39:12+00:00",
    "issue_time": "2026-02-07T00:00",
    "step": "reflect",
    "status": "ok",
    "text": "последний факт 31.01 (6 сут назад), поправка по 18.01–31.01 перенесена: T1 -0.088±0.012, сдвигаю медиану на -0.088; T2 -0.082±0.012, сдвигаю медиану на -0.082",
-   "duration_ms": 34
+   "duration_ms": 29
   },
   {
-   "ts": "2026-09-23T10:38:55+00:00",
+   "ts": "2026-09-23T11:39:12+00:00",
    "issue_time": "2026-02-07T00:00",
    "step": "verify",
    "status": "ok",
    "text": "последний факт 31.01 (6 сут назад), проверка по 18.01–31.01 перенесена: nRMSE 0.232, скилл к персистентности +0.61, чистая кривая дала 0.312",
-   "duration_ms": 62
+   "duration_ms": 54
   },
   {
-   "ts": "2026-09-23T10:38:55+00:00",
+   "ts": "2026-09-23T11:39:12+00:00",
    "issue_time": "2026-02-08T00:00",
    "step": "collect",
    "status": "ok",
    "text": "архив прогнозов: 48 часов на 2026-02-09 — 2026-02-10, горизонты [24, 48] ч",
-   "duration_ms": 4
+   "duration_ms": 3
   },
   {
-   "ts": "2026-09-23T10:38:55+00:00",
+   "ts": "2026-09-23T11:39:12+00:00",
    "issue_time": "2026-02-08T00:00",
    "step": "prepare",
    "status": "ok",
    "text": "ряд принят: 48 часов, ветер 1.4–19.4 м/с",
-   "duration_ms": 1
+   "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T10:38:55+00:00",
+   "ts": "2026-09-23T11:39:12+00:00",
    "issue_time": "2026-02-08T00:00",
    "step": "decide",
    "status": "ok",
    "text": "новый прогон: 48 часов ещё не прогнозировались на своём горизонте, на общих часах ветер сдвинулся на 1.5 м/с",
-   "duration_ms": 1
+   "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T10:38:55+00:00",
+   "ts": "2026-09-23T11:39:12+00:00",
    "issue_time": "2026-02-08T00:00",
    "step": "forecast",
    "status": "ok",
    "text": "посчитано 96 строк, средняя мощность 0.60 от номинала, коридор P10–P90 шириной 0.45",
-   "duration_ms": 51
+   "duration_ms": 34
   },
   {
-   "ts": "2026-09-23T10:38:55+00:00",
+   "ts": "2026-09-23T11:39:12+00:00",
    "issue_time": "2026-02-08T00:00",
    "step": "reflect",
    "status": "ok",
    "text": "последний факт 31.01 (7 сут назад), поправка по 18.01–31.01 перенесена: T1 -0.088±0.012, сдвигаю медиану на -0.088; T2 -0.082±0.012, сдвигаю медиану на -0.082",
-   "duration_ms": 40
+   "duration_ms": 28
   },
   {
-   "ts": "2026-09-23T10:38:56+00:00",
+   "ts": "2026-09-23T11:39:12+00:00",
    "issue_time": "2026-02-08T00:00",
    "step": "verify",
    "status": "ok",
    "text": "последний факт 31.01 (7 сут назад), проверка по 18.01–31.01 перенесена: nRMSE 0.232, скилл к персистентности +0.61, чистая кривая дала 0.312",
-   "duration_ms": 75
+   "duration_ms": 52
   },
   {
-   "ts": "2026-09-23T10:38:56+00:00",
+   "ts": "2026-09-23T11:39:12+00:00",
    "issue_time": "2026-02-09T00:00",
    "step": "collect",
    "status": "ok",
@@ -30203,7 +35579,7 @@ window.DASHBOARD_DATA = {
    "duration_ms": 3
   },
   {
-   "ts": "2026-09-23T10:38:56+00:00",
+   "ts": "2026-09-23T11:39:12+00:00",
    "issue_time": "2026-02-09T00:00",
    "step": "prepare",
    "status": "ok",
@@ -30211,7 +35587,7 @@ window.DASHBOARD_DATA = {
    "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T10:38:56+00:00",
+   "ts": "2026-09-23T11:39:12+00:00",
    "issue_time": "2026-02-09T00:00",
    "step": "decide",
    "status": "ok",
@@ -30219,87 +35595,87 @@ window.DASHBOARD_DATA = {
    "duration_ms": 1
   },
   {
-   "ts": "2026-09-23T10:38:56+00:00",
+   "ts": "2026-09-23T11:39:12+00:00",
    "issue_time": "2026-02-09T00:00",
    "step": "forecast",
    "status": "ok",
    "text": "посчитано 96 строк, средняя мощность 0.57 от номинала, коридор P10–P90 шириной 0.52",
-   "duration_ms": 39
+   "duration_ms": 35
   },
   {
-   "ts": "2026-09-23T10:38:56+00:00",
+   "ts": "2026-09-23T11:39:12+00:00",
    "issue_time": "2026-02-09T00:00",
    "step": "reflect",
    "status": "ok",
    "text": "последний факт 31.01 (8 сут назад), поправка по 18.01–31.01 перенесена: T1 -0.088±0.012, сдвигаю медиану на -0.088; T2 -0.082±0.012, сдвигаю медиану на -0.082",
-   "duration_ms": 31
+   "duration_ms": 27
   },
   {
-   "ts": "2026-09-23T10:38:56+00:00",
+   "ts": "2026-09-23T11:39:12+00:00",
    "issue_time": "2026-02-09T00:00",
    "step": "verify",
    "status": "ok",
    "text": "последний факт 31.01 (8 сут назад), проверка по 18.01–31.01 перенесена: nRMSE 0.232, скилл к персистентности +0.61, чистая кривая дала 0.312",
-   "duration_ms": 98
+   "duration_ms": 99
   },
   {
-   "ts": "2026-09-23T10:38:56+00:00",
+   "ts": "2026-09-23T11:39:12+00:00",
    "issue_time": "2026-02-10T00:00",
    "step": "collect",
    "status": "ok",
    "text": "архив прогнозов: 48 часов на 2026-02-11 — 2026-02-12, горизонты [24, 48] ч",
-   "duration_ms": 3
+   "duration_ms": 4
   },
   {
-   "ts": "2026-09-23T10:38:56+00:00",
+   "ts": "2026-09-23T11:39:12+00:00",
    "issue_time": "2026-02-10T00:00",
    "step": "prepare",
    "status": "ok",
    "text": "ряд принят: 48 часов, ветер 0.8–17.3 м/с",
-   "duration_ms": 0
+   "duration_ms": 1
   },
   {
-   "ts": "2026-09-23T10:38:56+00:00",
+   "ts": "2026-09-23T11:39:12+00:00",
    "issue_time": "2026-02-10T00:00",
    "step": "decide",
    "status": "ok",
    "text": "новый прогон: 48 часов ещё не прогнозировались на своём горизонте, на общих часах ветер сдвинулся на 1.5 м/с",
-   "duration_ms": 0
+   "duration_ms": 1
   },
   {
-   "ts": "2026-09-23T10:38:56+00:00",
+   "ts": "2026-09-23T11:39:12+00:00",
    "issue_time": "2026-02-10T00:00",
    "step": "forecast",
    "status": "ok",
    "text": "посчитано 96 строк, средняя мощность 0.35 от номинала, коридор P10–P90 шириной 0.55",
-   "duration_ms": 172
+   "duration_ms": 37
   },
   {
-   "ts": "2026-09-23T10:38:56+00:00",
+   "ts": "2026-09-23T11:39:12+00:00",
    "issue_time": "2026-02-10T00:00",
    "step": "reflect",
    "status": "ok",
    "text": "последний факт 31.01 (9 сут назад), поправка по 18.01–31.01 перенесена: T1 -0.088±0.012, сдвигаю медиану на -0.088; T2 -0.082±0.012, сдвигаю медиану на -0.082",
-   "duration_ms": 97
+   "duration_ms": 31
   },
   {
-   "ts": "2026-09-23T10:38:56+00:00",
+   "ts": "2026-09-23T11:39:12+00:00",
    "issue_time": "2026-02-10T00:00",
    "step": "verify",
    "status": "ok",
    "text": "последний факт 31.01 (9 сут назад), проверка по 18.01–31.01 перенесена: nRMSE 0.232, скилл к персистентности +0.61, чистая кривая дала 0.312",
-   "duration_ms": 59
+   "duration_ms": 58
   },
   {
-   "ts": "2026-09-23T10:38:56+00:00",
+   "ts": "2026-09-23T11:39:12+00:00",
    "issue_time": "2026-02-11T00:00",
    "step": "collect",
    "status": "ok",
    "text": "архив прогнозов: 48 часов на 2026-02-12 — 2026-02-13, горизонты [24, 48] ч",
-   "duration_ms": 3
+   "duration_ms": 4
   },
   {
-   "ts": "2026-09-23T10:38:56+00:00",
+   "ts": "2026-09-23T11:39:12+00:00",
    "issue_time": "2026-02-11T00:00",
    "step": "prepare",
    "status": "ok",
@@ -30307,7 +35683,7 @@ window.DASHBOARD_DATA = {
    "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T10:38:56+00:00",
+   "ts": "2026-09-23T11:39:12+00:00",
    "issue_time": "2026-02-11T00:00",
    "step": "decide",
    "status": "ok",
@@ -30315,31 +35691,31 @@ window.DASHBOARD_DATA = {
    "duration_ms": 1
   },
   {
-   "ts": "2026-09-23T10:38:56+00:00",
+   "ts": "2026-09-23T11:39:12+00:00",
    "issue_time": "2026-02-11T00:00",
    "step": "forecast",
    "status": "ok",
    "text": "посчитано 96 строк, средняя мощность 0.18 от номинала, коридор P10–P90 шириной 0.40",
-   "duration_ms": 38
+   "duration_ms": 37
   },
   {
-   "ts": "2026-09-23T10:38:56+00:00",
+   "ts": "2026-09-23T11:39:12+00:00",
    "issue_time": "2026-02-11T00:00",
    "step": "reflect",
    "status": "ok",
    "text": "последний факт 31.01 (10 сут назад), поправка по 18.01–31.01 перенесена: T1 -0.088±0.012, сдвигаю медиану на -0.088; T2 -0.082±0.012, сдвигаю медиану на -0.082",
-   "duration_ms": 34
+   "duration_ms": 31
   },
   {
-   "ts": "2026-09-23T10:38:56+00:00",
+   "ts": "2026-09-23T11:39:12+00:00",
    "issue_time": "2026-02-11T00:00",
    "step": "verify",
    "status": "ok",
    "text": "последний факт 31.01 (10 сут назад), проверка по 18.01–31.01 перенесена: nRMSE 0.232, скилл к персистентности +0.61, чистая кривая дала 0.312",
-   "duration_ms": 63
+   "duration_ms": 59
   },
   {
-   "ts": "2026-09-23T10:38:56+00:00",
+   "ts": "2026-09-23T11:39:12+00:00",
    "issue_time": "2026-02-12T00:00",
    "step": "collect",
    "status": "ok",
@@ -30347,7 +35723,7 @@ window.DASHBOARD_DATA = {
    "duration_ms": 3
   },
   {
-   "ts": "2026-09-23T10:38:56+00:00",
+   "ts": "2026-09-23T11:39:12+00:00",
    "issue_time": "2026-02-12T00:00",
    "step": "prepare",
    "status": "ok",
@@ -30355,23 +35731,23 @@ window.DASHBOARD_DATA = {
    "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T10:38:56+00:00",
+   "ts": "2026-09-23T11:39:12+00:00",
    "issue_time": "2026-02-12T00:00",
    "step": "decide",
    "status": "ok",
    "text": "новый прогон: 48 часов ещё не прогнозировались на своём горизонте, на общих часах ветер сдвинулся на 1.4 м/с",
-   "duration_ms": 1
+   "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T10:38:56+00:00",
+   "ts": "2026-09-23T11:39:13+00:00",
    "issue_time": "2026-02-12T00:00",
    "step": "forecast",
    "status": "ok",
    "text": "посчитано 96 строк, средняя мощность 0.28 от номинала, коридор P10–P90 шириной 0.47",
-   "duration_ms": 36
+   "duration_ms": 39
   },
   {
-   "ts": "2026-09-23T10:38:56+00:00",
+   "ts": "2026-09-23T11:39:13+00:00",
    "issue_time": "2026-02-12T00:00",
    "step": "reflect",
    "status": "ok",
@@ -30379,71 +35755,71 @@ window.DASHBOARD_DATA = {
    "duration_ms": 31
   },
   {
-   "ts": "2026-09-23T10:38:56+00:00",
+   "ts": "2026-09-23T11:39:13+00:00",
    "issue_time": "2026-02-12T00:00",
    "step": "verify",
    "status": "ok",
    "text": "последний факт 31.01 (11 сут назад), проверка по 18.01–31.01 перенесена: nRMSE 0.232, скилл к персистентности +0.61, чистая кривая дала 0.312",
-   "duration_ms": 68
+   "duration_ms": 54
   },
   {
-   "ts": "2026-09-23T10:38:56+00:00",
+   "ts": "2026-09-23T11:39:13+00:00",
    "issue_time": "2026-02-13T00:00",
    "step": "collect",
    "status": "ok",
    "text": "архив прогнозов: 48 часов на 2026-02-14 — 2026-02-15, горизонты [24, 48] ч",
-   "duration_ms": 4
+   "duration_ms": 3
   },
   {
-   "ts": "2026-09-23T10:38:56+00:00",
+   "ts": "2026-09-23T11:39:13+00:00",
    "issue_time": "2026-02-13T00:00",
    "step": "prepare",
    "status": "ok",
    "text": "ряд принят: 48 часов, ветер 0.5–12.5 м/с",
-   "duration_ms": 1
+   "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T10:38:56+00:00",
+   "ts": "2026-09-23T11:39:13+00:00",
    "issue_time": "2026-02-13T00:00",
    "step": "decide",
    "status": "ok",
    "text": "новый прогон: 48 часов ещё не прогнозировались на своём горизонте, на общих часах ветер сдвинулся на 2.9 м/с",
-   "duration_ms": 1
+   "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T10:38:56+00:00",
+   "ts": "2026-09-23T11:39:13+00:00",
    "issue_time": "2026-02-13T00:00",
    "step": "forecast",
    "status": "ok",
    "text": "посчитано 96 строк, средняя мощность 0.42 от номинала, коридор P10–P90 шириной 0.32",
-   "duration_ms": 52
+   "duration_ms": 38
   },
   {
-   "ts": "2026-09-23T10:38:56+00:00",
+   "ts": "2026-09-23T11:39:13+00:00",
    "issue_time": "2026-02-13T00:00",
    "step": "reflect",
    "status": "ok",
    "text": "последний факт 31.01 (12 сут назад), поправка по 18.01–31.01 перенесена: T1 -0.088±0.012, сдвигаю медиану на -0.088; T2 -0.082±0.012, сдвигаю медиану на -0.082",
-   "duration_ms": 37
+   "duration_ms": 32
   },
   {
-   "ts": "2026-09-23T10:38:57+00:00",
+   "ts": "2026-09-23T11:39:13+00:00",
    "issue_time": "2026-02-13T00:00",
    "step": "verify",
    "status": "ok",
    "text": "последний факт 31.01 (12 сут назад), проверка по 18.01–31.01 перенесена: nRMSE 0.232, скилл к персистентности +0.61, чистая кривая дала 0.312",
-   "duration_ms": 64
+   "duration_ms": 60
   },
   {
-   "ts": "2026-09-23T10:39:00+00:00",
+   "ts": "2026-09-23T11:39:17+00:00",
    "issue_time": "2026-02-13T00:00",
    "step": "explain",
    "status": "ok",
-   "text": "На 14.02 прогнозируется очень низкая выработка: средняя мощность — 0,04 номинала, а 21 час из 24 — ниже 0,1; выше 0,8 часов не ожидается. Почасовые значения лежат в диапазоне 0–0,16 номинала, при ветре 0,5–5,6 м/с и температуре от −1,9 до 2,5 °C. Риск ошибки заметен: ширина коридора P10–P90 составляет 0,36, что существенно больше средней прогнозной мощности. Диспетчеру стоит следить за фактической выработкой и её отклонением от прогноза, особенно в часы с низкой ожидаемой мощностью.",
-   "duration_ms": 3836
+   "text": "14.02 ожидается низкая выработка: в среднем 0,04 от номинала, при этом 21 час из 24 мощность будет ниже 0,1; почасовой диапазон — от 0 до 0,16. Часов выше 0,8 не прогнозируется. Риск ошибки отражает широкий коридор P10–P90 — 0,36; ветер прогнозируется в диапазоне 0,5–5,6 м/с, температура — от −1,9 до 2,5 °C. Диспетчеру стоит следить за фактической выработкой относительно прогноза и изменениями ветра.",
+   "duration_ms": 3779
   },
   {
-   "ts": "2026-09-23T10:39:00+00:00",
+   "ts": "2026-09-23T11:39:17+00:00",
    "issue_time": "2026-02-14T00:00",
    "step": "collect",
    "status": "ok",
@@ -30451,7 +35827,7 @@ window.DASHBOARD_DATA = {
    "duration_ms": 4
   },
   {
-   "ts": "2026-09-23T10:39:00+00:00",
+   "ts": "2026-09-23T11:39:17+00:00",
    "issue_time": "2026-02-14T00:00",
    "step": "prepare",
    "status": "ok",
@@ -30459,7 +35835,7 @@ window.DASHBOARD_DATA = {
    "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T10:39:00+00:00",
+   "ts": "2026-09-23T11:39:17+00:00",
    "issue_time": "2026-02-14T00:00",
    "step": "decide",
    "status": "ok",
@@ -30467,39 +35843,39 @@ window.DASHBOARD_DATA = {
    "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T10:39:00+00:00",
+   "ts": "2026-09-23T11:39:17+00:00",
    "issue_time": "2026-02-14T00:00",
    "step": "forecast",
    "status": "ok",
    "text": "посчитано 96 строк, средняя мощность 0.75 от номинала, коридор P10–P90 шириной 0.33",
-   "duration_ms": 39
+   "duration_ms": 37
   },
   {
-   "ts": "2026-09-23T10:39:00+00:00",
+   "ts": "2026-09-23T11:39:17+00:00",
    "issue_time": "2026-02-14T00:00",
    "step": "reflect",
    "status": "ok",
    "text": "последний факт 31.01 (13 сут назад), поправка по 18.01–31.01 перенесена: T1 -0.088±0.012, сдвигаю медиану на -0.088; T2 -0.082±0.012, сдвигаю медиану на -0.082",
-   "duration_ms": 35
+   "duration_ms": 30
   },
   {
-   "ts": "2026-09-23T10:39:01+00:00",
+   "ts": "2026-09-23T11:39:17+00:00",
    "issue_time": "2026-02-14T00:00",
    "step": "verify",
    "status": "ok",
    "text": "последний факт 31.01 (13 сут назад), проверка по 18.01–31.01 перенесена: nRMSE 0.232, скилл к персистентности +0.61, чистая кривая дала 0.312",
-   "duration_ms": 71
+   "duration_ms": 54
   },
   {
-   "ts": "2026-09-23T10:39:01+00:00",
+   "ts": "2026-09-23T11:39:17+00:00",
    "issue_time": "2026-02-15T00:00",
    "step": "collect",
    "status": "ok",
    "text": "архив прогнозов: 48 часов на 2026-02-16 — 2026-02-17, горизонты [24, 48] ч",
-   "duration_ms": 4
+   "duration_ms": 3
   },
   {
-   "ts": "2026-09-23T10:39:01+00:00",
+   "ts": "2026-09-23T11:39:17+00:00",
    "issue_time": "2026-02-15T00:00",
    "step": "prepare",
    "status": "ok",
@@ -30507,39 +35883,39 @@ window.DASHBOARD_DATA = {
    "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T10:39:01+00:00",
+   "ts": "2026-09-23T11:39:17+00:00",
    "issue_time": "2026-02-15T00:00",
    "step": "decide",
    "status": "ok",
    "text": "новый прогон: 48 часов ещё не прогнозировались на своём горизонте, на общих часах ветер сдвинулся на 0.7 м/с",
-   "duration_ms": 1
+   "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T10:39:01+00:00",
+   "ts": "2026-09-23T11:39:17+00:00",
    "issue_time": "2026-02-15T00:00",
    "step": "forecast",
    "status": "ok",
    "text": "посчитано 96 строк, средняя мощность 0.66 от номинала, коридор P10–P90 шириной 0.45",
-   "duration_ms": 43
+   "duration_ms": 35
   },
   {
-   "ts": "2026-09-23T10:39:01+00:00",
+   "ts": "2026-09-23T11:39:17+00:00",
    "issue_time": "2026-02-15T00:00",
    "step": "reflect",
    "status": "ok",
    "text": "последний факт 31.01 (14 сут назад), поправка по 18.01–31.01 перенесена: T1 -0.088±0.012, сдвигаю медиану на -0.088; T2 -0.082±0.012, сдвигаю медиану на -0.082",
-   "duration_ms": 32
+   "duration_ms": 29
   },
   {
-   "ts": "2026-09-23T10:39:01+00:00",
+   "ts": "2026-09-23T11:39:17+00:00",
    "issue_time": "2026-02-15T00:00",
    "step": "verify",
    "status": "ok",
    "text": "последний факт 31.01 (14 сут назад), проверка по 18.01–31.01 перенесена: nRMSE 0.232, скилл к персистентности +0.61, чистая кривая дала 0.312",
-   "duration_ms": 64
+   "duration_ms": 54
   },
   {
-   "ts": "2026-09-23T10:39:01+00:00",
+   "ts": "2026-09-23T11:39:17+00:00",
    "issue_time": "2026-02-16T00:00",
    "step": "collect",
    "status": "ok",
@@ -30547,7 +35923,7 @@ window.DASHBOARD_DATA = {
    "duration_ms": 3
   },
   {
-   "ts": "2026-09-23T10:39:01+00:00",
+   "ts": "2026-09-23T11:39:17+00:00",
    "issue_time": "2026-02-16T00:00",
    "step": "prepare",
    "status": "ok",
@@ -30555,7 +35931,7 @@ window.DASHBOARD_DATA = {
    "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T10:39:01+00:00",
+   "ts": "2026-09-23T11:39:17+00:00",
    "issue_time": "2026-02-16T00:00",
    "step": "decide",
    "status": "ok",
@@ -30563,31 +35939,31 @@ window.DASHBOARD_DATA = {
    "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T10:39:01+00:00",
+   "ts": "2026-09-23T11:39:17+00:00",
    "issue_time": "2026-02-16T00:00",
    "step": "forecast",
    "status": "ok",
    "text": "посчитано 96 строк, средняя мощность 0.67 от номинала, коридор P10–P90 шириной 0.36",
-   "duration_ms": 36
+   "duration_ms": 35
   },
   {
-   "ts": "2026-09-23T10:39:01+00:00",
+   "ts": "2026-09-23T11:39:17+00:00",
    "issue_time": "2026-02-16T00:00",
    "step": "reflect",
    "status": "ok",
    "text": "последний факт 31.01 (15 сут назад), поправка по 18.01–31.01 перенесена: T1 -0.088±0.012, сдвигаю медиану на -0.088; T2 -0.082±0.012, сдвигаю медиану на -0.082",
-   "duration_ms": 34
+   "duration_ms": 31
   },
   {
-   "ts": "2026-09-23T10:39:01+00:00",
+   "ts": "2026-09-23T11:39:17+00:00",
    "issue_time": "2026-02-16T00:00",
    "step": "verify",
    "status": "ok",
    "text": "последний факт 31.01 (15 сут назад), проверка по 18.01–31.01 перенесена: nRMSE 0.232, скилл к персистентности +0.61, чистая кривая дала 0.312",
-   "duration_ms": 66
+   "duration_ms": 56
   },
   {
-   "ts": "2026-09-23T10:39:01+00:00",
+   "ts": "2026-09-23T11:39:17+00:00",
    "issue_time": "2026-02-17T00:00",
    "step": "collect",
    "status": "ok",
@@ -30595,7 +35971,7 @@ window.DASHBOARD_DATA = {
    "duration_ms": 3
   },
   {
-   "ts": "2026-09-23T10:39:01+00:00",
+   "ts": "2026-09-23T11:39:17+00:00",
    "issue_time": "2026-02-17T00:00",
    "step": "prepare",
    "status": "ok",
@@ -30603,7 +35979,7 @@ window.DASHBOARD_DATA = {
    "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T10:39:01+00:00",
+   "ts": "2026-09-23T11:39:17+00:00",
    "issue_time": "2026-02-17T00:00",
    "step": "decide",
    "status": "ok",
@@ -30611,15 +35987,15 @@ window.DASHBOARD_DATA = {
    "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T10:39:01+00:00",
+   "ts": "2026-09-23T11:39:17+00:00",
    "issue_time": "2026-02-17T00:00",
    "step": "forecast",
    "status": "ok",
    "text": "посчитано 96 строк, средняя мощность 0.65 от номинала, коридор P10–P90 шириной 0.40",
-   "duration_ms": 40
+   "duration_ms": 37
   },
   {
-   "ts": "2026-09-23T10:39:01+00:00",
+   "ts": "2026-09-23T11:39:17+00:00",
    "issue_time": "2026-02-17T00:00",
    "step": "reflect",
    "status": "ok",
@@ -30627,15 +36003,15 @@ window.DASHBOARD_DATA = {
    "duration_ms": 30
   },
   {
-   "ts": "2026-09-23T10:39:01+00:00",
+   "ts": "2026-09-23T11:39:17+00:00",
    "issue_time": "2026-02-17T00:00",
    "step": "verify",
    "status": "ok",
    "text": "последний факт 31.01 (16 сут назад), проверка по 18.01–31.01 перенесена: nRMSE 0.232, скилл к персистентности +0.61, чистая кривая дала 0.312",
-   "duration_ms": 66
+   "duration_ms": 57
   },
   {
-   "ts": "2026-09-23T10:39:01+00:00",
+   "ts": "2026-09-23T11:39:17+00:00",
    "issue_time": "2026-02-18T00:00",
    "step": "collect",
    "status": "ok",
@@ -30643,7 +36019,7 @@ window.DASHBOARD_DATA = {
    "duration_ms": 3
   },
   {
-   "ts": "2026-09-23T10:39:01+00:00",
+   "ts": "2026-09-23T11:39:17+00:00",
    "issue_time": "2026-02-18T00:00",
    "step": "prepare",
    "status": "ok",
@@ -30651,7 +36027,7 @@ window.DASHBOARD_DATA = {
    "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T10:39:01+00:00",
+   "ts": "2026-09-23T11:39:17+00:00",
    "issue_time": "2026-02-18T00:00",
    "step": "decide",
    "status": "ok",
@@ -30659,39 +36035,39 @@ window.DASHBOARD_DATA = {
    "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T10:39:01+00:00",
+   "ts": "2026-09-23T11:39:17+00:00",
    "issue_time": "2026-02-18T00:00",
    "step": "forecast",
    "status": "ok",
    "text": "посчитано 96 строк, средняя мощность 0.43 от номинала, коридор P10–P90 шириной 0.61",
-   "duration_ms": 37
+   "duration_ms": 36
   },
   {
-   "ts": "2026-09-23T10:39:01+00:00",
+   "ts": "2026-09-23T11:39:17+00:00",
    "issue_time": "2026-02-18T00:00",
    "step": "reflect",
    "status": "ok",
    "text": "последний факт 31.01 (17 сут назад), поправка по 18.01–31.01 перенесена: T1 -0.088±0.012, сдвигаю медиану на -0.088; T2 -0.082±0.012, сдвигаю медиану на -0.082",
-   "duration_ms": 32
+   "duration_ms": 31
   },
   {
-   "ts": "2026-09-23T10:39:01+00:00",
+   "ts": "2026-09-23T11:39:17+00:00",
    "issue_time": "2026-02-18T00:00",
    "step": "verify",
    "status": "ok",
    "text": "последний факт 31.01 (17 сут назад), проверка по 18.01–31.01 перенесена: nRMSE 0.232, скилл к персистентности +0.61, чистая кривая дала 0.312",
-   "duration_ms": 59
+   "duration_ms": 57
   },
   {
-   "ts": "2026-09-23T10:39:01+00:00",
+   "ts": "2026-09-23T11:39:17+00:00",
    "issue_time": "2026-02-19T00:00",
    "step": "collect",
    "status": "ok",
    "text": "архив прогнозов: 48 часов на 2026-02-20 — 2026-02-21, горизонты [24, 48] ч",
-   "duration_ms": 4
+   "duration_ms": 3
   },
   {
-   "ts": "2026-09-23T10:39:01+00:00",
+   "ts": "2026-09-23T11:39:17+00:00",
    "issue_time": "2026-02-19T00:00",
    "step": "prepare",
    "status": "ok",
@@ -30699,7 +36075,7 @@ window.DASHBOARD_DATA = {
    "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T10:39:01+00:00",
+   "ts": "2026-09-23T11:39:17+00:00",
    "issue_time": "2026-02-19T00:00",
    "step": "decide",
    "status": "ok",
@@ -30707,31 +36083,31 @@ window.DASHBOARD_DATA = {
    "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T10:39:01+00:00",
+   "ts": "2026-09-23T11:39:17+00:00",
    "issue_time": "2026-02-19T00:00",
    "step": "forecast",
    "status": "ok",
    "text": "посчитано 96 строк, средняя мощность 0.50 от номинала, коридор P10–P90 шириной 0.67",
-   "duration_ms": 38
+   "duration_ms": 35
   },
   {
-   "ts": "2026-09-23T10:39:01+00:00",
+   "ts": "2026-09-23T11:39:17+00:00",
    "issue_time": "2026-02-19T00:00",
    "step": "reflect",
    "status": "ok",
    "text": "последний факт 31.01 (18 сут назад), поправка по 18.01–31.01 перенесена: T1 -0.088±0.012, сдвигаю медиану на -0.088; T2 -0.082±0.012, сдвигаю медиану на -0.082",
-   "duration_ms": 32
+   "duration_ms": 31
   },
   {
-   "ts": "2026-09-23T10:39:01+00:00",
+   "ts": "2026-09-23T11:39:17+00:00",
    "issue_time": "2026-02-19T00:00",
    "step": "verify",
    "status": "ok",
    "text": "последний факт 31.01 (18 сут назад), проверка по 18.01–31.01 перенесена: nRMSE 0.232, скилл к персистентности +0.61, чистая кривая дала 0.312",
-   "duration_ms": 66
+   "duration_ms": 56
   },
   {
-   "ts": "2026-09-23T10:39:01+00:00",
+   "ts": "2026-09-23T11:39:17+00:00",
    "issue_time": "2026-02-20T00:00",
    "step": "collect",
    "status": "ok",
@@ -30739,7 +36115,7 @@ window.DASHBOARD_DATA = {
    "duration_ms": 3
   },
   {
-   "ts": "2026-09-23T10:39:01+00:00",
+   "ts": "2026-09-23T11:39:17+00:00",
    "issue_time": "2026-02-20T00:00",
    "step": "prepare",
    "status": "ok",
@@ -30747,23 +36123,23 @@ window.DASHBOARD_DATA = {
    "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T10:39:01+00:00",
+   "ts": "2026-09-23T11:39:17+00:00",
    "issue_time": "2026-02-20T00:00",
    "step": "decide",
    "status": "ok",
    "text": "новый прогон: 48 часов ещё не прогнозировались на своём горизонте, на общих часах ветер сдвинулся на 4.6 м/с",
-   "duration_ms": 1
+   "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T10:39:01+00:00",
+   "ts": "2026-09-23T11:39:17+00:00",
    "issue_time": "2026-02-20T00:00",
    "step": "forecast",
    "status": "ok",
    "text": "посчитано 96 строк, средняя мощность 0.48 от номинала, коридор P10–P90 шириной 0.53",
-   "duration_ms": 40
+   "duration_ms": 37
   },
   {
-   "ts": "2026-09-23T10:39:01+00:00",
+   "ts": "2026-09-23T11:39:17+00:00",
    "issue_time": "2026-02-20T00:00",
    "step": "reflect",
    "status": "ok",
@@ -30771,71 +36147,71 @@ window.DASHBOARD_DATA = {
    "duration_ms": 31
   },
   {
-   "ts": "2026-09-23T10:39:01+00:00",
+   "ts": "2026-09-23T11:39:17+00:00",
    "issue_time": "2026-02-20T00:00",
    "step": "verify",
    "status": "ok",
    "text": "последний факт 31.01 (19 сут назад), проверка по 18.01–31.01 перенесена: nRMSE 0.232, скилл к персистентности +0.61, чистая кривая дала 0.312",
-   "duration_ms": 70
+   "duration_ms": 57
   },
   {
-   "ts": "2026-09-23T10:39:04+00:00",
+   "ts": "2026-09-23T11:39:21+00:00",
    "issue_time": "2026-02-20T00:00",
    "step": "explain",
    "status": "ok",
-   "text": "За 21.02 средняя выработка ожидается на уровне 0,4 номинала; почасовые значения — от 0 до 0,81. Прогноз меняется заметно: ширина коридора P10–P90 составляет 0,53; пять часов ожидаются ниже 0,1, один час — выше 0,8. Риск ошибки связан с разбросом прогноза и широким диапазоном ветра на 100 м — 1,6–15,8 м/с. Диспетчеру стоит следить за фактической выработкой, особенно в часы низких и высоких значений.",
-   "duration_ms": 2929
+   "text": "За период 21.02 00:00–23:00 средняя выработка ожидается на уровне 0,4 номинала; почасовые значения — от 0 до 0,81. Прогноз переменный: 5 часов ниже 0,1 и 1 час выше 0,8; коридор P10–P90 составляет 0,53. Риск ошибки связан с широким коридором прогноза, а также с диапазоном ветра 1,6–15,8 м/с. Диспетчеру стоит следить за фактической выработкой в часы низкого и высокого прогноза и сопоставлять её с ветром.",
+   "duration_ms": 3686
   },
   {
-   "ts": "2026-09-23T10:39:04+00:00",
+   "ts": "2026-09-23T11:39:21+00:00",
    "issue_time": "2026-02-21T00:00",
    "step": "collect",
    "status": "ok",
    "text": "архив прогнозов: 48 часов на 2026-02-22 — 2026-02-23, горизонты [24, 48] ч",
-   "duration_ms": 7
+   "duration_ms": 4
   },
   {
-   "ts": "2026-09-23T10:39:04+00:00",
+   "ts": "2026-09-23T11:39:21+00:00",
    "issue_time": "2026-02-21T00:00",
    "step": "prepare",
    "status": "ok",
    "text": "ряд принят: 48 часов, ветер 0.3–14.5 м/с",
-   "duration_ms": 1
+   "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T10:39:04+00:00",
+   "ts": "2026-09-23T11:39:21+00:00",
    "issue_time": "2026-02-21T00:00",
    "step": "decide",
    "status": "ok",
    "text": "новый прогон: 48 часов ещё не прогнозировались на своём горизонте, на общих часах ветер сдвинулся на 3.0 м/с",
-   "duration_ms": 1
+   "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T10:39:04+00:00",
+   "ts": "2026-09-23T11:39:21+00:00",
    "issue_time": "2026-02-21T00:00",
    "step": "forecast",
    "status": "ok",
    "text": "посчитано 96 строк, средняя мощность 0.49 от номинала, коридор P10–P90 шириной 0.40",
-   "duration_ms": 51
+   "duration_ms": 39
   },
   {
-   "ts": "2026-09-23T10:39:04+00:00",
+   "ts": "2026-09-23T11:39:21+00:00",
    "issue_time": "2026-02-21T00:00",
    "step": "reflect",
    "status": "ok",
    "text": "последний факт 31.01 (20 сут назад), поправка по 18.01–31.01 перенесена: T1 -0.088±0.012, сдвигаю медиану на -0.088; T2 -0.082±0.012, сдвигаю медиану на -0.082",
-   "duration_ms": 35
+   "duration_ms": 32
   },
   {
-   "ts": "2026-09-23T10:39:04+00:00",
+   "ts": "2026-09-23T11:39:21+00:00",
    "issue_time": "2026-02-21T00:00",
    "step": "verify",
    "status": "ok",
    "text": "последний факт 31.01 (20 сут назад), проверка по 18.01–31.01 перенесена: nRMSE 0.232, скилл к персистентности +0.61, чистая кривая дала 0.312",
-   "duration_ms": 74
+   "duration_ms": 60
   },
   {
-   "ts": "2026-09-23T10:39:04+00:00",
+   "ts": "2026-09-23T11:39:21+00:00",
    "issue_time": "2026-02-22T00:00",
    "step": "collect",
    "status": "ok",
@@ -30843,55 +36219,55 @@ window.DASHBOARD_DATA = {
    "duration_ms": 4
   },
   {
-   "ts": "2026-09-23T10:39:04+00:00",
+   "ts": "2026-09-23T11:39:21+00:00",
    "issue_time": "2026-02-22T00:00",
    "step": "prepare",
    "status": "ok",
    "text": "ряд принят: 48 часов, ветер 1.1–12.8 м/с",
-   "duration_ms": 1
+   "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T10:39:04+00:00",
+   "ts": "2026-09-23T11:39:21+00:00",
    "issue_time": "2026-02-22T00:00",
    "step": "decide",
    "status": "ok",
    "text": "новый прогон: 48 часов ещё не прогнозировались на своём горизонте, на общих часах ветер сдвинулся на 2.1 м/с",
-   "duration_ms": 1
+   "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T10:39:05+00:00",
+   "ts": "2026-09-23T11:39:21+00:00",
    "issue_time": "2026-02-22T00:00",
    "step": "forecast",
    "status": "ok",
    "text": "посчитано 96 строк, средняя мощность 0.50 от номинала, коридор P10–P90 шириной 0.50",
-   "duration_ms": 48
+   "duration_ms": 38
   },
   {
-   "ts": "2026-09-23T10:39:05+00:00",
+   "ts": "2026-09-23T11:39:21+00:00",
    "issue_time": "2026-02-22T00:00",
    "step": "reflect",
    "status": "ok",
    "text": "последний факт 31.01 (21 сут назад), поправка по 18.01–31.01 перенесена: T1 -0.088±0.012, сдвигаю медиану на -0.088; T2 -0.082±0.012, сдвигаю медиану на -0.082",
-   "duration_ms": 34
+   "duration_ms": 30
   },
   {
-   "ts": "2026-09-23T10:39:05+00:00",
+   "ts": "2026-09-23T11:39:21+00:00",
    "issue_time": "2026-02-22T00:00",
    "step": "verify",
    "status": "ok",
    "text": "последний факт 31.01 (21 сут назад), проверка по 18.01–31.01 перенесена: nRMSE 0.232, скилл к персистентности +0.61, чистая кривая дала 0.312",
-   "duration_ms": 69
+   "duration_ms": 59
   },
   {
-   "ts": "2026-09-23T10:39:05+00:00",
+   "ts": "2026-09-23T11:39:21+00:00",
    "issue_time": "2026-02-23T00:00",
    "step": "collect",
    "status": "ok",
    "text": "архив прогнозов: 48 часов на 2026-02-24 — 2026-02-25, горизонты [24, 48] ч",
-   "duration_ms": 4
+   "duration_ms": 3
   },
   {
-   "ts": "2026-09-23T10:39:05+00:00",
+   "ts": "2026-09-23T11:39:21+00:00",
    "issue_time": "2026-02-23T00:00",
    "step": "prepare",
    "status": "ok",
@@ -30899,39 +36275,39 @@ window.DASHBOARD_DATA = {
    "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T10:39:05+00:00",
+   "ts": "2026-09-23T11:39:21+00:00",
    "issue_time": "2026-02-23T00:00",
    "step": "decide",
    "status": "ok",
    "text": "новый прогон: 48 часов ещё не прогнозировались на своём горизонте, на общих часах ветер сдвинулся на 1.5 м/с",
-   "duration_ms": 1
+   "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T10:39:05+00:00",
+   "ts": "2026-09-23T11:39:21+00:00",
    "issue_time": "2026-02-23T00:00",
    "step": "forecast",
    "status": "ok",
    "text": "посчитано 96 строк, средняя мощность 0.47 от номинала, коридор P10–P90 шириной 0.52",
-   "duration_ms": 41
+   "duration_ms": 39
   },
   {
-   "ts": "2026-09-23T10:39:05+00:00",
+   "ts": "2026-09-23T11:39:21+00:00",
    "issue_time": "2026-02-23T00:00",
    "step": "reflect",
    "status": "ok",
    "text": "последний факт 31.01 (22 сут назад), поправка по 18.01–31.01 перенесена: T1 -0.088±0.012, сдвигаю медиану на -0.088; T2 -0.082±0.012, сдвигаю медиану на -0.082",
-   "duration_ms": 32
+   "duration_ms": 31
   },
   {
-   "ts": "2026-09-23T10:39:05+00:00",
+   "ts": "2026-09-23T11:39:22+00:00",
    "issue_time": "2026-02-23T00:00",
    "step": "verify",
    "status": "ok",
    "text": "последний факт 31.01 (22 сут назад), проверка по 18.01–31.01 перенесена: nRMSE 0.232, скилл к персистентности +0.61, чистая кривая дала 0.312",
-   "duration_ms": 67
+   "duration_ms": 58
   },
   {
-   "ts": "2026-09-23T10:39:05+00:00",
+   "ts": "2026-09-23T11:39:22+00:00",
    "issue_time": "2026-02-24T00:00",
    "step": "collect",
    "status": "ok",
@@ -30939,7 +36315,7 @@ window.DASHBOARD_DATA = {
    "duration_ms": 3
   },
   {
-   "ts": "2026-09-23T10:39:05+00:00",
+   "ts": "2026-09-23T11:39:22+00:00",
    "issue_time": "2026-02-24T00:00",
    "step": "prepare",
    "status": "ok",
@@ -30947,7 +36323,7 @@ window.DASHBOARD_DATA = {
    "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T10:39:05+00:00",
+   "ts": "2026-09-23T11:39:22+00:00",
    "issue_time": "2026-02-24T00:00",
    "step": "decide",
    "status": "ok",
@@ -30955,39 +36331,39 @@ window.DASHBOARD_DATA = {
    "duration_ms": 1
   },
   {
-   "ts": "2026-09-23T10:39:05+00:00",
+   "ts": "2026-09-23T11:39:22+00:00",
    "issue_time": "2026-02-24T00:00",
    "step": "forecast",
    "status": "ok",
    "text": "посчитано 96 строк, средняя мощность 0.44 от номинала, коридор P10–P90 шириной 0.46",
-   "duration_ms": 41
+   "duration_ms": 37
   },
   {
-   "ts": "2026-09-23T10:39:05+00:00",
+   "ts": "2026-09-23T11:39:22+00:00",
    "issue_time": "2026-02-24T00:00",
    "step": "reflect",
    "status": "ok",
    "text": "последний факт 31.01 (23 сут назад), поправка по 18.01–31.01 перенесена: T1 -0.088±0.012, сдвигаю медиану на -0.088; T2 -0.082±0.012, сдвигаю медиану на -0.082",
-   "duration_ms": 32
+   "duration_ms": 34
   },
   {
-   "ts": "2026-09-23T10:39:05+00:00",
+   "ts": "2026-09-23T11:39:22+00:00",
    "issue_time": "2026-02-24T00:00",
    "step": "verify",
    "status": "ok",
    "text": "последний факт 31.01 (23 сут назад), проверка по 18.01–31.01 перенесена: nRMSE 0.232, скилл к персистентности +0.61, чистая кривая дала 0.312",
-   "duration_ms": 68
+   "duration_ms": 60
   },
   {
-   "ts": "2026-09-23T10:39:05+00:00",
+   "ts": "2026-09-23T11:39:22+00:00",
    "issue_time": "2026-02-25T00:00",
    "step": "collect",
    "status": "ok",
    "text": "архив прогнозов: 48 часов на 2026-02-26 — 2026-02-27, горизонты [24, 48] ч",
-   "duration_ms": 3
+   "duration_ms": 4
   },
   {
-   "ts": "2026-09-23T10:39:05+00:00",
+   "ts": "2026-09-23T11:39:22+00:00",
    "issue_time": "2026-02-25T00:00",
    "step": "prepare",
    "status": "ok",
@@ -30995,7 +36371,7 @@ window.DASHBOARD_DATA = {
    "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T10:39:05+00:00",
+   "ts": "2026-09-23T11:39:22+00:00",
    "issue_time": "2026-02-25T00:00",
    "step": "decide",
    "status": "ok",
@@ -31003,31 +36379,31 @@ window.DASHBOARD_DATA = {
    "duration_ms": 1
   },
   {
-   "ts": "2026-09-23T10:39:05+00:00",
+   "ts": "2026-09-23T11:39:22+00:00",
    "issue_time": "2026-02-25T00:00",
    "step": "forecast",
    "status": "ok",
    "text": "посчитано 96 строк, средняя мощность 0.60 от номинала, коридор P10–P90 шириной 0.58",
-   "duration_ms": 41
+   "duration_ms": 37
   },
   {
-   "ts": "2026-09-23T10:39:05+00:00",
+   "ts": "2026-09-23T11:39:22+00:00",
    "issue_time": "2026-02-25T00:00",
    "step": "reflect",
    "status": "ok",
    "text": "последний факт 31.01 (24 сут назад), поправка по 18.01–31.01 перенесена: T1 -0.088±0.012, сдвигаю медиану на -0.088; T2 -0.082±0.012, сдвигаю медиану на -0.082",
-   "duration_ms": 34
+   "duration_ms": 32
   },
   {
-   "ts": "2026-09-23T10:39:05+00:00",
+   "ts": "2026-09-23T11:39:22+00:00",
    "issue_time": "2026-02-25T00:00",
    "step": "verify",
    "status": "ok",
    "text": "последний факт 31.01 (24 сут назад), проверка по 18.01–31.01 перенесена: nRMSE 0.232, скилл к персистентности +0.61, чистая кривая дала 0.312",
-   "duration_ms": 67
+   "duration_ms": 57
   },
   {
-   "ts": "2026-09-23T10:39:05+00:00",
+   "ts": "2026-09-23T11:39:22+00:00",
    "issue_time": "2026-02-26T00:00",
    "step": "collect",
    "status": "ok",
@@ -31035,7 +36411,7 @@ window.DASHBOARD_DATA = {
    "duration_ms": 3
   },
   {
-   "ts": "2026-09-23T10:39:05+00:00",
+   "ts": "2026-09-23T11:39:22+00:00",
    "issue_time": "2026-02-26T00:00",
    "step": "prepare",
    "status": "ok",
@@ -31043,7 +36419,7 @@ window.DASHBOARD_DATA = {
    "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T10:39:05+00:00",
+   "ts": "2026-09-23T11:39:22+00:00",
    "issue_time": "2026-02-26T00:00",
    "step": "decide",
    "status": "ok",
@@ -31051,84 +36427,84 @@ window.DASHBOARD_DATA = {
    "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T10:39:05+00:00",
+   "ts": "2026-09-23T11:39:22+00:00",
    "issue_time": "2026-02-26T00:00",
    "step": "forecast",
    "status": "ok",
    "text": "посчитано 96 строк, средняя мощность 0.61 от номинала, коридор P10–P90 шириной 0.56",
-   "duration_ms": 39
+   "duration_ms": 37
   },
   {
-   "ts": "2026-09-23T10:39:05+00:00",
+   "ts": "2026-09-23T11:39:22+00:00",
    "issue_time": "2026-02-26T00:00",
    "step": "reflect",
    "status": "ok",
    "text": "последний факт 31.01 (25 сут назад), поправка по 18.01–31.01 перенесена: T1 -0.088±0.012, сдвигаю медиану на -0.088; T2 -0.082±0.012, сдвигаю медиану на -0.082",
-   "duration_ms": 33
+   "duration_ms": 34
   },
   {
-   "ts": "2026-09-23T10:39:05+00:00",
+   "ts": "2026-09-23T11:39:22+00:00",
    "issue_time": "2026-02-26T00:00",
    "step": "verify",
    "status": "ok",
    "text": "последний факт 31.01 (25 сут назад), проверка по 18.01–31.01 перенесена: nRMSE 0.232, скилл к персистентности +0.61, чистая кривая дала 0.312",
-   "duration_ms": 72
+   "duration_ms": 58
   },
   {
-   "ts": "2026-09-23T10:39:05+00:00",
+   "ts": "2026-09-23T11:39:22+00:00",
    "issue_time": "2026-02-27T00:00",
    "step": "collect",
    "status": "ok",
    "text": "архив прогнозов: 24 часов на 2026-02-28 — 2026-03-01, горизонты [24] ч",
-   "duration_ms": 5
+   "duration_ms": 3
   },
   {
-   "ts": "2026-09-23T10:39:05+00:00",
+   "ts": "2026-09-23T11:39:22+00:00",
    "issue_time": "2026-02-27T00:00",
    "step": "prepare",
    "status": "degraded",
    "text": "ряд принят с оговорками: нет суток 2026-03-01 на горизонте 48 ч — выпуск короче на сутки",
-   "duration_ms": 1
+   "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T10:39:05+00:00",
+   "ts": "2026-09-23T11:39:22+00:00",
    "issue_time": "2026-02-27T00:00",
    "step": "decide",
    "status": "ok",
    "text": "новый прогон: 24 часов ещё не прогнозировались на своём горизонте, на общих часах ветер сдвинулся на 1.8 м/с",
-   "duration_ms": 1
+   "duration_ms": 0
   },
   {
-   "ts": "2026-09-23T10:39:05+00:00",
+   "ts": "2026-09-23T11:39:22+00:00",
    "issue_time": "2026-02-27T00:00",
    "step": "forecast",
    "status": "ok",
    "text": "посчитано 48 строк, средняя мощность 0.76 от номинала, коридор P10–P90 шириной 0.45",
-   "duration_ms": 49
+   "duration_ms": 37
   },
   {
-   "ts": "2026-09-23T10:39:05+00:00",
+   "ts": "2026-09-23T11:39:22+00:00",
    "issue_time": "2026-02-27T00:00",
    "step": "reflect",
    "status": "ok",
    "text": "последний факт 31.01 (26 сут назад), поправка по 18.01–31.01 перенесена: T1 -0.088±0.012, сдвигаю медиану на -0.088; T2 -0.082±0.012, сдвигаю медиану на -0.082",
-   "duration_ms": 41
+   "duration_ms": 31
   },
   {
-   "ts": "2026-09-23T10:39:05+00:00",
+   "ts": "2026-09-23T11:39:22+00:00",
    "issue_time": "2026-02-27T00:00",
    "step": "verify",
    "status": "ok",
    "text": "последний факт 31.01 (26 сут назад), проверка по 18.01–31.01 перенесена: nRMSE 0.232, скилл к персистентности +0.61, чистая кривая дала 0.312",
-   "duration_ms": 75
+   "duration_ms": 59
   },
   {
-   "ts": "2026-09-23T10:39:08+00:00",
+   "ts": "2026-09-23T11:39:25+00:00",
    "issue_time": "2026-02-27T00:00",
    "step": "explain",
    "status": "ok",
-   "text": "За 28.02 средняя выработка ожидается на уровне 0,68 номинала; почасовые значения — от 0,39 до 0,84, при этом 4 часа прогноз выше 0,8 и ни одного часа ниже 0,1. Ветер на высоте 100 м прогнозируется в диапазоне 6,5–13,5 м/с, температура — от −11 до −8 °C. Риск ошибки отражает ширина коридора P10–P90: 0,45 доли установленной мощности. Диспетчеру стоит следить за фактической выработкой относительно прогноза и коридора P10–P90.",
-   "duration_ms": 3006
+   "text": "За 28.02 средняя выработка ожидается на уровне 0,68 установленной мощности; почасовые значения — от 0,39 до 0,84. Выше 0,8 прогнозируется 4 часа, ниже 0,1 — ни одного; ветер ожидается 6,5–13,5 м/с, температура — от −11 до −8 °C. Риск ошибки отражает ширина коридора P10–P90: 0,45 доли мощности. Диспетчеру стоит следить за фактической выработкой относительно прогноза, особенно в часы высоких значений.",
+   "duration_ms": 3416
   }
  ],
  "economics": {

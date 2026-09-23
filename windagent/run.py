@@ -91,7 +91,9 @@ def export_json(result: dict) -> Path:
          'issue_time': r.issue_time.strftime('%Y-%m-%dT%H:%M'),
          'p10': round(float(r.p10), 4), 'p50': round(float(r.p50), 4), 'p90': round(float(r.p90), 4),
          'actual': None if pd.isna(r.actual) else round(float(r.actual), 4),
-         'curve': round(float(r.curve), 4)}
+         'curve': round(float(r.curve), 4),
+         'wind_speed_100m': None if pd.isna(r.wind_speed_100m) else round(float(r.wind_speed_100m), 2),
+         'wind_direction_100m': None if pd.isna(r.wind_direction_100m) else round(float(r.wind_direction_100m), 1)}
         for r in rows.itertuples(index=False)
     ]
     scores = _scores(result)

@@ -164,6 +164,8 @@ def forecast(window: pd.DataFrame, journal: list, ctx: dict, issue_time: pd.Time
         parts.append(table)
     table = pd.concat(parts, ignore_index=True)
     predicted = mdl.apply_bounds(mdl.predict(ctx['models'], table), ctx['offsets'])
+    predicted[['wind_speed_100m', 'wind_direction_100m']] = table[
+        ['wind_speed_100m', 'wind_direction_100m']].to_numpy()
     _note(journal, issue_time, 'forecast', 'ok',
           f'посчитано {len(predicted)} строк, средняя мощность {predicted.p50.mean():.2f} от номинала, '
           f'коридор P10–P90 шириной {(predicted.p90 - predicted.p10).mean():.2f}', started)

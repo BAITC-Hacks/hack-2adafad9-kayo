@@ -1,0 +1,41 @@
+.forecast3d { color:#182332; }
+.forecast3d *, .forecast3d *::before, .forecast3d *::after { box-sizing:border-box; }
+.forecast3d-head { position:absolute; z-index:2; top:24px; left:24px; right:24px; display:flex; align-items:center; justify-content:space-between; gap:12px; }
+.forecast3d-head h3 { margin:0 0 4px; font-size:16px; }
+.forecast3d-meta,.forecast3d-note { margin:0; color:#647386; font-size:14px; }
+.forecast3d button { border:0; border-radius:8px; padding:9px 14px; background:#fff; color:#146e5a; font:inherit; font-size:14px; cursor:pointer; }
+.forecast3d :focus-visible { outline:2px solid #146e5a; outline-offset:3px; }
+.forecast3d-stage { position:relative; height:100svh; min-height:640px; overflow:hidden; border-radius:28px; corner-shape:squircle; background:#e8efed; isolation:isolate; }
+.forecast3d-scene { display:block; position:relative; z-index:1; width:100%; height:100%; touch-action:pan-y; cursor:grab; }
+.forecast3d-webgl { position:absolute; inset:0; width:100%; height:100%; }
+.forecast3d-scene:active { cursor:grabbing; }
+.forecast3d-panel { position:absolute; z-index:2; top:100px; width:226px; padding:16px 18px 12px; border-radius:8px; background:rgba(255,255,255,.9); box-shadow:0 8px 24px rgba(30,49,39,.055); backdrop-filter:blur(10px); pointer-events:none; }
+.forecast3d-panel[data-turbine=T1] { left:24px; }
+.forecast3d-panel[data-turbine=T2] { right:24px; }
+.forecast3d-panel, .forecast3d-timeline { border-radius:28px; corner-shape:squircle; }
+.forecast3d-panel-name { font-size:14px; font-weight:600; }
+.forecast3d-value { display:block; color:#146e5a; font-size:32px; line-height:1.25; letter-spacing:-.035em; margin:4px 0; }
+.forecast3d-band-label { display:block; font-size:14px; color:#647386; }
+.forecast3d-spark { display:block; width:100%; height:58px; margin-top:10px; overflow:visible; }
+.forecast3d-spark-caption { display:flex; justify-content:space-between; font-size:14px; color:#647386; }
+.forecast3d-timeline { position:absolute; z-index:2; bottom:22px; left:24px; right:24px; padding:14px 18px; background:rgba(255,255,255,.91); border-radius:28px; corner-shape:squircle; backdrop-filter:blur(10px); }
+.forecast3d-time-head { display:flex; align-items:center; gap:12px; justify-content:space-between; }
+.forecast3d-time { font-size:16px; font-weight:600; }
+.forecast3d-timeline button { background:#edf3f0; padding:8px 12px; }
+.forecast3d-range { display:block; width:100%; margin:12px 0 4px; accent-color:#146e5a; cursor:pointer; }
+.forecast3d-limits { display:flex; justify-content:space-between; gap:8px; color:#647386; font-size:14px; }
+.forecast3d-note { margin:8px 0 0; font-size:12px; }
+@media(max-width:600px) {
+ .forecast3d-stage { min-height:700px; }
+ .forecast3d-head { top:14px; left:14px; right:14px; align-items:flex-start; }
+ .forecast3d-head h3 { font-size:14px; max-width:220px; }
+ .forecast3d-meta { font-size:12px; }
+ .forecast3d-head button { padding:7px 9px; font-size:12px; }
+ .forecast3d-panel { top:88px; width:calc(50% - 21px); padding:10px; }
+ .forecast3d-panel[data-turbine=T1] { left:14px; }
+ .forecast3d-panel[data-turbine=T2] { right:14px; }
+ .forecast3d-spark { height:44px; margin-top:6px; }
+ .forecast3d-band-label,.forecast3d-spark-caption { font-size:12px; }
+ .forecast3d-timeline { bottom:14px; left:14px; right:14px; padding:12px; }
+ .forecast3d-limits { font-size:12px; }
+}

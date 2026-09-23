@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="color-scheme" content="light">
 <link rel="icon" href="data:,">
+<link rel="stylesheet" href="forecast3d.css">
 <title>Прогноз выработки ВЭС</title>
 <style>
   :root {
@@ -36,44 +37,20 @@
     font: var(--fs-m)/1.5 -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
   }
-  .page { max-width: 1240px; margin: 0 auto; padding: 24px 28px 80px; }
+  .page { max-width: 1240px; margin: 0 auto; padding: 16px 28px 80px; }
   [hidden] { display: none !important; }
   button { font: inherit; color: inherit; }
 
-  .topbar {
-    display: flex; align-items: center; justify-content: space-between; gap: 16px;
-    min-height: 42px; margin-bottom: 20px; color: var(--text-2); font-size: var(--fs-s);
+  /* ---- сцена занимает первый экран, отчёт начинается ниже ---- */
+  .scene-hero {
+    width: calc(100vw - 32px); margin: 0 0 16px calc(50% - 50vw + 16px);
   }
-  .brand { display: flex; align-items: center; gap: 10px; color: var(--text); font-weight: 700; letter-spacing: .04em; }
-  .brand-mark { display: grid; place-items: center; width: 32px; height: 32px; border-radius: var(--r-s); background: var(--accent); color: #fff; }
-  .topbar .edition { color: var(--text-3); text-align: right; }
-
-  /* ---- первый экран: задача слева, актуальный выпуск справа ---- */
-  .hero {
-    display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(280px, .7fr); gap: 36px;
-    background: var(--bg); border-radius: var(--r-m); corner-shape: squircle;
-    box-shadow: 0 12px 32px rgba(24, 35, 50, .045);
-    padding: 40px 42px; align-items: stretch;
-  }
+  #spatial-block .forecast3d-stage { height: calc(100svh - 32px); min-height: 590px; }
+  .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
   .kicker {
     font-size: var(--fs-s); color: var(--accent); font-weight: 700; text-transform: uppercase; letter-spacing: .08em;
-    margin: 0 0 18px;
+    margin: 0 0 10px;
   }
-  h1 {
-    font-size: var(--fs-l); font-weight: 700; line-height: 1.18; letter-spacing: -.025em;
-    max-width: 720px; margin: 0 0 18px;
-  }
-  .hero-lead { max-width: 600px; margin: 0 0 22px; color: var(--text-2); }
-  .meta { font-size: var(--fs-s); color: var(--text-3); margin: 0; }
-  .meta b { color: var(--text-2); font-weight: 500; }
-
-  .latest { border-left: 1px solid var(--line); padding-left: 36px; display: flex; flex-direction: column; justify-content: center; }
-  .latest .label { color: var(--text-3); text-transform: uppercase; font-size: var(--fs-s); font-weight: 700; letter-spacing: .06em; }
-  .latest .v { color: var(--accent); font-size: var(--fs-xl); line-height: 1.05; font-weight: 700; letter-spacing: -.04em; margin: 14px 0 6px; }
-  .latest .k { font-weight: 700; }
-  .latest .n { color: var(--text-2); font-size: var(--fs-s); margin-top: 8px; }
-  .latest a { color: var(--accent); font-size: var(--fs-s); text-decoration: none; font-weight: 600; margin-top: 20px; }
-  .latest a:hover { text-decoration: underline; }
 
   /* ---- проверка качества на отложенном периоде ---- */
   .quality { background: var(--bg); border-radius: var(--r-m); corner-shape: squircle; box-shadow: 0 12px 32px rgba(24, 35, 50, .045); margin: 16px 0; padding: 26px 32px 30px; }
@@ -270,8 +247,6 @@
   .empty code { background: var(--line-soft); padding: 1px 6px; border-radius: var(--r-s); color: var(--text); }
 
   @media (max-width: 960px) {
-    .hero { grid-template-columns: 1fr; }
-    .latest { border-left: 0; border-top: 1px solid var(--line); padding: 24px 0 0; }
     .section { grid-template-columns: minmax(0, 1fr); gap: 16px; }
     .section-head { position: static; }
     .cycle { grid-template-columns: 1fr; gap: 22px 0; padding-top: 0; padding-left: 28px; }
@@ -282,11 +257,9 @@
   }
   @media (max-width: 720px) {
     :root { --fs-xl: 48px; --fs-l: 28px; }
-    .page { padding: 12px 12px 40px; }
-    .topbar { padding: 0 4px; margin-bottom: 12px; }
-    .topbar .edition { font-size: var(--fs-s); }
-    .hero { padding: 28px 22px; gap: 20px; }
-    .hero-lead { margin-bottom: 16px; }
+    .page { padding: 8px 12px 40px; }
+    .scene-hero { width: calc(100vw - 16px); margin-left: calc(50% - 50vw + 8px); }
+    #spatial-block .forecast3d-stage { height: calc(100svh - 16px); min-height: 620px; }
     .quality { padding: 24px 22px; }
     .kpis { grid-template-columns: repeat(3, 1fr); gap: 20px 12px; margin-top: 24px; }
     .kpi.main { grid-column: 1 / -1; }
@@ -306,26 +279,6 @@
 </head>
 <body>
 <div class="page">
-  <div class="topbar">
-    <div class="brand"><span class="brand-mark">H</span><span>HACKALEM / WINDAGENT</span></div>
-    <span class="edition">Прогноз ветропарка · отчёт для диспетчера</span>
-  </div>
-  <header class="hero">
-    <div>
-      <p class="kicker">Прогноз выработки ВЭС</p>
-      <h1>Сколько энергии дадут две турбины завтра и послезавтра</h1>
-      <p class="hero-lead">Агент берёт архивный прогноз погоды, рассчитывает почасовую выработку и объясняет, когда прогнозу стоит доверять.</p>
-      <p class="meta" id="meta">загрузка данных…</p>
-    </div>
-    <aside class="latest" id="latest" hidden>
-      <div class="label">Последний выпуск · 24 часа</div>
-      <div class="v" id="latest-value"></div>
-      <div class="k">ожидаемая средняя выработка</div>
-      <div class="n" id="latest-note"></div>
-      <a href="#chart-block">Смотреть почасовой прогноз →</a>
-    </aside>
-  </header>
-
   <div id="empty" class="empty" hidden>
     <p>Нет данных прогноза. Ожидается файл <code>web/data.json</code> рядом со страницей.</p>
     <p>Если страница открыта двойным кликом, браузер может не пустить её к файлу. Тогда либо положите
@@ -334,6 +287,11 @@
   </div>
 
   <main id="main" hidden>
+    <section class="scene-hero" id="spatial-block" aria-label="Интерактивная 3D-сцена с прогнозом двух турбин" hidden>
+      <h1 class="sr-only">Прогноз выработки двух турбин ВЭС на 48 часов</h1>
+      <div id="forecast-3d"></div>
+    </section>
+
     <section class="quality" id="quality-block" hidden>
       <div class="quality-head">
         <h2>Насколько точен прогноз</h2>
@@ -432,6 +390,7 @@
 </div>
 
 <script src="data.js" onerror="void 0"></script>
+<script src="forecast3d.js" onerror="void 0"></script>
 <script>
 (function () {
   'use strict';
@@ -565,29 +524,6 @@
 
   // ---- шапка
 
-  function renderMeta(data) {
-    var parts = [];
-    var site = data.site || {};
-    if (site.name) {
-      var b = h('b', null, site.name);
-      parts.push(b);
-    }
-    if (valid(site.lat) && valid(site.lon)) parts.push(fmtNum(site.lat, 3) + ' / ' + fmtNum(site.lon, 3));
-    var period = data.period || {};
-    var from = /^\d{4}-\d{2}-\d{2}/.exec(period.start || '');
-    var to = /^\d{4}-\d{2}-\d{2}/.exec(period.end || '');
-    if (from && to) parts.push('прогноз на ' + from[0].slice(8, 10) + '.' + from[0].slice(5, 7) +
-      ' — ' + to[0].slice(8, 10) + '.' + to[0].slice(5, 7));
-
-    var host = document.getElementById('meta');
-    host.textContent = '';
-    parts.forEach(function (part, i) {
-      if (i > 0) host.appendChild(document.createTextNode(' · '));
-      host.appendChild(typeof part === 'string' ? document.createTextNode(part) : part);
-    });
-    if (!parts.length) host.hidden = true;
-  }
-
   function shortDay(s) {
     return s && /^\d{4}-\d{2}-\d{2}/.test(s) ? s.slice(8, 10) + '.' + s.slice(5, 7) + '.' + s.slice(0, 4) : '';
   }
@@ -597,24 +533,6 @@
     var label = shortDay(period.start) && shortDay(period.end)
       ? shortDay(period.start) + ' — ' + shortDay(period.end) : 'отложенный период';
     document.getElementById('quality-period').textContent = 'Проверка на данных ' + label + '. Меньше ошибка — лучше.';
-  }
-
-  function renderLatest() {
-    var rows = state.data.forecast || [];
-    var issues = uniq(rows.map(function (r) { return r.issue_time; })).sort();
-    var last = issues[issues.length - 1];
-    var candidates = rows.filter(function (r) { return r.issue_time === last && r.lead_h === 24 && valid(r.p50); });
-    var host = document.getElementById('latest');
-    if (!candidates.length) { host.hidden = true; return; }
-    var mean = candidates.reduce(function (sum, r) { return sum + r.p50; }, 0) / candidates.length;
-    var days = uniq(candidates.map(function (r) { return (r.time || '').slice(0, 10); })).sort();
-    var turbines = uniq(candidates.map(function (r) { return r.turbine; }));
-    document.getElementById('latest-value').textContent = Math.round(mean * 100) + ' %';
-    document.getElementById('latest-note').textContent =
-      (days.length ? days[0].slice(8, 10) + '.' + days[0].slice(5, 7) + '.' + days[0].slice(0, 4) + ' · ' : '') +
-      turbines.length + ' ' + plural(turbines.length, 'турбина', 'турбины', 'турбин') +
-      ' · доля от номинальной мощности';
-    host.hidden = false;
   }
 
   // ---- показатели: ошибка на сутки — главный, вдвое весомее остальных
@@ -1245,9 +1163,11 @@
     var hasAnything = (data.forecast || []).length || (data.metrics || []).length || (data.agent_log || []).length;
     if (!hasAnything) throw new Error('empty');
     document.getElementById('main').hidden = false;
-    renderMeta(data);
     renderValidationPeriod();
-    renderLatest();
+    if (window.Forecast3D && (data.forecast || []).length) {
+      document.getElementById('spatial-block').hidden = false;
+      window.Forecast3D.mount(document.getElementById('forecast-3d'), data.forecast);
+    }
     renderKpis();
     state.issues = buildIssues(data.agent_log || []);
     renderCycle();
@@ -1255,8 +1175,8 @@
     renderMetrics();
     renderLog();
     renderEcon();
-  }).catch(function () {
-    document.getElementById('meta').textContent = 'данные не загрузились';
+  }).catch(function (error) {
+    console.error(error);
     document.getElementById('empty').hidden = false;
   });
 
