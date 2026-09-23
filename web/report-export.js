@@ -81,6 +81,7 @@
   function notes(report) {
     const p = report.payload;
     return [
+      ['Система', 'Samal — прогноз выработки ВЭС для «Самрук-Казына»'],
       ['Площадка', p.site?.name || 'ВЭС'], ['Выбор', report.title],
       ['Доступные часы', report.all ? 'Все часы периода, все доступные выпуски.' : new Set(report.rows.map(row => row.time)).size + ' из 48 часов. На границе периода выпуск может быть неполным.'],
       ['Создано (UTC)', p.generated_at || ''],

@@ -37,7 +37,7 @@
     doc.addFileToVFS('DejaVuSans.ttf', window.WindPDFFont);
     doc.addFont('DejaVuSans.ttf', 'WindSans', 'normal');
     doc.setFont('WindSans', 'normal');
-    doc.setProperties({title: 'Прогноз выработки ВЭС', subject: safe(report.title), author: 'Wind Forecast'});
+    doc.setProperties({title: 'Samal — прогноз выработки ВЭС', subject: safe(report.title), author: 'Samal'});
     const left = 14, width = 182, bottom = 279;
     let y = 18;
     const payload = report.payload || {};
@@ -61,7 +61,7 @@
       y = doc.lastAutoTable.finalY + 6;
     }
 
-    paragraph('WIND / ОТЧЁТ СОБСТВЕННИКУ', 9, 65);
+    paragraph('Samal / Для «Самрук-Казына» / Отчёт собственнику', 9, 65);
     paragraph(payload.site?.name || 'Прогноз выработки ВЭС', 20, 30);
     paragraph(report.title || (report.all ? 'Весь период поставки' : 'Выпуск ' + local(report.issued) + ' (UTC+5)'), 11);
     paragraph('Отчёт сформирован: ' + local(new Date().toISOString()) + ' (UTC+5). Данные прогона: ' + (payload.generated_at || 'не указано') + '.', 8);

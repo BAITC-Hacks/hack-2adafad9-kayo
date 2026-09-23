@@ -28,7 +28,7 @@
     const stage=el('div','forecast3d-stage'),canvas=el('canvas','forecast3d-scene',undefined,stage);
     const mapHost=el('div','forecast3d-map',undefined,stage);mapHost.setAttribute('aria-hidden','true');mapHost.inert=true;
     const head=el('div','forecast3d-head',undefined,stage),heading=el('div','',undefined,head);
-    el('h3','','Прогноз на площадке · '+times.length+' часов',heading);
+    el('h3','','Samal · прогноз на '+times.length+' часов',heading);
     el('p','forecast3d-meta','Выпуск '+local(utc(selected[0]))+' · UTC+5',heading);
     const controls=el('div','forecast3d-controls',undefined,head),views=el('div','forecast3d-views',undefined,controls);views.setAttribute('role','group');views.setAttribute('aria-label','Вид площадки');
     const perspective=el('button','forecast3d-volume','3D-сцена',views),overhead=el('button','forecast3d-map-button','Карта',views);perspective.type=overhead.type='button';perspective.setAttribute('aria-pressed','true');overhead.setAttribute('aria-pressed','false');
