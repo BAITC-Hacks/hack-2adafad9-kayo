@@ -31,8 +31,8 @@
     el('h3','','Прогноз на площадке · '+times.length+' часов',heading);
     el('p','forecast3d-meta','Выпуск '+local(utc(selected[0]))+' · UTC+5',heading);
     const controls=el('div','forecast3d-controls',undefined,head),views=el('div','forecast3d-views',undefined,controls);views.setAttribute('role','group');views.setAttribute('aria-label','Вид площадки');
-    const perspective=el('button','','3D-сцена',views),overhead=el('button','','Карта',views);perspective.type=overhead.type='button';perspective.setAttribute('aria-pressed','true');overhead.setAttribute('aria-pressed','false');
-    const reset=el('button','','Сбросить вид',controls);reset.type='button';reset.title='Перетаскивайте сцену, чтобы повернуть камеру. Сброс возвращает исходный ракурс выбранного вида.';
+    const perspective=el('button','forecast3d-volume','3D-сцена',views),overhead=el('button','forecast3d-map-button','Карта',views);perspective.type=overhead.type='button';perspective.setAttribute('aria-pressed','true');overhead.setAttribute('aria-pressed','false');
+    const reset=el('button','forecast3d-reset','Сбросить вид',controls);reset.type='button';reset.title='Перетаскивайте сцену, чтобы повернуть камеру. Сброс возвращает исходный ракурс выбранного вида.';
     const mapStatus=el('div','forecast3d-map-status','',stage);mapStatus.hidden=true;mapStatus.setAttribute('role','status');
     const mapZoom=el('div','forecast3d-map-zoom',undefined,stage);mapZoom.hidden=true;
     const zoomIn=el('button','','+',mapZoom),zoomOut=el('button','','−',mapZoom);zoomIn.type=zoomOut.type='button';zoomIn.setAttribute('aria-label','Приблизить карту');zoomOut.setAttribute('aria-label','Отдалить карту');

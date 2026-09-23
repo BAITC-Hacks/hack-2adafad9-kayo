@@ -1,0 +1,4 @@
+jsPDF 4.2.1 — https://github.com/parallax/jsPDF/tree/v4.2.1 (MIT)
+jsPDF-AutoTable 5.0.8 — https://github.com/simonbengtsson/jsPDF-AutoTable/tree/v5.0.8 (MIT)
+DejaVu Sans 2.37 — https://github.com/dejavu-fonts/dejavu-fonts/releases/tag/version_2_37 (Bitstream Vera / DejaVu; complete license alongside)
+All assets are local. No CDN is used at runtime. dejavu-font.js contains the unchanged TTF as base64 for offline file/http use.

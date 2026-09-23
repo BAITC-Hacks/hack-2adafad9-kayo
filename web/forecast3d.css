@@ -46,8 +46,13 @@
 .forecast3d-wind { display:flex; flex-direction:column; align-items:flex-end; gap:2px; }
 .forecast3d-wind-value { font-size:16px; color:#146e5a; font-weight:600; font-variant-numeric:tabular-nums; white-space:nowrap; }
 .forecast3d-timeline .forecast3d-play { display:flex; align-items:center; justify-content:center; gap:8px; min-width:86px; min-height:42px; background:#146e5a; color:#fff; padding:10px 14px; }
-.forecast3d-play::before { content:''; width:0; height:0; border-block:5px solid transparent; border-left:7px solid currentColor; }
-.forecast3d-play[aria-pressed=true]::before { width:7px; height:10px; border-block:0; border-inline:2px solid currentColor; }
+.forecast3d-controls button { display:inline-flex; align-items:center; justify-content:center; gap:6px; }
+.forecast3d-controls button::before,.forecast3d-play::before { content:''; width:18px; height:18px; flex:none; background:currentColor; mask:var(--icon) center / contain no-repeat; }
+.forecast3d-volume { --icon:url('./icons/cube.svg'); }
+.forecast3d-map-button { --icon:url('./icons/map-line.svg'); }
+.forecast3d-reset { --icon:url('./icons/refresh-horizontal.svg'); }
+.forecast3d-play { --icon:url('./icons/play.svg'); }
+.forecast3d-play[aria-pressed=true] { --icon:url('./icons/pause.svg'); }
 .forecast3d-range { --position:0%; display:block; appearance:none; -webkit-appearance:none; width:100%; height:32px; margin:6px 0 0; border:0; border-radius:8px; background:transparent; cursor:pointer; }
 .forecast3d-range::-webkit-slider-runnable-track { height:4px; border-radius:8px; background:linear-gradient(to right,#146e5a var(--position),#dce6e1 var(--position)); }
 .forecast3d-range::-moz-range-track { height:4px; border-radius:8px; background:linear-gradient(to right,#146e5a var(--position),#dce6e1 var(--position)); }

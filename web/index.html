@@ -6,7 +6,7 @@
 <meta name="color-scheme" content="light">
 <link rel="icon" href="data:,">
 <link rel="stylesheet" href="forecast3d.css">
-<link rel="stylesheet" href="report-export.css">
+<script src="pdf-report.js" defer></script>
 <script src="report-export.js" defer></script>
 <title>Прогноз выработки ВЭС</title>
 <style>
@@ -269,7 +269,9 @@
   .seg button[aria-pressed="true"] { background: #fff; color: var(--accent); box-shadow: 0 1px 4px rgba(20,50,35,.08); }
   .issue-nav button, .issue-nav select { border: 0; background: #f0f3f1; min-height: 38px; }
   .issue-nav button { width: 38px; }
-  .filter { display: flex; flex-direction: column; gap: 6px; }
+  .filter { display: flex; flex-direction: column; gap: 6px; flex:0 0 auto; max-width:100%; }
+  .filter .seg { display:flex; }
+  .filter .seg button { flex:1 1 0; white-space:nowrap; }
   .filter-label { font-size: var(--fs-s); color: var(--text-3); }
   .toolbar { gap: 16px 24px; align-items: end; }
   #chart-block { grid-template-columns: minmax(0, 1fr); gap: 24px; }
@@ -287,11 +289,20 @@
   .export-toolbar { display:flex; flex-wrap:wrap; gap:8px; align-items:center; padding:0 8px 20px; }
   .export-toolbar button,.export-toolbar select { border:0; border-radius:var(--r-s); background:#fff; color:var(--accent); font:inherit; font-size:var(--fs-s); padding:10px 14px; cursor:pointer; min-height:42px; }
   .export-toolbar select { color:var(--text-2); }
+  .export-toolbar button { display:inline-flex; align-items:center; gap:8px; }
+  .export-toolbar button::before { content:''; width:18px; height:18px; flex:none; background:currentColor; mask:var(--icon) center / contain no-repeat; }
+  #exportExcel { --icon:url('./icons/table.svg'); }
+  #exportPdf { --icon:url('./icons/file-text.svg'); }
+  #exportIssue { max-width:100%; }
   .export-issue { font-size:var(--fs-s); color:var(--text-3); margin-left:auto; }
   .effect-values { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:24px; }
   .effect-value strong { display:block; font-size:var(--fs-l); letter-spacing:-.025em; color:var(--accent); line-height:1.2; margin-bottom:8px; }
   .effect-value span { font-size:var(--fs-s); color:var(--text-2); }
   .effect-value .effect-label { display:block; margin-bottom:12px; font-weight:600; color:var(--text); }
+  .money-settings { display:flex; flex-wrap:wrap; gap:16px 24px; margin-bottom:28px; }
+  .money-settings label { display:flex; flex-direction:column; gap:8px; font-size:var(--fs-s); color:var(--text-2); }
+  .money-settings input { width:160px; max-width:100%; border:0; border-radius:var(--r-s); background:var(--page); color:var(--text); padding:10px 12px; font:inherit; min-height:42px; }
+  .money-period { font-size:var(--fs-s); color:var(--text-2); margin-bottom:20px; }
 
   @media (max-width: 960px) {
     .section { grid-template-columns: minmax(0, 1fr); gap: 16px; }
@@ -378,6 +389,7 @@
     <nav class="report-nav" aria-label="Разделы отчёта">
       <a href="#quality-block">Точность</a>
       <a href="#chart-block">Прогноз по часам</a>
+      <a href="#money-block">Экономика</a>
       <a href="#econ-block">Эффект</a>
       <a href="#cycle-block">Как работает агент</a>
       <a href="#metrics-block">Сравнение</a>
@@ -386,6 +398,8 @@
     <div class="export-toolbar" aria-label="Экспорт отчёта">
       <label class="sr-only" for="exportScope">Период отчёта</label>
       <select id="exportScope"><option value="issue">Выбранный выпуск</option><option value="all">Весь период</option></select>
+      <label class="sr-only" for="exportIssue">Выпуск для экспорта · UTC+5</label>
+      <select id="exportIssue" aria-label="Выпуск для экспорта · UTC+5"></select>
       <button type="button" id="exportExcel">Скачать Excel</button>
       <button type="button" id="exportPdf">Сохранить PDF</button>
       <span class="export-issue" id="exportIssueLabel"></span>
@@ -427,10 +441,27 @@
       </div>
     </section>
 
+    <section class="section econ" id="money-block" hidden>
+      <div class="section-head">
+        <span class="section-index">Сценарная оценка · весь месяц</span>
+        <h2>Стоимость ошибки прогноза</h2>
+        <p>Допущения: номинал турбин и условия договора не заданы. Измените параметры, чтобы оценить свой сценарий.</p>
+      </div>
+      <div>
+        <div class="money-settings">
+          <label for="economicsCapacity">Номинал одной турбины, МВт<input id="economicsCapacity" type="number" min="0.01" step="0.01" inputmode="decimal"></label>
+          <label for="economicsPenalty">Цена ошибки, ₸/МВт·ч<input id="economicsPenalty" type="number" min="0" step="1000" inputmode="decimal"></label>
+        </div>
+        <p class="money-period" id="money-period"></p>
+        <div class="effect-values" id="money-values" aria-live="polite"></div>
+        <p class="assume">Оценка по средней абсолютной ошибке прогноза на 24 ч на проверочном периоде, без простоев. Это не фактическая выручка, прибыль или достигнутая экономия. Ошибки турбин суммируются без взаимозачёта; цена ошибки — условная.</p>
+        <details><summary>Как рассчитано</summary><p class="assume" id="money-method"></p></details>
+      </div>
+    </section>
     <section class="section econ" id="econ-block" hidden>
       <div class="section-head">
         <h2>Эффект для планирования</h2>
-        <p>Сравнение с прогнозом «как вчера», который получает факт каждый день.</p>
+        <p>Точность прогноза и надёжность диапазона на проверочном периоде.</p>
       </div>
       <div>
         <div class="effect-values" id="econ-text"></div>
@@ -525,7 +556,7 @@
   var nf = new Intl.NumberFormat('ru-RU');
   var state = {
     data: null, turbine: null, lead: null, days: null, showCurve: false, points: [],
-    issues: [], issue: 0, barLead: null, issuesShown: 5
+    issues: [], issue: 0, barLead: null, issuesShown: 5, economics: null
   };
 
   // ---- загрузка: data.js работает при открытии файлом, data.json — с сервера; ?data=… для проверок
@@ -718,6 +749,17 @@
 
   // ---- цикл агента
 
+  function updateExportScope() {
+    var all=document.getElementById('exportScope').value==='all';
+    var select=document.getElementById('exportIssue');
+    select.hidden=all || !select.options.length; select.disabled=select.hidden;
+    var report=window.getWindReportState();
+    var selected=(state.data.forecast || []).filter(function(row){return row.issue_time===report.issueTime;});
+    var hours=uniq(selected.map(function(row){return row.time;})).length;
+    document.getElementById('exportIssueLabel').textContent=all?'Весь период · обе турбины':hours+' ч прогноза · обе турбины · UTC+5';
+  }
+  document.getElementById('exportScope').addEventListener('change',updateExportScope);
+
   function renderIssueNav(issues) {
     var select = document.getElementById('issue-select');
     select.textContent = '';
@@ -728,6 +770,11 @@
     });
     select.value = String(state.issue);
     select.onchange = function () { state.issue = +select.value; renderCycle(); };
+    var exportSelect = document.getElementById('exportIssue');
+    exportSelect.textContent = '';
+    issues.forEach(function(issue,i) { var option=h('option',null,issue.label);option.value=String(i);exportSelect.appendChild(option); });
+    exportSelect.value=String(state.issue);
+    exportSelect.onchange=function(){state.issue=+exportSelect.value;renderCycle();};
     var prev = document.getElementById('issue-prev'), next = document.getElementById('issue-next');
     prev.disabled = state.issue >= issues.length - 1;   // старее
     next.disabled = state.issue <= 0;                   // свежее
@@ -739,12 +786,12 @@
     var block = document.getElementById('cycle-block');
     // одиночные записи без issue_time в выпуск не складываются — их место в журнале; нет выпусков — нет схемы
     var issues = state.issues.filter(function (i) { return i.grouped; });
-    if (!issues.length) { block.hidden = true; return; }
+    if (!issues.length) { block.hidden = true; updateExportScope(); return; }
     block.hidden = false;
     renderIssueNav(issues);
 
     var issue = issues[state.issue];
-    document.getElementById('exportIssueLabel').textContent='Для экспорта: '+issue.label+' · обе турбины';
+    updateExportScope();
     var used = {};
     var nodes = CYCLE.map(function (spec) {
       spec.steps.forEach(function (s) { used[s] = 1; });
@@ -1223,6 +1270,39 @@
 
   // ---- экономика
 
+  function initEconomics() {
+    var rows=state.data.metrics || [], ours=findMetric(rows,OURS_KEY,24), baseline=findMetric(rows,BASELINE_KEY,24);
+    var hours24=new Map();
+    (state.data.forecast || []).forEach(function(row){
+      if(row.lead_h!==24 || !valid(row.p50) || !row.time || !row.turbine)return;
+      var key=row.turbine+'|'+row.time, previous=hours24.get(key);
+      if(!previous || row.issue_time>previous.issue_time)hours24.set(key,row);
+    });
+    if(!hours24.size || !ours || !baseline || !valid(ours.nmae) || !valid(baseline.nmae))return;
+    var forecast=Array.from(hours24.values()), hours=new Set(forecast.map(function(row){return row.time;})).size;
+    var turbines=new Set(forecast.map(function(row){return row.turbine;})).size;
+    var p50=forecast.reduce(function(sum,row){return sum+row.p50;},0);
+    var defaults=state.data.economics || {}, capacity=document.getElementById('economicsCapacity'), penalty=document.getElementById('economicsPenalty');
+    capacity.value=valid(defaults.capacity_mw)&&defaults.capacity_mw>0?defaults.capacity_mw:2.5;
+    penalty.value=valid(defaults.penalty_per_mwh)&&defaults.penalty_per_mwh>=0?defaults.penalty_per_mwh:12000;
+    document.getElementById('money-block').hidden=false;
+    document.getElementById('money-period').textContent='Весь месяц поставки · '+nf.format(hours)+' часов · '+turbines+' турбины. Выбор выпуска в экспорте не меняет расчёт.';
+    function update(){
+      var capacityMw=capacity.valueAsNumber, penaltyPerMwh=penalty.valueAsNumber;
+      var host=document.getElementById('money-values');host.textContent='';
+      if(!Number.isFinite(capacityMw)||capacityMw<=0||!Number.isFinite(penaltyPerMwh)||penaltyPerMwh<0){state.economics=null;host.appendChild(h('p','assume','Укажите положительный номинал и неотрицательную цену ошибки.'));return;}
+      var scale=capacityMw*penaltyPerMwh*hours*turbines;
+      var baselineCost=baseline.nmae*scale, agentCost=ours.nmae*scale, savings=baselineCost-agentCost;
+      state.economics={capacityMw:capacityMw,penaltyPerMwh:penaltyPerMwh,hours:hours,turbines:turbines,baselineCost:baselineCost,agentCost:agentCost,savings:savings,energyMwh:p50*capacityMw};
+      function figure(label,amount,caption){var cell=h('div','effect-value');cell.appendChild(h('span','effect-label',label));cell.appendChild(h('strong',null,fmtNum(Math.abs(amount)/1e6,2)+' млн ₸'));cell.appendChild(h('span',null,caption));host.appendChild(cell);}
+      figure('Оценка «как вчера»',baselineCost,'затраты за месяц · ежедневный факт');
+      figure('Оценка с агентом',agentCost,'затраты за месяц · без нового факта');
+      figure('Разница за месяц',savings,savings>=0?'меньше при заданных допущениях':'больше при заданных допущениях');
+      document.getElementById('money-method').textContent='Затраты = nMAE на 24 ч × '+turbines+' турбины × '+fmtNum(capacityMw,2)+' МВт × '+hours+' часов × '+nf.format(penaltyPerMwh)+' ₸/МВт·ч. Это линейный перенос ошибки валидации на месяц поставки. Прогноз выработки по P50: '+fmtNum(p50*capacityMw,1)+' МВт·ч — сумма почасовых P50 только на горизонте 24 ч, без повторного учёта 48 ч. Показатели используют весь период поставки, а не выбранный выпуск.';
+    }
+    capacity.addEventListener('input',update);penalty.addEventListener('input',update);update();
+  }
+
   function renderEcon() {
     var block = document.getElementById('econ-block');
     var rows = state.data.metrics || [];
@@ -1230,18 +1310,18 @@
     function figure(label,value,caption) { var cell=h('div','effect-value');cell.appendChild(h('span','effect-label',label));cell.appendChild(h('strong',null,value));cell.appendChild(h('span',null,caption));host.appendChild(cell); }
     [24,48].forEach(function(lead){var ours=findMetric(rows,OURS_KEY,lead),baseline=findMetric(rows,BASELINE_KEY,lead);
       if(ours && baseline && valid(ours.nmae) && valid(baseline.nmae) && baseline.nmae>0){var improvement=(1-ours.nmae/baseline.nmae)*100;
-        figure('Снижение ошибки · '+lead+' ч',fmtNum(Math.abs(improvement),0)+' %',improvement>=0?'меньше средняя ошибка относительно базы':'больше средняя ошибка относительно базы');}
+        figure('Прогноз на '+lead+' ч',fmtNum(Math.abs(improvement),0)+' %',improvement>=0?'снижение средней ошибки':'увеличение средней ошибки');}
     });
     if(valid(state.data.coverage)) figure('Покрытие диапазона',fmtNum(state.data.coverage*100,0)+' %','часов с фактом внутри P10–P90');
     block.hidden=!host.children.length;
-    document.getElementById('econ-note').textContent='База сравнения — прогноз «как вчера» с ежедневным фактом. Агент проверяется при обрыве факта в начале месяца: это более строгие условия для нашего решения.';
+    document.getElementById('econ-note').textContent='Сравнение с прогнозом «как вчера» с ежедневным фактом; наш агент работает без нового факта с начала месяца.';
   }
 
   window.getWindReportState = function () {
     var issues=state.issues.filter(function(issue){return issue.grouped;});
     var selected=issues[state.issue];
     var releases=uniq((state.data && state.data.forecast || []).map(function(row){return row.issue_time;})).sort();
-    return {payload:state.data,issueTime:selected?selected.key:(releases.length?releases[releases.length-1]:null),lead:null,turbine:null};
+    return {payload:state.data,issueTime:selected?selected.key:(releases.length?releases[releases.length-1]:null),lead:null,turbine:null,economics:state.economics};
   };
 
   // ---- сборка
@@ -1263,6 +1343,7 @@
     renderMetrics();
     renderLog();
     renderEcon();
+    initEconomics();
     document.querySelectorAll('.report-nav a, .report-footer a').forEach(function (link) {
       var target = document.querySelector(link.getAttribute('href'));
       link.hidden = !target || target.hidden;

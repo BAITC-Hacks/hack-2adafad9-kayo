@@ -10,6 +10,7 @@
     const stamp = utc(value);
     return stamp && Number.isFinite(stamp.getTime()) ? new Date(stamp.getTime() + 5 * 3600000).toISOString().slice(0, 16).replace('T', ' ') : '—';
   };
+  const localDate = value => value ? new Date(utc(value).getTime() + 5 * 3600000) : null;
 
   function selection() {
     const current = window.getWindReportState ? window.getWindReportState() : { payload: window.DASHBOARD_DATA };
@@ -21,7 +22,7 @@
       .slice().sort((a, b) => String(a.issue_time).localeCompare(String(b.issue_time)) || a.lead_h - b.lead_h || String(a.time).localeCompare(String(b.time)) || String(a.turbine).localeCompare(String(b.turbine)));
     if (!rows.length) throw new Error('Для выбранного выпуска ещё нет прогноза.');
     const journal = (payload.agent_log || []).filter(row => all || row.issue_time === issued);
-    return { payload, rows, journal, issued, all, title: all ? 'Весь период' : 'Выпуск ' + local(issued) + ' (UTC+5)' };
+    return { payload, rows, journal, issued, all, economics: current.economics, title: all ? 'Весь период' : 'Выпуск ' + local(issued) + ' (UTC+5)' };
   }
 
   // OOXML упаковывается без сжатия: выгрузка работает офлайн и не требует CDN.
@@ -61,42 +62,83 @@
     for (index++; index; index = Math.floor((index - 1) / 26)) label = String.fromCharCode(65 + (index - 1) % 26) + label;
     return label;
   }
-  function sheet(headers, rows, widths, percentages = []) {
-    const grid = [headers, ...rows].map((row, ri) => '<row r="' + (ri + 1) + '">' + row.map((value, ci) => {
+  function sheet(headers, rows, widths, percentages = [], wrapped = []) {
+    const grid = [headers, ...rows].map((row, ri) => {
+      const lines = Math.max(1, ...wrapped.map(ci => Math.ceil(String(row[ci] ?? '').length / (widths[ci] - 2))));
+      const height = ri === 0 ? 32 : Math.min(150, Math.max(22, lines * 15));
+      return '<row r="' + (ri + 1) + '" ht="' + height + '" customHeight="1">' + row.map((value, ci) => {
       const ref = column(ci) + (ri + 1), style = ri === 0 ? 1 : percentages.includes(ci) ? 2 : 0;
+      if (value && typeof value === 'object' && value.formula) return '<c r="' + ref + '" s="5"><f>' + xml(value.formula) + '</f><v>' + value.value + '</v></c>';
+      if (value instanceof Date && Number.isFinite(value.getTime())) return '<c r="' + ref + '" s="4"><v>' + (value.getTime() / 86400000 + 25569) + '</v></c>';
       return finite(value) ? '<c r="' + ref + '" s="' + style + '"><v>' + value + '</v></c>'
-        : '<c r="' + ref + '" s="' + (ri === 0 ? 1 : 0) + '" t="inlineStr"><is><t xml:space="preserve">' + xml(value) + '</t></is></c>';
-    }).join('') + '</row>').join('');
-    return '<?xml version="1.0" encoding="UTF-8" standalone="yes"?><worksheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main"><sheetViews><sheetView workbookViewId="0"><pane ySplit="1" topLeftCell="A2" activePane="bottomLeft" state="frozen"/></sheetView></sheetViews><cols>'
+        : '<c r="' + ref + '" s="' + (ri === 0 ? 1 : wrapped.includes(ci) ? 3 : 0) + '" t="inlineStr"><is><t xml:space="preserve">' + xml(value) + '</t></is></c>';
+      }).join('') + '</row>';
+    }).join('');
+    return '<?xml version="1.0" encoding="UTF-8" standalone="yes"?><worksheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main"><sheetPr><pageSetUpPr fitToPage="1"/></sheetPr><sheetViews><sheetView workbookViewId="0"><pane ySplit="1" topLeftCell="A2" activePane="bottomLeft" state="frozen"/></sheetView></sheetViews><cols>'
       + widths.map((width, i) => '<col min="' + (i + 1) + '" max="' + (i + 1) + '" width="' + width + '" customWidth="1"/>').join('')
-      + '</cols><sheetData>' + grid + '</sheetData><autoFilter ref="A1:' + column(headers.length - 1) + (rows.length + 1) + '"/></worksheet>';
+      + '</cols><sheetData>' + grid + '</sheetData><autoFilter ref="A1:' + column(headers.length - 1) + (rows.length + 1) + '"/><pageMargins left="0.3" right="0.3" top="0.4" bottom="0.4" header="0.2" footer="0.2"/><pageSetup paperSize="9" orientation="landscape" fitToWidth="1" fitToHeight="0"/></worksheet>';
   }
   function notes(report) {
     const p = report.payload;
     return [
       ['Площадка', p.site?.name || 'ВЭС'], ['Выбор', report.title],
+      ['Доступные часы', report.all ? 'Все часы периода, все доступные выпуски.' : new Set(report.rows.map(row => row.time)).size + ' из 48 часов. На границе периода выпуск может быть неполным.'],
       ['Создано (UTC)', p.generated_at || ''],
       ['Валидация (UTC)', (p.validation_period?.start || '—') + ' — ' + (p.validation_period?.end || '—')],
       ['Единицы мощности', 'Доля номинала. 1 = 100 %. Установленная мощность и тариф станции не заданы.'],
       ['Время', 'time и issue_time — UTC; местное время — UTC+5.'],
       ['Периоды', 'lead_h=24: следующие 1–24 часа; lead_h=48: следующие 25–48 часов.'],
       ['Неопределённость', 'P10–P90 — целевой 80-процентный диапазон для отдельной турбины и часа; гарантий нет.'],
-      ['Покрытие на валидации', percent(p.coverage)],
+      ['Покрытие на валидации, все часы', percent(p.coverage)],
       ['Погодный источник', 'Open-Meteo Previous Runs API, ICON / GFS / ECMWF'],
       ['Доступность погоды', p.forecast_protocol?.availability_assumption || 'См. README соответствующей версии.'],
+      ['Горизонт погоды', '48/72 часа от целевого часа назад; запас reference time до выпуска составляет 24–47 часов.'],
       ['Февраль', 'Фактическая выработка февраля отсутствует; метрики относятся только к периоду валидации.'],
-      ['Область метрик', 'Часы без ограничения выдачи; полные метрики с простоями — forecasts/metrics.csv.'],
+      ['Область метрик', 'Ошибки — часы без ограничения выдачи. Покрытие P10–P90 — все часы с фактом. Полные метрики — forecasts/metrics.csv.'],
       ['Данные', 'Прогноз и метрики из web/data.json текущего прогона. Экспорт включает обе турбины.']
     ];
   }
   function excel(report) {
+    const ours = (report.payload.metrics || []).filter(row => row.model === 'наше решение');
+    const metric = (lead, key) => ours.find(row => row.lead_h === lead)?.[key];
     const sheets = [
-      ['Описание', ['Параметр', 'Значение'], notes(report), [32, 110]],
-      ['Прогноз', ['Выпуск UTC', 'Час UTC', 'Час UTC+5', 'Турбина', 'Период, ч', 'До часа, ч', 'P10', 'P50', 'P90', 'Ветер 100 м, м/с', 'Направление, °', 'Возраст погоды, ч', 'Reference time UTC'],
-        report.rows.map(r => [r.issue_time, r.time, local(r.time), r.turbine, r.lead_h, r.effective_lead_h, r.p10, r.p50, r.p90, r.wind_speed_100m, r.wind_direction_100m, r.weather_lead_h, r.weather_reference_time]), [22, 22, 22, 12, 14, 14, 14, 14, 14, 20, 20, 22, 24], [6, 7, 8]],
+      ['Сводка', ['Показатель', 'Следующие 1–24 ч', 'Следующие 25–48 ч'], [
+        ['Выбранный период', report.title, 'Обе турбины'],
+        ['Средняя ошибка / номинал (nMAE)', metric(24, 'nmae'), metric(48, 'nmae')],
+        ['Среднеквадратичная ошибка (nRMSE)', metric(24, 'nrmse'), metric(48, 'nrmse')],
+        ['Снижение MAE против базы (скилл)', metric(24, 'skill'), metric(48, 'skill')],
+        ['Смещение / номинал', metric(24, 'bias'), metric(48, 'bias')],
+        ['Что означают показатели', 'Точность на отложенном окне валидации, часы без ограничения выдачи.', 'Фактической выработки февраля нет.'],
+        ['База сравнения', 'Прогноз «как вчера» при ежедневном доступе к факту.', 'Агент получает факт до начала месяца.'],
+        ['Как читать файл', 'Почасовые значения — лист «Прогноз».', 'Источники — «Описание», решения — «Журнал».']
+      ], [42, 43, 43], [1, 2], [0, 1, 2]],
+      ['Прогноз', ['Час UTC+5', 'Турбина', 'P10', 'P50', 'P90', 'Ветер 100 м, м/с', 'Направление, °', 'Выпуск UTC+5', 'Час UTC', 'Выпуск UTC', 'Период, ч', 'До часа, ч', 'Горизонт погоды, ч', 'Reference time UTC'],
+        report.rows.map(r => [localDate(r.time), r.turbine, r.p10, r.p50, r.p90, r.wind_speed_100m, r.wind_direction_100m, localDate(r.issue_time), utc(r.time), utc(r.issue_time), r.lead_h, r.effective_lead_h, r.weather_lead_h, utc(r.weather_reference_time)]), [22, 12, 14, 14, 14, 20, 20, 22, 22, 22, 14, 14, 22, 24], [2, 3, 4]],
       ['Точность', ['Модель', 'Период, ч', 'nMAE', 'nRMSE', 'Смещение', 'Скилл (по nMAE)'], (report.payload.metrics || []).map(r => [r.model, r.lead_h, r.nmae, r.nrmse, r.bias, r.skill]), [40, 16, 16, 16, 16, 24], [2, 3, 4, 5]],
-      ['Журнал', ['Выпуск UTC', 'Шаг', 'Статус', 'Длительность, мс', 'Объяснение'], report.journal.map(r => [r.issue_time, r.step, r.status, r.duration_ms, r.text]), [24, 20, 18, 22, 120]]
+      ['Описание', ['Параметр', 'Значение'], notes(report), [32, 100], [], [1]],
+      ['Журнал', ['Выпуск UTC', 'Шаг', 'Статус', 'Длительность, мс', 'Объяснение'], report.journal.map(r => [utc(r.issue_time), r.step, r.status, r.duration_ms, r.text]), [24, 20, 18, 22, 100], [], [4]]
     ];
+    if (report.economics) {
+      const scenario = report.economics;
+      const baseline = (report.payload.metrics || []).find(row => row.model === 'персистентность' && row.lead_h === 24);
+      const oursMae = metric(24, 'nmae');
+      const normalizedEnergy = (report.payload.forecast || []).filter(row => row.lead_h === 24 && finite(row.p50)).reduce((sum, row) => sum + row.p50, 0);
+      sheets.splice(2, 0, ['Экономика', ['Параметр', 'Значение', 'Единица / основание'], [
+        ['Мощность одной турбины', scenario.capacityMw, 'МВт — допущение пользователя'],
+        ['Условная цена ошибки', scenario.penaltyPerMwh, '₸/МВт·ч — допущение пользователя'],
+        ['Длительность всего периода', scenario.hours, 'часов; экономика всего периода, независимо от выбора выпуска'],
+        ['Число турбин', scenario.turbines, 'по данным прогноза'],
+        ['nMAE базы', baseline?.nmae, 'доля номинала; валидация без простоев'],
+        ['nMAE агента', oursMae, 'доля номинала; валидация без простоев'],
+        ['Цена ошибки «как вчера»', {formula:'B2*B3*B4*B5*B6',value:scenario.baselineCost}, '₸ за весь период — оценка'],
+        ['Цена ошибки с агентом', {formula:'B2*B3*B4*B5*B7',value:scenario.agentCost}, '₸ за весь период — оценка'],
+        ['Снижение условных затрат', {formula:'B8-B9',value:scenario.savings}, '₸ за весь период — оценка'],
+        ['Сумма P50 всех турбин, горизонт 24 ч', normalizedEnergy, 'нормированных турбино-часов; горизонт 48 ч не дублируется'],
+        ['Ожидаемая энергия всего периода', {formula:'B2*B11',value:scenario.energyMwh}, 'МВт·ч — при принятой мощности'],
+        ['Ограничения', 'Сценарий, не фактическая экономия.', 'Средняя ошибка валидации перенесена на длительность прогноза. Реальные мощности, договор и тарифы станции не предоставлены.'],
+        ['База сравнения', 'Получает ежедневный факт.', 'Агент работает без нового факта с начала месяца.']
+      ], [44, 32, 82], [], [0, 1, 2]]);
+    }
     const relNS = 'http://schemas.openxmlformats.org/package/2006/relationships';
     const files = {
       '[Content_Types].xml': '<Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types"><Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/><Default Extension="xml" ContentType="application/xml"/><Override PartName="/xl/workbook.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml"/><Override PartName="/xl/styles.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.styles+xml"/>' + sheets.map((_, i) => '<Override PartName="/xl/worksheets/sheet' + (i + 1) + '.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml"/>').join('') + '</Types>',
@@ -105,7 +147,8 @@
       'xl/_rels/workbook.xml.rels': '<Relationships xmlns="' + relNS + '">' + sheets.map((_, i) => '<Relationship Id="rId' + (i + 1) + '" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet" Target="worksheets/sheet' + (i + 1) + '.xml"/>').join('') + '<Relationship Id="styles" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles" Target="styles.xml"/></Relationships>',
       'xl/styles.xml': '<styleSheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main"><fonts count="2"><font><sz val="11"/><name val="Arial"/></font><font><b/><sz val="11"/><color rgb="FFFFFFFF"/><name val="Arial"/></font></fonts><fills count="3"><fill><patternFill patternType="none"/></fill><fill><patternFill patternType="gray125"/></fill><fill><patternFill patternType="solid"><fgColor rgb="FF23684C"/><bgColor indexed="64"/></patternFill></fill></fills><borders count="1"><border/></borders><cellStyleXfs count="1"><xf numFmtId="0" fontId="0" fillId="0" borderId="0"/></cellStyleXfs><cellXfs count="3"><xf numFmtId="0" fontId="0" fillId="0" borderId="0" xfId="0"/><xf numFmtId="0" fontId="1" fillId="2" borderId="0" xfId="0" applyAlignment="1"><alignment wrapText="1"/></xf><xf numFmtId="10" fontId="0" fillId="0" borderId="0" xfId="0" applyNumberFormat="1"/></cellXfs><cellStyles count="1"><cellStyle name="Normal" xfId="0" builtinId="0"/></cellStyles></styleSheet>'
     };
-    sheets.forEach((s, i) => { files['xl/worksheets/sheet' + (i + 1) + '.xml'] = sheet(s[1], s[2], s[3], s[4]); });
+    files['xl/styles.xml'] = files['xl/styles.xml'].replace('<fonts count="2">', '<numFmts count="1"><numFmt numFmtId="164" formatCode="yyyy-mm-dd hh:mm"/></numFmts><fonts count="2">').replace('<cellXfs count="3">', '<cellXfs count="6">').replace('</cellXfs>', '<xf numFmtId="0" fontId="0" fillId="0" borderId="0" xfId="0" applyAlignment="1"><alignment wrapText="1" vertical="top"/></xf><xf numFmtId="164" fontId="0" fillId="0" borderId="0" xfId="0" applyNumberFormat="1"/><xf numFmtId="3" fontId="0" fillId="0" borderId="0" xfId="0" applyNumberFormat="1"/></cellXfs>');
+    sheets.forEach((s, i) => { files['xl/worksheets/sheet' + (i + 1) + '.xml'] = sheet(s[1], s[2], s[3], s[4], s[5]); });
     const url = URL.createObjectURL(zip(files)), link = document.createElement('a');
     link.href = url; link.download = 'wind-forecast-' + (report.all ? 'all' : String(report.issued).replace(/[:T]/g, '-')) + '.xlsx';
     document.body.append(link); link.click(); link.remove(); setTimeout(() => URL.revokeObjectURL(url), 10000);
@@ -116,63 +159,29 @@
     if (className) node.className = className;
     return node;
   };
-  function table(headers, rows) {
-    const node = element('table'), head = element('thead'), tr = element('tr'), body = element('tbody');
-    headers.forEach(label => tr.append(element('th', label))); head.append(tr);
-    rows.forEach(row => { const line = element('tr'); row.forEach(value => line.append(element('td', value))); body.append(line); });
-    node.append(head, body); return node;
-  }
-  function chart(rows) {
-    const ns = 'http://www.w3.org/2000/svg', svg = document.createElementNS(ns, 'svg');
-    svg.setAttribute('viewBox', '0 0 720 185'); svg.setAttribute('role', 'img'); svg.setAttribute('aria-label', 'Почасовой прогноз P50 двух турбин');
-    const hours = [...new Set(rows.map(r => r.time))].sort();
-    const draw = (tag, attrs, text) => { const node = document.createElementNS(ns, tag); Object.entries(attrs).forEach(([k, v]) => node.setAttribute(k, v)); if (text) node.textContent = text; svg.append(node); };
-    [0, .5, 1].forEach(v => { const y = 145 - v * 125; draw('line', { x1: 40, x2: 710, y1: y, y2: y, stroke: '#dddddd' }); draw('text', { x: 0, y: y + 4, 'font-size': 11 }, percent(v)); });
-    ['T1', 'T2'].forEach((turbine, i) => {
-      const points = hours.map((hour, index) => {
-        const row = rows.find(r => r.time === hour && r.turbine === turbine);
-        return row && finite(row.p50) ? (40 + index * 670 / Math.max(1, hours.length - 1)) + ',' + (145 - row.p50 * 125) : null;
-      }).filter(Boolean).join(' ');
-      draw('polyline', { points, fill: 'none', stroke: i ? '#666666' : '#23684c', 'stroke-width': 2, 'stroke-dasharray': i ? '6 3' : 'none' });
-    });
-    draw('text', { x: 40, y: 170, 'font-size': 11 }, local(hours[0]));
-    draw('text', { x: 710, y: 170, 'font-size': 11, 'text-anchor': 'end' }, local(hours.at(-1)) + ' UTC+5');
-    return svg;
-  }
-  function printReport(report) {
-    document.getElementById('wind-print-report')?.remove();
-    const host = element('article', undefined, 'wind-print-report'); host.id = 'wind-print-report';
-    host.append(element('p', 'WIND / ОТЧЁТ СОБСТВЕННИКУ', 'report-eyebrow'), element('h1', report.payload.site?.name || 'Прогноз выработки ВЭС'), element('p', report.title));
-    const metrics = (report.payload.metrics || []).filter(r => r.model === 'наше решение');
-    const kpis = element('div', undefined, 'report-kpis');
-    [[percent(metrics.find(r => r.lead_h === 24)?.nmae), 'Ошибка прогноза 1–24 ч'], [percent(metrics.find(r => r.lead_h === 48)?.nmae), 'Ошибка прогноза 25–48 ч'], [percent(report.payload.coverage), 'Факт внутри P10–P90']].forEach(([value, label]) => {
-      const block = element('div'); block.append(element('strong', value), element('span', label)); kpis.append(block);
-    });
-    host.append(kpis, element('p', 'Точность — на отложенном периоде: ' + local(report.payload.validation_period?.start) + ' — ' + local(report.payload.validation_period?.end) + ' (UTC+5), без часов ограничения выдачи. Факта февраля нет.', 'report-note'));
-    if (!report.all) {
-      host.append(element('h2', 'Прогноз по часам'), chart(report.rows), element('p', 'P50: Т1 — зелёная линия, Т2 — серая пунктирная. Мощность в долях номинала.', 'report-note'));
-      const explanation = report.journal.filter(r => r.step === 'explain').at(-1);
-      if (explanation) host.append(element('p', 'Пояснение агента (время UTC): ' + explanation.text));
-    }
-    host.append(element('h2', 'Почасовая выработка'), element('p', 'P10–P90 — диапазон для отдельной турбины и часа. Значения — % номинала; ветер — прогноз на высоте 100 м. Все даты таблицы — UTC+5.', 'report-note'));
-    host.append(table(['Выпуск', 'Час', 'Турбина', 'До часа', 'P10', 'P50', 'P90', 'Ветер, м/с'], report.rows.map(r => [local(r.issue_time), local(r.time), r.turbine, number(r.effective_lead_h ?? ((utc(r.time) - utc(r.issue_time)) / 3600000), 0), percent(r.p10), percent(r.p50), percent(r.p90), number(r.wind_speed_100m)])));
-    host.append(element('h2', 'Источники и ограничения'), table(['Параметр', 'Значение'], notes(report)));
-    document.body.append(host); document.body.classList.add('printing-wind-report');
-    const clean = () => { document.body.classList.remove('printing-wind-report'); host.remove(); };
-    window.addEventListener('afterprint', clean, { once: true });
-    window.print();
-  }
-  document.addEventListener('click', event => {
+  document.addEventListener('click', async event => {
     const button = event.target.closest('#exportExcel, #exportPdf');
     if (!button) return;
+    const label = button.textContent;
+    button.disabled = true;
+    button.setAttribute('aria-busy', 'true');
     try {
       const report = selection();
-      if (button.id === 'exportExcel') excel(report); else printReport(report);
+      if (button.id === 'exportExcel') excel(report);
+      else {
+        button.textContent = 'Готовим PDF…';
+        if (!window.WindPDF) throw new Error('Модуль PDF ещё загружается. Повторите через несколько секунд.');
+        await window.WindPDF.download(report);
+      }
       document.getElementById('report-export-status')?.remove();
     } catch (error) {
       let status = document.getElementById('report-export-status');
       if (!status) { status = element('p'); status.id = 'report-export-status'; status.setAttribute('role', 'status'); button.parentNode.append(status); }
       status.textContent = error.message;
+    } finally {
+      button.disabled = false;
+      button.removeAttribute('aria-busy');
+      button.textContent = label;
     }
   });
 }());
