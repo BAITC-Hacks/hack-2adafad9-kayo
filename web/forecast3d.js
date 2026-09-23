@@ -29,7 +29,7 @@
     const head=el('div','forecast3d-head',undefined,stage),heading=el('div','',undefined,head);
     el('h3','','Прогноз на площадке · '+times.length+' часов',heading);
     el('p','forecast3d-meta','Выпуск '+local(utc(selected[0]))+' · UTC+5',heading);
-    const reset=el('button','','Ракурс',head);reset.type='button';reset.setAttribute('aria-label','Вернуть исходный ракурс');
+    const reset=el('button','','Сбросить вид',head);reset.type='button';reset.title='Перетаскивайте сцену, чтобы повернуть камеру. Эта кнопка возвращает исходный вид.';
     canvas.setAttribute('role','img');canvas.setAttribute('aria-label','Условная сцена Шелекского коридора: две ветротурбины. Прогноз мощности, диапазон P10–P90 и график каждой турбины показаны на панелях.');
     const svgEl=(tag,attrs,parent)=>{const node=document.createElementNS('http://www.w3.org/2000/svg',tag);for(const [key,value] of Object.entries(attrs))node.setAttribute(key,value);parent.append(node);return node;};
     const panels=series.map(({turbine,rows})=>{
@@ -48,43 +48,47 @@
       const caption=el('div','forecast3d-spark-caption',undefined,panel);el('span','','P50 + P10–P90',caption);el('span','',times.length+' ч',caption);
       return {panel,median,band,marker,dot};
     });
-    const timeline=el('div','forecast3d-timeline',undefined,stage),timeHead=el('div','forecast3d-time-head',undefined,timeline),hour=el('span','forecast3d-time','',timeHead);
-    const play=el('button','','Воспроизвести',timeHead);play.type='button';play.setAttribute('aria-pressed','false');
+    const timeline=el('div','forecast3d-timeline',undefined,stage),timeHead=el('div','forecast3d-time-head',undefined,timeline);
+    const play=el('button','forecast3d-play','Пуск',timeHead);play.type='button';play.setAttribute('aria-pressed','false');play.setAttribute('aria-label','Воспроизвести прогноз по часам');
+    const current=el('div','forecast3d-current',undefined,timeHead),hour=el('span','forecast3d-time','',current);el('span','forecast3d-time-zone','UTC+5',current);
+    const windReadout=el('div','forecast3d-wind',undefined,timeHead);el('span','forecast3d-wind-label','Ветер · 100 м',windReadout);const windValue=el('strong','forecast3d-wind-value','—',windReadout);
     const slider=el('input','forecast3d-range',undefined,timeline);slider.type='range';slider.min=0;slider.max=times.length-1;slider.value=0;slider.setAttribute('aria-label','Час прогноза');
-    const limits=el('div','forecast3d-limits',undefined,timeline);el('span','',local(utc(times[0])),limits);el('span','',local(utc(times.at(-1)))+' · UTC+5',limits);
-    const note=el('p','forecast3d-note','Условная сцена · поток и вращение — схема',timeline);
+    const limits=el('div','forecast3d-limits',undefined,timeline);
+    for(const index of [...new Set([0,12,24,36,times.length-1].filter(index=>index<times.length))]){const tick=el('span','forecast3d-tick','',limits);tick.style.left=(index/Math.max(1,times.length-1)*100)+'%';el('span','',local(utc(times[index]),false),tick);el('span','',local(utc(times[index])).slice(-5),tick);}
+    timeline.title='Условная площадка. Вращение лопастей иллюстрирует прогноз ветра, а не реальные обороты турбин. Направление ветра указано по правилу «откуда дует».';
     const ctx=canvas.getContext('2d');
-    let width=0,height=0,active=0,yaw=0,elevation=0,drag=null,frame=0,playing=false,lastStep=0,visible=true,destroyed=false,scene3d=null,rotorPhase=0,lastRender=0;
+    let width=0,height=0,active=0,yaw=0,elevation=0,drag=null,frame=0,playing=false,lastStep=0,visible=true,destroyed=false,scene3d=null,rotorPhase=0,lastRender=0,rotorSpeed=.4;
     const reduced=window.matchMedia('(prefers-reduced-motion: reduce)');
     const windAt=index=>{const readings=series.map(({rows})=>rows[index]?.wind_speed_100m).filter(value=>Number.isFinite(value)&&value>=0);return readings.length?readings.reduce((sum,value)=>sum+value,0)/readings.length:null;};
     const directionAt=index=>{const bearings=series.map(({rows})=>rows[index]?.wind_direction_100m).filter(Number.isFinite);if(!bearings.length)return null;return Math.atan2(bearings.reduce((sum,angle)=>sum+Math.sin(angle*Math.PI/180),0),bearings.reduce((sum,angle)=>sum+Math.cos(angle*Math.PI/180),0));};
-    function update(){hour.textContent=local(utc(times[active]));slider.value=active;slider.setAttribute('aria-valuetext',hour.textContent);
+    function update(){hour.textContent=local(utc(times[active]));slider.value=active;slider.style.setProperty('--position',(active/Math.max(1,times.length-1)*100)+'%');slider.setAttribute('aria-valuetext',hour.textContent);
       series.forEach(({rows},i)=>{const row=rows[active],panel=panels[i],x=times.length>1?active/(times.length-1)*200:100;
         panel.median.textContent=row?percent(row.p50):'—';panel.band.textContent=row?'P10–P90: '+percent(row.p10)+'–'+percent(row.p90):'Нет прогноза';
         panel.marker.setAttribute('x1',x);panel.marker.setAttribute('x2',x);panel.dot.setAttribute('cx',x);panel.dot.setAttribute('cy',row?54-row.p50*50:54);panel.dot.style.display=row?'':'none';});
       const wind=windAt(active),bearing=directionAt(active),compass=['С','СВ','В','ЮВ','Ю','ЮЗ','З','СЗ'];
       const direction=bearing===null?'':' '+compass[Math.round(((bearing*180/Math.PI+360)%360)/45)%8];
-      note.textContent=(wind===null?'Условная сцена · поток и вращение — схема':'Прогноз ветра на 100 м: '+wind.toFixed(1).replace('.',',')+' м/с'+direction+' · площадка и вращение — схема');}
+      windValue.textContent=wind===null?'Нет данных':wind.toFixed(1).replace('.',',')+' м/с';
+      windReadout.title=wind===null?'Прогноз ветра недоступен. Вращение и потоки условные.':'Прогноз ветра на 100 м: '+wind.toFixed(1).replace('.',',')+' м/с'+direction+'. Вращение и потоки показаны схематично.';
+      windReadout.setAttribute('aria-label',windReadout.title);}
     function render(stamp){frame=0;if(destroyed||!visible)return;
       const wind=windAt(active),elapsed=lastRender?Math.min((stamp-lastRender)/1000,.1):0;lastRender=stamp;
-      if(!reduced.matches)rotorPhase+=elapsed*(wind===null?.4:Math.min(wind*.055,1.4));
+      const targetSpeed=wind===null?.4:Math.min(wind*.055,1.4);rotorSpeed+=(targetSpeed-rotorSpeed)*(1-Math.exp(-elapsed*2.8));
+      if(!reduced.matches)rotorPhase+=elapsed*rotorSpeed;
       if(playing&&stamp-lastStep>800){active=(active+1)%times.length;lastStep=stamp;update();}
       if(scene3d){scene3d.render(stamp,yaw);}
       else if(ctx&&width){
         const mobile=width<600,horizon=height*(mobile?.43:.38),ground=height*(mobile?.77:.79);
-        const sky=ctx.createLinearGradient(0,0,0,height);sky.addColorStop(0,'#afc8d1');sky.addColorStop(.48,'#e8e6d8');sky.addColorStop(1,'#c4b38d');ctx.fillStyle=sky;ctx.fillRect(0,0,width,height);
+        const sky=ctx.createLinearGradient(0,0,0,height);sky.addColorStop(0,'#76aaca');sky.addColorStop(.48,'#dde5df');sky.addColorStop(1,'#c4b38d');ctx.fillStyle=sky;ctx.fillRect(0,0,width,height);
+        for(let cloud=0;cloud<5;cloud++){const x=width*(.12+cloud*.19),y=horizon*(.29+(cloud%2)*.28),radius=width*(.09+(cloud%3)*.025);ctx.save();ctx.translate(x,y);ctx.scale(1,.28);const haze=ctx.createRadialGradient(0,0,0,0,0,radius);haze.addColorStop(0,'rgba(255,255,251,.25)');haze.addColorStop(.5,'rgba(255,255,251,.12)');haze.addColorStop(1,'rgba(255,255,251,0)');ctx.fillStyle=haze;ctx.fillRect(-radius,-radius,radius*2,radius*2);ctx.restore();}
         const mountain=(baseline,amp,fill,phase)=>{const ridges=[];ctx.beginPath();ctx.moveTo(0,baseline);for(let x=0;x<=width+24;x+=24){const n=x/width,peak=Math.sin(n*12+phase)*.32+Math.sin(n*31+phase)*.15+Math.sin(n*5+phase)*.5+Math.sin(n*87+phase)*.07;const y=baseline-amp*(.55+peak);ctx.lineTo(x,y);ridges.push([x,y]);}ctx.lineTo(width,height);ctx.lineTo(0,height);ctx.closePath();ctx.fillStyle=fill;ctx.fill();ridges.forEach(([x,y],i)=>{if(i%3)return;ctx.beginPath();ctx.moveTo(x,y);ctx.lineTo(x+amp*.65,baseline+8);ctx.lineTo(x-amp*.45,baseline+8);ctx.closePath();ctx.fillStyle='rgba(242,245,235,.1)';ctx.fill();});};
         mountain(horizon+26,55,'#c9d4cf',.5+yaw*.3);mountain(horizon+48,34,'#b8c6bb',2+yaw*.2);
         const soil=ctx.createLinearGradient(0,horizon+35,0,height);soil.addColorStop(0,'#cfc4a7');soil.addColorStop(1,'#b5a075');ctx.fillStyle=soil;ctx.beginPath();ctx.moveTo(0,horizon+44);ctx.quadraticCurveTo(width*.5,horizon+24,width,horizon+48);ctx.lineTo(width,height);ctx.lineTo(0,height);ctx.fill();
         const project=([x,y,z])=>{const rx=x*Math.cos(yaw)+z*Math.sin(yaw),rz=-x*Math.sin(yaw)+z*Math.cos(yaw),scale=(mobile?width*.15:Math.min(width*.075,86))/(1+rz*.075);return[width*.5+rx*scale,ground-y*scale-rz*scale*.2,scale];};
         const polygon=(points,fill,stroke)=>{ctx.beginPath();points.forEach((point,i)=>{const p=project(point);if(i)ctx.lineTo(p[0],p[1]);else ctx.moveTo(p[0],p[1]);});ctx.closePath();if(fill){ctx.fillStyle=fill;ctx.fill();}if(stroke){ctx.strokeStyle=stroke;ctx.lineWidth=1;ctx.stroke();}};
-        polygon([[-.9,0,-9],[.1,0,-9],[.65,0,1],[2.4,0,12],[2.15,0,12],[.3,0,1]],'#e4e3d6');
-        polygon([[-.69,0,-9],[-.64,0,-9],[.4,0,1],[2.23,0,12],[2.21,0,12],[.37,0,1]],'rgba(104,109,91,.13)');
-        polygon([[-.12,0,-9],[-.07,0,-9],[.57,0,1],[2.35,0,12],[2.33,0,12],[.54,0,1]],'rgba(104,109,91,.1)');
         // Детерминированная фактура степи не мерцает между кадрами.
         for(let i=0;i<110;i++){const x=((i*73)%997)/997*width,depth=((i*47)%101)/101,y=horizon+52+depth*(height-horizon-52);ctx.strokeStyle=depth>.5?'rgba(91,107,81,.13)':'rgba(91,107,81,.07)';ctx.lineWidth=1;ctx.beginPath();ctx.moveTo(x,y);ctx.lineTo(x+2+depth*8,y-depth*2);ctx.stroke();}
         const bearing=directionAt(active),flowSign=bearing===null?1:-Math.sin(bearing),flowCount=wind===null?12:Math.min(24,Math.round(wind*2));
-        for(let i=0;i<flowCount;i++){const x=((i*79+rotorPhase*34*flowSign+width*100)%width),y=horizon+35+(i*41)%(Math.max(1,ground-horizon-50));ctx.beginPath();ctx.moveTo(x,y);ctx.lineTo(x+12,y-1);ctx.strokeStyle='rgba(255,251,232,.28)';ctx.lineWidth=1;ctx.stroke();}
+        for(let i=0;i<Math.min(flowCount,16);i++){const x=((i*79+rotorPhase*34*flowSign+width*100)%width),y=horizon+35+(i*41)%(Math.max(1,ground-horizon-50));for(let segment=0;segment<16;segment++){const t=segment/16,next=(segment+1)/16;ctx.beginPath();ctx.moveTo(x+t*58,y+Math.sin(t*3+i)*6);ctx.lineTo(x+next*58,y+Math.sin(next*3+i)*6);ctx.strokeStyle='rgba(255,253,239,'+(.5*next*next)+')';ctx.lineWidth=1.35;ctx.stroke();}}
         const turbines=[{x:mobile?-1.75:-2,z:1.6,index:0},{x:mobile?1.8:2,z:3.4,index:1}],hubs=[];
         [...turbines].sort((a,b)=>b.z-a.z).forEach(({x,z,index})=>{
           const tower=mobile?4.05:3.15,radius=mobile?1.21:1.04,base=project([x,0,z]);
@@ -113,7 +117,7 @@
     }
     function schedule(){if(!frame&&!destroyed&&visible)frame=requestAnimationFrame(render);}
     function resize(){const rect=canvas.getBoundingClientRect();width=rect.width;height=rect.height;const ratio=Math.min(window.devicePixelRatio||1,2);canvas.width=Math.round(width*ratio);canvas.height=Math.round(height*ratio);if(ctx)ctx.setTransform(ratio,0,0,ratio,0,0);if(scene3d)scene3d.resize();schedule();}
-    play.addEventListener('click',()=>{playing=!playing;play.textContent=playing?'Пауза':'Воспроизвести';play.setAttribute('aria-pressed',String(playing));lastStep=performance.now();schedule();});
+    play.addEventListener('click',()=>{playing=!playing;play.textContent=playing?'Пауза':'Пуск';play.setAttribute('aria-pressed',String(playing));play.setAttribute('aria-label',playing?'Приостановить прогноз':'Воспроизвести прогноз по часам');lastStep=performance.now();schedule();});
     slider.addEventListener('input',()=>{active=Number(slider.value);lastStep=performance.now();update();schedule();});
     reset.addEventListener('click',()=>{yaw=0;elevation=0;schedule();});
     canvas.addEventListener('pointerdown',event=>{if(event.button!==0)return;drag={x:event.clientX,y:event.clientY,yaw,elevation};canvas.setPointerCapture(event.pointerId);});
@@ -130,8 +134,11 @@
       renderer.shadowMap.enabled=true;renderer.shadowMap.type=THREE.PCFSoftShadowMap;
       renderer.toneMapping=THREE.ACESFilmicToneMapping;renderer.toneMappingExposure=1;
       const scene=new THREE.Scene();scene.background=new THREE.Color('#d8e2e4');scene.fog=new THREE.FogExp2('#d8e2e4',.0125);
-      const skyMaterial=new THREE.ShaderMaterial({side:THREE.BackSide,depthWrite:false,toneMapped:false,precision:'highp',uniforms:{zenith:{value:new THREE.Color('#8bbbd8')},horizon:{value:new THREE.Color('#e4ecea')}},vertexShader:`varying vec3 skyDirection;void main(){skyDirection=position;gl_Position=projectionMatrix*modelViewMatrix*vec4(position,1.0);}`,fragmentShader:`uniform vec3 zenith;uniform vec3 horizon;varying vec3 skyDirection;
-        void main(){vec3 d=normalize(skyDirection);float h=max(d.y,0.0);vec3 color=mix(horizon,zenith,pow(h,.32));float ribbon=exp(-pow((h-.22)*19.,2.));float patches=smoothstep(.18,.88,.5+.28*sin(d.x*13.)+.22*sin(d.z*17.));float cloud=ribbon*patches*.12;color=mix(color,vec3(.95,.97,.98),cloud);float glow=pow(max(dot(d,normalize(vec3(-.5,.7,.4))),0.),32.);color+=vec3(.055,.047,.03)*glow;gl_FragColor=vec4(color,1.);
+      const skyMaterial=new THREE.ShaderMaterial({side:THREE.BackSide,depthWrite:false,toneMapped:false,precision:'highp',uniforms:{zenith:{value:new THREE.Color('#5c9ecb')},horizon:{value:new THREE.Color('#d5e6ec')}},vertexShader:`varying vec3 skyDirection;void main(){skyDirection=position;gl_Position=projectionMatrix*modelViewMatrix*vec4(position,1.0);}`,fragmentShader:`uniform vec3 zenith;uniform vec3 horizon;varying vec3 skyDirection;
+        float cloudPatch(vec2 uv,vec2 center,vec2 stretch){vec2 p=(uv-center)*stretch;return exp(-dot(p,p));}
+        void main(){vec3 d=normalize(skyDirection);float h=max(d.y,0.0);vec3 color=mix(horizon,zenith,pow(h,.28));vec2 uv=vec2(d.x,h);
+          float cloud=.58*cloudPatch(uv,vec2(-.29,.22),vec2(9.,42.))+.44*cloudPatch(uv,vec2(.05,.27),vec2(12.,48.))+.32*cloudPatch(uv,vec2(.35,.17),vec2(10.,45.));
+          cloud*=smoothstep(.1,.8,-d.z);color=mix(color,vec3(.95,.97,.98),min(cloud,.68));float glow=pow(max(dot(d,normalize(vec3(-.5,.7,.4))),0.),32.);color+=vec3(.055,.047,.03)*glow;gl_FragColor=vec4(color,1.);
         #include <colorspace_fragment>
         }`});
       scene.add(new THREE.Mesh(new THREE.SphereGeometry(180,96,64),skyMaterial));
@@ -156,17 +163,17 @@
       for(let i=0;i<vertices.count;i++){const x=vertices.getX(i),z=vertices.getZ(i),patch=(Math.sin(x*.13+Math.sin(z*.21))*Math.cos(z*.095)+1)*.5;tint.copy(dry).lerp(dust,patch*.65);if(z<-25)tint.lerp(rock,Math.min((-z-25)/70,.85));terrainColors.push(tint.r,tint.g,tint.b);}
       ground.setAttribute('color',new THREE.Float32BufferAttribute(terrainColors,3));
       const groundMat=new THREE.MeshStandardMaterial({vertexColors:true,map:terrainTexture,roughness:1,metalness:0});mesh(ground,groundMat).castShadow=false;
-      const roadMat=new THREE.MeshStandardMaterial({color:'#b7a780',map:terrainTexture,roughness:1,transparent:true,opacity:.72,depthWrite:false});
-      const roadVertices=[],roadIndices=[];
-      for(let i=0;i<=100;i++){const z=-65+i*1.2,center=Math.sin(z*.055)*2.6+.8;for(const edge of [-.58,.58]){const x=center+edge;roadVertices.push(x,terrainHeight(x,z)+.18,z);}if(i<100){const a=i*2;roadIndices.push(a,a+2,a+1,a+1,a+2,a+3);}}
-      const roadGeometry=new THREE.BufferGeometry();roadGeometry.setAttribute('position',new THREE.Float32BufferAttribute(roadVertices,3));roadGeometry.setIndex(roadIndices);roadGeometry.computeVertexNormals();mesh(roadGeometry,roadMat).castShadow=false;
       const gravelMat=new THREE.MeshStandardMaterial({color:'#a4a78f',roughness:1});
       const pebbleGeometry=new THREE.IcosahedronGeometry(.12,0);
       const pebbles=new THREE.InstancedMesh(pebbleGeometry,gravelMat,190);
       const transform=new THREE.Object3D();
       for(let i=0;i<190;i++){const x=((i*73)%997)/997*80-40,z=((i*47)%991)/991*80-30;transform.position.set(x,.02,z);transform.rotation.set(i*.7,i*.4,i*.13);transform.scale.set(1+(i%3),.4,1);transform.updateMatrix();pebbles.setMatrixAt(i,transform.matrix);}pebbles.receiveShadow=true;scene.add(pebbles);
-      const windGeometry=new THREE.BufferGeometry(),windPositions=new Float32Array(36*6);windGeometry.setAttribute('position',new THREE.BufferAttribute(windPositions,3));
-      const windMaterial=new THREE.LineBasicMaterial({color:'#f9f6e9',transparent:true,opacity:.24,depthWrite:false});
+      const streamCount=22,streamSegments=18;
+      const windGeometry=new THREE.BufferGeometry(),windPositions=new Float32Array(streamCount*streamSegments*6),windFades=new Float32Array(streamCount*streamSegments*2);
+      windGeometry.setAttribute('position',new THREE.BufferAttribute(windPositions,3));
+      for(let stream=0;stream<streamCount;stream++)for(let segment=0;segment<streamSegments;segment++){const offset=(stream*streamSegments+segment)*2;windFades[offset]=Math.pow(segment/streamSegments,1.6);windFades[offset+1]=Math.pow((segment+1)/streamSegments,1.6);}
+      windGeometry.setAttribute('fade',new THREE.BufferAttribute(windFades,1));
+      const windMaterial=new THREE.ShaderMaterial({transparent:true,depthWrite:false,toneMapped:false,vertexShader:`attribute float fade;varying float trailFade;void main(){trailFade=fade;gl_Position=projectionMatrix*modelViewMatrix*vec4(position,1.0);}`,fragmentShader:`varying float trailFade;void main(){gl_FragColor=vec4(.98,.99,.96,trailFade*.62);}`});
       const windLines=new THREE.LineSegments(windGeometry,windMaterial);windLines.frustumCulled=false;scene.add(windLines);
       const towerMat=new THREE.MeshStandardMaterial({color:'#f0f2e9',roughness:.36,metalness:.17});
       const edgeMat=new THREE.MeshStandardMaterial({color:'#aebbb2',roughness:.55,metalness:.25});
@@ -196,8 +203,10 @@
         // Север сцены — минус Z; метеорологический угол задаёт, откуда дует ветер.
         const dx=bearing===null?1:-Math.sin(bearing),dz=bearing===null?.2:Math.cos(bearing);
         turbines.forEach(({group,rotor},index)=>{group.position.x=(index?1:-1)*(mobile?4:6.2);rotor.rotation.z=rotorPhase+index*.6;});
-        const flow=rotorPhase*8;for(let i=0;i<36;i++){const x=((i*3.713+flow*dx+42000)%42)-21,y=2+((i*1.731)%12),z=((i*5.319+flow*dz+34000)%34)-17,offset=i*6;windPositions[offset]=x;windPositions[offset+1]=y;windPositions[offset+2]=z;windPositions[offset+3]=x+.75*dx;windPositions[offset+4]=y+.015;windPositions[offset+5]=z+.75*dz;}
-        windGeometry.setDrawRange(0,(speed===null?16:Math.min(36,Math.round(speed*2.5)))*2);
+        const flow=rotorPhase*8;
+        for(let i=0;i<streamCount;i++){const x=((i*3.713+flow*dx+42000)%42)-21,y=2+((i*1.731)%12),z=((i*5.319+flow*dz+34000)%34)-17;
+          for(let segment=0;segment<streamSegments;segment++)for(let endpoint=0;endpoint<2;endpoint++){const t=(segment+endpoint)/streamSegments,along=t*4.2,bend=Math.sin(t*2.8+i*.8)*.7,offset=(i*streamSegments+segment)*6+endpoint*3;windPositions[offset]=x+along*dx-bend*dz;windPositions[offset+1]=y+Math.sin(t*2+i)*.5;windPositions[offset+2]=z+along*dz+bend*dx;}}
+        windGeometry.setDrawRange(0,(speed===null?12:Math.min(streamCount,Math.round(speed*1.5)))*streamSegments*2);
         windGeometry.attributes.position.needsUpdate=true;
         renderer.render(scene,camera);
         if(ctx){ctx.clearRect(0,0,width,height);panels.forEach(({panel},index)=>{
@@ -205,7 +214,7 @@
           const hx=(hub.x*.5+.5)*width,hy=(-hub.y*.5+.5)*height,panelRect=panel.getBoundingClientRect(),stageRect=stage.getBoundingClientRect(),sx=panelRect.left-stageRect.left+panelRect.width*.5,sy=panelRect.bottom-stageRect.top+6;
           ctx.beginPath();ctx.moveTo(sx,sy);ctx.lineTo(sx,sy+12);ctx.lineTo(hx,hy);ctx.setLineDash([3,5]);ctx.strokeStyle='rgba(20,110,90,.38)';ctx.lineWidth=1;ctx.stroke();ctx.setLineDash([]);
           ctx.font='600 14px -apple-system, Segoe UI, sans-serif';ctx.fillStyle=accent;ctx.textAlign='center';
-          turbines[index].group.localToWorld(hub.set(0,0,1.05));hub.project(camera);ctx.fillText('T'+(index+1),(hub.x*.5+.5)*width,(-hub.y*.5+.5)*height+22);
+          turbines[index].group.localToWorld(hub.set(0,0,1.05));hub.project(camera);ctx.fillText('T'+(index+1),(hub.x*.5+.5)*width-(mobile?0:42),(-hub.y*.5+.5)*height+(mobile?22:-4));
         });}
       },destroy(){terrainTexture.dispose();scene.traverse(shape=>{if(shape.geometry)shape.geometry.dispose();if(shape.material){for(const material of Array.isArray(shape.material)?shape.material:[shape.material])material.dispose();}});renderer.dispose();renderer.domElement.remove();}};
       root.dataset.renderer='webgl';resizeGL();schedule();
